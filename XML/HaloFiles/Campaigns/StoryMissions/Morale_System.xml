@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+<Story>
+
+    <Event Name="Morale_Level_Init">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>3</Event_Param1>
+    </Event>
+
+    <Event Name="Morale_Display">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+        <Story_Dialog>Loyalty_Dialog</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>LOYALTY_DIS</Story_Tag>
+    </Event>
+
+    <Event Name="Morale_Space_Battle_Started">
+        <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+        <Event_Param1>HaloFiles\Campaigns\StoryFiles\Morale_System_Tactical_Plot.xml</Event_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Lost_Battle">
+        <Event_Type>STORY_LOSE_BATTLES</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Event_Param2>EITHER</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Won_Battle">
+        <Event_Type>STORY_WIN_BATTLES</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Event_Param2>EITHER</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construction_Event_Minor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Perpetual>true</Perpetual>
+        <Prereq>Morale_Construct_Starbase_1_UNSC</Prereq>
+        <Prereq>Morale_Construct_Shipyard_Light_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_1_COVN</Prereq>
+    </Event>
+
+    <Event Name="Morale_Construction_Event">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Perpetual>true</Perpetual>
+        <Prereq>Morale_Construct_Starbase_2_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_3_UNSC</Prereq>
+        <Prereq>Morale_Construct_Shipyard_Medium_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_2_COVN</Prereq>
+        <Prereq>Morale_Construct_Starbase_3_COVN</Prereq>
+    </Event>
+    
+    <Event Name="Morale_Construction_Event_Major">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Perpetual>true</Perpetual>
+        <Prereq>Morale_Construct_Starbase_4_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_5_UNSC</Prereq>
+        <Prereq>Morale_Construct_Shipyard_Heavy_UNSC</Prereq>
+        <Prereq>Morale_Construct_Shipyard_Infinity_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_4_COVN</Prereq>
+        <Prereq>Morale_Construct_Starbase_5_COVN</Prereq>
+    </Event>
+
+    <Event Name="Morale_Destruction_Event">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Perpetual>true</Perpetual>
+        <Prereq>Morale_Destroy_Starbase_1_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Starbase_2_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Starbase_3_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Starbase_4_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Starbase_5_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Shipyard_Light_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Shipyard_Medium_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Shipyard_Heavy_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Shipyard_Infinity_UNSC</Prereq>
+        <Prereq>Morale_Destroy_Starbase_1_COVN</Prereq>
+        <Prereq>Morale_Destroy_Starbase_2_COVN</Prereq>
+        <Prereq>Morale_Destroy_Starbase_3_COVN</Prereq>
+        <Prereq>Morale_Destroy_Starbase_4_COVN</Prereq>
+        <Prereq>Morale_Destroy_Starbase_5_COVN</Prereq>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_1_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Star_Base_1</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_2_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Star_Base_2</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_3_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Star_Base_3</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_4_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Star_Base_4</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_5_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Star_Base_5</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Shipyard_Light_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>UNSC_Light_Shipyard</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Shipyard_Medium_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>UNSC_Medium_Shipyard</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Shipyard_Heavy_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>UNSC_Heavy_Shipyard</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Shipyard_Infinity_UNSC">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>UNSC_Infinity_Drydock</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_1_COVN">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Empire_Star_Base_1</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_2_COVN">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Empire_Star_Base_2</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_3_COVN">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Empire_Star_Base_3</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_4_COVN">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Empire_Star_Base_4</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Construct_Starbase_5_COVN">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Empire_Star_Base_5</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+</Story>

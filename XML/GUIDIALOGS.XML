@@ -610,6 +610,18 @@
 			<Button_Right_Pressed>i_menu_button_small_right_pressed.tga</Button_Right_Pressed>
 		</IDC_MAIN_MENU_SINGLE_PLAYER_GAMES>
 
+		<IDC_BACK_BUTTON_MAIN>
+			<Button_Left>i_dialogue_button_small_left.tga</Button_Left>
+			<Button_Middle>i_dialogue_button_small_middle.tga</Button_Middle>
+			<Button_Right>i_dialogue_button_small_right.tga</Button_Right>
+			<Button_Left_Mouse_Over>i_menu_button_small_left_mouse_over.tga</Button_Left_Mouse_Over>
+			<Button_Middle_Mouse_Over>i_menu_button_small_middle_mouse_over.tga</Button_Middle_Mouse_Over>
+			<Button_Right_Mouse_Over>i_menu_button_small_right_mouse_over.tga</Button_Right_Mouse_Over>
+			<Button_Left_Pressed>i_menu_button_small_left_pressed.tga</Button_Left_Pressed>
+			<Button_Middle_Pressed>i_menu_button_small_middle_pressed.tga</Button_Middle_Pressed>
+			<Button_Right_Pressed>i_menu_button_small_right_pressed.tga</Button_Right_Pressed>
+		</IDC_BACK_BUTTON_MAIN>
+
 		<IDC_MAIN_MENU_MULTIPLAYER>
 			<Button_Left>i_dialogue_button_small_left.tga</Button_Left>
 			<Button_Middle>i_dialogue_button_small_middle.tga</Button_Middle>

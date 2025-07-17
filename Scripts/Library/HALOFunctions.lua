@@ -385,3 +385,58 @@ function Progress_Bar(progress, total, length)
     local bar = string.rep(fill, filled_length) .. string.rep(empty, empty_length)
     return start .. bar .. finish
 end
+
+function Find_Enemies(player) -- finds all enemies that arent the player or nuetural
+
+    if not TestValid(player) then
+        return {}
+    end
+
+    local units = Find_All_Objects_Of_Type("Fighter | Bomber | Transport | Corvette | Frigate | Capital | Super | SpaceStructure")
+
+    local players = {}
+
+    for _, unit in pairs(units) do
+        if TestValid(unit) then
+            if unit.Get_Owner() ~= player and unit.Get_Owner() ~= Find_Player("NEUTRAL") then
+                local owner_name = unit.Get_Owner().Get_Faction_Name()
+
+                if players[owner_name] == nil then
+                    players[owner_name] = unit.Get_Owner()
+                end
+            end
+        end
+    end
+
+    return players
+end
+
+function Tactical_Find_Enemy(player) -- picks the enemy with the most units
+    local enemy_players = Find_Enemies(player)
+
+    if tableLength(enemy_players) <= 0 then
+        return
+    end
+
+    if tableLength(enemy_players) == 1 then
+        for key, value in pairs(enemy_players) do -- just return the player object
+            return value
+        end
+    end
+
+    local largest_enemy = nil
+    local largest_unit_count = 0
+
+    for faction_name, player in pairs(enemy_players) do
+        local enemy_units = Find_All_Objects_Of_Type(player)
+
+        local enemy_unit_count = table.getn(enemy_units)
+
+        if enemy_unit_count > largest_unit_count then
+            largest_enemy = player
+            largest_unit_count = enemy_unit_count
+        end
+    end
+
+    return largest_enemy
+end

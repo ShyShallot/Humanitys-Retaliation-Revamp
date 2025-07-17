@@ -331,13 +331,13 @@ end
 -- 
 function GameService()
 
-	GameScoringMessage("GameScoring -- Tactical Stats dump.")
-	Print_Stat_Table(TacticalKillStatsTable)
-	GameScoringMessage("GameScoring -- Galactic Stats dump.")
-	Print_Stat_Table(GalacticKillStatsTable)
+	--GameScoringMessage("GameScoring -- Tactical Stats dump.")
+	--Print_Stat_Table(TacticalKillStatsTable)
+	--GameScoringMessage("GameScoring -- Galactic Stats dump.")
+	--Print_Stat_Table(GalacticKillStatsTable)
 
-	Print_Build_Stats_Table(GalacticBuildStatsTable)
-	Print_Build_Stats_Table(TacticalBuildStatsTable)
+	--Print_Build_Stats_Table(GalacticBuildStatsTable)
+	--Print_Build_Stats_Table(TacticalBuildStatsTable)
 
 end
 
@@ -506,6 +506,16 @@ end
 -- 
 function Tactical_Unit_Destroyed_Event(object, killer)
 	Update_Kill_Stats_Table(TacticalKillStatsTable, object, killer)
+
+	if GlobalValue.Get("Morale_Active")  ~= 1 and CampaignGame == false then -- morale stuff below 
+		return
+	end
+
+	if killer.Is_Human() then -- player was killer
+		Story_Event("Morale_Player_Kill")
+	else -- AI was killer
+		Story_Event("Morale_Player_Loss")
+	end
 end
 
 
@@ -1108,4 +1118,8 @@ end
 
 function Get_Current_Winner_By_Score()
 	return WinnerID
+end
+
+function Return_Kill_Stats()
+	return TacticalKillStatsTable
 end

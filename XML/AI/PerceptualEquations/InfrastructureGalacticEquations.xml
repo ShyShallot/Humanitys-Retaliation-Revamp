@@ -780,4 +780,58 @@
 	</Enemy_Planets_Controlled>
 
 
+	<!-- Custom Down Here -->
+
+	<Planet_Has_Light_UNSC_Shipyard>
+		(Variable_Target.StructureCount {Parameter_Type = "UNSC_Light_Shipyard", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Light_UNSC_Shipyard>
+
+	<Planet_Has_Medium_UNSC_Shipyard>
+		(Variable_Target.StructureCount {Parameter_Type = "UNSC_Medium_Shipyard", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Medium_UNSC_Shipyard>
+
+	<Planet_Has_Heavy_UNSC_Shipyard>
+		(Variable_Target.StructureCount {Parameter_Type = "UNSC_Heavy_Shipyard", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Heavy_UNSC_Shipyard>
+	
+	<Planet_Has_Infinity_UNSC_Shipyard>
+		(Variable_Target.StructureCount {Parameter_Type = "UNSC_Infinity_Shipyard", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Infinity_UNSC_Shipyard>
+	
+	<Planet_Star_Base_Level>
+		(Variable_Target.StarbaseLevel)
+	</Planet_Star_Base_Level>
+
+	<Is_POA_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_POA", Parameter_Only_Consider_Complete = 1.0})
+	</Is_POA_Alive>
+
+	<Is_IAC_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_IAC", Parameter_Only_Consider_Complete = 1.0})
+	</Is_IAC_Alive>
+
+	<Is_Roman_Blue_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_ROMAN_BLUE", Parameter_Only_Consider_Complete = 1.0})
+	</Is_Roman_Blue_Alive>
+
+	<Is_SOF_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_SOF", Parameter_Only_Consider_Complete = 1.0})
+	</Is_SOF_Alive>
+
+	<Is_Pious_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_PIOUS", Parameter_Only_Consider_Complete = 1.0})
+	</Is_Pious_Alive>
+
+	<Is_Jul_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_JUL", Parameter_Only_Consider_Complete = 1.0})
+	</Is_Jul_Alive>
+
+	<Is_Ardo_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_ARDO", Parameter_Only_Consider_Complete = 1.0})
+	</Is_Ardo_Alive>
+
+	<Is_Maccabeus_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_MACCABEUS", Parameter_Only_Consider_Complete = 1.0})
+	</Is_Maccabeus_Alive>
+
 </Equations>

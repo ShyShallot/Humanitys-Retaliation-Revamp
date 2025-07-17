@@ -74,10 +74,6 @@ function Definitions()
         },
     }
 
-    tech_level_object_types = {
-        Find_Object_Type("DS_Primary_Hyperdrive"), Find_Object_Type("DS_Shield_Gen"), Find_Object_Type("DS_Superlaser_Core"), Find_Object_Type("DS_Durasteel")
-    }
-
     on_cooldown = 0
 
     cooldown_time = 1 -- weeks
@@ -140,7 +136,7 @@ function Main_Artifact_Loop(message)
 
         if Get_Current_Week() < on_cooldown then
 
-            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_ON_COOLDOWN", on_cooldown)
+            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_ON_COOLDOWN", tostring(on_cooldown))
 
             GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
 

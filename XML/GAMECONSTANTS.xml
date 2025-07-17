@@ -177,7 +177,7 @@
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- Keep this as YES please (GrandMasterApple (HR Dev) )  -->
-	<AlwaysBypassAutoResolve> YES </AlwaysBypassAutoResolve>	
+	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
 	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
