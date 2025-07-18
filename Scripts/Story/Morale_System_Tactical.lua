@@ -51,23 +51,25 @@ function Morale_Tactical_Init(message)
     end
 end
 
-function Killed_Unit(message) then
+function Killed_Unit(message)
     if message == OnEnter then
         player_kills = player_kills + 1
     end
 end
 
-function Unit_Lost(message) then
+function Unit_Lost(message)
     if message == OnEnter then
         player_losses = player_losses + 1
     end
 end
 
-function Morale_Tactical_End(message) then
+function Morale_Tactical_End(message)
     if message == OnEnter then
 
         if player_losses == 0 then
             GlobalValue.Set("Morale_Kill_Ratio", player_kills)
+
+            DebugMessage("%s -- Final Kill Ratio: %s", tostring(player_kills))
 
             ScriptExit()
 
@@ -75,6 +77,8 @@ function Morale_Tactical_End(message) then
         end
 
         local kill_ratio = player_kills / player_losses
+
+        DebugMessage("%s -- Final Kill Ratio: %s, Player Kills: %s, Player Loses: %s", tostring(kill_ratio), tostring(player_kills), tostring(player_losses))
 
         GlobalValue.Set("Morale_Kill_Ratio", kill_ratio)
 

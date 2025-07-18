@@ -20,11 +20,13 @@
     <Event Name="Morale_Player_Kill">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Morale_Player_Kill</Event_Param2>
+        <Perpetual>true</Perpetual>
     </Event>
 
     <Event Name="Morale_Player_Loss">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Morale_Player_Loss</Event_Param2>
+        <Perpetual>true</Perpetual>
     </Event>
 
 </Story>

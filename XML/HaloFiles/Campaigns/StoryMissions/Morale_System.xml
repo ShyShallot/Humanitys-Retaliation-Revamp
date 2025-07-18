@@ -16,11 +16,11 @@
         <Story_Tag>LOYALTY_DIS</Story_Tag>
     </Event>
 
-    <Event Name="Morale_Space_Battle_Started">
+    <!--<Event Name="Morale_Space_Battle_Started">
         <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
         <Event_Param1>HaloFiles\Campaigns\StoryFiles\Morale_System_Tactical_Plot.xml</Event_Param1>
         <Perpetual>true</Perpetual>
-    </Event>
+    </Event> -->
 
     <Event Name="Morale_Lost_Battle">
         <Event_Type>STORY_LOSE_BATTLES</Event_Type>

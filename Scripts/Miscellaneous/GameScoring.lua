@@ -60,6 +60,12 @@ function Base_Definitions()
 	frag_index = 1
 	death_index = 2
 	GameStartTime = 0
+
+	player_kills = 0
+
+	player_deaths = 0
+
+	player_kill_ratio = 0
 	
 	CampaignGame = false
 	
@@ -115,6 +121,12 @@ function Reset_Tactical_Stats()
 	
 	-- [playerid][planetname][object_type][build_count, credits_spent, combat_power]
 	TacticalBuildStatsTable = {}
+
+	player_kills = 0
+
+	player_deaths = 0
+
+	player_kill_ratio = 0
 	
 	-- a dirty hack to reset tactical script registry values
 	ResetTacticalRegistry()
@@ -478,6 +490,29 @@ function Game_Mode_Ending_Event(mode_name)
 	if StringCompare(mode_name, "Galactic") then
 		CampaignGame = false
 	end
+
+	if CampaignGame then
+
+		if player_losses == 0 then
+
+			if player_kills < 1 then
+				player_kills = 1
+			end
+
+			GlobalValue.Set("Morale_Kill_Ratio", player_kills)
+
+			return
+		end
+
+		if player_kills < 1 then
+			player_kills = 1
+		end
+
+		player_kill_ratio = player_kills / player_kills
+
+
+		GlobalValue.Set("Morale_Kill_Ratio", player_kill_ratio)
+	end
 end
 
 
@@ -507,14 +542,10 @@ end
 function Tactical_Unit_Destroyed_Event(object, killer)
 	Update_Kill_Stats_Table(TacticalKillStatsTable, object, killer)
 
-	if GlobalValue.Get("Morale_Active")  ~= 1 and CampaignGame == false then -- morale stuff below 
-		return
-	end
-
 	if killer.Is_Human() then -- player was killer
-		Story_Event("Morale_Player_Kill")
+		player_kills = player_kills + 1
 	else -- AI was killer
-		Story_Event("Morale_Player_Loss")
+		player_deaths = player_deaths + 1
 	end
 end
 
