@@ -755,7 +755,7 @@
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 	</SecondaryStructure>
 	
-		<SecondaryStructure Name="N_Gravity_Well_Station">
+	<SecondaryStructure Name="N_Gravity_Well_Station">
 		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1058,6 +1058,149 @@
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>Yes</Initial_State_Visible_Under_FOW>
+	</SecondaryStructure>
+
+	<!-- Morale Boost Space Structs -->
+
+	<SecondaryStructure Name="Morale_Compromised">
+		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI</SpaceBehavior>
+		<Space_Model_Name>NB_CommJamStation.alo</Space_Model_Name>
+		<Space_Layer> StaticObject </Space_Layer>
+		
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Tech_Level>99</Tech_Level>
+		<Is_Interdictor>Yes</Is_Interdictor>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+		
+		<CategoryMask> Structure </CategoryMask>
+
+		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 500 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Tactical_Health>1</Tactical_Health>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Compromised_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>-0.30</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.30</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.20</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Morale_Strained">
+		<Variant_Of_Existing_Type>Morale_Compromised</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Strained_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>-0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.20</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Morale_Resolute">
+		<Variant_Of_Existing_Type>Morale_Compromised</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Resolute_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<SecondaryStructure Name="Morale_Ascendant">
+		<Variant_Of_Existing_Type>Morale_Compromised</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Ascendant_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.2</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
 	</SecondaryStructure>
 
 

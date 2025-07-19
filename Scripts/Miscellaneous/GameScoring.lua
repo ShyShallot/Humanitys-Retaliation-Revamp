@@ -495,21 +495,14 @@ function Game_Mode_Ending_Event(mode_name)
 
 		if player_losses == 0 then
 
-			if player_kills < 1 then
-				player_kills = 1
-			end
-
 			GlobalValue.Set("Morale_Kill_Ratio", player_kills)
 
 			return
 		end
 
-		if player_kills < 1 then
-			player_kills = 1
-		end
-
-		player_kill_ratio = player_kills / player_kills
-
+		player_kill_ratio = player_kills / player_deaths
+		
+		DebugMessage("%s -- Player KD: %s, Kills: %s, Deaths: %s", tostring(Script), tostring(player_kill_ratio), tostring(player_kills), tostring(player_deaths))
 
 		GlobalValue.Set("Morale_Kill_Ratio", player_kill_ratio)
 	end

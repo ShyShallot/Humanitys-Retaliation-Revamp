@@ -1,26 +1,44 @@
 <?xml version="1.0"?>
 
 <Story>
-
+    
     <Event Name="Morale_Level_Init">
         <Event_Type>STORY_ELAPSED</Event_Type>
         <Event_Param1>3</Event_Param1>
     </Event>
 
-    <Event Name="Morale_Display">
-        <Event_Type>STORY_ELAPSED</Event_Type>
-        <Event_Param1>0</Event_Param1>
-        <Story_Dialog>Loyalty_Dialog</Story_Dialog>
+    <Event Name="Show_Screen_Text">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SHOW_SCREEN_TEXT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+    <Event Name="Morale_Display_UNSC">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Display_UNSC</Event_Param2>
+        <Story_Dialog>Morale_Dialog</Story_Dialog>
         <Story_Chapter>1</Story_Chapter>
         <Story_Dialog_Popup>False</Story_Dialog_Popup>
         <Story_Tag>LOYALTY_DIS</Story_Tag>
     </Event>
 
-    <!--<Event Name="Morale_Space_Battle_Started">
+    <Event Name="Morale_Display_COVN">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Display_COVN</Event_Param2>
+        <Story_Dialog>Morale_Dialog</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>LOYALTY_DIS</Story_Tag>
+    </Event>
+
+    <Event Name="Morale_Space_Battle_Started">
         <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
         <Event_Param1>HaloFiles\Campaigns\StoryFiles\Morale_System_Tactical_Plot.xml</Event_Param1>
         <Perpetual>true</Perpetual>
-    </Event> -->
+    </Event>
 
     <Event Name="Morale_Lost_Battle">
         <Event_Type>STORY_LOSE_BATTLES</Event_Type>

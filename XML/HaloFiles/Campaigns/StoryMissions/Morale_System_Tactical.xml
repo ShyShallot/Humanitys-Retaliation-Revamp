@@ -4,29 +4,7 @@
 
     <Event Name="Morale_Tactical_Battle_Start">
         <Event_Type>STORY_ELAPSED</Event_Type>
-        <Event_Param1>3</Event_Param1>
-    </Event>
-
-    <Event Name="Morale_Tactical_Player_Won">
-        <Event_Type>STORY_VICTORY</Event_Type>
-        <Event_Param1></Event_Param1>
-    </Event>
-
-    <Event Name="Morale_Tactical_Player_Lost">
-        <Event_Type>STORY_VICTORY</Event_Type>
-        <Event_Param1></Event_Param1>
-    </Event>
-
-    <Event Name="Morale_Player_Kill">
-        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>Morale_Player_Kill</Event_Param2>
-        <Perpetual>true</Perpetual>
-    </Event>
-
-    <Event Name="Morale_Player_Loss">
-        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>Morale_Player_Loss</Event_Param2>
-        <Perpetual>true</Perpetual>
+        <Event_Param1>1</Event_Param1>
     </Event>
 
 </Story>

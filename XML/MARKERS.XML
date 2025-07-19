@@ -16,7 +16,7 @@
 		</Marker>
 
 	<Marker Name="Custom_Cin">
-	<Text_ID>TEXT_ATTACKER_ENTRY_POSITION</Text_ID>
+		<Text_ID>TEXT_ATTACKER_ENTRY_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>

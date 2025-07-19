@@ -4,84 +4,60 @@ require("PGBaseDefinitions")
 require("PGStoryMode")
 
 function Definitions()
-    ServiceRate = 0.5
+    ServiceRate = 1
 	
     StoryModeEvents = {
         Morale_Tactical_Battle_Start = Morale_Tactical_Init,
-        Morale_Player_Kill = Killed_Unit,
-        Morale_Player_Loss = Unit_Lost,
-        Morale_Tactical_Player_Lost = Morale_Tactical_End,
-        Morale_Tactical_Player_Won = Morale_Tactical_End,
     }
 
     player = nil
 
-    enemy = nil
-
-    player_kills = 0
-
-    player_losses = 0
+    Morale_Boost_Structures = {
+        ["Compromised"] = "Morale_Compromised",
+        ["Strained"] = "Morale_Strained",
+        ["Stabilized"] = nil,
+        ["Resolute"] = "Morale_Resolute",
+        ["Ascendant"] = "Morale_Ascendant",
+    }
 end
 
 function Morale_Tactical_Init(message)
     if message == OnEnter then
 
+        if Get_Game_Mode() ~= "Space" then
+            ScriptExit()
+        end
+
         Sleep(1)
 
         DebugMessage("%s -- Is Now Active", tostring(Script))
 
-        GlobalValue.Set("Morale_Kill_Ratio", 0)
-
         player = Find_Human_Player()
 
-        enemy = Tactical_Find_Enemy(player)
+        local Morale_Level = GlobalValue.Get("Morale_Status")
 
-        local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Morale_System_Tactical.xml")
-        
-        local Win_Event = plot.Get_Event("Morale_Tactical_Player_Won")
-
-        local Loss_Event = plot.Get_Event("Morale_Tactical_Player_Lost")
-
-        DebugMessage("%s -- Player: %s, Enemy: %s", tostring(Script), tostring(player), tostring(enemy))
-
-        Win_Event.Set_Event_Parameter(0,player.Get_Faction_Name())
-
-        Loss_Event.Set_Event_Parameter(0, enemy.Get_Faction_Name())
-
-    end
-end
-
-function Killed_Unit(message)
-    if message == OnEnter then
-        player_kills = player_kills + 1
-    end
-end
-
-function Unit_Lost(message)
-    if message == OnEnter then
-        player_losses = player_losses + 1
-    end
-end
-
-function Morale_Tactical_End(message)
-    if message == OnEnter then
-
-        if player_losses == 0 then
-            GlobalValue.Set("Morale_Kill_Ratio", player_kills)
-
-            DebugMessage("%s -- Final Kill Ratio: %s", tostring(player_kills))
-
+        if Morale_Level == nil then
             ScriptExit()
+        end
 
+        DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(Morale_Level))
+
+        local Morale_Structure = Morale_Boost_Structures[Morale_Level]
+
+        if Morale_Structure == nil then
+            ScriptExit()
             return
         end
 
-        local kill_ratio = player_kills / player_losses
+        local Structure_Type = Find_Object_Type(Morale_Structure)
 
-        DebugMessage("%s -- Final Kill Ratio: %s, Player Kills: %s, Player Loses: %s", tostring(kill_ratio), tostring(player_kills), tostring(player_losses))
+        if Structure_Type == nil then
+            ScriptExit()
+            return
+        end
 
-        GlobalValue.Set("Morale_Kill_Ratio", kill_ratio)
+        local Spawn_POS = Create_Position(10000,-5000,10000)
 
-        ScriptExit()
+        Spawn_Unit(Structure_Type, Spawn_POS, player)
     end
 end
