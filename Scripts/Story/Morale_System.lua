@@ -2,6 +2,7 @@ require("PGStateMachine")
 require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PGStoryMode")
+require("PlanetNameTable")
 
 function Definitions()
 
@@ -60,6 +61,8 @@ function Definitions()
 
     global_morale_level = 100
 
+    low_morale_threshold = 15
+
     win_streak = 0
 
     loss_streak = 0
@@ -70,8 +73,15 @@ function Definitions()
 
     display_event = nil
 
-    morale_string = nil
+    morale_string = {}
 
+    Planetary_Pathing_Table = nil
+
+    Planet_Morale_Table = nil
+
+    selected_planet = nil
+
+    targeted_planet = nil
 end
 
 function Init_Morale_System(message)
@@ -100,14 +110,16 @@ function Init_Morale_System(message)
 
             display_event = plot.Get_Event("Morale_Display_UNSC")
 
-            morale_string = "TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES"
+            morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES"
         else
             Story_Event("Morale_Display_COVN")
 
-            morale_string = "TEXT_STORY_MORALE_DISPLAY_BODY_COVN_VALUES"
+            morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_COVN_VALUES"
 
             display_event = plot.Get_Event("Morale_Display_COVN")
         end
+
+        morale_string.Target_Planet = ""
 
         GlobalValue.Set("Morale_Active", 1)
 
@@ -117,6 +129,20 @@ function Init_Morale_System(message)
             global_morale_level = 75
         elseif Difficulty == "Hard" then
             global_morale_level = 50
+        end
+
+        Planetary_Pathing_Table = Build_Neighbor_Table()
+
+        Planet_Morale_Table = Build_Morale_Table()
+
+        local planets = FindPlanet.Get_All_Planets()
+
+        for i,planet in ipairs(planets) do
+
+            local select_event = plot.Get_Event("SELECT_"..planet.Get_Type().Get_Name())
+
+            select_event.Set_Reward_Parameter(1, player.Get_Faction_Name())
+
         end
 
         Set_Next_State("Flush")
@@ -136,6 +162,14 @@ function Morale_System_Update(message)
 
         Check_Hero_Status()
 
+        if GlobalValue.Get("Morale_Planet_Owner_Changed") == 1 then
+            GlobalValue.Set("Morale_Planet_Owner_Changed", 0)
+
+            Planet_Morale_Updater()
+        end
+
+        selected_planet = Get_Selected_Planet()
+
         local Current_Morale_Status = "Stabilized"
 
         for level, status in pairs(Morale_Levels) do
@@ -152,9 +186,80 @@ function Morale_System_Update(message)
 
             display_event.Clear_Dialog_Text()
 
-            display_event.Add_Dialog_Text(morale_string, Build_Morale_Display_String())
+            display_event.Add_Dialog_Text(morale_string.Level, Build_Morale_Display_String())
+
+        end
+
+        if Is_Morale_Too_Low(Current_Morale_Status) then
+            Low_Planet_Morale()
+
+            display_event.Add_Dialog_Text(morale_string.Target_Planet, Readable_Planet_Name(targeted_planet))
+
+            Selected_Planet_Morale_Display()
+        else
+            High_Planet_Morale()
+        end
+    
+    end
+end
+
+function Selected_Planet_Morale_Display()
+    if selected_planet ~= nil then
+        local selected_planet_morale_entry = Get_Planet_Morale(selected_planet)
+
+        if selected_planet_morale_entry ~= nil then
+
+            local planet_name = Get_Cus_Name(selected_planet.Get_Type().Get_Name())
+
+            local morale_name = "Morale Index"
+
+            if StringCompare(player.Get_Faction_Name(), "Empire") then
+                morale_name = "Religious Resolve Index"
+            end
+
+            local selected_planet_morale_string = planet_name .. "'s " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Morale) .. "/100, Last " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Last_Morale) .. "/100"
+            
+            Show_Screen_Text(selected_planet_morale_string, 3, nil, false)
         end
     end
+end
+
+function Readable_Planet_Name(planet)
+    if planet == nil then
+        return ""
+    end
+
+    if planet.Get_Type == nil then
+        return ""
+    end
+
+    local planet_name = planet.Get_Type().Get_Name()
+
+    if Has_Custom_Name(planet_name) then
+        return Get_Cus_Name(planet_name)
+    else
+        return Capital_First_Letter(planet_name)
+    end
+end
+
+function Get_Selected_Planet()
+
+    local player = Find_Human_Player()
+
+    local planets = FindPlanet.Get_All_Planets()
+
+    for _,planet in pairs(planets) do
+
+        local flag_name = "PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
+        --DebugMessage("Checking Planet: %s", flag_name)
+        if Check_Story_Flag(player, flag_name, nil, true) then
+            DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
+            return planet
+        end
+    end
+
+    return nil
+
 end
 
 function Check_Hero_Status()
@@ -200,6 +305,76 @@ function Check_Hero_Status()
     end
 end
 
+function Planet_Morale_Updater()
+    for planet_name, planet_entry in pairs(Planet_Morale_Table) do
+        local planet_object = planet_entry.Object
+
+        if TestValid(planet_object) then
+
+            local new_owner = planet_object.Get_Owner()
+            if new_owner ~= nil and planet_object.Get_Owner() ~= planet_entry.Owner then
+                planet_entry.Last_Owner = planet_entry.Owner
+                planet_entry.Owner = planet_object.Get_Owner()
+
+                planet_entry.Morale = 100
+                planet_entry.Last_Morale = 100
+                planet_entry.When_Morale_Last_Changed = Get_Current_Week()
+            end
+        end
+    end
+end
+
+function Is_Morale_Too_Low(Current_Morale_Level)
+
+    local Low_Morale_Levels = {}
+
+    for level_num, level_string in pairs(Morale_Levels) do
+        if level_num <= low_morale_threshold then
+            table.insert(Low_Morale_Levels, level_string)
+        end
+    end
+
+    for _, level in pairs(Low_Morale_Levels) do
+        if Current_Morale_Level == level then
+            return true
+        end
+    end
+
+    return false
+end
+
+function Low_Planet_Morale()
+
+    if targeted_planet == nil or targeted_planet.Get_Owner() ~= player then
+        targeted_planet = Find_First_Loss_Planet()
+    end
+            
+    if targeted_planet == nil then
+        return
+    end
+
+    local target_planet_morale = Get_Planet_Morale(targeted_planet)
+
+    if target_planet_morale == nil then
+        return
+    end
+
+    if target_planet_morale.When_Morale_Last_Changed < Get_Current_Week() then
+        Modify_Planet_Morale(target_planet, -10)
+    end
+
+end
+
+function High_Planet_Morale()
+    for planet_name, planet_entry in pairs(Planet_Morale_Table) do
+        local planet_owner = planet_entry.Owner
+
+        if planet_owner == player then
+            Modify_Planet_Morale(planet_entry.Object, 5)
+        end
+    end
+end
+
 function Modify_Morale(event_table)
 
     if event_table == nil then
@@ -211,33 +386,27 @@ function Modify_Morale(event_table)
         return
     end
 
-    if tableLength(event_table) ~= 2 then
-        return
-    end
-
     local Morale_Value = event_table.Value
 
     local bad = event_table.Subtract
 
-    local Event_Name = event_table.Name
-
-    DebugMessage("%s -- Event Morale Value: %s, Subtract: %s", tostring(Script), tostring(Morale_Value), tostring(bad))
+    DebugMessage("%s -- Event Morale Value: %s, Subtract: %s, Event Name: %s", tostring(Script), tostring(Morale_Value), tostring(bad), tostring(event_table.Name))
 
     local Next_Morale_Level = global_morale_level + Morale_Value
 
-    local Event_String = "Event " .. Event_Name .. " has "
+    local Event_String = "Event " .. event_table.Name .. " has "
 
     if bad then
         Next_Morale_Level = global_morale_level - Morale_Value
 
-        Event_String = Event_String .. " Decreased Morale by: " .. tostring(Next_Morale_Level)
+        Event_String = Event_String .. "Decreased Morale by: " .. tostring(Next_Morale_Level)
 
-        Show_Screen_Text(Event_String, 3, "", false)
+        Show_Screen_Text(Event_String, 6, nil, false)
     else
 
-        Event_String = Event_String .. " Increased Morale by: " .. tostring(Next_Morale_Level)
+        Event_String = Event_String .. "Increased Morale by: " .. tostring(Next_Morale_Level)
 
-        Show_Screen_Text(Event_String, 3, "", false)
+        Show_Screen_Text(Event_String, 6, nil, false)
     end
 
     DebugMessage("%s -- Next Morale Value: %s", tostring(Script), tostring(Next_Morale_Level))
@@ -267,12 +436,12 @@ function Get_Morale_Influence()
         if Morale_Values.KD_Influence == true then
             local New_Morale_Value = Morale_Kill_Ratio_Influence(Morale_Values.Value, Morale_Values.Subtract)
 
-            return {Value = New_Morale_Value, Subtract = Morale_Values.Subtract}
+            return {Value = New_Morale_Value, Subtract = Morale_Values.Subtract, Name = Morale_Values.Name}
         else
             return Morale_Values
         end
     else
-        return {Value = 0, Subtract = false}
+        return {Value = 0, Subtract = false, Name = "No Entry"}
     end
 end
 
@@ -353,6 +522,11 @@ function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by th
     local text_event = plot.Get_Event("Show_Screen_Text")
 
     local colorstring = ""
+
+    if color == nil then
+        color = {r = 255, g = 255, b = 255}
+    end
+    
     if color then
         colorstring = color.r .. " " .. color.g .. " " .. color.b 
     end
@@ -362,6 +536,8 @@ function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by th
         use_teletype = 0
     end
 
+    DebugMessage("%s -- Running Screen Text for Output: %s", tostring(Script), tostring(text))
+
     text_event.Set_Reward_Parameter(0,text)
     text_event.Set_Reward_Parameter(1,tostring(time_to_show)) -- time in seconds
     text_event.Set_Reward_Parameter(2, "") -- parameter we dont care about
@@ -369,6 +545,177 @@ function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by th
     text_event.Set_Reward_Parameter(4, use_teletype) -- whether or not the text is slowly typed out or is just shown
     text_event.Set_Reward_Parameter(5, colorstring) -- for color
     Story_Event("SHOW_SCREEN_TEXT")
+end
+
+function Build_Neighbor_Table()
+    local planets = FindPlanet.Get_All_Planets()
+
+    local neighbor_table = {}
+
+    for _, planet in pairs(planets) do
+        for _, second_planet in pairs(planets) do
+            if second_planet ~= planet then
+                if table.getn(Find_Path(player, planet, second_planet)) == 2 then
+
+                    local planet_name = planet.Get_Type().Get_Name()
+
+                    if neighbor_table[planet_name] == nil then
+                        neighbor_table[planet_name] = {} 
+                        neighbor_table[planet_name].Object = planet
+                        neighbor_table[planet_name].Neighbors = {}
+                    end
+
+                    table.insert(neighbor_table[planet_name].Neighbors, second_planet)
+                end
+            end
+        end
+    end
+
+    return neighbor_table
+end
+
+function Build_Morale_Table()
+    local planets = FindPlanet.Get_All_Planets()
+
+    local morale_table = {}
+
+    for _, planet in pairs(planets) do
+        local planet_name = planet.Get_Type().Get_Name()
+
+        morale_table[planet_name] = {}
+
+        local planet_entry = morale_table[planet_name]
+
+        planet_entry.Object = planet
+        planet_entry.Owner = planet.Get_Owner()
+        planet_entry.Last_Owner = planet.Get_Owner()
+        planet_entry.Morale = 100
+        planet_entry.Last_Morale = 100
+        planet_entry.When_Morale_Last_Changed = 0
+    end
+        
+    return morale_table
+end
+
+function Get_Planet_Morale(planet)
+    if Planet_Morale_Table == nil then
+        return nil
+    end
+
+    if planet == nil then
+        return nil
+    end
+
+    if planet.Get_Type == nil then
+        return nil
+    end
+
+    local planet_name = planet.Get_Type().Get_Name()
+
+    local morale_entry = Planet_Morale_Table[planet_name]
+
+    if morale_entry == nil then
+        return nil
+    end
+
+    return morale_entry
+end
+
+function Modify_Planet_Morale(planet, amount)
+
+    if amount == nil then
+        return
+    end
+
+    local planet_morale = Get_Planet_Morale(planet)
+
+    if planet_morale == nil then
+        return
+    end
+
+    local New_Morale = planet_morale.Morale + amount
+
+    if New_Morale > 100 then
+        New_Morale = 100
+    elseif New_Morale < 0 then
+        New_Morale = 0
+    end
+
+    planet_morale.Last_Morale = planet_morale.Morale
+
+    planet_morale.Morale = New_Morale
+
+    planet_morale.When_Morale_Last_Changed = Get_Current_Week()
+end
+
+function Find_Neighbors(planet)
+
+    if Planetary_Pathing_Table == nil then
+        return nil
+    end
+
+    if planet == nil then
+        return nil
+    end
+
+    if planet.Get_Type().Get_Name == nil then
+        return nil
+    end
+
+    local planet_name = planet.Get_Type().Get_Name()
+
+    if Planetary_Pathing_Table[planet_name] == nil then
+        return nil
+    end
+
+    return Planetary_Pathing_Table[planet_name].Neighbors
+
+end
+
+function Count_Enemy_Neighbors(planet)
+    local planet_neighbors = Find_Neighbors(planet)
+
+    local enemy_nighbors = 0
+
+    if planet_neighbors == nil then
+        return enemy_nighbors
+    end
+
+    for _, neighbor in pairs(planet_neighbors) do
+        if neighbor.Get_Owner() ~= planet.Get_Owner() and neighbor.Get_Owner() ~= Find_Player("NEUTRAL") then
+            enemy_nighbors = enemy_nighbors + 1
+        end
+    end
+
+    return enemy_nighbors
+end
+
+function Find_First_Loss_Planet()
+    local All_Planets = FindPlanet.Get_All_Planets()
+
+    local player_owned_planets = {}
+
+    for _, planet in pairs(All_Planets) do
+        if planet.Get_Owner() == player then
+            table.insert(player_owned_planets, planet)
+        end
+    end
+
+    local highest_enemy_neighbors = 0
+
+    local highest_enemy_neighbors_planet = nil
+    
+    for _, planet in pairs(player_owned_planets) do
+        local enemy_neighbors = Count_Enemy_Neighbors(planet)
+
+        if enemy_neighbors > highest_enemy_neighbors then
+            highest_enemy_neighbors = enemy_neighbors
+            highest_enemy_neighbors_planet = planet
+        end
+    end
+
+    return highest_enemy_neighbors_planet
+
 end
 
 function Flush(message)

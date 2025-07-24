@@ -4,9 +4,10 @@
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_Covenant.xml</Active_Plot>
     <Lua_Script>Unit_Filters</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
-    <Lua_Script>PlanetsLoyalty</Lua_Script>
     <Lua_Script>Artifact_Research</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\COVN_Artifacts.xml</Active_Plot>
+    <Lua_Script>Morale_System</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Morale_System.xml</Active_Plot>
     <!-- <Active_Plot>HaloFiles\Campaigns\StoryMissions\Loyalty_Display.xml</Active_Plot>
     <Lua_Script>Hero_Rescue_COVN</Lua_Script> -->
     <!-- <Active_Plot>HaloFiles\Campaigns\StoryMissions\Rescue_Hero.xml</Active_Plot>

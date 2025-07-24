@@ -834,4 +834,10 @@
 		(Variable_Self.HasUnit {Parameter_Type = "COVN_MACCABEUS", Parameter_Only_Consider_Complete = 1.0})
 	</Is_Maccabeus_Alive>
 
+	<Is_Border_Planet>
+		(Function_Is_Connected_To_Enemy.Evaluate)
+		*
+		(Function_Is_Connected_To_Me.Evaluate)
+	</Is_Border_Planet>
+
 </Equations>

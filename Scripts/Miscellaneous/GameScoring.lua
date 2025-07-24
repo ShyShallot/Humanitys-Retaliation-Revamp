@@ -704,6 +704,8 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 	GalacticConquestTable[oldid] = entry
 
 	planet_type = nil
+
+	GlobalValue.Set("Morale_Planet_Owner_Changed", 1)
 end
 
 
