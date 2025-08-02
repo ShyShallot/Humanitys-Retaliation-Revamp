@@ -6,6 +6,9 @@ local unit_table = require("globalUnitTable")
 
 
 function Definitions()
+
+    ServiceRate = 0.15
+
     StoryModeEvents =
     {
         Universal_Story_Start = Init_Filters,
@@ -38,17 +41,17 @@ end
 
 function Init_Filters(message)
     if message == OnEnter then
-        DebugMessage("%s -- Init_Filters", tostring(Script))
+        --DebugMessage("%s -- Init_Filters", tostring(Script))
 
         local human = Find_Human_Player()
 
         for unit_name, unit_info in pairs(unit_table) do
 
-            DebugMessage("%s -- Adding Unit to Lock List: %s", tostring(Script), tostring(unit_name))
+            --DebugMessage("%s -- Adding Unit to Lock List: %s", tostring(Script), tostring(unit_name))
 
             local unit_type = Find_Object_Type(unit_name)
 
-            DebugMessage("%s -- Unit Type: %s", tostring(Script), tostring(unit_type))
+            --DebugMessage("%s -- Unit Type: %s", tostring(Script), tostring(unit_type))
 
             if unit_type ~= nil then
                 Unit_Build_Status(unit_type, false, human)
@@ -238,7 +241,6 @@ function Unit_Build_Status(unit_type, should_lock, owner)
         return
     end
     
-
     lock_list[unit_type.Get_Name()] = should_lock
 end
 
@@ -311,12 +313,12 @@ function External_Lock_Check_Update()
 
         if unit_info.Global_Value_Check ~= nil then
             if GlobalValue.Get(unit_info.Global_Value_Check) == 1 then
-                DebugMessage("%s -- Locking Unit: %s", tostring(Script), tostring(unit_type_name))
+                --DebugMessage("%s -- Locking Unit: %s", tostring(Script), tostring(unit_type_name))
                 if unit_type ~= nil then
                     human.Lock_Tech(unit_type)
                 end
             else
-                DebugMessage("%s -- Unlocking Unit: %s", tostring(Script), tostring(unit_type_name))
+                --DebugMessage("%s -- Unlocking Unit: %s", tostring(Script), tostring(unit_type_name))
                 if unit_type ~= nil then
                     human.Unlock_Tech(unit_type)
                 end

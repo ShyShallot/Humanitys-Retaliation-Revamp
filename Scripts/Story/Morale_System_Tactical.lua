@@ -33,6 +33,8 @@ function Morale_Tactical_Init(message)
         DebugMessage("%s -- Is Now Active", tostring(Script))
 
         player = Find_Human_Player()
+        
+        FogOfWar.Reveal_All(player)
 
         local Morale_Level = GlobalValue.Get("Morale_Status")
 

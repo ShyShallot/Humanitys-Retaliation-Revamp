@@ -60,28 +60,28 @@
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Perpetual>true</Perpetual>
         <Prereq>Morale_Construct_Starbase_1_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_2_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_3_UNSC</Prereq>
         <Prereq>Morale_Construct_Shipyard_Light_UNSC</Prereq>
+        <Prereq>Morale_Construct_Shipyard_Medium_UNSC</Prereq>
         <Prereq>Morale_Construct_Starbase_1_COVN</Prereq>
+        <Prereq>Morale_Construct_Starbase_2_COVN</Prereq>
+        <Prereq>Morale_Construct_Starbase_3_COVN</Prereq>
     </Event>
 
     <Event Name="Morale_Construction_Event">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Perpetual>true</Perpetual>
-        <Prereq>Morale_Construct_Starbase_2_UNSC</Prereq>
-        <Prereq>Morale_Construct_Starbase_3_UNSC</Prereq>
-        <Prereq>Morale_Construct_Shipyard_Medium_UNSC</Prereq>
-        <Prereq>Morale_Construct_Starbase_2_COVN</Prereq>
-        <Prereq>Morale_Construct_Starbase_3_COVN</Prereq>
+        <Prereq>Morale_Construct_Starbase_4_UNSC</Prereq>
+        <Prereq>Morale_Construct_Starbase_4_COVN</Prereq>
     </Event>
     
     <Event Name="Morale_Construction_Event_Major">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Perpetual>true</Perpetual>
-        <Prereq>Morale_Construct_Starbase_4_UNSC</Prereq>
         <Prereq>Morale_Construct_Starbase_5_UNSC</Prereq>
         <Prereq>Morale_Construct_Shipyard_Heavy_UNSC</Prereq>
         <Prereq>Morale_Construct_Shipyard_Infinity_UNSC</Prereq>
-        <Prereq>Morale_Construct_Starbase_4_COVN</Prereq>
         <Prereq>Morale_Construct_Starbase_5_COVN</Prereq>
     </Event>
 

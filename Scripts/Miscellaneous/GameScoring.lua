@@ -705,7 +705,9 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 
 	planet_type = nil
 
-	GlobalValue.Set("Morale_Planet_Owner_Changed", 1)
+	local Global_Change_String = planet_type.Get_Name() .. "_" .. oldplayer.Get_Name() .. "_" .. newplayer.Get_Name()
+
+	GlobalValue.Set("Morale_Planet_Owner_Changed", Global_Change_String)
 end
 
 

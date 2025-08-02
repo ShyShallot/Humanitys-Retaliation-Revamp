@@ -285,6 +285,48 @@ local unit_table = {
     },
     UNSC_DELETE_HEAVY_SHIPYARD = {
         Category = "Structure"
+    },
+    TERROR_GLADIUS = {
+        Category = "Corvette"
+    },
+    TERROR_MAKO = {
+        Category = "Corvette"
+    },
+    TERROR_Baselard_Squadron = {
+        Category = "Fighter"
+    },
+    TERROR_MUSASHI = {
+        Category = "Frigate"
+    },
+    TERROR_STALWART = {
+        Category = "Frigate"
+    },
+    TERROR_CHARON = {
+        Category = "Frigate"
+    },
+    TERROR_HALCYON = {
+        Category = "Capital"
+    },
+    TERROR_SHORTSWORD_Squadron = {
+        Category = "Fighter"
+    },
+    SWORDS_SDV = {
+        Category = "Corvette"
+    },
+    SWORDS_CAR = {
+        Category = "Corvette"
+    },
+    SWORDS_CRS = {
+        Category = "Frigate"
+    },
+    SWORDS_CCS = {
+        Category = "Capital"
+    },
+    SWORDS_Banshee_Squadron = {
+        Category = "Fighter"
+    },
+    SWORDS_Cerastes_Squadron = {
+        Category = "Fighter"
     }
 }
 

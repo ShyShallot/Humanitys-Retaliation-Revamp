@@ -6,7 +6,7 @@ require("PGStoryMode")
 
 function Definitions()
 
-    ServiceRate = 0.5
+    ServiceRate = 0.25
 
     StoryModeEvents = 
     {
