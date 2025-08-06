@@ -703,11 +703,11 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 	entry[planet_type] = pe
 	GalacticConquestTable[oldid] = entry
 
-	planet_type = nil
-
 	local Global_Change_String = planet_type.Get_Name() .. "_" .. oldplayer.Get_Name() .. "_" .. newplayer.Get_Name()
 
-	GlobalValue.Set("Morale_Planet_Owner_Changed", Global_Change_String)
+	--GlobalValue.Set("Morale_Planet_Owner_Changed", Global_Change_String)
+
+	planet_type = nil
 end
 
 

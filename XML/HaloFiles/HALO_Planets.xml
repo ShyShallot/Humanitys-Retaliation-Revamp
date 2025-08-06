@@ -19,7 +19,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>2050</Planet_Credit_Value>
+    <Planet_Credit_Value>325</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
@@ -57,7 +57,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital </Applicable_Unit_Categories> 
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Reach_Tech_Reduction">
@@ -66,7 +66,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital </Applicable_Unit_Categories> 
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -281,7 +281,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Corvette, Frigate</Applicable_Unit_Categories> 
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Aleria_Tech_Reduction">
@@ -290,7 +290,7 @@
         <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.2	5</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -352,7 +352,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Alluvion_Tech_Reduction">
@@ -361,7 +361,7 @@
         <Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -385,7 +385,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>750</Planet_Credit_Value>
+    <Planet_Credit_Value>245</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-138.0, -139.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -528,7 +528,7 @@
         <Applicable_Unit_Categories> Bomber, Corvette </Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Eridanus_2_Capital_Reduction">
@@ -537,7 +537,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -652,7 +652,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
     </Abilities>
@@ -676,7 +676,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>1200</Planet_Credit_Value>
+    <Planet_Credit_Value>195</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>142.0, -80.0, 10.0</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
@@ -714,7 +714,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital, Structure</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Meridian_Military_Reduction">
@@ -723,7 +723,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -853,7 +853,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>6360</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-10.0, -228.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -891,7 +891,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Earth_Capital_Reduction">
@@ -900,7 +900,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -976,7 +976,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>705</Planet_Credit_Value>
+    <Planet_Credit_Value>215</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-83.0, -201.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1014,7 +1014,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital, Structure</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Harmony_Capital_Reduction">
@@ -1023,7 +1023,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -1255,7 +1255,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>2360</Planet_Credit_Value>
+    <Planet_Credit_Value>185</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>15.0, -214.0, 10.0</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
@@ -1293,7 +1293,7 @@
         <Applicable_Unit_Categories>Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Mars_Military_Reduction">
@@ -1302,7 +1302,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -1626,7 +1626,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Types>ARTIFACT_DIG_UP</Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
     </Abilities>
@@ -1899,7 +1899,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
     </Abilities>
@@ -1961,7 +1961,7 @@
         <Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Glyke_Slave_Reduction">
@@ -1970,7 +1970,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -2137,7 +2137,7 @@
         <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
     </Abilities>
@@ -2200,7 +2200,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -2315,7 +2315,7 @@
         <Applicable_Unit_Categories>Capital, Super</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
     </Abilities>
@@ -2430,7 +2430,7 @@
         <Applicable_Unit_Types> COVN_CAS </Applicable_Unit_Types>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -2546,7 +2546,7 @@
         <Applicable_Unit_Types> Rebel_Star_Base_1</Applicable_Unit_Types>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
@@ -2818,7 +2818,7 @@
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
+        <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>

@@ -440,3 +440,15 @@ function Tactical_Find_Enemy(player) -- picks the enemy with the most units
 
     return largest_enemy
 end
+
+function Random_From_List(list)
+    if type(list) ~= "table" then
+        return
+    end
+
+    local list_length = table.getn(list)
+
+    local random_item = list[EvenMoreRandom(1, list_length, 10)]
+
+    return random_item
+end
