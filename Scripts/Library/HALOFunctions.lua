@@ -2,18 +2,24 @@
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 require("PGBase")
 
-function Return_Chance(value_to_check, factor) -- Returns true or false
-    if not factor then
-        factor = 0.8
-    end
+function Return_Chance(value_to_check, factor)
+    factor = factor or 1
+
+    -- Normalize input if it's a decimal
     if value_to_check < 1 then
-        value_to_check = value_to_check * 100
+
+        local randomValue = EvenMoreRandomFloat()
+
+        --DebugMessage("%s -- Value to Check: %s, Random Value: %s", tostring(Script), tostring(value_to_check * factor), tostring(randomValue))
+
+        return randomValue <= value_to_check * factor
     end
-    local randomValue = EvenMoreRandom(0,100)
-    if value_to_check <= randomValue then
-        return true
-    end
-    return false
+
+    local randomValue = EvenMoreRandom(1, 100, 20)
+
+    --DebugMessage("%s -- Value to Check: %s, Random Value: %s", tostring(Script), tostring(value_to_check * factor), tostring(randomValue))
+
+    return randomValue <= value_to_check * factor
 end
 
 function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, sfx_event_to_play) -- Already a function but this looks better
@@ -133,17 +139,9 @@ function EvenMoreRandom(min,max,count)
     return values[GameRandom.Free_Random(1,count)]
 end
 
-function EvenMoreRandomFloat(min,max,count)
+function EvenMoreRandomFloat(count)
     if count == 0 or count == nil then
         count = 20
-    end
-
-    if min == nil then
-        min = 0
-    end
-
-    if max == nil then
-        max = 1
     end
 
     local values = {}
@@ -151,7 +149,7 @@ function EvenMoreRandomFloat(min,max,count)
     sum = 0
 
     for i=1,count, 1 do
-        values[i] = GameRandom.Get_Float(min,max)
+        values[i] = GameRandom.Get_Float()
 
         sum = sum + values[i]
     end
