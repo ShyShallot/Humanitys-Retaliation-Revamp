@@ -56,7 +56,7 @@
   </Evnet>
 
   <Event Name="Reset_Filter">
-    <Event_Type>STORY_AI_NOTIFCATION</Event_Type>
+    <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
     <Event_Param2>Reset_Filter</Event_Param2>
     <Reward_Type>RESET_EVENT</Reward_Type>
     <Reward_Param1 />

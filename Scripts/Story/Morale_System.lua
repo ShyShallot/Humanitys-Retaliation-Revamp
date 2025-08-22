@@ -95,6 +95,8 @@ function Definitions()
 
     invalid_planet_names = {}
 
+    Planet_List = {}
+
 end
 
 function Init_Morale_System(message)
@@ -170,23 +172,27 @@ function Init_Morale_System(message)
             global_last_morale_level = 45
         end
 
-        Planetary_Pathing_Table = Build_Neighbor_Table()
-
-        Planet_Morale_Table = Build_Morale_Table()
-
+    
         local planets = FindPlanet.Get_All_Planets()
 
         for _, entry in ipairs(Morale_Levels) do
+
             invalid_planet_names[string.upper(entry.Name)] = true
+
+            --DebugMessage("%s -- Adding %s to invalid_planet_names: %s", tostring(Script), tostring(string.upper(entry.Name)), tostring(invalid_planet_names[string.upper(entry.Name)]))
         end
 
         for i,planet in ipairs(planets) do
 
             local planet_name = planet.Get_Type().Get_Name()
 
-            local is_planet_valid = invalid_planet_names[string.upper(planet_name)]
+            local is_planet_invalid = invalid_planet_names[string.upper(planet_name)]
 
-            if is_planet_valid == true then
+            --DebugMessage("%s -- Planet: %s, Is Invalid: %s", tostring(Script), tostring(string.upper(planet_name)), tostring(invalid_planet_names[string.upper(planet_name)]))
+
+            if is_planet_invalid ~= true then
+
+                table.insert(Planet_List, planet)
 
                 local select_event = plot.Get_Event("SELECT_"..planet_name)
 
@@ -195,6 +201,10 @@ function Init_Morale_System(message)
                 end
             end
         end
+
+        Planetary_Pathing_Table = Build_Neighbor_Table()
+
+        Planet_Morale_Table = Build_Morale_Table()
 
         Set_Next_State("Flush")
     end
@@ -237,7 +247,7 @@ function Morale_System_Update(message)
 
             morale_string.Description = Current_Morale_Entry.Description
 
-            --DebugMessage("%s -- Morale Display Strings: %s, %s, %s, %s", tostring(Script), tostring(status.Name), tostring(status.Bonus.Battle), tostring(status.Bonus.Production), tostring(status.Description))
+            --DebugMessage("%s -- Morale Display Strings: %s, %s, %s, %s", tostring(Script), tostring(Current_Morale_Status.Name), tostring(Current_Morale_Status.Bonus.Battle), tostring(status.Bonus.Production), tostring(status.Description))
 
             Handle_Planet_Production(Current_Morale_Entry)
         end
@@ -266,9 +276,9 @@ function Morale_System_Update(message)
 
             display_event.Add_Dialog_Text(morale_string.Production_Bonus)
 
-            if recent_event ~= nil then
+            display_event.Add_Dialog_Text(" ")
 
-                display_event.Add_Dialog_Text(" ")
+            if recent_event ~= nil then
 
                 local Recent_Event_String = morale_string.Recent_Event.Good
 
@@ -302,6 +312,8 @@ function Morale_System_Update(message)
             end
             
         end
+
+        --DebugMessage("%s -- End of Main Event Display", tostring(Script))
 
         if Current_Morale_Entry.Punishment then
             Low_Planet_Morale()
@@ -409,6 +421,9 @@ function Get_Morale_Level()
 end
 
 function Selected_Planet_Morale_Display()
+
+    DebugMessage("%s -- Checking Selected Planet", tostring(Script))
+
     if selected_planet ~= nil then
         local selected_planet_morale_entry = Get_Planet_Morale(selected_planet)
 
@@ -424,7 +439,7 @@ function Selected_Planet_Morale_Display()
 
             local selected_planet_morale_string = planet_name .. "'s " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Morale) .. "%, Last " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Last_Morale) .. "%"
 
-            Show_Screen_Text(selected_planet_morale_string, nil, 3, nil, false)
+            --Show_Screen_Text(selected_planet_morale_string, nil, 3, nil, false)
         end
     end
 end
@@ -451,9 +466,7 @@ function Get_Selected_Planet()
 
     local player = Find_Human_Player()
 
-    local planets = FindPlanet.Get_All_Planets()
-
-    for _,planet in pairs(planets) do
+    for _,planet in pairs(Planet_List) do
 
         local flag_name = "PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
         --DebugMessage("Checking Planet: %s", flag_name)
@@ -562,8 +575,13 @@ function Low_Planet_Morale()
 end
 
 function High_Planet_Morale()
+
+    --DebugMessage("%s -- High Planet Morale", tostring(Script))
+
     for planet_name, planet_entry in pairs(Planet_Morale_Table) do
         local planet_owner = planet_entry.Owner
+
+        --DebugMessage("%s -- Planet Name: %s, Owner: %s", tostring(Script), tostring(planet_name), tostring(planet_owner.Get_Faction_Name()))
 
         if planet_owner == player then
             Modify_Planet_Morale(planet_entry.Object, 5)
@@ -758,11 +776,10 @@ function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired 
 end
 
 function Build_Neighbor_Table()
-    local planets = FindPlanet.Get_All_Planets()
 
     local neighbor_table = {}
 
-    for _, planet in pairs(planets) do
+    for _, planet in pairs(Planet_List) do
 
         if Is_Valid_Planet(planet) then
 
@@ -774,7 +791,7 @@ function Build_Neighbor_Table()
                 neighbor_table[planet_name].Neighbors = {}
             end
 
-            for _, second_planet in pairs(planets) do
+            for _, second_planet in pairs(Planet_List) do
                 if second_planet ~= planet and Is_Valid_Planet(second_planet) then
                     if table.getn(Find_Path(player, planet, second_planet)) == 2 then
                         table.insert(neighbor_table[planet_name].Neighbors, second_planet)
@@ -788,11 +805,9 @@ function Build_Neighbor_Table()
 end
 
 function Build_Morale_Table()
-    local planets = FindPlanet.Get_All_Planets()
-
     local morale_table = {}
 
-    for _, planet in pairs(planets) do
+    for _, planet in pairs(Planet_List) do
         local planet_name = planet.Get_Type().Get_Name()
 
         morale_table[planet_name] = {}
@@ -952,11 +967,10 @@ function Count_Enemy_Neighbors(planet)
 end
 
 function Find_First_Loss_Planet()
-    local All_Planets = FindPlanet.Get_All_Planets()
 
     local player_owned_planets = {}
 
-    for _, planet in pairs(All_Planets) do
+    for _, planet in pairs(Planet_List) do
         if planet.Get_Owner() == player and Is_Valid_Planet(planet) then
             table.insert(player_owned_planets, planet)
         end

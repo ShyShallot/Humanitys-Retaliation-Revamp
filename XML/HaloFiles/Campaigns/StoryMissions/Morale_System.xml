@@ -7,6 +7,38 @@
         <Event_Param1>3</Event_Param1>
     </Event>
 
+    <Event Name="Morale_Restrict_Compromised">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Morale_Level_Init</Prereq>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1>Compromised</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
+    <Event Name="Morale_Restrict_Strained">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Morale_Level_Init</Prereq>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1>Strained</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
+    <Event Name="Morale_Restrict_Ascendant">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Morale_Level_Init</Prereq>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1>Ascendant</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
+    <Event Name="Morale_Restrict_Resolute">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Morale_Level_Init</Prereq>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1>Resolute</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
     <Event Name="Show_Screen_Text">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>SHOW_SCREEN_TEXT</Event_Param2>
@@ -83,25 +115,6 @@
         <Prereq>Morale_Construct_Shipyard_Heavy_UNSC</Prereq>
         <Prereq>Morale_Construct_Shipyard_Infinity_UNSC</Prereq>
         <Prereq>Morale_Construct_Starbase_5_COVN</Prereq>
-    </Event>
-
-    <Event Name="Morale_Destruction_Event">
-        <Event_Type>STORY_TRIGGER</Event_Type>
-        <Perpetual>true</Perpetual>
-        <Prereq>Morale_Destroy_Starbase_1_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Starbase_2_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Starbase_3_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Starbase_4_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Starbase_5_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Shipyard_Light_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Shipyard_Medium_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Shipyard_Heavy_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Shipyard_Infinity_UNSC</Prereq>
-        <Prereq>Morale_Destroy_Starbase_1_COVN</Prereq>
-        <Prereq>Morale_Destroy_Starbase_2_COVN</Prereq>
-        <Prereq>Morale_Destroy_Starbase_3_COVN</Prereq>
-        <Prereq>Morale_Destroy_Starbase_4_COVN</Prereq>
-        <Prereq>Morale_Destroy_Starbase_5_COVN</Prereq>
     </Event>
 
     <Event Name="Morale_Construct_Starbase_1_UNSC">

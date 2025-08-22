@@ -167,7 +167,7 @@ function Global_Story(message)
 
         Global_Unit_Table = require("globalUnitTable")
 
-        Spawn_Settings.Category_Mapping = DiscreteDistribution.Create()
+        Spawn_Settings.Category_Mapping = DiscreteDistribution.Create() -- Higher Number, higher chance of being selected
 
         Spawn_Settings.Category_Mapping.Insert("Fighter", 45)
 
@@ -175,7 +175,7 @@ function Global_Story(message)
         
         Spawn_Settings.Category_Mapping.Insert("Frigate", 60)
 
-        Spawn_Settings.Category_Mapping.Insert("Capital", 15)
+        Spawn_Settings.Category_Mapping.Insert("Capital", 22)
 
         Spawn_Settings.Category_Mapping.Insert("Super", 10)
 
@@ -262,7 +262,7 @@ function Global_Story(message)
             end
         end
 
-        for faction, entry in pairs(Spawn_Settings) do -- Hero Spawn
+        for faction, entry in pairs(Spawn_Settings.Factions) do -- Hero Spawn
             local planet_list = entry.Planets
 
             if planet_list ~= nil and table.getn(planet_list) > 0 and entry.Heroes ~= nil then
