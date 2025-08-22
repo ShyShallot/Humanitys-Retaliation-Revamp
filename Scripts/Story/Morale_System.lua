@@ -95,7 +95,10 @@ function Definitions()
 
     invalid_planet_names = {}
 
-    Planet_List = {}
+    Planet_List = {
+        All = {},
+        Player = {}
+    }
 
 end
 
@@ -192,7 +195,7 @@ function Init_Morale_System(message)
 
             if is_planet_invalid ~= true then
 
-                table.insert(Planet_List, planet)
+                table.insert(Planet_List.All, planet)
 
                 local select_event = plot.Get_Event("SELECT_"..planet_name)
 
@@ -466,7 +469,7 @@ function Get_Selected_Planet()
 
     local player = Find_Human_Player()
 
-    for _,planet in pairs(Planet_List) do
+    for _,planet in pairs(Planet_List.All) do
 
         local flag_name = "PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
         --DebugMessage("Checking Planet: %s", flag_name)
@@ -779,7 +782,7 @@ function Build_Neighbor_Table()
 
     local neighbor_table = {}
 
-    for _, planet in pairs(Planet_List) do
+    for _, planet in pairs(Planet_List.All) do
 
         if Is_Valid_Planet(planet) then
 
@@ -791,7 +794,7 @@ function Build_Neighbor_Table()
                 neighbor_table[planet_name].Neighbors = {}
             end
 
-            for _, second_planet in pairs(Planet_List) do
+            for _, second_planet in pairs(Planet_List.All) do
                 if second_planet ~= planet and Is_Valid_Planet(second_planet) then
                     if table.getn(Find_Path(player, planet, second_planet)) == 2 then
                         table.insert(neighbor_table[planet_name].Neighbors, second_planet)
@@ -807,7 +810,7 @@ end
 function Build_Morale_Table()
     local morale_table = {}
 
-    for _, planet in pairs(Planet_List) do
+    for _, planet in pairs(Planet_List.All) do
         local planet_name = planet.Get_Type().Get_Name()
 
         morale_table[planet_name] = {}
@@ -970,7 +973,7 @@ function Find_First_Loss_Planet()
 
     local player_owned_planets = {}
 
-    for _, planet in pairs(Planet_List) do
+    for _, planet in pairs(Planet_List.All) do
         if planet.Get_Owner() == player and Is_Valid_Planet(planet) then
             table.insert(player_owned_planets, planet)
         end
@@ -1007,6 +1010,16 @@ end
 
 function Set_Recent_Event(event_table)
     recent_event = event_table
+end
+
+function Update_Player_Owned_Planets()
+    Planet_List.Player = {}
+
+    for _, planet in pairs(Planet_List.All) do
+        if planet.Get_Owner() == player then
+            table.insert(Planet_List.Player, planet)
+        end
+    end
 end
 
 function Default_Event_Function(message)
