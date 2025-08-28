@@ -840,4 +840,10 @@
 		(Function_Is_Connected_To_Me.Evaluate)
 	</Is_Border_Planet>
 
+	<Does_Planet_Have_Econ_Structures>
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_Trade_Platform", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		+
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_Mining_Facility", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Does_Planet_Have_Econ_Structures>
+
 </Equations>

@@ -8,7 +8,15 @@
 	</Movie>
 
 	<Movie Name="Background">
-		<Movie_File>Data\Art\Movies\Binked\Halo3Background.bik</Movie_File>
+		<Movie_File>Data\Art\Movies\Binked\Menu_Intro.bik</Movie_File>
+		<Alpha>true</Alpha>
+		<Overlay>true</Overlay>
+	</Movie>
+
+	<Movie Name="Background_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Menu_Loop.bik</Movie_File>
+		<Alpha>true</Alpha>
+		<Overlay>true</Overlay>
 	</Movie>
 	
 	<Movie Name="Default_Incoming_Transmission">

@@ -161,7 +161,7 @@
 	<MaximumSpecialStructuresSpace> 3 </MaximumSpecialStructuresSpace>
 	<MaximumFleetMovementDistance> 1.0 </MaximumFleetMovementDistance>
 	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
-	<Tooltip_Delay>330</Tooltip_Delay>
+	<Tooltip_Delay>1</Tooltip_Delay>
 	<Encyclopedia_Delay>350</Encyclopedia_Delay>
 	<Long_Encyclopedia_Delay>4000</Long_Encyclopedia_Delay>
 	<Text_Reveal_Rate>120</Text_Reveal_Rate>
@@ -4931,10 +4931,10 @@
 
 	
 	<!-- Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_Attract_Korriban.ted</Demo_Attract_Maps -->
-    <Demo_Attract_Maps>Demo_Space_Gas_Giant.ted, Demo_Attract_Kamino.ted</Demo_Attract_Maps>
+    <Demo_Attract_Maps>Demo_Space_Gas_Giant.ted</Demo_Attract_Maps>
     <Demo_Attract_Start_Timeout_Seconds>3600</Demo_Attract_Start_Timeout_Seconds>
     <!-- Demo_Attract_Map_Cycle_Delay_Seconds>1000000, 1000, 1000</Demo_Attract_Map_Cycle_Delay_Seconds -->
-    <Demo_Attract_Map_Cycle_Delay_Seconds>5000, 5000</Demo_Attract_Map_Cycle_Delay_Seconds>
+    <Demo_Attract_Map_Cycle_Delay_Seconds>5000</Demo_Attract_Map_Cycle_Delay_Seconds>
 
 	
 	<Battle_Pending_Timeout_Seconds> 15 </Battle_Pending_Timeout_Seconds>

@@ -117,7 +117,7 @@ function FreeStoreService()
 	local event = plot.Get_Event("Freight_Display")
 	event.Clear_Dialog_Text() -- Clears all added Text
 
-	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()))
+	
 
 	local freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
 	local FreighterCount = tableLength(freighter_list)
@@ -143,6 +143,8 @@ function FreeStoreService()
 	local removed_freighter_count = 0
 
 	DebugMessage("Found %s Freighters, Freighters To Be Removed: %s", tostring(FreighterCount), tostring(freighters_to_be_removed))
+
+	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()), tostring(FreighterCount))
 	
 	if FreighterCount <= 0 then
 		return	
@@ -154,15 +156,17 @@ function FreeStoreService()
 		DebugMessage("Does Freighter have entry: %s", tostring(freighter_table[freighter_to_move]))
 
 		if freighter_table[freighter_to_move] == nil then
-			local frieghter_removed = false
-			if removed_freighter_count < freighters_to_be_removed and frieghter_removed > 0 then
+			local freighter_removed = false
+			if removed_freighter_count < freighters_to_be_removed then
 				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
+				local freighter_cost = freighter_to_move.Get_Type().Get_Build_Cost()
+				freighter_to_move.Get_Owner().Give_Money(freighter_cost)
 				freighter_to_move.Despawn()
 				removed_freighter_count = removed_freighter_count + 1
-				frieghter_removed = true
+				freighter_removed = true
 			end
 
-			if Return_Chance(0.55, 1) and frieghter_removed == false then
+			if Return_Chance(0.55, 1) and freighter_removed == false then
 				local dest = Find_Target(freighter_to_move)
 				local starting = freighter_to_move.Get_Planet_Location()
 				freighter_table[freighter_to_move] = {
@@ -204,6 +208,7 @@ function FreeStoreService()
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_01", tostring(freighter_entry.Number)) 
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_02", freighter_entry.Start.Get_Type().Get_Name(), freighter_entry.Destination.Get_Type().Get_Name())
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter_to_move, freighter_entry)))
+			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_04", tostring(freighter_entry.Done))
 			event.Add_Dialog_Text(" ")
 		end
 	end
@@ -320,7 +325,7 @@ function Reward_Freighter(freighter, entry)
 	
 	local bonus = 0
 
-	if Find_Econ_Structure(entry.Destination) > 0 then
+	if EvaluatePerception("Does_Planet_Have_Econ_Structures", PlayerObject, freighter.Get_Planet_Location()) > 0 then
 		bonus = 250
     end
 

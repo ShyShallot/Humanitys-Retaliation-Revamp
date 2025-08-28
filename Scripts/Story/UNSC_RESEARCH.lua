@@ -6,7 +6,7 @@ require("PGStoryMode")
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 
-    ServiceRate = 0.5
+    ServiceRate = 0.3
 
     shield_tech_built = false
 
@@ -14,7 +14,7 @@ function Definitions()
 
     StoryModeEvents = {
         Rebel_Tech_4 = Shield_System,
-        Galactic_Start = Init_Shield_Tech
+        Galactic_Start = Init_Shield_Tech,
     }
 
     installation_05 = nil
@@ -38,6 +38,8 @@ end
 function Shield_System(message)
 
     if message == OnUpdate then
+
+        installation_05 = FindPlanet("Installation_05")
         
         if TestValid(installation_05) then
 

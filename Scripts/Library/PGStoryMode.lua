@@ -63,6 +63,8 @@ end
 
 function Story_Event_Trigger(name)
 
+	DebugMessage("%s -- Name: %s", tostring(Script), tostring(name))
+
 	if StoryModeEvents == nil then
 		return
 	end
