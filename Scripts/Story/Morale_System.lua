@@ -338,13 +338,13 @@ function Random_Morale_Swing()
     local Current_Week = Get_Current_Week()
 
     if next_random_swing <= Current_Week then
-        next_random_swing = Current_Week + 3
+        next_random_swing = Current_Week + 2
 
         local Bad_Chance = EvenMoreRandom(40,60,1) / 100
 
         local Is_Bad = Return_Chance(Bad_Chance, 1)
 
-        local Morale_Swing = EvenMoreRandom(0,3,15)
+        local Morale_Swing = EvenMoreRandom(0,2,15)
 
         if Morale_Swing == 0 then
             return

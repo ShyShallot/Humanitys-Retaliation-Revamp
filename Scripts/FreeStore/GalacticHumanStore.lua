@@ -46,7 +46,7 @@ function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
 
 	-- how often does this script get serviced?
-	ServiceRate = 20
+	ServiceRate = 0.3
 	UnitServiceRate = 20
 	
 	Common_Base_Definitions()
@@ -150,10 +150,9 @@ function FreeStoreService()
 		return	
 	end
 
-	for i=1, FreighterCount, 1 do
-		local freighter_to_move = freighter_list[i]
+	for _, freigher in pairs(freighter_list)
 
-		DebugMessage("Does Freighter have entry: %s", tostring(freighter_table[freighter_to_move]))
+		local freighter_entry = freighter_table[freigher]
 
 		if freighter_table[freighter_to_move] == nil then
 			local freighter_removed = false
@@ -167,8 +166,7 @@ function FreeStoreService()
 			end
 
 			if Return_Chance(0.55, 1) and freighter_removed == false then
-				local dest = Find_Target(freighter_to_move)
-				local starting = freighter_to_move.Get_Planet_Location()
+				
 				freighter_table[freighter_to_move] = {
 					Destination = dest,
 	    			Start = starting,
@@ -212,6 +210,27 @@ function FreeStoreService()
 			event.Add_Dialog_Text(" ")
 		end
 	end
+end
+
+function Freighter_Setup(freighter)
+
+	local freighter_entry = freighter_table[freigher]
+	
+	if freighter_entry ~= nil then
+		if freighter_entry.Done ~= true then
+			return
+		end
+	end
+
+	local dest = Find_Target(freighter)
+	local starting = freighter.Get_Planet_Location()
+	freighter_table[freighter] = {
+		Destination = dest,
+	    Start = starting,
+	    Done = false,
+		Number = Generate_Freight_Number(),
+		Finished_Date = nil
+	}
 end
 
 function Find_Target(freighter)

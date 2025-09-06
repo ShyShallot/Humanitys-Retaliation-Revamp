@@ -13,20 +13,16 @@ function Definitions()
     player = nil
 
     Morale_Boost_Structures = {
-        ["Compromised"] = "Morale_Compromised",
-        ["Strained"] = "Morale_Strained",
+        ["Compromised"] = {Space = "Morale_Compromised", Land = "Morale_Compromised_Ground"},
+        ["Strained"] = {Space = "Morale_Strained", Land = "Morale_Strained_Ground"},
         ["Stabilized"] = nil,
-        ["Resolute"] = "Morale_Resolute",
-        ["Ascendant"] = "Morale_Ascendant",
+        ["Resolute"] = {Space = "Morale_Resolute", Land = "Morale_Resolute_Ground"},
+        ["Ascendant"] = {Space = "Morale_Ascendant", Land = "Morale_Ascendant_Ground"},
     }
 end
 
 function Morale_Tactical_Init(message)
     if message == OnEnter then
-
-        if Get_Game_Mode() ~= "Space" then
-            ScriptExit()
-        end
 
         Sleep(1)
 
@@ -44,7 +40,18 @@ function Morale_Tactical_Init(message)
 
         DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(Morale_Level))
 
-        local Morale_Structure = Morale_Boost_Structures[Morale_Level]
+        local Morale_Structure_Entry = Morale_Boost_Structures[Morale_Level]
+
+        if Morale_Structure_Entry == nil then
+            ScriptExit()
+            return
+        end
+
+        local Morale_Structure = Morale_Structure_Entry.Space
+
+        if Get_Game_Mode() == "Land" then
+            Morale_Structure = Morale_Structure_Entry.Land
+        end
 
         if Morale_Structure == nil then
             ScriptExit()

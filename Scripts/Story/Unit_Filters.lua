@@ -2,8 +2,6 @@ require("PGStateMachine")
 require("PGStoryMode")
 require("HALOFunctions")
 require("PGBaseDefinitions")
-local unit_table = require("globalUnitTable")
-
 
 function Definitions()
 
@@ -26,6 +24,8 @@ function Definitions()
 
     lock_list = {}
 
+    unit_table = nil
+
     
     Structure_Super_Filter = "Structure | Super"
     Capitals_Filter = "Capital"
@@ -44,6 +44,8 @@ function Init_Filters(message)
         --DebugMessage("%s -- Init_Filters", tostring(Script))
 
         local human = Find_Human_Player()
+
+        unit_table = require("globalUnitTable")
 
         for unit_name, unit_info in pairs(unit_table) do
 

@@ -2802,4 +2802,131 @@
 	</GroundStructure>
 
 
+	<GroundStructure Name="Morale_Compromised_Ground">
+		<Text_ID>TEXT_STRUCTURE_COMM_JAMMER_EMPIRE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_Comm_Jamm.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Sensor_Array_Loop</SFXEvent_Ambient_Loop>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
+		<LandBehavior>IDLE,LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>	
+
+		<Land_Damage_Thresholds>1, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>false</Remove_Upon_Death>
+
+		<Tactical_Sell_Credits> 250 </Tactical_Sell_Credits>
+		<SFXEvent_Sold_Tactical> EHD_Sensor_Node_Sold </SFXEvent_Sold_Tactical>
+
+		<Required_Special_Structures>Communications_Array_E</Required_Special_Structures>
+		 
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Select_Box_Scale>50</Select_Box_Scale>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Compromised_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Air | Infantry | LandHero</Unit_Strength_Category>
+				<Applicable_Unit_Categories> Vehicle | Air | Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>-0.30</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.30</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.20</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+	</GroundStructure>
+
+	<SecondaryStructure Name="Morale_Strained_Ground">
+		<Variant_Of_Existing_Type>Morale_Compromised_Ground</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Strained_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Air | Infantry | LandHero</Unit_Strength_Category>
+				<Applicable_Unit_Categories> Vehicle | Air | Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>-0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.20</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+	<GroundStructure Name="Morale_Resolute_Ground">
+		<Variant_Of_Existing_Type>Morale_Compromised_Ground</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Resolute_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Air | Infantry | LandHero</Unit_Strength_Category>
+				<Applicable_Unit_Categories> Vehicle | Air | Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</GroundStructure>
+
+	<SecondaryStructure Name="Morale_Ascendant_Ground">
+		<Variant_Of_Existing_Type>Morale_Compromised_Ground</Variant_Of_Existing_Type>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Morale_Ascendant_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Air | Infantry | LandHero</Unit_Strength_Category>
+				<Applicable_Unit_Categories> Vehicle | Air | Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.2</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</SecondaryStructure>
+
+
 </GroundStructures>

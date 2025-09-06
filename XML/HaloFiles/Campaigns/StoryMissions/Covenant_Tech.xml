@@ -1,6 +1,19 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <Story>
+
+  <Event Name="HWD_Init">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>3</Event_Param1>
+  </Event>
+
+  <Event Name="HWD_Flag_Init">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>0</Event_Param1>
+    <Reward_Type>SET_FLAG</Reward_Type>
+    <Reward_Param1>CAS_BUILT</Reward_Param1>
+    <Reward_Param2>0</Reward_Param2>
+  </Event>
 
   <Event Name="Covenant_Tech_4">
     <Event_Type>STORY_TECH_LEVEL</Event_Type>
@@ -17,19 +30,30 @@
     <Prereq>Covenant_Tech_4</Prereq>
   </Event>
 
-  <Event Name="Planet_Conquered">
-    <Event_Type>STORY_CONQUER</Event_Type>
-    <Event_Param1></Event_Param1>
-    <Reward_Type>CREDITS</Reward_Type>
-    <Reward_Param1>100000</Reward_Param1>
+  <Event Name="CAS_Constructed">
+    <Event_Type>STORY_CONSTRUCT</Event_Type>
+    <Event_Param1>COVN_CAS</Event_Param1>
+    <Reward_Type>INCREMENT_FLAG</Reward_Type>
+    <Reward_Param1>CAS_BUILT</Reward_Param1>
+    <Reward_Param2>1</Reward_Param2>
+    <Perpetual>true</Perpetual>
   </Event>
 
-  <Event Name="Covenant_Tech_5">
-    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+  <Event Name="CAS_REQ_MET">
+    <Event_Type>STORY_FLAG</Event_Type>
+    <Event_Param1>CAS_BUILT</Event_Param1>
+    <Event_Param2>3</Event_Param2>
+    <Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+  </Event>
+
+  <Event Name="Battle_Won_Requirement">
+    <Event_Type>STORY_WIN_BATTLES</Event_Type>
     <Event_Param1>5</Event_Param1>
-    <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
-    <Reward_Param1>HWD_DISPLAY</Reward_Param1>
+    <Event_Param2>SPACE</Event_Param2>
   </Event>
 
-  
+  <Event Name="HWD_REQS_MET">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Prereq>Battle_Won_Requirement, CAS_REQ_MET</Prereq>
+  </Event>
 </Story>

@@ -12,8 +12,8 @@ function Definitions()
     }
 
     Spawn_Settings = {
-        Category_Mapping = nil,
-        Global_Multiplier = 1.75, -- Max Combat Power multiplier 
+        Category_Mapping = nil, -- this is filled in later with a weighted table in Global_Story OnEnter
+        Global_Multiplier = 1.75, -- Max Combat Power multiplier
         Factions = { 
             UNSC = {
                 Station = {
@@ -211,14 +211,15 @@ function Global_Story(message)
                     local Planet_Power = 0
 
                     for _, structure in pairs(Settings.Structures) do
-                        local structure_type = Find_Object_Type(structure)
 
-                        if structure_type ~= nil then
-
-                            DebugMessage("%s -- Spawning Structure: %s", tostring(Script), tostring(structure))
-
-                            Spawn_Unit(structure_type, planet, planet.Get_Owner())
+                        if type(structure) == "table" then
+                            for i=1, structure.Amount, 1 do
+                                Spawn_Structure(structure.Name, planet)
+                            end
+                        else
+                            Spawn_Structure(structure, planet)
                         end
+                        
                     end
 
                     while Planet_Power < tonumber(Dirty_Floor((Settings.Power * Spawn_Settings.Global_Multiplier))) do
@@ -280,6 +281,18 @@ function Global_Story(message)
                 end 
             end
         end
+    end
+end
+
+function Spawn_Structure(structure, planet)
+
+    local structure_type = Find_Object_Type(structure)
+
+    if structure_type ~= nil then
+
+        DebugMessage("%s -- Spawning Structure: %s", tostring(Script), tostring(structure))
+
+        Spawn_Unit(structure_type, planet, planet.Get_Owner())
     end
 end
 

@@ -49,7 +49,7 @@ local unit_table = {
     },
     COVN_CAS = {
         Category = "Super",
-        Global_Value_Check = "Covenant_Heavy_Weapons_Not_Researched"
+        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
     },
     COVN_CSO = {
         Category = "Super",
@@ -145,12 +145,14 @@ local unit_table = {
     },
     COVN_CPV = {
         Category = "Capital",
+        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
     },
     COVN_ORS = {
         Category = "Capital",
+        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
     },
     COVN_DDS = {
-        Category = "Frigate"
+        Category = "Capital"
     },
     COVN_CRS = {
         Category = "Frigate"
