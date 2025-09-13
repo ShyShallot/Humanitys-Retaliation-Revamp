@@ -3,8 +3,11 @@
     <!-- Covenant Skirmish Starbases -->
 	<StarBase Name="Skirmish_Empire_Star_Base_1">
 		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
-		<Shield_Points>22000</Shield_Points>
+		<Shield_Points>42000</Shield_Points>
 		<Tactical_Health>6000</Tactical_Health>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>20000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
@@ -23,7 +26,6 @@
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,
-				COVN_RCS,
 				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade,
@@ -96,8 +98,11 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_2">
 		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>29000</Shield_Points>
+		<Shield_Points>49000</Shield_Points>
 		<Tactical_Health>22000</Tactical_Health>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>20000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -188,8 +193,11 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_3">
 		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>43500</Shield_Points>
+		<Shield_Points>63500</Shield_Points>
 		<Tactical_Health>45000</Tactical_Health>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>20000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -286,8 +294,11 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_4">
 		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>68000</Shield_Points>
+		<Shield_Points>108000</Shield_Points>
 		<Tactical_Health>61600</Tactical_Health>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>20000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -385,8 +396,11 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_5">
 		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>87000</Shield_Points>
+		<Shield_Points>167000</Shield_Points>
 		<Tactical_Health>86200</Tactical_Health>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>20000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -418,6 +432,7 @@
 				COVN_JUL,
 				COVN_CAS,
 				COVN_CSO,
+				COVN_PIOUS,
 				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Enhanced_Shielding_L2_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,

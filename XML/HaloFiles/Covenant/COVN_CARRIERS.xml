@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <CarrierUnits>
     <SpaceUnit Name="COVN_DDS">
-		<Text_ID>TEXT_UNIT_COVN_DDS</Text_ID>
-		<Encyclopedia_Good_Against> UNSC_PARIS UNSC_MAKO UNSC_GLADIUS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Longsword Shortsword UNSC_VINDICATION </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_COVN_CSD</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CSD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECARRIER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>COVN_DDS_2.ALO</Space_Model_Name>
 		
@@ -49,9 +49,9 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>152500</Shield_Points>
@@ -64,10 +64,10 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>10520</Build_Cost_Credits>
+		<Build_Cost_Credits>14520</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>10500</AI_Combat_Power>
-		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<Build_Time_Seconds>305</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		
@@ -84,7 +84,7 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_COVN</Death_Explosions>
+		<Death_Explosions>Large_Explosion_Space_2</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
@@ -179,11 +179,11 @@
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_DDS TEXT_TOOLTIP_COV_DDS_HOLD TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>12</Population_Value>
+		<Population_Value>20</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -228,7 +228,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>10750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>48</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>72</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

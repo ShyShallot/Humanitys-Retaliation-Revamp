@@ -18,29 +18,29 @@ function Definitions()
             UNSC = {
                 Station = {
                     Default = {
-                        Power = 4000,
+                        Power = 8000,
                         Structures = {},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "MAKO_SQUADRON"}
+                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON"}
                     },
                     Low = {
-                        Power = 9000,
+                        Power = 18000,
                         Structures = {},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "MAKO_SQUADRON", "STALWART_SQUADRON", "BASELARD_SQUADRON"}
+                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON"}
                     },
                     Medium = {
-                        Power = 14500,
+                        Power = 45000,
                         Structures = {"R_Ground_Barracks"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "MAKO_SQUADRON", "STALWART_SQUADRON", "BASELARD_SQUADRON"}
+                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     },
                     High = {
-                        Power = 25000,
+                        Power = 50000,
                         Structures = {"R_Ground_Barracks"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "MAKO_SQUADRON", "STALWART_SQUADRON", "BASELARD_SQUADRON", "UNSC_PHOENIX"}
+                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     },
                     Ultra = {
-                        Power = 35000,
+                        Power = 75000,
                         Structures = {"R_Ground_Barracks"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "MAKO_SQUADRON", "STALWART_SQUADRON", "BASELARD_SQUADRON", "UNSC_PHOENIX", "UNSC_HALCYON"}
+                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     }
                 },
                 Heroes = {
@@ -55,31 +55,33 @@ function Definitions()
                     Default = {
                         Power = 6000,
                         Structures = {},
-                        Units = {"COVN_SDV"}
+                        Units = {"CRS_SQUADRON"}
                     },
                     Low = {
                         Power = 9500,
                         Structures = {},
-                        Units = {"COVN_SDV", "COVN_CRS"}
+                        Units = {"SDV_SQUADRON", "CRS_SQUADRON"}
                     },
                     Medium = {
                         Power = 18000,
                         Structures = {"E_Ground_Barracks"},
-                        Units = {"COVN_SDV", "COVN_CRS"}
+                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
                     },
                     High = {
                         Power = 30500,
                         Structures = {"E_Ground_Barracks"},
-                        Units = {"COVN_SDV", "COVN_CRS", "COVN_RCS", "COVN_DDS"}
+                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_ORS", "COVN_DDS"}
                     },
                     Ultra = {
                         Power = 45000,
                         Structures = {"E_Ground_Barracks"},
-                        Units = {"COVN_SDV", "COVN_CRS", "COVN_RCS", "COVN_DDS", "COVN_CAS"}
+                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     }
                 },
                 Heroes = {
-                    "COVN_ARDO"
+                    "COVN_PIOUS",
+					"COVN_MACCABEUS",
+					"COVN_CSO"
                 },
                 Planets = {}
             },
@@ -91,12 +93,12 @@ function Definitions()
                         Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron"}
                     },
                     Low = {
-                        Power = 3500,
+                        Power = 23500,
                         Structures = {},
                         Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron", "SWORDS_SDV"}
                     },
                     Medium = {
-                        Power = 10000,
+                        Power = 40000,
                         Structures = {},
                         Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron", "SWORDS_SDV", "SWORDS_CRS", "SWORDS_CCS"}
                     }
@@ -118,7 +120,7 @@ function Definitions()
                     Medium = {
                         Power = 10000,
                         Structures = {},
-                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS", "TERROR_HALCYON", "TERROR_CHARON", "TERROR_STALWART"}
+                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS", "TERROR_CHARON", "TERROR_STALWART"}
                     }
                 },
                 Planets = {}

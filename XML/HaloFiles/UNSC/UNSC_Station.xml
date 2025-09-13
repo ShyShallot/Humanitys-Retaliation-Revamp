@@ -2,6 +2,9 @@
 <StarBases>
 	<!-- UNSC Skirmish Starbases -->
 	<StarBase Name="Skirmish_Rebel_Star_Base_1">
+	    <Text_ID>TEXT_UNIT_UNSC_STATION_1</Text_ID>
+	    <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STATION_1 TEXT_TOOLTIP_UNSC_STATION_1_COMPLIMENT </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
@@ -97,6 +100,9 @@
 	</StarBase>
 
 	<StarBase Name="Skirmish_Rebel_Star_Base_2">
+	    <Text_ID>TEXT_UNIT_UNSC_STATION_2</Text_ID>
+	    <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STATION_2 TEXT_TOOLTIP_UNSC_STATION_2_COMPLIMENT </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
@@ -195,6 +201,9 @@
 	</StarBase>
 
 	<StarBase Name="Skirmish_Rebel_Star_Base_3">
+	    <Text_ID>TEXT_UNIT_UNSC_STATION_3</Text_ID>
+	    <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STATION_3 TEXT_TOOLTIP_UNSC_STATION_3_COMPLIMENT </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
@@ -299,9 +308,12 @@
 	</StarBase>
 
 	<StarBase Name="Skirmish_Rebel_Star_Base_4">
+	    <Text_ID>TEXT_UNIT_UNSC_STATION_4</Text_ID>
+	    <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STATION_4 TEXT_TOOLTIP_UNSC_STATION_4_COMPLIMENT </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>20000</Shield_Points>
 		<Tactical_Health>110000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints
@@ -323,7 +335,7 @@
 		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				UNSC_Light_Shipyard_Skirmish,
@@ -411,6 +423,9 @@
 	</StarBase>
 
 	<StarBase Name="Skirmish_Rebel_Star_Base_5">
+	    <Text_ID>TEXT_UNIT_UNSC_STATION_5</Text_ID>
+	    <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STATION_5 TEXT_TOOLTIP_UNSC_STATION_5_COMPLIMENT </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>88000</Shield_Points>

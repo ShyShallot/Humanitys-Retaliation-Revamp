@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <HeroUnits>
 
-     <SpaceUnit Name="UNSC_Fleet_Captain">
+     <SpaceUnit Name="UNSC_Fleet_Captain"> <!-- THIS IS THE COMMANDER DONT LET IT LIE TO YOU -->
 
-        <Text_ID>UNSC-Fleet-Commander</Text_ID>
-        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_FLEET_COMMANDER TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+        <Text_ID>TEXT_UNIT_UNSC_HERO_CMD</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_FLEET_COMMANDER TEXT_TOOLTIP_UNSC_CHARON TEXT_TOOLTIP_UNSC_HERO_CMD_BUFF </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
+		
 		<Is_Named_Hero> Yes </Is_Named_Hero>
 		<Space_Model_Name>UNSC_CHARONClass.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -165,7 +166,7 @@
 		
 
         <Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
+			<Combat_Bonus_Ability Name="UNSC_Space_Captain_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
 				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
 				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
@@ -178,7 +179,7 @@
 				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			<Battlefield_Modifier_Ability Name="Empire_Fleet_Commander_FOW_Increase">
+			<Battlefield_Modifier_Ability Name="Empire_Fleet_Captain_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<FOW_Reveal_Range_Multiplier>1.5</FOW_Reveal_Range_Multiplier>
@@ -201,12 +202,14 @@
 
 
 
-    <SpaceUnit Name="UNSC_FLEET_COMMANDER">
+    <SpaceUnit Name="UNSC_FLEET_COMMANDER"> <!-- THIS IS THE CAPTAIN SPEAKING -->
+	
+		<Variant_Of_Existing_Type> UNSC_HALCYON </Variant_Of_Existing_Type>
 
-        <Text_ID>UNSC-Fleet-Captain</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_FLEET_CAPTAIN </Encyclopedia_Text>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+        <Text_ID>TEXT_UNIT_UNSC_HERO_CPT</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_FLEET_CAPTAIN TEXT_TOOLTIP_UNSC_HALCYON_HONEYCOMB TEXT_TOOLTIP_UNSC_HERO_CPT_BUFF </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
+		
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -249,7 +252,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard, UNSC_Military_Academy</Required_Special_Structures>
 		<Required_Planets>Mars, Earth, Reach, Harmony, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
-		<Tactical_Health>18000</Tactical_Health>
+		<Tactical_Health>85000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -258,7 +261,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>5500</Build_Cost_Credits>
+		<Build_Cost_Credits>14500</Build_Cost_Credits>
 		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Build_Time_Seconds>89</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -285,9 +288,10 @@
 			UNSC_HALCYON_MAC
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 5</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
 		<Icon_Name>I_BUTTON_FLEET_COMMANDER_TWO.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -349,6 +353,10 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+		
+		<Death_Clone />
+		<Death_Explosions>Large_Damage_Space</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 			
        <Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
@@ -362,7 +370,7 @@
 				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Empire_Fleet_Commander_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
@@ -374,20 +382,23 @@
 		</Abilities>
 
         <!-- Build Costs And Limits-->
-        <Tactical_Build_Cost_Multiplayer>3550</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Cost_Multiplayer>14500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>10</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>10</Build_Limit_Lifetime_Per_Player>
 		<!-- Pop Val-->
         <Population_Value>12</Population_Value>
     </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POA">
-		<Text_ID>Captain-Keys</Text_ID>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+	
+		<Text_ID>Pillar-of-HAH-Gotteeem</Text_ID>
+	
+	<!--<Text_ID>TEXT_UNIT_UNSC_HERO_CPT_KEYES</Text_ID> -->
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CPT_KEYES TEXT_TOOLTIP_UNSC_HALCYON_HONEYCOMB TEXT_TOOLTIP_UNSC_HERO_CPT_BUFF </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_POA.ALO</Space_Model_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -420,7 +431,9 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
+		<Death_Clone />
+		<Death_Explosions>Large_Damage_Space</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -433,7 +446,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard, UNSC_Military_Academy</Required_Special_Structures>
 		<Required_Planets>Earth, Reach, Harmony, Mars</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
-		<Tactical_Health>14500</Tactical_Health>
+		<Tactical_Health>88000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -464,6 +477,7 @@
 		<HardPoints> 
 			UNSC_POA_MAC, <!--HP_POA_REACTOR,--> UNSC_POA_HANAGR_01, UNSC_POA_HANAGR_02, UNSC_POA_EG_01, UNSC_POA_EG_02, UNSC_POA_EG_03, UNSC_POA_01, UNSC_POA_02, UNSC_POA_03, UNSC_POA_04, UNSC_POA_05, UNSC_POA_06, UNSC_POA_07, UNSC_POA_08, UNSC_POA_AP_01, UNSC_POA_AP_02, UNSC_POA_AP_03, UNSC_POA_AP_04, UNSC_POA_AP_05, UNSC_POA_AP_06, UNSC_POA_AP_07, UNSC_POA_AP_08, UNSC_POA_AP_09, UNSC_POA_AP_10, UNSC_POA_AP_11, UNSC_POA_AP_12
 		</HardPoints>
+
 		
 		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -567,9 +581,6 @@
 
 		</Abilities>
 
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CPT_KEYES TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -603,10 +614,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_IAC">
-		<Text_ID>HALO_UNSC_IN_AMBER_CLAD</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CMD_KEYES </Encyclopedia_Text>
-		<Encyclopedia_Good_Against> Banshee COVN_SDV COVN_CAR </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CRS</Encyclopedia_Vulnerable_To>
+	
+		<Text_ID>TEXT_UNIT_UNSC_HERO_CMD_KEYES</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CMD_KEYES TEXT_TOOLTIP_UNSC_STALWART TEXT_TOOLTIP_UNSC_HERO_CMD_BUFF </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_STALWART.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -760,12 +771,12 @@
 				<Applicable_Unit_Categories>Corvette | Frigate | Fighter | Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.08</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 
@@ -780,9 +791,10 @@
 
 	<SpaceUnit Name="UNSC_ROMAN_BLUE">
 		<Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
-		<Text_ID>HALO_UNSC_ADMIRAL_HOOD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_UNSC_HERO_ADM_HOOD HALO_UNSC_ADMIRAL_HOOD_ENC HALO_UNSC_ADMIRAL_HOOD_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID> TEXT_UNIT_UNSC_HERO_ADM_HOOD </Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_ADM_HOOD TEXT_TOOLTIP_UNSC_HALCYON TEXT_TOOLTIP_UNSC_HERO_ADM_BUFF</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+		
 		<Build_Cost_Credits>6500</Build_Cost_Credits>
 		<Build_Time_Seconds>110</Build_Time_Seconds>
 		<Icon_Name>I_BUTTON_HOOD.tga</Icon_Name>
@@ -795,8 +807,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Unit_Strength_Category>Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
@@ -804,7 +816,7 @@
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>4</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 
@@ -821,11 +833,9 @@
 	
 	<SpaceUnit Name="B312_Sabre">
 
-		<Text_ID>B312-Sabre</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_HERO_NOBLE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_HERO_B312</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_B312 TEXT_TOOLTIP_UNSC_SABRE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SABRE.alo</Space_Model_Name>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
@@ -858,8 +868,8 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>335</Shield_Points>
 		<Tactical_Health>1065</Tactical_Health>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-		<Energy_Capacity>500</Energy_Capacity>
+		<Shield_Refresh_Rate>220</Shield_Refresh_Rate>
+		<Energy_Capacity>3500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
@@ -960,8 +970,8 @@
 
 	<Squadron Name="B312_Squadron">
 		<Text_ID>B312-EX1-SABRE</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_B312 TEXT_TOOLTIP_UNSC_SABRE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1013,14 +1023,11 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_HERO_NOBLE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Fighter </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
@@ -1028,7 +1035,7 @@
 				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>5</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Empire_Fleet_Commander_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>

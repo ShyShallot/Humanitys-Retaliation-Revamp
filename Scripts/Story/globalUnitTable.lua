@@ -49,11 +49,10 @@ local unit_table = {
     },
     COVN_CAS = {
         Category = "Super",
-        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
+        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED"
     },
     COVN_CSO = {
-        Category = "Super",
-        Global_Value_Check = "CSO_LOCKED"
+        Category = "Super"
     },
     EMPIRE_STAR_BASE_1 = {
         Category = "Structure"
@@ -154,11 +153,11 @@ local unit_table = {
     COVN_DDS = {
         Category = "Capital"
     },
-    COVN_CRS = {
-        Category = "Frigate"
-    },
-    COVN_SDV = {
+    CRS_SQUADRON = {
         Category = "Corvette"
+    },
+    SDV_SQUADRON = {
+        Category = "Frigate"
     },
     SERAPH_SQUADRON = {
         Category = "Fighter"

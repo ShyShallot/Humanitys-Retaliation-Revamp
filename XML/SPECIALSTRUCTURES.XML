@@ -767,7 +767,8 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Aleria, Charybdis_IX, Threshold, Thua</Required_Planets>
-		<Tactical_Health>2750</Tactical_Health>
+		<Shield_Points>12750</Shield_Points>
+		<Tactical_Health>12750</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -952,7 +953,7 @@
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_PLATFORM</Specific_Mod_Source_Text>
 				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
 				<Absolute_Income_Modifier>145</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
@@ -1068,9 +1069,9 @@
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
 				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>515</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>500</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.35</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
@@ -1172,7 +1173,7 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_FARM">
-		<Text_ID>TEXT_UNIT_UNSC_FARM</Text_ID>
+		<Text_ID>TEXT_ORBITAL_COLONY_FARM</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
@@ -1225,45 +1226,26 @@
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
 		<Abilities SubObjectList="Yes">
+		
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_FARM_UPKEEP</Specific_Mod_Source_Text>
 				<!-- 10% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>125</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>25</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
-			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
-				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
-				<Base_Income_Value>0</Base_Income_Value>
-				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
-				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-				<Split_Favors_Owner>No</Split_Favors_Owner>
-				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-			</Income_Stream_Ability>
-			<Force_Healing_Ability Name="E_Mining_Facility_Self_Repair">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
-				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types />
-				<SFXEvent_Target_Affected />
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>
+			
 		</Abilities>
+		
+		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC -->
+		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_UNIT_UNSC_FARM_ENCYCLOPEDIA TEXT_UNIT_UNSC_FARM_LOYALTY TEXT_UNIT_UNSC_FARM_INCOME </Encyclopedia_Text>
+		<Encyclopedia_Text> +100_POPCAP +25_INCOME TEXT_UNIT_UNSC_FARM_ENCYCLOPEDIA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -3216,7 +3198,7 @@
 	
 	<SpecialStructure Name="Rebel_Ground_Mining_Facility">
 		<Select_Box_Scale>200</Select_Box_Scale>
-		<Text_ID>TEXT_GROUND_MINING_FACILITY</Text_ID>
+		<Text_ID>Titanium-Mining-Facility</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
@@ -3236,7 +3218,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -3300,7 +3282,7 @@
 				<!-- 3% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>50</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->

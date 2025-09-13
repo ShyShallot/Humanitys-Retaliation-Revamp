@@ -613,7 +613,7 @@
 	
 
 	<!-- Pathfinding and Movement -->
-	<SpacePathfindMaxExpansions> 3500 </SpacePathfindMaxExpansions>
+	<SpacePathfindMaxExpansions> 13500 </SpacePathfindMaxExpansions>
 	<CurrentPathCostCoefficientSpace> .66 </CurrentPathCostCoefficientSpace>
 
 	<SpacePathfindFrameDelayDelta> 2 </SpacePathfindFrameDelayDelta>
@@ -629,7 +629,7 @@
 	<MinObstacleCostSpace> 1.0 </MinObstacleCostSpace>
 	<MaxObstacleCostSpace> 1.0 </MaxObstacleCostSpace>
 	<ObstacleAreaOverlapForMaxSpace> 1.0 </ObstacleAreaOverlapForMaxSpace>
-	<XYExpansionDistanceSpace> 300.0 </XYExpansionDistanceSpace>
+	<XYExpansionDistanceSpace> 10300.0 </XYExpansionDistanceSpace>
 	<MaxRotationsSpace> 24.0 </MaxRotationsSpace>
 	<MatchFacingDeltaSpace> 10.0 </MatchFacingDeltaSpace>
 	<OccupationRadiusCoefficientSpace> 1.0 </OccupationRadiusCoefficientSpace>
@@ -5025,7 +5025,7 @@
 	<!-- Multiplayer Data End -->
 
 	<!-- This entry can be used to artificially make build times faster in tactical mode when debugging. -->
-	<Tactical_Build_Time_Multiplier> 1 </Tactical_Build_Time_Multiplier>
+	<Tactical_Build_Time_Multiplier> 0.1 </Tactical_Build_Time_Multiplier>
 	
 	<Health_Bar_Scale> 2500.0 </Health_Bar_Scale>
 	<Land_Health_Bar_Scale> 500.0 </Land_Health_Bar_Scale>

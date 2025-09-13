@@ -5,10 +5,8 @@
 	<SpaceUnit Name="Seraph">
 
 		<Text_ID>TEXT_UNIT_COVN_SERAPH</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_SERAPH </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_SERAPH.alo</Space_Model_Name>
 		<Scale_Factor>0.15</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
@@ -22,9 +20,9 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
@@ -39,7 +37,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>160</Shield_Points>
+		<Shield_Points>120</Shield_Points>
 		<Tactical_Health>90</Tactical_Health>
 		<Shield_Refresh_Rate>7</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -57,7 +55,7 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -100,7 +98,7 @@
 		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_SERAPH.tga</Icon_Name>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -154,9 +152,9 @@
 	</SpaceUnit>
 
 	<Squadron Name="Seraph_Squadron">
-		<Text_ID>TEXT_SERAPH_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_COVN_SERAPH_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_SERAPH </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -231,8 +229,6 @@
 			</Sensor_Jamming_Ability>
 		</Abilities>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>180</Tactical_Build_Cost_Multiplayer>
@@ -248,63 +244,13 @@
 	</Squadron>
 	
 
-    <Container Name="Seraph_Squadron_Container">
-		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_COVN_SERAPH</Text_ID>
-		<Icon_Name>I_BUTTON_SERAPH.tga</Icon_Name>
-		<GUI_Model_Name>COVN_SERAPH.ALO</GUI_Model_Name>
-		<GUI_Distance>120</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-	
-		<Icon_Name />
-		
-		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
-		<Hyperspace>No</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SENSOR_JAMMING</Type>
-				<Alternate_Name_Text>HALO_MISSILE_JAM</Alternate_Name_Text>
-                <GUI_Activated_Ability_Name>Serpah_Missile_Jam</GUI_Activated_Ability_Name>
-                <Recharge_Seconds>90.0</Recharge_Seconds>
-                <Expiration_Seconds>15.0</Expiration_Seconds>
-                <Effective_Radius>200.0</Effective_Radius>
-                <Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
-
-			<Unit_Ability>
-                <Type>HUNT</Type>
-            </Unit_Ability>
-		 
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-			<Sensor_Jamming_Ability Name="Serpah_Missile_Jam">
-				<Activation_Style>User_Input</Activation_Style>
-				<Owner_Particle_Effect></Owner_Particle_Effect>
-			
-			</Sensor_Jamming_Ability>
-		</Abilities>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-	</Container>
 
 <!-- Start of Tarasque -->
 	<SpaceUnit Name="Tarasque">
 
 		<Text_ID>TEXT_UNIT_COVN_TARASQUE</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TARASQUE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_TARASQUE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>COVN_TARASQUE.alo</Space_Model_Name>
 		<Scale_Factor>0.06</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
@@ -318,9 +264,9 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
@@ -335,9 +281,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>475</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -353,7 +299,7 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -420,7 +366,7 @@
 		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_TARASQUE.tga</Icon_Name>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -447,9 +393,9 @@
 	</SpaceUnit>
 
 	<Squadron Name="Tarasque_Squadron">
-		<Text_ID>TEXT_TARASQUE_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_COVN_TARASQUE_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_TARASQUE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -459,7 +405,7 @@
 		<Damage>15</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>150</Build_Cost_Credits>
+		<Build_Cost_Credits>320</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -522,11 +468,9 @@
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_TARASQUE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>320</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -539,63 +483,12 @@
 	</Squadron>
 	
 
-    <Container Name="Tarasque_Squadron_Container">
-		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TARASQUE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_COVN_TARASQUE</Text_ID>
-		<Icon_Name>I_BUTTON_TARASQUE.tga</Icon_Name>
-		<GUI_Model_Name>COVN_TARASQUE.ALO</GUI_Model_Name>
-		<GUI_Distance>120</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-	
-		<Icon_Name />
-		
-		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
-		<Hyperspace>No</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Tarasque_High_Plasma</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_COV_Plasma_Missile_Heavy</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_HIGH_PLASMA</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_HIGH_PLASMA_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
-
-		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Tarasque_High_Plasma">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Skirmish_Rebel_Star_Base_1,Skirmish_Rebel_Star_Base_2,Skirmish_Rebel_Star_Base_3,Skirmish_Rebel_Star_Base_4,Skirmish_Rebel_Star_Base_5,Skirmish_Empire_Star_Base_1,Skirmish_Empire_Star_Base_2,Skirmish_Empire_Star_Base_3,Skirmish_Empire_Star_Base_4,Skirmish_Empire_Star_Base_5</Applicable_Unit_Types>
-				<Activation_Max_Range>600.0</Activation_Max_Range>
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>
-	</Container>
-
 <!-- Start of Cerastes -->
 	<SpaceUnit Name="Cerastes">
 
 		<Text_ID>TEXT_UNIT_COVN_CERASTES</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_CERASTES TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_CERASTES </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>COVN_CERASTES.alo</Space_Model_Name>
 		<Scale_Factor>0.12</Scale_Factor>
 		<Select_Box_Scale>15</Select_Box_Scale>
@@ -608,9 +501,9 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
@@ -625,9 +518,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>20</Shield_Points>
-		<Tactical_Health>80</Tactical_Health>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>600</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -641,7 +534,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Number_per_Squadron>3</Number_per_Squadron>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -684,7 +577,7 @@
 		<CategoryMask>Bomber | AntiFrigate</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_CERASTES.tga</Icon_Name>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -711,9 +604,9 @@
 	</SpaceUnit>
 
 	<Squadron Name="Cerastes_Squadron">
-		<Text_ID>TEXT_CERASTES_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_COVN_CERASTES_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_CERASTES </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -723,7 +616,7 @@
 		<Damage>15</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>125</Build_Cost_Credits>
+		<Build_Cost_Credits>280</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -762,11 +655,9 @@
 		<Create_Team_Type>Cerastes_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_CERASTES TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>120</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>280</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -779,39 +670,12 @@
 	</Squadron>
 	
 
-    <Container Name="Cerastes_Squadron_Container">
-		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_CERASTES TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_COVN_CERASTES</Text_ID>
-		<Icon_Name>I_BUTTON_CERASTES.tga</Icon_Name>
-		<GUI_Model_Name>COVN_CERASTES.ALO</GUI_Model_Name>
-		<GUI_Distance>120</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-	
-		<Icon_Name />
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		
-		<CategoryMask>Bomber | AntiFrigate </CategoryMask>
-		<Hyperspace>No</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
-	</Container>
-
 <!-- Start of Banshee-->
 	<SpaceUnit Name="Banshee">
 
-		<Text_ID>TEXT_UNIT_COVN_BANSEE</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BANSEE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_COVN_BANSHEE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_BANSHEE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>COVN_BANSHEE.alo</Space_Model_Name>
 		<Scale_Factor>0.25</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
@@ -825,9 +689,9 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>3.8</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
@@ -842,9 +706,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>20</Shield_Points>
-		<Tactical_Health>40</Tactical_Health>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -860,7 +724,7 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -904,7 +768,7 @@
 		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_BANSHEE.tga</Icon_Name>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -942,9 +806,9 @@
 	</SpaceUnit>
 
 	<Squadron Name="Banshee_Squadron">
-		<Text_ID>TEXT_BANSHEE_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_COVN_BANSHEE_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_BANSHEE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -954,7 +818,7 @@
 		<Damage>15</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>90</Build_Cost_Credits>
+		<Build_Cost_Credits>75</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -1004,8 +868,6 @@
 
 		</Abilities>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_BANSEE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>90</Tactical_Build_Cost_Multiplayer>
@@ -1021,36 +883,4 @@
 	</Squadron>
 	
 
-    <Container Name="Banshee_Squadron_Container">
-		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BANSEE TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UNIT_COVN_BANSEE</Text_ID>
-		<Icon_Name>I_BUTTON_BANSHEE.tga</Icon_Name>
-		<GUI_Model_Name>COVN_BANSHEE.ALO</GUI_Model_Name>
-		<GUI_Distance>120</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-	
-		<Icon_Name />
-		
-		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
-		<Hyperspace>No</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-		 
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-		</Abilities>
-	</Container>
 </FighterUnits>

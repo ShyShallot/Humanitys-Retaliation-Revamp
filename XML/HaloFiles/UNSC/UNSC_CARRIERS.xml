@@ -2,8 +2,8 @@
 <CarrierUnits>
     <SpaceUnit Name="UNSC_MUSASHI">
 		<Text_ID>TEXT_UNIT_UNSC_MUSASHI</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Vengeance_Frigate </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI TEXT_TOOLTIP_UNSC_MUSASHI_COMPLIMENT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ESCORT_CARRIER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -58,10 +58,10 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>6750</Build_Cost_Credits>
+		<Build_Cost_Credits>2450</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3500</AI_Combat_Power>
-		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
@@ -83,15 +83,15 @@
 		</HardPoints>
 		
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 16</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 14</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -223,12 +223,10 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI HALO_FIGHTERS_MUSASHI TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -250,9 +248,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON">
-		<Text_ID>TEXT_UNSC_POSEIDON</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Vengeance_Frigate </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_POSEIDON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_TOOLTIP_UNSC_POSEIDON_COMPLIMENT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CARRIER </Encyclopedia_Unit_Class>
+	
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_POSEIDON.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -332,7 +331,8 @@
 			<!--HP_POSEIDON_REACTOR,--> UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
@@ -462,19 +462,17 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_SPACE HALO_FIGHTERS_POSEIDON HALO_SHIP_REPAIR_SMALL HALO_SHIP_HEAL_RATE_POSEIDON TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>9</Population_Value>
+		<Population_Value>6</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON_2">

@@ -118,7 +118,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
@@ -136,7 +136,7 @@
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
-		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_SCOUTTROOPER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
@@ -265,7 +265,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<AI_Combat_Power>7</AI_Combat_Power>
 
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -377,11 +377,11 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>100</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
-		<Energy_Capacity>0</Energy_Capacity>
-		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Energy_Capacity>1</Energy_Capacity>
+		<Energy_Refresh_Rate>1</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -403,6 +403,8 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -431,7 +433,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>7</AI_Combat_Power>
 
@@ -600,7 +602,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>20</AI_Combat_Power>
 
@@ -744,7 +746,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Tactical_Health>20</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -760,8 +762,8 @@
 		
 		<Projectile_Types>MA5C</Projectile_Types>
 
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
-		<Projectile_Fire_Recharge_Seconds>0.3</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -803,7 +805,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<Death_Clone>Damage_Force_Whirlwind, Rebel_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Rebel_Trooper_Force_Lightning_Death_Clone</Death_Clone>
@@ -940,7 +942,7 @@
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>300</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -969,7 +971,7 @@
 	
 		<Projectile_Types>Tank_Boom</Projectile_Types>
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>13.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>5.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -1155,7 +1157,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>5</AI_Combat_Power>
 		
@@ -1319,7 +1321,7 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		  
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>No</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 
@@ -1490,7 +1492,7 @@
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>6</AI_Combat_Power>
 
@@ -1652,7 +1654,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>12</AI_Combat_Power>
 
@@ -1785,7 +1787,7 @@
 		
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1937,7 +1939,7 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>7</AI_Combat_Power>
 
@@ -2015,7 +2017,7 @@
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>Covenant-Elite</Text_ID>
 		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SHIELDED</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Max_Speed> 1 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
@@ -2028,7 +2030,7 @@
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Army-Trooper</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>		
+		<Is_Squashable> No </Is_Squashable>		
 		<Max_Speed> 1 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
@@ -2059,7 +2061,7 @@
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Squashable> No </Is_Squashable>
 		<Max_Speed> 1 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>

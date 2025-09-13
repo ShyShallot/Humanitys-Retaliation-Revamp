@@ -1,0 +1,916 @@
+name: Root
+tail location: <Vector (-0.0259, 9.4634, -1.2505)>
+bone vector: <Vector (-0.0000, -1.1230, 0.0000)>
+\-------------------/
+
+______________________________________________________
+M870s are the visible (but non rotating) anti fighter weapons on the "wing" tips.
+this block represents  the left hand weapons
+name: HP_M870_01
+tail location: <Vector (-36.9734, 21.2974, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_01_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_02
+tail location: <Vector (-36.9734, 13.1630, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_02_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_03
+tail location: <Vector (-36.9734, 5.0322, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_03_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_04
+tail location: <Vector (-36.9734, -3.1110, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_04_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_05
+tail location: <Vector (-36.9734, -11.2365, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_05_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_06
+tail location: <Vector (-36.9734, -19.3972, -3.0695)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M870_06_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+______________________________________________________
+______________________________________________________
+M66s are the visible anti ship turrets on the "wings."
+this block represents the left hand weapons 
+ 
+name: HP_M66_01
+tail location: <Vector (-20.5914, -38.5206, 3.6953)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_01_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_02
+tail location: <Vector (-20.5853, -24.5697, 3.6849)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_02_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_03
+tail location: <Vector (-20.5853, -10.5859, 3.6849)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_03_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_04
+tail location: <Vector (-20.5853, 3.3978, 3.6849)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_04_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_05
+tail location: <Vector (-20.5853, 17.3816, 3.6849)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_05_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_06
+tail location: <Vector (-20.5853, 31.3653, 3.6849)>
+bone vector: <Vector (0.0156, -0.9995, -0.0270)>
+\-------------------/
+name: HP_M66_06_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+This is the mac gun. It's a frigate gun but shoots much faster
+name: HP_MAC
+tail location: <Vector (-0.9942, 89.7037, -2.2768)>
+bone vector: <Vector (-1.0000, 0.0000, -0.0000)>
+\-------------------/
+name: HP_MAC_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+For the sake of simplicity, every archer pod is paired with its neighbor into a single bone. 
+so the ship has less bones then it does archer pods
+this block represents the archers on the right hand side of the ship, behind the main hangar. 
+name: HP_Archer_03
+tail location: <Vector (-10.5774, -44.0517, -16.3167)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_03_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_05
+tail location: <Vector (-10.5774, -50.7184, -16.3167)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_05_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_01
+tail location: <Vector (-10.2849, -37.6614, -16.1010)>
+bone vector: <Vector (0.1736, 0.9848, 0.0000)>
+\-------------------/
+name: HP_Archer_01_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_07
+tail location: <Vector (-14.0534, -57.7127, -16.5673)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_07_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_06
+tail location: <Vector (-11.9376, -54.4651, -16.4833)>
+bone vector: <Vector (0.1736, 0.9848, 0.0000)>
+\-------------------/
+name: HP_Archer_06_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents left half of the archers under the main hangar
+name: HP_Archer_08
+tail location: <Vector (-3.5884, -56.0333, -18.9434)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_08_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_09
+tail location: <Vector (-3.5884, -59.1899, -18.9434)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_09_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_10
+tail location: <Vector (-3.5884, -62.5552, -18.9434)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_10_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_11
+tail location: <Vector (-3.5884, -65.7361, -18.9434)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_11_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_12
+tail location: <Vector (-3.5884, -68.7019, -18.9434)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_12_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the left half of the rear facing archers under the ship
+name: HP_Archer_16
+tail location: <Vector (-4.3592, -83.1007, -17.0667)>
+bone vector: <Vector (-0.0446, 0.8692, -0.4925)>
+\-------------------/
+name: HP_Archer_16_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_17
+tail location: <Vector (-7.5622, -83.1007, -17.0667)>
+bone vector: <Vector (-0.0446, 0.8692, -0.4925)>
+\-------------------/
+name: HP_Archer_17_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_18
+tail location: <Vector (-10.8752, -83.1007, -17.0667)>
+bone vector: <Vector (-0.0446, 0.8692, -0.4925)>
+\-------------------/
+name: HP_Archer_18_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_13
+tail location: <Vector (-4.5342, -79.6917, -18.9985)>
+bone vector: <Vector (-0.0446, 0.8692, -0.4925)>
+\-------------------/
+name: HP_Archer_13_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_15
+tail location: <Vector (-11.0503, -79.6917, -18.9985)>
+bone vector: <Vector (-0.0446, 0.8692, -0.4925)>
+\-------------------/
+name: HP_Archer_15_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the left archers under the mac gun.
+name: HP_Archer_27
+tail location: <Vector (-2.7661, 46.0178, -13.0797)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_27_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_26
+tail location: <Vector (-2.7661, 48.7946, -13.0797)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_26_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+The bident is a long range ship to ship nuclear weapon.
+the ship is supposed to have 20 in its wings (somehow) and also i forgot to model them so it only has two bones. 
+pretend that each "pod" is actually a reload or something
+this is the left launcher 
+name: HP_Bident_01
+tail location: <Vector (-15.2805, 87.4205, 3.0470)>
+bone vector: <Vector (1.0000, 0.0000, -0.0000)>
+\-------------------/
+name: HP_Bident_01_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+
+_____________________________________________________
+_____________________________________________________
+this block represents the left half the archers on top of the ship
+
+name: HP_Archer_22
+tail location: <Vector (-2.2881, -100.4298, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_22_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_21
+tail location: <Vector (-2.2881, -97.7954, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_21_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_23
+tail location: <Vector (-2.2881, -103.0981, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_23_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_24
+tail location: <Vector (-2.2881, -105.8676, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_24_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_20
+tail location: <Vector (-2.2881, -86.0053, 22.7143)>
+bone vector: <Vector (0.0000, 0.9397, -0.3420)>
+\-------------------/
+name: HP_Archer_20_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_19
+tail location: <Vector (-2.2881, -83.7396, 21.7995)>
+bone vector: <Vector (-0.0000, 0.9397, -0.3420)>
+\-------------------/
+name: HP_Archer_19_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+the breakwater is the largest turret in the UNSC's inventory. this is the left hand turret
+name: HP_breakwater_01
+tail location: <Vector (-14.9311, 90.0203, 6.8575)>
+bone vector: <Vector (-0.9062, -0.0027, -0.4229)>
+\-------------------/
+name: HP_breakwater_01_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+the M810 is an invisible secondary anti fighter weapon. 
+It is older and less effective then the M870
+this block represents the left hand emplacements under the mac gun
+name: HP_M810_01
+tail location: <Vector (-5.1429, 61.3066, -22.4054)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_01_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_02
+tail location: <Vector (-5.1429, 54.3389, -22.4054)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_02_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the emplacements under the left hand "ribs" infront of the engines
+name: HP_M810_03
+tail location: <Vector (-15.7325, -88.1469, -9.4565)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_03_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_04
+tail location: <Vector (-16.2652, -102.7004, -9.4565)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_04_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_06
+tail location: <Vector (-16.6226, -114.2434, -9.4565)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_06_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the left hand emplacements on top of the small shelf above the ribs at the rear of the ship
+name: HP_M810_05
+tail location: <Vector (-12.3913, -101.1101, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_05_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_10
+tail location: <Vector (-12.3913, -93.4354, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_10_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_09
+tail location: <Vector (-12.3913, -88.4162, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_09_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the left guns on top of the mac gun
+name: HP_M810_08
+tail location: <Vector (-3.7920, 54.4607, 20.0677)>
+bone vector: <Vector (-0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_08_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_07
+tail location: <Vector (-3.7920, 61.2039, 20.0677)>
+bone vector: <Vector (-0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_07_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+engines make the ship go
+name: ENGINE_04
+tail location: <Vector (-2.2717, -152.1767, 12.8316)>
+bone vector: <Vector (1.0000, 0.0000, -0.0000)>
+\-------------------/
+name: ENGINE_04_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: ENGINE_02
+tail location: <Vector (-5.4933, -152.1767, -10.9454)>
+bone vector: <Vector (1.0000, 0.0000, 0.0000)>
+\-------------------/
+name: ENGINE_02_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+______________________________________________________
+______________________________________________________
+M870s are the visible (but non rotating) anti fighter weapons on the "wing" tips.
+this block represents  the right hand weapons
+name: HP_M870_07
+tail location: <Vector (37.0046, 23.2964, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_07_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_08
+tail location: <Vector (37.0046, 15.1621, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_08_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_09
+tail location: <Vector (37.0046, 7.0312, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_09_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_10
+tail location: <Vector (37.0046, -1.1119, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_10_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M870_11
+tail location: <Vector (37.0046, -9.2375, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_11_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M870_12
+tail location: <Vector (37.0046, -17.3982, -3.0154)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M870_12_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+______________________________________________________
+M66s are the visible anti ship turrets on the "wings."
+this block represents the right hand weapons 
+name: HP_M66_07
+tail location: <Vector (20.6225, -36.5216, 3.7494)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_07_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_08
+tail location: <Vector (20.6165, -22.5706, 3.7389)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_08_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_09
+tail location: <Vector (20.6165, -8.5869, 3.7389)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_09_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_10
+tail location: <Vector (20.6165, 5.3969, 3.7389)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_10_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M66_11
+tail location: <Vector (20.6165, 19.3806, 3.7389)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_11_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M66_12
+tail location: <Vector (20.6165, 33.3644, 3.7389)>
+bone vector: <Vector (0.0156, 0.9995, 0.0270)>
+\-------------------/
+name: HP_M66_12_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+For the sake of simplicity, every archer pod is paired with its neighbor into a single bone. 
+so the ship has less bones then it does archer pods
+this block represents the archers on the right hand side of the ship, behind the main hangar. 
+name: HP_Archer_28
+tail location: <Vector (10.5774, -42.8853, -16.3167)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_28_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_29
+tail location: <Vector (10.5774, -46.0517, -16.3167)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_29_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_30
+tail location: <Vector (10.5774, -49.4207, -16.3167)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_30_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_31
+tail location: <Vector (10.5774, -52.7184, -16.3167)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_31_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_32
+tail location: <Vector (10.6321, -39.6310, -16.1010)>
+bone vector: <Vector (0.1736, -0.9848, 0.0000)>
+\-------------------/
+name: HP_Archer_32_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_33
+tail location: <Vector (14.0534, -59.7127, -16.5673)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_33_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_34
+tail location: <Vector (12.2849, -56.4347, -16.4833)>
+bone vector: <Vector (0.1736, -0.9848, 0.0000)>
+\-------------------/
+name: HP_Archer_34_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right half of the archers under the hangar 
+name: HP_Archer_35
+tail location: <Vector (3.5884, -58.0333, -18.9434)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_35_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_36
+tail location: <Vector (3.5884, -61.1899, -18.9434)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_36_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_37
+tail location: <Vector (3.5884, -64.5552, -18.9434)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_37_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_38
+tail location: <Vector (3.5884, -67.7361, -18.9434)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_38_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_39
+tail location: <Vector (3.5884, -70.7019, -18.9434)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_39_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right rear firing archers
+
+name: HP_Archer_40
+tail location: <Vector (4.2699, -84.8390, -16.0816)>
+bone vector: <Vector (-0.0446, -0.8692, 0.4925)>
+\-------------------/
+name: HP_Archer_40_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_41
+tail location: <Vector (7.4729, -84.8390, -16.0816)>
+bone vector: <Vector (-0.0446, -0.8692, 0.4925)>
+\-------------------/
+name: HP_Archer_41_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_42
+tail location: <Vector (10.7860, -84.8390, -16.0816)>
+bone vector: <Vector (-0.0446, -0.8692, 0.4925)>
+\-------------------/
+name: HP_Archer_42_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_43
+tail location: <Vector (4.4450, -81.4300, -18.0134)>
+bone vector: <Vector (-0.0446, -0.8692, 0.4925)>
+\-------------------/
+name: HP_Archer_43_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_45
+tail location: <Vector (10.9610, -81.4300, -18.0134)>
+bone vector: <Vector (-0.0446, -0.8692, 0.4925)>
+\-------------------/
+name: HP_Archer_45_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right archers under the mac gun
+name: HP_Archer_46
+tail location: <Vector (2.7661, 44.0178, -13.0797)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_46_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_47
+tail location: <Vector (2.7661, 46.7946, -13.0797)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_47_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+Joe Bident
+name: HP_Bident_48
+tail location: <Vector (17.2805, 87.4205, 3.0470)>
+bone vector: <Vector (1.0000, 0.0000, -0.0000)>
+\-------------------/
+name: HP_Bident_48_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+this block represents the right half of the archers on the top of the ship
+name: HP_Archer_49
+tail location: <Vector (2.2881, -100.4298, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_49_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_50
+tail location: <Vector (2.2881, -97.7954, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_50_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_51
+tail location: <Vector (2.2881, -103.0981, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_51_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_52
+tail location: <Vector (2.2881, -105.8676, 23.5071)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_52_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_Archer_53
+tail location: <Vector (2.2881, -86.0053, 22.7143)>
+bone vector: <Vector (0.0000, 0.9397, -0.3420)>
+\-------------------/
+name: HP_Archer_53_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_Archer_54
+tail location: <Vector (2.2881, -83.7396, 21.7995)>
+bone vector: <Vector (-0.0000, 0.9397, -0.3420)>
+\-------------------/
+name: HP_Archer_54_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+this is the right hand breakwater 
+name: HP_breakwater_02
+tail location: <Vector (13.1202, 90.1128, 7.6970)>
+bone vector: <Vector (-0.9047, 0.0897, 0.4166)>
+\-------------------/
+name: HP_breakwater_02_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+_____________________________________________________
+the M810 is an invisible secondary anti fighter weapon. 
+It is older and less effective then the M870
+this block represents the left hand emplacements under the mac gun
+name: HP_M810_11
+tail location: <Vector (5.1429, 59.3066, -22.4054)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_11_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_12
+tail location: <Vector (5.1429, 52.3389, -22.4054)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_12_end
+tail location: <Vector (-0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right hand weapons under the "ribs" at the back of the ship
+
+name: HP_M810_13
+tail location: <Vector (15.7325, -90.1469, -9.4565)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_13_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_14
+tail location: <Vector (16.2652, -104.7004, -9.4565)>
+bone vector: <Vector (-0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_14_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_15
+tail location: <Vector (16.6225, -116.2434, -9.4565)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_15_end
+tail location: <Vector (-0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (-0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right hand weapons on the shelf near the rear of the ship
+
+name: HP_M810_16
+tail location: <Vector (12.3913, -101.1101, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_16_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_17
+tail location: <Vector (12.3913, -93.4354, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_17_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: HP_M810_18
+tail location: <Vector (12.3913, -88.4162, 11.7527)>
+bone vector: <Vector (0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_18_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+_____________________________________________________
+this block represents the right hand weapons on top of the mac gun
+
+name: HP_M810_19
+tail location: <Vector (3.7920, 54.4607, 20.0677)>
+bone vector: <Vector (-0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_19_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_20
+tail location: <Vector (3.7920, 61.2039, 20.0677)>
+bone vector: <Vector (-0.0000, -1.0000, 0.0000)>
+\-------------------/
+name: HP_M810_20_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+_____________________________________________________
+"you will help us go"
+
+name: ENGINE_03
+tail location: <Vector (2.2716, -152.1767, 12.8316)>
+bone vector: <Vector (-1.0000, 0.0000, -0.0000)>
+\-------------------/
+name: ENGINE_03_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/
+name: ENGINE_05
+tail location: <Vector (5.4933, -152.1767, -10.9454)>
+bone vector: <Vector (-1.0000, 0.0000, 0.0000)>
+\-------------------/
+name: ENGINE_05_end
+tail location: <Vector (0.0000, 1.0000, 0.0000)>
+bone vector: <Vector (0.0000, 1.0000, 0.0000)>
+\-------------------/
+name: ENGINE_01
+tail location: <Vector (1.0000, -151.6835, 1.8270)>
+bone vector: <Vector (1.0000, 0.0000, 0.0000)>
+\-------------------/
+name: ENGINE_01_end
+tail location: <Vector (0.0000, 1.0000, -0.0000)>
+bone vector: <Vector (0.0000, 1.0000, -0.0000)>
+\-------------------/

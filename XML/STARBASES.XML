@@ -24,7 +24,7 @@
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>5250</Build_Cost_Credits>
+		<Build_Cost_Credits>11500</Build_Cost_Credits>
 		<!-- <AI_Combat_Power>5000</AI_Combat_Power> -->
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -70,7 +70,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -160,7 +160,7 @@
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>8050</Build_Cost_Credits>
+		<Build_Cost_Credits>17500</Build_Cost_Credits>
 		<!-- <AI_Combat_Power>10000</AI_Combat_Power> -->
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -212,7 +212,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -304,7 +304,7 @@
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>9250</Build_Cost_Credits>
+		<Build_Cost_Credits>21000</Build_Cost_Credits>
 		<!-- <AI_Combat_Power>15000</AI_Combat_Power> -->
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -358,7 +358,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -448,7 +448,7 @@
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>11250</Build_Cost_Credits>
+		<Build_Cost_Credits>27500</Build_Cost_Credits>
 		<!-- <AI_Combat_Power>20000</AI_Combat_Power> -->
 		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -504,7 +504,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -588,7 +588,7 @@
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>16500</Build_Cost_Credits>
+		<Build_Cost_Credits>32550</Build_Cost_Credits>
 		<!-- <AI_Combat_Power>35000</AI_Combat_Power> -->
 		<Build_Time_Seconds>145</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -653,7 +653,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -768,7 +768,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<HardPoints>
 			HP_Empire_Station_Training_00, HP_Empire_Station_Training_01, HP_Empire_Station_Training_02, HP_Empire_Station_Training_03
@@ -860,7 +860,7 @@
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
@@ -926,7 +926,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_STATION_TIER_1.ALO</Space_Model_Name>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>2.5</Scale_Factor>
 		<Galactic_Model_Name>UNSC_STATION_TIER_1_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -977,7 +977,7 @@
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
@@ -1072,7 +1072,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>2.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_2.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_2_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>400</Select_Box_Scale>
@@ -1124,7 +1124,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1218,7 +1218,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>2.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_3.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_3_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>450</Select_Box_Scale>
@@ -1279,7 +1279,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1375,7 +1375,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>2.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_4.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_4_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
@@ -1438,7 +1438,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1538,7 +1538,7 @@
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>2.5</Scale_Factor>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UNSC_STATION_TIER_5.ALO</Space_Model_Name>
@@ -1612,7 +1612,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>

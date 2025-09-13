@@ -19,7 +19,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>325</Planet_Credit_Value>
+    <Planet_Credit_Value>650</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
@@ -31,7 +31,7 @@
     <Space_Tactical_Map>GC_Reach.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-    <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+    <Planet_Capture_Bonus_Reward> 12300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
     <Planet_Slice_Affinity_Types/>
@@ -50,13 +50,13 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>305</Additional_Population_Capacity>
+    <Additional_Population_Capacity>605</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Price_Ability Name="Reach_Tech_Boost">
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital </Applicable_Unit_Categories> 
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -68,6 +68,23 @@
         <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+	  <Reduce_Production_Price_Ability Name="Titanium_Price">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>0</Stacking_Category>
+        <Galaxy_Wide> Yes </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
+      <Reduce_Production_Time_Ability Name="Titanium_Production">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.35</Time_Reduction_Percentage>
+        <Stacking_Category>0</Stacking_Category>
+        <Galaxy_Wide> Yes </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
     </Abilities>
   </Planet>
@@ -853,7 +870,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>2500</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-10.0, -228.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -890,7 +907,7 @@
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -899,7 +916,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
@@ -1013,7 +1030,7 @@
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital, Structure</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -1022,7 +1039,7 @@
         <Applicable_Unit_Categories> Fighter, Bomber, Frigate, Capital, Structure</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
@@ -1292,7 +1309,7 @@
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories>Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -1301,7 +1318,7 @@
         <Applicable_Unit_Categories>Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
@@ -1860,11 +1877,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>230</Planet_Credit_Value>
+    <Planet_Credit_Value>15</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>89.0, 277.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Land>1</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -1892,7 +1909,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>75</Additional_Population_Capacity>
+    <Additional_Population_Capacity>100</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Price_Ability Name="Thua_Tech_Boost">
         <Unit_Strength_Category/>
@@ -1923,11 +1940,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>360</Planet_Credit_Value>
+    <Planet_Credit_Value>750</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-3.0, 335.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -1954,7 +1971,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>175</Additional_Population_Capacity>
+    <Additional_Population_Capacity>1800</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Price_Ability Name="Glyke_Slave_Boost">
         <Unit_Strength_Category/>
@@ -1994,11 +2011,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>15</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-64.0, 268.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2047,11 +2064,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>1</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-195.0, 145.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Land>3</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2078,7 +2095,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>75</Additional_Population_Capacity>
+    <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Balaho">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2099,12 +2116,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>250</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-251.0, 152.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>4</Max_Space_Base>
+    <Special_Structures_Land>4</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>1</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2130,17 +2147,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <Abilities SubObjectList="Yes">
-      <Reduce_Production_Price_Ability Name="Balaho_Fighter_Boost">
-        <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
-        <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>1</Stacking_Category>
-        <Galaxy_Wide> No </Galaxy_Wide>
-      </Reduce_Production_Price_Ability>
-    </Abilities>
+    <Additional_Population_Capacity>150</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Te">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2161,12 +2168,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>250</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-26.0, 210.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>4</Max_Space_Base>
+    <Special_Structures_Land>3</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2192,7 +2199,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>50</Additional_Population_Capacity>
+    <Additional_Population_Capacity>100</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Te_Tech_Reduction">
         <Unit_Strength_Category/>
@@ -2224,12 +2231,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>360</Planet_Credit_Value>
+    <Planet_Credit_Value>950</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>101.0, 329.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>3</Special_Structures_Land>
-    <Special_Structures_Space>9</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2250,12 +2257,12 @@
     <Describe_History>TEXT_PLANET_DOISAC_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_DOISAC_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_DOISAC_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>175</Additional_Population_Capacity>
+    <Additional_Population_Capacity>5100</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Sanghelios">
@@ -2277,11 +2284,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>360</Planet_Credit_Value>
+    <Planet_Credit_Value>5850</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-144.0, 135.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>3</Special_Structures_Land>
-    <Special_Structures_Space>9</Special_Structures_Space>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2308,17 +2315,26 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-   <Additional_Population_Capacity>250</Additional_Population_Capacity>
+   <Additional_Population_Capacity>4500</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Price_Ability Name="Sanghelios_Tech_Boost">
         <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>Capital, Super</Applicable_Unit_Categories>
+        <Applicable_Unit_Categories>Capital, Frigate, Corvette</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.35</Price_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
-    </Abilities>
+     <Reduce_Production_Time_Ability Name="Sanghelios_Tech_Reduction">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Capital, Frigate, Corvette</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.35</Time_Reduction_Percentage>
+        <Stacking_Category>1</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+	</Abilities>
   </Planet>
   <Planet Name="Rhanelo">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2339,12 +2355,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-212.0, 340.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Special_Structures_Land>6</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2365,12 +2381,12 @@
     <Describe_History>TEXT_PLANET_RHANELO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_RHANELO_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_RHANELO_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_6</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+    <Additional_Population_Capacity>100</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Song_Of_Victory">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2391,11 +2407,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>750</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-161.0, 221.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2422,14 +2438,14 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>20</Additional_Population_Capacity>
+    <Additional_Population_Capacity>250</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Song_Tech_Reduction">
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories/>
-        <Applicable_Unit_Types> COVN_CAS </Applicable_Unit_Types>
+        <Applicable_Unit_Types> COVN_CAS</Applicable_Unit_Types>
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
         <Stacking_Category>1</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
@@ -2454,12 +2470,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>650</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-294.0, 96.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>4</Max_Space_Base>
+    <Special_Structures_Land>4</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2480,12 +2496,12 @@
     <Describe_History>TEXT_PLANET_EAYN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_EAYN_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_EAYN_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>150</Additional_Population_Capacity>
+    <Additional_Population_Capacity>400</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Bhedalon">
@@ -2507,11 +2523,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>250</Planet_Credit_Value>
+    <Planet_Credit_Value>350</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-161.0, 181.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Land>4</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2570,12 +2586,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>1</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-96.0, 175.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Special_Structures_Land>4</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>1</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2601,7 +2617,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>75</Additional_Population_Capacity>
+    <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Feldokra">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2622,12 +2638,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>400</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-213.0, 41.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Special_Structures_Land>7</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2648,12 +2664,12 @@
     <Describe_History>TEXT_PLANET_FELDOKRA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_FELDOKRA_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FELDOKRA_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+    <Additional_Population_Capacity>225</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Ulgethon">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2674,12 +2690,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>125</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-209.0, 216.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>2</Max_Space_Base>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2726,12 +2742,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-310.0, 199.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>4</Max_Space_Base>
+    <Special_Structures_Land>3</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2757,7 +2773,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>150</Additional_Population_Capacity>
+    <Additional_Population_Capacity>7169</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Ven_III">
@@ -2779,12 +2795,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-303.0, 251.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Special_Structures_Land>1</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>1</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2810,11 +2826,11 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>75</Additional_Population_Capacity>
+    <Additional_Population_Capacity>5</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Ven_Tech_Reduction">
         <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+        <Applicable_Unit_Categories>Corvette, Fighter, Bomber</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
@@ -2842,12 +2858,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>250</Planet_Credit_Value>
+    <Planet_Credit_Value>650</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-104.0, 356.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>4</Max_Space_Base>
+    <Special_Structures_Land>2</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2874,7 +2890,17 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <Abilities SubObjectList="Yes"/>
+    <Abilities SubObjectList="Yes">
+	 <Reduce_Production_Time_Ability Name="Kostroda_Tech_Reduction">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Capital, Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+        <Stacking_Category>1</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
   <Planet Name="Khaelmothka">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2895,11 +2921,11 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>125</Planet_Credit_Value>
+    <Planet_Credit_Value>25</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>185.0, 296.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
+    <Special_Structures_Space>10</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -2926,7 +2952,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+    <Additional_Population_Capacity>100</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Tvao">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2947,12 +2973,12 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>125</Planet_Credit_Value>
+    <Planet_Credit_Value>150</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>44.0, 234.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>7</Special_Structures_Space>
-    <Max_Space_Base>2</Max_Space_Base>
+    <Special_Structures_Land>1</Special_Structures_Land>
+    <Special_Structures_Space>10</Special_Structures_Space>
+    <Max_Space_Base>1</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2978,6 +3004,6 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>75</Additional_Population_Capacity>
+    <Additional_Population_Capacity>250</Additional_Population_Capacity>
   </Planet>
 </Planets>

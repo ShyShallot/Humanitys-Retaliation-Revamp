@@ -173,11 +173,11 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  6500 </Starting_Credits>
+		<Starting_Credits> Rebel,  10500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
-		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Earth, UNSC_Light_Shipyard </Starting_Forces>
 
@@ -185,35 +185,35 @@
 		
 		<Starting_Forces> Rebel, Earth, UNSC_Heavy_Shipyard </Starting_Forces>
 
-		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Reach, UNSC_Light_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Reach, UNSC_Medium_Shipyard </Starting_Forces>
 
-		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Falaknuma, UNSC_Light_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Falaknuma, UNSC_Medium_Shipyard </Starting_Forces>
 
-		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Rebel, Mars, UNSC_Light_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Mars, UNSC_Medium_Shipyard </Starting_Forces>
 
-		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Miridem, UNSC_Light_Shipyard </Starting_Forces>
 
@@ -243,11 +243,11 @@
 
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire, 146500 </Starting_Credits>
+		<Starting_Credits> Empire, 16500 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_5</Starting_Forces>
 
 		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
 
@@ -255,7 +255,7 @@
 
 		<Starting_Forces> Empire, Te, Empire_Star_Base_4</Starting_Forces>
 
-		<Starting_Forces> Empire, Song_Of_Victory, Empire_Star_Base_4</Starting_Forces>
+		<Starting_Forces> Empire, Song_Of_Victory, Empire_Star_Base_5</Starting_Forces>
 
 		<Starting_Forces> Empire, Eayn, Empire_Star_Base_4</Starting_Forces>
 
@@ -271,7 +271,7 @@
 
 		<Starting_Forces> Empire, Victors_Truth, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Doisac, Empire_Star_Base_2</Starting_Forces>
+		<Starting_Forces> Empire, Doisac, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Rhanelo, Empire_Star_Base_3</Starting_Forces>
 
@@ -493,25 +493,25 @@
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
-		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Arcadia, Rebel_Star_Base_2 </Starting_Forces>
 

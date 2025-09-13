@@ -195,7 +195,7 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -221,7 +221,7 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -513,6 +513,8 @@
 		<Projectile_Ground_Detonation_Particle>Nuke_Explode_Space</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Nuke_Explode_Space</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
 		<AI_Combat_Power>900</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
@@ -534,61 +536,30 @@
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		
 		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
-		<Max_Speed>20.0</Max_Speed>
-		
-	</Projectile>
-
-	<Projectile Name="Proj_UNSC_Ship_Missile"> <!-- Unused -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_UNSC_Missile_Normal </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
-		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2800.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		
-		<!-- <Projectile_Rocket_Curve_Distance>400</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>200</Projectile_Rocket_Straight_Distance> -->
-		
-		<Projectile_Damage>42</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MISSILE_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Absorbed_By_Shields_Particle> Small_Explosion_MISSILE </Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>650</AI_Combat_Power>
-		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
-		or too low might also lag or crash the game -->
-
-		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
-		<!-- <Lua_Script>ProjectileTest</Lua_Script> -->
 		
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard Weapon for Almost all Frigate and Capitals -->
+
+	<Projectile Name="Proj_UNSC_Archer_Missile_Backup"> <!-- This is Pre Optimization Missile | Unused -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
 		<Max_Speed>18.5</Max_Speed>
-	    <Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+	    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, </Behavior>
-		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 			<!-- was 750, changed so it doesn't reacquire targets -->
 		
-	    <Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+	    <!-- <Projectile_Rocket_Curve_Distance>1450</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance> -->
+		
+		<!-- THIS WORKS DONT DELETE THIS EVER PERIOD EVER 
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance> -->
 		
 		<Projectile_Damage>205</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
@@ -605,6 +576,32 @@
 		<AI_Combat_Power>700</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close or too low might also lag or crash the game -->
 	
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard Weapon for Almost all Frigate and Capitals -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>PROJ_UNSC_TORP_BACKUP.ALO</Space_Model_Name>
+		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Max_Speed>18.0</Max_Speed>
+		<Projectile_Damage>150.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>360.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Rocket</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2300.0</Projectile_Max_Flight_Distance>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
 		
 	</Projectile>
 	
@@ -674,15 +671,15 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
-		<Max_Speed>10.0</Max_Speed>
-		<Max_Rate_Of_Turn>14.0</Max_Rate_Of_Turn>
+		<Max_Speed>14.0</Max_Speed>
+		<Max_Rate_Of_Turn>50.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		
 		<Projectile_Max_Flight_Distance>2800.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>300.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		
-		<Projectile_Damage>22</Projectile_Damage>
+		<Projectile_Damage>35</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MISSILE_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -705,7 +702,7 @@
 		<Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name>
 		
 		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
-		<Max_Speed>180.0</Max_Speed>
+		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -723,6 +720,8 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
 		<AI_Combat_Power>22000</AI_Combat_Power>
 	</Projectile>
 
@@ -731,7 +730,7 @@
 		<Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name>
 		
 		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
-		<Max_Speed>180.0</Max_Speed>
+		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -749,22 +748,23 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 	
-
-	<Projectile Name="Proj_UNSC_MAC_SHELL">
+	<Projectile Name="Proj_UNSC_Heavy_MAC_SHELL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name>
 		
 		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
-		<Max_Speed>180.0</Max_Speed>
+		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>4250.0</Projectile_Damage>
+		<Projectile_Damage>16250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -776,21 +776,110 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
+	
 
-	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a Capital -->
+	<Projectile Name="Proj_UNSC_MAC_SHELL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name>
 		
-		<Damage_Type> Damage_UNSC_MAC_Light </Damage_Type>
-		<Max_Speed>180.0</Max_Speed>
+		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>550.0</Projectile_Damage>
+		<Projectile_Damage>10250.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		<AI_Combat_Power>2000</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_MAC_SHELL_PARIS_LIGHT">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name>
+		
+		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>4750.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		<AI_Combat_Power>2000</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_MAC_SHELL_HALBERD"> <!-- Used on the Halberd for Shield Pen -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>UNSC_MAC_ROUND_SM.alo</Space_Model_Name>
+		
+		<Damage_Type> Damage_UNSC_MAC_Light </Damage_Type>
+		<Max_Speed>170.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>425.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		
+		<AI_Combat_Power>2000</AI_Combat_Power>
+		
+	</Projectile>
+
+	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a Capital -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>UNSC_MAC_ROUND_SM.alo</Space_Model_Name>
+		
+		<Damage_Type> Damage_UNSC_MAC_Light </Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>2750.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -802,7 +891,11 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>2000</AI_Combat_Power>
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_Flak">
@@ -811,9 +904,9 @@
 		<Max_Speed>36.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_UNSC_FLAK </Damage_Type>
-		<Projectile_Damage>100</Projectile_Damage>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Damage>100</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -835,7 +928,7 @@
 		<Max_Speed>22.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_UNSC_FLAK </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>16.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
@@ -889,6 +982,31 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>10.5</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>UNSC_Bullet_Explode</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate>  </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>  </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_Bullet_POA"> <!-- Deck Gun for Pillar of Gottem -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
+		<Projectile_Damage>35.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -959,11 +1077,36 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Max_Speed>10.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
+		<Projectile_Damage>150.5</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate>  </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>  </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_120MM_Autocannon">  <!-- Anti Tank Auto Cannon -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Max_Speed>22.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Projectile_Damage>15.5</Projectile_Damage>
+		<Projectile_Damage>80.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1033,11 +1176,11 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>40</Max_Speed>
+		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Projectile_Damage>16.5</Projectile_Damage>
+		<Projectile_Damage>26.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1089,7 +1232,7 @@
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
 		<Projectile_Damage>600.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1099,20 +1242,20 @@
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<Projectile_SFXEvent_Detonate>  </Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>  </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet_Cap">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Cap.alo</Space_Model_Name>
-		<Max_Speed>24.0</Max_Speed>
+		<Max_Speed>34.0</Max_Speed>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>75.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Damage>75.5</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1131,9 +1274,6 @@
 	<Projectile Name="Proj_UNSC_COIL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_COIL.alo</Space_Model_Name>
-		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>6.0</Projectile_Length>
-		<Scale_Factor>15.0</Scale_Factor>
 		<Max_Speed>140.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1188,16 +1328,14 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO.ALO</Space_Model_Name>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
-		<Max_Speed>8</Max_Speed>
-		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-		<!-- was 750, changed so it doesn't reacquire targets -->
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+		<Projectile_Category>Rocket</Projectile_Category>
 		
-	    <Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	
 		<Projectile_Damage>222.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
@@ -1221,20 +1359,17 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO.ALO</Space_Model_Name>
-
-		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
-		<Max_Speed>8</Max_Speed>
-		<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-			<!-- was 750, changed so it doesn't reacquire targets -->
+		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+		<Projectile_Category>Rocket</Projectile_Category>
 		
-	    <Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>1020.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Fuel_Rod_Death </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1256,17 +1391,21 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
 
 		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
-		<Max_Speed>8.0</Max_Speed>
-		<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Category>Rocket</Projectile_Category>
 		
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance> <!-- was 2000 -->
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance> <!-- was 2000 -->
 		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Fuel_Rod_Death </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
@@ -1277,13 +1416,48 @@
 		<Projectile_Absorbed_By_Shields_Particle> Covie_Torpedo_AF_Death </Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>900</AI_Combat_Power>
 	</Projectile>
+	
+	
+	<Projectile Name="Proj_COV_TORPEDO_LIGHT_ARTY"> <!-- These are used on the CRS specifcally -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_ARTY.ALO</Space_Model_Name>
+
+		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Rocket</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance> <!-- was 2000 -->
+		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Fuel_Rod_Death </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Covie_Torpedo_AF_Death </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle /> 
+		<Projectile_Lifetime_Detonation_Particle> Covie_Torpedo_AF_Death </Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle> Covie_Torpedo_AF_Death </Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		
+	</Projectile>
+	
 
 	<Projectile Name="Proj_COV_TORPEDO_Fighter">
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name> 
 		<Projectile_Damage>95.0</Projectile_Damage>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<AI_Combat_Power>750</AI_Combat_Power>
 		<Projectile_Object_Detonation_Particle> Small_Explosion_FUELROD </Projectile_Object_Detonation_Particle>
@@ -1298,7 +1472,7 @@
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name> 
 		<Projectile_Damage>295.0</Projectile_Damage>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<AI_Combat_Power>750</AI_Combat_Power>
 		<Projectile_Object_Detonation_Particle> Small_Explosion_FUELROD </Projectile_Object_Detonation_Particle>
@@ -1333,7 +1507,7 @@
 		<Projectile_Damage>1050.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Fuel_Rod_Death </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
@@ -1360,7 +1534,7 @@
 		<Projectile_Damage>220.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>  </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
@@ -1480,7 +1654,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Fighter </Damage_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

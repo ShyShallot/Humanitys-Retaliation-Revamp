@@ -2,13 +2,16 @@
 <SpecialBuildings>
 
     <SpecialStructure Name="UNSC_MAC_PLATFORM">
+	
+		<Text_ID>TEXT_UNIT_UNSC_ODP</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_ODP </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PLATFORM </Encyclopedia_Unit_Class>
 
         <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 
         <SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 
 
-        <Text_ID>TEXT_UNSC_MAC_PLATFORM</Text_ID>
         <GUI_Row> 0 </GUI_Row>
         <Is_Dummy>Yes</Is_Dummy>
         <Space_Model_Name>UNSC_MAC_PLATFORM_PARENT.ALO</Space_Model_Name>
@@ -19,13 +22,13 @@
         <Affiliation>Rebel</Affiliation>
         <Size_Value>30</Size_Value>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>15000</Tactical_Health>
-        <Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+        <Tactical_Health>35000</Tactical_Health>
+        <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>10000</Energy_Capacity>
         <Energy_Refresh_Rate>20</Energy_Refresh_Rate>
         <Damage>12</Damage>
         <HardPoints>
-			UNSC_MAC_PLATFORM_01
+			UNSC_MAC_PLATFORM_01, UNSC_MAC_PLATFORM_02
         </HardPoints>
 
         <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -61,9 +64,7 @@
         <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
         <Armor_Type> Armor_Satellite </Armor_Type>
         <GUI_Bracket_Size>1</GUI_Bracket_Size>
-        <Encyclopedia_Text> TEXT_UNSC_MAC_PLATFORM_ENC </Encyclopedia_Text>
-        <MP_Encyclopedia_Text> TEXT_UNSC_MAC_PLATFORM_ENC </MP_Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
         <Score_Cost_Credits> 25000 </Score_Cost_Credits>
         <Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
         <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
@@ -78,8 +79,8 @@
         <Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>6000.0</Targeting_Max_Attack_Distance>
 		
-		<Tactical_Build_Cost_Multiplayer>18250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>12250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>

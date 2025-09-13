@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <CapitalShips>
     <SpaceUnit Name="UNSC_AUTUMN">
+	
 		<Text_ID>TEXT_UNIT_UNSC_AUTUMN</Text_ID>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_AUTUMN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_AUTUMNClass.ALO</Space_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
@@ -46,10 +47,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>25000</Tactical_Health>
-		<Shield_Points>27500</Shield_Points>
+		<Shield_Points>37500</Shield_Points>
 		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -57,7 +58,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Cost_Credits>7500</Build_Cost_Credits>
 		<AI_Combat_Power>7000</AI_Combat_Power>
 		<Build_Time_Seconds>155</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -144,33 +145,23 @@
 		<Targeting_Stickiness_Time_Threshold>15</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+		
 			<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Type>DEFEND</Type>        
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>   
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.75f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-
-				
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>           
+				<Expiration_Seconds></Expiration_Seconds>
 			</Unit_Ability>
 
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
-				<Disable_Movement>No</Disable_Movement>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>	-->
 		</Unit_Abilities_Data>
-       
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
+		
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 		
 		<Death_Clone />
@@ -179,7 +170,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -190,9 +181,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MARATHON">
+	
 		<Text_ID>TEXT_UNIT_UNSC_MARATHON</Text_ID>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MARATHON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_MARATHON.ALO</Space_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
@@ -204,7 +196,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.8</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -235,7 +227,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>18000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -246,7 +238,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>4500</Build_Cost_Credits>
 		<AI_Combat_Power>7500</AI_Combat_Power>
 		<Build_Time_Seconds>145</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -272,8 +264,8 @@
 		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -360,8 +352,6 @@
 			</Unit_Ability>	-->
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 		
 		<Death_Clone />
@@ -370,7 +360,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4075</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -383,9 +373,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_HALCYON">
+	
 		<Text_ID>TEXT_UNIT_UNSC_HALCYON</Text_ID>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALCYON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -397,7 +388,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.65</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -426,9 +417,9 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
-		<Tactical_Health>25000</Tactical_Health>
+		<Tactical_Health>39000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -437,7 +428,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Cost_Credits>3650</Build_Cost_Credits>
 		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Build_Time_Seconds>89</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -552,9 +543,7 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>	-->
 		</Unit_Abilities_Data>
-       
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
+      
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 		
 		<Death_Clone />
@@ -574,9 +563,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">
+	
 		<Text_ID>TEXT_UNIT_UNSC_VINDICATION</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_VINDICATION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_VINDICATION_2.ALO</Space_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
@@ -587,9 +577,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>1.1</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.55</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-95.0</Layer_Z_Adjust>
@@ -609,7 +599,7 @@
 		<Reinforcement_Prevention_Radius/> 500 
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>30000</Shield_Points>
+		<Shield_Points>45000</Shield_Points>
 		<Tactical_Health>19500</Tactical_Health> 
 		<!-- Shield Recharge Was Reduced across all ships due to an increase of recharge rate -->
 		<Shield_Refresh_Rate>750</Shield_Refresh_Rate> 
@@ -625,7 +615,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -634,7 +624,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>7750</Build_Cost_Credits>
+		<Build_Cost_Credits>6500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>195</Build_Time_Seconds>
@@ -751,27 +741,26 @@
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>13500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>42</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>20</Population_Value>
+		<Population_Value>18</Population_Value>
 	</SpaceUnit>
 	
 	
 	<SpaceUnit Name="UNSC_PHOENIX">
-		<Text_ID>TEXT_UNIT_UNSC_PHOENIX</Text_ID>
+
 		<Is_Named_Hero>No</Is_Named_Hero>
-		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_PHOENIX</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PHOENIX TEXT_TOOLTIP_UNSC_PHOENIX_COMPLIMENT TEXT_TOOLTIP_UNSC_PHOENIX_BUFF TEXT_TOOLTIP_UNSC_PHOENIX_BUFF_2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COLONY </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_SOF.ALO</Space_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
@@ -783,7 +772,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.45</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -823,13 +812,13 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Cost_Credits>5750</Build_Cost_Credits>
 		<AI_Combat_Power>3500</AI_Combat_Power>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE, NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
@@ -841,7 +830,7 @@
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind> <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Death_Clone>Damage_Normal </Death_Clone>
+		<Death_Clone> Damage_Normal </Death_Clone>
 		<CategoryMask> Capital </CategoryMask>
 
 		<HardPoints> 
@@ -929,8 +918,6 @@
 		<Targeting_Stickiness_Time_Threshold>15</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-
-
 		<Abilities SubObjectList="Yes">
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
                 <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
@@ -994,12 +981,10 @@
 		
 		
        <Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PHOENIX </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COLONY </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>5750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>

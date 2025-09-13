@@ -10,7 +10,7 @@
 
 		<!-- Naming -->
 		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CRS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 
 		<!-- Classes -->
@@ -25,8 +25,6 @@
 		<Shield_Armor_Type>Shield_COVN_Frigate</Shield_Armor_Type>
 
 		<!-- GUI -->
-		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -47,7 +45,7 @@
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>6</Max_Speed>
+		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
@@ -276,8 +274,8 @@
 	
 	<Squadron Name="CRS_SQUADRON">
 
-		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_COVN_CRS_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CRS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
@@ -296,8 +294,8 @@
 		<Political_Control>0</Political_Control>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>375</Build_Cost_Credits>
-		<Build_Time_Seconds>6</Build_Time_Seconds>
+		<Build_Cost_Credits>2750</Build_Cost_Credits>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -309,9 +307,9 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>COVN_CRS</Squadron_Units>
+		<Squadron_Units>COVN_CRS, COVN_CRS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_CRS.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
@@ -327,15 +325,15 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1275</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
-		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<Population_Value>6</Population_Value>
+		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>550</AI_Combat_Power>
 	
 		</Squadron>
@@ -350,8 +348,8 @@
 
 		<!-- Naming -->
 		<Text_ID>TEXT_UNIT_COVN_CAR</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CAR TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CAR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_FRIGATE </Encyclopedia_Unit_Class>
 
 		<!-- Classes -->
 		<MovementClass> Space </MovementClass>
@@ -365,8 +363,6 @@
 		<Shield_Armor_Type>Shield_COVN_Corvette</Shield_Armor_Type>
 
 		<!-- GUI -->
-		<Encyclopedia_Good_Against> UNSC_STALWART Broadsword UNSC_MAKO </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Longsword UNSC_STRIDENT UNSC_VINDICATION </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -566,7 +562,7 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -603,8 +599,8 @@
 
 		<!-- Naming -->
 		<Text_ID>TEXT_UNIT_COVN_SDV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_SDV TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SDV </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 
 		<!-- Classes -->
 		<MovementClass> Space </MovementClass>
@@ -618,8 +614,6 @@
 		<Shield_Armor_Type>Shield_COVN_Destroyer</Shield_Armor_Type>
 
 		<!-- GUI -->
-		<Encyclopedia_Good_Against> UNSC_STALWART Broadsword UNSC_MAKO </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Longsword UNSC_STRIDENT UNSC_VINDICATION </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -640,7 +634,7 @@
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Population_Value>4</Population_Value>
+		<Population_Value>8</Population_Value>
 	   	<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
@@ -664,7 +658,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -802,8 +796,8 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1050</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -814,8 +808,8 @@
 	<Squadron Name="SDV_SQUADRON">
 
 		<Text_ID>TEXT_UNIT_COVN_SDV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_SDV TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SDV </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -864,15 +858,15 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2475</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3475</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
-		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<Population_Value>8</Population_Value>
+		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>2550</AI_Combat_Power>
 	
 		</Squadron>

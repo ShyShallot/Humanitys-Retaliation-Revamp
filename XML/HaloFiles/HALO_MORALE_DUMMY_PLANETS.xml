@@ -2,7 +2,7 @@
 <Planets>
   <Planet Name="Compromised">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Text_ID>Dont-Look-Here</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
@@ -74,7 +74,7 @@
 
   <Planet Name="Strained">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Text_ID>Dont-Look-Here</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
@@ -146,7 +146,7 @@
 
   <Planet Name="Resolute">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Text_ID>Dont-Look-Here</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
@@ -200,7 +200,7 @@
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.12</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
         <Stacking_Category>2</Stacking_Category>
         <Galaxy_Wide> Yes </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -209,7 +209,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.12</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
         <Stacking_Category>2</Stacking_Category>
         <Galaxy_Wide> Yes </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
@@ -218,7 +218,7 @@
 
   <Planet Name="Ascendant">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Text_ID>Dont-Look-Here</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
@@ -272,7 +272,7 @@
         <Unit_Strength_Category/>
         <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
         <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+        <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
         <Stacking_Category>2</Stacking_Category>
         <Galaxy_Wide> Yes </Galaxy_Wide>
       </Reduce_Production_Price_Ability>
@@ -281,7 +281,7 @@
         <Applicable_Unit_Categories/>
         <Applicable_Unit_Categories> All </Applicable_Unit_Categories> 
         <Excluded_Unit_Types/>
-        <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+        <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
         <Stacking_Category>2</Stacking_Category>
         <Galaxy_Wide> Yes </Galaxy_Wide>
       </Reduce_Production_Time_Ability>

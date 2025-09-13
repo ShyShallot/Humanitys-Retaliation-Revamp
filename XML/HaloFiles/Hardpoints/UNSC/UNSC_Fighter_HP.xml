@@ -2,53 +2,50 @@
 <HardPoints>
     <!-- Longsword Hardpoints-->
     <HardPoint Name="UNSC_LS_HP_00">
+	
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
 			<Fire_Bone_A>HP_BOMBER_01</Fire_Bone_A>
             <Fire_Bone_B>HP_BOMBER_01</Fire_Bone_B>
             <Fire_Cone_Width>15.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bomber_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>65.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>65.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            
 			
     </HardPoint>
 
 
     <HardPoint Name="UNSC_LS_HP_01">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
 			<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
             <Fire_Cone_Width>260.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_120MM_Ventral</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>200.0</Fire_Range_Distance>
+            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>400.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions> Fighter, Bomber Tranport </Fire_Category_Restrictions>
-  
 			
     </HardPoint>
 
     <HardPoint Name="UNSC_LS_HP_02">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
 			<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
             <Fire_Cone_Width>15.0</Fire_Cone_Width>
@@ -60,8 +57,6 @@
             <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions> Transport </Fire_Category_Restrictions>
-            
 			
     </HardPoint>
 	
@@ -69,6 +64,7 @@
 	<!-- C712 Longsword Hardpoints -->
 	
 	<HardPoint Name="UNSC_712_HP_00">
+	
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -82,14 +78,14 @@
             <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>200.0</Fire_Range_Distance>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
             
 			
     </HardPoint>
 	
 	<HardPoint Name="UNSC_712_HP_01">
+	
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -105,7 +101,7 @@
             <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+            
             
 			
     </HardPoint>
@@ -113,6 +109,7 @@
 
 
     <HardPoint Name="UNSC_712_HP_02">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -129,11 +126,10 @@
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			
-  
-			
     </HardPoint>
 
     <HardPoint Name="UNSC_712_HP_03">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -150,13 +146,12 @@
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			
-            
-			
     </HardPoint>
 	
 	
 
     <!-- Shortsword Hardpoints-->
+	
     <HardPoint Name="UNSC_SHORTSWORD_HP_00">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -169,13 +164,12 @@
             <Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>150.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
-
 
     <HardPoint Name="UNSC_SHORTSWORD_HP_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -213,10 +207,7 @@
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
-            <Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-            
-    
+
     </HardPoint>
 
     <HardPoint Name="UNSC_BS_02">
@@ -229,16 +220,12 @@
             <Fire_Cone_Width>15.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_AM_FIGHTER</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.9</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.2</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>8.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>200.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 
     </HardPoint>
 
@@ -254,17 +241,16 @@
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Baselard</Fire_Projectile_Type>
 			<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
-			<Fire_Pulse_Count>6</Fire_Pulse_Count>
+			<Fire_Pulse_Count>20</Fire_Pulse_Count>
 			<Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			<Fire_Range_Distance>350.0</Fire_Range_Distance>
 			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
-            <Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
     </HardPoint>
 
     <HardPoint Name="UNSC_BASELARD_02">
+	
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -272,16 +258,15 @@
             <Fire_Bone_B>FB_ARCHERS_02</Fire_Bone_B>
             <Fire_Cone_Width>15.0</Fire_Cone_Width>
             <Fire_Cone_Height>10.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bomber_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>8.2</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_UNSC_AM_FIGHTER</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>30.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>35.2</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>200.0</Fire_Range_Distance>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+			
     </HardPoint>
 	
 	
@@ -304,9 +289,8 @@
             <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions> Super </Fire_Category_Restrictions>
-            <Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+
     </HardPoint>
 
     <HardPoint Name="UNSC_SABRE_02">
@@ -318,17 +302,15 @@
             <Fire_Bone_B>HP_MISSILE_01</Fire_Bone_B>
             <Fire_Cone_Width>15.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bomber_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_UNSC_AM_FIGHTER</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>10.8</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>200.0</Fire_Range_Distance>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+ 
 
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
     </HardPoint>
 
     <HardPoint Name="UNSC_PELICAN_01">
@@ -381,7 +363,7 @@
             <Fire_Bone_B>ROOT</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_120MM_Autocannon</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>14.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>14.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>

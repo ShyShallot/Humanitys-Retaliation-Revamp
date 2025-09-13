@@ -1137,7 +1137,7 @@
 				<Shield_Bonus_Percentage>-0.30</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>-0.20</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 		
@@ -1158,7 +1158,7 @@
 				<Shield_Bonus_Percentage>-0.20</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>-0.15</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</SecondaryStructure>
@@ -1178,7 +1178,7 @@
 				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</SecondaryStructure>
@@ -1198,7 +1198,7 @@
 				<Shield_Bonus_Percentage>0.2</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
+				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</SecondaryStructure>

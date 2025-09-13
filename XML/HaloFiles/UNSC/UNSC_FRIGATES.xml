@@ -2,8 +2,8 @@
 <FrigateUnits>
 	<SpaceUnit Name="UNSC_GLADIUS">
 		<Text_ID>TEXT_UNIT_UNSC_GLADIUS</Text_ID>
-		<Encyclopedia_Good_Against> Seraph Tarasque Cerastes</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_CAR COVN_SDV </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -21,8 +21,8 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		
 		<Mass>0.995</Mass>
-		<Max_Speed>4</Max_Speed> 
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.2</Max_Speed> 
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>3.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -71,7 +71,7 @@
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
@@ -165,20 +165,18 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -210,8 +208,9 @@
 	
 	<Squadron Name="Gladius_Squadron">
 
-		<Text_ID>TEXT_UNIT_UNSC_GLADIUS</Text_ID>
-		<Encyclopedia_Text> TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_GLADIUS_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -257,8 +256,8 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>435</Tactical_Build_Cost_Multiplayer>
@@ -270,7 +269,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>250</AI_Combat_Power>
+		<AI_Combat_Power>350</AI_Combat_Power>
 	
 		</Squadron>
 	
@@ -278,8 +277,8 @@
 
 	<SpaceUnit Name="UNSC_HALBERD">
 		<Text_ID>TEXT_UNIT_UNSC_HALBERD</Text_ID>
-		<Encyclopedia_Good_Against> COVN_SDV COVN_CAR COVN_CRS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_CRS COVN_RCS</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALBERD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Halberd.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -292,7 +291,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -313,7 +312,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>10000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -347,19 +346,19 @@
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		Pelican_Squadron, 1
 		
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_HALB_01, UNSC_HALB_02, UNSC_HALB_03, UNSC_HALB_04, UNSC_HALB_05, UNSC_HALB_06, UNSC_HALB_07, UNSC_HALB_08, UNSC_HALB_09, UNSC_HALB_10, UNSC_HALB_EG_01, UNSC_HALB_EG_02, UNSC_Paris_Hangar
+			UNSC_HALB_01, UNSC_HALB_02, UNSC_HALB_03, UNSC_HALB_04, UNSC_HALB_05, UNSC_HALB_06, UNSC_HALB_07, UNSC_HALB_08, UNSC_HALB_09, UNSC_HALB_10, UNSC_HALB_EG_01, UNSC_HALB_EG_02, UNSC_HALB_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
@@ -421,8 +420,8 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -448,8 +447,6 @@
 		</Unit_Abilities_Data> -->
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALBERD TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -465,8 +462,9 @@
 	
 	<Squadron Name="HALBERD_SQUADRON">
 
-		<Text_ID>TEXT_UNIT_UNSC_HALBERD</Text_ID>
-		<Encyclopedia_Text> TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_HALBERD_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALBERD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -511,27 +509,27 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1375</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>8</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>250</AI_Combat_Power>
+		<AI_Combat_Power>950</AI_Combat_Power>
 	
 		</Squadron>
 
 	<SpaceUnit Name="UNSC_MAKO">
 		<Text_ID>TEXT_UNIT_UNSC_MAKO</Text_ID>
-		<Encyclopedia_Good_Against> Seraph Banshee Cerastes </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CAR</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_MAKO.ALO</Space_Model_Name>
 		<Select_Box_Scale>450</Select_Box_Scale>
@@ -543,8 +541,8 @@
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.995</Mass>
-		<Max_Speed>4</Max_Speed> 
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.2</Max_Speed> 
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>3.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -604,7 +602,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 
@@ -732,8 +730,8 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
@@ -743,8 +741,6 @@
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -763,8 +759,9 @@
 	
 	<Squadron Name="MAKO_SQUADRON">
 
-		<Text_ID>TEXT_UNIT_UNSC_MAKO</Text_ID>
-		<Encyclopedia_Text> TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_MAKO_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -809,11 +806,11 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3.5</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -822,7 +819,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>250</AI_Combat_Power>
+		<AI_Combat_Power>350</AI_Combat_Power>
 	
 		</Squadron>
 
@@ -831,8 +828,6 @@
 	<SpaceUnit Name="UNSC_IROQUOIS">
 
 		<Text_ID>TEXT_UNIT_UNSC_IROQUOIS</Text_ID>
-		<Encyclopedia_Good_Against> COVN_SDV COVN_CAR COVN_CRS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_CRS COVN_RCS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_IROQUOIS.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -846,7 +841,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -907,7 +902,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -975,8 +970,8 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -1032,8 +1027,8 @@
 
 	<SpaceUnit Name="UNSC_STRIDENT">
 		<Text_ID>TEXT_UNIT_UNSC_STRIDENT</Text_ID>
-		<Encyclopedia_Good_Against> COVN_CRS COVN_CAR COVN_SDV </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> COVN_CCS COVN_RCS COVN_CRS</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STRIDENT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_STRIDENT_2.ALO</Space_Model_Name>
 		<Select_Box_Scale>165</Select_Box_Scale>
@@ -1046,7 +1041,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>     
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1069,15 +1064,15 @@
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>4000</Shield_Points>
 		<Tactical_Health>3500</Tactical_Health>
-		<Shield_Refresh_Rate>163</Shield_Refresh_Rate>
-		<Energy_Capacity>3000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>205</Shield_Refresh_Rate>
+		<Energy_Capacity>6000</Energy_Capacity>
+		<Energy_Refresh_Rate>150</Energy_Refresh_Rate>
 		
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>3</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -1104,7 +1099,7 @@
 
 		<Death_Clone> Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1172,8 +1167,8 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -1198,8 +1193,6 @@
 
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STRIDENT TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1210,14 +1203,14 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
+		<Population_Value>12</Population_Value>
 
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_PARIS">
 		<Text_ID>TEXT_UNIT_UNSC_PARIS</Text_ID>
-		<Encyclopedia_Good_Against> COVN_SDV COVN_CRS COVN_RCS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> COVN_CCS Cerastes COVN_CRS</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_PARIS.ALO</Space_Model_Name>
 		<Select_Box_Scale>150</Select_Box_Scale>
@@ -1230,7 +1223,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1252,7 +1245,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>4500</Tactical_Health>		<!-- was 3200 -->
+		<Tactical_Health>5200</Tactical_Health>		<!-- was 3200 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1291,7 +1284,7 @@
 
 		<Death_Clone>Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1299,7 +1292,7 @@
 			UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_MK33_05, UNSC_PARIS_MK33_06, UNSC_PARIS_MK33_07, UNSC_PARIS_MK33_08, UNSC_PARIS_MK33_09, UNSC_PARIS_MK33_10, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02, UNSC_PARIS_AP_03, UNSC_PARIS_AP_04, UNSC_PARIS_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		Pelican_Squadron, 1
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> -->
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
@@ -1362,8 +1355,8 @@
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
@@ -1392,8 +1385,6 @@
 		
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1410,8 +1401,10 @@
 	
 	<Squadron Name="Paris_Squadron">
 
-		<Text_ID>TEXT_UNIT_UNSC_PARIS</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PARIS TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_PARIS_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
+		
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
 		
 		<Property_Flags> SmallShip </Property_Flags>
@@ -1457,18 +1450,18 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1050</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>3250</AI_Combat_Power>
 	
@@ -1477,8 +1470,8 @@
 
 	<SpaceUnit Name="UNSC_STALWART">
 		<Text_ID>TEXT_UNIT_UNSC_STALWART</Text_ID>
-		<Encyclopedia_Good_Against> Banshee COVN_SDV COVN_CAR </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CRS</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STALWART </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_STALWART.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -1491,7 +1484,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1507,8 +1500,8 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
@@ -1517,7 +1510,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>4600</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1557,7 +1550,7 @@
 
 		<Death_Clone>Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1567,7 +1560,7 @@
 			UNSC_STALWART_AP_01, UNSC_STALWART_AP_02, UNSC_STALWART_AP_03, UNSC_STALWART_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0> 
+		Pelican_Squadron, 1 
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
@@ -1654,8 +1647,6 @@
 		
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STALWART TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1672,8 +1663,9 @@
 	
 	<Squadron Name="STALWART_SQUADRON">
 
-		<Text_ID>Stalwart-Class</Text_ID>
-		<Encyclopedia_Text> TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_STALWART_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STALWART </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -1718,18 +1710,18 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1075</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>5</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>2250</AI_Combat_Power>
 	
@@ -1737,9 +1729,9 @@
 	
 	
 	<SpaceUnit Name="UNSC_CHARON">
-		<Text_ID>UNSC-CHARON</Text_ID>
-		<Encyclopedia_Good_Against> Banshee COVN_SDV COVN_CAR </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CRS</Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_CHARON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_CHARONClass.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -1752,7 +1744,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1768,8 +1760,8 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
@@ -1818,7 +1810,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 	
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
@@ -1829,7 +1821,7 @@
 			UNSC_CHARON_AP_07, UNSC_CHARON_AP_08, UNSC_CHARON_AP_09, UNSC_CHARON_AP_10, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>11
+		Pelican_Squadron, 111
 		<Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1 </Reserve_Spawned_Units_Tech_0>
 		
@@ -1916,8 +1908,6 @@
 		
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1934,8 +1924,9 @@
 	
 	<Squadron Name="CHARON_SQUADRON">
 
-		<Text_ID>Charon-Class</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_CHARON TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_CHARON_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -1979,27 +1970,27 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>925</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1250</AI_Combat_Power>
 	
 		</Squadron>
 	
 	<SpaceUnit Name="UNSC_Buckler">
-		<Text_ID>UNSC-Buckler</Text_ID>
-		<Encyclopedia_Good_Against> Banshee COVN_SDV COVN_CAR </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CRS</Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_BUCKLER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_BUCKLERClass.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -2012,7 +2003,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.25</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -2028,8 +2019,8 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
@@ -2078,7 +2069,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -2169,8 +2160,6 @@
 		
 		
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -2187,8 +2176,9 @@
 	
 	<Squadron Name="BUCKLER_SQUADRON">
 
-		<Text_ID>Buckler-Class</Text_ID>
-		<Encyclopedia_Text> TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUCKLER_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -2233,11 +2223,11 @@
 		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2246,7 +2236,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>250</AI_Combat_Power>
+		<AI_Combat_Power>350</AI_Combat_Power>
 	
 		</Squadron>
 
