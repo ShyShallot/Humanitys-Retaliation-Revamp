@@ -38,7 +38,7 @@ function Definitions()
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     },
                     Ultra = {
-                        Power = 75001,
+                        Power = 75000,
                         Structures = {"R_Ground_Barracks"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     }

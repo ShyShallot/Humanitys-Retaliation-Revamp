@@ -222,6 +222,7 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_SOF">
+	
 		<Text_ID>TEXT_UNIT_UNSC_HERO_CPT_CUTTER</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 0 </GUI_Row>
@@ -460,10 +461,12 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>25</Population_Value>
+		
 	</SpaceUnit>
 
 
     <SpaceUnit Name="Generic_COVN_CAS">
+	
 		<Text_ID> TEXT_UNIT_COVN_CAS </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CAS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
@@ -577,8 +580,6 @@
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
-
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Star_Destroyer </SFXEvent_Attack_Hardpoint>
@@ -628,8 +629,6 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
-		
-
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Death_Clone />
@@ -656,6 +655,7 @@
 
 
 	<SpaceUnit Name="COVN_CAS">
+	
 		<Variant_Of_Existing_Type>Generic_COVN_CAS</Variant_Of_Existing_Type>
 		<Text_ID> TEXT_UNIT_COVN_CAS </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CAS </Encyclopedia_Text>
@@ -744,11 +744,10 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		
 	</SpaceUnit>
 
-
 	<SpaceUnit Name="COVN_CSO">
+	
 		<Variant_Of_Existing_Type>COVN_CAS</Variant_Of_Existing_Type>
 		<Text_ID> TEXT_UNIT_COVN_HERO_RHO </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_HERO_RHO TEXT_TOOLTIP_COVN_CSO</Encyclopedia_Text>
