@@ -211,8 +211,8 @@ function Random_Start:Start()
     self.Finished = true
 end
 
-function Random_Start:Set_Double_Start()
-    self.Total_Major_Starting_Planets = 2
+function Random_Start:Set_Starting_Planet_Count(count)
+    self.Total_Major_Starting_Planets = count
 end
 
 function Random_Start:Is_Finished()
