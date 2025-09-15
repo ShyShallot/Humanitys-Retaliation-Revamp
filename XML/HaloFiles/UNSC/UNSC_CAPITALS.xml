@@ -993,4 +993,172 @@
 		<Additional_Population_Capacity>48</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 	</SpaceUnit>
 	
+	<SpaceUnit Name="UNSC_EPOCH">
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_UNSC_EPOCH</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_EPOCH </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Space_Model_Name>UNSC_EPOCH.ALO</Space_Model_Name>
+		<Select_Box_Scale>500</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Mass>1.3</Mass>
+		<Scale_Factor>1.6</Scale_Factor>
+		<Damage>60</Damage>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Max_Speed>1.25</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+
+		<Damage_Type> Damage_UNSC_Super</Damage_Type>
+		<Armor_Type> Armor_UNSC_Super </Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Super</Shield_Armor_Type>
+		
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>	
+		<Max_Thrust>0.05</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.45</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Death_Clone>Damage_Normal</Death_Clone>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
+		<Required_Planets>Earth</Required_Planets>
+		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Tactical_Health>105000</Tactical_Health>
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Formation_Priority>5</Formation_Priority>
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>15750</Build_Cost_Credits>
+		<AI_Combat_Power>3500</AI_Combat_Power>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>360</Size_Value>
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+
+		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind> <Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Death_Clone> Damage_Normal </Death_Clone>
+		<CategoryMask> Capital </CategoryMask>
+
+		<HardPoints> 
+		
+		HP_Archer_01, HP_Archer_02, HP_Archer_03, HP_Archer_04, HP_Archer_05, HP_Archer_06, HP_Archer_07, HP_Archer_08, HP_Archer_09, HP_Archer_10,
+		HP_Archer_11, HP_Archer_12, HP_Archer_13, HP_Archer_14, HP_Archer_15, HP_Archer_16, HP_Archer_17, HP_Archer_18, HP_Archer_19, HP_Archer_20,
+		HP_Archer_21, HP_Archer_22, HP_Archer_23, HP_Archer_24, HP_Archer_25, HP_Archer_26, HP_Archer_27, HP_Archer_28, HP_Archer_29, HP_Archer_30,
+		HP_Archer_31, HP_Archer_32, HP_Archer_33, HP_Archer_34, HP_Archer_35, HP_Archer_36, HP_Archer_37, HP_Archer_38, HP_Archer_39, HP_Archer_40,
+		HP_Archer_41, HP_Archer_42, HP_Archer_43, HP_Archer_44, HP_Archer_45, HP_Archer_46, HP_Archer_47, HP_Archer_48, HP_Archer_49, HP_Archer_50,
+		HP_Archer_51, HP_Archer_52, HP_Archer_53, HP_Archer_54, HP_M810_01, HP_M810_02, HP_M810_03, HP_M810_04, HP_M810_05, HP_M810_06, HP_M810_07, HP_M810_08, HP_M810_09, HP_M810_10, HP_M810_11, HP_M810_12, HP_M810_13, HP_M810_14, HP_M810_15, HP_M810_16, HP_M810_17, HP_M810_18, HP_M810_19, HP_M810_20, HP_M870_01, HP_M870_02, HP_M870_03, HP_M870_04, HP_M870_05, HP_M870_06, HP_M870_07, HP_M870_08, HP_M870_09, HP_M870_10, HP_M870_11, HP_M870_12, HP_M66_01, HP_M66_02, HP_M66_03, HP_M66_04,HP_M66_05, HP_M66_06, HP_M66_07, HP_M66_08, HP_M66_09, HP_M66_10, HP_M66_11, HP_M66_12, HP_breakwater_01, HP_breakwater_02, HP_MAC, ENGINE_01, ENGINE_02, ENGINE_03, ENGINE_04, ENGINE_05, HP_Hanger_01
+			
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+
+		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
+		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
+		<GUI_Distance>1650</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>GUI_Capital_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Capital_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_UNSC_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamari</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Calamari </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_SOF.tga</Radar_Icon_Name>
+		
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>850.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>15</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+       <Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>15750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>38</Population_Value>
+		<Additional_Population_Capacity>48</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
+	</SpaceUnit>
+	
 </CapitalShips>

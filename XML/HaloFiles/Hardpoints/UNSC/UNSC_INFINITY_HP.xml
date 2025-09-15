@@ -2033,5 +2033,1014 @@
 
 </HardPoint>
 
+<!-- This is the M870s they are the visible (but non rotating) anti fighter weapons on the "wing" tips this block represents the left hand weapons -->
+ 	
+	<HardPoint Name="HP_M870_01">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_01 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_01 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_01 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_01 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+ 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_02">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_02 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_02 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_02 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_02 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_03">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_03 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_03 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_03 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_03 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_04">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_04 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_04 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_04 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_04 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_05">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_05 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_05 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_05 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_05 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_06">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_06 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_06 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_06 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_06 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+<!-- this block represents the right hand weapons -->
+
+	<HardPoint Name="HP_M870_07">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_07 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_07 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_07 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_07 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_08">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_08 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_08 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_08 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_08 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<HardPoint Name="HP_M870_09">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_09 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_09 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_09 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_09 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_10">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_10 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_10 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_10 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_10 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_11">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_11 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_11 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_11 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_11 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M870_12">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M870_12 </Attachment_Bone>
+        <Collision_Mesh>HP_M870_12 </Collision_Mesh>
+        <Fire_Bone_A>HP_M870_12 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M870_12 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- This is the M66s they are the visible anti-ship turrets on the "wings."
+this block represents the left hand weapons -->
+
+<HardPoint Name="HP_M66_01">
+         <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_01 </Attachment_Bone>
+        <Collision_Mesh> HP_M66_01 </Collision_Mesh>
+        <Fire_Bone_A> HP_M66_01 </Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_01 </Fire_Bone_B>
+
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions>
+ 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_02">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_02</Attachment_Bone>
+        <Collision_Mesh> HP_M66_02</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_02</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_02</Fire_Bone_B>
+
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_03">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_03</Attachment_Bone>
+        <Collision_Mesh> HP_M66_03</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_03</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_03</Fire_Bone_B>
+
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_04">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M66_04 </Attachment_Bone>
+        <Collision_Mesh>HP_M66_04 </Collision_Mesh>
+        <Fire_Bone_A>HP_M66_04 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M66_04 </Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<HardPoint Name="HP_M66_05">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_05</Attachment_Bone>
+        <Collision_Mesh> HP_M66_05</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_05</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_05</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_06">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_06</Attachment_Bone>
+        <Collision_Mesh> HP_M66_06</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_06</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_06</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+		
+<!-- this block represents the right hand weapons -->
+
+<HardPoint Name="HP_M66_07">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_07</Attachment_Bone>
+        <Collision_Mesh> HP_M66_07</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_07</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_07</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_08">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M66_08 </Attachment_Bone>
+        <Collision_Mesh>HP_M66_08 </Collision_Mesh>
+        <Fire_Bone_A> HP_M66_08</Fire_Bone_A>
+        <Fire_Bone_B>HP_M66_08 </Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_09">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_09</Attachment_Bone>
+        <Collision_Mesh> HP_M66_09</Collision_Mesh>
+        <Fire_Bone_A> HP_M66_09</Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_09</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_10">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_10 </Attachment_Bone>
+        <Collision_Mesh> HP_M66_10 </Collision_Mesh>
+        <Fire_Bone_A> HP_M66_10 </Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_10 </Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_11">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_11 </Attachment_Bone>
+        <Collision_Mesh> HP_M66_11 </Collision_Mesh>
+        <Fire_Bone_A> HP_M66_11 </Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_11 </Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M66_12">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone> HP_M66_12 </Attachment_Bone>
+        <Collision_Mesh> HP_M66_12 </Collision_Mesh>
+        <Fire_Bone_A> HP_M66_12 </Fire_Bone_A>
+        <Fire_Bone_B> HP_M66_12 </Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width> 
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>   
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Min_Recharge_Seconds>2.72</Fire_Min_Recharge_Seconds> 
+        <Fire_Max_Recharge_Seconds>3.12</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>4</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds> 
+        <Fire_Range_Distance>4000.0</Fire_Range_Distance> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- This is the M810 it is an invisible secondary anti-fighter weapon. 
+It is older and less effective then the M870 this block represents the left hand emplacements under the mac gun -->
+
+<HardPoint Name="HP_M810_01">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_01 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_01 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_01 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_01 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_02">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_02 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_02 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_02 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_02 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the emplacements under the left hand "ribs" in front of the engines -->
+
+	<HardPoint Name="HP_M810_03">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_03 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_03 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_03 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_03 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_04">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_04 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_04 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_04 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_04 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<HardPoint Name="HP_M810_06">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_06 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_06 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_06 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_06 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the left hand emplacements on top of the small shelf above the ribs at the rear of the ship -->
+
+	<HardPoint Name="HP_M810_05">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_05 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_05 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_05 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_05 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_10">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_10 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_10 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_10 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_10 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_09">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_09 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_09 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_09 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_09 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the left guns on top of the mac gun -->
+
+	<HardPoint Name="HP_M810_08">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_08 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_08 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_08 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_08 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_07">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_07 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_07 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_07 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_07 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the left hand emplacements under the mac gun -->
+
+	<HardPoint Name="HP_M810_11">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_11 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_11 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_11 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_11 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_12">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_12 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_12 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_12 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_12 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the right hand weapons under the "ribs" at the back of the ship -->
+
+	<HardPoint Name="HP_M810_13">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_13 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_13 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_13 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_13 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_14">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_14 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_14 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_14 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_14 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_15">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_15 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_15 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_15 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_15 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the right hand weapons on the shelf near the rear of the ship -->
+
+	<HardPoint Name="HP_M810_16">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_16 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_16 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_16 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_16 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_17">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_17 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_17 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_17 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_17 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_18">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_18 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_18 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_18 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_18 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+<!-- this block represents the right hand weapons on top of the mac gun -->
+
+	<HardPoint Name="HP_M810_19">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_19 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_19 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_19 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_19 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_M810_20">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000</Health>
+        <Attachment_Bone>HP_M810_20 </Attachment_Bone>
+        <Collision_Mesh>HP_M810_20 </Collision_Mesh>
+        <Fire_Bone_A>HP_M810_20 </Fire_Bone_A>
+        <Fire_Bone_B>HP_M810_20 </Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds> 
+        <Fire_Pulse_Count>20</Fire_Pulse_Count> 
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+
+    </HardPoint>
+	
+
+
+
 
 </HardPoints> 
