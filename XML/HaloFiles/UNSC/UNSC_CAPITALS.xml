@@ -1083,9 +1083,9 @@
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
@@ -1157,7 +1157,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>38</Population_Value>
+		<Population_Value>58</Population_Value>
 		<Additional_Population_Capacity>48</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 	</SpaceUnit>
 	
