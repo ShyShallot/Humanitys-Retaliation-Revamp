@@ -23,7 +23,7 @@ function Global_Story(message)
 
         local Starting_Units = require("Starting_Units")
 
-        Random_Planet_Starter:Set_Double_Start()
+        Random_Planet_Starter:Set_Starting_Planet_Count(2)
 
         Random_Planet_Starter:Start()
 
