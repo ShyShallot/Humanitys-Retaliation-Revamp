@@ -150,7 +150,7 @@ function FreeStoreService()
 		return	
 	end
 
-	for _, freigher in pairs(freighter_list)
+	for _, freigher in pairs(freighter_list) do
 
 		local freighter_entry = freighter_table[freigher]
 

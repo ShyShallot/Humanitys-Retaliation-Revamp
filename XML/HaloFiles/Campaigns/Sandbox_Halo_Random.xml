@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Campaigns>
-	<Campaign Name="Sandbox_Halo_Random_UNSC">
+	<Campaign Name="Sandbox_Halo_Random_Single_UNSC">
 
 		<Campaign_Set> Sandbox_Halo_Random </Campaign_Set>
 		<Sort_Order>7</Sort_Order>
 
-		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM </Text_ID>
-		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_ENC </Description_Text>
+		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM_SINGLE </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_SINGLE_ENC </Description_Text>
 
 		<Camera_Shift_X> 40.0 </Camera_Shift_X>
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
@@ -26,6 +26,7 @@
 		Charybdis_IX,
 		Meridian,
 		Gao,
+		Aktis_IV,
 		Harvest,
 		Harmony,
 		New_Carthage,
@@ -63,29 +64,33 @@
 		Khaelmothka,
 		Tvao,
         Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
 		</Locations>
 
 		<Trade_Routes> 
 			Earth_Reach,
-			Earth_Mars,
-			Mars_Harmony,
+			Earth_Mars,	
 			Harmony_Reach,
+			Reach_Arcadia,
+			Reach_New_Carthage,
 			Harmony_Aleria,
 			Aleria_Tantalus,
 			Tantalus_Gao,
-			Gao_Charybdis_IX,
 			Gao_Falaknuma,
-			Gao_Reach,
-			Reach_Falaknuma,
 			Falaknuma_Far_Isle,
 			Falaknuma_Meridian,
 			Meridian_Miridem,
+			Meridian_New_Carthage,
 			Miridem_New_Jerusalem,
 			Miridem_Chi_Ceti_IV,
+			Madrigal_Harvest,
+			Arcadia_Madrigal,
 			Chi_Ceti_IV_Terra_Nova,
 			Terra_Nova_Installation_05,
 			Chi_Ceti_IV_New_Carthage,
-			New_Carthage_Yonhe,
 			Yonhe_Installation_05,
 			Yonhe_Netherop,
 			Netherop_Khaelmothka,
@@ -112,13 +117,11 @@
 			Trove_Victors_Truth,
 			Feldokra_Harvest,
 			Harvest_Threshold,
-			Harvest_Arcadia,
-			Arcadia_Eridanus_2,
-			Eridanus_2_Alluvion,
+			Eridanus_2_Charybdis_IX,
+			Charybdis_IX_Alluvion,
 			Alluvion_Aktis_IV,
 			Aktis_IV_Aleria,
 			Eridanus_2_Madrigal,
-			Madrigal_Earth,
 			Codisfold_Sanghelios,
 			Sanghelios_Victors_Truth,
 			Sanghelios_Bhedalon,
@@ -136,8 +139,7 @@
 
 		<Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Covenant_AI.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_UNSC.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Start_Single_UNSC.xml</Rebel_Story_Name>
 
 		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
 
@@ -156,12 +158,16 @@
 		<!-- Win Conditions -->
 
 		<Human_Victory_Conditions>
-				Galactic_All_Planets_Controlled
+				Galactic_Control_Named_Planets
 		</Human_Victory_Conditions>
 
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
 		<AI_Victory_Conditions>
-				Galactic_All_Planets_Controlled
+				Galactic_Control_Named_Planets
 		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
 
 		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
 
@@ -205,13 +211,13 @@
 
 	</Campaign>
 
-	<Campaign Name="Sandbox_Halo_Random_Covenant">
+	<Campaign Name="Sandbox_Halo_Random_Single_COVN">
 
 		<Campaign_Set> Sandbox_Halo_Random </Campaign_Set>
 		<Sort_Order>7</Sort_Order>
 
-		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM </Text_ID>
-		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_ENC </Description_Text>
+		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM_SINGLE </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_SINGLE_ENC </Description_Text>
 
 		<Camera_Shift_X> 40.0 </Camera_Shift_X>
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
@@ -231,6 +237,7 @@
 		Charybdis_IX,
 		Meridian,
 		Gao,
+		Aktis_IV,
 		Harvest,
 		Harmony,
 		New_Carthage,
@@ -267,30 +274,34 @@
 		Kostroda,
 		Khaelmothka,
 		Tvao,
-        Sanghelios
+        Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
 		</Locations>
 
 		<Trade_Routes> 
 			Earth_Reach,
-			Earth_Mars,
-			Mars_Harmony,
+			Earth_Mars,	
 			Harmony_Reach,
+			Reach_Arcadia,
+			Reach_New_Carthage,
 			Harmony_Aleria,
 			Aleria_Tantalus,
 			Tantalus_Gao,
-			Gao_Charybdis_IX,
 			Gao_Falaknuma,
-			Gao_Reach,
-			Reach_Falaknuma,
 			Falaknuma_Far_Isle,
 			Falaknuma_Meridian,
 			Meridian_Miridem,
+			Meridian_New_Carthage,
 			Miridem_New_Jerusalem,
 			Miridem_Chi_Ceti_IV,
+			Madrigal_Harvest,
+			Arcadia_Madrigal,
 			Chi_Ceti_IV_Terra_Nova,
 			Terra_Nova_Installation_05,
 			Chi_Ceti_IV_New_Carthage,
-			New_Carthage_Yonhe,
 			Yonhe_Installation_05,
 			Yonhe_Netherop,
 			Netherop_Khaelmothka,
@@ -317,13 +328,11 @@
 			Trove_Victors_Truth,
 			Feldokra_Harvest,
 			Harvest_Threshold,
-			Harvest_Arcadia,
-			Arcadia_Eridanus_2,
-			Eridanus_2_Alluvion,
+			Eridanus_2_Charybdis_IX,
+			Charybdis_IX_Alluvion,
 			Alluvion_Aktis_IV,
 			Aktis_IV_Aleria,
 			Eridanus_2_Madrigal,
-			Madrigal_Earth,
 			Codisfold_Sanghelios,
 			Sanghelios_Victors_Truth,
 			Sanghelios_Bhedalon,
@@ -341,8 +350,7 @@
 
 		<Starting_Active_Player> Empire </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Covenant.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_UNSC_AI.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Start_Single_COVN.xml</Rebel_Story_Name>
 
 		<AI_Player_Control> Rebel, BasicRebel</AI_Player_Control>
 
@@ -361,12 +369,438 @@
 		<!-- Win Conditions -->
 
 		<Human_Victory_Conditions>
-				Galactic_All_Planets_Controlled
+				Galactic_Control_Named_Planets
 		</Human_Victory_Conditions>
 
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
 		<AI_Victory_Conditions>
-				Galactic_All_Planets_Controlled
+				Galactic_Control_Named_Planets
 		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Earth, UNSC_HALCYON </Starting_Forces>
+
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Sanghelios, COVN_CCS </Starting_Forces>
+
+		<!-- Banished Starting Forces -->
+
+		<Starting_Credits> Swords,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Swords, Te, SWORDS_CCS </Starting_Forces>
+
+		<!-- Terror Starting Forces -->
+
+		<Starting_Credits> Terrorists,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Terrorists, Far_Isle, TERROR_HALCYON </Starting_Forces>
+
+
+	</Campaign>
+
+	<Campaign Name="Sandbox_Halo_Random_Double_UNSC">
+
+		<Campaign_Set> Sandbox_Halo_Random_Double </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM_DOUBLE </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_DOUBLE_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Reach,
+        Earth,
+		Madrigal,
+		Falaknuma,
+		Aleria,
+		Alluvion,
+		Arcadia,
+		Chi_Ceti_IV,
+		Eridanus_2,
+		Charybdis_IX,
+		Meridian,
+		Gao,
+		Aktis_IV,
+		Harvest,
+		Harmony,
+		New_Carthage,
+		New_Jerusalem,
+		Tantalus,
+		Terra_Nova,
+		Mars,
+		Miridem,
+		Netherop,
+		Far_Isle,
+		Threshold,
+		Yonhe,
+		Kamchatka,
+		Taram,
+		Trove,
+		Installation_05,
+		Nefoluzo,
+		Thua,
+		Glyke,
+		Karava,
+		Victors_Truth,
+		Balaho,
+		Te,
+		Doisac,
+		Rhanelo,
+		Song_Of_Victory,
+		Eayn,
+		Bhedalon,
+		Codisfold,
+		Feldokra,
+		Ulgethon,
+		Palamok,
+		Ven_III,
+		Kostroda,
+		Khaelmothka,
+		Tvao,
+        Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
+		</Locations>
+
+		<Trade_Routes> 
+			Earth_Reach,
+			Earth_Mars,	
+			Harmony_Reach,
+			Reach_Arcadia,
+			Reach_New_Carthage,
+			Harmony_Aleria,
+			Aleria_Tantalus,
+			Tantalus_Gao,
+			Gao_Falaknuma,
+			Falaknuma_Far_Isle,
+			Falaknuma_Meridian,
+			Meridian_Miridem,
+			Meridian_New_Carthage,
+			Miridem_New_Jerusalem,
+			Miridem_Chi_Ceti_IV,
+			Madrigal_Harvest,
+			Arcadia_Madrigal,
+			Chi_Ceti_IV_Terra_Nova,
+			Terra_Nova_Installation_05,
+			Chi_Ceti_IV_New_Carthage,
+			Yonhe_Installation_05,
+			Yonhe_Netherop,
+			Netherop_Khaelmothka,
+			Khaelmothka_Doisac,
+			Doisac_Thua,
+			Thua_Tvao,
+			Tvao_Te,
+			Te_Codisfold,
+			Te_Karava,
+			Karava_Glyke,
+			Glyke_Nefoluzo,
+			Nefoluzo_Kostroda,
+			Kostroda_Kamchatka,
+			Kamchatka_Rhanelo,
+			Rhanelo_Taram,
+			Taram_Ven_III,
+			Ven_III_Palamok,
+			Palamok_Balaho,
+			Palamok_Ulgethon,
+			Balaho_Eayn,
+			Balaho_Victors_Truth,
+			Eayn_Trove,
+			Trove_Feldokra,
+			Trove_Victors_Truth,
+			Feldokra_Harvest,
+			Harvest_Threshold,
+			Eridanus_2_Charybdis_IX,
+			Charybdis_IX_Alluvion,
+			Alluvion_Aktis_IV,
+			Aktis_IV_Aleria,
+			Eridanus_2_Madrigal,
+			Codisfold_Sanghelios,
+			Sanghelios_Victors_Truth,
+			Sanghelios_Bhedalon,
+			Bhedalon_Song_Of_Victory,
+			Song_Of_Victory_Ulgethon
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Earth </Home_Location>
+
+		<Home_Location> Empire, Sanghelios </Home_Location>
+
+		<Home_Location> Swords, Te</Home_Location>
+
+		<Home_Location> Terrorists, Far_Isle</Home_Location>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Start_Double_UNSC.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  BasicEmpire</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</Human_Victory_Conditions>
+
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
+		<AI_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Earth, UNSC_HALCYON </Starting_Forces>
+
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Sanghelios, COVN_CCS </Starting_Forces>
+
+		<!-- Banished Starting Forces -->
+
+		<Starting_Credits> Swords,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Swords, Te, SWORDS_CCS </Starting_Forces>
+
+		<!-- Terror Starting Forces -->
+
+		<Starting_Credits> Terrorists,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Terrorists, Far_Isle, TERROR_HALCYON </Starting_Forces>
+
+
+	</Campaign>
+
+	<Campaign Name="Sandbox_Halo_Random_Double_COVN">
+
+		<Campaign_Set> Sandbox_Halo_Random_Double </Campaign_Set>
+		<Sort_Order>8</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_RANDOM_DOUBLE </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_RANDOM_DOUBLE_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Reach,
+        Earth,
+		Madrigal,
+		Falaknuma,
+		Aleria,
+		Alluvion,
+		Arcadia,
+		Chi_Ceti_IV,
+		Eridanus_2,
+		Charybdis_IX,
+		Meridian,
+		Gao,
+		Aktis_IV,
+		Harvest,
+		Harmony,
+		New_Carthage,
+		New_Jerusalem,
+		Tantalus,
+		Terra_Nova,
+		Mars,
+		Miridem,
+		Netherop,
+		Far_Isle,
+		Threshold,
+		Yonhe,
+		Kamchatka,
+		Taram,
+		Trove,
+		Installation_05,
+		Nefoluzo,
+		Thua,
+		Glyke,
+		Karava,
+		Victors_Truth,
+		Balaho,
+		Te,
+		Doisac,
+		Rhanelo,
+		Song_Of_Victory,
+		Eayn,
+		Bhedalon,
+		Codisfold,
+		Feldokra,
+		Ulgethon,
+		Palamok,
+		Ven_III,
+		Kostroda,
+		Khaelmothka,
+		Tvao,
+        Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
+		</Locations>
+
+		<Trade_Routes> 
+			Earth_Reach,
+			Earth_Mars,	
+			Harmony_Reach,
+			Reach_Arcadia,
+			Reach_New_Carthage,
+			Harmony_Aleria,
+			Aleria_Tantalus,
+			Tantalus_Gao,
+			Gao_Falaknuma,
+			Falaknuma_Far_Isle,
+			Falaknuma_Meridian,
+			Meridian_Miridem,
+			Meridian_New_Carthage,
+			Miridem_New_Jerusalem,
+			Miridem_Chi_Ceti_IV,
+			Madrigal_Harvest,
+			Arcadia_Madrigal,
+			Chi_Ceti_IV_Terra_Nova,
+			Terra_Nova_Installation_05,
+			Chi_Ceti_IV_New_Carthage,
+			Yonhe_Installation_05,
+			Yonhe_Netherop,
+			Netherop_Khaelmothka,
+			Khaelmothka_Doisac,
+			Doisac_Thua,
+			Thua_Tvao,
+			Tvao_Te,
+			Te_Codisfold,
+			Te_Karava,
+			Karava_Glyke,
+			Glyke_Nefoluzo,
+			Nefoluzo_Kostroda,
+			Kostroda_Kamchatka,
+			Kamchatka_Rhanelo,
+			Rhanelo_Taram,
+			Taram_Ven_III,
+			Ven_III_Palamok,
+			Palamok_Balaho,
+			Palamok_Ulgethon,
+			Balaho_Eayn,
+			Balaho_Victors_Truth,
+			Eayn_Trove,
+			Trove_Feldokra,
+			Trove_Victors_Truth,
+			Feldokra_Harvest,
+			Harvest_Threshold,
+			Eridanus_2_Charybdis_IX,
+			Charybdis_IX_Alluvion,
+			Alluvion_Aktis_IV,
+			Aktis_IV_Aleria,
+			Eridanus_2_Madrigal,
+			Codisfold_Sanghelios,
+			Sanghelios_Victors_Truth,
+			Sanghelios_Bhedalon,
+			Bhedalon_Song_Of_Victory,
+			Song_Of_Victory_Ulgethon
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Earth </Home_Location>
+
+		<Home_Location> Empire, Sanghelios </Home_Location>
+
+		<Home_Location> Swords, Te</Home_Location>
+
+		<Home_Location> Terrorists, Far_Isle</Home_Location>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Start_Double_COVN.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  BasicEmpire</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</Human_Victory_Conditions>
+
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
+		<AI_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
 
 		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
 

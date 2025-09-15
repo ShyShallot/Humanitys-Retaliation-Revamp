@@ -594,6 +594,10 @@ end
 
 function Modify_Morale(event_table)
 
+    if plot == nil then
+        return
+    end
+
     if event_table == nil then
         return
     end
@@ -1032,7 +1036,12 @@ end
 
 function Flush(message)
     if message == OnEnter then
-        Set_Next_State("Morale_Update")
+
+        if plot == nil then
+            Set_Next_State("Morale_Level_Init")
+        else
+            Set_Next_State("Morale_Update")
+        end
     end
 end
 

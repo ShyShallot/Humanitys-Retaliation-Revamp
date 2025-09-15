@@ -2,11 +2,6 @@
 
 <Story>
 
-  <Event Name="Universal_Story_Start">
-    <Event_Type>STORY_ELAPSED</Event_Type>
-    <Event_Param1>0</Event_Param1>
-  </Event>
-
   <Event Name="Structures_Super_Filter">
     <Event_Type>STORY_CLICK_GUI</Event_Type>
     <Event_Param1>b_filters4</Event_Param1>

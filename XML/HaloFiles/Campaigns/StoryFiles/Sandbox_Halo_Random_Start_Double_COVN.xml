@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Story_Mode_Plots>
-  
-    <Lua_Script>Sandbox_Generic_Start</Lua_Script>
-    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_Generic.xml</Active_Plot>
+
+    <Lua_Script>Sandbox_Random_Start_Double</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Random_Start.xml</Active_Plot>
 
     <Lua_Script>Unit_Filters</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
