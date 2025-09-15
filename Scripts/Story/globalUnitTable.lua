@@ -171,6 +171,9 @@ local unit_table = {
     BANSHEE_SQUADRON = {
         Category = "Fighter"
 	},
+	UNSC_EPOCH = {
+        Category = "Capital"
+    },
     UNSC_PHOENIX = {
         Category = "Capital"
     },
