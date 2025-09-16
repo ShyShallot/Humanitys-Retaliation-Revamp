@@ -209,17 +209,15 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
+		
 			Rebel,
-				Pelican_Squadron,
-				Shortsword_Squadron,
-				Baselard_Squadron,
-				Late_Longsword_Squadron,
-				Sabre_Squadron,
-				Broadsword_Squadron,
-				Condor_Squadron,
-				MAKO_Squadron,
-				Buckler_Squadron,
-				Gladius_Squadron,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Improved_Defenses_L2_Upgrade,
+				RS_Improved_Defenses_L3_Upgrade,		
+
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
@@ -280,6 +278,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
@@ -312,14 +311,11 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
+		
 			Rebel,
-				Charon_Squadron,
-				Stalwart_Squadron,
-				Paris_Squadron,
-				Halberd_Squadron,
-				UNSC_IROQUOIS,
-				UNSC_STRIDENT,
-				UNSC_POSEIDON,	
+				UNSC_IAC,
+				UNSC_Fleet_Captain,
+				UNSC_IROQUOIS				
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
@@ -386,6 +382,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
@@ -417,15 +414,15 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
+		
 			Rebel,
-				UNSC_MUSASHI,
-				UNSC_PHOENIX,
-				UNSC_HALCYON,
-				UNSC_MARATHON,
-				UNSC_AUTUMN,
-				UNSC_VINDICATION,
-				UNSC_EPOCH
-				
+				UNSC_MAC_PLATFORM,
+				UNSC_FLEET_COMMANDER,
+				UNSC_ROMAN_BLUE,
+				UNSC_POA,
+				UNSC_SOF,
+				UNSC_INFINITY,
+			
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -496,6 +493,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>

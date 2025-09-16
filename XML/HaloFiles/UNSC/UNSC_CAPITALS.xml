@@ -47,7 +47,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>25000</Tactical_Health>
 		<Shield_Points>37500</Shield_Points>
@@ -227,7 +227,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>18000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -417,7 +417,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
 		<Tactical_Health>39000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -615,7 +615,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Mars, Earth, Reach, Harmony, Meridian, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
+		<Required_Planets></Required_Planets>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
