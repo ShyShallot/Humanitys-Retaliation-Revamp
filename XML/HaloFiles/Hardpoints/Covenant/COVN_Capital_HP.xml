@@ -4,8 +4,8 @@
     <!-- CCS Class Hardpoints-->
     <HardPoint Name="HP_CCS_ENGINE">
         <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1950.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
@@ -21,7 +21,7 @@
     <!--   <HardPoint Name="HP_CCS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
-			<Is_Destroyable>Yes</Is_Destroyable>
+			<Is_Destroyable>No</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
@@ -32,8 +32,8 @@
 
     <HardPoint Name="HP_CCS_HANGER_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1050.0</Health>
         <Attachment_Bone>HP_HANGER_01</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_01</Collision_Mesh>
@@ -44,8 +44,8 @@
     </HardPoint>
     <HardPoint Name="HP_CCS_HANGER_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1050.0</Health>
         <Attachment_Bone>HP_HANGER_02</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_02</Collision_Mesh>
@@ -195,8 +195,8 @@
     <HardPoint Name="HP_CCS_AS_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_01</Attachment_Bone>
         <Collision_Mesh>HP_AS_01</Collision_Mesh>
@@ -219,8 +219,8 @@
     <HardPoint Name="HP_CCS_AS_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_02</Attachment_Bone>
         <Collision_Mesh>HP_AS_02</Collision_Mesh>
@@ -243,8 +243,8 @@
     <HardPoint Name="HP_CCS_AS_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_03</Attachment_Bone>
         <Collision_Mesh>HP_AS_03</Collision_Mesh>
@@ -267,8 +267,8 @@
     <HardPoint Name="HP_CCS_AS_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_04</Attachment_Bone>
         <Collision_Mesh>HP_AS_04</Collision_Mesh>
@@ -291,8 +291,8 @@
     <HardPoint Name="HP_CCS_AS_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_05</Attachment_Bone>
         <Collision_Mesh>HP_AS_05</Collision_Mesh>
@@ -315,8 +315,8 @@
     <HardPoint Name="HP_CCS_AS_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Attachment_Bone>HP_AS_06</Attachment_Bone>
         <Collision_Mesh>HP_AS_06</Collision_Mesh>
@@ -339,8 +339,8 @@
     <HardPoint Name="HP_CCS_TP_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Tooltip_Text>CONV_TORP</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1050.0</Health>
         <Attachment_Bone>HP_PTP_01</Attachment_Bone>
         <Collision_Mesh>HP_PTP_01</Collision_Mesh>
@@ -362,8 +362,8 @@
     <HardPoint Name="HP_CCS_TP_02">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Tooltip_Text>CONV_TORP</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1050.0</Health>
         <Attachment_Bone>HP_PTP_02</Attachment_Bone>
         <Collision_Mesh>HP_PTP_02</Collision_Mesh>
@@ -384,8 +384,8 @@
 
     <HardPoint Name="HP_CCS_SHIELD">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>2050.0</Health>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
@@ -401,8 +401,8 @@
     <HardPoint Name="HP_RCS_AS_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_01</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_01</Collision_Mesh>
@@ -425,8 +425,8 @@
     <HardPoint Name="HP_RCS_AS_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_02</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_02</Collision_Mesh>
@@ -450,8 +450,8 @@
     <HardPoint Name="HP_RCS_AS_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_03</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_03</Collision_Mesh>
@@ -474,8 +474,8 @@
     <HardPoint Name="HP_RCS_AS_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_04</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_04</Collision_Mesh>
@@ -498,8 +498,8 @@
     <HardPoint Name="HP_RCS_AS_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_05</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_05</Collision_Mesh>
@@ -522,8 +522,8 @@
     <HardPoint Name="HP_RCS_AS_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_06</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_06</Collision_Mesh>
@@ -546,8 +546,8 @@
     <HardPoint Name="HP_RCS_AS_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_07</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_07</Collision_Mesh>
@@ -570,8 +570,8 @@
     <HardPoint Name="HP_RCS_AS_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1350.0</Health>
         <Attachment_Bone>HP_RCS_ANTISHIP_LASER_08</Attachment_Bone>
         <Collision_Mesh>HP_RCS_ANTISHIP_LASER_08</Collision_Mesh>
@@ -753,8 +753,8 @@
 
     <HardPoint Name="HP_RCS_ENGINE">
         <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1450.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
@@ -769,8 +769,8 @@
 
     <HardPoint Name="HP_RCS_HANGER_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>750.0</Health>
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
         <Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
@@ -782,8 +782,8 @@
 
     <HardPoint Name="HP_RCS_HANGER_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>750.0</Health>
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
         <Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
@@ -795,8 +795,8 @@
 
     <HardPoint Name="HP_RCS_SHIELD">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1850.0</Health>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
@@ -812,7 +812,7 @@
     <!--   <HardPoint Name="HP_RCS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
-			<Is_Destroyable>Yes</Is_Destroyable>
+			<Is_Destroyable>No</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
@@ -825,8 +825,8 @@
     <Hardpoint Name="HP_CPV_HC_01">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_01.ALO </Model_To_Attach>
@@ -861,8 +861,8 @@
     <Hardpoint Name="HP_CPV_HC_02">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_02.ALO </Model_To_Attach>
@@ -897,8 +897,8 @@
     <Hardpoint Name="HP_CPV_HC_03">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_03.ALO </Model_To_Attach>
@@ -933,8 +933,8 @@
     <Hardpoint Name="HP_CPV_HC_04">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_04.ALO </Model_To_Attach>
@@ -969,8 +969,8 @@
     <Hardpoint Name="HP_CPV_HC_05">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_05.ALO </Model_To_Attach>
@@ -1005,8 +1005,8 @@
     <Hardpoint Name="HP_CPV_HC_06">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_06.ALO </Model_To_Attach>
@@ -1041,8 +1041,8 @@
     <Hardpoint Name="HP_CPV_HC_07">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_07.ALO </Model_To_Attach>
@@ -1077,8 +1077,8 @@
     <Hardpoint Name="HP_CPV_HC_08">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_08.ALO </Model_To_Attach>
@@ -1113,8 +1113,8 @@
     <Hardpoint Name="HP_CPV_HC_09">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_09.ALO </Model_To_Attach>
@@ -1149,8 +1149,8 @@
     <Hardpoint Name="HP_CPV_HC_10">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> COVN_CPV_HEAVYPLASMA_10.ALO </Model_To_Attach>
@@ -1185,8 +1185,8 @@
     <Hardpoint Name="HP_CPV_AS_01">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1220,8 +1220,8 @@
     <Hardpoint Name="HP_CPV_AS_02">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1255,8 +1255,8 @@
     <Hardpoint Name="HP_CPV_AS_03">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1290,8 +1290,8 @@
     <Hardpoint Name="HP_CPV_AS_04">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1325,8 +1325,8 @@
     <Hardpoint Name="HP_CPV_AS_05">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1361,8 +1361,8 @@
     <Hardpoint Name="HP_CPV_AS_06">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>812.5</Health>
         <Model_To_Attach> CONV_AS_TURRET.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1396,7 +1396,7 @@
     <!--   <HardPoint Name="HP_CPV_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
-			<Is_Destroyable>Yes</Is_Destroyable>
+			<Is_Destroyable>No</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
@@ -1407,8 +1407,8 @@
 
     <HardPoint Name="HP_CPV_ENGINES">
         <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>2500.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
@@ -1423,8 +1423,8 @@
 
     <HardPoint Name="HP_CPV_SHIELD">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1000.0</Health>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
@@ -1439,8 +1439,8 @@
     <!-- DDS Class Hardpoints-->
     <HardPoint Name="HP_DDS_ENGINE">
         <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>800.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
@@ -1455,7 +1455,7 @@
     <!--    <HardPoint Name="HP_DDS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
-			<Is_Destroyable>Yes</Is_Destroyable>
+			<Is_Destroyable>No</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
@@ -1466,8 +1466,8 @@
 
     <HardPoint Name="HP_DDS_SHIELD">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>650.0</Health>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
@@ -1480,8 +1480,8 @@
 
     <HardPoint Name="HP_DDS_HANGER_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>550.0</Health>
         <Attachment_Bone>HP_HANGER_01</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_01</Collision_Mesh>
@@ -1493,8 +1493,8 @@
 
     <HardPoint Name="HP_DDS_HANGER_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>550.0</Health>
         <Attachment_Bone>HP_HANGER_02</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_02</Collision_Mesh>
@@ -1506,8 +1506,8 @@
 
     <HardPoint Name="HP_DDS_HANGER_03">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>550.0</Health>
         <Attachment_Bone>HP_HANGER_03</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_03</Collision_Mesh>
@@ -1519,8 +1519,8 @@
 
     <HardPoint Name="HP_DDS_HANGER_04">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>550.0</Health>
         <Attachment_Bone>HP_HANGER_04</Attachment_Bone>
         <Collision_Mesh>HP_HANGER_04</Collision_Mesh>
@@ -1740,8 +1740,8 @@
     <HardPoint Name="HP_DDS_AS_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_01</Attachment_Bone>
         <Collision_Mesh>HP_AS_01</Collision_Mesh>
@@ -1771,8 +1771,8 @@
     <HardPoint Name="HP_DDS_AS_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_02</Attachment_Bone>
         <Collision_Mesh>HP_AS_02</Collision_Mesh>
@@ -1802,8 +1802,8 @@
     <HardPoint Name="HP_DDS_AS_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_03</Attachment_Bone>
         <Collision_Mesh>HP_AS_03</Collision_Mesh>
@@ -1833,8 +1833,8 @@
     <HardPoint Name="HP_DDS_AS_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_04</Attachment_Bone>
         <Collision_Mesh>HP_AS_04</Collision_Mesh>
@@ -1864,8 +1864,8 @@
     <HardPoint Name="HP_DDS_AS_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_05</Attachment_Bone>
         <Collision_Mesh>HP_AS_05</Collision_Mesh>
@@ -1895,8 +1895,8 @@
     <HardPoint Name="HP_DDS_AS_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>450.0</Health>
         <Attachment_Bone>HP_AS_06</Attachment_Bone>
         <Collision_Mesh>HP_AS_06</Collision_Mesh>
@@ -1927,8 +1927,8 @@
 
     <HardPoint Name="HP_ORS_ENGINE">
         <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>2000.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
@@ -1943,8 +1943,8 @@
 
     <HardPoint Name="HP_ORS_SHIELD">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1000.0</Health>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
@@ -1981,8 +1981,8 @@
 
     <HardPoint Name="HP_ORS_HANGER_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500.0</Health>
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
         <Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
@@ -1994,8 +1994,8 @@
 
     <HardPoint Name="HP_ORS_HANGER_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500.0</Health>
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
         <Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
@@ -2008,8 +2008,8 @@
     <Hardpoint Name="HP_ORS_HC_01">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_HEAVYPLASMA_01</Attachment_Bone>
         <Collision_Mesh>HP_HEAVYPLASMA_01</Collision_Mesh>
@@ -2040,8 +2040,8 @@
     <Hardpoint Name="HP_ORS_HC_02">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_HEAVYPLASMA_02</Attachment_Bone>
         <Collision_Mesh>HP_HEAVYPLASMA_02</Collision_Mesh>
@@ -2072,8 +2072,8 @@
     <Hardpoint Name="HP_ORS_HC_03">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_HEAVYPLASMA_03</Attachment_Bone>
         <Collision_Mesh>HP_HEAVYPLASMA_03</Collision_Mesh>
@@ -2104,8 +2104,8 @@
     <Hardpoint Name="HP_ORS_HC_04">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_HEAVYPLASMA_04</Attachment_Bone>
         <Collision_Mesh>HP_HEAVYPLASMA_04</Collision_Mesh>
@@ -2136,8 +2136,8 @@
     <HardPoint Name="HP_ORS_AS_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_01</Attachment_Bone>
         <Collision_Mesh>HP_AS_01</Collision_Mesh>
@@ -2160,8 +2160,8 @@
 	
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_02</Attachment_Bone>
         <Collision_Mesh>HP_AS_02</Collision_Mesh>
@@ -2184,8 +2184,8 @@
     <HardPoint Name="HP_ORS_AS_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_03</Attachment_Bone>
         <Collision_Mesh>HP_AS_03</Collision_Mesh>
@@ -2208,8 +2208,8 @@
     <HardPoint Name="HP_ORS_AS_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_04</Attachment_Bone>
         <Collision_Mesh>HP_AS_04</Collision_Mesh>
@@ -2231,8 +2231,8 @@
     <HardPoint Name="HP_ORS_AS_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_05</Attachment_Bone>
         <Collision_Mesh>HP_AS_05</Collision_Mesh>
@@ -2254,8 +2254,8 @@
     <HardPoint Name="HP_ORS_AS_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_06</Attachment_Bone>
         <Collision_Mesh>HP_AS_06</Collision_Mesh>
@@ -2277,8 +2277,8 @@
     <HardPoint Name="HP_ORS_AS_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_07</Attachment_Bone>
         <Collision_Mesh>HP_AS_07</Collision_Mesh>
@@ -2300,8 +2300,8 @@
     <HardPoint Name="HP_ORS_AS_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_08</Attachment_Bone>
         <Collision_Mesh>HP_AS_08</Collision_Mesh>
@@ -2323,8 +2323,8 @@
     <HardPoint Name="HP_ORS_AS_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_09</Attachment_Bone>
         <Collision_Mesh>HP_AS_09</Collision_Mesh>
@@ -2346,8 +2346,8 @@
     <HardPoint Name="HP_ORS_AS_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_10</Attachment_Bone>
         <Collision_Mesh>HP_AS_10</Collision_Mesh>
@@ -2369,8 +2369,8 @@
     <HardPoint Name="HP_ORS_AS_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_11</Attachment_Bone>
         <Collision_Mesh>HP_AS_11</Collision_Mesh>
@@ -2392,8 +2392,8 @@
     <HardPoint Name="HP_ORS_AS_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>500</Health>
         <Attachment_Bone>HP_AS_12</Attachment_Bone>
         <Collision_Mesh>HP_AS_12</Collision_Mesh>
