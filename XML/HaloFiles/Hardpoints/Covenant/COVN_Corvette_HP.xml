@@ -37,10 +37,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AF_02">
@@ -62,10 +59,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AF_03">
@@ -87,10 +81,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AF_04">
@@ -112,10 +103,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AF_05">
@@ -137,10 +125,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AF_06">
@@ -162,10 +147,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_01">
@@ -189,9 +171,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_02">
@@ -215,9 +194,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_03">
@@ -241,9 +217,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_04">
@@ -267,9 +240,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_05">
@@ -293,9 +263,6 @@
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
     <HardPoint Name="HP_CAR_AS_06">
@@ -319,9 +286,6 @@
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
             
-			
-			
-			
     </HardPoint>
 
 <!--SDV -->
@@ -370,9 +334,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
 
 			
-			
-			
-			
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
     </HardPoint>
@@ -407,9 +368,6 @@
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
 
-			
-			
-			
 			
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -446,9 +404,6 @@
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
 
 			
-			
-			
-			
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
     </HardPoint>
@@ -483,9 +438,6 @@
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
 
-			
-			
-			
 			
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -522,9 +474,6 @@
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
 
 			
-			
-			
-			
             <Fire_Category_Restrictions> Transport</Fire_Category_Restrictions>
 
     </HardPoint>
@@ -560,9 +509,6 @@
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
 
 			
-			
-			
-			
             <Fire_Category_Restrictions> Transport</Fire_Category_Restrictions>
 
     </HardPoint>
@@ -582,14 +528,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
 
     </HardPoint>
 
@@ -608,14 +551,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
 
     </HardPoint>
 
@@ -634,14 +574,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
 
     </HardPoint>
 
@@ -660,14 +597,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
 
     </HardPoint>
 
@@ -686,14 +620,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
 
     </HardPoint>
 
@@ -712,14 +643,11 @@
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-            
-			
-			
+
             
     </HardPoint>
 </HardPoints>
