@@ -126,7 +126,7 @@
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Super </Fire_Category_Restrictions>
+            <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
             
 			
 			
@@ -152,7 +152,7 @@
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Super </Fire_Category_Restrictions>
+            <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
             
 			
 			

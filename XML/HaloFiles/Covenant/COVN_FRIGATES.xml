@@ -325,14 +325,14 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>550</AI_Combat_Power>
 	
@@ -647,8 +647,8 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>8150</Shield_Points>
-		<Tactical_Health>3850</Tactical_Health>
+		<Shield_Points>10150</Shield_Points>
+		<Tactical_Health>4850</Tactical_Health>
 		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -664,7 +664,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>3150</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
@@ -858,8 +858,8 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3475</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2875</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

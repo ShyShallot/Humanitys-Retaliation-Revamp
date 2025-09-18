@@ -38,9 +38,9 @@
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
 			<Fire_Projectile_Type>Proj_Plasma_Lance_CSO</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>100.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>100.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>216</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>60.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>60.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>516</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>4500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -782,7 +782,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -794,11 +794,7 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
@@ -822,7 +818,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -834,15 +830,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_03">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -862,7 +855,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -874,15 +867,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_04">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -902,7 +892,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -914,15 +904,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_05">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -942,7 +929,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -954,15 +941,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_06">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -982,7 +966,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -994,15 +978,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_07">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -1022,7 +1003,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -1034,15 +1015,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_08">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -1062,7 +1040,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -1074,15 +1052,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_09">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -1102,7 +1077,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -1114,15 +1089,12 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 
 <Hardpoint Name="HP_CSO_HC_10">
+
        <Type>HARD_POINT_WEAPON_LASER</Type>
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>No</Is_Targetable>
@@ -1142,7 +1114,7 @@
        <Fire_Bone_A>FP_01</Fire_Bone_A>
        <Fire_Bone_B>FP_01</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
-       <Fire_Cone_Width>20</Fire_Cone_Width>
+       <Fire_Cone_Width>35</Fire_Cone_Width>
        <Fire_Cone_Height>140</Fire_Cone_Height>
        <Fire_Projectile_Type>Proj_Plasma_Array</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>3.45</Fire_Min_Recharge_Seconds>
@@ -1154,11 +1126,7 @@
        
        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-       
-       
-       
-       
-       
+ 
       
 </Hardpoint>
 

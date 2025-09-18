@@ -291,7 +291,7 @@
 		<Space_Model_Name>COVN_PLASMALANCE_CSO.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>290.0</Max_Speed>
-		<Projectile_Damage>500.0</Projectile_Damage>
+		<Projectile_Damage>1500.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -314,7 +314,7 @@
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>290.0</Max_Speed>
-		<Projectile_Damage>42.0</Projectile_Damage>
+		<Projectile_Damage>242.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -721,8 +721,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>22000</AI_Combat_Power>
 	</Projectile>
 
@@ -749,8 +748,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 	
@@ -777,8 +775,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 	
@@ -806,8 +803,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 	
@@ -834,8 +830,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle> 
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 	
@@ -892,8 +887,7 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 175 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 450 </Projectile_Blast_Area_Range>
+		
 		
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		
