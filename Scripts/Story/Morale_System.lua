@@ -157,13 +157,13 @@ function Init_Morale_System(message)
             enemy = Find_Player("Empire")
         end
 
-        DebugMessage("%s -- Enemy Player: %s", tostring(Script), tostring(enemy))
+        --DebugMessage("%s -- Enemy Player: %s", tostring(Script), tostring(enemy))
 
         if TestValid(enemy) then
             Difficulty = enemy.Get_Difficulty()
         end
 
-        DebugMessage("%s -- Current Difficulty: %s", tostring(Script), tostring(Difficulty))
+        --DebugMessage("%s -- Current Difficulty: %s", tostring(Script), tostring(Difficulty))
 
         if StringCompare(Difficulty, "Normal") then
             global_morale_level = 75
@@ -216,13 +216,13 @@ end
 function Morale_System_Update(message)
     if message == OnUpdate then
 
-        DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
+        --DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
 
-        DebugMessage("%s -- Galactic Time: %s, Current Week: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()), tostring(Get_Current_Week()))
+        --DebugMessage("%s -- Galactic Time: %s, Current Week: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()), tostring(Get_Current_Week()))
 
-        DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
+        --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
-        DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(global_morale_level))
+        --DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(global_morale_level))
 
         Check_Hero_Status()
 
@@ -259,7 +259,7 @@ function Morale_System_Update(message)
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
-        DebugMessage("%s -- Current Morale Status: %s", tostring(Script), tostring(Current_Morale_Status))
+        --DebugMessage("%s -- Current Morale Status: %s", tostring(Script), tostring(Current_Morale_Status))
 
         if display_event ~= nil and Current_Morale_Status ~= nil then
 
@@ -372,7 +372,7 @@ function Handle_Planet_Production(Current_Morale_Entry)
 
         if TestValid(level_planet) then
 
-            DebugMessage("%s -- Entry: %s, Current Morale: %s, Planet Owner: %s", tostring(Script), tostring(entry.Name), tostring(Current_Morale_Entry.Name), tostring(level_planet.Get_Owner()))
+            --DebugMessage("%s -- Entry: %s, Current Morale: %s, Planet Owner: %s", tostring(Script), tostring(entry.Name), tostring(Current_Morale_Entry.Name), tostring(level_planet.Get_Owner()))
 
             if entry.Name == Current_Morale_Entry.Name then
 
@@ -425,7 +425,7 @@ end
 
 function Selected_Planet_Morale_Display()
 
-    DebugMessage("%s -- Checking Selected Planet", tostring(Script))
+    --DebugMessage("%s -- Checking Selected Planet", tostring(Script))
 
     if selected_planet ~= nil then
         local selected_planet_morale_entry = Get_Planet_Morale(selected_planet)

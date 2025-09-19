@@ -331,6 +331,173 @@ local unit_table = {
     },
     SWORDS_Cerastes_Squadron = {
         Category = "Fighter"
+    },
+    UNSC_CAMP = {
+        Category = "Structure",
+        Next = "UNSC_BASE",
+    },
+    UNSC_BASE = {
+        Category = "Structure",
+        Upgrades = "UNSC_CAMP",
+        Next = "UNSC_FORT",
+    },
+    UNSC_FORT = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASE",
+        Next = "UNSC_CAPITAL", -- Forts shouldn't ever upgrade to capitals however this is to make sure the 2 cant exist on the same planet
+    },
+    UNSC_CAPITAL = {
+        Category = "Structure"
+    },
+    UNSC_FARM = {
+        Category = "Structure"
+    },
+    UNSC_BASIC_BARRACKS = {
+        Category = "Structure",
+        Next = "UNSC_STANDARD_BARRACKS",
+    },
+    UNSC_STANDARD_BARRACKS = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_BARRACKS",
+        Next = "UNSC_ADVANCED_BARRACKS",
+    },
+    UNSC_ADVANCED_BARRACKS = {
+        Category = "Structure",
+        Upgrades = "UNSC_STANDARD_BARRACKS",
+    },
+    UNSC_SPECIAL_BARRACKS = {
+        Category = "Structure"
+    },
+    UNSC_BASIC_FACTORY = {
+        Category = "Structure",
+        Next = "UNSC_STANDARD_FACTORY",
+    },
+    UNSC_STANDARD_FACTORY = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_FACTORY",
+        Next = "UNSC_ADVANCED_FACTORY",
+    },
+    UNSC_ADVANCED_FACTORY = {
+        Category = "Structure",
+        Upgrades = "UNSC_STANDARD_FACTORY",
+    },
+    UNSC_GOVERMENT_BUILDING = {
+        Category = "Structure"
+    },
+    UNSC_TITANIUM_MINE = {
+        Category = "Structure"
+    },
+    UNSC_DEEP_CORE_MINE = {
+        Category = "Structure"
+    },
+    UNSC_RESEARCH_FACILITY = {
+        Category = "Structure"
+    },
+    COVN_CAMP = {
+        Category = "Structure",
+        Next = "COVN_BASE",
+    },
+    COVN_BASE = {
+        Category = "Structure",
+        Upgrades = "COVN_CAMP",
+        Next = "COVN_FORT",
+    },
+    COVN_FORT = {
+        Category = "Structure",
+        Upgrades = "COVN_FORT",
+        Next = "COVN_CAPITAL", -- Forts shouldn't ever upgrade to capitals however this is to make sure the 2 cant exist on the same planet
+    },
+    COVN_CAPITAL = {
+        Category = "Structure",
+    },
+    COVN_BASIC_BARRACKS = {
+        Category = "Structure",
+        Next = "COVN_STANDARD_BARRACKS",
+    },
+    COVN_STANDARD_BARRACKS = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_BARRACKS",
+        Next = "COVN_ADVANCED_BARRACKS",
+    },
+    COVN_ADVANCED_BARRACKS = {
+        Category = "Structure",
+        Upgrades = "COVN_STANDARD_BARRACKS",
+    },
+    COVN_SPECIAL_BARRACKS = {
+        Category = "Structure"
+    },
+    COVN_BASIC_FACTORY = {
+        Category = "Structure",
+        Next = "COVN_STANDARD_FACTORY",
+    },
+    COVN_STANDARD_FACTORY = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_FACTORY",
+        Next = "COVN_ADVANCED_FACTORY",
+    },
+    COVN_ADVANCED_FACTORY = {
+        Category = "Structure",
+        Upgrades = "COVN_STANDARD_FACTORY",
+    },
+    COVN_GOVERMENT_BUILDING = {
+        Category = "Structure"
+    },
+    COVN_TITANIUM_MINE = {
+        Category = "Structure"
+    },
+    COVN_DEEP_CORE_MINE = {
+        Category = "Structure"
+    },
+    COVN_RESEARCH_FACILITY = {
+        Category = "Structure"
+    },
+    Rebel_Speeder_Wing = {
+        Category = "Vehicle"
+    },
+    Rebel_Artillery_Brigade = {
+        Category = "Vehicle"
+    },
+    Rebel_Light_Tank_Brigade = {
+        Category = "Vehicle"
+    },
+    Rebel_Heavy_Tank_Brigade = {
+        Category = "Vehicle"
+    },
+    Rebel_Infantry_Squad = {
+        Category = "Infantry"
+    },
+    Rebel_Tank_Buster_Squad = {
+        Category = "Infantry"
+    },
+    Rebel_Infiltrator_Team = {
+        Category = "Infantry"
+    },
+    Rebel_Pod_Walker_Company = {
+        Category = "Vehicle"
+    },
+    Imperial_Armor_Group = {
+        Category = "Vehicle"
+    },
+    Imperial_Anti_Aircraft_Company = {
+        Category = "Vehicle"
+    },
+    Imperial_Heavy_Assault_Company = {
+        Category = "Vehicle"
+    },
+    Imperial_Heavy_Scout_Squad = {
+        Category = "Vehicle"
+    },
+    Imperial_Artillery_Corp = {
+        Category = "Vehicle"
+    },
+    Imperial_Anti_Infantry_Brigade ={
+        Category = "Vehicle"
+    },
+    Imperial_Stormtrooper_Squad = {
+        Category = "Infantry"
+    },
+    Imperial_Light_Scout_Squad = {
+        Category = "Infantry"
     }
 }
 

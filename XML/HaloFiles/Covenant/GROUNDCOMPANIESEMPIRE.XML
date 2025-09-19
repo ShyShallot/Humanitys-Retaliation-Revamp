@@ -17,7 +17,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>3</Formation_Priority>
@@ -81,7 +81,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>5</Formation_Priority>
@@ -144,7 +144,7 @@
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_ADVANCED_FACTORY</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>4</Formation_Priority>
@@ -209,7 +209,7 @@
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_BASIC_FACTORY</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -279,7 +279,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>6</Formation_Priority>
@@ -340,7 +340,7 @@
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>COVN_STANDARD_BARRACKS</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>
@@ -414,7 +414,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -507,7 +507,7 @@
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -679,5 +679,38 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 	<!--multiplayer cantina-->
+
+	<HeroCompany Name="Probe_Droid_Team">
+		<GUI_Row>1</GUI_Row>
+		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>COVN_SPECIAL_BARRACKS</Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Generic_Probe_Droid</Company_Units>
+		<Icon_Name>i_button_scout_droid.tga</Icon_Name>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<SFXEvent_Build_Complete>Unit_Galactic_Announce_Probot</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Move>Unit_Galactic_Move_Probot</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Galactic_Move_Probot</SFXEvent_Fleet_Move>
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_PROBE_DROID</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
 		
 </EmpireGroundCompanies>

@@ -1,3 +1,4 @@
+-- Script Written by ShyShallot
 
 Random_Start = {
     Total_Major_Starting_Planets = 1,
@@ -13,12 +14,20 @@ Random_Start = {
 
     Starting_Structures = {
         REBEL = {
-            Ground = {},
-            Space = {"Rebel_Star_Base_5"}
+            Ground = {"UNSC_CAPITAL"},
+            Space = {},
+            Station = {
+                Level = 5,
+                Name = "Rebel_Star_Base_"
+            },
         },
         EMPIRE = {
-            Ground = {},
-            Space = {"Empire_Star_Base_5"}
+            Ground = {"COVN_CAPITAL"},
+            Space = {},
+            Station = {
+                Level = 5,
+                Name = "Empire_Star_Base_"
+            },
         },
         SWORDS = {
             Ground = {},
@@ -99,6 +108,18 @@ function Random_Start:Pick_Faction_Start_Major(Faction_Name)
                 local Structs = self.Starting_Structures[faction.Get_Faction_Name()]
 
                 if Structs ~= nil then
+
+                    local Station_Info = Structs.Station
+
+                    if Station_Info.Name ~= nil then
+
+                        if type(Station_Info.Level) == "number" then
+                            local Station_To_Spawn = Station_Info.Name .. Station_Info.Level
+
+                            Spawn_Unit(Find_Object_Type(Station_To_Spawn), Starting_Planet, faction)
+                        end
+                    end
+
                     for _, struct in pairs(Structs.Ground) do
                         Spawn_Unit(Find_Object_Type(struct), Starting_Planet, faction)
                     end
@@ -217,6 +238,78 @@ end
 
 function Random_Start:Is_Finished()
     return self.Finished
+end
+
+function Random_Start:Set_Major_Faction_Starting_Station_Level(faction, level)
+
+    if faction == nil then
+        return
+    end
+
+    if type(level) ~= "number" then
+        return
+    end
+
+    if level < 1 or level > 5 then 
+        return
+    end
+
+    if TestValid(faction) then
+        local Faction_Name = faction.Get_Faction_Name()
+
+        if Faction_Name ~= nil then
+            local Faction_Info = self.Starting_Structures[Faction_Name]
+
+            if Faction_Info ~= nil then
+
+                if Faction_Info.Station.Level ~= nil then
+                    Faction_Info.Station.Level = level
+                end
+            end
+        end
+    end
+end
+
+function Random_Start:Set_Minor_Faction_Starting_Station_Range(faction, low, high)
+
+    if faction == nil then
+        return
+    end
+
+    if type(low) ~= "number" and type(high) ~= "number" then
+        return
+    end
+
+    if low < 1 then
+        return
+    end
+
+    if high > 5 then
+        return
+    end
+
+    if low > high then
+        local temp = high
+
+        high = low
+
+        low = temp
+    end
+
+    if TestValid(faction) then
+        local Faction_Name = faction.Get_Faction_Name()
+
+        if Faction_Name ~= nil then
+            local Faction_Info = self.Starting_Structures[Faction_Name]
+
+            if Faction_Info ~= nil then
+
+                if Faction_Info.Station.Range ~= nil then
+                    Faction_Info.Station.Range = {low, high}
+                end
+            end
+        end
+    end
 end
 
 return Random_Start

@@ -15,8 +15,8 @@
 	<File>GroundTurrets.xml</File>
 	<File>GroundInfantry.xml</File>
 	<File>GroundVehicles.xml</File>
-	<File>GroundCompaniesRebel.xml</File>
-	<File>GroundCompaniesEmpire.xml</File>
+	<!--<File>GroundCompaniesRebel.xml</File>
+	<File>GroundCompaniesEmpire.xml</File> -->
 	<File>GroundIndigenous.xml</File>
 	<File>GroundCompaniesIndigenous.xml</File>
 	<File>GroundBuildablesRebel.xml</File>
@@ -197,6 +197,8 @@
 	<File>HaloFiles\UNSC\UNSC_Specials.xml</File>
 	<File>HaloFiles\UNSC\UNSC_TECH_RESEARCH.xml</File>
 	<File>HaloFiles\UNSC\UNSC_DEFENSE_PLATFORMS.xml</File>
+	<File>HaloFiles\UNSC\GROUNDSTRUCTURES.xml</File>
+	<File>HaloFiles\UNSC\GROUNDCOMPANIESREBEL.XML</File>
 	<File>HaloFiles\Covenant\COVN_Station.xml</File>
 	<File>HaloFiles\Covenant\COVN_FIGHTERS.XML</File>
 	<File>HaloFiles\Covenant\COVN_FRIGATES.xml</File>
@@ -204,6 +206,8 @@
 	<File>HaloFiles\Covenant\COVN_CAPITIALS.xml</File>
 	<File>HaloFiles\Covenant\COVN_HEROS.xml</File>
 	<File>HaloFiles\Covenant\COVN_Artifacts.xml</File>
+	<File>HaloFiles\Covenant\GROUNDSTRUCTURES.xml</File>
+	<File>HaloFiles\Covenant\GROUNDCOMPANIESEMPIRE.XML</File>
 	<File>HaloFiles\Swords\SWORDS_UNITS.xml</File>
 	<File>HaloFiles\Swords\SWORDS_STARBASES.xml</File>
 	<File>HaloFiles\Terrorists\TERROR_STARBASES.xml</File>

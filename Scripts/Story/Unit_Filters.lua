@@ -1,282 +1,257 @@
-require("PGStateMachine")
-require("PGStoryMode")
-require("HALOFunctions")
-require("PGBaseDefinitions")
+local Unit_Filters = {
 
-function Definitions()
+    Units = nil,
 
-    ServiceRate = 0.15
+    Player = nil,
 
-    StoryModeEvents =
-    {
-        Universal_Story_Start = Init_Filters,
-        Structures_Super_Filter = Set_Structures_Super_Filter,
-        Capitals_Filter = Set_Capitals_Filter,
-        Frigate_Corvette_Filter = Set_Frigate_Corvette_Filter,
-        Fighter_Filter = Set_Fighter_Filter,
-        Flush = Flush,
-        Reset_Filters = Reset_Filters,
-    }
+    Cache = {
+        Special_Case = {},
+        Category = {},
+    },
 
-    Filter_List = {}
+    Active_Filter = nil,
 
-    active_filter = nil
+    Structure_Super_Filter = "Structure | Super",
+    Capitals_Filter = "Capital",
+    Frigate_Corvette_Filter = "Frigate | Corvette | Vehicle",
+    Fighter_Filter = "Fighter | Infantry",
+}
 
-    lock_list = {}
+function Unit_Filters:Init(player, plot_file)
 
-    unit_table = nil
-
-    
-    Structure_Super_Filter = "Structure | Super"
-    Capitals_Filter = "Capital"
-    Frigate_Corvette_Filter = "Frigate | Corvette"
-    Fighter_Filter = "Fighter"
-
-    Structure_Super_Filter_GUI = "b_filters4"
-    Capitals_Filter_GUI = "b_filters5"
-    Frigate_Corvette_Filter_GUI = "b_filters6"
-    Fighter_Filter_GUI = "b_filters7"
-    
-end
-
-function Init_Filters(message)
-    if message == OnEnter then
-        --DebugMessage("%s -- Init_Filters", tostring(Script))
-
-        local human = Find_Human_Player()
-
-        unit_table = require("globalUnitTable")
-
-        for unit_name, unit_info in pairs(unit_table) do
-
-            --DebugMessage("%s -- Adding Unit to Lock List: %s", tostring(Script), tostring(unit_name))
-
-            local unit_type = Find_Object_Type(unit_name)
-
-            --DebugMessage("%s -- Unit Type: %s", tostring(Script), tostring(unit_type))
-
-            if unit_type ~= nil then
-                Unit_Build_Status(unit_type, false, human)
-            end
-        end
-
-        local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Unit_Filters.xml")
-        
-        local Structures_Super_Filter_Event = plot.Get_Event("Structures_Super_Filter")
-        Structures_Super_Filter_Event.Set_Reward_Parameter(1, human.Get_Faction_Name())
-
-        local Capitals_Filter_Event = plot.Get_Event("Capitals_Filter")
-        Capitals_Filter_Event.Set_Reward_Parameter(1, human.Get_Faction_Name())
-
-        local Frigate_Corvette_Filter_Event = plot.Get_Event("Frigate_Corvette_Filter")
-        Frigate_Corvette_Filter_Event.Set_Reward_Parameter(1, human.Get_Faction_Name())
-
-        local Fighter_Filter_Event = plot.Get_Event("Fighter_Filter")
-        Fighter_Filter_Event.Set_Reward_Parameter(1, human.Get_Faction_Name())
-
-        Set_Next_State("Flush")
-    end
-end
-
-function Set_Structures_Super_Filter(message)
-    local human = Find_Human_Player()
-    if message == OnEnter then
-        DebugMessage("%s -- Set_Structures_Super_Filter", tostring(Script))
-
-        if active_filter == "Structures_Super_Filter" then
-            DebugMessage("%s -- Structures Super Filter Already Active", tostring(Script))
-            Set_Next_State("Reset_Filters")
-            return
-        end
-
-        Filter_By_Category(Structure_Super_Filter)
-        active_filter = "Structures_Super_Filter"
-
-        Set_Next_State("Flush")
-    end
-end
-
-function Set_Capitals_Filter(message)
-    local human = Find_Human_Player()
-    if message == OnEnter then
-        DebugMessage("%s -- Set_Capitals_Filter", tostring(Script))
-
-        if active_filter == "Capitals_Filter" then
-            DebugMessage("%s -- Capitals Filter Already Active", tostring(Script))
-            Set_Next_State("Reset_Filters")
-            return
-        end
-
-        Filter_By_Category(Capitals_Filter)
-        active_filter = "Capitals_Filter"
-
-        Set_Next_State("Flush")
-    end
-end
-
-function Set_Frigate_Corvette_Filter(message)
-    local human = Find_Human_Player()
-    if message == OnEnter then
-        DebugMessage("%s -- Set_Frigate_Corvette_Filter", tostring(Script))
-
-        if active_filter == "Frigate_Corvette_Filter" then
-            DebugMessage("%s -- Frigate Corvette Filter Already Active", tostring(Script))
-            Set_Next_State("Reset_Filters")
-            return
-        end
-
-        Filter_By_Category(Frigate_Corvette_Filter)
-        active_filter = "Frigate_Corvette_Filter"
-
-        Set_Next_State("Flush")
-    end
-end
-
-function Set_Fighter_Filter(message)
-    local human = Find_Human_Player()
-    if message == OnEnter then
-        DebugMessage("%s -- Set_Fighter_Filter", tostring(Script))
-
-        if active_filter == "Fighter_Filter" then
-            DebugMessage("%s -- Fighter Filter Already Active", tostring(Script))
-            Set_Next_State("Reset_Filters")
-            return
-        end
-
-        Filter_By_Category(Fighter_Filter)
-        active_filter = "Fighter_Filter"
-
-        Set_Next_State("Flush")
-    end
-end
-
-function Filter_By_Category(category)
-
-    local human = Find_Human_Player()
-
-    External_Lock_Checks()
-
-    for unit_type_name, should_lock in pairs(lock_list) do
-        local unit_type = Find_Object_Type(unit_type_name)
-
-        local unit_type_info = unit_table[unit_type_name]
-
-        --DebugMessage("%s -- Unit Type: %s, Unit Type Info: %s", tostring(Script), tostring(unit_type_name), tostring(unit_type_info))
-
-        if unit_type ~= nil and unit_type_info ~= nil then
-            local unit_category = unit_type_info.Category
-            --DebugMessage("%s -- Unit Category: %s", tostring(Script), tostring(unit_category))
-            if Is_Unit_In_Filter(unit_category, category) == false then -- if unit is not in the filter
-                --DebugMessage("%s -- %s is not in filter, locking", tostring(Script), tostring(unit_type_name))
-                human.Lock_Tech(unit_type)
-            else -- if unit is in filter
-                if should_lock == false then -- if the unit is not supposed to be locked unlock it
-                    human.Unlock_Tech(unit_type)
-                else -- if the unit is supposed to be locked, lock it
-                    human.Lock_Tech(unit_type) 
-                end
-            end
-        end
-    end
-end
-
-function Reset_Filters(message)
-    if message == OnEnter then
-        DebugMessage("%s -- Reset_Filters", tostring(Script))
-
-        DebugMessage("%s -- Active Filter: %s", tostring(Script), tostring(active_filter))
-
-        local gui_element = nil
-
-        if active_filter == "Structures_Super_Filter" then
-            gui_element = Structure_Super_Filter_GUI
-        elseif active_filter == "Capitals_Filter" then
-            gui_element = Capitals_Filter_GUI
-        elseif active_filter == "Frigate_Corvette_Filter" then
-            gui_element = Frigate_Corvette_Filter_GUI
-        elseif active_filter == "Fighter_Filter" then
-            gui_element = Fighter_Filter_GUI
-        end
-
-        DebugMessage("%s -- Resetting Filter: %s", tostring(Script), tostring(gui_element))
-
-        if gui_element ~= nil then
-            DebugMessage("%s -- Force_Click_Filter: %s", tostring(Script), tostring(gui_element))
-            --Force_Click_Filter(gui_element)
-        end
-
-        active_filter = nil
-
-        DebugMessage("%s -- Active Filter: %s", tostring(Script), tostring(active_filter))
-
-        local human = Find_Human_Player()
-
-        for unit_type_name, should_lock in pairs(lock_list) do
-            local unit_type = Find_Object_Type(unit_type_name)
-            if unit_type ~= nil then
-                DebugMessage("%s -- Unit Type: %s, Should Lock: %s", tostring(Script), tostring(unit_type_name), tostring(should_lock))
-                if should_lock == false then -- if the unit is not supposed to be locked unlock it
-                    human.Unlock_Tech(unit_type)
-                else -- if the unit is supposed to be locked, lock it
-                    human.Lock_Tech(unit_type) 
-                end
-            end
-        end
-
-        Set_Next_State("Flush")
-    end
-    
-end
-
-function Unit_Build_Status(unit_type, should_lock, owner)
-    
-    if should_lock ~= true then
-        should_lock = false
-    end
-
-    if owner.Is_Human() == false then -- we dont want to convolute our lock_list with AI units
-        if should_lock then
-            owner.Lock_Tech(unit_type)
-        else
-            owner.Unlock_Tech(unit_type)
-        end
+    if not TestValid(player) then
+        DebugMessage("%s -- NO VALID PLAYER ASSIGNED", tostring(Script))
         return
     end
+
+    if plot_file == nil then
+        return
+    end
+
+    self.Player = player
+
+    self.Units = require("globalUnitTable")
+
+    if self.Units == nil then
+        DebugMessage("%s -- GLOBAL UNITS TABLE RETURNED NIL", tostring(Script))
+        return
+    end
+
+    for unit_name, info in pairs(self.Units) do
+        if info.Is_Locked == nil then
+            info.Is_Locked = false
+
+            info.Should_Lock = false
+        end
+        
+
+        if info.Global_Value_Check ~= nil then
+            if self.Cache.Special_Case[info.Global_Value_Check] == nil then
+                self.Cache.Special_Case[info.Global_Value_Check] = {}
+            end
+
+            table.insert(self.Cache.Special_Case[info.Global_Value_Check], unit_name)
+        end
+
+        if self.Cache.Category[info.Category] == nil then
+            self.Cache.Category[info.Category] = {}
+        end
+        
+        table.insert(self.Cache.Category[info.Category], unit_name)
+    end
+
+    local plot = Get_Story_Plot(plot_file)
+        
+    local Structures_Super_Filter_Event = plot.Get_Event("Structures_Super_Filter")
+    Structures_Super_Filter_Event.Set_Reward_Parameter(1, self.Player.Get_Faction_Name())
+
+    local Capitals_Filter_Event = plot.Get_Event("Capitals_Filter")
+    Capitals_Filter_Event.Set_Reward_Parameter(1, self.Player.Get_Faction_Name())
+
+    local Frigate_Corvette_Filter_Event = plot.Get_Event("Frigate_Corvette_Filter")
+    Frigate_Corvette_Filter_Event.Set_Reward_Parameter(1, self.Player.Get_Faction_Name())
+
+    local Fighter_Filter_Event = plot.Get_Event("Fighter_Filter")
+    Fighter_Filter_Event.Set_Reward_Parameter(1, self.Player.Get_Faction_Name())
     
-    lock_list[unit_type.Get_Name()] = should_lock
 end
 
-function External_Lock_Checks()
-    local human = Find_Human_Player()
-    for unit_type_name, unit_info in pairs(unit_table) do
-        local unit_type = Find_Object_Type(unit_type_name)
+function Unit_Filters:Update()
 
-        if unit_info.Global_Value_Check ~= nil then
-            if GlobalValue.Get(unit_info.Global_Value_Check) == 1 then
-                --DebugMessage("%s -- Locking Unit: %s", tostring(Script), tostring(unit_type_name))
-                if unit_type ~= nil then
-                    Unit_Build_Status(unit_type, true, human)
+    self:Check_Cache()
+
+    self:Check_Filter()
+end
+
+function Unit_Filters:Get_Entry(unit_name)
+    return self.Units[unit_name]
+end
+
+function Unit_Filters:Has_Special_Case(unit_name)
+    local entry = self:Get_Entry(unit_name)
+
+    if entry ~= nil then
+        if entry.Global_Value_Check ~= nil then
+            return true
+        else
+            return false
+        end
+    end
+
+    return false
+end
+
+function Unit_Filters:Check_Cache()
+
+    for Special_Case, units in pairs(self.Cache.Special_Case) do
+
+        local Special_Case_Status = GlobalValue.Get(Special_Case)
+
+        if type(Special_Case_Status) == "number" then
+
+            local lock = false
+
+            if Special_Case_Status == 1 then
+                lock = true
+            end
+
+            for _, unit_name in pairs(units) do
+                if self.Units[unit_name] ~= nil then
+                    self.Units[unit_name].Should_Lock = lock
                 end
-            else
-                --DebugMessage("%s -- Unlocking Unit: %s", tostring(Script), tostring(unit_type_name))
-                if unit_type ~= nil then
-                    Unit_Build_Status(unit_type, false, human)
+            end
+
+        end
+    end
+end
+
+function Unit_Filters:Check_Filter()
+
+    if self.Units == nil then
+        return
+    end
+
+    if self.Active_Filter == nil then
+        return
+    end
+
+    DebugMessage("%s -- Current Filter: %s", tostring(Script), tostring(self.Active_Filter))
+
+    for unit_name, info in pairs(self.Units) do
+        if self:Is_Unit_In_Filter(unit_name) then
+            local lock = false
+        
+            if info.Should_Lock then
+                lock = true
+            end
+
+            self:Lock_Unit(unit_name, lock)
+        else
+            self:Lock_Unit(unit_name, true)
+        end
+    end
+end
+
+function Unit_Filters:Is_Unit_Locked(unit_name)
+
+    local Unit_Entry = self:Get_Entry(unit_name)
+
+    if Unit_Entry ~= nil then
+        return Unit_Entry.Is_Locked
+    end
+
+    return false
+end
+
+function Unit_Filters:Lock_Unit(unit_name, lock)
+
+    if unit_name == nil then
+        return
+    end
+
+    if lock == nil then
+        return
+    end
+
+    local Unit_Entry = self:Get_Entry(unit_name)
+
+    if Unit_Entry ~= nil then
+
+        if Unit_Entry.Is_Locked ~= lock then
+            Unit_Entry.Is_Locked = lock
+
+            local Unit_Type = Find_Object_Type(unit_name)
+
+            DebugMessage("%s -- Unit Name: %s, Unit Type: %s", tostring(Script), tostring(unit_name), tostring(Unit_Type))
+
+            if Unit_Type ~= nil then 
+                if lock then
+                    self.Player.Lock_Tech(Unit_Type)
+                else
+                    self.Player.Unlock_Tech(Unit_Type)
                 end
             end
         end
     end
 end
 
+function Unit_Filters:Reset_Filters()
 
-function Is_Unit_In_Filter(category, filter)
+    DebugMessage("%s -- Resetting Filters", tostring(Script))
+
+    self.Active_Filter = nil
+
+    for unit_name, info in pairs(self.Units) do
+
+        DebugMessage("%s -- Resetting %s", tostring(Script), tostring(unit_name))
+
+        local lock = false
+        
+        if info.Should_Lock then
+            lock = true
+        end
+
+        self:Lock_Unit(unit_name, lock)
+    end
+end
+
+function Unit_Filters:Set_Filter(filter)
+
+    if filter == nil then
+        return
+    end
+
+    DebugMessage("%s -- New Filter: %s, Current Filter: %s", tostring(Script), tostring(filter), tostring(self.Active_Filter))
+
+    if self.Active_Filter == filter then
+        DebugMessage("%s -- Filter Already Active", tostring(Script))
+        self:Reset_Filters()
+        return
+    end
+
+    self.Active_Filter = filter
+end
+        
+
+function Unit_Filters:Is_Unit_In_Filter(unit_name)
     --DebugMessage("Category: %s, Filter: %s", tostring(category), tostring(filter))
 
-    local filters = split(filter, " | ")
+    if self.Active_Filter == nil then
+        return true
+    end
+
+    local Unit_Entry = self:Get_Entry(unit_name)
+
+    if Unit_Entry == nil then
+        return true
+    end
+
+    local filters = split(self.Active_Filter, " | ")
 
     local is_in_filter = false
 
     for _, split_filter in pairs(filters) do
-        if StringCompare(split_filter,category) then
+        if StringCompare(split_filter,Unit_Entry.Category) then
             is_in_filter = true
         end
     end
@@ -284,47 +259,8 @@ function Is_Unit_In_Filter(category, filter)
     return is_in_filter
 end
 
-function Force_Click_Filter(filter_name)
-    local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Unit_Filters.xml")
-    local event = plot.Get_Event("Force_Click_Filter")
-
-    event.Set_Reward_Parameter(0, filter_name)
-
-    Story_Event("Force_Click_Element")
+function Unit_Filters:Get_Active_Filter()
+    return self.Active_Filter
 end
 
-function Flush(message)
-    if message == OnEnter then
-        DebugMessage("%s -- Flush", tostring(Script))
-
-    end
-
-    if message == OnUpdate then
-        DebugMessage("%s -- In OnUpdate", tostring(Script))
-        if active_filter == nil then
-            External_Lock_Check_Update()
-        end
-    end
-end
-
-function External_Lock_Check_Update()
-    local human = Find_Human_Player()
-
-    for unit_type_name, unit_info in pairs(unit_table) do
-        local unit_type = Find_Object_Type(unit_type_name)
-
-        if unit_info.Global_Value_Check ~= nil then
-            if GlobalValue.Get(unit_info.Global_Value_Check) == 1 then
-                --DebugMessage("%s -- Locking Unit: %s", tostring(Script), tostring(unit_type_name))
-                if unit_type ~= nil then
-                    human.Lock_Tech(unit_type)
-                end
-            else
-                --DebugMessage("%s -- Unlocking Unit: %s", tostring(Script), tostring(unit_type_name))
-                if unit_type ~= nil then
-                    human.Unlock_Tech(unit_type)
-                end
-            end
-        end
-    end
-end
+return Unit_Filters

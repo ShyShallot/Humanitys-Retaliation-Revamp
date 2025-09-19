@@ -846,4 +846,28 @@
 		((Variable_Target.StructureCount {Parameter_Type = "UNSC_Mining_Facility", Parameter_Only_Consider_Complete = 1.0}) > 0 )
 	</Does_Planet_Have_Econ_Structures>
 
+	<Does_Planet_Have_Camp>
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_CAMP", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		+
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_CAMP", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Does_Planet_Have_Camp>
+
+	<Does_Planet_Have_Base>
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_BASE", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		+
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_BASE", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Does_Planet_Have_Base>
+
+	<Does_Planet_Have_Fort>
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_FORT", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		+
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_FORT", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Does_Planet_Have_Fort>
+
+	<Does_Planet_Have_Capital>
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_CAPITAL", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		+
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_CAPITAL", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Does_Planet_Have_Capital>
+
 </Equations>

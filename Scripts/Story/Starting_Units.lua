@@ -1,3 +1,4 @@
+-- Script Written by ShyShallot
 Starting_Units_Handler = {
     Spawn_Settings = {
         Category_Mapping = nil, -- this is filled in later with a weighted table in Global_Story OnEnter
@@ -7,27 +8,27 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = 8000,
-                        Structures = {},
+                        Structures = {"UNSC_CAMP"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON"}
                     },
                     Low = {
                         Power = 18000,
-                        Structures = {},
+                        Structures = {"UNSC_CAMP"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON"}
                     },
                     Medium = {
                         Power = 45000,
-                        Structures = {"R_Ground_Barracks"},
+                        Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     },
                     High = {
                         Power = 50000,
-                        Structures = {"R_Ground_Barracks"},
+                        Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 75000,
-                        Structures = {"R_Ground_Barracks"},
+                        Structures = {"UNSC_FORT", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
                         Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "CHARON_SQUADRON", "UNSC_PHOENIX"}
                     }
                 },
@@ -43,27 +44,27 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = 6000,
-                        Structures = {},
+                        Structures = {"COVN_CAMP"},
                         Units = {"CRS_SQUADRON"}
                     },
                     Low = {
                         Power = 9500,
-                        Structures = {},
+                        Structures = {"COVN_CAMP"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON"}
                     },
                     Medium = {
                         Power = 18000,
-                        Structures = {"E_Ground_Barracks"},
+                        Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
                     },
                     High = {
                         Power = 30500,
-                        Structures = {"E_Ground_Barracks"},
+                        Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_ORS", "COVN_DDS"}
                     },
                     Ultra = {
                         Power = 45000,
-                        Structures = {"E_Ground_Barracks"},
+                        Structures = {"COVN_FORT", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     }
                 },
@@ -123,6 +124,8 @@ Starting_Units_Handler = {
     Global_Unit_Table = nil,
 
     Finished = false,
+
+    Banned_Structures = {}
 }
 
 function Starting_Units_Handler:Start()
@@ -203,17 +206,25 @@ function Starting_Units_Handler:Start()
 
                     if type(structure) == "table" then
 
-                        for i=1, structure.Amount, 1 do
+                        if self.Banned_Structures[structure.Name] == nil then
 
-                            self:Spawn_Structure(structure.Name, planet)
+                            for i=1, structure.Amount, 1 do
 
+                                self:Spawn_Structure(structure.Name, planet)
+
+                            end
                         end
                     else
-                        self:Spawn_Structure(structure, planet)
+                        if self.Banned_Structures[structure] == nil then 
+                            self:Spawn_Structure(structure, planet)
+                        end
                     end
                     
                 end
-                while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) do
+
+                local attempts = 0
+
+                while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) or attempts < 50 do
 
                     DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
 
@@ -249,6 +260,8 @@ function Starting_Units_Handler:Start()
                             end
                         end
                     end
+
+                    attempts = attempts + 1
                 end
             end
         end
@@ -337,6 +350,23 @@ end
 
 function Starting_Units_Handler:Is_Finished()
     return self.Finished
+end
+
+function Starting_Units_Handler:Add_Banned_Structures(structures)
+    
+    if type(structures) == "string" then -- Allow the passing of a single structure, then format it into a table
+        local temp = structures
+
+        structures = {temp}
+    end
+
+    if type(structures) ~= "table" then
+        return
+    end
+
+    for _, structure in pairs(structures) do
+        self.Banned_Structures[structure] = true
+    end
 end
 
 return Starting_Units_Handler
