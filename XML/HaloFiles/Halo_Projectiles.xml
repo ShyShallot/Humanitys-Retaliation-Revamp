@@ -818,7 +818,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>4750.0</Projectile_Damage>
+		<Projectile_Damage>3750.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -846,7 +846,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>4200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>425.0</Projectile_Damage>
+		<Projectile_Damage>325.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
@@ -875,7 +875,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>4200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>2750.0</Projectile_Damage>
+		<Projectile_Damage>1750.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1442,6 +1442,8 @@
 		<Projectile_Lifetime_Detonation_Particle> Covie_Torpedo_AF_Death </Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle> Covie_Torpedo_AF_Death </Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>900</AI_Combat_Power>
+		<Projectile_Blast_Area_Damage> 55 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 150 </Projectile_Blast_Area_Range>
 		
 	</Projectile>
 	

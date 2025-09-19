@@ -103,7 +103,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -223,7 +223,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -351,7 +351,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -453,7 +453,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -556,7 +556,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -658,7 +658,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>10520</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -780,7 +780,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -874,7 +874,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12550</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

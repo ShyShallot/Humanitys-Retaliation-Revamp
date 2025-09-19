@@ -503,7 +503,7 @@
 			<Max_Predelay>1000</Max_Predelay>
     </SFXEvent>
 
-	<SFXEvent Name="SFX_Asteroid_Detonation">
+	<SFXEvent Name="">
 			<Use_Preset>Preset_GUNV</Use_Preset>
 			<Samples>EXP_Asteroid_Ship_1.wav EXP_Asteroid_Ship_2.wav EXP_Asteroid_Ship_3.wav EXP_Asteroid_Ship_4.wav</Samples>      
     </SFXEvent>

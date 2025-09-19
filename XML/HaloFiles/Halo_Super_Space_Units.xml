@@ -66,7 +66,7 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
@@ -123,7 +123,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
@@ -289,7 +289,7 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
@@ -345,7 +345,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
@@ -557,7 +557,7 @@
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
 		<Death_Clone>Damage_Normal</Death_Clone>
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
@@ -577,7 +577,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer </SFXEvent_Attack_Hardpoint>
@@ -669,8 +669,8 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Build_Cost_Credits>116500</Build_Cost_Credits>
-		<Build_Time_Seconds>300</Build_Time_Seconds> <!-- was 300 -->
+		<Build_Cost_Credits>92500</Build_Cost_Credits>
+		<Build_Time_Seconds>265</Build_Time_Seconds> <!-- was 300 -->
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> TEXT_TECH_COVN_COUNTDOWN_TIMER_CAS </Build_Countdown_Text_ID>
@@ -767,8 +767,8 @@
 		<Required_Special_Structures/>
 		<Required_Planets>Sanghelios</Required_Planets>
 
-		<Build_Cost_Credits>504500</Build_Cost_Credits>
-		<Build_Time_Seconds>480</Build_Time_Seconds>
+		<Build_Cost_Credits>275000</Build_Cost_Credits>
+		<Build_Time_Seconds>420</Build_Time_Seconds>
 
 		<Shield_Points>1250000</Shield_Points>
 		<Tactical_Health>1250000</Tactical_Health>
@@ -845,8 +845,8 @@
 		</Abilities>
 		<!-- Multiplayer shit, as if they could actually -->
 		
-		<Tactical_Build_Cost_Multiplayer>500850</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>365</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>275000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>420</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

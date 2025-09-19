@@ -122,7 +122,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Assault_Frigate</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Assault_Frigate </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Assault_Frigate </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -315,7 +315,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
@@ -506,7 +506,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
@@ -733,7 +733,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Assault_Frigate</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Assault_Frigate </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Assault_Frigate </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 

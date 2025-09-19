@@ -116,7 +116,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Nebulon</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Corvette_Move_Asteroids </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Corvette_Move_Nebula </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -358,7 +358,7 @@
 		<SFXEvent_Barrage>Unit_Barrage_Nebulon</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Nebulon </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Nebulon </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
