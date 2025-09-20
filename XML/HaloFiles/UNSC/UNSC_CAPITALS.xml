@@ -1041,7 +1041,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Earth</Required_Planets>
+		<Required_Planets>Earth, Mars, Reach</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>105000</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -1051,7 +1051,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>15750</Build_Cost_Credits>
-		<AI_Combat_Power>13500</AI_Combat_Power>
+		<AI_Combat_Power>23500</AI_Combat_Power>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
