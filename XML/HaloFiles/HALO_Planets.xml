@@ -19,7 +19,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>650</Planet_Credit_Value>
+    <Planet_Credit_Value>950</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
 	<Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
@@ -1272,7 +1272,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>185</Planet_Credit_Value>
+    <Planet_Credit_Value>785</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>15.0, -214.0, 10.0</Galactic_Position>
     <Special_Structures_Land>7</Special_Structures_Land>
@@ -1303,7 +1303,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>50</Additional_Population_Capacity>
+    <Additional_Population_Capacity>150</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Price_Ability Name="Mars_Military_Boost">
         <Unit_Strength_Category/>
