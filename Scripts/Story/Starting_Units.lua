@@ -224,7 +224,7 @@ function Starting_Units_Handler:Start()
 
                 local attempts = 0
 
-                while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) or attempts < 50 do
+                while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) and attempts < 50 do
 
                     DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
 
