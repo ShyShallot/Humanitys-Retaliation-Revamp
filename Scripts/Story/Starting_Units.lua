@@ -9,27 +9,27 @@ Starting_Units_Handler = {
                     Default = {
                         Power = 8000,
                         Structures = {"UNSC_CAMP"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON"}
+                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Low = {
                         Power = 18000,
                         Structures = {"UNSC_CAMP"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "UNSC_EPOCH"}
+                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Medium = {
                         Power = 45000,
                         Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     High = {
                         Power = 45000,
                         Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 45000,
                         Structures = {"UNSC_FORT", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
-                        Units = {"PELICAN_SQUADRON", "Late_Longsword_Squadron", "BASELARD_SQUADRON", "MAKO_SQUADRON", "Gladius_Squadron", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     }
                 },
                 Heroes = {
@@ -164,7 +164,7 @@ function Starting_Units_Handler:Start()
     
     self.Spawn_Settings.Category_Mapping.Insert("Frigate", 60)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Capital", 1)
+    self.Spawn_Settings.Category_Mapping.Insert("Capital", 15)
 
     self.Spawn_Settings.Category_Mapping.Insert("Super", 1)
 
