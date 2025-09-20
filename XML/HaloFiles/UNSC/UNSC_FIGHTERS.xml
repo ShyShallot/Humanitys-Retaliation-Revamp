@@ -94,7 +94,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_C712.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -298,7 +298,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -585,7 +585,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Bomber | AntiFrigate | AntiCorvette</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1105,7 +1105,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_BASELARD.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1842,7 +1842,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_CONDOR.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
