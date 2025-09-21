@@ -57,6 +57,7 @@ function Base_Definitions()
 
 	freighter_table = {}
 
+	cooldown_time = 2
 
 	if Definitions then
 		Definitions()
@@ -150,24 +151,25 @@ function FreeStoreService()
 		return	
 	end
 
-	for _, freigher in pairs(freighter_list) do
+	for _, freighter in pairs(freighter_list) do
 
-		local freighter_entry = freighter_table[freigher]
+		local freighter_entry = freighter_table[freighter]
 
-		if freighter_table[freighter_to_move] == nil then
+		if freighter_entry == nil then
 			local freighter_removed = false
 			if removed_freighter_count < freighters_to_be_removed then
 				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
-				local freighter_cost = freighter_to_move.Get_Type().Get_Build_Cost()
-				freighter_to_move.Get_Owner().Give_Money(freighter_cost)
-				freighter_to_move.Despawn()
+				local freighter_cost = freighter.Get_Type().Get_Build_Cost()
+				freighter.Get_Owner().Give_Money(freighter)
+				freighter.Despawn()
 				removed_freighter_count = removed_freighter_count + 1
 				freighter_removed = true
 			end
 
 			if Return_Chance(0.55, 1) and freighter_removed == false then
-				
-				freighter_table[freighter_to_move] = {
+				local dest = Find_Target(freighter)
+				local starting = freighter.Get_Planet_Location()
+				freighter_table[freighter] = {
 					Destination = dest,
 	    			Start = starting,
 	    			Done = false,
@@ -175,46 +177,44 @@ function FreeStoreService()
 					Finished_Date = nil
 				}
 
-				MoveUnit(freighter_to_move)
+				MoveUnit(freighter)
 			end
 		else
-			local freighter_entry = freighter_table[freighter_to_move]
 			if freighter_entry.Done == true then
 				if freighter_entry.Finished_Date == nil then
 					freighter_entry.Finished_Date = (Get_Current_Week() + EvenMoreRandom(0,2,10))
 				end
 				if Get_Current_Week() >= (freighter_entry.Finished_Date + cooldown_time) then
-					Reset_Freighter(freighter_to_move, freighter_entry)
+					Reset_Freighter(freighter, freighter_entry)
 				end
 			else
-				if FreeStore.Is_Unit_In_Transit(freighter_to_move) == false and freighter_entry.Done == false then
-					if freighter_to_move.Get_Planet_Location() ~= freighter_entry.Destination then
+				if FreeStore.Is_Unit_In_Transit(freighter) == false and freighter_entry.Done == false then
+					if freighter.Get_Planet_Location() ~= freighter_entry.Destination then
 						DebugMessage("Movement Interupted")
-						freighter_entry.Destination = freighter_to_move.Get_Planet_Location()
-						Reward_Freighter(freighter_to_move, freighter_entry)
+						freighter_entry.Destination = freighter.Get_Planet_Location()
+						Reward_Freighter(freighter, freighter_entry)
 					else
 						DebugMessage("Freighter Done with Transport")
-						Reward_Freighter(freighter_to_move, freighter_entry)
+						Reward_Freighter(freighter, freighter_entry)
 					end
 				end
 			end
-		end
 
-		if freighter_table[freighter_to_move] ~= nil then
-			local freighter_entry = freighter_table[freighter_to_move]
+			local freighter_entry = freighter_table[freighter]
 
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_01", tostring(freighter_entry.Number)) 
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_02", freighter_entry.Start.Get_Type().Get_Name(), freighter_entry.Destination.Get_Type().Get_Name())
-			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter_to_move, freighter_entry)))
+			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter, freighter_entry)))
 			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_04", tostring(freighter_entry.Done))
 			event.Add_Dialog_Text(" ")
 		end
+
 	end
 end
 
 function Freighter_Setup(freighter)
 
-	local freighter_entry = freighter_table[freigher]
+	local freighter_entry = freighter_table[freighter]
 	
 	if freighter_entry ~= nil then
 		if freighter_entry.Done ~= true then
