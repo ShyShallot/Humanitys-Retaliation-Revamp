@@ -45,7 +45,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_CAMP.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -169,7 +169,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STATION.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -288,7 +288,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_FIREBASE.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -371,11 +371,12 @@
 		<Encyclopedia_Text> TEXT_GROUND_UNSC_CAPITAL_ENC  </Encyclopedia_Text>
 
 		<Tech_Level>99</Tech_Level> <!-- We dont ever want this buildable-->
-
+		
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
 		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Icon_Name>I_BUTTON_UNSC_FORTRESS.tga</Icon_Name>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
@@ -1788,7 +1789,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_UEG.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -1905,7 +1906,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_TITANIUM_MINE.tga</Icon_Name> 
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -2010,6 +2011,8 @@
 		<Required_Planets /> <!-- Needs Tweaking-->
 
 		<Required_Special_Structures>UNSC_BASE | UNSC_FORT | UNSC_CAPITAL</Required_Special_Structures>
+		
+		<Icon_Name>I_BUTTON_UNSC_DEEPCORE_MINE.TGA</Icon_Name>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
