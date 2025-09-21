@@ -21,9 +21,10 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		
 		<Mass>0.995</Mass>
-		<Max_Speed>3.2</Max_Speed> 
-		<Max_Thrust>0.25</Max_Thrust>
-		<Max_Lift>3.0</Max_Lift>
+		
+		<Max_Speed>3.2</Max_Speed>
+		<Max_Thrust>0.01</Max_Thrust>
+		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -82,7 +83,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints> 
-			UNSC_GLAD_01, UNSC_GLAD_02, UNSC_GLAD_03, UNSC_GLAD_04, UNSC_GLAD_05, UNSC_GLAD_06, UNSC_GLAD_Gauss, UNSC_GLADIUS_MAC
+			UNSC_GLAD_01, UNSC_GLAD_03, UNSC_GLAD_04, UNSC_GLADIUS_MAC  <!-- Reduced Hardpoints to improve FPS (Experimental) -->
 		</HardPoints>
 
 		<!--	<Unit_Abilities_Data SubObjectList="Yes">
@@ -253,7 +254,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
@@ -541,9 +542,10 @@
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.995</Mass>
-		<Max_Speed>3.2</Max_Speed> 
-		<Max_Thrust>0.25</Max_Thrust>
-		<Max_Lift>3.0</Max_Lift>
+		
+		<Max_Speed>3.2</Max_Speed>
+		<Max_Thrust>0.01</Max_Thrust>
+		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -609,7 +611,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_MAKO_M66_01, UNSC_MAKO_M66_02, UNSC_MAKO_M870_01, UNSC_MAKO_M870_02, UNSC_MAKO_M870_03, UNSC_MAKO_M870_04, UNSC_MAKO_AP_01, UNSC_MAKO_AP_02, UNSC_MAKO_AP_03, UNSC_MAKO_AP_04, HP_MAKO_HANGER_01
+			UNSC_MAKO_M66_01, UNSC_MAKO_M66_02, UNSC_MAKO_M870_03, UNSC_MAKO_M870_04, UNSC_MAKO_AP_01
 		</HardPoints>
 
 		<!--	<Unit_Abilities_Data SubObjectList="Yes">
@@ -803,7 +805,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
@@ -2003,7 +2005,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -2013,6 +2015,7 @@
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -2074,8 +2077,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_BUCKLER_MK33_01, UNSC_BUCKLER_MK33_02, UNSC_BUCKLER_MK33_03, UNSC_BUCKLER_MK33_04, 
-			UNSC_BUCKLER_AP_01, UNSC_BUCKLER_AP_02, UNSC_BUCKLER_AP_03, UNSC_BUCKLER_AP_04
+			UNSC_BUCKLER_MK33_01, UNSC_BUCKLER_MK33_02, UNSC_BUCKLER_AP_01, UNSC_BUCKLER_AP_02
 		</HardPoints>
 
 		<CategoryMask> Corvette </CategoryMask>
@@ -2220,7 +2222,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>

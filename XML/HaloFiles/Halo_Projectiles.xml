@@ -893,6 +893,36 @@
 		
 	</Projectile>
 	
+		<Projectile Name="Proj_UNSC_MAC_SHELL_GLADIUS"> <!-- Used on Gladius Corvette -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>UNSC_MAC_ROUND_SM.alo</Space_Model_Name>
+		
+		<Damage_Type> Damage_UNSC_MAC_Light </Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>350.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_UNSC_MAC_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		
+		
+		<AI_Combat_Power>2000</AI_Combat_Power>
+		
+	</Projectile>
+	
 	<Projectile Name="Proj_UNSC_Flak">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
@@ -1443,7 +1473,7 @@
 		<Projectile_Absorbed_By_Shields_Particle> Covie_Torpedo_AF_Death </Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>900</AI_Combat_Power>
 		<Projectile_Blast_Area_Damage> 55 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 150 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range> 75 </Projectile_Blast_Area_Range>
 		
 	</Projectile>
 	

@@ -1550,7 +1550,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1576,7 +1576,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
     </HardPoint>
@@ -1601,7 +1601,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1627,7 +1627,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1653,7 +1653,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1679,7 +1679,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1705,7 +1705,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1731,7 +1731,7 @@
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
-        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+        
         
         
 
@@ -1970,7 +1970,7 @@
             <Fire_Min_Recharge_Seconds>90.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>90.8</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>100</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance> <!-- ORS ARTILLERY RANGE -->
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
