@@ -26,8 +26,6 @@ function Global_Story(message)
 
         Filter_System = require("Unit_Filters") 
 
-        Starting_Units:Add_Banned_Structures({"UNSC_CAMP", "UNSC_BASE", "UNSC_FORT", "COVN_CAMP", "COVN_BASE", "COVN_FORT"})
-
         Random_Planet_Starter:Start()
 
         if Random_Planet_Starter:Is_Finished() then
