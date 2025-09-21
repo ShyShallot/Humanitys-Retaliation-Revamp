@@ -361,6 +361,18 @@ local unit_table = {
         Upgrades = "UNSC_BASIC_BARRACKS",
         Next = "UNSC_ADVANCED_BARRACKS",
     },
+    UNSC_STANDARD_BARRACKS_BASE = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_BARRACKS",
+        Next = "UNSC_ADVANCED_BARRACKS",
+        Spawns = "UNSC_STANDARD_BARRACKS",
+    },
+    UNSC_STANDARD_BARRACKS_FORT = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_BARRACKS",
+        Next = "UNSC_ADVANCED_BARRACKS",
+        Spawns = "UNSC_STANDARD_BARRACKS",
+    },
     UNSC_ADVANCED_BARRACKS = {
         Category = "Structure",
         Upgrades = "UNSC_STANDARD_BARRACKS",
@@ -376,6 +388,18 @@ local unit_table = {
         Category = "Structure",
         Upgrades = "UNSC_BASIC_FACTORY",
         Next = "UNSC_ADVANCED_FACTORY",
+    },
+    UNSC_STANDARD_FACTORY_BASE = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_FACTORY",
+        Next = "UNSC_ADVANCED_FACTORY",
+        Spawns = "UNSC_STANDARD_FACTORY",
+    },
+    UNSC_STANDARD_FACTORY_FORT = {
+        Category = "Structure",
+        Upgrades = "UNSC_BASIC_FACTORY",
+        Next = "UNSC_ADVANCED_FACTORY",
+        Spawns = "UNSC_STANDARD_FACTORY",
     },
     UNSC_ADVANCED_FACTORY = {
         Category = "Structure",
@@ -419,6 +443,18 @@ local unit_table = {
         Upgrades = "COVN_BASIC_BARRACKS",
         Next = "COVN_ADVANCED_BARRACKS",
     },
+    COVN_STANDARD_BARRACKS_BASE = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_BARRACKS",
+        Next = "COVN_ADVANCED_BARRACKS",
+        Spawns = "COVN_STANDARD_BARRACKS",
+    },
+    COVN_STANDARD_BARRACKS_FORT = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_BARRACKS",
+        Next = "COVN_ADVANCED_BARRACKS",
+        Spawns = "COVN_STANDARD_BARRACKS",
+    },
     COVN_ADVANCED_BARRACKS = {
         Category = "Structure",
         Upgrades = "COVN_STANDARD_BARRACKS",
@@ -434,6 +470,18 @@ local unit_table = {
         Category = "Structure",
         Upgrades = "COVN_BASIC_FACTORY",
         Next = "COVN_ADVANCED_FACTORY",
+    },
+    COVN_STANDARD_FACTORY_BASE = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_FACTORY",
+        Next = "COVN_ADVANCED_FACTORY",
+        Spawns = "COVN_STANDARD_FACTORY",
+    },
+    COVN_STANDARD_FACTORY_FORT = {
+        Category = "Structure",
+        Upgrades = "COVN_BASIC_FACTORY",
+        Next = "COVN_ADVANCED_FACTORY",
+        Spawns = "COVN_STANDARD_FACTORY",
     },
     COVN_ADVANCED_FACTORY = {
         Category = "Structure",

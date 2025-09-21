@@ -15,18 +15,21 @@ function State_Init(message)
 		local Location = Object.Get_Planet_Location()
 
         if not TestValid(Location)then
+            Object.Despawn()
             ScriptExit()
         end
 
         local Owner = Object.Get_Owner()
 
         if not TestValid(Owner) then 
+            Object.Despawn()
             ScriptExit() 
         end
 
         local Unit_Entry = Unit_Table[Object.Get_Type().Get_Name()]
 
         if Unit_Entry == nil then
+            Object.Despawn()
             ScriptExit()
         end
 
@@ -44,6 +47,20 @@ function State_Init(message)
                 Prev_Building.Despawn()
             end
         end
+
+        if Unit_Entry.Spawns ~= nil then
+            DebugMessage("%s -- Structure %s Spawns Another: %s", tostring(Script), tostring(Object.Get_Type().Get_Name()), tostring(Unit_Entry.Spawns))
+            local Spawn_Type = Find_Object_Type(Unit_Entry.Spawns)
+
+            if Spawn_Type ~= nil then
+                Spawn_Unit(Spawn_Type, Location, Owner)
+                Object.Despawn()
+            else
+                Object.Despawn()
+            end
+        end
+
+        ScriptExit()
 	end
 end
 

@@ -184,7 +184,7 @@ function Starting_Units_Handler:Start()
 
         local Spawn_Entry = self:Get_Spawn_Entry(planet)
 
-        DebugMessage("%s -- Spawn Entry for Planet %s: %s", tostring(Script), tostring(planet), tostring(Spawn_Entry))
+        --DebugMessage("%s -- Spawn Entry for Planet %s: %s", tostring(Script), tostring(planet), tostring(Spawn_Entry))
 
         if Spawn_Entry ~= nil then
 
@@ -196,7 +196,7 @@ function Starting_Units_Handler:Start()
                 Settings = Spawn_Entry.Station.Default
             end
 
-            DebugMessage("%s -- Starbase Level: %s, Settings: %s", tostring(Script), tostring(Starbase_Level), tostring(Settings))
+            --DebugMessage("%s -- Starbase Level: %s, Settings: %s", tostring(Script), tostring(Starbase_Level), tostring(Settings))
 
             if Settings ~= nil then
 
@@ -226,11 +226,11 @@ function Starting_Units_Handler:Start()
 
                 while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) and attempts < 50 do
 
-                    DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
+                    --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
 
                     local Category = self.Spawn_Settings.Category_Mapping.Sample()
 
-                    DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
+                    --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
 
                     for _, unit in pairs(Settings.Units) do
 
@@ -238,7 +238,7 @@ function Starting_Units_Handler:Start()
 
                         local Unit_Type = Find_Object_Type(unit)
 
-                        DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
+                        --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
 
                         if Unit_Entry ~= nil and Unit_Type ~= nil then
 
@@ -252,7 +252,7 @@ function Starting_Units_Handler:Start()
                             
                             if Unit_Category == Category then
 
-                                DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
+                                --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
 
                                 Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
                                 
@@ -298,7 +298,7 @@ function Starting_Units_Handler:Spawn_Structure(structure, planet)
 
     if structure_type ~= nil then
 
-        DebugMessage("%s -- Spawning Structure: %s", tostring(Script), tostring(structure))
+        --DebugMessage("%s -- Spawning Structure: %s", tostring(Script), tostring(structure))
 
         Spawn_Unit(structure_type, planet, planet.Get_Owner())
     end
@@ -312,11 +312,11 @@ function Starting_Units_Handler:Get_Spawn_Entry(planet)
 
     local Planet_Owner = planet.Get_Owner()
 
-    DebugMessage("%s -- Planet: %s, Owner: %s", tostring(Script), tostring(planet), tostring(Planet_Owner.Get_Faction_Name()))
+    --DebugMessage("%s -- Planet: %s, Owner: %s", tostring(Script), tostring(planet), tostring(Planet_Owner.Get_Faction_Name()))
 
     for faction, entry in pairs(self.Spawn_Settings.Factions) do
 
-        DebugMessage("%s -- Entry Faction: %s", tostring(Script), tostring(entry.Faction))
+        --DebugMessage("%s -- Entry Faction: %s", tostring(Script), tostring(entry.Faction))
 
         if entry.Faction == Planet_Owner then
 

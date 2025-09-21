@@ -14,7 +14,7 @@ Random_Start = {
 
     Starting_Structures = {
         REBEL = {
-            Ground = {"UNSC_CAPITAL"},
+            Ground = {},
             Space = {},
             Station = {
                 Level = 5,
@@ -22,7 +22,7 @@ Random_Start = {
             },
         },
         EMPIRE = {
-            Ground = {"COVN_CAPITAL"},
+            Ground = {},
             Space = {},
             Station = {
                 Level = 5,
