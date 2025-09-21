@@ -226,7 +226,7 @@ function Get_Current_Week()
 end
 
 function Get_Current_Week_Raw()
-    weekTime = 30
+    weekTime = 60
     week = (GetCurrentTime.Galactic_Time() / weekTime)
     return week
 end
