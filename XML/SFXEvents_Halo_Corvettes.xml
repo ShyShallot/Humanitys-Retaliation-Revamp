@@ -58,7 +58,7 @@
 
     <SFXEvent Name="Corvette_Death">
         <Use_Preset>Preset_UR</Use_Preset>
-        <Samples>Corvette_Death_1.wav, Corvette_Death_2.wav</Samples>
+        <Samples>Corvette_Death_1.wav, Corvette_Death_2.wav, Data\Audio\OotF\Voices\UNSC\Corvettes\UNSC_CORVETTE_DEATH_01.wav</Samples>
         <Localize> No </Localize>
         <Play_Sequentially> Yes </Play_Sequentially>
         <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
