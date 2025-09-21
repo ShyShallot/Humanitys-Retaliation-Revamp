@@ -544,7 +544,7 @@
 	<Projectile Name="Proj_UNSC_Archer_Missile_Backup"> <!-- This is Pre Optimization Missile | Unused -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>18.5</Max_Speed>
 	    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, </Behavior>
@@ -582,7 +582,7 @@
 	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard Weapon for Almost all Frigate and Capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP_BACKUP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>18.0</Max_Speed>
 		<Projectile_Damage>150.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>360.0</Max_Rate_Of_Turn>
@@ -608,7 +608,7 @@
 	<Projectile Name="Proj_UNSC_Bomber_Missile"> <!-- Bomber Missiles for well... do I really need to explain this... I guess they go on some fighters too -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bomber_Missile.ALO</Space_Model_Name>
-		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -638,7 +638,7 @@
 	<Projectile Name="Proj_UNSC_Frigate_Missile"> <!-- Archer Missiles for frigates and corvette performance -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>14.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -671,7 +671,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>14.0</Max_Speed>
 		<Max_Rate_Of_Turn>50.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -950,7 +950,7 @@
 	<Projectile Name="Proj_UNSC_SM_Flak">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_SM_FLAK.alo</Space_Model_Name>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -975,7 +975,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1002,7 +1002,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1027,7 +1027,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>30.0</Max_Speed>
+		<Max_Speed>32.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1052,7 +1052,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1077,7 +1077,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1102,7 +1102,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>10.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1127,7 +1127,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1151,7 +1151,7 @@
 	<Projectile Name="Proj_UNSC_ASWAC">   <!-- Sabre Autocannon -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tiny.alo</Space_Model_Name>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Fighter </Damage_Type>
@@ -1176,7 +1176,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer_SM.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>22.0</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1201,7 +1201,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>60</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1226,7 +1226,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Max_Speed>45</Max_Speed>
+		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1298,7 +1298,7 @@
 	<Projectile Name="Proj_UNSC_COIL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_COIL.alo</Space_Model_Name>
-		<Max_Speed>140.0</Max_Speed>
+		<Max_Speed>240.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
@@ -1325,7 +1325,7 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>140.0</Max_Speed>
+		<Max_Speed>240.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>

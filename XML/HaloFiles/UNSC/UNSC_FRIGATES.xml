@@ -66,13 +66,13 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1250</AI_Combat_Power>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE, </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
@@ -292,7 +292,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -340,7 +340,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>27</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>SELECTABLE</Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
@@ -354,12 +354,12 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_HALB_01, UNSC_HALB_02, UNSC_HALB_03, UNSC_HALB_04, UNSC_HALB_05, UNSC_HALB_06, UNSC_HALB_07, UNSC_HALB_08, UNSC_HALB_09, UNSC_HALB_10, UNSC_HALB_EG_01, UNSC_HALB_EG_02, UNSC_HALB_MAC, UNSC_Paris_Hangar
+			UNSC_HALB_01, UNSC_HALB_02, UNSC_HALB_03, UNSC_HALB_04, UNSC_HALB_05, UNSC_HALB_06, UNSC_HALB_07, UNSC_HALB_08, UNSC_HALB_EG_01, UNSC_HALB_EG_02, UNSC_HALB_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
@@ -592,7 +592,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>750</AI_Combat_Power>
 		<Build_Time_Seconds>7</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
@@ -604,7 +604,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 
@@ -843,7 +843,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -892,7 +892,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
@@ -904,7 +904,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1043,7 +1043,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>     
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1101,7 +1101,7 @@
 
 		<Death_Clone> Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1224,8 +1224,8 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Speed>3.8</Max_Speed>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1274,7 +1274,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
 		<Build_Time_Seconds>24</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
@@ -1286,12 +1286,12 @@
 
 		<Death_Clone>Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_MK33_05, UNSC_PARIS_MK33_06, UNSC_PARIS_MK33_07, UNSC_PARIS_MK33_08, UNSC_PARIS_MK33_09, UNSC_PARIS_MK33_10, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02, UNSC_PARIS_AP_03, UNSC_PARIS_AP_04, UNSC_PARIS_MAC, UNSC_Paris_Hangar
+			UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02, UNSC_PARIS_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 		
 		Pelican_Squadron, 1
@@ -1486,7 +1486,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1540,7 +1540,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1750</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
@@ -1552,14 +1552,12 @@
 
 		<Death_Clone>Damage_Normal </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_MK33_05, UNSC_STALWART_MK33_06, 
-			UNSC_STALWART_FLAK_01, UNSC_STALWART_FLAK_02, UNSC_STALWART_FLAK_03, UNSC_STALWART_FLAK_04, UNSC_STALWART_FLAK_05, UNSC_STALWART_FLAK_06,
-			UNSC_STALWART_AP_01, UNSC_STALWART_AP_02, UNSC_STALWART_AP_03, UNSC_STALWART_MAC, UNSC_STALWART_HANGAR
+			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_FLAK_03, UNSC_STALWART_FLAK_04, UNSC_STALWART_FLAK_05, UNSC_STALWART_FLAK_06, UNSC_STALWART_AP_01, UNSC_STALWART_AP_02 UNSC_STALWART_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
 		Pelican_Squadron, 1 
@@ -1746,7 +1744,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Max_Speed>3.2</Max_Speed>
-		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
 		<Min_Speed>1.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1800,7 +1798,7 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1750</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
@@ -1812,15 +1810,15 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 	
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
 			UNSC_CHARON_MK33_01, UNSC_CHARON_MK33_02, UNSC_CHARON_MK33_03, UNSC_CHARON_MK33_04, 
-			UNSC_CHARON_AP_01, UNSC_CHARON_AP_02, UNSC_CHARON_AP_03, UNSC_CHARON_AP_04, UNSC_CHARON_AP_05, UNSC_CHARON_AP_06,
-			UNSC_CHARON_AP_07, UNSC_CHARON_AP_08, UNSC_CHARON_AP_09, UNSC_CHARON_AP_10, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
+			UNSC_CHARON_AP_01, UNSC_CHARON_AP_02, UNSC_CHARON_AP_05, UNSC_CHARON_AP_06,
+			UNSC_CHARON_AP_07, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
 		Pelican_Squadron, 111
@@ -2060,10 +2058,10 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1750</AI_Combat_Power>
 		<Build_Time_Seconds>8</Build_Time_Seconds>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -2072,7 +2070,7 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>3500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -2105,7 +2103,6 @@
 		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Assault_Frigate </SFXEvent_Attack_Hardpoint>
