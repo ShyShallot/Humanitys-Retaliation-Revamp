@@ -29,7 +29,7 @@
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius/>
 
-		<Max_Speed>1.2</Max_Speed>
+		<Max_Speed>2.9</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -84,7 +84,7 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space_2</Death_Explosions>
+		<Death_Explosions>Large_Explosion_COVN</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>

@@ -22,11 +22,11 @@
 		<Mass>0.99</Mass>
 		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Thrust>0.6</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.25</Max_Lift>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>550.0</Strafe_Distance>
@@ -37,8 +37,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>90</Tactical_Health>
+		<Shield_Points>420</Shield_Points>
+		<Tactical_Health>290</Tactical_Health>
 		<Shield_Refresh_Rate>7</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -266,23 +266,23 @@
 		<Mass>0.99</Mass>
 		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
+		<Max_Lift>1.0</Max_Lift>
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>650.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
+		<Hyperspace_Speed>1.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>475</Tactical_Health>
+		<Tactical_Health>975</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -519,7 +519,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>600</Tactical_Health>
+		<Tactical_Health>750</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -694,8 +694,8 @@
 		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.25</Max_Lift>
+		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>750.0</Strafe_Distance>
@@ -707,7 +707,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>50</Tactical_Health>
+		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>

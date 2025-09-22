@@ -260,11 +260,11 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>7000</Shield_Points>
 		<Tactical_Health>4500</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>3000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>350</Shield_Refresh_Rate>
+		<Energy_Capacity>6000</Energy_Capacity>
+		<Energy_Refresh_Rate>250</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>3.5</Max_Speed>
@@ -313,7 +313,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>

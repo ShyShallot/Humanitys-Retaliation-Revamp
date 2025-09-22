@@ -13,7 +13,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2600</Tactical_Health>
+		<Tactical_Health>6200</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -68,7 +68,7 @@
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
-		<Behavior> SELECTABLE, </Behavior>
+		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
@@ -243,7 +243,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_GLADIUS, UNSC_GLADIUS</Squadron_Units>
+		<Squadron_Units>UNSC_GLADIUS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -313,7 +313,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>10000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -496,7 +496,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_HALBERD, UNSC_HALBERD</Squadron_Units>
+		<Squadron_Units>UNSC_HALBERD</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -565,7 +565,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2750</Tactical_Health>		<!-- was 2800 then 1150 -->
+		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 then 1150 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -794,7 +794,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_MAKO, UNSC_MAKO</Squadron_Units>
+		<Squadron_Units>UNSC_MAKO</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -865,7 +865,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>7000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1064,9 +1064,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>4000</Shield_Points>
-		<Tactical_Health>3500</Tactical_Health>
-		<Shield_Refresh_Rate>205</Shield_Refresh_Rate>
+		<Shield_Points>8000</Shield_Points>
+		<Tactical_Health>10500</Tactical_Health>
+		<Shield_Refresh_Rate>405</Shield_Refresh_Rate>
 		<Energy_Capacity>6000</Energy_Capacity>
 		<Energy_Refresh_Rate>150</Energy_Refresh_Rate>
 		
@@ -1247,7 +1247,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5200</Tactical_Health>		<!-- was 3200 -->
+		<Tactical_Health>10400</Tactical_Health>		<!-- was 3200 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1296,7 +1296,6 @@
 		
 		Pelican_Squadron, 1
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> -->
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
@@ -1438,7 +1437,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_PARIS, UNSC_PARIS</Squadron_Units>
+		<Squadron_Units>UNSC_PARIS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -1512,7 +1511,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>4600</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>9200</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1696,7 +1695,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_STALWART, UNSC_STALWART</Squadron_Units>
+		<Squadron_Units>UNSC_STALWART</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -1770,7 +1769,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2600</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>7200</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1956,7 +1955,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_CHARON, UNSC_CHARON</Squadron_Units>
+		<Squadron_Units>UNSC_CHARON</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -2030,7 +2029,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2800</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>7000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -2208,7 +2207,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_Buckler, UNSC_Buckler, UNSC_Buckler</Squadron_Units>
+		<Squadron_Units>UNSC_Buckler</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>

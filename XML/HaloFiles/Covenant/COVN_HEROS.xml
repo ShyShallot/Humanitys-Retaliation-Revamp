@@ -47,7 +47,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>I_BUTTON_JUL.tga</Icon_Name>
         <Build_Cost_Credits>10500</Build_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
@@ -78,7 +78,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>I_BUTTON_ARDO.tga</Icon_Name>
         <Build_Cost_Credits>3500</Build_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
@@ -138,10 +138,10 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HERO_THEL </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Icon_Name>I_BUTTON_PIOUS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CAS.tga</Icon_Name>
         <Build_Cost_Credits>132000</Build_Cost_Credits>
         <Required_Planets>Sanghelios</Required_Planets>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">

@@ -45,7 +45,7 @@
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>2.8</Max_Speed>
+		<Max_Speed>2.9</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
@@ -57,9 +57,9 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>6400</Shield_Points>
-		<Tactical_Health>3800</Tactical_Health>
-		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Shield_Points>12400</Shield_Points>
+		<Tactical_Health>7600</Tactical_Health>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Population_Value>4</Population_Value>
@@ -307,7 +307,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>COVN_CRS, COVN_CRS</Squadron_Units>
+		<Squadron_Units>COVN_CRS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -635,7 +635,7 @@
 
 		<!-- Stats -->
 		<Population_Value>8</Population_Value>
-	   	<Max_Speed>2.8</Max_Speed>
+	   	<Max_Speed>2.9</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
