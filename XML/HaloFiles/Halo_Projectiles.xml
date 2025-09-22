@@ -974,7 +974,7 @@
 	<Projectile Name="Proj_UNSC_Bullet">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1001,7 +1001,7 @@
 	<Projectile Name="Proj_UNSC_Bullet_Deck"> <!-- Primary Deck Gun for Frigates and Phoenix -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1026,7 +1026,7 @@
 	<Projectile Name="Proj_UNSC_Bullet_POA"> <!-- Deck Gun for Pillar of Gottem -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>32.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1051,7 +1051,7 @@
 	<Projectile Name="Proj_UNSC_M370_AUTOCANNON">  <!-- Pelican Autocannon -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1076,7 +1076,7 @@
 	<Projectile Name="Proj_UNSC_200MM_Ventral">  <!-- Longsword Ventral Cannons -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1101,7 +1101,7 @@
 	<Projectile Name="Proj_UNSC_110MM_Autocannon">  <!-- Longsword Auto Cannons -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1126,7 +1126,7 @@
 	<Projectile Name="Proj_UNSC_120MM_Autocannon">  <!-- Anti Tank Auto Cannon -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1175,7 +1175,7 @@
 	<Projectile Name="Proj_UNSC_M2056_30MM"> <!-- Baselard Rotary Cannons -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer_SM.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1200,7 +1200,7 @@
 	<Projectile Name="Proj_UNSC_Bullet_Rampart"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1225,7 +1225,7 @@
 	<Projectile Name="Proj_UNSC_Bullet_Baselard"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

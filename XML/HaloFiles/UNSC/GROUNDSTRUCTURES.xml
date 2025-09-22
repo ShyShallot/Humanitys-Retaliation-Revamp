@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <UNSC_Ground_Structs>
-    <SpecialStructure Name="UNSC_CAMP">
+    <SpecialStructure Name="UNSC_CAMP">  <!-- THIS IS UNSC FIREBASE -->
 		<Select_Box_Scale>200</Select_Box_Scale>
 
 		<Text_ID>TEXT_GROUND_UNSC_CAMP</Text_ID>
@@ -19,7 +19,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
-		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking-->
+		<Build_Time_Seconds>6</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		
@@ -121,7 +121,7 @@
 		<Lua_Script>Ground_Structure_Upgrade</Lua_Script>
 	</SpecialStructure>
 
-	<SpecialStructure Name="UNSC_BASE">
+	<SpecialStructure Name="UNSC_BASE">   <!-- THIS IS UNSC STATION -->
 		
 		<Text_ID>TEXT_GROUND_UNSC_BASE</Text_ID>
 		<Encyclopedia_Text> TEXT_GROUND_UNSC_BASE_ENC  </Encyclopedia_Text>
@@ -142,8 +142,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
-		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking-->
+		<Build_Cost_Credits>1575</Build_Cost_Credits> <!-- Needs Tweaking-->
+		<Build_Time_Seconds>10</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		
@@ -245,7 +245,7 @@
 		<Lua_Script>Ground_Structure_Upgrade</Lua_Script>
 	</SpecialStructure>
 
-	<SpecialStructure Name="UNSC_FORT">
+	<SpecialStructure Name="UNSC_FORT">    <!-- THIS IS UNSC FORTRESS -->
 	
 		<Text_ID>TEXT_GROUND_UNSC_FORT</Text_ID>
 		<Encyclopedia_Text> TEXT_GROUND_UNSC_FORT_ENC </Encyclopedia_Text>
@@ -261,7 +261,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
+		<Build_Cost_Credits>3500</Build_Cost_Credits> <!-- Needs Tweaking-->
 		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
@@ -483,10 +483,10 @@
 			
 		</Abilities>
 		
-		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC -->
+		<Additional_Population_Capacity>150</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC -->
 		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> +100_POPCAP +25_INCOME TEXT_UNIT_UNSC_FARM_ENCYCLOPEDIA </Encyclopedia_Text>
+		<Encyclopedia_Text> +150_POPCAP TEXT_UNIT_UNSC_FARM_ENCYCLOPEDIA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -503,7 +503,7 @@
 
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
@@ -691,7 +691,7 @@
 
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STANDARD_BARRACKS.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
@@ -918,7 +918,7 @@
 
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
@@ -2127,7 +2127,7 @@
 		<Required_Special_Structures> UNSC_FORT | UNSC_CAPITAL </Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>750</Tactical_Health>
-		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_RESEARCH_STATION.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		
