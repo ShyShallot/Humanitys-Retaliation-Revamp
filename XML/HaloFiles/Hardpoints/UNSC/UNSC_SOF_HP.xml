@@ -136,7 +136,13 @@
                 <Fire_Pulse_Count>1</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
                 <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
                 
@@ -161,7 +167,13 @@
                 <Fire_Pulse_Count>1</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
                 <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
                 
@@ -186,7 +198,13 @@
                 <Fire_Pulse_Count>1</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
                 <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
                 
@@ -225,7 +243,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -265,7 +289,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -305,7 +335,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -345,7 +381,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -385,7 +427,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -425,7 +473,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -462,7 +516,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -499,7 +559,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -536,7 +602,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -573,7 +645,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -610,7 +688,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -647,7 +731,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -684,7 +774,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -721,7 +817,13 @@
                 <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -755,10 +857,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 				<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>15</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-				<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-				<Fire_Range_Distance>750.0</Fire_Range_Distance>
+				<Fire_Pulse_Count>30</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+				<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+				<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 				<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -790,10 +898,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -825,10 +939,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -860,10 +980,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -895,10 +1021,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -930,10 +1062,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -965,10 +1103,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1000,10 +1144,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1035,10 +1185,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1070,10 +1226,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1106,10 +1268,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 		
         </Hardpoint>
@@ -1138,10 +1306,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1172,10 +1346,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1206,10 +1386,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1240,10 +1426,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1274,10 +1466,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1308,10 +1506,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1342,10 +1546,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1376,10 +1586,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>15</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-        <Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1410,10 +1626,16 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 				<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>15</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-				<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-				<Fire_Range_Distance>750.0</Fire_Range_Distance>
+				<Fire_Pulse_Count>30</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+				<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+				<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 				<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1446,7 +1668,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1477,7 +1705,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1508,7 +1742,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1539,7 +1779,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1570,7 +1816,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1601,7 +1853,13 @@
                 <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>1850</Fire_Range_Distance>
                 
-                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -1635,11 +1893,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1672,11 +1936,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1709,11 +1979,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1746,11 +2022,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1783,11 +2065,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1820,11 +2108,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1857,11 +2151,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1894,11 +2194,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -1931,11 +2237,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 
@@ -1966,11 +2278,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 
@@ -2001,11 +2319,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 
@@ -2036,11 +2360,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -2071,11 +2401,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                
@@ -2106,11 +2442,17 @@
                 <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>16.5</Fire_Min_Recharge_Seconds>
 				<Fire_Max_Recharge_Seconds>28.5</Fire_Max_Recharge_Seconds>
-				<Fire_Pulse_Count>18</Fire_Pulse_Count>
-				<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+				<Fire_Pulse_Count>4</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>4000.0</Fire_Range_Distance>
                 <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
-                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> <Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
                 <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
                
                 

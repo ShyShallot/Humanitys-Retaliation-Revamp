@@ -43,27 +43,27 @@ Starting_Units_Handler = {
             COVN = {
                 Station = {
                     Default = {
-                        Power = 6000,
+                        Power = 25000,
                         Structures = {"COVN_CAMP"},
                         Units = {"CRS_SQUADRON"}
                     },
                     Low = {
-                        Power = 9500,
+                        Power = 30500,
                         Structures = {"COVN_CAMP"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON"}
                     },
                     Medium = {
-                        Power = 18000,
+                        Power = 60000,
                         Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS"},
-                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
+                        Units = {"COVN_RCS"}
                     },
                     High = {
-                        Power = 30500,
+                        Power = 20500,
                         Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
-                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_ORS", "COVN_DDS"}
+                        Units = {"COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     },
                     Ultra = {
-                        Power = 45000,
+                        Power = 85000,
                         Structures = {"COVN_FORT", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     }
@@ -160,13 +160,13 @@ function Starting_Units_Handler:Start()
 
     self.Spawn_Settings.Category_Mapping.Insert("Fighter", 35)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Corvette", 50)
+    self.Spawn_Settings.Category_Mapping.Insert("Corvette", 30)
     
-    self.Spawn_Settings.Category_Mapping.Insert("Frigate", 60)
+    self.Spawn_Settings.Category_Mapping.Insert("Frigate", 30)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Capital", 15)
+    self.Spawn_Settings.Category_Mapping.Insert("Capital", 5)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Super", 1)
+    self.Spawn_Settings.Category_Mapping.Insert("Super", 2)
 
     self.Spawn_Settings.Factions.UNSC.Faction = Find_Player("Rebel")
 

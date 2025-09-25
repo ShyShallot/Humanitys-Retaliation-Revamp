@@ -138,16 +138,35 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HERO_THEL </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Icon_Name>I_BUTTON_CAS.tga</Icon_Name>
+		<Space_Model_Name>COVN_THEL.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_COVN_THEL_VADAMEE.TGA</Icon_Name>
         <Build_Cost_Credits>132000</Build_Cost_Credits>
         <Required_Planets>Sanghelios</Required_Planets>
+		
 		<Tech_Level>1</Tech_Level>
+		
+	<!--<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_SDV, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_CPV, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_CCS, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_DDS, 4</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>0.3</Spawned_Squadron_Delay_Seconds>
+		
+		<Reserve_Spawned_Units_Tech_0>COVN_SDV, 12</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 32</Reserve_Spawned_Units_Tech_0> -->
+
 
 		<Abilities SubObjectList="Yes">
+		
 			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Capital | Corvette | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Capital | Corvette | Frigate </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.35</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
@@ -157,8 +176,16 @@
 				<Movement_Speed_Bonus_Percentage>0.35</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>4</Stacking_Category>
 			</Combat_Bonus_Ability>
+			
 		</Abilities>
-
+		
+		<Tactical_Build_Cost_Multiplayer>150850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Population_Value>175</Population_Value>
+		<Is_Community_Property> Yes </Is_Community_Property>
+			
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 

@@ -172,7 +172,7 @@ local unit_table = {
         Category = "Fighter"
 	},
 	UNSC_EPOCH = {
-        Category = "Capital"
+        Category = "Super"
     },
     UNSC_PHOENIX = {
         Category = "Capital"

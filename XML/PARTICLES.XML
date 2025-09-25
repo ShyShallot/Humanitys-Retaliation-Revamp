@@ -558,8 +558,8 @@
     </Particle>
 	
 	<Particle Name="Covie_Torpedo_Death">
-        <Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_DEATH.ALO</Land_Model_Name>
-        <Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_DEATH.ALO</Space_Model_Name>
+        <Land_Model_Name>COVN_PLASMATORPEDO_AF_DEATH.ALO</Land_Model_Name>
+        <Space_Model_Name>COVN_PLASMATORPEDO_AF_DEATH.ALO</Space_Model_Name>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Decoration>Yes</Is_Decoration>
         <Behavior>PARTICLE</Behavior>

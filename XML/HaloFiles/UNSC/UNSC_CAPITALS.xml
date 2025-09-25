@@ -171,7 +171,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -229,7 +229,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
-		<Tactical_Health>18000</Tactical_Health>
+		<Tactical_Health>35000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -360,8 +360,8 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -552,8 +552,8 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
@@ -745,7 +745,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>42</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -827,10 +827,9 @@
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
-		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
+		<Death_Explosions>Large_Damage_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind> <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Death_Clone> Damage_Normal </Death_Clone>
 		<CategoryMask> Capital </CategoryMask>
 
 		<HardPoints> 
@@ -985,7 +984,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -1157,8 +1156,8 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>58</Population_Value>
-		<Additional_Population_Capacity>48</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
+		<Population_Value>50</Population_Value>
+
 	</SpaceUnit>
 	
 </CapitalShips>

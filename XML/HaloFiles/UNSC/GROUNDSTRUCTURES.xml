@@ -3,9 +3,9 @@
     <SpecialStructure Name="UNSC_CAMP">  <!-- THIS IS UNSC FIREBASE -->
 		<Select_Box_Scale>200</Select_Box_Scale>
 
-		<Text_ID>TEXT_GROUND_UNSC_CAMP</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_CAMP_ENC  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_GOVERNMENT</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FIREBASE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FIREBASE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BASE</Encyclopedia_Unit_Class>
 
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
@@ -123,13 +123,13 @@
 
 	<SpecialStructure Name="UNSC_BASE">   <!-- THIS IS UNSC STATION -->
 		
-		<Text_ID>TEXT_GROUND_UNSC_BASE</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_BASE_ENC  </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_STATION</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_STATION </Encyclopedia_Text>
 
 		<Required_Special_Structures>UNSC_CAMP</Required_Special_Structures>
 		
 		<Select_Box_Scale>200</Select_Box_Scale>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_GOVERNMENT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BASE</Encyclopedia_Unit_Class>
 
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
@@ -247,8 +247,9 @@
 
 	<SpecialStructure Name="UNSC_FORT">    <!-- THIS IS UNSC FORTRESS -->
 	
-		<Text_ID>TEXT_GROUND_UNSC_FORT</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_FORT_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FORTRESS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FORTRESS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BASE</Encyclopedia_Unit_Class>
 		
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
@@ -288,7 +289,7 @@
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 
-		<Icon_Name>I_BUTTON_UNSC_FIREBASE.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_FORTRESS.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -412,7 +413,7 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_FARM">
-		<Text_ID>TEXT_ORBITAL_COLONY_FARM</Text_ID>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FARM</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
@@ -486,7 +487,7 @@
 		<Additional_Population_Capacity>150</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC -->
 		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> +150_POPCAP TEXT_UNIT_UNSC_FARM_ENCYCLOPEDIA </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FARM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -495,8 +496,8 @@
 
 	<SpecialStructure Name="UNSC_BASIC_BARRACKS">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
-		<Text_ID>TEXT_UNSC_GROUND_BASIC_BARRACKS</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_BASIC_BARRACKS_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_BARRACKS1</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_BARRACKS1 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
@@ -685,6 +686,8 @@
 
 	<SpecialStructure Name="UNSC_STANDARD_BARRACKS">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_BARRACKS2</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_BARRACKS2 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
@@ -821,9 +824,6 @@
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
-		<Text_ID>TEXT_UNSC_GROUND_STANDARD_BARRACKS</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_STANDARD_BARRACKS_ENC </Encyclopedia_Text>
-
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
 		<Build_Time_Seconds>25</Build_Time_Seconds> <!-- Needs Tweaking -->
 
@@ -911,6 +911,8 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_ADVANCED_BARRACKS">
+	    <Text_ID>TEXT_UNIT_UNSC_BUILDING_BARRACKS3</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_BARRACKS3 </Encyclopedia_Text>
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1048,8 +1050,6 @@
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
-		<Text_ID>TEXT_UNSC_GROUND_ADVANCED_BARRACKS</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_ADVANCED_BARRACKS_ENC </Encyclopedia_Text>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
 		<Build_Time_Seconds>25</Build_Time_Seconds> <!-- Needs Tweaking -->
@@ -1121,8 +1121,8 @@
 	<SpecialStructure Name="UNSC_SPECIAL_BARRACKS">
 		<Variant_Of_Existing_Type>UNSC_BASIC_BARRACKS</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNSC_GROUND_SPECIAL_BARRACKS</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_SPECIAL_BARRACKS_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_BARRACKS_SPEC</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_BARRACKS_SPEC </Encyclopedia_Text>
 
 		<Required_Special_Structures>UNSC_FORT | UNSC_CAPITAL</Required_Special_Structures>
 
@@ -1182,8 +1182,8 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
 
-		<Text_ID>TEXT_GROUND_UNSC_BASIC_FACTORY</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_BASIC_FACTORY_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FACTORY1</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FACTORY1 </Encyclopedia_Text>
 
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01 </MP_Encyclopedia_Text>
 
@@ -1472,8 +1472,8 @@
 		<Spawned_Squadron_Location_Flyout_Distances>140.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
-		<Text_ID>TEXT_UNSC_GROUND_STANDARD_FACTORY</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_STANDARD_FACTORY_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FACTORY2</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FACTORY2 </Encyclopedia_Text>
 
 		<Tech_Level>99</Tech_Level>
 
@@ -1673,8 +1673,8 @@
 		<Spawned_Squadron_Location_Flyout_Distances>140.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
-		<Text_ID>TEXT_UNSC_GROUND_ADVANCED_FACTORY</Text_ID>
-		<Encyclopedia_Text> TEXT_UNSC_GROUND_ADVANCED_FACTORY_ENC </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FACTORY3</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FACTORY3 </Encyclopedia_Text>
 
 		<Required_Special_Structures>UNSC_FORT UNSC_STANDARD_FACTORY </Required_Special_Structures>
 
@@ -1747,9 +1747,9 @@
 	<SpecialStructure Name="UNSC_GOVERMENT_BUILDING"> <!-- Minor Income building that makes money off taxes-->
 		<Select_Box_Scale>200</Select_Box_Scale>
 
-		<Text_ID>TEXT_GROUND_UNSC_GB</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_GB_ENC  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_GOVERNMENT</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_ADMIN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_ADMIN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
@@ -1865,7 +1865,8 @@
 
 	<SpecialStructure Name="UNSC_TITANIUM_MINE">
 		<Select_Box_Scale>200</Select_Box_Scale>
-		<Text_ID>TEXT_GROUND_UNSC_TM</Text_ID>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_MINE_TITANIUM</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_MINE_TITANIUM </Encyclopedia_Text>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
@@ -1991,7 +1992,6 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 	
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_TM_ENC  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01  </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
@@ -2000,8 +2000,8 @@
 	<SpecialStructure Name="UNSC_DEEP_CORE_MINE">
 		<Variant_Of_Existing_Type>UNSC_TITANIUM_MINE</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_GROUND_UNSC_DCM</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_DCM_ENC  </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_MINE_DEEP</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_MINE_DEEP </Encyclopedia_Text>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
 		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking -->
@@ -2057,8 +2057,8 @@
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<!-- Added by CR -->
 
-		<Text_ID>TEXT_GROUND_UNSC_RF</Text_ID>
-		<Encyclopedia_Text> TEXT_GROUND_UNSC_RF_ENC  </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_BUILDING_RESEARCH</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_RESEARCH </Encyclopedia_Text>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>

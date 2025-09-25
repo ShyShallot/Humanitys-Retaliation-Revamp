@@ -28,13 +28,14 @@
 
 		<Max_Speed>2.9</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
+
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-85.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
 		<Max_Thrust>0.1</Max_Thrust>
@@ -63,7 +64,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6250</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>9000</AI_Combat_Power>
+		<AI_Combat_Power>7500</AI_Combat_Power>
 		<Build_Time_Seconds>250</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -160,7 +161,7 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>20</Population_Value>
+		<Population_Value>18</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- <Unit_Ability>
@@ -181,19 +182,24 @@
 					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability> -->
 			
-			<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-
+	<!--		<Unit_Ability>                 !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD XD  !!!
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>9</Expiration_Seconds>
+				<Recharge_Seconds>300</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	2.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		    300.0f</Mod_Multiplier>
 				
-			</Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability>  -->
 			
 			<Unit_Ability>
+			
 				<Type>DEFEND</Type>        
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
@@ -311,7 +317,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4250</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>7000</AI_Combat_Power>
+		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>140</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -449,7 +455,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>15</Population_Value>
+		<Population_Value>16</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
@@ -525,7 +531,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>9520</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>9500</AI_Combat_Power>
+		<AI_Combat_Power>10000</AI_Combat_Power>
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -654,7 +660,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>28</Population_Value>
+		<Population_Value>22</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>10520</Tactical_Build_Cost_Multiplayer>
@@ -729,7 +735,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>12450</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>7000</AI_Combat_Power>
+		<AI_Combat_Power>15500</AI_Combat_Power>
 		<Build_Time_Seconds>260</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -837,7 +843,7 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>24</Population_Value>
+		<Population_Value>26</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

@@ -127,6 +127,13 @@
             <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
+			
+			
+			
+			
+			
+			
+			
             
 			
 			
@@ -153,6 +160,13 @@
             <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
+			
+			
+			
+			
+			
+			
+			
             
 			
 			
@@ -175,7 +189,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
@@ -204,7 +218,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
@@ -231,7 +245,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
@@ -258,7 +272,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
 			<Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3000</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
