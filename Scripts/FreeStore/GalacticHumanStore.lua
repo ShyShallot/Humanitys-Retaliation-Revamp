@@ -160,7 +160,7 @@ function FreeStoreService()
 			if removed_freighter_count < freighters_to_be_removed then
 				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
 				local freighter_cost = freighter.Get_Type().Get_Build_Cost()
-				freighter.Get_Owner().Give_Money(freighter)
+				freighter.Get_Owner().Give_Money(freighter_cost)
 				freighter.Despawn()
 				removed_freighter_count = removed_freighter_count + 1
 				freighter_removed = true
