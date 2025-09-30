@@ -242,10 +242,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> 
 		
@@ -397,10 +397,10 @@
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> 
 		
@@ -463,7 +463,7 @@
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent></Fire_SFXEvent> 
 		
@@ -500,7 +500,7 @@
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent></Fire_SFXEvent> 
 		

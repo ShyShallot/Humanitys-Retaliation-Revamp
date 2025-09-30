@@ -3,6 +3,7 @@
 
 <!--Antifighter on Capitals (Un-Used DO NOT REMOVE THIS CONTAINS STATS WE NEED IF WE EVER WANT TO GO BACK-->
     <Projectile Name="Proj_Covie_Pulse_Laser_Capital"> 
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Damage_Type> Damage_Covn_Light </Damage_Type>
@@ -28,6 +29,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Covie_Pulse_Laser_Corvette"> <!--Used for Anti Fighter Hardpoints (Current) THIS IS A PULSE LASER -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Damage_Type> Damage_Covn_Light </Damage_Type>
@@ -406,7 +408,7 @@
 
 	<!--<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
 		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Ion_Stun_Duration>1</Projectile_Ion_S	tun_Duration>
+		<Projectile_Ion_Stun_Duration>1</Projectile_Ion_Stun_Duration>
 		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.25</Projectile_Ion_Stun_Speed_Reduction_Percent>
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.1</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
 		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration> -->
@@ -563,7 +565,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Max_Speed>18.5</Max_Speed>
+		<Max_Speed>8</Max_Speed>
 	    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, </Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -602,8 +604,8 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP_BACKUP.ALO</Space_Model_Name>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Max_Speed>18.0</Max_Speed>
-		<Projectile_Damage>150.0</Projectile_Damage>
+		<Max_Speed>10.0</Max_Speed>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>360.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Rocket</Projectile_Category>
@@ -1003,7 +1005,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>172.0</Max_Speed>
+		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
@@ -1026,7 +1028,8 @@
 		
 	</Projectile>
 	
-	<Projectile Name="Proj_UNSC_Bullet_Deck"> <!-- Primary Deck Gun for Frigates and Phoenix -->
+	<Projectile Name="Proj_UNSC_Bullet_Deck"> <!-- Primary Deck Gun for Frigates and Phoenix M60 Sentry Autocannon -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
@@ -1052,6 +1055,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_Bullet_POA"> <!-- Deck Gun for Pillar of Gottem -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
@@ -1102,6 +1106,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_200MM_Ventral">  <!-- Longsword Ventral Cannons -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
@@ -1234,7 +1239,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Projectile_Damage>12.5</Projectile_Damage>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1251,7 +1256,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="Proj_UNSC_Bullet_Baselard"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets -->
+	<Projectile Name="Proj_UNSC_Bullet_Baselard"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets 20mm rotary-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>

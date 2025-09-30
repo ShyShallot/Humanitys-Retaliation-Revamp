@@ -373,8 +373,8 @@
 			
     </HardPoint>
 
-
     <HardPoint Name="ALBATROSS_01">
+	
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -385,4 +385,5 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
+	
 </HardPoints>
