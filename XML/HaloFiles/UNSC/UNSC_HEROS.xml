@@ -790,10 +790,10 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_ROMAN_BLUE">
-		<Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>UNSC_EPOCH</Variant_Of_Existing_Type>
 		<Text_ID> TEXT_UNIT_UNSC_HERO_ADM_HOOD </Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_ADM_HOOD TEXT_TOOLTIP_UNSC_HALCYON TEXT_TOOLTIP_UNSC_HERO_ADM_BUFF</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_ADM_HOOD TEXT_TOOLTIP_UNSC_HERO_ADM_BUFF</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
 		
 		<Build_Cost_Credits>6500</Build_Cost_Credits>
 		<Build_Time_Seconds>110</Build_Time_Seconds>
