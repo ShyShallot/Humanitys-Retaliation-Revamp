@@ -564,7 +564,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>8</Max_Speed>
 	    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, </Behavior>
@@ -601,15 +601,19 @@
 	
 	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard Weapon for Almost all Frigate and Capitals -->
 	
-		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP_BACKUP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>28.0</Max_Speed>
 		<Projectile_Damage>750.0</Projectile_Damage>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>30.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -629,7 +633,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bomber_Missile.ALO</Space_Model_Name>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -659,7 +663,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>14.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -691,7 +695,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Max_Speed>14.0</Max_Speed>
 		<Max_Rate_Of_Turn>50.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -958,7 +962,7 @@
 		<Max_Speed>48.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Damage>300</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -982,7 +986,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>16.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
@@ -1007,7 +1011,7 @@
 		<Max_Speed>120.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>5.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1035,7 +1039,7 @@
 		<Max_Speed>48.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>100</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1061,7 +1065,7 @@
 		<Max_Speed>16.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>35.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1086,7 +1090,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>5.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1112,7 +1116,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>15.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1137,7 +1141,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>150.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1162,7 +1166,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>80.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1211,7 +1215,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>5.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1237,7 +1241,7 @@
 		<Max_Speed>100.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1262,7 +1266,7 @@
 		<Max_Speed>72.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Covn_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>16.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
