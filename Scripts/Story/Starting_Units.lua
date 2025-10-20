@@ -130,6 +130,8 @@ Starting_Units_Handler = {
 
 function Starting_Units_Handler:Start()
 
+    DebugMessage("%s -- Starting Random Unit Spawn", tostring(Script))
+
     self.Spawn_Settings.Factions.UNSC.Mapping[0] = self.Spawn_Settings.Factions.UNSC.Station.Default -- The Index defined is the Space Station Level of the planet
     self.Spawn_Settings.Factions.UNSC.Mapping[1] = self.Spawn_Settings.Factions.UNSC.Station.Low 
     self.Spawn_Settings.Factions.UNSC.Mapping[2] = self.Spawn_Settings.Factions.UNSC.Station.Low -- for example the Level 2 Space Station will use the same template as a level 1 space station
@@ -254,7 +256,13 @@ function Starting_Units_Handler:Start()
 
                                 --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
 
-                                Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
+                                local spawned_unit = Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
+
+                                if spawned_unit ~= nil then
+                                    for _, unit in pairs(spawned_unit) do
+                                        unit.Prevent_AI_Usage(false)
+                                    end
+                                end
                                 
                                 Planet_Power = Planet_Power + Unit_Power
                             end

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Planets>
+    <Planet Name="Reach_Firefight">
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_wayland_gc.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>0.75</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Urban</Terrain>
+    <Planet_Credit_Value>950</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+	<Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>9</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>FIREFIGHT_REACH.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
+    <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward> 12300 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types/>
+    <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+    <Describe_Population>TEXT_PLANET_REACH_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_REACH_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_REACH_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_REACH_INFO_WEA</Describe_Weather>
+    <Describe_Tactical>TEXT_PLANET_REACH_INFO_TAC</Describe_Tactical>
+    <Describe_Advantage>TEXT_PLANET_REACH_INFO_ADV</Describe_Advantage>
+    <Describe_History>TEXT_PLANET_REACH_INFO_HIS</Describe_History>
+    <Planet_Ability_Name>TEXT_PLANET_REACH_INFO_ADV</Planet_Ability_Name>
+    <Planet_Ability_Description>TEXT_PLANET_REACH_ENC </Planet_Ability_Description>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
+    <Additional_Population_Capacity>605</Additional_Population_Capacity>
+
+  </Planet>
+
+  <Planet Name="Firefight_Stage">
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Text_ID>HALO_PLANET_FIREFIGHT_STAGE</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_wayland_gc.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>0.75</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Urban</Terrain>
+    <Planet_Credit_Value>950</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+	<Galactic_Position>-59.0, -169.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>9</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>FIREFIGHT_REACH.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
+    <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward> 12300 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types/>
+    <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+    <Describe_Population>TEXT_PLANET_REACH_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_REACH_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_REACH_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_REACH_INFO_WEA</Describe_Weather>
+    <Describe_Tactical>TEXT_PLANET_REACH_INFO_TAC</Describe_Tactical>
+    <Describe_Advantage>TEXT_PLANET_REACH_INFO_ADV</Describe_Advantage>
+    <Describe_History>TEXT_PLANET_REACH_INFO_HIS</Describe_History>
+    <Planet_Ability_Name>TEXT_PLANET_REACH_INFO_ADV</Planet_Ability_Name>
+    <Planet_Ability_Description>TEXT_PLANET_REACH_ENC </Planet_Ability_Description>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
+    <Additional_Population_Capacity>605</Additional_Population_Capacity>
+
+  </Planet>
+
+  <Planet Name="Firefight_Victory">
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Text_ID>HALO_PLANET_REACH</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_wayland_gc.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>0.75</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-12, -12, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Urban</Terrain>
+    <Planet_Credit_Value>950</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+	<Galactic_Position>0.0, 0.0, 1000.0</Galactic_Position>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>9</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>FIREFIGHT_REACH.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
+    <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward> 12300 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types/>
+    <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+    <Describe_Population>TEXT_PLANET_REACH_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_REACH_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_REACH_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_REACH_INFO_WEA</Describe_Weather>
+    <Describe_Tactical>TEXT_PLANET_REACH_INFO_TAC</Describe_Tactical>
+    <Describe_Advantage>TEXT_PLANET_REACH_INFO_ADV</Describe_Advantage>
+    <Describe_History>TEXT_PLANET_REACH_INFO_HIS</Describe_History>
+    <Planet_Ability_Name>TEXT_PLANET_REACH_INFO_ADV</Planet_Ability_Name>
+    <Planet_Ability_Description>TEXT_PLANET_REACH_ENC </Planet_Ability_Description>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
+    <Additional_Population_Capacity>605</Additional_Population_Capacity>
+
+  </Planet>
+</Planets>

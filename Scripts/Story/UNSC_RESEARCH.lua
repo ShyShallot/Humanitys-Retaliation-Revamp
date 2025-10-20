@@ -6,18 +6,18 @@ require("PGStoryMode")
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 
-    ServiceRate = 0.3
+    ServiceRate = 1
 
     shield_tech_built = false
 
     player = nil
 
+    trigged_event = false
+
     StoryModeEvents = {
         Rebel_Tech_4 = Shield_System,
         Galactic_Start = Init_Shield_Tech,
     }
-
-    installation_05 = nil
 
 end
 
@@ -29,9 +29,6 @@ function Init_Shield_Tech(message)
 
         player = Find_Player("Rebel")
 
-        installation_05 = FindPlanet("Installation_05")
-
-        DebugMessage("%s -- Found Player: %s, Found Installation 05: %s", tostring(Script), tostring(player), tostring(installation_05))
     end
 end
 
@@ -39,13 +36,15 @@ function Shield_System(message)
 
     if message == OnUpdate then
 
-        installation_05 = FindPlanet("Installation_05")
+        local Installation_05 = FindPlanet("Installation_05")
         
-        if TestValid(installation_05) then
+        if TestValid(Installation_05) then
 
             DebugMessage("%s -- Installation 05 is Valid", tostring(Script))
 
-            if installation_05.Get_Owner() == player then
+            if Installation_05.Get_Owner() == player then
+
+                Trigger_Event()
 
                 DebugMessage("%s -- Installation 05 is owned by the Player", tostring(Script))
 
@@ -73,6 +72,16 @@ function Shield_System(message)
         end
         
     end
+end
+
+function Trigger_Event()
+    if trigged_event then
+        return
+    end
+
+    trigged_event = true
+
+    Story_Event("Installation_Already_Captured")
 end
 
 function Upgrade_Carriers() 

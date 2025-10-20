@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Campaigns>
+	<Campaign Name="Firefight_Main_Map">
+
+		<Campaign_Set> Firefight </Campaign_Set>
+		<Sort_Order>9</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_FIREFIGHT </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_FIREFIGHT_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Reach,
+        Firefight_Victory,
+        Firefight_Stage,
+		</Locations>
+
+		<Trade_Routes> 
+			
+		</Trade_Routes>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Firefight_UNSC.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</Human_Victory_Conditions>
+
+		<Human_Victory_Planet_Names>Firefight_Victory</Human_Victory_Planet_Names>
+
+		<AI_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Firefight_Victory</AI_Victory_Planet_Names>
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  10500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Firefight_Stage, Rebel_Star_Base_5 </Starting_Forces>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 16500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 5 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+	</Campaign>
+</Campaigns>

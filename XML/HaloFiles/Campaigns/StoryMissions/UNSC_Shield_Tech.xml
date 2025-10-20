@@ -28,11 +28,17 @@
         <Perpetual>true</Perpetual>
 	</Event>
 
+    <Event Name="CAPTURE_INSTALLATION_05_02_ALT">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Installation_Already_Captured</Event_Param2>
+    </Event>
+
     <Event Name="CAPTURE_INSTALLATION_05_03">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
         <Reward_Param1>Installation_Mission</Reward_Param1>
         <Prereq>CAPTURE_INSTALLATION_05_02</Prereq>
+        <Prereq>CAPTURE_INSTALLATION_05_02_ALT</Prereq>
     </Event>
 
     <Event Name="SHIELD_TECH_DISPLAY">

@@ -59,6 +59,10 @@ function Base_Definitions()
 
 	cooldown_time = 2
 
+	Freighter_Limit = 0
+
+	FreighterCount = 0
+
 	if Definitions then
 		Definitions()
 	end
@@ -87,7 +91,13 @@ function MoveUnit(object)
 	local freighter_entry = freighter_table[object]
 	local target = freighter_entry.Destination
 
+	if target == nil then
+		return
+	end
+
 	FreeStore.Move_Object(object, target)
+
+	DebugMessage("%s -- Moving %s to %s", tostring(Script), tostring(object), tostring(target))
 
 	return true
 	
@@ -95,6 +105,66 @@ end
 
 function On_Unit_Service(object)
 
+	if not TestValid(object) then
+		if freighter_table[object] ~= nil then
+			freighter_table[object] = nil
+		end
+
+		return
+	end
+	
+	if object.Get_Type().Get_Name() ~= "UNSC_GOODS_TRANSPORT" then
+		return
+	end
+
+	DebugMessage("%s -- Servicing %s", tostring(Script), tostring(object))
+
+	if object.Get_Planet_Location() == nil then
+		DebugMessage("%s -- Canceling Service, No Valid Planet", tostring(Script))
+		return
+	end
+
+	local Entry = freighter_table[object]
+
+	if Entry == nil then
+		return
+	end
+	
+	if Entry.Destination == nil then
+		Entry.Destination = Find_Target(object)
+		Entry.Start = object.Get_Planet_Location()
+
+		DebugMessage("%s -- Freighter %s Info: Start %s, Target: %s", tostring(Script), tostring(Entry.Number), tostring(Entry.Start), tostring(Entry.Destination))
+
+		MoveUnit(object)
+	end
+
+	if Entry.Destination ~= nil then
+		if not FreeStore.Is_Unit_In_Transit(object) and not Entry.Done then
+			if object.Get_Planet_Location() == Entry.Destination then
+				DebugMessage("Freighter Done with Transport")
+				Reward_Freighter(object, Entry)
+			else
+				DebugMessage("Movement Interupted")
+				Entry.Destination = object.Get_Planet_Location()
+				Reward_Freighter(object, Entry)
+			end
+		end
+
+		if Entry.Done and Entry.Finished_Date == nil then
+			Entry.Finished_Date = Get_Current_Week()
+		end
+
+		if Entry.Finished_Date ~= nil and Entry.Done then
+			if Get_Current_Week() >= Entry.Finished_Date + cooldown_time then
+				Entry.Done = false
+				Entry.Finished_Date = nil
+				Entry.Destination = nil
+			end
+		end
+	end
+
+	DebugMessage("%s -- EoS for Freighter %s, Destination: %s", tostring(Script), tostring(Entry.Number), tostring(Entry.Des))
 	
 end
 
@@ -106,8 +176,23 @@ end
 --	// param 6: The source from which the find target should search for relative targets.
 --	// param 7: The maximum distance from source to target.
 function On_Unit_Added(object)
+	DebugMessage("%s -- Added %s to Freestore", tostring(Script), tostring(object))
 	
-	
+	if object.Get_Type().Get_Name() ~= "UNSC_GOODS_TRANSPORT" then
+		return
+	end
+
+	if freighter_table[object] ~= nil then
+		return
+	end
+
+	freighter_table[object] = {
+		Destination = nil,
+	    Start = nil,
+	    Done = false,
+		Number = Generate_Freight_Number(),
+		Finished_Date = nil
+	}
 end
 
 
@@ -121,29 +206,36 @@ function FreeStoreService()
 	
 
 	local freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
-	local FreighterCount = tableLength(freighter_list)
+
+	FreighterCount = tableLength(freighter_list)
+
+	Freighter_Limit = Max_Freighters()
 
 	if tableLength(All_UNSC_Planets()) < 2 then
 		return
 	end
 
-	DebugMessage("%s -- Current Freighter Count: %s, Max Freighter Count: %s", tostring(Script), tostring(FreighterCount), tostring(Max_Freighters()))
+	DebugMessage("%s -- Current Freighter Count: %s, Max Freighter Count: %s", tostring(Script), tostring(FreighterCount), tostring(Freighter_Limit))
 
-	if FreighterCount >= Max_Freighters() then
+	if FreighterCount >= Freighter_Limit then
 		GlobalValue.Set("Max_Freighters", 1)
+
+		local freighters_to_remove = FreighterCount - Freighter_Limit
+
+		local freighters_removed = 0
+
+		for _, freighter in pairs(freighter_list) do
+			if (freighter_table[freighter] == nil or not FreeStore.Is_Unit_In_Transit(freighter)) and freighters_removed < freighters_to_remove then
+				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
+				local freighter_cost = freighter.Get_Type().Get_Build_Cost()
+				freighter.Get_Owner().Give_Money(freighter_cost)
+				freighter.Despawn()
+				freighters_removed = freighters_removed + 1
+			end
+		end
 	else
 		GlobalValue.Set("Max_Freighters", 0)
 	end
-
-	local freighters_to_be_removed = FreighterCount - Max_Freighters()
-
-	if freighters_to_be_removed < 0 then
-		freighters_to_be_removed = 0
-	end
-
-	local removed_freighter_count = 0
-
-	DebugMessage("Found %s Freighters, Freighters To Be Removed: %s", tostring(FreighterCount), tostring(freighters_to_be_removed))
 
 	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()), tostring(FreighterCount))
 	
@@ -155,60 +247,18 @@ function FreeStoreService()
 
 		local freighter_entry = freighter_table[freighter]
 
-		if freighter_entry == nil then
-			local freighter_removed = false
-			if removed_freighter_count < freighters_to_be_removed then
-				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
-				local freighter_cost = freighter.Get_Type().Get_Build_Cost()
-				freighter.Get_Owner().Give_Money(freighter_cost)
-				freighter.Despawn()
-				removed_freighter_count = removed_freighter_count + 1
-				freighter_removed = true
+		if freighter_entry ~= nil then
+
+			DebugMessage("%s -- Frieghter %s Start: %s, Destination: %s", tostring(Script), tostring(freighter_entry.Number), tostring(freighter_entry.Start), tostring(freighter_entry.Destination))
+
+			if freighter_entry.Start ~= nil and freighter_entry.Destination ~= nil then
+				event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_01", tostring(freighter_entry.Number)) 
+				event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_02", freighter_entry.Start.Get_Type().Get_Name(), freighter_entry.Destination.Get_Type().Get_Name())
+				event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter, freighter_entry)))
+				event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_04", tostring(freighter_entry.Done))
+				event.Add_Dialog_Text(" ")
 			end
-
-			if Return_Chance(0.55, 1) and freighter_removed == false then
-				local dest = Find_Target(freighter)
-				local starting = freighter.Get_Planet_Location()
-				freighter_table[freighter] = {
-					Destination = dest,
-	    			Start = starting,
-	    			Done = false,
-					Number = Generate_Freight_Number(),
-					Finished_Date = nil
-				}
-
-				MoveUnit(freighter)
-			end
-		else
-			if freighter_entry.Done == true then
-				if freighter_entry.Finished_Date == nil then
-					freighter_entry.Finished_Date = (Get_Current_Week() + EvenMoreRandom(0,2,10))
-				end
-				if Get_Current_Week() >= (freighter_entry.Finished_Date + cooldown_time) then
-					Reset_Freighter(freighter, freighter_entry)
-				end
-			else
-				if FreeStore.Is_Unit_In_Transit(freighter) == false and freighter_entry.Done == false then
-					if freighter.Get_Planet_Location() ~= freighter_entry.Destination then
-						DebugMessage("Movement Interupted")
-						freighter_entry.Destination = freighter.Get_Planet_Location()
-						Reward_Freighter(freighter, freighter_entry)
-					else
-						DebugMessage("Freighter Done with Transport")
-						Reward_Freighter(freighter, freighter_entry)
-					end
-				end
-			end
-
-			local freighter_entry = freighter_table[freighter]
-
-			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_01", tostring(freighter_entry.Number)) 
-			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_02", freighter_entry.Start.Get_Type().Get_Name(), freighter_entry.Destination.Get_Type().Get_Name())
-			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter, freighter_entry)))
-			event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_04", tostring(freighter_entry.Done))
-			event.Add_Dialog_Text(" ")
 		end
-
 	end
 end
 

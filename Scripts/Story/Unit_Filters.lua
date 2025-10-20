@@ -19,6 +19,8 @@ local Unit_Filters = {
 
 function Unit_Filters:Init(player, plot_file)
 
+    DebugMessage("%s -- Init Unit Filters", tostring(Script))
+
     if not TestValid(player) then
         DebugMessage("%s -- NO VALID PLAYER ASSIGNED", tostring(Script))
         return
@@ -37,10 +39,12 @@ function Unit_Filters:Init(player, plot_file)
         return
     end
 
+    DebugMessage("%s -- Init Unit Filter Cache", tostring(Script))
+
     for unit_name, info in pairs(self.Units) do
+        
         if info.Is_Locked == nil then
             info.Is_Locked = false
-
             info.Should_Lock = false
         end
         
@@ -50,12 +54,16 @@ function Unit_Filters:Init(player, plot_file)
                 self.Cache.Special_Case[info.Global_Value_Check] = {}
             end
 
+            DebugMessage("%s -- Added %s to Special Case Cache: %s", tostring(Script), tostring(unit_name), tostring(info.Global_Value_Check))
+
             table.insert(self.Cache.Special_Case[info.Global_Value_Check], unit_name)
         end
 
         if self.Cache.Category[info.Category] == nil then
             self.Cache.Category[info.Category] = {}
         end
+
+        DebugMessage("%s -- Unit Name: %s, Category: %s, Value Check: %s", tostring(Script), tostring(unit_name), tostring(info.Category), tostring(info.Global_Value_Check))
         
         table.insert(self.Cache.Category[info.Category], unit_name)
     end
@@ -103,9 +111,15 @@ end
 
 function Unit_Filters:Check_Cache()
 
+    DebugMessage("%s -- Checking Filter Cache", tostring(Script))
+
     for Special_Case, units in pairs(self.Cache.Special_Case) do
 
+        DebugMessage("%s -- Special Case: %s, Unit Table: %s", tostring(Script), tostring(Special_Case), tostring(units))
+
         local Special_Case_Status = GlobalValue.Get(Special_Case)
+
+        DebugMessage("%s -- Special Case Status: %s", tostring(Script), tostring(Special_Case_Status))
 
         if type(Special_Case_Status) == "number" then
 
@@ -116,6 +130,7 @@ function Unit_Filters:Check_Cache()
             end
 
             for _, unit_name in pairs(units) do
+                DebugMessage("%s -- Locking/Unlock Unit %s: %s", tostring(Script), tostring(unit_name), tostring(lock))
                 if self.Units[unit_name] ~= nil then
                     self.Units[unit_name].Should_Lock = lock
                 end
@@ -128,10 +143,6 @@ end
 function Unit_Filters:Check_Filter()
 
     if self.Units == nil then
-        return
-    end
-
-    if self.Active_Filter == nil then
         return
     end
 
