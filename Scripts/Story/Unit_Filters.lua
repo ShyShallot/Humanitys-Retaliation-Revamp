@@ -11,10 +11,10 @@ local Unit_Filters = {
 
     Active_Filter = nil,
 
-    Structure_Super_Filter = "Structure | Super",
-    Capitals_Filter = "Capital",
-    Frigate_Corvette_Filter = "Frigate | Corvette | Vehicle",
-    Fighter_Filter = "Fighter | Infantry",
+    Structure_Super_Filter = {"Structure", "Super"},
+    Capitals_Filter = {"Capital"},
+    Frigate_Corvette_Filter = {"Frigate", "Corvette", "Vehicle"},
+    Fighter_Filter = {"Fighter" , "Infantry"},
 }
 
 function Unit_Filters:Init(player, plot_file)
@@ -247,7 +247,7 @@ end
 function Unit_Filters:Is_Unit_In_Filter(unit_name)
     --DebugMessage("Category: %s, Filter: %s", tostring(category), tostring(filter))
 
-    if self.Active_Filter == nil then
+    if self.Active_Filter == nil or type(self.Active_Filter) ~= "table" then
         return true
     end
 
@@ -257,11 +257,9 @@ function Unit_Filters:Is_Unit_In_Filter(unit_name)
         return true
     end
 
-    local filters = split(self.Active_Filter, " | ")
-
     local is_in_filter = false
 
-    for _, split_filter in pairs(filters) do
+    for _, split_filter in pairs(self.Active_Filter) do
         if StringCompare(split_filter,Unit_Entry.Category) then
             is_in_filter = true
         end

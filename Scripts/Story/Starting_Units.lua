@@ -37,6 +37,7 @@ Starting_Units_Handler = {
                     "UNSC_IAC",
                     "UNSC_ROMAN_BLUE"
                 },
+                Special_Units = {},
                 Planets = {},
                 Mapping = {},
             },
@@ -71,7 +72,9 @@ Starting_Units_Handler = {
                 Heroes = {
                     "COVN_PIOUS",
 					"COVN_MACCABEUS",
-					"COVN_CSO"
+                },
+                Special_Units = {
+                    {Count = 1, Unit = "COVN_CSO", Filter = {Type = "Station", Value = {false, false, false, false, true, true}}} -- the Value Table is the Acceptable Station Levels, 0, 1, 2, 3, 4, 5, if it is true it will spawn at that level, in this usage, it will only spawn at level 4 and 5
                 },
                 Planets = {},
                 Mapping = {},
@@ -279,21 +282,30 @@ function Starting_Units_Handler:Start()
 
         local planet_list = entry.Planets
 
-        if planet_list ~= nil and table.getn(planet_list) > 0 and entry.Heroes ~= nil then
+        if planet_list ~= nil and table.getn(planet_list) > 0 then
             
-            for _, hero in pairs(entry.Heroes) do
+            if entry.Heroes ~= nil then
+                for _, hero in pairs(entry.Heroes) do
 
-                local hero_type = Find_Object_Type(hero)
+                    local hero_type = Find_Object_Type(hero)
 
-                if hero_type ~= nil then
+                    if hero_type ~= nil then
 
-                    local planet = Random_From_List(planet_list)
+                        local planet = Random_From_List(planet_list)
 
-                    if TestValid(planet) then
-                        Spawn_Unit(hero_type, planet, entry.Faction)
+                        if TestValid(planet) then
+                            Spawn_Unit(hero_type, planet, entry.Faction)
+                        end
                     end
+                end 
+            end
+
+            if entry.Special_Units ~= nil then
+
+                for _, special_unit in pairs(entry.Special_Units) do
+                    self:Special_Unit_Spawn_Filter(special_unit, planet_list, entry.Faction)
                 end
-            end 
+            end
         end
     end
 
@@ -374,6 +386,152 @@ function Starting_Units_Handler:Add_Banned_Structures(structures)
 
     for _, structure in pairs(structures) do
         self.Banned_Structures[structure] = true
+    end
+end
+
+function Starting_Units_Handler:Special_Unit_Spawn_Filter(special_entry, planet_list, faction)
+    if special_entry == nil then
+        return nil
+    end
+
+    DebugMessage("%s -- Attempting Special Unit Spawn for %s", tostring(Script), tostring(special_entry.Unit))
+
+    if special_entry.Filter == nil or special_entry.Filter.Type == "None" then
+        DebugMessage("%s -- Special Unit has No Filter", tostring(Script))
+        self:Special_Unit_Spawn(special_entry, planet_list, faction)
+        return
+    end
+
+    if special_entry.Filter.Type == "Station" and (type(special_entry.Filter.Value) == "number" or type(special_entry.Filter.Value) == "table") then
+        local Filter_Value_Type = type(special_entry.Filter.Value)
+
+        local filtered_planet_table = {}
+
+        if Filter_Value_Type == "number" then
+            DebugMessage("%s -- Special Unit Filter: Station, Type Level %s", tostring(Script), tostring(special_entry.Filter.Value))
+            if special_entry.Filter.Value > 0 and special_entry.Filter.Value < 6 then
+                for _, planet in pairs(planet_list) do 
+                    if TestValid(planet) then
+                        DebugMessage("%s -- %s Station Level: %s, Comparing to: %s", tostring(Script), tostring(planet), tostring(planet.Get_Starbase_Level()), tostring(special_entry.Filter.Value))
+                        if planet.Get_Starbase_Level() == special_entry.Filter.Value then
+                            DebugMessage("%s -- Adding %s to Filtered List", tostring(Script), tostring(planet))
+                            table.insert(filtered_planet_table, planet)
+                        end
+                    end
+                end
+            end
+        elseif Filter_Value_Type == "table" then
+            DebugMessage("%s -- Special Unit Filter: Station, Type Range", tostring(Script))
+            PrintTable(special_entry.Filter.Value)
+            for _, planet in pairs(planet_list) do 
+                if TestValid(planet) then
+                    local planet_station_level = planet.Get_Starbase_Level()
+                    DebugMessage("%s -- Planet %s Station Level: %s, Is in Filter: %s", tostring(Script), tostring(planet), tostring(planet_station_level), tostring(special_entry.Filter.Value[planet_station_level + 1]))
+                    if special_entry.Filter.Value[planet_station_level + 1] == true then
+                        DebugMessage("%s -- Adding %s to Filtered List", tostring(Script), tostring(planet))
+                        table.insert(filtered_planet_table, planet)
+                    end
+                end
+            end
+        end
+
+        DebugMessage("%s -- Final Filtered Table", tostring(Script))
+        PrintTable(filtered_planet_table)
+
+        self:Special_Unit_Spawn(special_entry, filtered_planet_table, faction)
+
+        return
+    end
+
+    if special_entry.Filter.Type == "Power" then
+        DebugMessage("%s -- Special Unit Filter: Power", tostring(Script))
+        local filtered_planet_table = {}
+        if special_entry.Filter.Value  then -- if true, we are looking for the weakest planet, if false we are looking for the strongest
+            DebugMessage("%s -- Looking for Weakest Planet", tostring(Script))
+            local weakest_power = 1000000000
+            local weakest_planet = nil
+
+            for _, planet in pairs(planet_list) do
+                local power = EvaluatePerception("Planet_Force_Strength", planet.Get_Owner(), planet) -- in terms of space power, ground is not considered
+
+                if power < weakest_power then
+                    weakest_power = power
+                    weakest_planet = planet
+                end
+            end
+
+            DebugMessage("%s -- Found Weakest Planet: %s" ,tostring(Script), tostring(weakest_planet))
+
+            if TestValid(weakest_planet) then
+                self:Special_Unit_Spawn(special_entry, {weakest_planet}, faction)
+            end
+        else
+            DebugMessage("%s -- Looking for Strongest Planet", tostring(Script))
+            local strongest_power = 0
+            local strongest_planet = nil
+
+            for _, planet in pairs(planet_list) do
+                local power = EvaluatePerception("Planet_Force_Strength", planet.Get_Owner(), planet) -- in terms of space power, ground is not considered
+
+                if power > strongest_power then
+                    strongest_power = power
+                    strongest_planet = planet
+                end
+            end
+
+            DebugMessage("%s -- Found Strongest Planet: %s", tostring(Script), tostring(strongest_planet))
+
+            if TestValid(strongest_planet) then
+                self:Special_Unit_Spawn(special_entry, {strongest_planet}, faction)
+            end
+        end
+    end
+
+end
+
+function Starting_Units_Handler:Special_Unit_Spawn(special_entry, planet_list, faction)
+
+    if special_entry == nil then
+        return
+    end
+
+    if special_entry.Unit == nil then
+        return
+    end
+
+    if special_entry.Count < 1 then
+        return
+    end
+
+    if tableLength(planet_list) < 1 then
+        return
+    end
+
+    if faction == nil then
+        return
+    end
+
+    local Unit_Type = Find_Object_Type(special_entry.Unit)
+
+    DebugMessage("%s -- Spawning %s %s for %s", tostring(Script), tostring(special_entry.Count), tostring(special_entry.Unit), tostring(faction.Get_Faction_Name()))
+
+    DebugMessage("%s -- Found Unit Type: %s", tostring(Script), tostring(Unit_Type))
+
+    if Unit_Type ~= nil and special_entry.Count > 0 then
+        local spawned = 0
+
+        while spawned < special_entry.Count do
+            local planet = Random_From_List(planet_list)
+
+            DebugMessage("%s -- Selected %s, Spawn Count: %s for %s", tostring(Script), tostring(planet), tostring(spawned + 1), tostring(special_entry.Unit))
+
+            if TestValid(planet) then
+                DebugMessage("%s -- Planet Was valid, spawning", tostring(Script))
+                Spawn_Unit(Unit_Type, planet, faction)
+            end
+
+            spawned = spawned + 1
+        end
     end
 end
 
