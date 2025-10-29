@@ -386,8 +386,8 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>400.0</Volume_Saturation_Distance>
-	  <Min_Volume>15</Min_Volume>
+	  <Volume_Saturation_Distance>200.0</Volume_Saturation_Distance>
+	  <Min_Volume>90</Min_Volume>
 	  <Max_Volume>105</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
@@ -401,11 +401,11 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>350.0</Volume_Saturation_Distance>
-	  <Min_Volume>25</Min_Volume>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Min_Volume>85</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
-	  <Max_Pitch>105</Max_Pitch>
+	  <Min_Pitch>130</Min_Pitch>
+	  <Max_Pitch>145</Max_Pitch>
 </SFXEvent>
 
 <SFXEvent Name="Preset_COVN_AFBEAM">
@@ -414,8 +414,8 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>450.0</Volume_Saturation_Distance>
-	  <Min_Volume>25</Min_Volume>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Min_Volume>105</Min_Volume>
 	  <Max_Volume>120</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
@@ -427,11 +427,11 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>550.0</Volume_Saturation_Distance>
-	  <Min_Volume>25</Min_Volume>
-	  <Max_Volume>200</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
-	  <Max_Pitch>105</Max_Pitch>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Min_Volume>85</Min_Volume>
+	  <Max_Volume>100</Max_Volume>
+	  <Min_Pitch>135</Min_Pitch>
+	  <Max_Pitch>155</Max_Pitch>
 </SFXEvent>
 
 <!-- 	

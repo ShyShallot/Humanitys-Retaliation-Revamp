@@ -134,8 +134,8 @@
 		 <SFXEvent Name="Unit_UNSC_MISSILE">
 					<Use_Preset>Preset_UNSC_MISSILE</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_MISSILE.wav</Samples>
-					<Min_Volume>45</Min_Volume>
-					<Max_Volume>105</Max_Volume>
+					<Min_Volume>95</Min_Volume>
+					<Max_Volume>125</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -165,10 +165,10 @@
 		 <SFXEvent Name="Unit_COVN_PBEAM">
 					<Use_Preset>Preset_COVN_BEAM_LG</Use_Preset>
 					<Samples>Data\Audio\OotF\COVN_PLASMA_BEAM_3.wav</Samples>
-					<Min_Volume>70</Min_Volume>
-					<Max_Volume>95</Max_Volume>
-					<Min_Pitch>95</Min_Pitch>
-					<Max_Pitch>100</Max_Pitch>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>115</Max_Volume>
+					<Min_Pitch>135</Min_Pitch>
+					<Max_Pitch>155</Max_Pitch>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_AFBEAM">
@@ -183,7 +183,7 @@
 		 <SFXEvent Name="Unit_COVN_PLASMA_TORP">
 					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
 					<Samples>Data\Audio\OotF\COVN_PLASMA_TORP.wav</Samples>
-					<Min_Volume>70</Min_Volume>
+					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
