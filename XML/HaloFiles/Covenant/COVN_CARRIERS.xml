@@ -227,8 +227,8 @@
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>10750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>62</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -463,8 +463,8 @@
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>10750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>62</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

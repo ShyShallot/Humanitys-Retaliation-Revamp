@@ -8,7 +8,7 @@
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_SMG.wav</Samples>
 					<Min_Volume>100</Min_Volume>
-					<Max_Volume>110</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -17,7 +17,7 @@
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_ONAGER.wav</Samples>
 					<Min_Volume>100</Min_Volume>
-					<Max_Volume>110</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -26,7 +26,7 @@
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_MAC.wav</Samples>
 					<Min_Volume>100</Min_Volume>
-					<Max_Volume>110</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -35,7 +35,7 @@
 					<Use_Preset>Preset_UNSC_BULLET</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_CHAIN.wav</Samples>
 					<Min_Volume>90</Min_Volume>
-					<Max_Volume>105</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -53,7 +53,7 @@
 					<Use_Preset>Preset_UNSC_BULLET</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_DECK.wav</Samples>
 					<Min_Volume>100</Min_Volume>
-					<Max_Volume>115</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -71,7 +71,7 @@
 					<Use_Preset>Preset_UNSC_BULLET_CAP</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_CAP_00.wav</Samples>
 					<Min_Volume>90</Min_Volume>
-					<Max_Volume>115</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -98,7 +98,7 @@
 					<Use_Preset>Preset_UNSC_BULLET</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_3.wav</Samples>
 					<Min_Volume>100</Min_Volume>
-					<Max_Volume>105</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -126,7 +126,7 @@
 					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_MINI_MAC.wav</Samples>
 					<Min_Volume>90</Min_Volume>
-					<Max_Volume>110</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -134,8 +134,8 @@
 		 <SFXEvent Name="Unit_UNSC_MISSILE">
 					<Use_Preset>Preset_UNSC_MISSILE</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_MISSILE.wav</Samples>
-					<Min_Volume>45</Min_Volume>
-					<Max_Volume>105</Max_Volume>
+					<Min_Volume>95</Min_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>
 		 </SFXEvent>
@@ -162,20 +162,29 @@
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
-		 <SFXEvent Name="Unit_COVN_PBEAM">
-					<Use_Preset>Preset_COVN_BEAM_LG</Use_Preset>
-					<Samples>Data\Audio\OotF\COVN_PLASMA_BEAM_3.wav</Samples>
-					<Min_Volume>70</Min_Volume>
+		 <SFXEvent Name="Unit_COVN_CANNON">
+					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_PLASMA.wav</Samples>
+					<Min_Volume>80</Min_Volume>
 					<Max_Volume>95</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_COVN_PBEAM">
+					<Use_Preset>Preset_COVN_BEAM_LG</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_PLASMA_BEAM_3.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>95</Min_Pitch>
+					<Max_Pitch>105</Max_Pitch>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_AFBEAM">
 					<Use_Preset>Preset_COVN_AFBEAM</Use_Preset>
 					<Samples>Data\Audio\OotF\COVN_PLASMA_BEAM_AF.wav</Samples>
 					<Min_Volume>90</Min_Volume>
-					<Max_Volume>105</Max_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
@@ -183,7 +192,7 @@
 		 <SFXEvent Name="Unit_COVN_PLASMA_TORP">
 					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
 					<Samples>Data\Audio\OotF\COVN_PLASMA_TORP.wav</Samples>
-					<Min_Volume>70</Min_Volume>
+					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
