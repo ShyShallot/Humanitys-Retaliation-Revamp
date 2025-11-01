@@ -2117,8 +2117,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_PARIS_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3750.0</Fire_Range_Distance>
@@ -2443,8 +2443,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>90.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>90.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3750.0</Fire_Range_Distance>
@@ -3235,8 +3235,8 @@
 		<Fire_Cone_Width>10.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3750.0</Fire_Range_Distance>
