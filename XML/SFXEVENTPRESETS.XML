@@ -15,7 +15,7 @@
 			<Is_GUI> Yes </Is_GUI>
 			<Priority> 1 </Priority>
 			<Min_Volume>70</Min_Volume>
-			<Max_Volume>120</Max_Volume>
+			<Max_Volume>100</Max_Volume>
 			<Max_Instances> 6 </Max_Instances> <!-- This should definitely not be 1 -->
 	</SFXEvent>
 
@@ -310,7 +310,7 @@
 	  <Max_Instances> 16 </Max_Instances>
 	  <Volume_Saturation_Distance>600.0</Volume_Saturation_Distance>
 	  <Min_Volume>80</Min_Volume>
-	  <Max_Volume>200</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -322,8 +322,8 @@
 	  <Priority> 1 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
 	  <Volume_Saturation_Distance>3500.0</Volume_Saturation_Distance>
-	  <Min_Volume>140</Min_Volume>
-	  <Max_Volume>300</Max_Volume>
+	  <Min_Volume>100</Min_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -334,9 +334,9 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 2 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>450.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
-	  <Max_Volume>110</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -347,9 +347,9 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 2 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>550.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
-	  <Max_Volume>110</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -360,9 +360,9 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>350.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
-	  <Max_Volume>110</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -373,9 +373,9 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 1 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>750.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
 	  <Min_Volume>90</Min_Volume>
-	  <Max_Volume>200</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -386,9 +386,9 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>200.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
 	  <Min_Volume>90</Min_Volume>
-	  <Max_Volume>105</Max_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -415,8 +415,8 @@
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
 	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
-	  <Min_Volume>105</Min_Volume>
-	  <Max_Volume>120</Max_Volume>
+	  <Min_Volume>100</Min_Volume>
+	  <Max_Volume>100</Max_Volume>
 	  <Min_Pitch>95</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
@@ -533,7 +533,7 @@
 			<Max_Pitch>105</Max_Pitch>
 			<Min_Volume>60</Min_Volume>
 			<Max_Volume>70</Max_Volume>
-			<Volume_Saturation_Distance>500.0</Volume_Saturation_Distance>
+			<Volume_Saturation_Distance>200.0</Volume_Saturation_Distance>
 
     </SFXEvent>
 
@@ -546,8 +546,8 @@
   			<Min_Pitch>95</Min_Pitch>
 			<Max_Pitch>115</Max_Pitch>
 			<Min_Volume>100</Min_Volume>
-			<Max_Volume>150</Max_Volume>
-			<Volume_Saturation_Distance>1450.0</Volume_Saturation_Distance>
+			<Max_Volume>100</Max_Volume>
+			<Volume_Saturation_Distance>250.0</Volume_Saturation_Distance>
 	 </SFXEvent>
 
 

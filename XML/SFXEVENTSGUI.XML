@@ -275,6 +275,8 @@
   
 	<SFXEvent Name="GUI_Frigate_Hero_Complete">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Frigates\Hero_Frigate_Completion.wav
 		</Samples>
@@ -282,6 +284,8 @@
 
 	<SFXEvent Name="GUI_Frigate_Wing_Complete">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Frigates\Frigate_Completion.wav
 		</Samples>
@@ -289,6 +293,8 @@
 	
 	<SFXEvent Name="GUI_Frigate_Wing_Building">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Frigates\Frigate_Building.wav
 		</Samples>
@@ -296,6 +302,8 @@
 	
 	<SFXEvent Name="GUI_Fighter_Wing_Complete">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Fighters\Fighter_Completion.wav
 		</Samples>
@@ -303,6 +311,8 @@
 	
 	<SFXEvent Name="GUI_Structure_Complete">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Structures\Structure_Completion.wav
 		</Samples>
@@ -310,6 +320,8 @@
 	
 	<SFXEvent Name="GUI_Structure_Building">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Structures\Structure_Building.wav
 		</Samples>
@@ -317,6 +329,8 @@
 
 	<SFXEvent Name="GUI_Capital_Complete">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Capitals\Capital_Completion.wav
 		</Samples>
@@ -324,6 +338,8 @@
 	 
 	<SFXEvent Name="GUI_Capital_Building">
 		<Use_Preset>Preset_GUI</Use_Preset>
+		<Min_Volume>55</Min_Volume>
+            <Max_Volume>55</Max_Volume>
 		<Samples>
 		Data\Audio\OotF\Voices\UNSC\Capitals\Capital_Building.wav
 		</Samples>
