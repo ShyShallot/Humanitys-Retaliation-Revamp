@@ -73,8 +73,10 @@ Starting_Units_Handler = {
                     "COVN_PIOUS",
 					"COVN_MACCABEUS",
                 },
-                Special_Units = {
+                Special_Units = { -- could work for structures as well
                     {Count = 1, Unit = "COVN_CSO", Filter = {Type = "Station", Value = {false, false, false, false, true, true}}} -- the Value Table is the Acceptable Station Levels, 0, 1, 2, 3, 4, 5, if it is true it will spawn at that level, in this usage, it will only spawn at level 4 and 5
+                    --{Count = 1, Unit = "COVN_CSO", Filter = {Type = "Power", Value = false}} -- Would Spawn 1 CSO on the strongest planet calculated via space unit strength
+                    --{Count = 1, Unit = "COVN_CSO"} -- Spawns a CSO on a random controlled planet
                 },
                 Planets = {},
                 Mapping = {},
