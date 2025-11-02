@@ -69,10 +69,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -93,10 +93,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -117,10 +117,10 @@
         <Fire_Cone_Width>100.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -141,10 +141,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -165,10 +165,10 @@
         <Fire_Cone_Width>100.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -189,10 +189,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -213,13 +213,13 @@
         <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>38</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+		<Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -238,12 +238,12 @@
         <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport,  </Fire_Category_Restrictions>
 
@@ -263,12 +263,12 @@
         <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport,  </Fire_Category_Restrictions>
 
@@ -288,12 +288,12 @@
         <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport,  </Fire_Category_Restrictions>
 
@@ -313,13 +313,13 @@
         <Fire_Bone_B>HP_AS_05</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>38</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -338,12 +338,12 @@
         <Fire_Bone_B>HP_AS_06</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport,  </Fire_Category_Restrictions>
 
@@ -426,12 +426,12 @@
 		
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
@@ -450,13 +450,13 @@
 		
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>38</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
@@ -474,12 +474,12 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_03</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
@@ -498,12 +498,12 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_04</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
@@ -522,13 +522,13 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_05</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>38</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
@@ -546,12 +546,12 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_06</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
@@ -570,12 +570,12 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_07</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
@@ -594,12 +594,12 @@
         <Fire_Bone_B>HP_RCS_ANTISHIP_LASER_08</Fire_Bone_B>
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>7.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>7.85</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Proj_CAS_Light_Plasma</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.45</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.85</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000</Fire_Range_Distance>
+        <Fire_Range_Distance>1500</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
@@ -618,10 +618,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -641,10 +641,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -664,10 +664,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -687,10 +687,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -710,10 +710,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -733,10 +733,10 @@
         <Fire_Cone_Width>165.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Capital</Fire_Projectile_Type>
-       <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>75</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>550.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -757,8 +757,8 @@
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_COV_Light_TORPEDO</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>6</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>8</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Max_Recharge_Seconds>6</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1850</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>

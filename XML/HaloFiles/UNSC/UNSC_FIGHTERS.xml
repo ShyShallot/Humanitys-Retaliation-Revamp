@@ -38,7 +38,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>550</Tactical_Health>
+		<Tactical_Health>750</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -242,7 +242,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>750</Tactical_Health>
+		<Tactical_Health>1750</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -530,7 +530,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>90</Tactical_Health>
+		<Tactical_Health>190</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -789,8 +789,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>245</Shield_Points>
-		<Tactical_Health>220</Tactical_Health>
+		<Shield_Points>545</Shield_Points>
+		<Tactical_Health>520</Tactical_Health>
 		<Shield_Refresh_Rate>105</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -1049,7 +1049,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>25</Tactical_Health>
+		<Tactical_Health>55</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1313,8 +1313,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>255</Shield_Points>
-		<Tactical_Health>305</Tactical_Health>
+		<Shield_Points>455</Shield_Points>
+		<Tactical_Health>605</Tactical_Health>
 		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1574,7 +1574,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>50</Tactical_Health>
+		<Tactical_Health>300</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1783,8 +1783,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>30</Shield_Points>
-		<Tactical_Health>70</Tactical_Health>
+		<Shield_Points>300</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>

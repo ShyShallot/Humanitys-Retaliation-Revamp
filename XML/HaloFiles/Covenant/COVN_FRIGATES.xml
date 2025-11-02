@@ -325,7 +325,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -693,9 +693,10 @@
 
 		<!-- Hardpoints -->
 		<HardPoints> 
-			HP_SDV_HANGAR_01,HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,
-			HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
+			HP_SDV_HANGAR_01,HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
 		</HardPoints>
+		
+		<!--HP_SDV_AS_05,HP_SDV_AS_06,-->
 
 		
 		
@@ -858,7 +859,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

@@ -8,7 +8,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Damage_Type> Damage_Covn_Light </Damage_Type>
 		<Max_Speed>180.0</Max_Speed>
-		<Projectile_Damage>35.0</Projectile_Damage>
+		<Projectile_Damage>5.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -103,6 +103,8 @@
 		<AI_Combat_Power>300</AI_Combat_Power>
 		
 	</Projectile>
+	
+	
 
 	<Projectile Name="Proj_Covie_Fighter">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -220,7 +222,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>40.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
