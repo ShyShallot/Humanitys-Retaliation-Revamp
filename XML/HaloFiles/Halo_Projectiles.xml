@@ -222,7 +222,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Damage>200.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
@@ -250,7 +250,7 @@
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>550.0</Max_Speed>
-		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Damage>500.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -276,7 +276,7 @@
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>290.0</Max_Speed>
-		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -302,7 +302,7 @@
 		<Space_Model_Name>COVN_PLASMALANCE_CSO.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>290.0</Max_Speed>
-		<Projectile_Damage>1500.0</Projectile_Damage>
+		<Projectile_Damage>2500.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
