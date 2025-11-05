@@ -54,7 +54,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>46500</Shield_Points>
 		<Tactical_Health>36250</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
@@ -229,7 +229,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -307,7 +307,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>16650</Shield_Points>
 		<Tactical_Health>66500</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
@@ -459,7 +459,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -664,7 +664,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12520</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -725,7 +725,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>162500</Shield_Points>
 		<Tactical_Health>86000</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
@@ -880,7 +880,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>14550</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>85</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

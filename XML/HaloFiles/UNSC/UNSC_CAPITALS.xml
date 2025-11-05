@@ -50,10 +50,10 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>25000</Tactical_Health>
-		<Shield_Points>55000</Shield_Points>
+		<Shield_Points>75000</Shield_Points>
 		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>

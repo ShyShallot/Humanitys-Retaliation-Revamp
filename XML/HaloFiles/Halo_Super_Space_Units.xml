@@ -729,7 +729,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>450000</Shield_Points>
 		<Tactical_Health>300000</Tactical_Health>
-		<Shield_Refresh_Rate>375</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>575</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
@@ -980,9 +980,10 @@
 
 		<Build_Cost_Credits>275000</Build_Cost_Credits>
 		<Build_Time_Seconds>420</Build_Time_Seconds>
-
+		<Shield_Refresh_Rate>625</Shield_Refresh_Rate>
 		<Shield_Points>1250000</Shield_Points>
 		<Tactical_Health>1250000</Tactical_Health>
+		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 	

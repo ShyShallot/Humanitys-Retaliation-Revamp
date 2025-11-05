@@ -56,7 +56,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>152500</Shield_Points>
 		<Tactical_Health>46000</Tactical_Health>
-		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>320</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
@@ -75,7 +75,7 @@
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>7</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 32</Reserve_Spawned_Units_Tech_0>
@@ -228,7 +228,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -292,7 +292,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>152500</Shield_Points>
 		<Tactical_Health>46000</Tactical_Health>
-		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>320</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
@@ -311,7 +311,7 @@
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>7</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 32</Reserve_Spawned_Units_Tech_0>
@@ -464,7 +464,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

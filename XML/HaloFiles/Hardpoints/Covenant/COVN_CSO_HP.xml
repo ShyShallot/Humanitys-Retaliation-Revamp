@@ -38,9 +38,9 @@
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
 			<Fire_Projectile_Type>Proj_Plasma_Lance_CSO</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>60.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>60.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>516</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>160.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>160.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>100</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>4500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -71,7 +71,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -106,7 +106,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -141,7 +141,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -176,7 +176,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -211,7 +211,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -246,7 +246,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -281,7 +281,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -316,7 +316,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -351,7 +351,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -386,7 +386,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -772,7 +772,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -808,7 +808,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -845,7 +845,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -882,7 +882,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -919,7 +919,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -956,7 +956,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -993,7 +993,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -1030,7 +1030,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -1067,7 +1067,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
@@ -1104,7 +1104,7 @@
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
        <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
        <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
        <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>

@@ -790,7 +790,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Flak</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -824,7 +824,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Flak</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -858,7 +858,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Flak</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -892,7 +892,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Flak</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -926,7 +926,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -960,7 +960,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -994,7 +994,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1028,7 +1028,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK40_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1309,7 +1309,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1334,7 +1334,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1445,7 +1445,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1479,7 +1479,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1513,7 +1513,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1547,7 +1547,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1587,7 +1587,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1621,7 +1621,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1649,7 +1649,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1683,7 +1683,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1723,7 +1723,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1757,7 +1757,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -1785,7 +1785,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1819,7 +1819,7 @@
         <Fire_Bone_B>FP_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2194,8 +2194,8 @@
         <Fire_Cone_Width>20.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>35.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>4000.0</Fire_Range_Distance>
@@ -2430,7 +2430,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2464,7 +2464,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2498,7 +2498,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2532,7 +2532,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2566,7 +2566,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2600,7 +2600,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2630,7 +2630,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 		
     </HardPoint>
@@ -2654,7 +2654,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2678,7 +2678,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2702,7 +2702,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2726,7 +2726,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2750,7 +2750,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2774,7 +2774,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -2798,7 +2798,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3086,7 +3086,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3120,7 +3120,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3154,7 +3154,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3188,7 +3188,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3222,7 +3222,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3256,7 +3256,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>15.0</Fire_Cone_Width>
         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3286,7 +3286,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 		
     </HardPoint>
@@ -3310,7 +3310,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3334,7 +3334,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3358,7 +3358,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3382,7 +3382,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3406,7 +3406,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3430,7 +3430,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3454,7 +3454,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3628,7 +3628,7 @@
         <Fire_Bone_B>HP_MK33G_01</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3660,7 +3660,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3692,7 +3692,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3716,7 +3716,7 @@
         <Fire_Bone_B>HP_MK33G_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3748,7 +3748,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3780,7 +3780,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3813,7 +3813,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3846,7 +3846,7 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3876,7 +3876,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3908,7 +3908,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3940,7 +3940,7 @@
 		<Fire_Pulse_Count>10</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -3958,7 +3958,7 @@
         <Fire_Bone_B>HP_MK33G_04</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3996,7 +3996,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4028,7 +4028,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
  
     </HardPoint>
@@ -4046,7 +4046,7 @@
         <Fire_Bone_B>HP_MK33G_01</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4084,7 +4084,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4116,7 +4116,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4134,7 +4134,7 @@
         <Fire_Bone_B>HP_MK33G_06</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4172,7 +4172,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4204,7 +4204,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4237,7 +4237,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4270,7 +4270,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4539,7 +4539,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4563,7 +4563,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4586,7 +4586,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4608,7 +4608,7 @@
         <Fire_Bone_B>HP_M66_04 </Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4631,7 +4631,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4654,7 +4654,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4679,7 +4679,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4701,7 +4701,7 @@
         <Fire_Bone_B>HP_M66_08 </Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4724,7 +4724,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4747,7 +4747,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4770,7 +4770,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -4793,7 +4793,7 @@
 
         <Fire_Cone_Width>180.0</Fire_Cone_Width> 
         <Fire_Cone_Height>140.0</Fire_Cone_Height>   
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type> 
+        <Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds> 
         <Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds> 
         <Fire_Pulse_Count>1</Fire_Pulse_Count> 
@@ -5946,7 +5946,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
  
 
     </HardPoint>
@@ -5969,7 +5969,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -5991,7 +5991,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6013,7 +6013,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6035,7 +6035,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -6058,7 +6058,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6082,7 +6082,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6105,7 +6105,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6128,7 +6128,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6151,7 +6151,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6174,7 +6174,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6197,7 +6197,7 @@
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> 
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -6225,7 +6225,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6247,7 +6247,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6271,7 +6271,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6293,7 +6293,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6315,7 +6315,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6339,7 +6339,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6361,7 +6361,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6383,7 +6383,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6407,7 +6407,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6429,7 +6429,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6453,7 +6453,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6475,7 +6475,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6499,7 +6499,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6521,7 +6521,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6543,7 +6543,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6567,7 +6567,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6589,7 +6589,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6611,7 +6611,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6635,7 +6635,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
@@ -6657,7 +6657,7 @@ It is older and less effective then the M870 this block represents the left hand
         <Fire_Pulse_Count>10</Fire_Pulse_Count> 
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds> 
         <Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-        <Fire_Range_Distance>750.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
+        <Fire_Range_Distance>1250.0</Fire_Range_Distance> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </HardPoint>
 	
