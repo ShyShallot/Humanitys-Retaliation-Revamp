@@ -9,6 +9,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Replacement List of Hardpoints 
 		<HardPoints>
@@ -27,18 +28,18 @@
 			Rebel,
 				UNSC_Light_Shipyard_Skirmish,
 				RS_Level_Two_Starbase_Upgrade,
-				Pelican_Squadron,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,
+				Baselard_Squadron,   -->
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
-				UNSC_POSEIDON
+				Charon_Squadron,
 				
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
@@ -56,7 +57,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>325</Base_Income_Value>
+				<Base_Income_Value>525</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -112,6 +113,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>50000</Tactical_Health>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Replacement List of Hardpoints 
 		<HardPoints>
@@ -124,7 +126,7 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
@@ -133,16 +135,15 @@
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Three_Starbase_Upgrade,
-				Pelican_Squadron,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,
+				Baselard_Squadron,   -->
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
 				Charon_Squadron,
 				Stalwart_Squadron,
 				Paris_Squadron,
-				UNSC_POSEIDON,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
@@ -167,7 +168,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>400.0</Base_Income_Value>
+				<Base_Income_Value>600.0</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -222,6 +223,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>84000</Tactical_Health>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Replacement List of Hardpoints 
 		<HardPoints>
@@ -237,7 +239,7 @@
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
@@ -246,20 +248,19 @@
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Four_Starbase_Upgrade,
-				Pelican_Squadron,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,
+				Baselard_Squadron,   
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron,
+				Condor_Squadron, -->
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
 				Charon_Squadron,
 				Stalwart_Squadron,
 				Paris_Squadron,
-				UNSC_POSEIDON,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
@@ -285,7 +286,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>425.0</Base_Income_Value>
+				<Base_Income_Value>625.0</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -340,6 +341,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>20000</Shield_Points>
 		<Tactical_Health>110000</Tactical_Health>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Replacement List of Hardpoints
 		<HardPoints>
@@ -357,7 +359,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
@@ -367,13 +369,13 @@
 				UNSC_Medium_Shipyard_Skirmish,
 				UNSC_Heavy_Shipyard_Skirmish,
 				RS_Level_Five_Starbase_Upgrade,
-				Pelican_Squadron,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,
+				Baselard_Squadron,   
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron,
+				Condor_Squadron, -->
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -408,7 +410,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>450.0</Base_Income_Value>
+				<Base_Income_Value>650.0</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -464,6 +466,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>88000</Shield_Points>
 		<Tactical_Health>85000</Tactical_Health>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Replacement List of Hardpoints 
 		<HardPoints>
@@ -483,7 +486,7 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
@@ -492,13 +495,13 @@
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				UNSC_Heavy_Shipyard_Skirmish,
-				Pelican_Squadron,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,
+				Baselard_Squadron,   
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron,
+				Condor_Squadron, -->
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -535,7 +538,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>475</Base_Income_Value>
+				<Base_Income_Value>675</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

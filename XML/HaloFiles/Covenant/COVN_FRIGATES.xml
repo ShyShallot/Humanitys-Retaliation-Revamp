@@ -5,7 +5,7 @@
 		<Space_Model_Name>COVN_CRS.ALO</Space_Model_Name>
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Scale_Factor>0.18</Scale_Factor>
+		<Scale_Factor>0.27</Scale_Factor>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
 		<!-- Naming -->
@@ -40,13 +40,13 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Space_FOW_Reveal_Range>2300.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>2.9</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.2</Max_Speed>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -57,12 +57,12 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>12400</Shield_Points>
-		<Tactical_Health>7600</Tactical_Health>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Population_Value>4</Population_Value>
+		<Shield_Points>2100</Shield_Points>
+		<Tactical_Health>1400</Tactical_Health>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Energy_Capacity>1050</Energy_Capacity>
+		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
+		<Population_Value>8</Population_Value>
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
@@ -87,7 +87,7 @@
 
 		<!--Squadron / Fighter Sets-->
 
-		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 1</Starting_Spawned_Units_Tech_0>  
+		<!-- <Starting_Spawned_Units_Tech_0>Banshee_Squadron, 1</Starting_Spawned_Units_Tech_0>  -->
 		
 		<!-- Misc-->
 		<!-- This is probably causing crashes <Lua_Script>BoardingAbility</Lua_Script> -->
@@ -108,9 +108,10 @@
 		</HardPoints>
 		
 		<!-- Unit Targeting -->
-		<Guard_Chase_Range>50.0</Guard_Chase_Range>
-		<Idle_Chase_Range>100.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>100.0</Guard_Chase_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
@@ -246,8 +247,8 @@
 		</Abilities>	-->	
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -307,7 +308,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>COVN_CRS</Squadron_Units>
+		<Squadron_Units>COVN_CRS, COVN_CRS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -325,14 +326,14 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1850</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>8</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>550</AI_Combat_Power>
 	
@@ -343,7 +344,7 @@
 		<Space_Model_Name>COVN_CAR.ALO</Space_Model_Name>
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>2.25</Scale_Factor>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
 		<!-- Naming -->
@@ -378,7 +379,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Space_FOW_Reveal_Range>2300.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 		
@@ -390,7 +391,7 @@
 		<Population_Value>6</Population_Value>
 	   	<Max_Speed>1.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -400,8 +401,8 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>2600</Shield_Points>
-		<Tactical_Health>950</Tactical_Health>
+		<Shield_Points>32000</Shield_Points>
+		<Tactical_Health>9950</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -562,7 +563,7 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -594,7 +595,7 @@
 		<Death_Clone>Damage_Normal</Death_Clone>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Scale_Factor>0.83</Scale_Factor>
+		<Scale_Factor>1.24</Scale_Factor>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
 		<!-- Naming -->
@@ -629,29 +630,29 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Space_FOW_Reveal_Range>2300.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
 		<Population_Value>8</Population_Value>
-	   	<Max_Speed>2.9</Max_Speed>
+	   	<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
-		<Max_Lift>0.5</Max_Lift>
+		<Max_Thrust>0.01</Max_Thrust>
+		<Max_Lift>0.2</Max_Lift>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.3</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>9000</Shield_Points>
-		<Tactical_Health>10000</Tactical_Health>
-		<Shield_Refresh_Rate>175</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>3000</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>1500</Energy_Capacity>
+		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
@@ -675,10 +676,9 @@
 		<AI_Combat_Power>3500</AI_Combat_Power>
 
 		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 1</Starting_Spawned_Units_Tech_0> 
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> --> 
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0> 
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds> --> 
+		
 		
 		<!-- Misc-->
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -701,9 +701,10 @@
 		
 		
 		<!-- Unit Targeting -->
-		<Guard_Chase_Range>50.0</Guard_Chase_Range>
-		<Idle_Chase_Range>100.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>100.0</Guard_Chase_Range>
+		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		
@@ -797,7 +798,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -859,8 +860,8 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

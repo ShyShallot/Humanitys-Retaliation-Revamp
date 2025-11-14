@@ -8,7 +8,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LATE_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_C712.alo</Space_Model_Name>
-		<Scale_Factor>0.11</Scale_Factor>
+		<Scale_Factor>0.27</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -20,13 +20,13 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>5.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.15</Max_Lift>
+		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>950.0</Strafe_Distance>
@@ -50,7 +50,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -59,7 +59,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
@@ -164,10 +164,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Late_Longsword, Late_Longsword, Late_Longsword</Squadron_Units>
+		<Squadron_Units>Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_C712.TGA</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -212,7 +233,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Longsword.alo</Space_Model_Name>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -224,8 +245,8 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>4.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -254,7 +275,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -263,7 +284,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
@@ -395,10 +416,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Longsword_Shiva, Longsword, Longsword</Squadron_Units>
+		<Squadron_Units>Longsword_Shiva, Longsword, Longsword, Longsword_Shiva, Longsword, Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -499,7 +541,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SHORTSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Shortsword.alo</Space_Model_Name>
-		<Scale_Factor>0.27</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -512,8 +554,8 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>4.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -542,7 +584,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -551,7 +593,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -684,10 +726,31 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Orbiting_Units>UNSC_PHOENIX</Required_Orbiting_Units>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Shortsword, Shortsword, Shortsword_Disable</Squadron_Units>
+		<Squadron_Units>Shortsword, Shortsword, Shortsword_Disable, Shortsword, Shortsword, Shortsword_Disable</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -758,7 +821,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BROADSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRIKE_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BROAD.alo</Space_Model_Name>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>1.5</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -771,8 +834,8 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>4.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -812,7 +875,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -941,10 +1004,31 @@
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Broadsword, Broadsword, Broadsword</Squadron_Units>
+		<Squadron_Units>Broadsword, Broadsword, Broadsword, Broadsword, Broadsword, Broadsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_BROADSWORD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1017,7 +1101,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BASELARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BASELARD_2.alo</Space_Model_Name>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>1.10</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1031,13 +1115,13 @@
 		
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>5.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.25</Max_Lift>
+		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
@@ -1049,7 +1133,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>55</Tactical_Health>
+		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1062,7 +1146,7 @@
 
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -1071,7 +1155,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -1203,12 +1287,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Baselard, Baselard, Baselard, Baselard, Baselard</Squadron_Units>
+		<Squadron_Units>Baselard, Baselard, Baselard, Baselard, Baselard, Baselard</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,30.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,-30.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_BASELARD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1262,8 +1365,8 @@
         </Abilities>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>80</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>2.5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>40</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1284,7 +1387,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SABRE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SABRE.alo</Space_Model_Name>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1296,13 +1399,13 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>5.2</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.25</Max_Lift>
+		<Max_Rate_Of_Turn>2.45</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		
@@ -1327,7 +1430,7 @@
 
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -1336,7 +1439,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
@@ -1467,11 +1570,31 @@
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Reach,Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Sabre, Sabre, Sabre</Squadron_Units>
+		<Squadron_Units>Sabre, Sabre, Sabre, Sabre, Sabre, Sabre</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_SABRE.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_SABRE.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1544,7 +1667,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_PELICAN.alo</Space_Model_Name>
-		<Scale_Factor>0.22</Scale_Factor>
+		<Scale_Factor>0.40</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -1556,8 +1679,8 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>4.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -1586,7 +1709,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -1595,7 +1718,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
@@ -1702,10 +1825,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Pelican, Pelican, Pelican</Squadron_Units>
+		<Squadron_Units>Pelican, Pelican, Pelican, Pelican, Pelican, Pelican</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1754,7 +1898,7 @@
 		<Encyclopedia_Good_Against> COVN_CRS COVN_RCS Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_D80_Condor.alo</Space_Model_Name>
-		<Scale_Factor>0.16</Scale_Factor>
+		<Scale_Factor>0.25</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -1766,13 +1910,13 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.2</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>2.8</Max_Speed>
+		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>1.25</Max_Lift>
-		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
+		<Max_Lift>2.25</Max_Lift>
+		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>950.0</Strafe_Distance>
@@ -1785,7 +1929,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>300</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
@@ -1796,7 +1940,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>10</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -1805,7 +1949,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
@@ -1912,10 +2056,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>D80-Condor, D80-Condor, D80-Condor</Squadron_Units>
+		<Squadron_Units>D80-Condor, D80-Condor, D80-Condor, D80-Condor, D80-Condor, D80-Condor</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_CONDOR.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

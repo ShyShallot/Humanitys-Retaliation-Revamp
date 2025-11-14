@@ -10,13 +10,15 @@
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>1.05</Scale_Factor>
+		<Scale_Factor>1.5</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.01</Min_Speed>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -31,7 +33,7 @@
 		<Reinforcement_Prevention_Radius/> 550 
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
-		<Max_Thrust>0.05</Max_Thrust>
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -70,7 +72,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -79,11 +81,11 @@
 			<!--HP_AUTUMN_REACTOR,--> HP_AUTUMN_SHIELD, UNSC_AUTUMN_HANAGR_01, UNSC_AUTUMN_HANAGR_02, UNSC_AUTUMN_EG_01, UNSC_AUTUMN_EG_02, UNSC_AUTUMN_EG_03, UNSC_AUTUMN_MAC, UNSC_AUTUMN_01, UNSC_AUTUMN_02, UNSC_AUTUMN_03, UNSC_AUTUMN_04, UNSC_AUTUMN_05, UNSC_AUTUMN_06, UNSC_AUTUMN_07, UNSC_AUTUMN_08, UNSC_AUTUMN_AP_01, UNSC_AUTUMN_AP_02, UNSC_AUTUMN_AP_03, UNSC_AUTUMN_AP_04, UNSC_AUTUMN_AP_05, UNSC_AUTUMN_AP_06, UNSC_AUTUMN_AP_07, UNSC_AUTUMN_AP_08, UNSC_AUTUMN_AP_09, UNSC_AUTUMN_AP_10, UNSC_AUTUMN_AP_11, UNSC_AUTUMN_AP_12
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_AUTUMN_CLASS.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -159,7 +161,19 @@
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>power_to_weapons</Type>
+				<Expiration_Seconds></Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
 
+				
+			</Unit_Ability>
+		
 		</Unit_Abilities_Data>
 		
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
@@ -177,7 +191,7 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>18</Population_Value>
+		<Population_Value>24</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MARATHON">
@@ -190,14 +204,17 @@
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>0.28</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
+		
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -211,7 +228,7 @@
 		<Reinforcement_Prevention_Radius/> 385 
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
-		<Max_Thrust>0.05</Max_Thrust>
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -251,7 +268,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
@@ -261,11 +278,11 @@
 			<!--HP_MARA_REACTOR,--> UNSC_MARA_01, UNSC_MARA_02, UNSC_MARA_03, UNSC_MARA_04, UNSC_MARA_05, UNSC_MARA_06, UNSC_MARA_07, UNSC_MARA_08, UNSC_MARA_09, UNSC_MARA_10, UNSC_MARA_11, UNSC_MARA_12, UNSC_MARA_AP_01, UNSC_MARA_AP_02, UNSC_MARA_AP_03, UNSC_MARA_AP_04, UNSC_MARA_AP_05, UNSC_MARA_AP_06, UNSC_MARA_AP_07, UNSC_MARA_AP_08, UNSC_MARA_AP_09, UNSC_MARA_AP_10, UNSC_MARA_AP_11, UNSC_MARA_AP_12, UNSC_MARA_AP_13, UNSC_MARA_AP_14, UNSC_MARA_MAC_01, UNSC_MARA_ENGINES, UNSC_MARA_HANGAR_01, UNSC_MARA_HANGAR_02
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -332,7 +349,7 @@
 			<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
@@ -360,14 +377,14 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>16</Population_Value>
+		<Population_Value>20</Population_Value>
 		
 		
 	</SpaceUnit>
@@ -382,14 +399,17 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>3.02</Scale_Factor>
+		<Scale_Factor>4.5</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
+		
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -403,7 +423,7 @@
 		<Reinforcement_Prevention_Radius/> 710 
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
-		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -419,7 +439,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
-		<Tactical_Health>39000</Tactical_Health>
+		<Tactical_Health>49000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -440,7 +460,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 		
 		<CategoryMask> Capital | AntiFrigate | Antifighter </CategoryMask>
@@ -457,7 +477,7 @@
 		
 		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -524,7 +544,7 @@
 			<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
@@ -552,14 +572,14 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>12</Population_Value>
+		<Population_Value>15</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">
@@ -572,14 +592,17 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.85</Scale_Factor>
+		<Scale_Factor>1.3</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.55</Max_Rate_Of_Turn>
+		
+		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-95.0</Layer_Z_Adjust>
@@ -588,7 +611,6 @@
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		
-		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -599,12 +621,12 @@
 		<Reinforcement_Prevention_Radius/> 500 
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>45000</Shield_Points>
+		<Shield_Points>85000</Shield_Points>
 		<Tactical_Health>19500</Tactical_Health> 
 		<!-- Shield Recharge Was Reduced across all ships due to an increase of recharge rate -->
-		<Shield_Refresh_Rate>750</Shield_Refresh_Rate> 
-		<Energy_Capacity>15000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate> 
+		<Energy_Capacity>40000</Energy_Capacity>
+		<Energy_Refresh_Rate>8000</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -635,7 +657,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
@@ -715,7 +737,7 @@
 			<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
@@ -751,7 +773,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>18</Population_Value>
+		<Population_Value>24</Population_Value>
 	</SpaceUnit>
 	
 	
@@ -766,14 +788,17 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>0.85</Scale_Factor>
+		<Scale_Factor>1.3</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
+		
 		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -787,7 +812,7 @@
 		
 		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>	
-		<Max_Thrust>0.05</Max_Thrust>
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -824,7 +849,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -851,11 +876,11 @@
 			UNSC_SOF_ARCHER_16
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_PHOENIX.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -977,18 +1002,41 @@
 			
 		</Abilities>
 		
-		
+				<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>power_to_weapons</Type>
+				<Expiration_Seconds></Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.001f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				
+			</Unit_Ability>
+
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>	-->
+		</Unit_Abilities_Data>
 		
        <Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>38</Population_Value>
+		<Population_Value>40</Population_Value>
 		<Additional_Population_Capacity>48</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 	</SpaceUnit>
 	
@@ -1003,14 +1051,17 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>3.2</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
+		
 		<Max_Speed>1.25</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
+		
 		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -1024,7 +1075,6 @@
 		
 		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>	
-		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -1061,7 +1111,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
@@ -1081,11 +1131,11 @@
 			
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -1156,7 +1206,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>50</Population_Value>
+		<Population_Value>60</Population_Value>
 
 	</SpaceUnit>
 	

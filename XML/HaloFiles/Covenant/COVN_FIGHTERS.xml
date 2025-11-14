@@ -7,8 +7,8 @@
 		<Text_ID>TEXT_UNIT_COVN_SERAPH</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_SERAPH </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
-		<Space_Model_Name>COVN_SERAPH.alo</Space_Model_Name>
-		<Scale_Factor>0.15</Scale_Factor>
+		<Space_Model_Name>COVN_SERAPH_2.alo</Space_Model_Name>
+		<Scale_Factor>0.22</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -20,13 +20,13 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.5</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>5.2</Max_Speed>
+		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.6</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>2.25</Max_Lift>
-		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Lift>2.90</Max_Lift>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>550.0</Strafe_Distance>
@@ -37,11 +37,11 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>1620</Shield_Points>
-		<Tactical_Health>1200</Tactical_Health>
-		<Shield_Refresh_Rate>7</Shield_Refresh_Rate>
-		<Energy_Capacity>500</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Shield_Points>35</Shield_Points>
+		<Tactical_Health>12</Tactical_Health>
+		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Energy_Capacity>20</Energy_Capacity>
+		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Fighter</Shield_Armor_Type>
@@ -60,7 +60,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -166,7 +166,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>180</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -176,10 +176,31 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Seraph, Seraph, Seraph</Squadron_Units>
+		<Squadron_Units>Seraph, Seraph, Seraph, Seraph, Seraph, Seraph</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_Seraph.tga</Icon_Name>
 		<GUI_Model_Name>COVN_SERAPH.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -252,7 +273,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_TARASQUE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_TARASQUE.alo</Space_Model_Name>
-		<Scale_Factor>0.06</Scale_Factor>
+		<Scale_Factor>0.09</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -264,8 +285,8 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.5</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>5.8</Max_Speed>
+		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -282,10 +303,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>4075</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>500</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Energy_Capacity>10</Energy_Capacity>
+		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Fighter</Shield_Armor_Type>
@@ -304,7 +325,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>450.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -407,7 +428,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>320</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -417,9 +438,31 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Tarasque, Tarasque</Squadron_Units>
+		<Squadron_Units>Tarasque, Tarasque, Tarasque, Tarasque</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_TARASQUE.tga</Icon_Name>
 		<GUI_Model_Name>COVN_TARASQUE.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -490,7 +533,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_CERASTES </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_CERASTES.alo</Space_Model_Name>
-		<Scale_Factor>0.12</Scale_Factor>
+		<Scale_Factor>0.18</Scale_Factor>
 		<Select_Box_Scale>15</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -501,8 +544,8 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.5</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
+		<Max_Speed>5.8</Max_Speed>
+		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
@@ -519,10 +562,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2550</Tactical_Health>
+		<Tactical_Health>60</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>500</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Energy_Capacity>10</Energy_Capacity>
+		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Bomber</Shield_Armor_Type>
@@ -538,7 +581,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -618,7 +661,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>280</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Seconds>16</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -628,9 +671,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Cerastes, Cerastes</Squadron_Units>
+		<Squadron_Units>Cerastes, Cerastes, Cerastes, Cerastes</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_CERASTES.tga</Icon_Name>
 		<GUI_Model_Name>COVN_CERASTES.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -677,7 +742,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_BANSHEE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_BANSHEE.alo</Space_Model_Name>
-		<Scale_Factor>0.25</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -689,13 +754,13 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>3.8</Max_Speed>
-		<Min_Speed>0.01</Min_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Speed>6.2</Max_Speed>
+		<Min_Speed>3</Min_Speed>
+		<Max_Thrust>0.7</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
 		<OverrideDeceleration>1.56</OverrideDeceleration>
-		<Max_Lift>2.25</Max_Lift>
-		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
+		<Max_Lift>1.65</Max_Lift>
+		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Strafe_Distance>750.0</Strafe_Distance>
@@ -707,10 +772,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>600</Tactical_Health>
+		<Tactical_Health>10</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>500</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Energy_Capacity>10</Energy_Capacity>
+		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Fighter</Shield_Armor_Type>
@@ -729,7 +794,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -820,7 +885,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>75</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -830,10 +895,31 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Banshee, Banshee, Banshee, Banshee</Squadron_Units>
+		<Squadron_Units>Banshee, Banshee, Banshee, Banshee, Banshee, Banshee</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_BANSHEE.tga</Icon_Name>
 		<GUI_Model_Name>COVN_BANSHEE.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

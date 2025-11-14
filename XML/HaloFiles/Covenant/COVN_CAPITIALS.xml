@@ -15,7 +15,7 @@
 		<Select_Box_Scale>700</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.35</Scale_Factor>
+		<Scale_Factor>0.52</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -25,7 +25,7 @@
 		<Armor_Type> Armor_COVN_Assault </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius/> 525 
-
+		
 		<Max_Speed>2.9</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 
@@ -38,7 +38,7 @@
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -52,11 +52,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>46500</Shield_Points>
-		<Tactical_Health>36250</Tactical_Health>
-		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>50000</Shield_Points>
+		<Tactical_Health>32000</Tactical_Health>
+		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
+		<Energy_Capacity>22000</Energy_Capacity>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -70,11 +70,11 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -86,8 +86,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2300.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1650.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -161,7 +161,6 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>18</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- <Unit_Ability>
@@ -182,21 +181,21 @@
 					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability> -->
 			
-	<!--		<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD XD  !!!
+		<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
 				<Type>TURBO</Type>
 			
 				<Expiration_Seconds>9</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	2.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		    300.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
 				
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability>  -->
+			</Unit_Ability>  
 			
 			<Unit_Ability>
 			
@@ -227,9 +226,12 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
+		<Population_Value>12</Population_Value>
+
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -269,7 +271,7 @@
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.68</Scale_Factor>
+		<Scale_Factor>1.02</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -305,11 +307,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>16650</Shield_Points>
-		<Tactical_Health>66500</Tactical_Health>
-		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>20000</Shield_Points>
+		<Tactical_Health>60000</Tactical_Health>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -326,8 +328,8 @@
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -339,8 +341,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2350.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -414,17 +416,23 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
-		<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+			
+			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>9</Expiration_Seconds>
+				<Recharge_Seconds>300</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
 				
-			</Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability> 
+		
 			
 			<Unit_Ability>
 				<Type>DEFEND</Type>        
@@ -455,11 +463,11 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>16</Population_Value>
+		<Population_Value>8</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -483,7 +491,7 @@
 		<Select_Box_Scale>290</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.55</Scale_Factor>
+		<Scale_Factor>2.32</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -505,7 +513,7 @@
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -519,11 +527,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>63500</Shield_Points>
-		<Tactical_Health>66500</Tactical_Health>
-		<Shield_Refresh_Rate>440</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>60000</Shield_Points>
+		<Tactical_Health>40000</Tactical_Health>
+		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
+		<Energy_Capacity>30000</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -545,8 +553,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2650.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
 			<!--HP_CPV_REACTOR,--> HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_ENGINES, HP_CPV_SHIELD 
@@ -620,17 +628,21 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-		<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
+			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>9</Expiration_Seconds>
+				<Recharge_Seconds>300</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-		
+				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
 				
-			</Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability> 
 					
 			<Unit_Ability>
 				<Type>DEFEND</Type>        
@@ -663,8 +675,8 @@
 		<Population_Value>22</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12520</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>9520</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -687,7 +699,7 @@
 		<Select_Box_Scale>700</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.3</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -709,7 +721,7 @@
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -723,11 +735,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>162500</Shield_Points>
-		<Tactical_Health>86000</Tactical_Health>
-		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>120000</Shield_Points>
+		<Tactical_Health>80000</Tactical_Health>
+		<Shield_Refresh_Rate>700</Shield_Refresh_Rate>
+		<Energy_Capacity>70000</Energy_Capacity>
+		<Energy_Refresh_Rate>750</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -741,11 +753,11 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -757,8 +769,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1850.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -846,6 +858,7 @@
 		<Population_Value>26</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
+		
 			<Unit_Ability>
 				<Type>DEFEND</Type>        
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
@@ -857,6 +870,22 @@
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 			</Unit_Ability>
+			
+			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>9</Expiration_Seconds>
+				<Recharge_Seconds>300</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
+				
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability> 
 				
 			<Unit_Ability>
 				<Type>STEALTH</Type>
@@ -879,8 +908,8 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>14550</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>85</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>11000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

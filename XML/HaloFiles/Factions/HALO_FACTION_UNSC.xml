@@ -32,7 +32,7 @@
 		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon>  </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> Y-Wing_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>200</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		
@@ -60,8 +60,8 @@
 		<Helper_Icon_Name>i_rebel_help_droid.tga</Helper_Icon_Name>
 
 		<Space_Retreat_Countdown_Seconds> 5.05 </Space_Retreat_Countdown_Seconds> 
-		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
-		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 0.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 0.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
 		<Space_Retreat_Flight_Move_Increment> 500.0 </Space_Retreat_Flight_Move_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>  <!-- WARNING: For some reason, non-0.0 Z can cause problems? -->
@@ -140,7 +140,7 @@
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
 			1,30,
-			1,30,
+			2,30,
 			5,30,
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
 

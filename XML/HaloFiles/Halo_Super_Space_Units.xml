@@ -727,11 +727,11 @@
 		<Required_Planets>Sanghelios, Mars, Song_Of_Victory, Reach, Earth</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>450000</Shield_Points>
-		<Tactical_Health>300000</Tactical_Health>
-		<Shield_Refresh_Rate>575</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>600000</Shield_Points>
+		<Tactical_Health>400000</Tactical_Health>
+		<Shield_Refresh_Rate>3000</Shield_Refresh_Rate>
+		<Energy_Capacity>60000</Energy_Capacity>
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -970,7 +970,7 @@
 			HP_CSO_HC_01, HP_CSO_HC_02, HP_CSO_HC_03, HP_CSO_HC_04, HP_CSO_HC_05, HP_CSO_HC_06, HP_CSO_HC_07, HP_CSO_HC_08, HP_CSO_HC_09, HP_CSO_HC_10, HP_CSO_01, HP_CSO_02, HP_CSO_03, HP_CSO_04, HP_CSO_05, HP_CSO_06, HP_CSO_07, HP_CSO_08, HP_CSO_09, HP_CSO_10, HP_CSO_11, HP_CSO_12, HP_CSO_13, HP_CSO_14, HP_CSO_15, HP_CSO_16, HP_CSO_17, HP_CSO_18, HP_CSO_19, HP_CSO_20, HP_CSO_21, HP_CSO_22, HP_CSO_23, HP_CSO_24, HP_CSO_25, HP_CSO_26, HP_CSO_LANCE,
 		</HardPoints>
 
-		<Population_Value>194</Population_Value>
+		<Population_Value>170</Population_Value>
 			
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -980,9 +980,11 @@
 
 		<Build_Cost_Credits>275000</Build_Cost_Credits>
 		<Build_Time_Seconds>420</Build_Time_Seconds>
-		<Shield_Refresh_Rate>625</Shield_Refresh_Rate>
-		<Shield_Points>1250000</Shield_Points>
-		<Tactical_Health>1250000</Tactical_Health>
+		<Shield_Points>3000000</Shield_Points>
+		<Tactical_Health>2000000</Tactical_Health>
+		<Shield_Refresh_Rate>3000</Shield_Refresh_Rate>
+		<Energy_Capacity>60000</Energy_Capacity>
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>

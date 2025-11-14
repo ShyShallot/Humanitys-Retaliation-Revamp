@@ -8,7 +8,7 @@
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>1.8</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -19,8 +19,11 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
+		
 		<Max_Speed>2.2</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Min_Speed>0.1</Min_Speed>
+		
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
@@ -33,7 +36,7 @@
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Capital </Armor_Type>
         <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
-		<Max_Thrust>1.1</Max_Thrust>
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -67,7 +70,7 @@
 		<Behavior> DUMMY_STARSHIP, SELECTABLE </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>850.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -82,15 +85,15 @@
 			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04 
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 14</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -187,7 +190,7 @@
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>650.0</Heal_Range>
+				<Heal_Range>1300.0</Heal_Range>
 				<Heal_Amount> 50 </Heal_Amount>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>0.5</Heal_Interval_In_Secs>
@@ -211,7 +214,7 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
-		</Abilities>	
+		</Abilities>
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -255,7 +258,7 @@
 		<Space_Model_Name>UNSC_POSEIDON.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>0.8</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -314,7 +317,7 @@
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
 		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 

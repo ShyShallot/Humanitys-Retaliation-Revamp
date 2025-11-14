@@ -15,7 +15,7 @@
 			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
@@ -39,7 +39,7 @@
 		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base />
@@ -50,7 +50,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>350</Base_Income_Value>
+				<Base_Income_Value>550</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -110,15 +110,16 @@
 			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Banshee_Squadron,
-				Cerastes_Squadron,
+		<!--	Banshee_Squadron,
+				Tarasque_Squadron,
+				Cerastes_Squadron, -->
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,
@@ -145,7 +146,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>375</Base_Income_Value>
+				<Base_Income_Value>575</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -205,16 +206,16 @@
 			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Banshee_Squadron,
+		<!--	Banshee_Squadron,
 				Tarasque_Squadron,
-				Cerastes_Squadron,
+				Cerastes_Squadron, -->
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,
@@ -246,7 +247,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>400</Base_Income_Value>
+				<Base_Income_Value>600</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -306,16 +307,16 @@
 			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Banshee_Squadron,
+		<!--	Banshee_Squadron,
 				Tarasque_Squadron,
-				Cerastes_Squadron,
+				Cerastes_Squadron, -->
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,
@@ -348,7 +349,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>425</Base_Income_Value>
+				<Base_Income_Value>625</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -410,17 +411,17 @@
 
 		
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 10000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Banshee_Squadron,
+		<!--	Banshee_Squadron,
 				Tarasque_Squadron,
 				Seraph_Squadron,
-				Cerastes_Squadron,
+				Cerastes_Squadron, -->
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,
@@ -460,7 +461,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>450</Base_Income_Value>
+				<Base_Income_Value>650</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

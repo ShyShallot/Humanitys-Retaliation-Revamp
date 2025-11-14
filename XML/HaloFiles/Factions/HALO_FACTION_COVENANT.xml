@@ -30,7 +30,7 @@
 		<Basic_AI>BasicEmpire</Basic_AI>
 		<Faction_Super_Weapon> COVN_CAS </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> TIE_Bomber_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>275</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>125</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
@@ -55,8 +55,8 @@
         <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
 
 		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
-		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
-		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 0.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 0.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
 		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->

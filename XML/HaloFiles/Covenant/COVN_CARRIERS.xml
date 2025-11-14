@@ -18,7 +18,7 @@
 		<Select_Box_Scale>550</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.55</Scale_Factor>
+		<Scale_Factor>0.82</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -40,7 +40,7 @@
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -54,11 +54,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>152500</Shield_Points>
-		<Tactical_Health>46000</Tactical_Health>
-		<Shield_Refresh_Rate>320</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>150000</Shield_Points>
+		<Tactical_Health>100000</Tactical_Health>
+		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
+		<Energy_Capacity>70000</Energy_Capacity>
+		<Energy_Refresh_Rate>750</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -72,13 +72,13 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 32</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 10</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 16</Reserve_Spawned_Units_Tech_0>
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
@@ -89,8 +89,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 
 		<!-- <HardPoints> 
@@ -228,7 +228,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -254,7 +254,7 @@
 		<Select_Box_Scale>550</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.55</Scale_Factor>
+		<Scale_Factor>0.82</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -276,7 +276,7 @@
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 		
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Thrust>0.01</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -290,11 +290,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>152500</Shield_Points>
-		<Tactical_Health>46000</Tactical_Health>
-		<Shield_Refresh_Rate>320</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Shield_Points>150000</Shield_Points>
+		<Tactical_Health>100000</Tactical_Health>
+		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
+		<Energy_Capacity>70000</Energy_Capacity>
+		<Energy_Refresh_Rate>750</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -308,13 +308,13 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 32</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 10</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 16</Reserve_Spawned_Units_Tech_0>
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
@@ -325,8 +325,8 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
 
 		<!-- <HardPoints> 
@@ -463,8 +463,8 @@
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>9000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
