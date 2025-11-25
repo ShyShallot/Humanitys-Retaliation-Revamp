@@ -1130,8 +1130,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Morale_Compromised_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
-				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Bomber | Fighter </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>-0.30</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>
@@ -1151,8 +1151,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Morale_Strained_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
-				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Bomber | Fighter </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>-0.20</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>-0.15</Damage_Bonus_Percentage>
@@ -1171,8 +1171,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Morale_Resolute_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
-				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Bomber | Fighter </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
@@ -1191,8 +1191,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Morale_Ascendant_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
-				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Unit_Strength_Category>
-				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Transport | Bomber | Fighter </Applicable_Unit_Categories>
+				<Unit_Strength_Category> Super | Capital | Corvette | Frigate | Bomber | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Super | Capital | Corvette | Frigate | Bomber | Fighter </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
