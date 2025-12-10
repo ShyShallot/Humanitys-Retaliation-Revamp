@@ -5,7 +5,7 @@
 		<Space_Model_Name>COVN_CRS.ALO</Space_Model_Name>
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Scale_Factor>0.27</Scale_Factor>
+		<Scale_Factor>0.13</Scale_Factor> <!-- Original was 0.27 -->
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
 		<!-- Naming -->
@@ -41,11 +41,11 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>3.2</Max_Speed>
+		<Max_Speed>1.6</Max_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
@@ -59,10 +59,10 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>2100</Shield_Points>
 		<Tactical_Health>1400</Tactical_Health>
-		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>
 		<Energy_Capacity>1050</Energy_Capacity>
 		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
-		<Population_Value>8</Population_Value>
+		<Population_Value>4</Population_Value>
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
@@ -83,7 +83,7 @@
 
 		<!-- AI Control -->
 		<Damage>70</Damage>
-		<AI_Combat_Power>550</AI_Combat_Power>
+		<AI_Combat_Power>1000</AI_Combat_Power>
 
 		<!--Squadron / Fighter Sets-->
 
@@ -112,7 +112,7 @@
 		<Idle_Chase_Range>3500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
 		<!-- Unknown Don't touch unless experiementing-->
@@ -174,9 +174,9 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
+	<!--	<Unit_Abilities_Data SubObjectList="Yes">
 			
-	<!-- Boarding may be causing crashes 	<Unit_Ability>
+		Boarding may be causing crashes 	<Unit_Ability>
 	            <Type>TRACTOR_BEAM</Type>
 	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.6f</Mod_Multiplier>
@@ -189,7 +189,7 @@
 				<Alternate_Icon_Name>i_sa_blast.tga</Alternate_Icon_Name>
 			</Unit_Ability>  -->
 			
-			<Unit_Ability>
+	<!--		<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds></Expiration_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
@@ -201,15 +201,7 @@
 				
 			</Unit_Ability>
 
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
-				<Disable_Movement>No</Disable_Movement>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>-->
+
 			
 			<Unit_Ability>
 				<Type>DEFEND</Type>        
@@ -224,8 +216,8 @@
 
 				
 			</Unit_Ability>
-
-		</Unit_Abilities_Data>
+ 
+		</Unit_Abilities_Data> -->
 
 	<!-- May be causing Crashes  Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease"
 	<Abilities SubObjectList="Yes">
@@ -245,6 +237,26 @@
 			
  
 		</Abilities>	-->	
+		
+					<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>-->
+			
+		<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-10</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
@@ -333,9 +345,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
-		<AI_Combat_Power>550</AI_Combat_Power>
+		<AI_Combat_Power>1000</AI_Combat_Power>
 	
 		</Squadron>
 
@@ -380,7 +392,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 		
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0> 
@@ -388,8 +400,8 @@
 		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
 		<!-- Stats -->
-		<Population_Value>6</Population_Value>
-	   	<Max_Speed>1.8</Max_Speed>
+		<Population_Value>4</Population_Value>
+	   	<Max_Speed>1.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
@@ -426,7 +438,7 @@
 
 		<!-- AI Control -->
 		<Damage>70</Damage>
-		<AI_Combat_Power>4000</AI_Combat_Power>
+		<AI_Combat_Power>1000</AI_Combat_Power>
 
 
 	<!--	<Abilities SubObjectList="Yes">
@@ -470,7 +482,7 @@
 		<Guard_Chase_Range>50.0</Guard_Chase_Range>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
 		<!-- Unknown Don't touch unless experiementing-->
@@ -595,7 +607,7 @@
 		<Death_Clone>Damage_Normal</Death_Clone>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Scale_Factor>1.24</Scale_Factor>
+		<Scale_Factor>0.62</Scale_Factor>  <!-- Original was 01.24 -->
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
 		<!-- Naming -->
@@ -605,14 +617,14 @@
 
 		<!-- Classes -->
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> </Space_Layer>
+		<Space_Layer>  </Space_Layer>
 		<Ship_Class>corvette</Ship_Class>
 		<CategoryMask> Corvette | AntiFighter </CategoryMask>
 
 		<!-- Class Shield and Damage -->
 		<Damage_Type>Damage_COVIE_Corvette</Damage_Type>
 		<Armor_Type> Armor_COVN_Assault </Armor_Type>
-		<Shield_Armor_Type>Shield_COVN_Destroyer</Shield_Armor_Type>
+		<Shield_Armor_Type>Sheild_COVN_Destroyer</Shield_Armor_Type>
 
 		<!-- GUI -->
 		<GUI_Row> 1 </GUI_Row>
@@ -631,14 +643,14 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Population_Value>8</Population_Value>
-	   	<Max_Speed>3.2</Max_Speed>
+		<Population_Value>4</Population_Value>
+	   	<Max_Speed>1.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Thrust>0.01</Max_Thrust>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Max_Lift>0.2</Max_Lift>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -648,9 +660,9 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>3000</Shield_Points>
-		<Tactical_Health>2000</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Shield_Points>6000</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
 		<Energy_Capacity>1500</Energy_Capacity>
 		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
 		
@@ -659,7 +671,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -673,16 +685,12 @@
 
 		<!-- AI Control -->
 		<Damage>70</Damage>
-		<AI_Combat_Power>3500</AI_Combat_Power>
-
-		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0> 
-		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds> --> 
+		<AI_Combat_Power>1000</AI_Combat_Power>
 		
 		
 		<!-- Misc-->
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
@@ -691,21 +699,21 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator> <!-- If set to false the game will ignore this for victory condition even if ship is alive-->
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
+
+
 		<!-- Hardpoints -->
 		<HardPoints> 
 			HP_SDV_HANGAR_01,HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
 		</HardPoints>
-		
-		<!--HP_SDV_AS_05,HP_SDV_AS_06,-->
 
-		
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
 		<Idle_Chase_Range>3500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		
 		<!-- Unknown Don't touch unless experiementing-->
@@ -720,8 +728,8 @@
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		
-			<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+	<!--		<Unit_Abilities_Data SubObjectList="Yes">
+	
 			<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds></Expiration_Seconds>
@@ -748,7 +756,17 @@
 				
 			</Unit_Ability>
 
-		</Unit_Abilities_Data>
+		</Unit_Abilities_Data>  -->
+		
+				<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-15</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 		
 		<!-- Sound Effect Events-->
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -796,18 +814,24 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<!-- <Lua_Script>ObjectScript_RandomZLayer</Lua_Script> -->
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>12900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+		<Score_Cost_Credits>700</Score_Cost_Credits>
+		<AI_Combat_Power>3500</AI_Combat_Power>
+		
 	</SpaceUnit>
 	
-	<Squadron Name="SDV_SQUADRON">
+	<Squadron Name="SDV_SQUADRON">    <!-- DO NOT TURN THIS BACK ON UNLESS YOU WANT 3 HOURS OF HEADACHE DEBUGGING THE SDV | I turned it back on - Apple -->
 
 		<Text_ID>TEXT_UNIT_COVN_SDV</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SDV </Encyclopedia_Text>
@@ -821,7 +845,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures></Required_Special_Structures>
 		
@@ -859,18 +883,16 @@
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+
 		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
-		<Score_Cost_Credits>700</Score_Cost_Credits>
-		<AI_Combat_Power>3500</AI_Combat_Power>
 	
-		</Squadron>
+		<Population_Value>4</Population_Value>
+		<Score_Cost_Credits>700</Score_Cost_Credits>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	
+		</Squadron> 
 
 </FrigateUnits>

@@ -52,7 +52,7 @@
 <!-- START GALACTIC THEMES -->
 
 	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
-		<Files>GC_Relaxing_Music_3.mp3</Files>
+		<Files>GC_Relaxing_Music.mp3, GC_Relaxing_Music_2.mp3</Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>5.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>5.0</Fade_Out_Previous_Seconds>

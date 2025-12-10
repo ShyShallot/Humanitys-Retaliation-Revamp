@@ -11,13 +11,13 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.9</Scale_Factor> <!-- Original was 0.9 -->
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -72,10 +72,10 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
-		<CategoryMask> SuperCapital </CategoryMask>
+		<CategoryMask> Capital </CategoryMask>
 		<Custom_Hard_YExtent>150</Custom_Hard_YExtent>
 		<Custom_Hard_XExtent>400</Custom_Hard_XExtent>
 
@@ -238,7 +238,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -280,7 +280,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>102500</Build_Cost_Credits>
-		<AI_Combat_Power>12000</AI_Combat_Power>
+		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>600</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -293,10 +293,10 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
-		<CategoryMask> SuperCapital </CategoryMask>
+		<CategoryMask> Capital </CategoryMask>
 		<Custom_Hard_YExtent>150</Custom_Hard_YExtent>
 		<Custom_Hard_XExtent>400</Custom_Hard_XExtent>
 
@@ -433,6 +433,7 @@
 
 	<SpaceUnit Name="UNSC_SOF">
 	
+		<Variant_Of_Existing_Type>UNSC_PHOENIX</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_UNSC_HERO_CPT_CUTTER</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 0 </GUI_Row>
@@ -440,18 +441,16 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>0.85</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -482,7 +481,7 @@
 		<Required_Special_Structures />
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
-		<Tactical_Health>46000</Tactical_Health>
+		<Tactical_Health>100005</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
@@ -490,7 +489,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>18500</Build_Cost_Credits>
-		<AI_Combat_Power>10000</AI_Combat_Power>
+		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>165</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -503,10 +502,9 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1850.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
-		<CategoryMask> SuperCapital </CategoryMask>
 
 		<HardPoints> 
 			USNC_SOF_ENGINE_O1, USNC_SOF_ENGINE_O2, USNC_SOF_ENGINE_O3, 
@@ -590,7 +588,7 @@
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>850.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 
@@ -627,7 +625,7 @@
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Transport, Bomber,</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
@@ -691,7 +689,7 @@
 		<Select_Box_Scale>650</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.45</Scale_Factor> <!-- 2.77 is original scale -->
+		<Scale_Factor>1.1</Scale_Factor> <!-- 2.77 is original scale --> <!-- Secondary Original was 2.2 -->
 		<Mass>1</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -702,12 +700,13 @@
 		<Armor_Type> Armor_COVN_Super </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 
-		<Max_Speed>2</Max_Speed>
+		<Max_Speed>1.6</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>2</Bank_Turn_Angle>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
@@ -727,11 +726,11 @@
 		<Required_Planets>Sanghelios, Mars, Song_Of_Victory, Reach, Earth</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>600000</Shield_Points>
-		<Tactical_Health>400000</Tactical_Health>
+		<Shield_Points>500000</Shield_Points>
+		<Tactical_Health>500000</Tactical_Health>
 		<Shield_Refresh_Rate>3000</Shield_Refresh_Rate>
-		<Energy_Capacity>60000</Energy_Capacity>
-		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
+		<Energy_Capacity>100000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -739,7 +738,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>90500</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>20000</AI_Combat_Power>
+		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>395</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -770,7 +769,7 @@
 
 		<Death_Clone>Damage_Normal</Death_Clone>
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25, HP_CAS_26, HP_CAS_LANCE,
@@ -819,7 +818,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> SuperCapital </CategoryMask>
+		<CategoryMask> Capital </CategoryMask>
 		<Icon_Name>I_BUTTON_CAS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
@@ -832,7 +831,7 @@
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1200.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -855,7 +854,7 @@
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Population_Value>96</Population_Value>
+		<Population_Value>80</Population_Value>
 		<Is_Community_Property> Yes </Is_Community_Property>
 		<!--<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -875,12 +874,12 @@
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25, HP_CAS_26, HP_CAS_LANCE,
 		</HardPoints>		
 
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Build_Cost_Credits>92500</Build_Cost_Credits>
+		<Build_Cost_Credits>42500</Build_Cost_Credits>
 		<Build_Time_Seconds>365</Build_Time_Seconds> <!-- was 300 -->
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
@@ -893,64 +892,32 @@
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
 
-		<Max_Speed>2</Max_Speed>
+		<Max_Speed>1.6</Max_Speed>
+		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		
 		<Death_Clone />
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
 		
-			<Unit_Ability>
-				<Type>SUPER_LASER</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>200</Recharge_Seconds>
-				<Expiration_Seconds>2</Expiration_Seconds>
-				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
-				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-
-		</Unit_Abilities_Data>
-
 		<Abilities SubObjectList="Yes">
-
-			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-                <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
-                <Owner_Particle_Bone_Name>HP_HUGEFUCKINGLASER</Owner_Particle_Bone_Name>
-				<Activation_Min_Range>0</Activation_Min_Range>
-	            <Activation_Max_Range>5500</Activation_Max_Range>
-
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>700</Damage_Per_Frame>			
-				<Fire_Frame>30</Fire_Frame>
-				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
-				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
-				<Num_Anim_Frames>0</Num_Anim_Frames>
-				<Line_Width>200</Line_Width>
-				<Line_Color>198 47 224 255</Line_Color>
-				<Face_Target>false</Face_Target>
-				<Turn_Rate>-1.0f</Turn_Rate>
-				<Firing_Cone>360.0f</Firing_Cone>
-            	<Fire_Delay>1</Fire_Delay>
-            	<Fire_Continuation>0.01</Fire_Continuation>
-			</Super_Laser_Ability>
-
-		</Abilities>
 		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-300</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>98500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Population_Value>96</Population_Value>
+		<Population_Value>80</Population_Value>
 		<!--<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -969,8 +936,6 @@
 		<HardPoints> 
 			HP_CSO_HC_01, HP_CSO_HC_02, HP_CSO_HC_03, HP_CSO_HC_04, HP_CSO_HC_05, HP_CSO_HC_06, HP_CSO_HC_07, HP_CSO_HC_08, HP_CSO_HC_09, HP_CSO_HC_10, HP_CSO_01, HP_CSO_02, HP_CSO_03, HP_CSO_04, HP_CSO_05, HP_CSO_06, HP_CSO_07, HP_CSO_08, HP_CSO_09, HP_CSO_10, HP_CSO_11, HP_CSO_12, HP_CSO_13, HP_CSO_14, HP_CSO_15, HP_CSO_16, HP_CSO_17, HP_CSO_18, HP_CSO_19, HP_CSO_20, HP_CSO_21, HP_CSO_22, HP_CSO_23, HP_CSO_24, HP_CSO_25, HP_CSO_26, HP_CSO_LANCE,
 		</HardPoints>
-
-		<Population_Value>170</Population_Value>
 			
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -993,12 +958,14 @@
 		<Space_Model_Name>COVN_CSO.ALO</Space_Model_Name>
 		<Select_Box_Scale>650</Select_Box_Scale>
 		<Scale_Factor>5.5</Scale_Factor>
-		<Max_Speed>2</Max_Speed>
-		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
-		<Layer_Z_Adjust>-1050.0</Layer_Z_Adjust>
-		<AI_Combat_Power>28000</AI_Combat_Power>
+		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
+		<AI_Combat_Power>12000</AI_Combat_Power>
 		<Space_FOW_Reveal_Range>10500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		
 		<Death_Clone />
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -1013,56 +980,14 @@
 		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 222</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 280</Reserve_Spawned_Units_Tech_0>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<Unit_Ability>
-				<Type>SUPER_LASER</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>340</Recharge_Seconds>
-				<Expiration_Seconds>6</Expiration_Seconds>
-				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
-				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
-			</Unit_Ability>
 
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-                <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
-                <Owner_Particle_Bone_Name>HP_HUGEFUCKINGLASER</Owner_Particle_Bone_Name>
-				<Activation_Min_Range>0</Activation_Min_Range>
-	            <Activation_Max_Range>10000</Activation_Max_Range>
-
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>1050</Damage_Per_Frame>			
-				<Fire_Frame>30</Fire_Frame>
-				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
-				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
-				<Num_Anim_Frames>0</Num_Anim_Frames>
-				<Line_Width>200</Line_Width>
-				<Line_Color>198 47 224 255</Line_Color>
-				<Face_Target>false</Face_Target>
-				<Turn_Rate>-1.0f</Turn_Rate>
-				<Firing_Cone>360.0f</Firing_Cone>
-            	<Fire_Delay>1</Fire_Delay>
-            	<Fire_Continuation>0.01</Fire_Continuation>
-			</Super_Laser_Ability>
-
-		</Abilities>
 		<!-- Multiplayer shit, as if they could actually -->
 		
 		<Tactical_Build_Cost_Multiplayer>275000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>420</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Population_Value>150</Population_Value>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	
 	</SpaceUnit>
@@ -1086,5 +1011,61 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
+	
+		<!--	<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name>  GUI Command Bar support 
+				<Recharge_Seconds>200</Recharge_Seconds>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
+				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+
+
+		<Abilities SubObjectList="Yes">
+
+			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>HP_HUGEFUCKINGLASER</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>5500</Activation_Max_Range>
+
+				 Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease"
+				<Damage_Per_Frame>700</Damage_Per_Frame>			
+				<Fire_Frame>30</Fire_Frame>
+				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
+				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
+				<Num_Anim_Frames>0</Num_Anim_Frames>
+				<Line_Width>200</Line_Width>
+				<Line_Color>198 47 224 255</Line_Color>
+				<Face_Target>false</Face_Target>
+				<Turn_Rate>-1.0f</Turn_Rate>
+				<Firing_Cone>360.0f</Firing_Cone>
+            	<Fire_Delay>1</Fire_Delay>
+            	<Fire_Continuation>0.01</Fire_Continuation>
+			</Super_Laser_Ability>
+
+		</Abilities> -->
+		
+		
+		<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3000</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 
 </SpaceUnitsSupers>

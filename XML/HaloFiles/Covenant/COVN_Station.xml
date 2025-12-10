@@ -21,8 +21,8 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Banshee_Squadron,
-				Cerastes_Squadron,
+			<!--	Banshee_Squadron,
+				Cerastes_Squadron,  -->
 				CRS_SQUADRON,
 				SDV_SQUADRON,
 				COVN_ARDO,

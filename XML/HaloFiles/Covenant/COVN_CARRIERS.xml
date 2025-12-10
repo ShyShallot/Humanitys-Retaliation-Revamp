@@ -18,7 +18,7 @@
 		<Select_Box_Scale>550</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.82</Scale_Factor>
+		<Scale_Factor>0.41</Scale_Factor>  <!-- Original was 0.82 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -29,18 +29,20 @@
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius/>
 
-		<Max_Speed>2.9</Max_Speed>
-		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-55.0</Layer_Z_Adjust>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Thrust>0.15</Max_Thrust>
+		<Min_Speed>0.001</Min_Speed>
+		<Max_Lift>0.0</Max_Lift>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .04 </OverrideDeceleration>
 		
-		<Max_Thrust>0.01</Max_Thrust>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -66,7 +68,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>14520</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>18500</AI_Combat_Power>
+		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>260</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -169,10 +171,14 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		 
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Idle_Chase_Range>600.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>900.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>4000.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Begin_Turn_Towards_Distance>2000.0</Begin_Turn_Towards_Distance>
+		<Strafe_Distance>350.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -183,7 +189,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>28</Population_Value>
+		<Population_Value>53</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -224,6 +230,16 @@
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
+		
+				<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-65</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -265,24 +281,26 @@
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius/>
 
-		<Max_Speed>2.9</Max_Speed>
-		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-55.0</Layer_Z_Adjust>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Thrust>0.15</Max_Thrust>
+		<Min_Speed>0.001</Min_Speed>
+		<Max_Lift>0.0</Max_Lift>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .04 </OverrideDeceleration>
 		
-		<Max_Thrust>0.01</Max_Thrust>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -302,7 +320,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>14520</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>18500</AI_Combat_Power>
+		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>260</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -326,7 +344,7 @@
 		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 
 
 		<!-- <HardPoints> 
@@ -405,10 +423,14 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		 
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Idle_Chase_Range>600.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>900.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>4000.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Begin_Turn_Towards_Distance>2000.0</Begin_Turn_Towards_Distance>
+		<Strafe_Distance>350.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -419,7 +441,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>28</Population_Value>
+		<Population_Value>53</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->

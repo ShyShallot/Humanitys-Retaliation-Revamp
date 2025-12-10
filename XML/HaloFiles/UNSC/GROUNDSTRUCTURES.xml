@@ -83,7 +83,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_CAPITAL</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -207,7 +207,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_CAPITAL</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -327,7 +327,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_CAPITAL</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -383,7 +383,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_CAPITAL</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income --> 
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking--> 
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -1827,7 +1827,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -2018,7 +2018,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- Needs Tweaking -->
+				<Percentage_Income_Modifier>0.20</Percentage_Income_Modifier> <!-- Needs Tweaking -->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>50</Absolute_Income_Modifier> <!-- Needs Tweaking -->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->

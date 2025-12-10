@@ -8,16 +8,16 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>20000</Tactical_Health>
+		<Tactical_Health>67500</Tactical_Health>
 		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
-		<!-- Replacement List of Hardpoints 
+		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02, CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, 
 			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06,
 			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08,
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_COMMS
-		</HardPoints> -->
+		</HardPoints> 
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -35,7 +35,6 @@
 				Buckler_Squadron,
 				Gladius_Squadron,
 				Charon_Squadron,
-				
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -112,17 +111,17 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>95000</Tactical_Health>
 		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
-		<!-- Replacement List of Hardpoints 
+		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
 			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
 			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
 			STATION_COMMS
-		</HardPoints> -->
+		</HardPoints> 
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -187,7 +186,7 @@
 			</Income_Stream_Mod_Ability>
  			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
  				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
@@ -222,10 +221,10 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>84000</Tactical_Health>
+		<Tactical_Health>155000</Tactical_Health>
 		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
-		<!-- Replacement List of Hardpoints 
+		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
 			CANNON_M33_13, CANNON_M33_14, CANNON_M33_15, CANNON_M33_16, CANNON_M33_17, CANNON_M33_18, CANNON_M33_19, CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
@@ -235,7 +234,7 @@
 			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, 
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
 			STATION_COMMS
-		</HardPoints> -->
+		</HardPoints> 
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -340,10 +339,10 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>20000</Shield_Points>
-		<Tactical_Health>110000</Tactical_Health>
+		<Tactical_Health>210000</Tactical_Health>
 		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
-		<!-- Replacement List of Hardpoints
+		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
 			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
@@ -355,7 +354,7 @@
 			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
 			STATION_COMMS
-		</HardPoints> -->
+		</HardPoints>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -465,10 +464,10 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>88000</Shield_Points>
-		<Tactical_Health>85000</Tactical_Health>
+		<Tactical_Health>275000</Tactical_Health>
 		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
 
-		<!-- Replacement List of Hardpoints 
+		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
 			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
@@ -482,7 +481,7 @@
 			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20, ARCHER_HP_21, ARCHER_HP_22, ARCHER_HP_23, ARCHER_HP_24, ARCHER_HP_25, ARCHER_HP_26,
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05, STATION_HANGAR_06, STATION_HANGAR_07, STATION_HANGAR_08,
 			STATION_COMMS
-		</HardPoints> -->
+		</HardPoints> 
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>

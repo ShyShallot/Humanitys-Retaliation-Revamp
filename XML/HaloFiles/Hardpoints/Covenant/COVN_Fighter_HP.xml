@@ -12,11 +12,11 @@
             <Fire_Cone_Width>5.0</Fire_Cone_Width>
             <Fire_Cone_Height>5.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Fighter_Plasma_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>12</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>250.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			<!-- <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> -->
 
@@ -36,7 +36,7 @@
         <Fire_Max_Recharge_Seconds>22</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+        <Fire_Range_Distance>200.0</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter , Bomber </Fire_Category_Restrictions>
 		
@@ -72,11 +72,11 @@
             <Fire_Cone_Width>5.0</Fire_Cone_Width>
             <Fire_Cone_Height>5.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Fighter_Plasma_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>250.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			
     </HardPoint>
@@ -91,7 +91,7 @@
             <Fire_Bone_B>ROOT</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>60.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>20.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -120,15 +120,15 @@
         <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+        <Fire_Range_Distance>200.0</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
-        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
-		
+        <Fire_Category_Restrictions> Fighter , Bomber </Fire_Category_Restrictions>
+		 
     </HardPoint>
 
     <HardPoint Name="COVN_CER_02">
 	
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
@@ -136,7 +136,7 @@
             <Fire_Bone_B>AF_01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>60.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_AF</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>30.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -158,11 +158,11 @@
             <Fire_Cone_Width>5.0</Fire_Cone_Width>
             <Fire_Cone_Height>5.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Fighter_Plasma_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.9</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>250.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
 			
     </HardPoint>
@@ -180,10 +180,35 @@
         <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+        <Fire_Range_Distance>200.0</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
-        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter , Bomber </Fire_Category_Restrictions>
     </HardPoint>
+	
+	<!-- CLUSTER TORPEDO EXPERIMENTAL -->
+	
+	 <Hardpoint Name="CLUSTER_TORPEDO">
+	 
+                <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+				<Tooltip_Text>CONV_TORP</Tooltip_Text>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>HP_PLASMA_01</Fire_Bone_A>
+                <Fire_Bone_B>HP_PLASMA_02</Fire_Bone_B>
+               
+                <Fire_Cone_Width>65</Fire_Cone_Width>
+                <Fire_Cone_Height>65</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+				<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+				<Fire_Pulse_Count>1</Fire_Pulse_Count>
+				<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+				<Fire_Range_Distance>900.0</Fire_Range_Distance>
+				<Fire_SFXEvent></Fire_SFXEvent> 
+          
+
+        </Hardpoint>
 	
 	
 </HardPoints>

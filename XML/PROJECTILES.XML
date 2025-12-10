@@ -3620,6 +3620,7 @@
         <Internal_Damage_Type>Damage_Remote_Bomb</Internal_Damage_Type>
         <Scale_Factor>2.0</Scale_Factor>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+
         <Behavior>PROJECTILE, BOMB, REVEAL, DAMAGE_TRACKING, HIDE_WHEN_FOGGED, PROXIMITY_MINE, SELECTABLE</Behavior>
         <Projectile_Category>GRENADE</Projectile_Category>
         <Projectile_Grenade_Sticks_On_Collision>yes</Projectile_Grenade_Sticks_On_Collision>

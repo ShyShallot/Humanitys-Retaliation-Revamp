@@ -59,12 +59,12 @@
 
       <SFXEvent Name="Unit_Corvette_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Corvette_1.wav EXP_Corvette_2.wav</Samples>
+			<Samples>Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH_2</Samples>
     </SFXEvent>
 
    	<SFXEvent Name="Unit_Cruiser_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Cruiser_1.wav EXP_Cruiser_2.wav</Samples>
+			<Samples>Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH_2</Samples>
     </SFXEvent>
 
 
@@ -404,11 +404,6 @@
 			<Samples>Data\Audio\OotF\Deaths\UNSC_MISSILE_DEATH.wav</Samples>      
     </SFXEvent>
 
-	<SFXEvent Name="Unit_UNSC_FIGHTER_Death_SFX">
-			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>Data\Audio\OotF\Voices\UNSC\Fighters\Fighter_Death.wav</Samples>
-			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
 
 	<SFXEvent Name="Unit_UNSC_Flak_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
@@ -416,11 +411,14 @@
 			<Kills_Previous_Object_SFX>No</Kills_Previous_Object_SFX>
     </SFXEvent>
 	
+	<SFXEvent Name="Unit_UNSC_FIGHTER_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH.wav Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH_2.wav</Samples>
+    </SFXEvent>
+	
 	<SFXEvent Name="Unit_UNSC_Frigate_Death">
 		<Use_Preset>Preset_EXP</Use_Preset>
-		<Samples>
-		Data\Audio\OotF\Voices\UNSC\Frigates\Frigate_Death.wav
-		</Samples>
+		<Samples>Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH.wav Data\Audio\OotF\Deaths\UNSC_SHIP_DEATH_2.wav</Samples>
 	</SFXEvent>
 	
 

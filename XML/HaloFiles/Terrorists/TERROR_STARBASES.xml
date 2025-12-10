@@ -136,7 +136,7 @@
 
 
     <StarBase Name="Terrorists_Star_Base_2">
-        <Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
+        <Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
         <Text_ID>TEXT_TERROR_STAR_BASE_2</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_2_ENC</Encyclopedia_Text>
         <Affiliation>Terrorists</Affiliation>
@@ -169,7 +169,7 @@
     </StarBase>
 
     <StarBase Name="Terrorists_Star_Base_3">
-        <Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
+        <Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
         <Text_ID>TEXT_TERROR_STAR_BASE_3</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_3_ENC</Encyclopedia_Text>
         <Prev_Level_Base>Terrorists_Star_Base_2</Prev_Level_Base>

@@ -3,9 +3,9 @@
     <Hardpoint Name="CANNoN_M33_01">        <!-- Armature has M33's as M66 Names but use M33 models-->
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_01.ALO</Model_To_Attach>
@@ -38,9 +38,9 @@
     <Hardpoint Name="CANNoN_M33_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_02.ALO</Model_To_Attach>
@@ -73,9 +73,9 @@
     <Hardpoint Name="CANNoN_M33_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_03.ALO</Model_To_Attach>
@@ -108,9 +108,9 @@
     <Hardpoint Name="CANNoN_M33_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_04.ALO</Model_To_Attach>
@@ -143,9 +143,9 @@
     <Hardpoint Name="CANNoN_M33_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_05.ALO</Model_To_Attach>
@@ -178,9 +178,9 @@
     <Hardpoint Name="CANNoN_M33_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_06.ALO</Model_To_Attach>
@@ -213,9 +213,9 @@
     <Hardpoint Name="CANNoN_M33_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_07.ALO</Model_To_Attach>
@@ -248,9 +248,9 @@
     <Hardpoint Name="CANNoN_M33_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_08.ALO</Model_To_Attach>
@@ -283,9 +283,9 @@
     <Hardpoint Name="CANNoN_M33_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_09.ALO</Model_To_Attach>
@@ -318,9 +318,9 @@
     <Hardpoint Name="CANNoN_M33_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_10.ALO</Model_To_Attach>
@@ -353,9 +353,9 @@
     <Hardpoint Name="CANNoN_M33_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_11.ALO</Model_To_Attach>
@@ -388,9 +388,9 @@
     <Hardpoint Name="CANNoN_M33_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_12.ALO</Model_To_Attach>
@@ -423,9 +423,9 @@
     <Hardpoint Name="CANNoN_M33_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_13.ALO</Model_To_Attach>
@@ -458,9 +458,9 @@
     <Hardpoint Name="CANNoN_M33_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_14.ALO</Model_To_Attach>
@@ -493,9 +493,9 @@
     <Hardpoint Name="CANNoN_M33_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_15.ALO</Model_To_Attach>
@@ -528,9 +528,9 @@
     <Hardpoint Name="CANNoN_M33_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_16.ALO</Model_To_Attach>
@@ -563,9 +563,9 @@
     <Hardpoint Name="CANNoN_M33_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_17.ALO</Model_To_Attach>
@@ -598,9 +598,9 @@
     <Hardpoint Name="CANNoN_M33_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_18.ALO</Model_To_Attach>
@@ -633,9 +633,9 @@
     <Hardpoint Name="CANNoN_M33_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_19.ALO</Model_To_Attach>
@@ -668,9 +668,9 @@
     <Hardpoint Name="CANNoN_M33_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_20.ALO</Model_To_Attach>
@@ -703,9 +703,9 @@
     <Hardpoint Name="CANNoN_M33_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_21.ALO</Model_To_Attach>
@@ -738,9 +738,9 @@
     <Hardpoint Name="CANNoN_M33_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_22.ALO</Model_To_Attach>
@@ -773,9 +773,9 @@
     <Hardpoint Name="CANNoN_M33_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_23.ALO</Model_To_Attach>
@@ -808,9 +808,9 @@
     <Hardpoint Name="CANNoN_M33_24">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_24.ALO</Model_To_Attach>
@@ -843,9 +843,9 @@
     <Hardpoint Name="CANNoN_M33_25">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_25.ALO</Model_To_Attach>
@@ -878,9 +878,9 @@
     <Hardpoint Name="CANNoN_M33_26">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_26.ALO</Model_To_Attach>
@@ -913,9 +913,9 @@
     <Hardpoint Name="CANNoN_M33_27">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_27.ALO</Model_To_Attach>
@@ -948,9 +948,9 @@
     <Hardpoint Name="CANNoN_M33_28">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_28.ALO</Model_To_Attach>
@@ -983,9 +983,9 @@
     <Hardpoint Name="CANNoN_M33_29">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_29.ALO</Model_To_Attach>
@@ -1018,9 +1018,9 @@
     <Hardpoint Name="CANNoN_M33_30">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_30.ALO</Model_To_Attach>
@@ -1053,9 +1053,9 @@
     <Hardpoint Name="CANNoN_M33_31">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_31.ALO</Model_To_Attach>
@@ -1088,9 +1088,9 @@
     <Hardpoint Name="CANNoN_M33_32">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_32.ALO</Model_To_Attach>
@@ -1123,9 +1123,9 @@
     <Hardpoint Name="CANNoN_M33_33">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_33.ALO</Model_To_Attach>
@@ -1158,9 +1158,9 @@
     <Hardpoint Name="CANNoN_M33_34">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_34.ALO</Model_To_Attach>
@@ -1193,9 +1193,9 @@
     <Hardpoint Name="CANNoN_M33_35">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_35.ALO</Model_To_Attach>
@@ -1228,9 +1228,9 @@
     <Hardpoint Name="CANNoN_M33_36">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_36.ALO</Model_To_Attach>
@@ -1263,9 +1263,9 @@
     <Hardpoint Name="CANNoN_M33_37">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_37.ALO</Model_To_Attach>
@@ -1298,9 +1298,9 @@
     <Hardpoint Name="CANNoN_M33_38">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_38.ALO</Model_To_Attach>
@@ -1333,9 +1333,9 @@
     <Hardpoint Name="CANNoN_M66_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_01.ALO</Model_To_Attach>
@@ -1354,13 +1354,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1368,9 +1368,9 @@
     <Hardpoint Name="CANNoN_M66_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_02.ALO</Model_To_Attach>
@@ -1389,13 +1389,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1403,9 +1403,9 @@
     <Hardpoint Name="CANNoN_M66_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_03.ALO</Model_To_Attach>
@@ -1424,13 +1424,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1438,9 +1438,9 @@
     <Hardpoint Name="CANNoN_M66_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_04.ALO</Model_To_Attach>
@@ -1459,13 +1459,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1473,9 +1473,9 @@
     <Hardpoint Name="CANNoN_M66_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_05.ALO</Model_To_Attach>
@@ -1494,13 +1494,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1508,9 +1508,9 @@
     <Hardpoint Name="CANNoN_M66_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_06.ALO</Model_To_Attach>
@@ -1529,12 +1529,12 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>4.6</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3850.0</Fire_Range_Distance>
+        <Fire_Range_Distance>250.0</Fire_Range_Distance>
         <Fire_SFXEvent></Fire_SFXEvent>
         <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
@@ -1543,9 +1543,9 @@
     <Hardpoint Name="CANNoN_M66_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M66_07.ALO</Model_To_Attach>
@@ -1564,13 +1564,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1578,9 +1578,9 @@
     <Hardpoint Name="CANNoN_M66_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_2_M66_08.ALO</Model_To_Attach>
@@ -1599,13 +1599,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1613,9 +1613,9 @@
     <Hardpoint Name="CANNoN_M66_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_09.ALO</Model_To_Attach>
@@ -1634,13 +1634,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1648,9 +1648,9 @@
     <Hardpoint Name="CANNoN_M66_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_10.ALO</Model_To_Attach>
@@ -1669,13 +1669,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1683,9 +1683,9 @@
     <Hardpoint Name="CANNoN_M66_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_11.ALO</Model_To_Attach>
@@ -1704,13 +1704,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1718,9 +1718,9 @@
     <Hardpoint Name="CANNoN_M66_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_12.ALO</Model_To_Attach>
@@ -1739,13 +1739,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1753,9 +1753,9 @@
     <Hardpoint Name="CANNoN_M66_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_13.ALO</Model_To_Attach>
@@ -1774,13 +1774,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1788,9 +1788,9 @@
     <Hardpoint Name="CANNoN_M66_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_14.ALO</Model_To_Attach>
@@ -1809,13 +1809,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1823,9 +1823,9 @@
     <Hardpoint Name="CANNoN_M66_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_15.ALO</Model_To_Attach>
@@ -1844,13 +1844,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1858,9 +1858,9 @@
     <Hardpoint Name="CANNoN_M66_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_16.ALO</Model_To_Attach>
@@ -1879,13 +1879,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions> 
 
     </Hardpoint>
@@ -1893,9 +1893,9 @@
     <Hardpoint Name="CANNoN_M66_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_17.ALO</Model_To_Attach>
@@ -1914,13 +1914,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
       	<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
 
     </Hardpoint>
@@ -1928,9 +1928,9 @@
     <Hardpoint Name="CANNoN_M66_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_18.ALO</Model_To_Attach>
@@ -1949,13 +1949,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
 
     </Hardpoint>
@@ -1963,9 +1963,9 @@
     <Hardpoint Name="CANNoN_M66_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_19.ALO</Model_To_Attach>
@@ -1984,13 +1984,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
@@ -1998,9 +1998,9 @@
     <Hardpoint Name="CANNoN_M66_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_20.ALO</Model_To_Attach>
@@ -2019,13 +2019,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
 
     </Hardpoint>
@@ -2033,9 +2033,9 @@
     <Hardpoint Name="CANNoN_M66_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_21.ALO</Model_To_Attach>
@@ -2054,13 +2054,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
 
     </Hardpoint>
@@ -2068,9 +2068,9 @@
     <Hardpoint Name="CANNoN_M66_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_22.ALO</Model_To_Attach>
@@ -2089,13 +2089,13 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
 
     </Hardpoint>
@@ -2103,9 +2103,9 @@
     <Hardpoint Name="CANNoN_M66_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_23.ALO</Model_To_Attach>
@@ -2124,22 +2124,22 @@
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
-000
+
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_01">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2151,22 +2151,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_02">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2178,22 +2178,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_03">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2205,22 +2205,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_04">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2232,22 +2232,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_05">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2259,22 +2259,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_06">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2286,22 +2286,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_07">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2313,22 +2313,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_08">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2340,22 +2340,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_09">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2367,22 +2367,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_10">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2394,22 +2394,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_11">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2421,22 +2421,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_12">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2448,22 +2448,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_13">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2475,22 +2475,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_14">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2502,22 +2502,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_15">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2529,22 +2529,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_16">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2556,22 +2556,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_17">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2583,22 +2583,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_18">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2610,22 +2610,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_19">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2637,22 +2637,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_20">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2664,22 +2664,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_21">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2691,22 +2691,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_22">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2718,22 +2718,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_23">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2745,22 +2745,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_24">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2772,22 +2772,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_25">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2799,22 +2799,22 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
 
     <Hardpoint Name="ARCHER_HP_26">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>850.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
@@ -2826,13 +2826,13 @@
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart_Cluster</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
         <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>3850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>  
         
     </Hardpoint>
@@ -2840,9 +2840,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_01.ALO</Model_To_Attach>
@@ -2877,9 +2877,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_02.ALO</Model_To_Attach>
@@ -2912,9 +2912,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_03.ALO</Model_To_Attach>
@@ -2947,9 +2947,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_04.ALO</Model_To_Attach>
@@ -2982,9 +2982,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_05.ALO</Model_To_Attach>
@@ -3017,9 +3017,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_06.ALO</Model_To_Attach>
@@ -3052,9 +3052,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_07.ALO</Model_To_Attach>
@@ -3087,9 +3087,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_08.ALO</Model_To_Attach>
@@ -3122,9 +3122,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_09.ALO</Model_To_Attach>
@@ -3157,9 +3157,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_10.ALO</Model_To_Attach>
@@ -3192,9 +3192,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_11.ALO</Model_To_Attach>
@@ -3227,9 +3227,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_12.ALO</Model_To_Attach>
@@ -3262,9 +3262,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_13.ALO</Model_To_Attach>
@@ -3297,9 +3297,9 @@
     <Hardpoint Name="CANNoN_BREAKWATER_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_14.ALO</Model_To_Attach>
@@ -3331,9 +3331,9 @@
 
     <Hardpoint Name="STATION_HANGAR_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
@@ -3347,9 +3347,9 @@
 
     <Hardpoint Name="STATION_HANGAR_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
@@ -3363,9 +3363,9 @@
 
     <Hardpoint Name="STATION_HANGAR_03">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>
@@ -3379,9 +3379,9 @@
 
     <Hardpoint Name="STATION_HANGAR_04">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_04</Attachment_Bone>
@@ -3395,9 +3395,9 @@
 
     <Hardpoint Name="STATION_HANGAR_05">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_05</Attachment_Bone>
@@ -3411,9 +3411,9 @@
 
     <Hardpoint Name="STATION_HANGAR_06">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_06</Attachment_Bone>
@@ -3427,9 +3427,9 @@
 
     <Hardpoint Name="STATION_HANGAR_07">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_07</Attachment_Bone>
@@ -3443,9 +3443,9 @@
 
     <Hardpoint Name="STATION_HANGAR_08">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Health>1200.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>2500.0</Health>
         <Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
         <Attachment_Bone>HP_HANGAR_08</Attachment_Bone>

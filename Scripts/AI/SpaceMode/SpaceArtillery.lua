@@ -59,7 +59,7 @@ function Definitions()
 	}
 	}
 
-	artillery_flee_range = 1000 -- This must be less than the artillery_attack_range for the plan to work
+	artillery_flee_range = 300 -- This must be less than the artillery_attack_range for the plan to work
 	slack_range = 500
 	convenient_space_field_range = 800
 	path_through = "ASTEROID | NEBULA" -- "ASTEROID | NEBULA | ION_FIELD"

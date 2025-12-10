@@ -42,11 +42,11 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>4800000</Shield_Points>
-		<Tactical_Health>3200000</Tactical_Health>
-		<Shield_Refresh_Rate>48000</Shield_Refresh_Rate>
+		<Shield_Points>48000</Shield_Points>
+		<Tactical_Health>32000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000000</Energy_Capacity>
-		<Energy_Refresh_Rate>24000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -178,11 +178,11 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>1250</Autoresolve_Health>
 		<Damage>45</Damage>
-		<Shield_Points>6000000</Shield_Points>
-		<Tactical_Health>4000000</Tactical_Health>
-		<Shield_Refresh_Rate>48000</Shield_Refresh_Rate>
+		<Shield_Points>60000</Shield_Points>
+		<Tactical_Health>40000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000000</Energy_Capacity>
-		<Energy_Refresh_Rate>24000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -322,11 +322,11 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>1750</Autoresolve_Health>
 		<Damage>55</Damage>
-		<Shield_Points>12000000</Shield_Points>
-		<Tactical_Health>8000000</Tactical_Health>
-		<Shield_Refresh_Rate>48000</Shield_Refresh_Rate>
+		<Shield_Points>120000</Shield_Points>
+		<Tactical_Health>80000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000000</Energy_Capacity>
-		<Energy_Refresh_Rate>24000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -466,11 +466,11 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>2250</Autoresolve_Health>
 		<Damage>65</Damage>
-		<Shield_Points>15000000</Shield_Points>
-		<Tactical_Health>10000000</Tactical_Health>
-		<Shield_Refresh_Rate>48000</Shield_Refresh_Rate>
+		<Shield_Points>150000</Shield_Points>
+		<Tactical_Health>100000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000000</Energy_Capacity>
-		<Energy_Refresh_Rate>24000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -606,11 +606,11 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>2750</Autoresolve_Health>
 		<Damage>75</Damage>
-		<Shield_Points>30000000</Shield_Points>
-		<Tactical_Health>20000000</Tactical_Health>
-		<Shield_Refresh_Rate>48000</Shield_Refresh_Rate>
+		<Shield_Points>300000</Shield_Points>
+		<Tactical_Health>200000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000000</Energy_Capacity>
-		<Energy_Refresh_Rate>24000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -628,8 +628,8 @@
 		<Starting_Spawned_Units_Tech_0>COVN_SDV, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>COVN_SDV, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>COVN_CAR, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>COVN_CAR, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<!-- <Starting_Spawned_Units_Tech_0>COVN_CAR, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>COVN_CAR, 1</Reserve_Spawned_Units_Tech_0> --> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>COVN_CRS, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>COVN_CRS, 0</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -969,7 +969,7 @@
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
 		<Shield_Points>300</Shield_Points>
-		<Tactical_Health>16000</Tactical_Health>
+		<Tactical_Health>65000</Tactical_Health>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -1096,7 +1096,7 @@
 		<Autoresolve_Health>1250</Autoresolve_Health>
 		<Damage>45</Damage>
 		<Shield_Points>750</Shield_Points>
-		<Tactical_Health>22000</Tactical_Health>
+		<Tactical_Health>92500</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -1112,7 +1112,7 @@
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron,16</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 6</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 12</Starting_Spawned_Units_Tech_1>	
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
@@ -1242,7 +1242,7 @@
 		<Autoresolve_Health>40000</Autoresolve_Health>
 		<Damage>55</Damage>
 		<Shield_Points>20000</Shield_Points>
-		<Tactical_Health>40000</Tactical_Health>
+		<Tactical_Health>152500</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>60000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -1399,7 +1399,7 @@
 		<Autoresolve_Health>2250</Autoresolve_Health>
 		<Damage>65</Damage>
 		<Shield_Points>45000</Shield_Points>
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>207500</Tactical_Health>
 		<Shield_Refresh_Rate>160</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -1419,9 +1419,9 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_1> 
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 6</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 2</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 2</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 16</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 12</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 3</Starting_Spawned_Units_Tech_1>	
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
@@ -1564,7 +1564,7 @@
 		<Autoresolve_Health>2750</Autoresolve_Health>
 		<Damage>75</Damage>
 		<Shield_Points>140000</Shield_Points>
-		<Tactical_Health>70000</Tactical_Health>
+		<Tactical_Health>272500</Tactical_Health>
 		<Shield_Refresh_Rate>160</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -1584,14 +1584,14 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 10</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_1> 
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 6</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 2</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 20</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 12</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 3</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_2>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_2> 
 		<Starting_Spawned_Units_Tech_2>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_2>		
-		<Starting_Spawned_Units_Tech_2>UNSC_STALWART, 6</Starting_Spawned_Units_Tech_2>	
-		<Starting_Spawned_Units_Tech_2>UNSC_PARIS, 2</Starting_Spawned_Units_Tech_2>	
-		<Starting_Spawned_Units_Tech_2>UNSC_HALCYON, 2</Starting_Spawned_Units_Tech_2>			
+		<Starting_Spawned_Units_Tech_2>UNSC_STALWART, 22</Starting_Spawned_Units_Tech_2>	
+		<Starting_Spawned_Units_Tech_2>UNSC_PARIS, 18</Starting_Spawned_Units_Tech_2>	
+		<Starting_Spawned_Units_Tech_2>UNSC_HALCYON, 4</Starting_Spawned_Units_Tech_2>			
 		<Starting_Spawned_Units_Tech_2>UNSC_MARATHON, 2</Starting_Spawned_Units_Tech_2>
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>

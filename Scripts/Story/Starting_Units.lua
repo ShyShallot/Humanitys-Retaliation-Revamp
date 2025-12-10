@@ -7,29 +7,29 @@ Starting_Units_Handler = {
             UNSC = {
                 Station = {
                     Default = {
-                        Power = 8000,
+                        Power = 10000,
                         Structures = {"UNSC_CAMP"},
-                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Low = {
-                        Power = 18000,
+                        Power = 15000,
                         Structures = {"UNSC_CAMP"},
-                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Medium = {
                         Power = 45000,
                         Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS"},
-                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     High = {
                         Power = 45000,
                         Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
-                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 45000,
                         Structures = {"UNSC_FORT", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
-                        Units = {"PELICAN_SQUADRON", "SHORTSWORD_SQUADRON", "LATE_LONGSWORD_SQUADRON", "BASELARD_SQUADRON", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     }
                 },
                 Heroes = {
@@ -56,15 +56,15 @@ Starting_Units_Handler = {
                     Medium = {
                         Power = 60000,
                         Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS"},
-                        Units = {"COVN_RCS"}
+                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
                     },
                     High = {
-                        Power = 20500,
+                        Power = 120500,
                         Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
                         Units = {"COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     },
                     Ultra = {
-                        Power = 85000,
+                        Power = 185000,
                         Structures = {"COVN_FORT", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
                         Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     }
@@ -105,19 +105,19 @@ Starting_Units_Handler = {
             Terror = {
                 Station = {
                     Default = {
-                        Power = 1000,
+                        Power = 9000,
                         Structures = {},
                         Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron"}
                     },
                     Low = {
-                        Power = 3500,
+                        Power = 15000,
                         Structures = {},
                         Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS"}
                     },
                     Medium = {
-                        Power = 10000,
+                        Power = 25000,
                         Structures = {},
-                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS", "TERROR_CHARON", "TERROR_STALWART"}
+                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS", "TERROR_PHOENIX"}
                     }
                 },
                 Planets = {},

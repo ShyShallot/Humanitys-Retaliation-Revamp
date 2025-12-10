@@ -8,7 +8,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_SERAPH </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_SERAPH_2.alo</Space_Model_Name>
-		<Scale_Factor>0.22</Scale_Factor>
+		<Scale_Factor>0.11</Scale_Factor>  <!-- Original was 0.22 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -20,7 +20,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>5.2</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.6</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -61,11 +61,12 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			COVN_SER_01,COVN_SER_02
 		</HardPoints>
@@ -90,7 +91,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving>
+		<!-- <SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving> -->
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -111,7 +112,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -148,7 +149,7 @@
 			</Sensor_Jamming_Ability>
 		</Abilities>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
 	<Squadron Name="Seraph_Squadron">
@@ -176,7 +177,7 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Seraph, Seraph, Seraph, Seraph, Seraph, Seraph</Squadron_Units>
+		<Squadron_Units>Seraph, Seraph</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -259,9 +260,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -273,7 +274,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_TARASQUE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_TARASQUE.alo</Space_Model_Name>
-		<Scale_Factor>0.09</Scale_Factor>
+		<Scale_Factor>0.04</Scale_Factor> <!-- Original was 0.09 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -285,7 +286,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>5.8</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -326,7 +327,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
 
@@ -379,7 +380,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving>
+		<!-- <SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving> -->
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -400,7 +401,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -410,7 +411,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
 	<Squadron Name="Tarasque_Squadron">
@@ -438,7 +439,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Tarasque, Tarasque, Tarasque, Tarasque</Squadron_Units>
+		<Squadron_Units>Tarasque, Tarasque</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -520,9 +521,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -533,7 +534,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_CERASTES </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_CERASTES.alo</Space_Model_Name>
-		<Scale_Factor>0.18</Scale_Factor>
+		<Scale_Factor>0.09</Scale_Factor>  <!-- Original was 0.18 -->
 		<Select_Box_Scale>15</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -544,7 +545,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>5.8</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -582,7 +583,7 @@
 		<Damage>5</Damage>
 		
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
 
@@ -611,7 +612,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving>
+		<!-- <SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving> -->
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -632,7 +633,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -643,7 +644,7 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
 	<Squadron Name="Cerastes_Squadron">
@@ -671,7 +672,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Cerastes, Cerastes, Cerastes, Cerastes</Squadron_Units>
+		<Squadron_Units>Cerastes, Cerastes</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -729,9 +730,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -742,7 +743,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_BANSHEE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>COVN_BANSHEE.alo</Space_Model_Name>
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.18</Scale_Factor>  <!-- Original was 0.37 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -754,7 +755,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>6.2</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.7</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -795,7 +796,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
 
@@ -825,7 +826,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving>
+		<!-- <SFXEvent_Ambient_Moving> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Ambient_Moving> -->
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Fighter_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -846,7 +847,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -867,10 +868,11 @@
 
 		</Abilities>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
 	<Squadron Name="Banshee_Squadron">
+	
 		<Text_ID>TEXT_UNIT_COVN_BANSHEE_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_COVN_BANSHEE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
@@ -895,7 +897,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Banshee, Banshee, Banshee, Banshee, Banshee, Banshee</Squadron_Units>
+		<Squadron_Units>Banshee, Banshee, Banshee</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -925,7 +927,7 @@
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -942,19 +944,9 @@
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
-		<Create_Team_Type>Banshee_Squadron_Container </Create_Team_Type>
+		<Create_Team_Type> Banshee_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-		 
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-		</Abilities>
-		
-		
+	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>90</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
@@ -963,10 +955,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		
 	</Squadron>
-	
 
 </FighterUnits>

@@ -434,7 +434,7 @@
 	  <Max_Pitch>155</Max_Pitch>
 </SFXEvent>
 
-<!-- 	
+
 
  <SFXEvent Name="Preset_GUNS">
 	  <Is_Preset> Yes </Is_Preset>
@@ -462,7 +462,6 @@
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent> 
 
-  -->
 
 
 
@@ -547,7 +546,7 @@
 			<Max_Pitch>115</Max_Pitch>
 			<Min_Volume>100</Min_Volume>
 			<Max_Volume>100</Max_Volume>
-			<Volume_Saturation_Distance>250.0</Volume_Saturation_Distance>
+			<Volume_Saturation_Distance>1250.0</Volume_Saturation_Distance>
 	 </SFXEvent>
 
 

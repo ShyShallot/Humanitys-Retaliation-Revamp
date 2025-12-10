@@ -311,6 +311,9 @@ local unit_table = {
     TERROR_HALCYON = {
         Category = "Capital"
     },
+	TERROR_PHOENIX = {
+        Category = "Capital"
+    },
     TERROR_SHORTSWORD_Squadron = {
         Category = "Fighter"
     },

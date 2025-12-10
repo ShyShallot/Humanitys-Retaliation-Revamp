@@ -14,13 +14,13 @@
 			<Fire_Bone_A>HP_AF_01</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_01</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>45.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>75</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>300.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
             
@@ -40,13 +40,13 @@
 			<Fire_Bone_A>HP_AF_02</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_02</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>45.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>75</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>300.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
             
@@ -66,13 +66,13 @@
 			<Fire_Bone_A>HP_AF_03</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_03</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>45.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>75</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>300.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
             
@@ -92,13 +92,13 @@
 			<Fire_Bone_A>HP_AF_04</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_04</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>45.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>75</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>300.0</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
             
@@ -113,18 +113,18 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
-            <Attachment_Bone>HP_AF_05</Attachment_Bone>
+			<Attachment_Bone>HP_AF_05</Attachment_Bone>
             <Collision_Mesh>HP_AF_05</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_05</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_05</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_LIGHT_ARTY</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>19.75</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>37.75</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1550.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1850.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
 
@@ -136,18 +136,18 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
-            <Attachment_Bone>HP_AF_06</Attachment_Bone>
+			<Attachment_Bone>HP_AF_06</Attachment_Bone>
             <Collision_Mesh>HP_AF_06</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_06</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_06</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_LIGHT_ARTY</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>19.75</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>37.75</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1550.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1850.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Super </Fire_Category_Restrictions>
 
@@ -165,13 +165,13 @@
 			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>3000</Fire_Range_Distance>
+            <Fire_Range_Distance>875.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
              <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 			
@@ -194,13 +194,13 @@
             <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
 			
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>3000</Fire_Range_Distance>
+            <Fire_Range_Distance>875.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
              <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 			
@@ -221,13 +221,13 @@
 			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>3000</Fire_Range_Distance>
+            <Fire_Range_Distance>875.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
              <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 			
@@ -248,13 +248,13 @@
 			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
 			<Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>3000</Fire_Range_Distance>
+            <Fire_Range_Distance>875.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
              <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 			

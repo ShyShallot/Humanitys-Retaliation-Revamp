@@ -8,7 +8,7 @@
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor> <!-- Original was 1.5 -->
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
@@ -22,17 +22,17 @@
 		
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.75</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		<Damage_Type> Damage_UNSC_Corvette</Damage_Type>
 		<Armor_Type> Armor_UNSC_Corvette </Armor_Type>
@@ -64,7 +64,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>525</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1250</AI_Combat_Power>
+		
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -175,6 +175,15 @@
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
@@ -194,7 +203,7 @@
 		<xxxSpace_Model_Name>UNSC_Gladius.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
-		<Scale_Factor>0.76</Scale_Factor>
+		<Scale_Factor>0.76</Scale_Factor> 
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -243,7 +252,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_GLADIUS</Squadron_Units>
+		<Squadron_Units>UNSC_GLADIUS, UNSC_GLADIUS, UNSC_GLADIUS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -260,6 +269,16 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>435</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
@@ -268,9 +287,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1000</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 	
@@ -285,23 +304,23 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.8</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor> <!-- Original was 0.8 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.3</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -338,7 +357,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>2050</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>3000</AI_Combat_Power>
+
 		<Build_Time_Seconds>27</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -446,6 +465,15 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data> -->
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
@@ -458,7 +486,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>12</Population_Value>
+		<Population_Value>6</Population_Value>
 	</SpaceUnit>
 	
 	<Squadron Name="HALBERD_SQUADRON">
@@ -496,7 +524,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_HALBERD</Squadron_Units>
+		<Squadron_Units>UNSC_HALBERD, UNSC_HALBERD, UNSC_HALBERD</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -513,6 +541,15 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1375</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
@@ -521,9 +558,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>4</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1950</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 
@@ -536,24 +573,24 @@
 		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
-		<Scale_Factor>0.12</Scale_Factor>
+		<Scale_Factor>0.06</Scale_Factor>  <!-- Original was 0.12 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -590,7 +627,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>750</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>750</AI_Combat_Power>
+
 		<Build_Time_Seconds>7</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -744,6 +781,15 @@
 
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>255</Tactical_Build_Cost_Multiplayer>
@@ -794,7 +840,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_MAKO</Squadron_Units>
+		<Squadron_Units>UNSC_MAKO, UNSC_MAKO, UNSC_MAKO</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -819,9 +865,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1000</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 
@@ -836,23 +882,23 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.8</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor> <!-- Original was 0.8 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.3</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		
 		<Hyperspace>Yes</Hyperspace>
@@ -890,7 +936,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1550</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>5000</AI_Combat_Power>
+
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -1036,23 +1082,23 @@
 		<Select_Box_Scale>165</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor> <!-- Original was 0.9 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>     
+		<Max_Speed>2.6</Max_Speed>     
 		<Max_Thrust>0.1</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		
 		<Hyperspace>Yes</Hyperspace>
@@ -1088,7 +1134,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>5500</AI_Combat_Power>
+
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE </Behavior>
@@ -1196,6 +1242,15 @@
 
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-4</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
@@ -1205,7 +1260,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
 	</SpaceUnit>
 
@@ -1218,23 +1273,23 @@
 		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.95</Scale_Factor>
+		<Scale_Factor>0.47</Scale_Factor>  <!-- Original was 0.95 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.5</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		
 		<Hyperspace>Yes</Hyperspace>
@@ -1272,7 +1327,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1900</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2500</AI_Combat_Power>
+
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -1294,8 +1349,7 @@
 			UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02, UNSC_PARIS_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> 
+		 
 
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
@@ -1358,7 +1412,7 @@
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Idle_Chase_Range>3500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -1387,6 +1441,15 @@
 		
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
@@ -1396,7 +1459,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
+		<Population_Value>6</Population_Value>
 
 	</SpaceUnit>
 	
@@ -1437,7 +1500,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_PARIS</Squadron_Units>
+		<Squadron_Units>UNSC_PARIS, UNSC_PARIS, UNSC_PARIS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -1454,6 +1517,15 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
@@ -1462,9 +1534,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>3250</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 	
@@ -1478,23 +1550,23 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor> <!-- Original was 1 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.5</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -1537,12 +1609,12 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1750</AI_Combat_Power>
+
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1559,9 +1631,7 @@
 			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_FLAK_03, UNSC_STALWART_FLAK_04, UNSC_STALWART_FLAK_05, UNSC_STALWART_FLAK_06, UNSC_STALWART_AP_01, UNSC_STALWART_AP_02 UNSC_STALWART_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
-		
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+	
 		
 
 		<CategoryMask> Frigate </CategoryMask>
@@ -1639,7 +1709,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
@@ -1647,6 +1717,15 @@
 		
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
@@ -1656,7 +1735,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>4</Population_Value>
+		<Population_Value>6</Population_Value>
 
 	</SpaceUnit>
 	
@@ -1695,7 +1774,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_STALWART</Squadron_Units>
+		<Squadron_Units>UNSC_STALWART, UNSC_STALWART, UNSC_STALWART</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -1712,6 +1791,15 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
@@ -1720,9 +1808,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>2250</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 	
@@ -1736,23 +1824,23 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor> <!-- Original was 1 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -1795,7 +1883,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1100</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1750</AI_Combat_Power>
+
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -1820,8 +1908,7 @@
 			UNSC_CHARON_AP_07, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+	
 		
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
@@ -1899,7 +1986,7 @@
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		
@@ -1907,6 +1994,15 @@
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer>
@@ -1916,7 +2012,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 
 	</SpaceUnit>
 	
@@ -1954,7 +2050,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_CHARON</Squadron_Units>
+		<Squadron_Units>UNSC_CHARON, UNSC_CHARON, UNSC_CHARON</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -1971,6 +2067,15 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>475</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
@@ -1979,9 +2084,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1250</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 	
@@ -1994,23 +2099,23 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.75 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.8</Max_Speed>
-		<Max_Thrust>0.4</Max_Thrust>
-		<Max_Lift>0.2</Max_Lift>
+		<Max_Speed>2.6</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideAcceleration> .001 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -2054,7 +2159,7 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1750</AI_Combat_Power>
+
 		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
@@ -2150,7 +2255,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
@@ -2158,6 +2263,15 @@
 		
 		
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
@@ -2167,7 +2281,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
+		<Population_Value>6</Population_Value>
 
 	</SpaceUnit>
 	
@@ -2206,7 +2320,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_Buckler</Squadron_Units>
+		<Squadron_Units>UNSC_Buckler, UNSC_Buckler, UNSC_Buckler</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -2223,6 +2337,15 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
@@ -2231,9 +2354,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1000</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron>
 

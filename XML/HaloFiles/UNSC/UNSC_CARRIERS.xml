@@ -8,7 +8,7 @@
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>0.9</Scale_Factor>  <!-- Original was 1.8 -->
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -20,22 +20,31 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Thrust>0.2</Max_Thrust>
-		<Min_Speed>0.1</Min_Speed>
-		
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
-		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>25</Bank_Turn_Angle>
-		<OverrideAcceleration> .04 </OverrideAcceleration>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Min_Speed>0.001</Min_Speed>
+		<Max_Lift>0.0</Max_Lift>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
+		<OverrideAcceleration> .005 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
+		
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 
-		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
-		<Armor_Type> Armor_UNSC_Capital </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Damage_Type> Damage_UNSC_Super</Damage_Type>
+		<Armor_Type> Armor_UNSC_Super </Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Super</Shield_Armor_Type>
+		
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.45</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Death_Clone>Damage_Normal</Death_Clone>
 		
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>500</Select_Box_Scale>
@@ -63,7 +72,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2450</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>3500</AI_Combat_Power>
+		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -71,7 +80,7 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>850.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -82,18 +91,27 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		
 		<HardPoints>
-			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04 
+			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, HP_MUSASHI_REACTOR 
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 4</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_1>
+
+		<Starting_Spawned_Units_Tech_3>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Saber, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Late_Longsword_Squadron, 4</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_3>
+		
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_1>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Longsword_Squadron, 6</Reserve_Spawned_Units_Tech_1>
+
+		<Reserve_Spawned_Units_Tech_3>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Late_Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_3>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -157,7 +175,7 @@
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_MUSASHI.tga</Radar_Icon_Name>
 		
-		<Unit_Abilities_Data SubObjectList="Yes">
+
 			<!-- Primary ability -->
 		<!--	<Unit_Ability>
 				<Type>TURBO</Type>
@@ -185,9 +203,45 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
 			
+			
+			<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+				<Type>DEFEND</Type>        
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>   
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.75f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>           
+				<Expiration_Seconds>-1</Expiration_Seconds>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>power_to_weapons</Type>
+				<Expiration_Seconds>-1</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Recharge_Seconds>1</Recharge_Seconds>
+
+				
+			</Unit_Ability>
+		
 		</Unit_Abilities_Data>
+			
 		
 		<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-25</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>1300.0</Heal_Range>
@@ -197,7 +251,7 @@
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Transport, Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT, B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
@@ -220,7 +274,7 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
@@ -235,10 +289,10 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>14</Population_Value>
+		<Population_Value>33</Population_Value>
 	</SpaceUnit>
 	
-	<SpaceUnit Name="UNSC_MUSASHI_2">
+	<!-- <SpaceUnit Name="UNSC_MUSASHI_2">
 		<Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNSC_MUSASHI_2</Text_ID>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -247,7 +301,7 @@
 		<Tech_Level>3</Tech_Level>
 		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-	</SpaceUnit>
+	</SpaceUnit> -->
 
 	<SpaceUnit Name="UNSC_POSEIDON">
 		<Text_ID>TEXT_UNIT_UNSC_POSEIDON</Text_ID>
@@ -258,7 +312,7 @@
 		<Space_Model_Name>UNSC_POSEIDON.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor> <!-- Original was 1.2 -->
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -269,7 +323,7 @@
 		<Energy_Refresh_Rate>250</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>3.5</Max_Speed>
+		<Max_Speed>2.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -310,7 +364,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>850</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1750</AI_Combat_Power>
+		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -318,7 +372,7 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SHIELDED, TARGETING, REVEAL, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -333,7 +387,7 @@
 			<!--HP_POSEIDON_REACTOR,--> UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Saber, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
@@ -427,6 +481,14 @@
 		
 
 		<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-15</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>650.0</Heal_Range>
@@ -436,7 +498,7 @@
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Transport, Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>ROOT, B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
@@ -459,7 +521,7 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
@@ -474,10 +536,10 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
-	</SpaceUnit>
+		<Population_Value>8</Population_Value>
+	<!--</SpaceUnit>
 
-	<SpaceUnit Name="UNSC_POSEIDON_2">
+	 <SpaceUnit Name="UNSC_POSEIDON_2">
 		<Variant_Of_Existing_Type>UNSC_POSEIDON</Variant_Of_Existing_Type>
 		<Tech_Level>3</Tech_Level>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -485,5 +547,6 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+	</SpaceUnit> -->
 	</SpaceUnit>
 </CarrierUnits>

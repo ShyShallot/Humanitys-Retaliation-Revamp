@@ -20,7 +20,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>5.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.2</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -38,7 +38,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>750</Tactical_Health>
+		<Tactical_Health>350</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -60,7 +60,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -108,9 +108,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>110</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -125,13 +125,13 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -159,14 +159,14 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword, Late_Longsword</Squadron_Units>
+		<Squadron_Units>Late_Longsword, Late_Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>10.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
@@ -220,9 +220,95 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>200</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Squadron>
+	
+	<Squadron Name="Late_Longsword_Squadron_Paris">
+		<Text_ID>TEXT_UNIT_UNSC_LATE_LONGSWORD_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LATE_LONGSWORD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>125</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>400</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units> Late_Longsword, Late_Longsword </Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>10.0,10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
+        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		<Icon_Name>I_BUTTON_C712.TGA</Icon_Name>
+		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>GUI_Build_Unit_SFX</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Fighter_Wing_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
+		
+		<FormationOrder>3</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Property_Flags> SmallShip </Property_Flags>
+		
+		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
+     	<Max_Squad_Size> 6 </Max_Squad_Size>
+		
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>125</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 
 
@@ -233,7 +319,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Longsword.alo</Space_Model_Name>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.75 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -245,7 +331,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -263,7 +349,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1750</Tactical_Health>
+		<Tactical_Health>650</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -285,7 +371,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 		
@@ -333,9 +419,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>110</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -350,13 +436,13 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -411,12 +497,12 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Longsword_Shiva, Longsword, Longsword, Longsword_Shiva, Longsword, Longsword</Squadron_Units>
+		<Squadron_Units>Longsword_Shiva, Longsword, Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -496,9 +582,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>350</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 
 	<Squadron Name="Longsword_Far_Isle_Squadron">
@@ -541,7 +627,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SHORTSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Shortsword.alo</Space_Model_Name>
-		<Scale_Factor>0.45</Scale_Factor>
+		<Scale_Factor>0.24</Scale_Factor> <!-- Original was 0.45 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -554,7 +640,7 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -641,9 +727,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>110</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -651,7 +737,7 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
@@ -663,7 +749,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		
 		
 
@@ -720,13 +806,13 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level/>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Orbiting_Units>UNSC_PHOENIX</Required_Orbiting_Units>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Shortsword, Shortsword, Shortsword_Disable, Shortsword, Shortsword, Shortsword_Disable</Squadron_Units>
+		<Squadron_Units>Shortsword, Shortsword, Shortsword_Disable</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -806,9 +892,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>5</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -821,7 +907,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BROADSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRIKE_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BROAD.alo</Space_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor> <!-- Original was 1.5 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -834,7 +920,7 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -925,7 +1011,7 @@
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -933,7 +1019,7 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
@@ -973,7 +1059,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
@@ -1004,7 +1090,7 @@
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Broadsword, Broadsword, Broadsword, Broadsword, Broadsword, Broadsword</Squadron_Units>
+		<Squadron_Units>Broadsword, Broadsword, Broadsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1087,9 +1173,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>250</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1101,7 +1187,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BASELARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BASELARD_2.alo</Space_Model_Name>
-		<Scale_Factor>1.10</Scale_Factor>
+		<Scale_Factor>0.55</Scale_Factor> <!-- Original was 1.1 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1115,7 +1201,7 @@
 		
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>5.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1203,9 +1289,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>95</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1213,7 +1299,7 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
@@ -1256,7 +1342,7 @@
             </Stealth_Ability>
         </Abilities>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -1282,12 +1368,12 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Baselard, Baselard, Baselard, Baselard, Baselard, Baselard</Squadron_Units>
+		<Squadron_Units>Baselard, Baselard, Baselard</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1372,9 +1458,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>50</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		
 	</Squadron>
 	
@@ -1387,7 +1473,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SABRE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SABRE.alo</Space_Model_Name>
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.75 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1399,7 +1485,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>5.2</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1440,7 +1526,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -1488,9 +1574,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>60</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1498,7 +1584,7 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
@@ -1537,7 +1623,7 @@
 			
 		</Unit_Abilities_Data>
 
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
@@ -1564,13 +1650,13 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Reach,Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Sabre, Sabre, Sabre, Sabre, Sabre, Sabre</Squadron_Units>
+		<Squadron_Units>Sabre, Sabre, Sabre</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1652,9 +1738,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>200</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1667,7 +1753,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_PELICAN.alo</Space_Model_Name>
-		<Scale_Factor>0.40</Scale_Factor>
+		<Scale_Factor>0.2</Scale_Factor> <!-- Original was 0.4 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -1679,7 +1765,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1719,7 +1805,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -1769,9 +1855,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>110</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -1786,13 +1872,13 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -1820,12 +1906,12 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Pelican, Pelican, Pelican, Pelican, Pelican, Pelican</Squadron_Units>
+		<Squadron_Units>Pelican, Pelican</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1881,9 +1967,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>150</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1898,7 +1984,7 @@
 		<Encyclopedia_Good_Against> COVN_CRS COVN_RCS Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_D80_Condor.alo</Space_Model_Name>
-		<Scale_Factor>0.25</Scale_Factor>
+		<Scale_Factor>0.15</Scale_Factor>  <!-- Original was 0.3 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -1910,7 +1996,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.8</Max_Speed>
+		<Max_Speed>2.2</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1950,7 +2036,7 @@
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
@@ -2000,9 +2086,9 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>110</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -2017,13 +2103,13 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -2056,7 +2142,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>D80-Condor, D80-Condor, D80-Condor, D80-Condor, D80-Condor, D80-Condor</Squadron_Units>
+		<Squadron_Units>D80-Condor, D80-Condor</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -2112,9 +2198,9 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>1</Population_Value>
+		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>200</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
 	
 
