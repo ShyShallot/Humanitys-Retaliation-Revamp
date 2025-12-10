@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"						
-		,"UNSC_PARIS | COVIE_CRS = 1,2"
+		,"UNSC_PARIS | COVN_CRS = 1,2"
 	},
 	{
 		"EscortForce"		
