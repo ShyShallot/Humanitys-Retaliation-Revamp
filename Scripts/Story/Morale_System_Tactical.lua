@@ -51,6 +51,8 @@ function Morale_Tactical_Init(message)
 
         if Get_Game_Mode() == "Land" then
             Morale_Structure = Morale_Structure_Entry.Land
+            ScriptExit()
+            return
         end
 
         if Morale_Structure == nil then
