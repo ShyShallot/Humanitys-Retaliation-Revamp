@@ -161,14 +161,26 @@ end
 function Find_Human_Player()
     empire = Find_Player("EMPIRE")
     rebels = Find_Player("REBEL")
+    terror = Find_Player("Terrorists")
+    swords = Find_Player("Swords")
 
-    if empire.Is_Human() and (not rebels.Is_Human()) then
-        DebugMessage("%s -- Human player is Empire", tostring(Script))
+    if empire.Is_Human() then
         return empire
-    elseif rebels.Is_Human() and (not empire.Is_Human()) then
-        DebugMessage("%s -- Human player is Rebel", tostring(Script))
+    end
+
+    if rebels.Is_Human() then
         return rebels
     end
+
+    if terror.Is_Human()
+        return terror
+    end
+
+    if swords.Is_Human()
+        return swords
+    end
+
+    return nil
 end
 
 function PrintTable(array)
