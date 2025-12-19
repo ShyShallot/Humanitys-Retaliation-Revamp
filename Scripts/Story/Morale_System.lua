@@ -901,8 +901,18 @@ function Modify_Planet_Morale(planet, amount)
 
         if StringCompare(player.Get_Faction_Name(), "Rebel") then
             new_faction = Find_Player("TERRORISTS")
-        else
+        end
+
+        if StringCompare(player.Get_Faction_Name(), "Empire") then
             new_faction = Find_Player("Swords")
+        end
+
+        if StringCompare(player.Get_Faction_Name(), "Swords") then
+            new_faction = Find_Player("Empire")
+        end
+
+        if StringCompare(player.Get_Faction_Name(), "Terrorists") then
+            new_faction = Find_Player("Rebel")
         end
 
         if TestValid(new_faction) then
