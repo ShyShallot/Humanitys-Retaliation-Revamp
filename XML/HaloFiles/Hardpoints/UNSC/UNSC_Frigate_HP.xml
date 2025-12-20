@@ -14,14 +14,14 @@
 		<Fire_Bone_B>FB_HAL_ARCHER_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
     </HardPoint>
@@ -38,14 +38,14 @@
 		<Fire_Bone_B>FB_HAL_ARCHER_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
     </HardPoint>
@@ -62,12 +62,12 @@
 		<Fire_Bone_B>FB_HAL_ARCHER_03</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 
@@ -86,12 +86,12 @@
 		<Fire_Bone_B>FB_HAL_ARCHER_04</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -121,11 +121,11 @@
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -153,11 +153,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -185,11 +185,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -217,11 +217,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -249,11 +249,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -281,11 +281,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -303,11 +303,11 @@
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>40.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>80.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -327,11 +327,11 @@
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>40.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>80.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -381,11 +381,11 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>80.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>90.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -405,12 +405,12 @@
 		<Fire_Bone_B>FB_IROQ_ARCHER_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -429,13 +429,13 @@
 		<Fire_Bone_B>FB_IROQ_ARCHER_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
 		<Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>70</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -454,13 +454,13 @@
 		<Fire_Bone_B>FB_IROQ_ARCHER_03</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
 		<Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>70</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -479,12 +479,12 @@
 		<Fire_Bone_B>FB_IROQ_ARCHER_04</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -513,11 +513,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -546,11 +546,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -579,11 +579,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -612,11 +612,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -645,11 +645,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -678,11 +678,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 		
@@ -732,12 +732,12 @@
         <Fire_Bone_B>HP_M910_01</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -755,12 +755,12 @@
         <Fire_Bone_B>HP_M910_02</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -777,12 +777,12 @@
         <Fire_Bone_B>HP_M910_03</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -799,12 +799,12 @@
         <Fire_Bone_B>HP_M910_04</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -821,12 +821,12 @@
         <Fire_Bone_B>HP_M910_05</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -843,12 +843,12 @@
         <Fire_Bone_B>HP_M910_06</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -865,12 +865,12 @@
         <Fire_Bone_B>HP_M910_07</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -887,12 +887,12 @@
         <Fire_Bone_B>HP_M910_08</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -909,12 +909,12 @@
         <Fire_Bone_B>HP_M910_09</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -931,12 +931,12 @@
         <Fire_Bone_B>HP_M910_10</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
     </HardPoint>
@@ -1114,14 +1114,14 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -1149,14 +1149,14 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -1184,14 +1184,14 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -1219,14 +1219,14 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -1255,11 +1255,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_ONAGER</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent> 
 		<Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text> <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
@@ -1288,11 +1288,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_ONAGER</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent> 
 
     </HardPoint>
@@ -1332,11 +1332,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1364,11 +1364,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
     </HardPoint>
@@ -1395,11 +1395,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 		
@@ -1427,11 +1427,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1459,11 +1459,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1491,11 +1491,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1523,11 +1523,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1555,11 +1555,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
     </HardPoint>
@@ -1586,11 +1586,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -1618,11 +1618,11 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -1640,12 +1640,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -1664,12 +1664,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -1688,12 +1688,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_03</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -1712,12 +1712,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_04</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -1736,11 +1736,11 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_PARIS_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>50.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -1785,11 +1785,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>14.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.6</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>29</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>31.2</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> 
 
 		
@@ -1819,11 +1819,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>14.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.6</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>29</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>31.2</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> 
 
 		
@@ -1853,11 +1853,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>14.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.6</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>29</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>31.2</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> 
 
 		
@@ -1887,11 +1887,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>14.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.6</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>29</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>31.2</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent> 
 
 		
@@ -1920,6 +1920,13 @@
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 
     </HardPoint>
 
@@ -1945,13 +1952,13 @@
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -1970,12 +1977,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -1996,11 +2003,11 @@
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>20</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>20.5</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>40</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>41</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -2021,11 +2028,11 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>120.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>160.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -2094,11 +2101,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
     </HardPoint>
@@ -2126,11 +2133,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
     </HardPoint>
@@ -2158,11 +2165,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -2191,11 +2198,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
 
@@ -2224,11 +2231,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
     </HardPoint>
@@ -2256,11 +2263,11 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
     </HardPoint>
@@ -2289,11 +2296,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>10.25</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>10.87</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>21.74</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent> 
 		
 
@@ -2321,11 +2328,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2353,11 +2360,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2385,11 +2392,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>10.25</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>10.87</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>21.74</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent> 
 		
 
@@ -2417,11 +2424,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2449,11 +2456,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2471,14 +2478,14 @@
         <Fire_Bone_B>HP_FLAK_01</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -2496,14 +2503,14 @@
         <Fire_Bone_B>HP_FLAK_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
        
@@ -2521,14 +2528,14 @@
         <Fire_Bone_B>HP_FLAK_03</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -2546,14 +2553,14 @@
         <Fire_Bone_B>HP_FLAK_04</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -2571,14 +2578,14 @@
         <Fire_Bone_B>HP_FLAK_05</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
        
@@ -2596,14 +2603,14 @@
         <Fire_Bone_B>HP_FLAK_06</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> 
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent> 
 
-		<Fire_Range_Distance>650.50</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		
 
 
@@ -2619,12 +2626,12 @@
 		<Fire_Bone_B>HP_ARCHERS_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>950.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -2641,15 +2648,13 @@
 		<Fire_Bone_B>HP_ARCHERS_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>950.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
-
-		
 
     </HardPoint>
 
@@ -2663,19 +2668,18 @@
 		<Fire_Bone_B>HP_ARCHERS_03</Fire_Bone_B>
 		<Fire_Cone_Width>360.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>950.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
-
-		
 
     </HardPoint>
 
     <HardPoint Name="UNSC_STALWART_MAC">
+	
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -2687,13 +2691,13 @@
 		<Fire_Cone_Width>10.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>70.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -2711,11 +2715,11 @@
 		<Fire_Cone_Width>10.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -2761,11 +2765,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2793,11 +2797,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2825,11 +2829,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2857,11 +2861,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -2879,12 +2883,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
         
@@ -2903,12 +2907,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
         <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
     </HardPoint>
@@ -2925,12 +2929,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_03</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>  
 
         
@@ -2949,12 +2953,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_04</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
         
@@ -2973,12 +2977,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_05</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
         
@@ -2997,12 +3001,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_06</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
         
@@ -3019,12 +3023,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_07</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		 
@@ -3041,12 +3045,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_08</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		 
@@ -3063,12 +3067,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_09</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		 
@@ -3085,12 +3089,12 @@
 		<Fire_Bone_B>HP_ARCHERPOD_10</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		 
@@ -3110,11 +3114,11 @@
 		<Fire_Cone_Width>10.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>80.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>90.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
@@ -3162,11 +3166,11 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -3195,11 +3199,11 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>28.12</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>36.62</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>56.24</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>73.24</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 
 
@@ -3227,11 +3231,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>10.25</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>10.87</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>21.74</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		
 
 
@@ -3259,11 +3263,11 @@
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>10.25</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>10.87</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>21.74</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2250</Fire_Range_Distance>
 		
 
 
@@ -3281,12 +3285,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
        
@@ -3305,12 +3309,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.12</Fire_Max_Recharge_Seconds>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>60.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 		
@@ -3329,12 +3333,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_03</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>14.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
        
@@ -3353,12 +3357,12 @@
         <Fire_Bone_B>HP_ARCHERPOD_04</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>14.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
        

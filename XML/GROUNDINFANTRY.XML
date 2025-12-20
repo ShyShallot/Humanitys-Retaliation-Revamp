@@ -10,10 +10,19 @@
 		<Land_Model_Name>EV_Bike.ALO</Land_Model_Name>
 		<Icon_Name>i_button_scout_trooper.tga</Icon_Name>
 
-		<Lua_Script>SpeederBike</Lua_Script>
+		<Lua_Script> SpeederBike </Lua_Script>
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, BIKE_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE,DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD </LandBehavior>
-
+		<LandBehavior>ABILITY_COUNTDOWN, BIKE_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE,DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD, SQUASH, GARRISON_STRUCTURE </LandBehavior>
+		
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Num_Garrison_Slots>1</Num_Garrison_Slots>
+        <Garrison_Bone_Names>Root</Garrison_Bone_Names>
+        <Garrison_Radius>5</Garrison_Radius>
+        <Num_Garrison_Guns>1</Num_Garrison_Guns>
+		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
+		
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -25,11 +34,11 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
-		<Max_Speed>5.0</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>
-		<LateralAcceleration> .15 </LateralAcceleration>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<LateralAcceleration> 1.15 </LateralAcceleration>
 		<Min_Speed_Fraction_For_Turn> 0 </Min_Speed_Fraction_For_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Bike </UnitCollisionClass>
@@ -46,14 +55,14 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>25</Size_Value>
 		<Damage>5</Damage>
 		<Sensor_Range>40</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>60</Tactical_Health> <!-- hitpoints halved to make the unit more paper-like -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>160</Tactical_Health> <!-- hitpoints halved to make the unit more paper-like -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>200</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -62,20 +71,20 @@
 
 		<Armor_Type> Armor_Scout_Bike </Armor_Type>
 
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Types>Proj_Blaster_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Plasma_Rifle</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
 
@@ -86,7 +95,7 @@
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
-		<Destruction_Survivors> Scout_Trooper_No_Bike, 1.0 </Destruction_Survivors>
+		<!-- <Destruction_Survivors> Squad_Stormtrooper, 1.0 </Destruction_Survivors> -->
 
 		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
@@ -143,7 +152,7 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Scout_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
@@ -209,7 +218,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -217,7 +226,7 @@
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>15</Tactical_Health> <!-- reduced from 30 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -231,7 +240,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -371,18 +380,18 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>10</Shield_Points>
+		<Shield_Points>40</Shield_Points>
 		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
-		<Energy_Capacity>1</Energy_Capacity>
-		<Energy_Refresh_Rate>1</Energy_Refresh_Rate>
-		<Stealth_Capable>No</Stealth_Capable>
+		<Energy_Capacity>10</Energy_Capacity>
+		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
+		<Stealth_Capable>Yes</Stealth_Capable>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
@@ -392,19 +401,19 @@
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
-		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 		
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -440,7 +449,6 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -455,8 +463,8 @@
 		<Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Stormtrooper_Crush_Death_Clone</Death_Clone>
 		
-		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Death_Fade_Time>1.25</Death_Fade_Time>
+		<Death_Persistence_Duration>60.0</Death_Persistence_Duration>
 	
 		<Presence_Induced_Animations>
 			Attention, 
@@ -503,11 +511,11 @@
 		<Land_Model_Name>RI_PLEXSOLDIER.ALO</Land_Model_Name>
 
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			RI_PLEXSOLDIER.ALO,
-			Urban, 				RI_PLEXSOLDIER.ALO,
-			Arctic, 			RI_PLEXS_Snow.ALO,
-			Volcanic, 			RI_PLEXS_Desert.ALO,
-			Desert, 			RI_PLEXS_Desert.ALO,
+			Temperate, 			RI_PLEXS_Forest.ALO,
+			Urban, 				RI_PLEXS_Forest.ALO,
+			Arctic, 			RI_PLEXS_Forest.ALO,
+			Volcanic, 			RI_PLEXS_Forest.ALO,
+			Desert, 			RI_PLEXS_Forest.ALO,
 			Forest, 			RI_PLEXS_Forest.ALO,
 			Swamp, 				RI_PLEXS_Forest.ALO
 		</Land_Terrain_Model_Mapping>
@@ -544,14 +552,14 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>30</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>5</Tactical_Health>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -611,7 +619,7 @@
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -696,20 +704,20 @@
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Stealth_Capable>No</Stealth_Capable>
-		<Land_Model_Name>UNSC_ARMY_TROOPER.ALO</Land_Model_Name>
+		<Land_Model_Name>RI_INFANTRY_Forest.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-            		Temperate, 			UNSC_ARMY_TROOPER.ALO,
-            		Urban, 				UNSC_ARMY_TROOPER.ALO,
-					Arctic, 			UNSC_ARMY_TROOPER.ALO,
-            		Volcanic, 			UNSC_ARMY_TROOPER.ALO,
-            		Desert, 			UNSC_ARMY_TROOPER.ALO,
-            		Forest, 			UNSC_ARMY_TROOPER.ALO,
-            		Swamp, 				UNSC_ARMY_TROOPER.ALO
+            		Temperate, 			RI_INFANTRY_Forest.ALO,
+            		Urban, 				RI_INFANTRY_Forest.ALO,
+					Arctic, 			RI_INFANTRY_Forest.ALO,
+            		Volcanic, 			RI_INFANTRY_Forest.ALO,
+            		Desert, 			RI_INFANTRY_Forest.ALO,
+            		Forest, 			RI_INFANTRY_Forest.ALO,
+            		Swamp, 				RI_INFANTRY_Forest.ALO
 
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
-		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -740,21 +748,21 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>20</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Tactical_Health>5</Tactical_Health>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>		
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>		
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -762,13 +770,13 @@
 		
 		<Projectile_Types>MA5C</Projectile_Types>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Projectile_Fire_Recharge_Seconds>0.05</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -841,11 +849,11 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated>			
-				</Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
@@ -935,13 +943,13 @@
 
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>75</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -950,7 +958,7 @@
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -1104,14 +1112,14 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>8</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>70</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1119,7 +1127,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>325.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 		<Projectile_Types> Proj_Infiltrator_Blaster </Projectile_Types>
@@ -1290,12 +1298,12 @@
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>30</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>110.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -1382,12 +1390,12 @@
 	
 	<GroundInfantry Name="Pirate_Soldier_R">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Pirate_Soldier_E">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundInfantry>
 
 	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
@@ -1458,7 +1466,7 @@
 
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -1587,7 +1595,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
 		<IsBuildable>No</IsBuildable>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1601,7 +1609,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		
@@ -1721,14 +1729,14 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>20</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -1740,7 +1748,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Land_FOW_Reveal_Range>160.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>

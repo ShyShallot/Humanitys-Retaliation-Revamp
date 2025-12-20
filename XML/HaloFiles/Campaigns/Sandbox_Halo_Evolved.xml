@@ -240,7 +240,7 @@
 
 		<!-- <Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Rebel, Eridanus_2, UNSC_Light_Shipyard </Starting_Forces> -->
+		<Starting_Forces> Rebel, Eridanus_2, Terror_Light_Shipyard </Starting_Forces> -->
 
 		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
 
@@ -298,13 +298,13 @@
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
 		
-		<Starting_Forces> Terrorists, Far_Isle, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Aktis_IV, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Aktis_IV, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Star_Base_2 </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -312,19 +312,349 @@
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
-		<Starting_Forces> Swords, Yonhe, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Khaelmothka, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Thua, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Thua, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Tvao, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Tvao, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Doisac, Empire_Star_Base_3</Starting_Forces>
+		<Starting_Forces> Swords, Doisac, SWORDS_STARBASE_1</Starting_Forces>
 		
-		<Starting_Forces> Swords, Karava, Empire_Star_Base_3</Starting_Forces>
+		<Starting_Forces> Swords, Karava, SWORDS_STARBASE_1</Starting_Forces>
+
+	</Campaign>
+	
+	<Campaign Name="Sandbox_Halo_Evolved_Innies">
+
+		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
+		<Sort_Order>2</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Reach,
+        Earth,
+		Madrigal,
+		Falaknuma,
+		Aleria,
+		Alluvion,
+		Arcadia,
+		Chi_Ceti_IV,
+		Eridanus_2,
+		Charybdis_IX,
+		Meridian,
+		Gao,
+		Aktis_IV,
+		Harvest,
+		Harmony,
+		New_Carthage,
+		New_Jerusalem,
+		Tantalus,
+		Terra_Nova,
+		Mars,
+		Miridem,
+		Netherop,
+		Far_Isle,
+		Threshold,
+		Yonhe,
+		Kamchatka,
+		Taram,
+		Trove,
+		Installation_05,
+		Nefoluzo,
+		Thua,
+		Glyke,
+		Karava,
+		Victors_Truth,
+		Balaho,
+		Te,
+		Doisac,
+		Rhanelo,
+		Song_Of_Victory,
+		Eayn,
+		Bhedalon,
+		Codisfold,
+		Feldokra,
+		Ulgethon,
+		Palamok,
+		Ven_III,
+		Kostroda,
+		Khaelmothka,
+		Tvao,
+        Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
+		</Locations>
+
+		<Trade_Routes> 
+			Earth_Reach,
+			Earth_Mars,	
+			Reach_Tantalus,
+			Reach_Miridem,
+			Reach_New_Carthage,
+			Tantalus_Threshold,
+			Miridem_Harmony,
+			Harmony_New_Jerusalem,
+			New_Carthage_Terra_Nova,
+			Terra_Nova_Falaknuma,
+			Terra_Nova_Alluvion,
+			Falaknuma_Meridian,
+			Alluvion_Aleria
+			Aleria_Arcadia,
+			Arcadia_Madrigal,
+			Madrigal_Harvest,
+			Harvest_Chi_Ceti_IV,
+			Chi_Ceti_IV_Meridian,
+			Meridian_Gao,
+			Gao_Eridanus_2,
+			Eridanus_2_Far_Isle,
+			Eridanus_2_Aktis_IV,,
+			Far_Isle_Charybdis_IX,
+			Charybdis_IX_New_Jerusalem,
+			Aktis_IV_Netherop,
+			Netherop_Ven_III,
+			Ven_III_Yonhe,
+			Yonhe_Nefoluzo,
+			Nefoluzo_Installation_05,
+			Nefoluzo_Kamchatka,
+			Kamchatka_Taram,
+			Taram_Thua,
+			Taram_Tvao,
+			Thua_Song_Of_Victory,
+			Song_Of_Victory_Te,
+			Song_Of_Victory_Feldokra,
+			Tvao_Eayn,
+			Eayn_Song_Of_Victory,
+			Eayn_Bhedalon,
+			Eayn_Palamok,
+			Feldokra_Khaelmothka,
+			Feldokra_Sanghelios,
+			Feldokra_Ulgethon,
+			Bhedalon_Kostroda,
+			Kostroda_Balaho,
+			Balaho_Rhanelo,
+			Palamok_Bhedalon,
+			Palamok_Glyke,
+			Glyke_Khaelmothka,
+			Glyke_Sanghelios,
+			Glyke_Codisfold,
+			Codisfold_Sanghelios,
+			Codisfold_Ulgethon,
+			Codisfold_Rhanelo,
+			Ulgethon_Sanghelios,
+			Kostroda_Doisac,
+			Kostroda_Karava,
+			Doisac_Trove,
+			Doisac_Victors_Truth,
+			Doisac_Karava,
+			Karava_Victors_Truth,
+			Karava_Harvest,
+			Trove_Victors_Truth,
+			Trove_Harvest,
+			Victors_Truth_Harvest
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Earth </Home_Location>
+
+		<Home_Location> Empire, Sanghelios </Home_Location>
+
+		<Starting_Active_Player> Terrorists </Starting_Active_Player>
+
+		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  BasicEmpire</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</Human_Victory_Conditions>
+
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
+		<AI_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  50500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Earth, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Earth, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Earth, UNSC_Heavy_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, UNSC_Medium_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Medium_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Heavy_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Medium_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Arcadia, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Aleria, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alluvion, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
+
+		<!-- <Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eridanus_2, Terror_Light_Shipyard </Starting_Forces> -->
+
+		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Charybdis_IX, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Meridian, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Gao, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 16500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Balaho, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Te, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Song_Of_Victory, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Eayn, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Bhedalon, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Codisfold, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Feldokra, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Ulgethon, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Rhanelo, Empire_Star_Base_3</Starting_Forces>
+
+		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
+
+		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
+
+		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
+
+		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
+
+		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
+
+		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
+		
+		<!-- Innie Starting Forces -->
+		
+		<Starting_Credits> Terrorists, 226500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
+		
+		<Starting_Forces> Terrorists, Far_Isle, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Aktis_IV, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Threshold, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
+		
+		<!-- Banished/Heretic Starting Forces -->
+		
+		<Starting_Credits> Swords, 86500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Thua, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Tvao, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Doisac, SWORDS_STARBASE_1</Starting_Forces>
+		
+		<Starting_Forces> Swords, Karava, SWORDS_STARBASE_1</Starting_Forces>
 
 	</Campaign>
 
@@ -543,7 +873,7 @@
 
 		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
 
@@ -602,13 +932,15 @@
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
 		
-		<Starting_Forces> Terrorists, Far_Isle, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Aktis_IV, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Aktis_IV, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terror_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -616,19 +948,324 @@
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
-		<Starting_Forces> Swords, Yonhe, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Khaelmothka, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Thua, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Thua, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Tvao, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Swords, Tvao, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Doisac, Empire_Star_Base_3</Starting_Forces>
+		<Starting_Forces> Swords, Doisac, SWORDS_STARBASE_1</Starting_Forces>
 		
-		<Starting_Forces> Swords, Karava, Empire_Star_Base_3</Starting_Forces>
+		<Starting_Forces> Swords, Karava, SWORDS_STARBASE_1</Starting_Forces>
+
+	</Campaign>
+	
+	<Campaign Name="Sandbox_Halo_Evolved_Swords">
+
+		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Reach,
+        Earth,
+		Madrigal,
+		Falaknuma,
+		Aleria,
+		Alluvion,
+		Arcadia,
+		Chi_Ceti_IV,
+		Eridanus_2,
+		Charybdis_IX,
+		Meridian,
+		Gao,
+		Aktis_IV,
+		Harvest,
+		Harmony,
+		New_Carthage,
+		New_Jerusalem,
+		Tantalus,
+		Terra_Nova,
+		Mars,
+		Miridem,
+		Netherop,
+		Far_Isle,
+		Threshold,
+		Yonhe,
+		Kamchatka,
+		Taram,
+		Trove,
+		Installation_05,
+		Nefoluzo,
+		Thua,
+		Glyke,
+		Karava,
+		Victors_Truth,
+		Balaho,
+		Te,
+		Doisac,
+		Rhanelo,
+		Song_Of_Victory,
+		Eayn,
+		Bhedalon,
+		Codisfold,
+		Feldokra,
+		Ulgethon,
+		Palamok,
+		Ven_III,
+		Kostroda,
+		Khaelmothka,
+		Tvao,
+        Sanghelios,
+		Compromised,
+		Strained,
+		Resolute,
+		Ascendant,
+		</Locations>
+
+		<Trade_Routes> 
+			Earth_Reach,
+			Earth_Mars,	
+			Reach_Tantalus,
+			Reach_Miridem,
+			Reach_New_Carthage,
+			Tantalus_Threshold,
+			Miridem_Harmony,
+			Harmony_New_Jerusalem,
+			New_Carthage_Terra_Nova,
+			Terra_Nova_Falaknuma,
+			Terra_Nova_Alluvion,
+			Falaknuma_Meridian,
+			Alluvion_Aleria
+			Aleria_Arcadia,
+			Arcadia_Madrigal,
+			Madrigal_Harvest,
+			Harvest_Chi_Ceti_IV,
+			Chi_Ceti_IV_Meridian,
+			Meridian_Gao,
+			Gao_Eridanus_2,
+			Eridanus_2_Far_Isle,
+			Eridanus_2_Aktis_IV,,
+			Far_Isle_Charybdis_IX,
+			Charybdis_IX_New_Jerusalem,
+			Aktis_IV_Netherop,
+			Netherop_Ven_III,
+			Ven_III_Yonhe,
+			Yonhe_Nefoluzo,
+			Nefoluzo_Installation_05,
+			Nefoluzo_Kamchatka,
+			Kamchatka_Taram,
+			Taram_Thua,
+			Taram_Tvao,
+			Thua_Song_Of_Victory,
+			Song_Of_Victory_Te,
+			Song_Of_Victory_Feldokra,
+			Tvao_Eayn,
+			Eayn_Song_Of_Victory,
+			Eayn_Bhedalon,
+			Eayn_Palamok,
+			Feldokra_Khaelmothka,
+			Feldokra_Sanghelios,
+			Feldokra_Ulgethon,
+			Bhedalon_Kostroda,
+			Kostroda_Balaho,
+			Balaho_Rhanelo,
+			Palamok_Bhedalon,
+			Palamok_Glyke,
+			Glyke_Khaelmothka,
+			Glyke_Sanghelios,
+			Glyke_Codisfold,
+			Codisfold_Sanghelios,
+			Codisfold_Ulgethon,
+			Codisfold_Rhanelo,
+			Ulgethon_Sanghelios,
+			Kostroda_Doisac,
+			Kostroda_Karava,
+			Doisac_Trove,
+			Doisac_Victors_Truth,
+			Doisac_Karava,
+			Karava_Victors_Truth,
+			Karava_Harvest,
+			Trove_Victors_Truth,
+			Trove_Harvest,
+			Victors_Truth_Harvest
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Earth </Home_Location>
+
+		<Home_Location> Empire, Sanghelios </Home_Location>
+
+		<Starting_Active_Player> Swords </Starting_Active_Player>
+
+		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  SandboxHuman</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</Human_Victory_Conditions>
+
+		<Human_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+
+		<AI_Victory_Conditions>
+				Galactic_Control_Named_Planets
+		</AI_Victory_Conditions>
+
+		<AI_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  1500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, New_Carthage, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Arcadia, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Aleria, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alluvion, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Charybdis_IX, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Meridian, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Gao, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Harvest, UNSC_Medium_Shipyard </Starting_Forces>
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire, 46500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Balaho, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Te, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Song_Of_Victory, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Eayn, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Bhedalon, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Codisfold, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Feldokra, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Ulgethon, Empire_Star_Base_4</Starting_Forces>
+
+		<Starting_Forces> Empire, Rhanelo, Empire_Star_Base_3</Starting_Forces>
+
+		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
+
+		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
+
+		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
+
+		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
+
+		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
+
+		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
+
+		<!-- Innie Starting Forces -->
+		
+		<Starting_Credits> Terrorists, 26500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
+		
+		<Starting_Forces> Terrorists, Far_Isle, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Aktis_IV, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Threshold, Terror_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Star_Base_1 </Starting_Forces>
+		
+		<!-- Banished/Heretic Starting Forces -->
+		
+		<Starting_Credits> Swords, 86500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Thua, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Tvao, SWORDS_STARBASE_2 </Starting_Forces>
+		
+		<Starting_Forces> Swords, Doisac, SWORDS_STARBASE_1</Starting_Forces>
+		
+		<Starting_Forces> Swords, Karava, SWORDS_STARBASE_1</Starting_Forces>
+		
 
 	</Campaign>
 </Campaigns>

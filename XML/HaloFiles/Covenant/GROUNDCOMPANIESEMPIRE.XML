@@ -8,16 +8,16 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>40</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>3</Formation_Priority>
@@ -72,16 +72,16 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>30</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>70</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>5</Formation_Priority>
@@ -134,17 +134,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_ADVANCED_FACTORY</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>4</Formation_Priority>
@@ -199,17 +199,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>24</Damage>
 		<Autoresolve_Health>200</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>150</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_BASIC_FACTORY</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -258,7 +258,7 @@
 		<Company_Units> AT_ST_Walker, AT_ST_Walker, AT_ST_Walker </Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>18</Damage> 
 	</GroundCompany>
 
@@ -270,14 +270,14 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
 		<Required_Planets />
@@ -330,17 +330,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>180</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_STANDARD_BARRACKS</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>
@@ -388,7 +388,7 @@
 		<Company_Units> TIE_Crawler, TIE_Crawler, TIE_Crawler </Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>12</Damage> 
 	</GroundCompany>
 
@@ -396,7 +396,7 @@
 	
 	
 	<GroundCompany Name="Imperial_Stormtrooper_Squad">
-		<Text_ID>COVN-Elite-SQUAD</Text_ID>
+		<Text_ID>Zealots</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -405,16 +405,16 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>18</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Affiliation>Empire, Swords</Affiliation>
+		<Build_Cost_Credits>200</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -423,8 +423,11 @@
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
-		<Max_Squad_Size> 9 </Max_Squad_Size>
+		
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper </Company_Units>
+		
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
 		<Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
@@ -466,7 +469,7 @@
 		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 4 </Max_Squad_Size>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>9</Damage> 
 	</GroundCompany>
 
@@ -475,14 +478,14 @@
 		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>3</Damage> 
 	</GroundCompany>
 	
 	<GroundCompany Name="Veers_Deployed_Imperial_Stormtrooper_Squad">
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
 		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
-		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Damage>9</Damage>
@@ -497,17 +500,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>10</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>150</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
@@ -562,7 +565,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>3</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -595,7 +598,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>6</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -630,7 +633,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>9</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -667,7 +670,7 @@
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
@@ -684,7 +687,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>

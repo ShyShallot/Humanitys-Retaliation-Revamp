@@ -26,15 +26,15 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>2</Damage>
-		<Shield_Points>20</Shield_Points>
-		<Tactical_Health>300</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
 		<Energy_Capacity>300</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Required_Timeline>0</Required_Timeline>
@@ -48,7 +48,7 @@
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED,  FLYING_LOCOMOTOR, AMBIENT_SFX, UNIT_AI, TARGETING, WEAPON, STUNNABLE, DAMAGE_TRACKING </LandBehavior> 
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -80,7 +80,6 @@
 		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
 
 		<Exit_Door_Angle_Degrees>180.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
@@ -103,7 +102,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Transport | Vehicle</CategoryMask>
 		<Landing_Transport_Variant>Imperial_Landing_Craft_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
 
@@ -131,13 +130,13 @@
 		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>2.25</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
-		<Is_Valid_Target>No</Is_Valid_Target>
+		<LandBehavior>HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, SELECTABLE,POWERED, SHIELDED,</LandBehavior> 
+		<Is_Valid_Target>Yes</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Vehicle</UnitCollisionClass>	
 	</TransportUnit>
 	
 	<TransportUnit Name="Imperial_Landing_Craft_Landing_Cinematic">

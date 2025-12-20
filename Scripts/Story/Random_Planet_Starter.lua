@@ -3,7 +3,7 @@
 Random_Start = {
     Total_Major_Starting_Planets = 1,
 
-    Minor_Faction_Control_Percentage = 0.4, -- this is per minor faction, so each minor faction controls 40% at first, and with 2 minor factions that is 80% of the map starts with minor factions
+    Minor_Faction_Control_Percentage = 0.45, -- this is per minor faction, so each minor faction controls 40% at first, and with 2 minor factions that is 80% of the map starts with minor factions
 
     Spawn_List = {
         {Name = "Rebel", Major = true},
@@ -14,7 +14,7 @@ Random_Start = {
 
     Starting_Structures = {
         REBEL = {
-            Ground = {},
+            Ground = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company"},
             Space = {},
             Station = {
                 Level = 5,
@@ -22,7 +22,7 @@ Random_Start = {
             },
         },
         EMPIRE = {
-            Ground = {},
+            Ground = {"Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad"},
             Space = {},
             Station = {
                 Level = 5,
@@ -30,19 +30,19 @@ Random_Start = {
             },
         },
         SWORDS = {
-            Ground = {},
+            Ground = {"Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad"},
             Space = {},
             Station = {
                 Name = "SWORDS_STARBASE_",
-                Range = {1,2}
+                Range = {1,2,3}
             }
         },
         TERRORISTS = {
-            Ground = {},
+            Ground = {"Rebel_Infantry_Squad", "Rebel_Infantry_Squad"},
             Space = {},
             Station = {
                 Name = "Terrorists_Star_Base_",
-                Range = {1,3}
+                Range = {1,2,3}
             }
         }
     },

@@ -289,33 +289,78 @@ local unit_table = {
     },
     UNSC_DELETE_HEAVY_SHIPYARD = {
         Category = "Structure"
+	},
+    TERROR_EPOCH = {
+        Category = "Super"
     },
-    TERROR_GLADIUS = {
-        Category = "Corvette"
+    TERROR_PHOENIX = {
+        Category = "Capital"
     },
-    TERROR_MAKO = {
-        Category = "Corvette"
-    },
-    TERROR_Baselard_Squadron = {
-        Category = "Fighter"
-    },
-    TERROR_MUSASHI = {
-        Category = "Frigate"
-    },
-    TERROR_STALWART = {
-        Category = "Frigate"
-    },
-    TERROR_CHARON = {
-        Category = "Frigate"
+    TERROR_MARATHON = {
+        Category = "Capital"
     },
     TERROR_HALCYON = {
         Category = "Capital"
+	},
+    TERROR_MUSASHI = {
+        Category = "Capital",
     },
-	TERROR_PHOENIX = {
-        Category = "Capital"
+    TERROR_HALBERD_SQUADRON = {
+        Category = "Frigate"
     },
-    TERROR_SHORTSWORD_Squadron = {
+    TERROR_PARIS_SQUADRON = {
+        Category = "Frigate"
+    },
+    TERROR_STALWART_SQUADRON = {
+        Category = "Frigate"
+    },
+	TERROR_CHARON_SQUADRON = {
+        Category = "Frigate"
+    },
+	TERROR_BUCKLER_SQUADRON = {
+        Category = "Frigate"
+    },
+    TERROR_GLADIUS_SQUADRON = {
+        Category = "Corvette"
+    },
+    TERROR_MAKO_SQUADRON = {
+        Category = "Corvette"
+    },
+    TERROR_SHORTSWORD_SQUADRON = {
         Category = "Fighter"
+    },
+    TERROR_BASELARD_SQUADRON = {
+        Category = "Fighter"
+    },
+	TERROR_MINING_FACILITY = {
+        Category = "Structure"
+    },
+    TERROR_LIGHT_SHIPYARD = {
+        Category = "Structure"
+    },
+    TERROR_MEDIUM_SHIPYARD = {
+        Category = "Structure"
+    },
+    TERROR_HEAVY_SHIPYARD = {
+        Category = "Structure"
+    },
+	TERROR_STAR_BASE_1 = {
+        Category = "Structure"
+    },
+    TERROR_STAR_BASE_2 = {
+        Category = "Structure"
+    },
+    TERROR_STAR_BASE_3 = {
+        Category = "Structure"
+    },
+    TERROR_STAR_BASE_4 = {
+        Category = "Structure"
+    },
+    TERROR_STAR_BASE_5 = {
+        Category = "Structure"
+    },
+	SWORDS_CAS = {
+        Category = "Super"
     },
     SWORDS_SDV = {
         Category = "Corvette"
@@ -334,6 +379,12 @@ local unit_table = {
     },
     SWORDS_Cerastes_Squadron = {
         Category = "Fighter"
+    },
+	SWORDS_STARBASE_1 = {
+        Category = "Structure"
+    },
+	SWORDS_STARBASE_2 = {
+        Category = "Structure"
     },
     UNSC_CAMP = {
         Category = "Structure",

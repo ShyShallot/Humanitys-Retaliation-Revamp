@@ -26,15 +26,33 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
 				RS_Level_Two_Starbase_Upgrade,
-			<!--Pelican_Squadron,
+				<!-- Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,   -->
+				Baselard_Squadron,   
+				Late_Longsword_Squadron,
+				Sabre_Squadron,
+				Broadsword_Squadron,
+				Condor_Squadron,
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
 				Charon_Squadron,
+				Stalwart_Squadron,
+				Paris_Squadron,
+				Halberd_Squadron,
+				UNSC_STRIDENT,
+				UNSC_POSEIDON,
+				UNSC_MUSASHI,
+				UNSC_PHOENIX,
+				UNSC_HALCYON,
+				UNSC_MARATHON,
+				UNSC_AUTUMN,
+				UNSC_VINDICATION,
+				UNSC_EPOCH,
+				UNSC_INFINITY -->
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -56,8 +74,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>525</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>100</Base_Income_Value>
+				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -131,12 +149,12 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
-				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Three_Starbase_Upgrade,
 			<!--Pelican_Squadron,
 				Shortsword_Squadron,
-				Baselard_Squadron,   -->
+				Baselard_Squadron,  
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -145,7 +163,7 @@
 				Paris_Squadron,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
-				UNSC_HALCYON,
+				UNSC_HALCYON, -->
 		
 				
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -167,8 +185,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>600.0</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>150.0</Base_Income_Value>
+				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -244,6 +262,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Four_Starbase_Upgrade,
@@ -253,7 +272,7 @@
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron, -->
+				Condor_Squadron, 
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -263,7 +282,7 @@
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
-				UNSC_MARATHON,
+				UNSC_MARATHON, -->
 
 				
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -285,8 +304,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>625.0</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>200.0</Base_Income_Value>
+				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -364,9 +383,9 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
-				UNSC_Heavy_Shipyard_Skirmish,
 				RS_Level_Five_Starbase_Upgrade,
 			<!--Pelican_Squadron,
 				Shortsword_Squadron,
@@ -374,7 +393,7 @@
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron, -->
+				Condor_Squadron,
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -388,7 +407,7 @@
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
 				UNSC_MARATHON,
-				UNSC_AUTUMN
+				UNSC_AUTUMN -->
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -409,8 +428,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>650.0</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>300.0</Base_Income_Value>
+				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -491,6 +510,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				UNSC_Heavy_Shipyard_Skirmish,
@@ -500,7 +520,7 @@
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron, -->
+				Condor_Squadron,
 				MAKO_Squadron,
 				Buckler_Squadron,
 				Gladius_Squadron,
@@ -516,7 +536,7 @@
 				UNSC_MARATHON,
 				UNSC_AUTUMN,
 				UNSC_VINDICATION,
-				UNSC_EPOCH
+				UNSC_EPOCH -->
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -537,8 +557,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>675</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>350</Base_Income_Value>
+				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>

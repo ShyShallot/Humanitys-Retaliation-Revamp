@@ -49,7 +49,7 @@
 
 		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
@@ -192,7 +192,7 @@
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -205,21 +205,40 @@
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Tactical_Health>14500</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
+			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
+			UNSC_HALC_FLAK_01, UNSC_HALC_FLAK_02, UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
+			HP_HALC_REACTOR</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
-			Rebel,
-				RS_Improved_Weapons_L1_Upgrade,
-				RS_Improved_Weapons_L2_Upgrade,
-				RS_Improved_Weapons_L3_Upgrade,
-				RS_Improved_Defenses_L1_Upgrade,
-				RS_Improved_Defenses_L2_Upgrade,
-				RS_Improved_Defenses_L3_Upgrade,		
-
+			Rebels,
+				<!-- Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,   
+				Late_Longsword_Squadron,
+				Sabre_Squadron,
+				Broadsword_Squadron,
+				Condor_Squadron, -->
+				B312_Squadron
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Condor_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MAKO_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Buckler_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Gladius_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>
+
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -251,17 +270,22 @@
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
 		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
-				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
-				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-85</Absolute_Income_Modifier>
-				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
-				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
-			</Planet_Income_Bonus_Ability>
+		
+		<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-12</Base_Income_Value>
+                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
 		</Abilities>
+		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_SHIPYARD_LIGHT </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -272,12 +296,12 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
-		<Tactical_Build_Cost_Multiplayer>1850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>8</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
@@ -288,12 +312,12 @@
 
     <SpecialStructure Name="UNSC_Medium_Shipyard_Skirmish">
 		
-       <Scale_Factor>1.15</Scale_Factor>
+       <Scale_Factor>1.7</Scale_Factor>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -306,24 +330,38 @@
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Tactical_Health>24500</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10,</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-		
-			Rebel,
+			
+			 Rebel,
 				UNSC_IAC,
 				UNSC_Fleet_Captain,
-				UNSC_IROQUOIS				
-				
+				<!-- Charon_Squadron,
+				Stalwart_Squadron,
+				Paris_Squadron,
+				Halberd_Squadron,
+				UNSC_STRIDENT,
+				UNSC_POSEIDON -->
+
 		</Tactical_Buildable_Objects_Multiplayer>
+			
+		
+		<Starting_Spawned_Units_Tech_0>Charon_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stalwart_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Paris_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Halberd_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_POSEIDON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -350,17 +388,22 @@
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
 		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
-				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
-				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-85</Absolute_Income_Modifier>
-				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
-				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
-			</Planet_Income_Bonus_Ability>
+		
+			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-16</Base_Income_Value>
+                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
 		</Abilities>
+		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
@@ -377,12 +420,12 @@
 
 		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
 
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>6</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
@@ -398,7 +441,7 @@
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -411,26 +454,37 @@
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Tactical_Health>34500</Tactical_Health>
-		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Hardpoints>UNSC_Supply_Depot_HP</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
 			Rebel,
-				UNSC_MAC_PLATFORM,
+				UNSC_MUSASHI,
+				UNSC_PHOENIX,
+				UNSC_HALCYON,
+				UNSC_MARATHON,
+				UNSC_AUTUMN,
+				UNSC_VINDICATION,
+				UNSC_EPOCH,
 				UNSC_FLEET_COMMANDER,
-				UNSC_ROMAN_BLUE,
-				UNSC_POA,
-				UNSC_SOF,
-				UNSC_INFINITY,
-			
+				
+				
+				
 		</Tactical_Buildable_Objects_Multiplayer>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_MUSASHI, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_PHOENIX, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_MARATHON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -457,17 +511,22 @@
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
 		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
-				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
-				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-85</Absolute_Income_Modifier>
-				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
-				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
-			</Planet_Income_Bonus_Ability>
+		
+		<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-50</Base_Income_Value>
+                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
 		</Abilities>
+		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
@@ -489,12 +548,12 @@
         <Build_Cost_Credits>7250</Build_Cost_Credits>
 		<Build_Time_Seconds>240</Build_Time_Seconds>
 		
-		<Tactical_Build_Cost_Multiplayer>12250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Current_For_All_Allies>2</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
@@ -503,7 +562,107 @@
 
     </SpecialStructure>
 	
-	
+	<SpecialStructure Name="UNSC_Cargo_Depot_Skirmish">
+		<Text_ID>UNSC_CARGO_DEPOT</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Space_Model_Name>UNSC_SHIPYARD_CARGO_SPAWNER.alo</Space_Model_Name>
+
+		<Scale_Factor>0.50</Scale_Factor>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Tactical_Health>14500</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02</Hardpoints>
+			
+		
+		
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Structure_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>25</Base_Income_Value>
+                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
+		</Abilities>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_SHIPYARD_LIGHT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Capital </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		
+		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player></Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>14</Build_Limit_Current_For_All_Allies>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>250</AI_Combat_Power>
+		
+	</SpecialStructure>
 	
 	
 

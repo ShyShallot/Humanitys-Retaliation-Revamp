@@ -12,9 +12,9 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>6200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -331,9 +331,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -601,7 +601,7 @@
 		<Shield_Armor_Type>Shield_UNSC_Corvette</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 then 1150 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -910,7 +910,7 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -1301,9 +1301,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>14400</Tactical_Health>		<!-- was 3200 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1582,9 +1582,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>9200</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1856,9 +1856,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>7200</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -2132,9 +2132,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>12000</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 

@@ -16,7 +16,7 @@
 		<SpaceBehavior>SPECIAL_WEAPON</SpaceBehavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,SELECTABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -31,7 +31,7 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Base_Position>Out_Base</Base_Position>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Community_Property>Yes</Is_Community_Property>
@@ -129,7 +129,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -137,7 +137,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>90</Size_Value>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Is_Interdictor>Yes</Is_Interdictor>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -211,7 +211,7 @@
 		<Space_Model_Name>NB_CommJamStation_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpecialStructure>
@@ -224,7 +224,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -294,7 +294,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -369,7 +369,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Scale_Factor>0.75</Scale_Factor> <!--  -->
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -377,7 +377,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>90</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -473,7 +473,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Scale_Factor>0.75</Scale_Factor> <!--  -->
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -484,7 +484,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1750</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -578,7 +578,7 @@
 		<Space_Model_Name>NV_LRS.ALO</Space_Model_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -586,7 +586,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>30</Size_Value>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -668,7 +668,7 @@
 		<Space_Model_Name>COVN_STATION_TIER1.ALO</Space_Model_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>7250</Build_Cost_Credits>
 		<Build_Time_Seconds>3</Build_Time_Seconds> <!-- was 480 -->
@@ -748,13 +748,13 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="Covenant_Mining_Facility">
-		<Text_ID>TEXT_ASTEROID_MINING_FACILITY</Text_ID>
+		<Text_ID>COVN_MINING_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3850</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
@@ -853,7 +853,7 @@
 
 	<SpecialStructure Name="Covenant_Mining_Facility_Starting">
 		<Variant_Of_Existing_Type>Covenant_Mining_Facility</Variant_Of_Existing_Type>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
@@ -902,7 +902,7 @@
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2875</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
@@ -1011,7 +1011,7 @@
 		</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_Mining_Facility">
-		<Text_ID>TEXT_ASTEROID_MINING_FACILITY</Text_ID>
+		<Text_ID>UNSC_TRADING_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
@@ -1019,6 +1019,109 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3450</Build_Cost_Credits>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets>Aleria, Charybdis_IX, Threshold, Thua</Required_Planets>
+		<Shield_Points>12750</Shield_Points>
+		<Tactical_Health>12750</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI</SpaceBehavior>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Credits</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 15% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 215 credits to planetary income -->
+				<Absolute_Income_Modifier>500</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>1.35</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>100</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="E_Mining_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>5.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN TEXT_MINING_FACILITY_CAMPAIGN_INCOME</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Terror_Mining_Facility">
+		<Text_ID>TEXT_ASTEROID_MINING_FACILITY</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
+		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3450</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
@@ -1113,50 +1216,6 @@
 
 	</SpecialStructure>
 
-	<SpecialStructure Name="UNSC_Mining_Facility_Starting">
-		<Variant_Of_Existing_Type>UNSC_Mining_Facility</Variant_Of_Existing_Type>
-		<Tech_Level>99</Tech_Level>
-
-		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
-				<!-- 10% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>2250</Absolute_Income_Modifier>
-				<!-- net effect of +( (base income * 0%) + 20) credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.35</Additional_Multiplier_On_Mining_Colonies>
-				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
-			</Planet_Income_Bonus_Ability>
-			<Income_Stream_Ability Name="Rebel_Mining_Income_Stream">
-				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
-				<Base_Income_Value>100</Base_Income_Value>
-				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
-				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-				<Split_Favors_Owner>No</Split_Favors_Owner>
-				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-			</Income_Stream_Ability>
-			<Force_Healing_Ability Name="R_Mining_Facility_Self_Repair">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.0</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
-				<Heal_Amount>5.0</Heal_Amount>
-				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types />
-				<SFXEvent_Target_Affected />
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>
-		</Abilities>
-	</SpecialStructure>
-
-
 	<SpecialStructure Name="DELETE_COVN_Mining_Facility">
 		<Variant_Of_Existing_Type>COVN_Mining_Facility</Variant_Of_Existing_Type>
 		<Required_Special_Structures>COVN_Mining_Facility</Required_Special_Structures>
@@ -1179,7 +1238,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Tactical_Health>100</Tactical_Health><!-- jdg was 500 -->
 		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -1253,7 +1312,7 @@
 		<Space_Model_Name>NV_LRS.ALO</Space_Model_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -1264,7 +1323,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -1347,7 +1406,7 @@
 		<Text_ID>TEXT_GROUND_CANTINA</Text_ID>
 		<Land_Model_Name>W_CANTINATAT.ALO</Land_Model_Name>
 		<GUI_Row> 0 </GUI_Row>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1447,7 +1506,7 @@
 		<Text_ID>TEXT_GROUND_CANTINA</Text_ID>
 		<Land_Model_Name>W_CANTINATAT.ALO</Land_Model_Name>
 		<GUI_Row> 0 </GUI_Row>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1647,7 +1706,7 @@
 		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
 		<Icon_Name>i_button_jabba_palace.tga</Icon_Name>
 		<GUI_Row> 0 </GUI_Row>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Build_Cost_Credits>600</Build_Cost_Credits>
@@ -1731,7 +1790,7 @@
 		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
 		<Icon_Name>i_button_jabba_palace.tga</Icon_Name>
 		<GUI_Row> 0 </GUI_Row>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Build_Cost_Credits>600</Build_Cost_Credits>
@@ -1864,7 +1923,7 @@
 		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
 		<Shield_Upgraded_Color>0.2, 0.7, 0.8, 1.0</Shield_Upgraded_Color>
 		
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -2018,7 +2077,7 @@
 		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
 		<Shield_Upgraded_Color>0.2, 0.7, 0.8, 1.0</Shield_Upgraded_Color>
 		
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -2029,7 +2088,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -2151,7 +2210,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>NB_GrandArena.alo</Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Political_Control>1</Political_Control>-->
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -2253,7 +2312,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>EB_GRAVCONTROLGEN.ALO</Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2200</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -2261,7 +2320,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -2479,7 +2538,7 @@
 
 		<Scale_Factor>0.75</Scale_Factor>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -2633,7 +2692,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -2744,7 +2803,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -2752,7 +2811,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -2961,7 +3020,7 @@
 		<Size_Value>50</Size_Value>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -3014,7 +3073,7 @@
 		<Tactical_Additional_Structure_Type>Power_Generator_E</Tactical_Additional_Structure_Type>
 		<Obstacle_Proxy_Type> E_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Projectile_Types>Proj_Ground_Turbolaser_Green</Projectile_Types>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -3031,7 +3090,7 @@
 		<Tactical_Additional_Structure_Type>Power_Generator_R</Tactical_Additional_Structure_Type>
 		<Obstacle_Proxy_Type> R_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Projectile_Types>Proj_Ground_Turbolaser_Red</Projectile_Types>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
@@ -3092,7 +3151,7 @@
 		<Size_Value>50</Size_Value>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -3110,7 +3169,7 @@
 	<SpecialStructure Name="E_Galactic_Turbolaser_Tower_Defenses">
 		<Variant_Of_Existing_Type>Template_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>2</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -3129,11 +3188,11 @@
 	<SpecialStructure Name="R_Galactic_Turbolaser_Tower_Defenses">
 		<Variant_Of_Existing_Type>Template_Galactic_Turbolaser_Tower_Defenses</Variant_Of_Existing_Type>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>800</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Tactical_Additional_Structure_Type>Power_Generator_R</Tactical_Additional_Structure_Type>
@@ -3207,7 +3266,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -3215,7 +3274,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -3326,6 +3385,353 @@
 			
 		</Abilities>
 	</SpecialStructure>
+	
+	<SpecialStructure Name="R_Ground_Barracks">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00 TEXT_TOOLTIP_GARRISON_R_BARRACKS </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>	
+				
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Is_Dummy>No</Is_Dummy>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Destruction_Survivors> 
+			Rebel_Survivors_Small, 1.0
+			Rebel_Survivors_Medium, 1.0
+			Rebel_Survivors_Large, 1.0 
+		</Destruction_Survivors>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Tactical_Health>500</Tactical_Health>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> RHD_Barracks_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> RHD_Barracks_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Barracks_Select_SFX</SFXEvent_Select>
+
+		
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+		
+		<Tactical_Buildable_Objects_Campaign> 
+			Rebel,
+				RL_Combat_Armor_L1_Upgrade,
+				RL_Combat_Armor_L2_Upgrade,
+				RL_More_Garrisons_L1_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Rebel_Infantry_Squad,
+				Rebel_Tank_Buster_Squad,
+				Field_Com_Rebel_Team,
+				Rebel_Infiltrator_Team,
+				RL_Combat_Armor_L1_Upgrade,
+				RL_Combat_Armor_L2_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		
+		
+		<!--<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Rebel_Infantry_Squad,
+				RL_Plex_Soldier_Research_Upgrade,
+				Rebel_Tank_Buster_Squad,
+				Field_Com_Rebel_Team,
+				RL_Infiltrator_Research_Upgrade,
+				Rebel_Infiltrator_Team, 
+				RL_Combat_Armor_L1_Upgrade,
+				RL_Combat_Armor_L2_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>-->
+
+		<AI_Combat_Power>300</AI_Combat_Power>
+		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="R_Barracks_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			<Redirect_Blaster_Ability Name="R_Magnetically_Sealed_Structure">
+				<Initially_Enabled> No </Initially_Enabled>
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.30</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+			
+		</Abilities>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="R_Ground_Light_Vehicle_Factory">
+		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
+		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01 TEXT_TOOLTIP_GARRISON_R_LTFAC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
+
+		<GUI_Row> 0 </GUI_Row>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Is_Dummy>No</Is_Dummy>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Destruction_Survivors> 
+			Rebel_Survivors_Small, 1.0
+			Rebel_Survivors_Medium, 1.0
+			Rebel_Survivors_Large, 1.0 
+		</Destruction_Survivors>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+
+		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Tutorial_Sabotage_Cost_Credits>100000</Tutorial_Sabotage_Cost_Credits>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>400</Slice_Cost_Credits>
+		
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Tactical_Health>750</Tactical_Health>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> RHD_Light_Vehicle_Factory_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> RHD_Light_Vehicle_Factory_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
+
+		
+		
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+
+		<AI_Combat_Power>600</AI_Combat_Power>
+		<Starting_Spawned_Units_Tech_0>T2B_Tank, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>T2B_Tank, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>140.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		
+		<Tactical_Buildable_Objects_Campaign> 
+			Rebel,
+				RL_Light_Armor_L1_Upgrade,
+				RL_Light_Armor_L2_Upgrade,
+				RL_Enhanced_Repulsors_L1_Upgrade,
+				RL_Enhanced_Repulsors_L2_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+		
+	    <Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Rebel_Light_Tank_Brigade,
+				Rebel_Speeder_Wing,
+				Rebel_MDU_Company,
+				RL_Light_Armor_L1_Upgrade,
+				RL_Light_Armor_L2_Upgrade,
+				RL_Enhanced_Repulsors_L1_Upgrade,
+				RL_Enhanced_Repulsors_L2_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		
+		
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="R_Light_Vehicle_Factory_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			<Redirect_Blaster_Ability Name="R_Magnetically_Sealed_Structure">
+				<Initially_Enabled> No </Initially_Enabled>
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.30</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+			
+		</Abilities>
+	</SpecialStructure>
 
 	
 
@@ -3381,7 +3787,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -3389,7 +3795,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -3559,7 +3965,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -3738,7 +4144,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -3746,7 +4152,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>800</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 
 		<Sabotage_Cost_Credits>2000</Sabotage_Cost_Credits>
 
@@ -3922,7 +4328,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -4042,7 +4448,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>800</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -4050,7 +4456,7 @@
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -4159,7 +4565,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>800</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -4169,7 +4575,7 @@
 		<Base_Position>In_Base</Base_Position>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -4282,7 +4688,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Build_Time_Seconds>240</Build_Time_Seconds>
@@ -4407,7 +4813,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -4436,10 +4842,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -4587,10 +4993,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -4746,7 +5152,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -4768,10 +5174,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
 		<Autoresolve_Health>600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -4887,7 +5293,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -4909,10 +5315,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
 		<Autoresolve_Health>600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -5034,7 +5440,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -5284,10 +5690,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>2800</Tactical_Health>
 		<Autoresolve_Health>600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -5437,10 +5843,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>2800</Tactical_Health>
 		<Autoresolve_Health>1600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -5541,7 +5947,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Scale_Factor>0.75</Scale_Factor>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -5552,7 +5958,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1000</Slice_Cost_Credits>
 		<Base_Position>Out_Base</Base_Position>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Destruction_Survivors> </Destruction_Survivors>
@@ -6185,7 +6591,7 @@
 		<Land_Model_Name>NB_CMC22Mining_Sml.alo</Land_Model_Name>
 		<Icon_Name>i_button_nb_cmc22mining_sml.tga</Icon_Name>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 
 		<Scale_Factor>1.0</Scale_Factor>
 

@@ -9,13 +9,13 @@
 
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
+		<Land_Model_Name> COVN_SDV.ALO </Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
@@ -28,7 +28,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -37,7 +37,7 @@
 		<Tactical_Health>600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> Rebel_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -267,13 +267,13 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>COVN_SDV.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type>E_Ground_Barracks_Build_Pad</Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -302,9 +302,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -313,9 +313,9 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
 		<Build_Time_Seconds>25</Build_Time_Seconds> <!-- Needs Tweaking -->
@@ -330,7 +330,6 @@
 		<Required_Planets />
 		<Tactical_Health>500</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
@@ -359,42 +358,42 @@
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_More_Garrisons_L1_Upgrade,
-				RL_Weatherproof_Upgrade,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Light_Reflective_Armor_L1_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
-				Rebel_Infiltrator_Team,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+				Imperial_Stormtrooper_Squad,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
+				Imperial_Light_Scout_Squad,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
+				Imperial_Stormtrooper_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
 				RL_Infiltrator_Research_Upgrade,
-				Rebel_Infiltrator_Team, 
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
+				Imperial_Light_Scout_Squad, 
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Armor_Group, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Armor_Group, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -458,13 +457,13 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>COVN_SDV.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type>E_Ground_Barracks_Build_Pad</Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -493,9 +492,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -505,7 +504,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
@@ -516,7 +515,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets />
-		<Required_Special_Structures>UNSC_BASIC_BARRACKS</Required_Special_Structures>
+		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
 		<Tactical_Health>500</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -547,42 +546,42 @@
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_More_Garrisons_L1_Upgrade,
-				RL_Weatherproof_Upgrade,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Light_Reflective_Armor_L1_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
-				Rebel_Infiltrator_Team,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+				Imperial_Stormtrooper_Squad,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
+				Imperial_Light_Scout_Squad,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
+				Imperial_Stormtrooper_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
 				RL_Infiltrator_Research_Upgrade,
-				Rebel_Infiltrator_Team, 
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
+				Imperial_Light_Scout_Squad, 
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Armor_Group, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Armor_Group, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -644,7 +643,7 @@
 	<SpecialStructure Name="COVN_STANDARD_BARRACKS_BASE">
 		<Variant_Of_Existing_Type>COVN_STANDARD_BARRACKS</Variant_Of_Existing_Type>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_BASE COVN_BASIC_BARRACKS</Required_Special_Structures>
 
@@ -654,7 +653,7 @@
 	<SpecialStructure Name="COVN_STANDARD_BARRACKS_FORT">
 		<Variant_Of_Existing_Type>COVN_STANDARD_BARRACKS</Variant_Of_Existing_Type>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_FORT COVN_BASIC_BARRACKS</Required_Special_Structures>
 
@@ -670,7 +669,7 @@
 		<Text_ID>TEXT_UNSC_GROUND_STANDARD_BARRACKS_DOWNGRADE</Text_ID>
 		<Encyclopedia_Text> TEXT_UNSC_GROUND_STANDARD_BARRACKS_DOWNGRADE_ENC </Encyclopedia_Text>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_STANDARD_BARRACKS</Required_Special_Structures>
 
@@ -686,13 +685,13 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>COVN_SDV.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type>E_Ground_Barracks_Build_Pad</Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -721,9 +720,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -733,7 +732,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
@@ -744,7 +743,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets />
-		<Required_Special_Structures>UNSC_BASIC_BARRACKS</Required_Special_Structures>
+		<Required_Special_Structures>COVN_BASIC_BARRACKS</Required_Special_Structures>
 		<Tactical_Health>500</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -775,42 +774,42 @@
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_More_Garrisons_L1_Upgrade,
-				RL_Weatherproof_Upgrade,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Light_Reflective_Armor_L1_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
-				Rebel_Infiltrator_Team,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+				Imperial_Stormtrooper_Squad,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
+				Imperial_Light_Scout_Squad,
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infantry_Squad,
+				Imperial_Stormtrooper_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
+				Imperial_Armor_Group,
+				Imperial_Anti_Aircraft_Company,
 				RL_Infiltrator_Research_Upgrade,
-				Rebel_Infiltrator_Team, 
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
+				Imperial_Light_Scout_Squad, 
+				EL_Increased_Mobility_Upgrade,
+				EL_Stamina_Boost_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Armor_Group, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Armor_Group, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -964,7 +963,7 @@
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -993,16 +992,16 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
@@ -1020,11 +1019,11 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_CAMP | COVN_BASE | COVN_FORT | COVN_CAPITAL</Required_Special_Structures>
+		<Required_Special_Structures/>
 		<Required_Planets />
 
 		<Tactical_Health>750</Tactical_Health>
@@ -1070,7 +1069,7 @@
 				RL_Light_Armor_L2_Upgrade,
 				RL_Enhanced_Repulsors_L1_Upgrade,
 				RL_Enhanced_Repulsors_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+				EL_Reinforced_Structures_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 		
 	    <Tactical_Buildable_Objects_Multiplayer> 
@@ -1134,9 +1133,10 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="COVN_STANDARD_FACTORY">
+	<Variant_Of_Existing_Type> E_Ground_Light_Vehicle_Factory </Variant_Of_Existing_Type>
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Land_Model_Name>EB_LightFactory.alo</Land_Model_Name>
+		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
 		<Text_ID>TEXT_UNIT_COVN_BUILDING_FACTORY2</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_BUILDING_FACTORY2</Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01 </MP_Encyclopedia_Text>
@@ -1148,7 +1148,7 @@
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -1177,16 +1177,16 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
@@ -1234,8 +1234,8 @@
 		<Property_Flags>InBase</Property_Flags>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>T2B_Tank, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>T2B_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1249,7 +1249,7 @@
 
 		<Abilities SubObjectList="Yes">
 		
-			<Force_Healing_Ability Name="R_Light_Vehicle_Factory_Self_Repair">
+			<Force_Healing_Ability Name="E_Light_Vehicle_Factory_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
 				<Heal_Percent>0.025</Heal_Percent>
@@ -1266,7 +1266,7 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-			<Redirect_Blaster_Ability Name="R_Magnetically_Sealed_Structure">
+			<Redirect_Blaster_Ability Name="E_Magnetically_Sealed_Structure">
 				<Initially_Enabled> No </Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -1298,7 +1298,7 @@
 	<SpecialStructure Name="COVN_STANDARD_FACTORY_BASE">
 		<Variant_Of_Existing_Type>COVN_STANDARD_FACTORY</Variant_Of_Existing_Type>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_BASIC_FACTORY COVN_BASE</Required_Special_Structures>
 
@@ -1308,7 +1308,7 @@
 	<SpecialStructure Name="COVN_STANDARD_FACTORY_FORT">
 		<Variant_Of_Existing_Type>COVN_STANDARD_FACTORY</Variant_Of_Existing_Type>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_BASIC_FACTORY COVN_FORT</Required_Special_Structures>
 
@@ -1324,7 +1324,7 @@
 		<Text_ID>TEXT_UNSC_GROUND_STANDARD_FACTORY_DOWNGRADE</Text_ID>
 		<Encyclopedia_Text> TEXT_UNSC_GROUND_STANDARD_FACTORY_DOWNGRADE_ENC </Encyclopedia_Text>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 
 		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
 
@@ -1347,7 +1347,7 @@
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -1376,16 +1376,16 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
@@ -1433,8 +1433,8 @@
 		<Property_Flags>InBase</Property_Flags>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>T2B_Tank, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>T2B_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1519,13 +1519,13 @@
 
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
+		<Land_Model_Name> COVN_SDV.ALO </Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
@@ -1538,7 +1538,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1547,7 +1547,7 @@
 		<Tactical_Health>600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> Rebel_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -1636,13 +1636,13 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_BUILDING_MINE_NANO</Encyclopedia_Text>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
-		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
+		<Land_Model_Name> COVN_SDV.ALO </Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
@@ -1656,7 +1656,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1666,7 +1666,7 @@
 		<Tactical_Health>600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> Rebel_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> Empire_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -1834,7 +1834,7 @@
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type> R_Ground_Research_Facility_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Research_Facility_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
@@ -1867,16 +1867,16 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
-			Rebel_Survivors_Small, 1.0
-			Rebel_Survivors_Medium, 1.0
-			Rebel_Survivors_Large, 1.0 
+			Empire_Survivors_Small, 1.0
+			Empire_Survivors_Medium, 1.0
+			Empire_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>1200</Build_Cost_Credits> <!-- Needs Tweaking -->
@@ -1886,7 +1886,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

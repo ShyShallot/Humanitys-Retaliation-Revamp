@@ -15,7 +15,7 @@
 		<Fire_Max_Recharge_Seconds>300.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 			
@@ -35,7 +35,7 @@
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>20</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -54,7 +54,7 @@
 		<Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>20</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>200.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -77,7 +77,7 @@
 		<Fire_Max_Recharge_Seconds>120.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
             
 			
@@ -98,7 +98,7 @@
 		<Fire_Max_Recharge_Seconds>120.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -120,7 +120,7 @@
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -140,7 +140,7 @@
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -163,7 +163,7 @@
 		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>12</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 	</HardPoint>
@@ -182,7 +182,7 @@
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent/>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 			
 	</HardPoint>
 
@@ -201,7 +201,7 @@
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions/>
 
@@ -221,7 +221,7 @@
 		<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
@@ -241,7 +241,7 @@
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent/>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 
 	</HardPoint>
@@ -260,7 +260,7 @@
 		<Fire_Max_Recharge_Seconds>120.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 			
@@ -284,7 +284,7 @@
 		<Fire_Max_Recharge_Seconds>10.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>15</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
@@ -303,12 +303,13 @@
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
 
 	<HardPoint Name="UNSC_PELICAN_01">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -322,11 +323,10 @@
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Super</Fire_Category_Restrictions>
   
-			
 	</HardPoint>
 	
 	<HardPoint Name="UNSC_PELICAN_02">
@@ -343,7 +343,7 @@
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -363,7 +363,7 @@
 		<Fire_Max_Recharge_Seconds>14.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 			
 	</HardPoint>
@@ -400,7 +400,7 @@
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -422,7 +422,7 @@
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>350</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 

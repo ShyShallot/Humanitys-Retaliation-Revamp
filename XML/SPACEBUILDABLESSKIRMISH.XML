@@ -1385,7 +1385,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<Tactical_Buildable_Constructed> Empire_Mineral_Extractor </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
-		<Scale_Factor> 1 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -1446,7 +1446,7 @@
 	<SpaceBuildable Name="Empire_Mineral_Extractor">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, UNIT_AI, DAMAGE_TRACKING, IDLE, HIDE_WHEN_FOGGED </SpaceBehavior>
-		<Scale_Factor> 1 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
 		<GUI_Row> 0 </GUI_Row>

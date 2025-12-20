@@ -4,7 +4,7 @@
 	
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		
-		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
 
 		<Text_ID> TEXT_FACTION_INSURRECTIONISTS </Text_ID>
 		<Icon_Name> i_icon_terror.tga </Icon_Name>
@@ -22,7 +22,7 @@
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>true</Is_Playable>
 		<Primary_Enemy> Rebel </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
@@ -32,7 +32,7 @@
 		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon>  </Faction_Super_Weapon>
 	
-		<Space_Tactical_Unit_Cap>175</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>250</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		
@@ -739,8 +739,8 @@
 	<!-- End Droid Advisor Speech/Text -->
 
 
-		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Swords, Rebel</Enemies>
+		<Allies></Allies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Rebel, Swords</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

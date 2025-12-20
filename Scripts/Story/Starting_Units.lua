@@ -8,27 +8,27 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = 10000,
-                        Structures = {"UNSC_CAMP"},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Structures = {},
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Low = {
                         Power = 15000,
-                        Structures = {"UNSC_CAMP"},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Structures = {},
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
                     },
                     Medium = {
                         Power = 45000,
-                        Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS"},
-                        Units = {"UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Structures = {},
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     High = {
                         Power = 45000,
-                        Structures = {"UNSC_BASE", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
+                        Structures = {},
                         Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 45000,
-                        Structures = {"UNSC_FORT", "UNSC_BASIC_BARRACKS", "UNSC_BASIC_FACTORY"},
+                        Structures = {},
                         Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     }
                 },
@@ -45,28 +45,28 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = 25000,
-                        Structures = {"COVN_CAMP"},
-                        Units = {"CRS_SQUADRON"}
+                        Structures = {},
+                        Units = {"Imperial_Stormtrooper_Squad", "CRS_SQUADRON"}
                     },
                     Low = {
                         Power = 30500,
-                        Structures = {"COVN_CAMP"},
-                        Units = {"SDV_SQUADRON", "CRS_SQUADRON"}
+                        Structures = {},
+                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON"}
                     },
                     Medium = {
                         Power = 60000,
-                        Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS"},
-                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
+                        Structures = {},
+                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
                     },
                     High = {
                         Power = 120500,
-                        Structures = {"COVN_BASE", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
-                        Units = {"COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
+                        Structures = {},
+                        Units = {"Imperial_Stormtrooper_Squad", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     },
                     Ultra = {
                         Power = 185000,
-                        Structures = {"COVN_FORT", "COVN_BASIC_BARRACKS", "COVN_BASIC_FACTORY"},
-                        Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
+                        Structures = {},
+                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
                     }
                 },
                 Heroes = {
@@ -84,19 +84,19 @@ Starting_Units_Handler = {
             Swords = {
                 Station = {
                     Default = {
-                        Power = 1000,
+                        Power = 20000,
                         Structures = {},
-                        Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron"}
+                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
                     },
                     Low = {
-                        Power = 23500,
+                        Power = 55500,
                         Structures = {},
-                        Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron", "SWORDS_SDV"}
+                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_SDV","SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
                     },
                     Medium = {
-                        Power = 40000,
+                        Power = 65000,
                         Structures = {},
-                        Units = {"SWORDS_Banshee_Squadron", "SWORDS_Cerastes_Squadron", "SWORDS_SDV", "SWORDS_CRS", "SWORDS_CCS"}
+                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_SDV", "SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
                     }
                 },
                 Planets = {},
@@ -107,17 +107,17 @@ Starting_Units_Handler = {
                     Default = {
                         Power = 9000,
                         Structures = {},
-                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron"}
+                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
                     },
                     Low = {
                         Power = 15000,
                         Structures = {},
-                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS"}
+                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
                     },
                     Medium = {
                         Power = 25000,
                         Structures = {},
-                        Units = {"TERROR_Baselard_Squadron", "TERROR_SHORTSWORD_Squadron", "TERROR_MAKO", "TERROR_GLADIUS", "TERROR_PHOENIX"}
+                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
                     }
                 },
                 Planets = {},
@@ -164,6 +164,10 @@ function Starting_Units_Handler:Start()
     self.Global_Unit_Table = require("globalUnitTable")
 
     self.Spawn_Settings.Category_Mapping = DiscreteDistribution.Create() -- Higher Number, higher chance of being selected
+	
+	self.Spawn_Settings.Category_Mapping.Insert("Infantry", 4)
+
+    self.Spawn_Settings.Category_Mapping.Insert("Vehicle", 3)
 
     self.Spawn_Settings.Category_Mapping.Insert("Fighter", 35)
 

@@ -966,7 +966,7 @@
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<Reinforcement_Enabling_Radius>250.0</Reinforcement_Enabling_Radius>
+		<Reinforcement_Enabling_Radius>4250.0</Reinforcement_Enabling_Radius>
 		<Land_FOW_Reveal_Range>275.0</Land_FOW_Reveal_Range>
 		<Capture_Point_Radius>100.0</Capture_Point_Radius>
 		
@@ -983,6 +983,8 @@
 
 		<Faction_Anim_Subindex>Rebel, 0</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Empire, 1</Faction_Anim_Subindex>
+		<Faction_Anim_Subindex>Terrorists, 0</Faction_Anim_Subindex>
+		<Faction_Anim_Subindex>Swords, 1</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Neutral, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Pirates, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>
@@ -991,7 +993,7 @@
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Control_Point_Domination_Condition_Relevant>Yes</Control_Point_Domination_Condition_Relevant>
-		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts, Terrorists, Swords</Affiliation>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>

@@ -52,10 +52,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -121,7 +121,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 
@@ -162,7 +162,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Urban_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Urban_Civilian_Spawn_House_Empire">
@@ -175,7 +175,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Urban_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Urban_Civilian_Spawn_House_Pirate">
@@ -234,7 +234,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Ewok</Affiliation>
@@ -273,7 +273,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Volcanic_Civilian_Spawn_House_Indy_Empire">
@@ -286,7 +286,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Volcanic_Civilian_Spawn_House_Indy_Pirate">
@@ -345,7 +345,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -385,7 +385,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Desert_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Desert_Civilian_Spawn_House_Empire">
@@ -398,7 +398,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Desert_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Desert_Civilian_Spawn_House_Pirate">
@@ -455,7 +455,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -495,7 +495,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Swamp_Civilian_Spawn_House_Empire">
@@ -508,7 +508,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Swamp_Civilian_Spawn_House_Pirate">
@@ -565,7 +565,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -602,7 +602,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Temperate_Civilian_Spawn_House_Empire">
@@ -615,7 +615,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Temperate_Civilian_Spawn_House_Pirate">
@@ -672,7 +672,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -709,7 +709,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Snow_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Arctic_Civilian_Spawn_House_Empire">
@@ -722,7 +722,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Snow_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Arctic_Civilian_Spawn_House_Pirate">
@@ -781,7 +781,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -818,7 +818,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Rebel</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Volcanic_Civilian_Spawn_House_Empire">
@@ -831,7 +831,7 @@
 		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
 		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
 		<Spawned_Indigenous_Pack_Type>Swamp_Civilian_Team_Empire</Spawned_Indigenous_Pack_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 	</GroundStructure>
 
 	<GroundStructure Name="Volcanic_Civilian_Spawn_House_Pirate">
@@ -893,10 +893,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>0</Base_Level_Available>-->
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -968,7 +968,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>600</Tactical_Health>
 		<Autoresolve_Health>600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
@@ -1040,7 +1040,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>600</Tactical_Health>
 		<Autoresolve_Health>600</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
@@ -1108,10 +1108,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>800</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1165,7 +1165,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>800</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Rebel, Empire</Affiliation>
@@ -1233,10 +1233,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1303,7 +1303,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
@@ -1372,10 +1372,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1447,7 +1447,7 @@
 		<Tactical_Health>100</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1516,10 +1516,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1597,7 +1597,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
@@ -1668,7 +1668,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
@@ -1739,10 +1739,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1808,10 +1808,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1873,7 +1873,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
 		<Affiliation>Ewok</Affiliation>
@@ -1936,10 +1936,10 @@
 		
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -1978,10 +1978,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2020,10 +2020,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2081,7 +2081,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
@@ -2110,10 +2110,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2164,10 +2164,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2206,10 +2206,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2248,10 +2248,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Wall </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2328,7 +2328,7 @@
 
 		<Required_Special_Structures>Communications_Array_R</Required_Special_Structures>
 		 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 
 		<Obstacle_Proxy_Type> Rebel_Build_Pad </Obstacle_Proxy_Type>
 
@@ -2345,7 +2345,7 @@
 
 		<Required_Special_Structures>Communications_Array_E</Required_Special_Structures>
 		 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 
 		<Obstacle_Proxy_Type> Empire_Build_Pad </Obstacle_Proxy_Type>
 
@@ -2364,10 +2364,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>0</Base_Level_Available>-->
 		<Armor_Type> Armor_Vehicle_LT </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
@@ -2409,7 +2409,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
@@ -2450,7 +2450,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
@@ -2490,7 +2490,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
@@ -2545,10 +2545,10 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
 		<Autoresolve_Health>1000</Autoresolve_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
@@ -2589,7 +2589,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>999999</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -2618,7 +2618,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>999999</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Neutral</Affiliation>
@@ -2660,7 +2660,7 @@
 		<Tactical_Health>500</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2697,10 +2697,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>0</Base_Level_Available>-->
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
@@ -2728,10 +2728,10 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>0</Base_Level_Available>-->
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
@@ -2762,7 +2762,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 
@@ -2770,7 +2770,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>0</Base_Level_Available>-->
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
@@ -2836,7 +2836,7 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<!--<Base_Level_Available>1</Base_Level_Available>-->
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>

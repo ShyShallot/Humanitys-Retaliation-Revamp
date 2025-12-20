@@ -21,9 +21,9 @@
 <TacticalCameras>
 	<TacticalCamera Name="Land_Mode">
 
-		<Pitch_Default>50</Pitch_Default>  <!-- 45 -->
-		<Pitch_Min>50</Pitch_Min> <!-- 45 -->
-		<Pitch_Max>50</Pitch_Max> <!-- 85 -->
+		<Pitch_Default>25</Pitch_Default>  <!-- 45 -->
+		<Pitch_Min>0.0</Pitch_Min> <!-- 45 -->
+		<Pitch_Max>90</Pitch_Max> <!-- 85 -->
 		<Pitch_Per_Mouse_Unit>0.0</Pitch_Per_Mouse_Unit>
         <Pitch_Per_Zoom_Unit>-30.0</Pitch_Per_Zoom_Unit>   <!-- -17 -->
         <Pitch_When_Zoomed_In>15.0</Pitch_When_Zoomed_In>
@@ -34,8 +34,8 @@
 		<Yaw_Max>1000.0</Yaw_Max>
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 		
-		<Fov_Default>55.0</Fov_Default>
-		<Fov_Max>55.0</Fov_Max>
+		<Fov_Default>75.0</Fov_Default>
+		<Fov_Max>75.0</Fov_Max>
 		<Fov_Min>25.0</Fov_Min>
 		<Fov_Smooth_Time>0.05</Fov_Smooth_Time>
 		<Fov_Per_Mouse_Unit>0</Fov_Per_Mouse_Unit>   <!-- 12.5 -->

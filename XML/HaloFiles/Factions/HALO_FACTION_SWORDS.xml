@@ -21,7 +21,7 @@
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>true</Is_Playable>
 		<Primary_Enemy> Empire </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
@@ -30,7 +30,7 @@
 		<Basic_AI>BasicEmpire</Basic_AI>
 		<Faction_Super_Weapon> Death_Star </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> TIE_Bomber_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>175</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>250</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
@@ -714,8 +714,8 @@
 
 		<!-- End Droid Advisor Speech/Text -->
 
-		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Terrorists, Empire</Enemies>
+		<Allies></Allies>
+		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Empire, Terrorists</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

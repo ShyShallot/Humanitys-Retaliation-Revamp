@@ -323,7 +323,30 @@
 			<Fire_Pulse_Count>15</Fire_Pulse_Count>
 			<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 			<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-			<Fire_Range_Distance>600.0</Fire_Range_Distance>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+  
+			
+    </HardPoint>
+	
+	<HardPoint Name="UNSC_Supply_Depot_HP">
+	
+            <Type>HARD_POINT_FIGHTER_BAY</Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>ROOT</Fire_Bone_A>
+            <Fire_Bone_B>ROOT</Fire_Bone_B>
+            <Fire_Cone_Width>360.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>                          
+			<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+			<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>2.6</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>6</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.30</Fire_Pulse_Delay_Seconds>
+			<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
+			<Fire_Range_Distance>2600.0</Fire_Range_Distance>
 			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
   
 			

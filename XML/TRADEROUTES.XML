@@ -287,6 +287,15 @@
 		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Normal</Visible_Line_Name>
 	</TradeRoute>
+	
+	<TradeRoute Name="Taram_Thua">
+		<Point_A>Taram</Point_A>
+		<Point_B>Thua</Point_B>
+		<HS_Speed_Factor>1.0</HS_Speed_Factor>
+		<Political_Control_Gain>0.0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+        <Visible_Line_Name>Normal</Visible_Line_Name>
+	</TradeRoute>
 
 	<TradeRoute Name="Thua_Song_Of_Victory">
 		<Point_A>Thua</Point_A>

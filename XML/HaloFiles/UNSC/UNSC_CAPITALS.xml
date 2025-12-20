@@ -173,7 +173,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -263,8 +263,8 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>48500</Tactical_Health>
-		<Shield_Points>0</Shield_Points>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Points>0.0</Shield_Points>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
@@ -368,7 +368,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -468,8 +468,8 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
 		<Tactical_Health>69000</Tactical_Health>
-		<Shield_Points>0</Shield_Points>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Points>0.0</Shield_Points>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
@@ -575,7 +575,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -794,7 +794,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -883,7 +883,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
-		<Required_Planets>Earth, Mars</Required_Planets>
+		<Required_Planets>Earth, Mars, Eridanus_2</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>100005</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -1070,7 +1070,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -1098,7 +1098,7 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>25</Population_Value>
-		<Additional_Population_Capacity>10</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
+		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 	</SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_EPOCH">
@@ -1165,7 +1165,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>15750</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
-		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Build_Time_Seconds>180</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -1273,7 +1273,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.0001f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				

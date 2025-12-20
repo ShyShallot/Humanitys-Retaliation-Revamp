@@ -3,12 +3,14 @@
 
 	<GroundBuildable Name="Skirmish_Build_Pad">
 
-		<Behavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT </Behavior>
+		<Behavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT, SELECTABLE </Behavior>
 
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
 		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Affiliation>Neutral, Rebel, Empire, Pirates, Terrorists, Swords</Affiliation>
 		
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign> 
@@ -31,8 +33,23 @@
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
 				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility
+				UC_Pirate_Buildable_Repair_Facility,
+			Terrorists,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret, 
+				UC_Rebel_Buildable_Anti_Infantry_Turret, 
+				UC_Rebel_Buildable_Anti_Aircraft_Turret, 
+				UC_Rebel_Buildable_Bacta_Tank, 
+				UC_Rebel_Buildable_Repair_Facility, 
+				UC_Rebel_Buildable_Sensor_Node,
+			Swords, 
+				UC_Empire_Buildable_Anti_Vehicle_Turret, 
+				UC_Empire_Buildable_Anti_Infantry_Turret, 
+				UC_Empire_Buildable_Anti_Aircraft_Turret, 
+				UC_Empire_Buildable_Bacta_Tank, 
+				UC_Empire_Buildable_Repair_Facility, 
+				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
+		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
 				UC_Empire_Buildable_Anti_Vehicle_Turret, 
@@ -53,7 +70,21 @@
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
 				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility
+				UC_Pirate_Buildable_Repair_Facility,
+		    Terrorists,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret, 
+				UC_Rebel_Buildable_Anti_Infantry_Turret, 
+				UC_Rebel_Buildable_Anti_Aircraft_Turret, 
+				UC_Rebel_Buildable_Bacta_Tank, 
+				UC_Rebel_Buildable_Repair_Facility, 
+				UC_Rebel_Buildable_Sensor_Node,
+			Swords, 
+				UC_Empire_Buildable_Anti_Vehicle_Turret, 
+				UC_Empire_Buildable_Anti_Infantry_Turret, 
+				UC_Empire_Buildable_Anti_Aircraft_Turret, 
+				UC_Empire_Buildable_Bacta_Tank, 
+				UC_Empire_Buildable_Repair_Facility, 
+				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
@@ -72,7 +103,6 @@
 		<!--<Is_Sprite> No </Is_Sprite>-->
 		<Shield_Points> 0 </Shield_Points>
 		<Tactical_Health> 10000 </Tactical_Health>
-		<Affiliation> Neutral </Affiliation>
 		<Base_Level_Available> 1 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
 		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
@@ -87,7 +117,7 @@
 		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Affiliation>Neutral, Rebel, Empire, Pirates</Affiliation>
+		
 		<Immune_To_Damage>True</Immune_To_Damage>
 		
 	</GroundBuildable>
@@ -109,6 +139,20 @@
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
+			Terrorists,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret, 
+				UC_Rebel_Buildable_Anti_Infantry_Turret, 
+				UC_Rebel_Buildable_Anti_Aircraft_Turret, 
+				UC_Rebel_Buildable_Bacta_Tank, 
+				UC_Rebel_Buildable_Repair_Facility, 
+				UC_Rebel_Buildable_Sensor_Node,
+			Swords, 
+				UC_Empire_Buildable_Anti_Vehicle_Turret, 
+				UC_Empire_Buildable_Anti_Infantry_Turret, 
+				UC_Empire_Buildable_Anti_Aircraft_Turret, 
+				UC_Empire_Buildable_Bacta_Tank, 
+				UC_Empire_Buildable_Repair_Facility, 
+				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -137,6 +181,10 @@
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
+			Swords, 
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+			Terrorists,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -144,7 +192,11 @@
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			Pirates, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret, 
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+			Swords, 
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+			Terrorists,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,	
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -163,7 +215,15 @@
 				UC_Rebel_Buildable_Sensor_Node,
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility
+				UC_Pirate_Buildable_Repair_Facility,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank, 
+				UC_Rebel_Buildable_Repair_Facility, 
+				UC_Rebel_Buildable_Sensor_Node,
+			Swords,  
+				UC_Empire_Buildable_Bacta_Tank, 
+				UC_Empire_Buildable_Repair_Facility, 
+				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -176,7 +236,15 @@
 				UC_Rebel_Buildable_Sensor_Node,
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility
+				UC_Pirate_Buildable_Repair_Facility,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank, 
+				UC_Rebel_Buildable_Repair_Facility, 
+				UC_Rebel_Buildable_Sensor_Node,
+			Swords,  
+				UC_Empire_Buildable_Bacta_Tank, 
+				UC_Empire_Buildable_Repair_Facility, 
+				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -192,6 +260,10 @@
 				UC_Rebel_Buildable_Bacta_Tank, 
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
+			Swords, 
+				UC_Empire_Buildable_Bacta_Tank,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank, 
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -200,6 +272,10 @@
 				UC_Rebel_Buildable_Bacta_Tank,
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
+			Swords, 
+				UC_Empire_Buildable_Bacta_Tank,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank, 
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -220,6 +296,14 @@
 				UC_Pirate_Buildable_Bacta_Tank,
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
 				UC_Pirate_Buildable_Repair_Facility,
+			Swords, 
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Repair_Facility,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Anti_Infantry_Turret, 
+				UC_Rebel_Buildable_Repair_Facility,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -230,7 +314,15 @@
 				UC_Rebel_Buildable_Anti_Infantry_Turret, 
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+			Swords, 
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Repair_Facility,
+			Terrorists,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Anti_Infantry_Turret, 
+				UC_Rebel_Buildable_Repair_Facility,
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -265,7 +357,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -320,7 +412,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -379,7 +471,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -435,7 +527,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -526,7 +618,7 @@
 		<Movie_Object>false</Movie_Object>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>		
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Terrorists, Swords</Affiliation>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -579,7 +671,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
@@ -641,7 +733,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -716,7 +808,7 @@
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
   		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
  		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>	
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
@@ -779,7 +871,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
@@ -875,7 +967,7 @@
 		<Movie_Object>false</Movie_Object>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>		
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Terrorists, Swords</Affiliation>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -887,7 +979,7 @@
 		<Variant_Of_Existing_Type>N_Small_Ground_Base_Shield_Build_Pad</Variant_Of_Existing_Type>
 		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL, BASE_SHIELD, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
 				UC_E_Small_Ground_Base_Shield, 
@@ -905,7 +997,7 @@
 		<Variant_Of_Existing_Type>N_Small_Ground_Base_Shield_Build_Pad</Variant_Of_Existing_Type>
 		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL, BASE_SHIELD, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel, 
 				UC_R_Small_Ground_Base_Shield, 
@@ -964,7 +1056,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1036,7 +1128,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
@@ -1113,7 +1205,7 @@
 			Rebel,
 				UC_Rebel_Ground_Mining_Facility, 
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Terrorists, Swords</Affiliation>
 		<Capture_Point_Radius>150</Capture_Point_Radius>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00 MP_TEXT_ENCYCLOPEDIA_MINING_01 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </MP_Encyclopedia_Text>
@@ -1135,7 +1227,7 @@
 		
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 			
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1185,7 +1277,7 @@
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 		
 		<Obstacle_Proxy_Type> Empire_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
 		
 		<Space_Layer> Corvette </Space_Layer>
@@ -1240,7 +1332,7 @@
 		
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 			
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1291,7 +1383,7 @@
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 		
 		<Obstacle_Proxy_Type> Rebel_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
 		
 		<Space_Layer> Corvette </Space_Layer>
@@ -1393,7 +1485,7 @@
 				UC_R_Ground_Turbolaser_Tower, 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Terrorists, Swords</Affiliation>
 		<Capture_Point_Radius>150</Capture_Point_Radius>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		
@@ -1416,7 +1508,7 @@
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Is_Dummy>No</Is_Dummy>
 		<Is_Community_Property>Yes</Is_Community_Property>
@@ -1464,7 +1556,7 @@
 		<Tactical_Buildable_Constructed> E_Ground_Turbolaser_Tower </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Is_Dummy>No</Is_Dummy>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -1532,7 +1624,7 @@
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Is_Dummy>No</Is_Dummy>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -1579,7 +1671,7 @@
 		<Tactical_Buildable_Constructed> R_Ground_Turbolaser_Tower </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Is_Dummy>No</Is_Dummy>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -1664,7 +1756,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1712,7 +1804,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1774,7 +1866,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1821,7 +1913,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1883,7 +1975,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1931,7 +2023,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1993,7 +2085,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2041,7 +2133,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2103,7 +2195,7 @@
 				
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2151,7 +2243,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2213,7 +2305,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2261,7 +2353,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2323,7 +2415,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2369,7 +2461,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2430,7 +2522,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_officer_academy.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2476,7 +2568,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_officer_academy.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2536,7 +2628,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2582,7 +2674,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2619,7 +2711,7 @@
 		<Capture_Point_Transition_Time_Seconds>5</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>200</Capture_Point_Radius>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Affiliation>Rebel, Empire, Neutral</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Terrorists, Swords</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				EN_Imperial_Pod_Walker_Company,
@@ -2693,7 +2785,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_research_facility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2741,7 +2833,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_e_research_facility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2804,7 +2896,7 @@
 		
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2852,7 +2944,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2918,7 +3010,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2970,7 +3062,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3030,7 +3122,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -3082,7 +3174,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3143,7 +3235,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3202,7 +3294,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3265,7 +3357,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3322,7 +3414,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3450,7 +3542,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Swords</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -3519,7 +3611,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>

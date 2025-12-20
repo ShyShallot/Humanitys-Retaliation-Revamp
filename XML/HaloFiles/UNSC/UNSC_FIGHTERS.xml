@@ -34,10 +34,10 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -108,7 +108,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -150,7 +150,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>125</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -222,7 +222,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 	<Squadron Name="Late_Longsword_Squadron_Paris">
@@ -236,7 +236,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>125</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -308,7 +308,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 
 
@@ -345,10 +345,10 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>650</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -419,7 +419,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -488,7 +488,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>375</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -584,7 +584,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 
 	<Squadron Name="Longsword_Far_Isle_Squadron">
@@ -654,12 +654,12 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>190</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
@@ -727,7 +727,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -796,7 +796,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>35</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -894,7 +894,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -935,7 +935,7 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>545</Shield_Points>
@@ -1009,7 +1009,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -1075,7 +1075,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>165</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -1175,7 +1175,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1215,12 +1215,12 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -1289,7 +1289,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -1359,7 +1359,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>80</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -1460,7 +1460,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		
 	</Squadron>
 	
@@ -1499,7 +1499,7 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>455</Shield_Points>
@@ -1574,7 +1574,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 
@@ -1641,7 +1641,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>180</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -1740,7 +1740,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1779,10 +1779,10 @@
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -1855,7 +1855,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -1897,7 +1897,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -1969,7 +1969,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -2010,7 +2010,7 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>300</Shield_Points>
@@ -2086,7 +2086,7 @@
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -2128,7 +2128,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>195</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -2200,7 +2200,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>0</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>100</AI_Combat_Power>
+		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
 	
 

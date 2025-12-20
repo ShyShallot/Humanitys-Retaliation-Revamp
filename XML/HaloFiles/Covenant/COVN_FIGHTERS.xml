@@ -305,7 +305,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>40</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -564,7 +564,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>60</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -774,7 +774,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>10</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
