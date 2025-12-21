@@ -159,10 +159,10 @@ function EvenMoreRandomFloat(count)
 end
 
 function Find_Human_Player()
-    empire = Find_Player("EMPIRE")
-    rebels = Find_Player("REBEL")
-    terror = Find_Player("Terrorists")
-    swords = Find_Player("Swords")
+    local empire = Find_Player("EMPIRE")
+    local rebels = Find_Player("REBEL")
+    local terror = Find_Player("Terrorists")
+    local swords = Find_Player("Swords")
 
     if empire.Is_Human() then
         return empire
@@ -172,11 +172,11 @@ function Find_Human_Player()
         return rebels
     end
 
-    if terror.Is_Human()
+    if terror.Is_Human() then
         return terror
     end
 
-    if swords.Is_Human()
+    if swords.Is_Human() then
         return swords
     end
 
