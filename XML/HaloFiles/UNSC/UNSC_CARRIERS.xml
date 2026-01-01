@@ -12,7 +12,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>72000</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>                                                  
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -537,16 +537,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>8</Population_Value>
-	<!--</SpaceUnit>
 
-	 <SpaceUnit Name="UNSC_POSEIDON_2">
-		<Variant_Of_Existing_Type>UNSC_POSEIDON</Variant_Of_Existing_Type>
-		<Tech_Level>3</Tech_Level>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-	</SpaceUnit> -->
 	</SpaceUnit>
+	
 </CarrierUnits>

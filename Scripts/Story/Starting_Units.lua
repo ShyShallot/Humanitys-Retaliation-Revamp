@@ -9,12 +9,12 @@ Starting_Units_Handler = {
                     Default = {
                         Power = 10000,
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER"}
                     },
                     Low = {
                         Power = 15000,
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON"}
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER"}
                     },
                     Medium = {
                         Power = 45000,
@@ -24,12 +24,12 @@ Starting_Units_Handler = {
                     High = {
                         Power = 45000,
                         Structures = {},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 45000,
                         Structures = {},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     }
                 },
                 Heroes = {

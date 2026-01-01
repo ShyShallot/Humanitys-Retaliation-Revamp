@@ -77,7 +77,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -263,7 +263,7 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>48500</Tactical_Health>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -284,7 +284,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
@@ -468,7 +468,7 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
 		<Tactical_Health>69000</Tactical_Health>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -488,7 +488,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		
 		<CategoryMask> Capital | AntiFrigate | Antifighter </CategoryMask>
@@ -699,7 +699,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
@@ -904,7 +904,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -1175,7 +1175,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>

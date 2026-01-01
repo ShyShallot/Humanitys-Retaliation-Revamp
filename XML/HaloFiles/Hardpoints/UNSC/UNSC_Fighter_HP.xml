@@ -235,7 +235,7 @@
 		<Fire_Bone_B>FB_CANNON_02</Fire_Bone_B>
 		<Fire_Cone_Width>5.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Baselard</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_M2056_30MM</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
@@ -400,7 +400,7 @@
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_Range_Distance>1250</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -427,5 +427,18 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
 	</Hardpoint>
+	
+	<HardPoint Name="UNSC_SHIP_SPAWNER">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>1000.0</Health>			
+        <Attachment_Bone>Root</Attachment_Bone>		 
+		<Collision_Mesh>Root</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
 	
 </HardPoints>

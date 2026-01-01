@@ -561,7 +561,7 @@
 	-->
 
 
-	<Ships_Per_Stack>5</Ships_Per_Stack>
+	<Ships_Per_Stack>25</Ships_Per_Stack>
 
 	<Encyclopedia_Population_Offset>11</Encyclopedia_Population_Offset>
 	<Encyclopedia_Name_Offset>78</Encyclopedia_Name_Offset>
@@ -5046,15 +5046,38 @@
 	<Energy_Beam_Texture>tractor_beam00.tga</Energy_Beam_Texture>
 	<Energy_Beam_Color>255, 75, 0</Energy_Beam_Color>
 	
-	<MP_Color_Blue>78,150,237</MP_Color_Blue>	 
-	<MP_Color_Red>237,78,78</MP_Color_Red>		 
-	<MP_Color_Green>119,237,78</MP_Color_Green>	
-	<MP_Color_Orange>237,149,78</MP_Color_Orange>
-	<MP_Color_Cyan>111,217,224</MP_Color_Cyan>	 
-	<MP_Color_Purple>224,111,209</MP_Color_Purple>
-	<MP_Color_Yellow>224,215,111</MP_Color_Yellow>
-	<MP_Color_Gray>109,75,5</MP_Color_Gray>	 
-	<MP_Color_Eight>65,129,42</MP_Color_Eight>	 
+	<MP_Color_Blue>186, 202, 255</MP_Color_Blue>	 
+	<MP_Color_Red>255, 186, 186</MP_Color_Red>		 
+	<MP_Color_Green>187, 255, 186</MP_Color_Green>	
+	<MP_Color_Orange>255, 215, 186</MP_Color_Orange>
+	<MP_Color_Cyan>183, 247, 245</MP_Color_Cyan>	 
+	<MP_Color_Purple>227, 177, 252</MP_Color_Purple>
+	<MP_Color_Yellow>242, 252, 177</MP_Color_Yellow>
+	<MP_Color_Gray>255, 255, 255</MP_Color_Gray>	 
+	<MP_Color_Eight>253, 207, 255</MP_Color_Eight>
+	
+	<!-- PALE COLORS
+	<MP_Color_Blue>186, 202, 255</MP_Color_Blue>	 
+	<MP_Color_Red>255, 186, 186</MP_Color_Red>		 
+	<MP_Color_Green>187, 255, 186</MP_Color_Green>	
+	<MP_Color_Orange>255, 215, 186</MP_Color_Orange>
+	<MP_Color_Cyan>183, 247, 245</MP_Color_Cyan>	 
+	<MP_Color_Purple>227, 177, 252</MP_Color_Purple>
+	<MP_Color_Yellow>242, 252, 177</MP_Color_Yellow>
+	<MP_Color_Gray>255, 255, 255</MP_Color_Gray>	 
+	<MP_Color_Eight>253, 207, 255</MP_Color_Eight>-->
+
+   <!-- BRIGHT COLORS 
+
+	<MP_Color_Blue>54, 185, 255</MP_Color_Blue>	 
+	<MP_Color_Red>255, 54, 54</MP_Color_Red>		 
+	<MP_Color_Green>102, 250, 120</MP_Color_Green>	
+	<MP_Color_Orange>255, 158, 54</MP_Color_Orange>
+	<MP_Color_Cyan>54, 255, 222</MP_Color_Cyan>	 
+	<MP_Color_Purple>165, 54, 255</MP_Color_Purple>
+	<MP_Color_Yellow>255, 228, 54</MP_Color_Yellow>
+	<MP_Color_Gray>153, 149, 124</MP_Color_Gray>	 
+	<MP_Color_Eight>252, 101, 207</MP_Color_Eight> -->	
 
 	<!-- Localized splash screen asset names -->
 	<Localized_Splash_Screen> ENGLISH, 	Splash.TGA </Localized_Splash_Screen>
@@ -5135,7 +5158,7 @@
 		UNSC_MAKO, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_MUSASHI, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_PARIS, Data\ship_nicknames_frigate_unsc.txt,
-		UNSC_STRIDENT, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_UNSC_SINGLE_STRIDENT, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_STALWART, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_POSEIDON, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_EPOCH, Data\ship_nicknames_capital_unsc.txt,

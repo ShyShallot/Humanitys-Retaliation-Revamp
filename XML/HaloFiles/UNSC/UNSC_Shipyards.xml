@@ -30,7 +30,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CORVETTE.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -87,7 +87,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_02_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
 
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 
@@ -115,7 +115,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
 
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
@@ -145,7 +145,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
 		
 		<Tech_Level>4</Tech_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -210,7 +210,7 @@
 		
 		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
 			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
-			UNSC_HALC_FLAK_01, UNSC_HALC_FLAK_02, UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
+			UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
 			HP_HALC_REACTOR</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -222,20 +222,13 @@
 				Late_Longsword_Squadron,
 				Sabre_Squadron,
 				Broadsword_Squadron,
-				Condor_Squadron, -->
-				B312_Squadron
+				Condor_Squadron,
+				B312_Squadron -->
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Condor_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>MAKO_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Buckler_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_BUCKLER, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Gladius_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>
 
@@ -243,7 +236,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CORVETTE.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -340,21 +333,21 @@
 			 Rebel,
 				UNSC_IAC,
 				UNSC_Fleet_Captain,
-				<!-- Charon_Squadron,
-				Stalwart_Squadron,
-				Paris_Squadron,
-				Halberd_Squadron,
-				UNSC_STRIDENT,
-				UNSC_POSEIDON -->
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
+				UNSC_SINGLE_PARIS,
+				UNSC_SINGLE_HALBERD,
+				UNSC_SINGLE_STRIDENT,
+				UNSC_POSEIDON
 
 		</Tactical_Buildable_Objects_Multiplayer>
 			
 		
-		<Starting_Spawned_Units_Tech_0>Charon_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stalwart_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Paris_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Halberd_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_CHARON, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STALWART, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_PARIS, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_HALBERD, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_POSEIDON, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
 		
@@ -418,7 +411,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SHIPYARD_FRIGATE_SPAWNER.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
 
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -457,7 +450,16 @@
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
-		<Hardpoints>UNSC_Supply_Depot_HP</Hardpoints>
+		<Hardpoints>
+		
+		UNSC_Supply_Depot_HP,HP_Archer_01, HP_Archer_02, HP_Archer_03, HP_Archer_04, HP_Archer_05, HP_Archer_06, HP_Archer_07, HP_Archer_08, HP_Archer_09, HP_Archer_10,
+		HP_Archer_11, HP_Archer_12, HP_Archer_13, HP_Archer_14, HP_Archer_15, HP_Archer_16, HP_Archer_17, HP_Archer_18, HP_Archer_19, HP_Archer_20,
+		HP_Archer_21, HP_Archer_22, HP_Archer_23, HP_Archer_24, HP_Archer_25, HP_Archer_26, HP_Archer_27, HP_Archer_28, HP_Archer_29, HP_Archer_30,
+		HP_Archer_31, HP_Archer_32, HP_Archer_33, HP_Archer_34, HP_Archer_35, HP_Archer_36, HP_Archer_37, HP_Archer_38, HP_Archer_39, HP_Archer_40,
+		HP_Archer_41, HP_Archer_42, HP_Archer_43, HP_Archer_44, HP_Archer_45, HP_Archer_46, HP_Archer_47, HP_Archer_48, HP_Archer_49, HP_Archer_50,
+		HP_Archer_51, HP_Archer_52, HP_Archer_53, HP_Archer_54, HP_M810_01, HP_M810_02, HP_M810_03, HP_M810_04, HP_M810_05, HP_M810_06, HP_M810_07, HP_M810_08, HP_M810_09, HP_M810_10, HP_M810_11, HP_M810_12, HP_M810_13, HP_M810_14, HP_M810_15, HP_M810_16, HP_M810_17, HP_M810_18, HP_M810_19, HP_M810_20, HP_M870_01, HP_M870_02, HP_M870_03, HP_M870_04, HP_M870_05, HP_M870_06, HP_M870_07, HP_M870_08, HP_M870_09, HP_M870_10, HP_M870_11, HP_M870_12, HP_M66_01, HP_M66_02, HP_M66_03, HP_M66_04,HP_M66_05, HP_M66_06, HP_M66_07, HP_M66_08, HP_M66_09, HP_M66_10, HP_M66_11, HP_M66_12, HP_breakwater_01, HP_breakwater_02
+			
+		</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
@@ -541,7 +543,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SHIPYARD_CAPITAL_SPAWNER.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
 
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 
@@ -587,7 +589,7 @@
 		<Required_Planets/>
 		<Tactical_Health>14500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
 		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02</Hardpoints>
 			
@@ -597,7 +599,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_CARGO.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -624,6 +626,29 @@
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Condor_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
+		
+		<!-- <Tactical_Buildable_Objects_Multiplayer> 
+		
+			Rebels,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,   
+				Late_Longsword_Squadron,
+				Sabre_Squadron,
+				Broadsword_Squadron,
+				Condor_Squadron,
+				B312_Squadron,
+
+		</Tactical_Buildable_Objects_Multiplayer> -->
 		
 		<Abilities SubObjectList="Yes">
 		
@@ -654,7 +679,7 @@
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player></Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
 		<Build_Limit_Current_For_All_Allies>14</Build_Limit_Current_For_All_Allies>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -663,6 +688,7 @@
 		<AI_Combat_Power>250</AI_Combat_Power>
 		
 	</SpecialStructure>
+	
 	
 	
 

@@ -9,7 +9,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>67500</Tactical_Health>
-		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -25,11 +25,13 @@
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
+		
 			Rebel,
 				UNSC_Cargo_Depot_Skirmish,
 				UNSC_Light_Shipyard_Skirmish,
 				RS_Level_Two_Starbase_Upgrade,
-				<!-- Pelican_Squadron,
+				UNSC_SINGLE_PARIS,
+			<!--Pelican_Squadron,
 				Shortsword_Squadron,
 				Baselard_Squadron,   
 				Late_Longsword_Squadron,
@@ -37,13 +39,13 @@
 				Broadsword_Squadron,
 				Condor_Squadron,
 				MAKO_Squadron,
-				Buckler_Squadron,
+				UNSC_SINGLE_BUCKLER,
 				Gladius_Squadron,
-				Charon_Squadron,
-				Stalwart_Squadron,
-				Paris_Squadron,
-				Halberd_Squadron,
-				UNSC_STRIDENT,
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
+				UNSC_SINGLE_PARIS,
+				UNSC_SINGLE_HALBERD,
+				UNSC_SINGLE_STRIDENT,
 				UNSC_POSEIDON,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
@@ -130,7 +132,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>95000</Tactical_Health>
-		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -156,10 +158,10 @@
 				Shortsword_Squadron,
 				Baselard_Squadron,  
 				MAKO_Squadron,
-				Buckler_Squadron,
+				UNSC_SINGLE_BUCKLER,
 				Gladius_Squadron,
-				Charon_Squadron,
-				Stalwart_Squadron,
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
 				Paris_Squadron,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
@@ -240,7 +242,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>155000</Tactical_Health>
-		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -274,10 +276,10 @@
 				Broadsword_Squadron,
 				Condor_Squadron, 
 				MAKO_Squadron,
-				Buckler_Squadron,
+				UNSC_SINGLE_BUCKLER,
 				Gladius_Squadron,
-				Charon_Squadron,
-				Stalwart_Squadron,
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
 				Paris_Squadron,
 				UNSC_MUSASHI,
 				UNSC_PHOENIX,
@@ -359,7 +361,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>20000</Shield_Points>
 		<Tactical_Health>210000</Tactical_Health>
-		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -395,12 +397,12 @@
 				Broadsword_Squadron,
 				Condor_Squadron,
 				MAKO_Squadron,
-				Buckler_Squadron,
+				UNSC_SINGLE_BUCKLER,
 				Gladius_Squadron,
-				Charon_Squadron,
-				Stalwart_Squadron,
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
 				Paris_Squadron,
-				Halberd_Squadron,
+				UNSC_SINGLE_HALBERD,
 				UNSC_STRIDENT,
 				UNSC_POSEIDON,
 				UNSC_MUSASHI,
@@ -484,7 +486,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>88000</Shield_Points>
 		<Tactical_Health>275000</Tactical_Health>
-		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -522,12 +524,12 @@
 				Broadsword_Squadron,
 				Condor_Squadron,
 				MAKO_Squadron,
-				Buckler_Squadron,
+				UNSC_SINGLE_BUCKLER,
 				Gladius_Squadron,
-				Charon_Squadron,
-				Stalwart_Squadron,
+				UNSC_SINGLE_CHARON,
+				UNSC_SINGLE_STALWART,
 				Paris_Squadron,
-				Halberd_Squadron,
+				UNSC_SINGLE_HALBERD,
 				UNSC_STRIDENT,
 				UNSC_POSEIDON,
 				UNSC_MUSASHI,

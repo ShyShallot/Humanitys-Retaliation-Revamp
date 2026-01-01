@@ -159,18 +159,24 @@ function EvenMoreRandomFloat(count)
 end
 
 function Find_Human_Player()
+<<<<<<< Updated upstream
     local empire = Find_Player("EMPIRE")
     local rebels = Find_Player("REBEL")
     local terror = Find_Player("Terrorists")
     local swords = Find_Player("Swords")
+=======
+    empire = Find_Player("EMPIRE")
+    rebels = Find_Player("REBEL")
+>>>>>>> Stashed changes
 
-    if empire.Is_Human() then
+    if empire.Is_Human() and (not rebels.Is_Human()) then
+        DebugMessage("%s -- Human player is Empire", tostring(Script))
         return empire
-    end
-
-    if rebels.Is_Human() then
+    elseif rebels.Is_Human() and (not empire.Is_Human()) then
+        DebugMessage("%s -- Human player is Rebel", tostring(Script))
         return rebels
     end
+<<<<<<< Updated upstream
 
     if terror.Is_Human() then
         return terror
@@ -181,6 +187,8 @@ function Find_Human_Player()
     end
 
     return nil
+=======
+>>>>>>> Stashed changes
 end
 
 function PrintTable(array)

@@ -34,7 +34,7 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed> 1 </Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -50,7 +50,7 @@
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<FormationOrder> 1 </FormationOrder>
 		
-		<Scale_Factor>1.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<CanCellStack>yes</CanCellStack>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
@@ -214,7 +214,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>1.5</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -363,7 +363,7 @@
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed>1.2</Max_Speed>
+		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -376,7 +376,7 @@
 		<OverrideDeceleration> 0.05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>1.5</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -534,7 +534,7 @@
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .269 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .393 </Crouch_Animation_Speed>
-		<Max_Speed>1</Max_Speed>
+		<Max_Speed>0.5</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
@@ -548,7 +548,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>1.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -728,7 +728,7 @@
 		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 1 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -744,7 +744,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>1.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -920,7 +920,7 @@
 		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 1 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -939,7 +939,7 @@
 
 		<Select_Box_Scale>20</Select_Box_Scale>
 
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1093,7 +1093,7 @@
 		
 		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
-		<Max_Speed>1.4</Max_Speed>
+		<Max_Speed>0.6</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1108,7 +1108,7 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>1.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1272,7 +1272,7 @@
 		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 1 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.5 </Max_Speed> <!-- DECR from 1.0 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1287,7 +1287,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -1449,7 +1449,7 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -1593,7 +1593,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
@@ -1726,7 +1726,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire, Swords</Affiliation>
@@ -1866,7 +1866,7 @@
 		<Text_ID>Covenant-Elite</Text_ID>
 		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SHIELDED</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 1 </Max_Speed>
+		<Max_Speed> 0.5 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -1879,7 +1879,7 @@
 		<Text_ID>UNSC-Army-Trooper</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 1 </Max_Speed>
+		<Max_Speed> 0.5 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -1910,7 +1910,7 @@
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 1 </Max_Speed>
+		<Max_Speed> 0.5 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>

@@ -1349,7 +1349,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_01</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_01</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_01_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1419,7 +1419,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_03</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_03</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_03_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1454,7 +1454,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_04</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_04</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_04_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1489,7 +1489,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_05</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_05</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_05_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1524,7 +1524,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_06</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_06</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_06_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1559,7 +1559,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_07</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_07</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_07_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1594,7 +1594,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_08</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_08</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_08_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1629,7 +1629,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_09</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_09</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_09_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1664,7 +1664,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_10</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_10</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_10_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1699,7 +1699,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_11</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_11</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_11_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1734,7 +1734,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_12</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_12</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_12_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1769,7 +1769,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_13</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_13</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_13_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1804,7 +1804,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_14</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_14</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_14_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1839,7 +1839,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_15</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_15</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_15_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1874,7 +1874,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_16</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_16</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_16_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1909,7 +1909,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_17</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_17</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_17_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1944,7 +1944,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_18</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_18</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_18_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -1979,7 +1979,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_19</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_19</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_19_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -2014,7 +2014,7 @@
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
         <Attachment_Bone>TURRETS_M33_20</Attachment_Bone>        <!-- Bone Names got flipped but too lazy to fix model so deal with it-->
         <Collision_Mesh>TURRETS_M33_20</Collision_Mesh>
-        <Damage_Particles>TURRETS_M33_20_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
@@ -2145,7 +2145,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_01</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_01</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_01_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_01</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_01</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2172,7 +2172,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_02</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_02</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_02_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_02</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_02</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2199,7 +2199,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_03</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_03</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_03_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_03</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_03</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2226,7 +2226,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_04</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_04</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_04_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_04</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_04</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2253,7 +2253,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_05</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_05</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_05_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_05</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_05</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2280,7 +2280,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_06</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_06</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_06_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_06</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_06</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2307,7 +2307,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_07</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_07</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_07_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_07</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_07</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -2334,7 +2334,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Attachment_Bone>HP_ARCHER_08</Attachment_Bone>
         <Collision_Mesh>HP_ARCHER_08</Collision_Mesh>
-        <Damage_Particles>HP_ARCHER_08_EMIT</Damage_Particles>
+        <Damage_Particles></Damage_Particles>
         <Fire_Bone_A>HP_ARCHER_08</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_08</Fire_Bone_B>
         <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>

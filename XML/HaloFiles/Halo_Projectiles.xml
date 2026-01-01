@@ -586,7 +586,7 @@
 	
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>12.0</Max_Speed>
+		<Max_Speed>8.0</Max_Speed>
 		<Projectile_Damage>100.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>35.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -614,17 +614,20 @@
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>12.0</Max_Speed>
+		<Max_Speed>8.0</Max_Speed>
 		<Projectile_Damage>45.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<CategoryMask>Transport</CategoryMask>
-		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Category>MISSILE</Projectile_Category>
 	
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Projectile_Category>MISSILE</Projectile_Category>
 		
 		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1110,13 +1113,13 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<!-- <Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade> -->
-		<Max_Speed>28.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
 		<Projectile_Damage>5.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>4500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1233,7 +1236,7 @@
 	<Projectile Name="Proj_UNSC_M370_AUTOCANNON"> <!-- Pelican Autocannon -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>8.6</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1259,7 +1262,7 @@
 	<Projectile Name="Proj_UNSC_120MM_Ventral"> <!-- Longsword Ventral Cannons -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>8.6</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1285,7 +1288,7 @@
 	<Projectile Name="Proj_UNSC_110MM_Autocannon"> <!-- Longsword Auto Cannons -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>8.6</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1311,7 +1314,7 @@
 	<Projectile Name="Proj_UNSC_120MM_Autocannon"> <!-- Anti Tank Auto Cannon -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>8.6</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1387,7 +1390,7 @@
 	<Projectile Name="Proj_UNSC_M2056_30MM"> <!-- Baselard Rotary Cannons -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer_SM.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter_SM.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>54.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1413,7 +1416,7 @@
 	<Projectile Name="Proj_UNSC_Bullet_Baselard"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets 20mm rotary-->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Fighter.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
 		<Max_Speed>54.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>

@@ -37,7 +37,7 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -131,7 +131,7 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -220,7 +220,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -306,7 +306,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -348,9 +348,9 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>650</Tactical_Health>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
@@ -442,7 +442,7 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -582,7 +582,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -657,7 +657,7 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>190</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -749,7 +749,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
 		
 
@@ -892,7 +892,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -1059,7 +1059,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
@@ -1173,7 +1173,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -1218,7 +1218,7 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -1342,7 +1342,7 @@
             </Stealth_Ability>
         </Abilities>
 
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -1458,7 +1458,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 		
@@ -1520,6 +1520,7 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
@@ -1623,7 +1624,7 @@
 			
 		</Unit_Abilities_Data>
 
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
@@ -1738,7 +1739,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -1782,7 +1783,7 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Shield_Points>0.0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
@@ -1799,7 +1800,8 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
+		<Behavior> SELECTABLE </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -1878,12 +1880,23 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
+	
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>60</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+	
 	</SpaceUnit>
 
 	<Squadron Name="Pelican_Squadron">
@@ -1967,7 +1980,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -2109,7 +2122,7 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -2198,7 +2211,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
