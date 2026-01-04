@@ -255,12 +255,12 @@
 		<Fire_Bone_B>FB_ARCHERS_02</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>120.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>120.5</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>40.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_Range_Distance>1250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 			
@@ -396,8 +396,8 @@
 		<Fire_Cone_Width>15</Fire_Cone_Width>
 		<Fire_Cone_Height>15</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1250</Fire_Range_Distance>
@@ -418,11 +418,11 @@
 		<Fire_Cone_Width>5</Fire_Cone_Width>
 		<Fire_Cone_Height>5</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>350</Fire_Range_Distance>
+		<Fire_Range_Distance>750</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 

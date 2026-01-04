@@ -9,7 +9,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>67500</Tactical_Health>
-		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -28,9 +28,7 @@
 		
 			Rebel,
 				UNSC_Cargo_Depot_Skirmish,
-				UNSC_Light_Shipyard_Skirmish,
 				RS_Level_Two_Starbase_Upgrade,
-				UNSC_SINGLE_PARIS,
 			<!--Pelican_Squadron,
 				Shortsword_Squadron,
 				Baselard_Squadron,   
@@ -77,7 +75,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Base_Income_Value>100</Base_Income_Value>
-				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -132,7 +130,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>95000</Tactical_Health>
-		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -188,7 +186,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Base_Income_Value>150.0</Base_Income_Value>
-				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -242,7 +240,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>155000</Tactical_Health>
-		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -268,7 +266,7 @@
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Four_Starbase_Upgrade,
-			<!--Pelican_Squadron,
+		<!--	Pelican_Squadron,
 				Shortsword_Squadron,
 				Baselard_Squadron,   
 				Late_Longsword_Squadron,
@@ -307,7 +305,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Base_Income_Value>200.0</Base_Income_Value>
-				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -361,7 +359,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>20000</Shield_Points>
 		<Tactical_Health>210000</Tactical_Health>
-		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -431,7 +429,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Base_Income_Value>300.0</Base_Income_Value>
-				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -486,7 +484,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>88000</Shield_Points>
 		<Tactical_Health>275000</Tactical_Health>
-		<Space_FOW_Reveal_Range>10000.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 
 		
 		<HardPoints>
@@ -560,7 +558,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Base_Income_Value>350</Base_Income_Value>
-				<Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>

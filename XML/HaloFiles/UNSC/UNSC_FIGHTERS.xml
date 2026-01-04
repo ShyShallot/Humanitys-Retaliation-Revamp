@@ -20,7 +20,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.2</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -112,7 +112,7 @@
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -121,7 +121,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -203,7 +203,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -289,7 +289,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -331,7 +331,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -423,7 +423,7 @@
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -432,7 +432,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -541,7 +541,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -640,7 +640,7 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -733,7 +733,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -741,7 +741,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -851,7 +851,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -886,7 +886,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>35</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -920,7 +920,7 @@
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1015,7 +1015,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1023,7 +1023,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -1129,7 +1129,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -1201,7 +1201,7 @@
 		
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1295,7 +1295,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1303,7 +1303,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -1324,12 +1324,12 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
 
-			<Unit_Ability>
+			<!-- <Unit_Ability>
                 <Type>ROCKET_ATTACK</Type>
                 <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
                 <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
-            </Unit_Ability>
+            </Unit_Ability> -->
 
 		</Unit_Abilities_Data>
 
@@ -1412,7 +1412,7 @@
 		<FormationOrder>5</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -1485,7 +1485,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1581,7 +1581,7 @@
 
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1589,7 +1589,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -1696,7 +1696,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -1766,7 +1766,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -1861,7 +1861,7 @@
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -1870,7 +1870,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1963,7 +1963,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -2009,7 +2009,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.2</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -2103,7 +2103,7 @@
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
@@ -2112,7 +2112,7 @@
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -2194,7 +2194,7 @@
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>

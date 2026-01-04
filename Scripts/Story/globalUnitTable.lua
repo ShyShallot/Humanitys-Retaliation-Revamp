@@ -229,10 +229,10 @@ local unit_table = {
 	UNSC_SINGLE_PARIS = {
         Category = "Frigate"
     },
-    SKIRMISH_STALWART = {
+    UNSC_SINGLE_CHARON = {
         Category = "Frigate"
     },
-	SKIRMISH_CHARON = {
+	UNSC_SINGLE_STALWART = {
         Category = "Frigate"
     },
 	UNSC_SINGLE_BUCKLER = {

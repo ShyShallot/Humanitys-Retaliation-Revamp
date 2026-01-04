@@ -40,12 +40,12 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>3.2</Max_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
@@ -57,8 +57,8 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>2100</Shield_Points>
-		<Tactical_Health>1400</Tactical_Health>
+		<Shield_Points>5100</Shield_Points>
+		<Tactical_Health>2400</Tactical_Health>
 		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>
 		<Energy_Capacity>1050</Energy_Capacity>
 		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
@@ -339,7 +339,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -391,7 +391,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 		
@@ -401,7 +401,7 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>1.6</Max_Speed>
+	   	<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
@@ -642,13 +642,13 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>1.6</Max_Speed>
+	   	<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Max_Lift>0.2</Max_Lift>
@@ -660,8 +660,8 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>6000</Shield_Points>
-		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Points>16000</Shield_Points>
+		<Tactical_Health>12000</Tactical_Health>
 		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
 		<Energy_Capacity>1500</Energy_Capacity>
 		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
@@ -690,7 +690,7 @@
 		
 		<!-- Misc-->
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
@@ -706,7 +706,7 @@
 			HP_SDV_HANGAR_01,HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
@@ -885,7 +885,7 @@
 		
 
 		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	

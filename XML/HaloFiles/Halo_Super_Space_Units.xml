@@ -17,7 +17,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -238,7 +238,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -446,7 +446,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -700,7 +700,7 @@
 		<Armor_Type> Armor_COVN_Super </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
 
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
@@ -892,7 +892,7 @@
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
 
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>3.2</Max_Speed>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		
@@ -958,7 +958,7 @@
 		<Space_Model_Name>COVN_CSO.ALO</Space_Model_Name>
 		<Select_Box_Scale>650</Select_Box_Scale>
 		<Scale_Factor>5.5</Scale_Factor>
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>3.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
