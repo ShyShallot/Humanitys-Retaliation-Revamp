@@ -204,7 +204,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>10500</Tactical_Health>
+		<Tactical_Health>40500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -217,12 +217,10 @@
 		
 			Rebel,
 				UNSC_SINGLE_BUCKLER,
-
+				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>MAKO_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_BUCKLER, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Gladius_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -315,7 +313,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>44500</Tactical_Health>
+		<Tactical_Health>84500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -335,9 +333,6 @@
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_CHARON, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STALWART, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_PARIS, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_HALBERD, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_POSEIDON, 9999</Starting_Spawned_Units_Tech_0>
@@ -438,7 +433,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>64500</Tactical_Health>
+		<Tactical_Health>164500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -460,19 +455,15 @@
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
 				UNSC_MARATHON,
-				UNSC_AUTUMN,
-				UNSC_VINDICATION,
-				UNSC_EPOCH,
 				UNSC_FLEET_COMMANDER,
 				
 				
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_MUSASHI, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PHOENIX, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_MARATHON, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_AUTUMN, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_VINDICATION, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_EPOCH, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -543,7 +534,7 @@
 		<Build_Time_Seconds>240</Build_Time_Seconds>
 		
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>200</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -580,7 +571,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>6500</Tactical_Health>
+		<Tactical_Health>16500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -620,14 +611,11 @@
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		
 		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Condor_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>90</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
@@ -636,9 +624,6 @@
 				Shortsword_Squadron,
 				Baselard_Squadron,   
 				Late_Longsword_Squadron,
-				Sabre_Squadron,
-				Broadsword_Squadron,
-				Condor_Squadron,
 				B312_Squadron,
 
 		</Tactical_Buildable_Objects_Multiplayer>

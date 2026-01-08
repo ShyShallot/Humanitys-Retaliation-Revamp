@@ -8,28 +8,28 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = 10000,
-                        Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER"}
+                        Structures = {"UNSC_CAMP"},
+                        Units = {"Rebel_Infantry_Squad","UNSC_SINGLE_BUCKLER"}
                     },
                     Low = {
                         Power = 15000,
-                        Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER"}
+                        Structures = {"UNSC_BASE"},
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad","UNSC_SINGLE_BUCKLER","UNSC_PHOENIX"}
                     },
                     Medium = {
                         Power = 45000,
-                        Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Structures = {"UNSC_FORT"},
+                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "UNSC_PHOENIX", "UNSC_EPOCH",}
                     },
                     High = {
                         Power = 45000,
-                        Structures = {},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Structures = {"UNSC_FORT"},
+                        Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     },
                     Ultra = {
                         Power = 45000,
-                        Structures = {},
-                        Units = {"MAKO_SQUADRON", "GLADIUS_SQUADRON", "UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Structures = {"UNSC_FORT"},
+                        Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
                     }
                 },
                 Heroes = {
@@ -107,17 +107,17 @@ Starting_Units_Handler = {
                     Default = {
                         Power = 9000,
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
+                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
                     },
                     Low = {
                         Power = 15000,
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
+                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
                     },
                     Medium = {
                         Power = 25000,
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad", "TERROR_MAKO_SQUADRON", "TERROR_GLADIUS_SQUADRON", "TERROR_PHOENIX"}
+                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
                     }
                 },
                 Planets = {},

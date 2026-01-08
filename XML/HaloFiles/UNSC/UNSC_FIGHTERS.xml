@@ -12,24 +12,24 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.2</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>2.15</Max_Lift>
 		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -38,7 +38,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>350</Tactical_Health>
+		<Tactical_Health>750</Tactical_Health>
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -59,12 +59,12 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_712_HP_00, UNSC_712_HP_01, UNSC_712_HP_02, UNSC_712_HP_03
 		</HardPoints>
@@ -105,7 +105,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -113,14 +113,14 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -130,8 +130,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Strafe_Distance>550.0</Strafe_Distance>
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -202,7 +202,7 @@
 		
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -220,7 +220,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -288,7 +288,7 @@
 		
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -306,7 +306,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -323,24 +323,24 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>1.0</Max_Lift>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -349,7 +349,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>650</Tactical_Health>
+		<Tactical_Health>1050</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -370,12 +370,12 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 		
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_LS_HP_00, UNSC_LS_HP_01, UNSC_LS_HP_02
 		</HardPoints>
@@ -416,7 +416,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -424,14 +424,14 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -441,8 +441,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Strafe_Distance>550.0</Strafe_Distance>
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -540,7 +540,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -582,7 +582,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -631,25 +631,25 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -679,11 +679,11 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_SHORTSWORD_HP_00, UNSC_SHORTSWORD_HP_01
 		</HardPoints>
@@ -724,7 +724,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -732,7 +732,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -742,14 +742,14 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
 		
 
@@ -850,7 +850,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -892,7 +892,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -911,25 +911,25 @@
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>1.55</Max_Lift>
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Hyperspace>No</Hyperspace>
@@ -961,11 +961,11 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_BS_01, UNSC_BS_02
 		</HardPoints>
@@ -1006,7 +1006,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -1014,7 +1014,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -1024,8 +1024,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -1059,7 +1059,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
@@ -1128,7 +1128,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -1173,7 +1173,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -1191,7 +1191,7 @@
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -1201,11 +1201,11 @@
 		
 		
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>2.25</Max_Lift>
 		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
@@ -1241,11 +1241,11 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_BASELARD_01, UNSC_BASELARD_02
 		</HardPoints>
@@ -1286,7 +1286,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -1294,7 +1294,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -1304,8 +1304,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -1342,7 +1342,7 @@
             </Stealth_Ability>
         </Abilities>
 
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
@@ -1411,7 +1411,7 @@
 
 		<FormationOrder>5</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -1458,7 +1458,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 		
@@ -1477,19 +1477,19 @@
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.5</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>2.25</Max_Lift>
 		<Max_Rate_Of_Turn>2.45</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
@@ -1526,12 +1526,12 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		<HardPoints>
 			UNSC_SABRE_01, UNSC_SABRE_02
 		</HardPoints>
@@ -1572,7 +1572,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -1580,7 +1580,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -1590,8 +1590,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -1624,7 +1624,7 @@
 			
 		</Unit_Abilities_Data>
 
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
@@ -1695,7 +1695,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -1739,7 +1739,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -1758,24 +1758,24 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>1.25</Max_Lift>
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -1806,12 +1806,12 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		
 		<HardPoints>
 			UNSC_PELICAN_01,
@@ -1854,7 +1854,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -1862,14 +1862,14 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -1879,8 +1879,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Strafe_Distance>550.0</Strafe_Distance>
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -1895,7 +1895,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 	
 	</SpaceUnit>
 
@@ -1962,7 +1962,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -1980,7 +1980,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>
@@ -2001,24 +2001,24 @@
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius> 25.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
-		<Fires_Forward>no</Fires_Forward>
+		
 
 		<Mass>0.99</Mass>
-		<Max_Speed>4.8</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
-		<OverrideAcceleration>0.12</OverrideAcceleration>
-		<OverrideDeceleration>1.56</OverrideDeceleration>
+		<OverrideAcceleration>0.07</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Max_Lift>2.25</Max_Lift>
 		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>950.0</Strafe_Distance>
+		<Strafe_Distance>550.0</Strafe_Distance>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -2048,12 +2048,12 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		
 		
 		<HardPoints>
 			UNSC_CONDOR_01,
@@ -2096,7 +2096,7 @@
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
-		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
+		
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -2104,14 +2104,14 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>No</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<!-- <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance> -->
+		<!-- <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time> -->
 		<Spin_Away_On_Death_Explosion>Small_Damage_Space_UNSC_FIGHTER</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -2121,8 +2121,8 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>950.0</Strafe_Distance>
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Strafe_Distance>550.0</Strafe_Distance>
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
@@ -2193,7 +2193,7 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -2211,7 +2211,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 	</Squadron>

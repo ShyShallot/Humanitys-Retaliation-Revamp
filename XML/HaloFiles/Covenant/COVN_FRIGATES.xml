@@ -45,7 +45,7 @@
 		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
-		<Max_Speed>3.2</Max_Speed>
+		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
 		<Min_Speed>0.1</Min_Speed>
@@ -401,7 +401,7 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>3.2</Max_Speed>
+	   	<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<Max_Lift>0.5</Max_Lift>
@@ -648,7 +648,7 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>3.2</Max_Speed>
+	   	<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Max_Lift>0.2</Max_Lift>

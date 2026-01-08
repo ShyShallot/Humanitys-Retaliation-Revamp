@@ -291,8 +291,8 @@
 
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
         <Fire_Bone_B>FP_01</Fire_Bone_B>
-        <Fire_Cone_Width>5.0</Fire_Cone_Width>
-        <Fire_Cone_Height>50.0</Fire_Cone_Height>
+        <Fire_Cone_Width>25.0</Fire_Cone_Width>
+        <Fire_Cone_Height>100.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_SUPER_DUPER_MAC_SHELL</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
@@ -317,10 +317,10 @@
             <Fire_Bone_B>ROOT</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-			<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-			<Fire_Max_Recharge_Seconds>2.6</Fire_Max_Recharge_Seconds>
-			<Fire_Pulse_Count>15</Fire_Pulse_Count>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <!-- <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance> -->
+			<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>1</Fire_Pulse_Count>
 			<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 			<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
 			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
@@ -340,7 +340,7 @@
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>                          
-			<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+			<!-- <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance> -->
 			<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>2.6</Fire_Max_Recharge_Seconds>
 			<Fire_Pulse_Count>6</Fire_Pulse_Count>

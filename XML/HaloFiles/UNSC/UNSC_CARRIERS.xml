@@ -20,8 +20,8 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		
-		<Max_Speed>4.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>2.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -323,7 +323,7 @@
 		<Energy_Refresh_Rate>250</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>

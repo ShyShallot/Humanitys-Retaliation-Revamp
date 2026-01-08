@@ -35,7 +35,7 @@
 		<Space_Model_Name>W_COVN_POINT_DEFENSE_LASER.ALO</Space_Model_Name>
 		<Damage_Type>Damage_Covn_Light</Damage_Type>
 		<Max_Speed>90.0</Max_Speed>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>10.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -63,13 +63,13 @@
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>5.0</Protection_Radius>
+				<Protection_Radius>15.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
-				<Recharge_Time_In_Secs>0.5</Recharge_Time_In_Secs>
+				<Recharge_Time_In_Secs>0.1</Recharge_Time_In_Secs>
 			</Laser_Defense_Ability>
 			
 		</Abilities>
@@ -188,7 +188,7 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Covn_Normal</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2300.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3300.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -578,7 +578,7 @@
 		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Nuke_Explode_Space</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>900</AI_Combat_Power>
-		<Max_Speed>7.5</Max_Speed>
+		<Max_Speed>6.5</Max_Speed>
 		
 	</Projectile>
 	
@@ -586,7 +586,7 @@
 	
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>8.0</Max_Speed>
+		<Max_Speed>6.0</Max_Speed>
 		<Projectile_Damage>100.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>35.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -614,7 +614,7 @@
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>12.0</Max_Speed>
+		<Max_Speed>6.0</Max_Speed>
 		<Projectile_Damage>45.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -881,7 +881,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>1750.0</Projectile_Damage>
+		<Projectile_Damage>3250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -910,7 +910,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>500.0</Projectile_Damage>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
@@ -939,7 +939,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>1250.0</Projectile_Damage>
+		<Projectile_Damage>2250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -990,12 +990,12 @@
 	<Projectile Name="Proj_UNSC_MK33_SPITFIRE"> <!-- Large Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Cap.alo</Space_Model_Name>
-		<Max_Speed>38.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Damage>150</Projectile_Damage>
+		<Projectile_Damage>300</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1014,12 +1014,12 @@
 	<Projectile Name="Proj_UNSC_MK40_SPITFIRE"> <!-- Largest Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
-		<Max_Speed>42.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Damage>300</Projectile_Damage>
+		<Projectile_Damage>600</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1040,11 +1040,11 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>48.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Damage>200.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1066,11 +1066,11 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>60.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>100</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1113,11 +1113,11 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<!-- <Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade> -->
-		<Max_Speed>18.0</Max_Speed>
+		<Max_Speed>35.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>50.5</Projectile_Damage>
+		<Projectile_Damage>100.5</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>4500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1578,7 +1578,7 @@
 		<Max_Speed>10.8</Max_Speed>
 		<Projectile_Damage>3000.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<CategoryMask>Transport</CategoryMask>

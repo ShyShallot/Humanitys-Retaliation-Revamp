@@ -435,7 +435,7 @@
 		<Variant_Of_Existing_Type>UC_Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -1367,7 +1367,7 @@
 		<Space_Layer> StaticObject </Space_Layer>
 	
 		<Tactical_Respawn_Time_In_Secs>38</Tactical_Respawn_Time_In_Secs>
-		<Tactical_Health>11700</Tactical_Health>
+		<Tactical_Health>41700</Tactical_Health>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Capture_Point_Radius>550.0</Capture_Point_Radius>
 		<Capture_Point_Transition_Time_Seconds>10</Capture_Point_Transition_Time_Seconds>
@@ -1420,7 +1420,7 @@
 		<Space_Layer> StaticObject </Space_Layer>
   
 		<Tactical_Health>14700</Tactical_Health>
-		<Tactical_Build_Cost_Multiplayer> 1105 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </Encyclopedia_Text>
@@ -1511,7 +1511,7 @@
 			</Income_Stream_Ability>
 		</Abilities>
 	
-		<Tactical_Health>3500</Tactical_Health>
+		<Tactical_Health>41700</Tactical_Health>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
@@ -1612,7 +1612,7 @@
 		<Space_Layer> StaticObject </Space_Layer>
 	
 		<Tactical_Respawn_Time_In_Secs>38</Tactical_Respawn_Time_In_Secs>
-		<Tactical_Health>11700</Tactical_Health>
+		<Tactical_Health>41700</Tactical_Health>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Capture_Point_Radius>550.0</Capture_Point_Radius>
 		<Capture_Point_Transition_Time_Seconds>10</Capture_Point_Transition_Time_Seconds>
@@ -1664,8 +1664,8 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   
-		<Tactical_Health>11700</Tactical_Health>
-		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Health>41700</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </Encyclopedia_Text>
@@ -1681,7 +1681,7 @@
 		<Variant_Of_Existing_Type>UC_Custom_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed> Custom_Rebel_Mineral_Extractor </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 550 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 
 		<Affiliation>Rebel</Affiliation>
