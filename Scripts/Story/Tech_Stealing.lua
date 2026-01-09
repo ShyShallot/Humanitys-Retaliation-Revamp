@@ -229,16 +229,17 @@ function Tech_Stealing:Init(Planet_Table, Plot)
         ScriptError("%s -- Cannot Find a Valid Human Player", tostring(Script)) -- ScriptError auto Script Exits
     end
 
+    local Tech_Table_Entry = self.Tech_Table:Get_Player_Entry(Player)
+
+    if Tech_Table_Entry == nil then
+        DebugMessage("%s -- No Ship Table Entry for Player: %s",tostring(Script), tostring(self.Player.Get_Faction_Name()))
+        return
+    end
+
     local Valid_Targets_Entry = self.Theft_Table.Valid_Theft_Targets[string.upper(self.Player.Get_Faction_Name())]
 
     if Valid_Targets_Entry == nil or tableLength(Valid_Targets_Entry) < 1 then
         ScriptError("%s -- Player does not have a Valid Targets Table", tostring(Script))
-    end
-
-    local Tech_Table_Entry = self.Tech_Table:Get_Player_Entry(Player)
-
-    if Tech_Table_Entry == nil then
-        ScriptError("%s -- No Ship Table Entry for Player: %s",tostring(Script), tostring(self.Player.Get_Faction_Name()))
     end
 
     if Filter_System == nil then
