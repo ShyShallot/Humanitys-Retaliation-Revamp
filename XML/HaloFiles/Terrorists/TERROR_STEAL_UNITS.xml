@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FuckAssShit>
     <HeroUnit Name="FART_TOO_DEE_POO">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Named_Hero>No</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_DROID_R2D2</Text_ID>
 		<Land_Model_Name>RI_R2.ALO</Land_Model_Name>
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
@@ -104,37 +104,6 @@
 				<Causes_Despawn>No</Causes_Despawn>
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
-			<System_Spy_Ability Name="R2D2_System_Spy">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Galactic_Automatic</Activation_Style>
-				<Causes_Despawn>No</Causes_Despawn>
-				<Duration_In_Secs>-1.0</Duration_In_Secs>
-				<See_Base_Levels>Yes</See_Base_Levels>
-				<See_Credit_Income>Yes</See_Credit_Income>
-				<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
-				<See_Num_Fleets>Yes</See_Num_Fleets>
-				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
-				<See_Fleet_Contents>No</See_Fleet_Contents>
-				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
-				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
-				<See_Special_Structures>Yes</See_Special_Structures>
-				<See_Political_Control>Yes</See_Political_Control>
-				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
-				<See_Current_Production>Yes</See_Current_Production>
-				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
-				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
-			</System_Spy_Ability>
-
-			<Slicer_Ability Name="R2D2_Slicer">
-				<Min_Respawn_Time_Per_Tech_Level>60.0, 60.0, 60.0, 70.0, 70.0</Min_Respawn_Time_Per_Tech_Level>
-				<Max_Respawn_Time_Per_Tech_Level>60.0, 60.0, 60.0, 70.0, 70.0</Max_Respawn_Time_Per_Tech_Level>
-				<Cost_Multiplier_By_Planet_Tech_Availability>0,1.75, 1,1.5, 2,1.25, 3,1.0, 4,0.75, 5,0.5</Cost_Multiplier_By_Planet_Tech_Availability>
-				<Cost_Affinity_Modifier>-0.25</Cost_Affinity_Modifier>
-				<Chance_Modifier_By_Base_Level>0,0, 1,0.0, 2,0.0, 3,0.0, 4,0.0 , 5,0.0</Chance_Modifier_By_Base_Level>
-				<Chance_Modifier_By_Planet_Difficulty>0,0.0, 1,0.0, 2,0.0, 3,0.0, 4,0.0, 5,0.0</Chance_Modifier_By_Planet_Difficulty>
-				<Chance_Affinity_Modifier>+0.25</Chance_Affinity_Modifier>
-			</Slicer_Ability>
 
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Hack_Ability Name="R2D2_Hack_Ability"> -->
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Repair_Ability Name="R2D2_Repair_Ability"> -->
