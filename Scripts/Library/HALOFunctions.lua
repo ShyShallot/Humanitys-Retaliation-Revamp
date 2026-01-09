@@ -103,6 +103,11 @@ function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackov
 end
 
 function tableLength(table)
+
+    if table == nil then
+        return 0
+    end
+
     local count = 0
     for _ in pairs(table) do
         count = count + 1
@@ -161,17 +166,34 @@ end
 function Find_Human_Player()
     empire = Find_Player("EMPIRE")
     rebels = Find_Player("REBEL")
+    terror = Find_Player("Terrorists")
+    swords = Find_Player("Swords")
 
-    if empire.Is_Human() and (not rebels.Is_Human()) then
-        DebugMessage("%s -- Human player is Empire", tostring(Script))
+    if empire.Is_Human() then
         return empire
-    elseif rebels.Is_Human() and (not empire.Is_Human()) then
-        DebugMessage("%s -- Human player is Rebel", tostring(Script))
+    end
+
+    if rebels.Is_Human() then
         return rebels
+    end
+
+    if terror.Is_Human() then
+        return terror
+    end
+
+    if swords.Is_Human() then
+        return swords
     end
 end
 
+---@param array table|nil
 function PrintTable(array)
+
+    if type(array) ~= "table" then
+        DebugMessage("Provided Entry is not a table")
+        return
+    end
+
     for key,pair in pairs(array) do
         DebugMessage("Key: %s, Pair: %s", tostring(key), tostring(pair))
     end
@@ -221,13 +243,22 @@ function customModulo(dividend, divisor)
     return remainder
 end
 
+function Time_To_Week(time)
+    return tonumber(Dirty_Floor(Get_Current_Week(time) + 0.5))
+end
+
 function Get_Current_Week()
     return tonumber(Dirty_Floor(Get_Current_Week_Raw() + 0.5))
 end
 
-function Get_Current_Week_Raw()
+function Get_Current_Week_Raw(time)
+
+    if type(time) ~= "number" then
+        time = GetCurrentTime.Galactic_Time()
+    end
+
     weekTime = 60
-    week = (GetCurrentTime.Galactic_Time() / weekTime)
+    week = (time / weekTime)
     return week
 end
 

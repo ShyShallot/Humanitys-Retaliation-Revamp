@@ -1,3 +1,4 @@
+---@class Unit_Filters
 local Unit_Filters = {
 
     Units = nil,
@@ -163,6 +164,8 @@ function Unit_Filters:Check_Filter()
     end
 end
 
+---@param unit_name string
+---@return boolean
 function Unit_Filters:Is_Unit_Locked(unit_name)
 
     local Unit_Entry = self:Get_Entry(unit_name)
@@ -174,6 +177,8 @@ function Unit_Filters:Is_Unit_Locked(unit_name)
     return false
 end
 
+---@param unit_name string
+---@param lock boolean
 function Unit_Filters:Lock_Unit(unit_name, lock)
 
     if unit_name == nil then
@@ -197,11 +202,31 @@ function Unit_Filters:Lock_Unit(unit_name, lock)
 
             if Unit_Type ~= nil then 
                 if lock then
+                    
                     self.Player.Lock_Tech(Unit_Type)
                 else
                     self.Player.Unlock_Tech(Unit_Type)
                 end
             end
+        end
+    end
+end
+
+function Unit_Filters:Should_Lock_Unit(unit_name, lock)
+    if unit_name == nil then
+        return
+    end
+
+    if lock == nil then
+        return
+    end
+
+    local Unit_Entry = self:Get_Entry(unit_name)
+
+    if Unit_Entry ~= nil then
+
+        if Unit_Entry.Should_Lock ~= lock then
+            Unit_Entry.Should_Lock = lock
         end
     end
 end
@@ -226,6 +251,7 @@ function Unit_Filters:Reset_Filters()
     end
 end
 
+---@param filter table
 function Unit_Filters:Set_Filter(filter)
 
     if filter == nil then
@@ -244,6 +270,8 @@ function Unit_Filters:Set_Filter(filter)
 end
         
 
+---@param unit_name string
+---@return boolean
 function Unit_Filters:Is_Unit_In_Filter(unit_name)
     --DebugMessage("Category: %s, Filter: %s", tostring(category), tostring(filter))
 
@@ -268,6 +296,7 @@ function Unit_Filters:Is_Unit_In_Filter(unit_name)
     return is_in_filter
 end
 
+---@return table
 function Unit_Filters:Get_Active_Filter()
     return self.Active_Filter
 end

@@ -5,5 +5,9 @@
     ],
     "Lua.diagnostics.globals": [
         "hero_alive_table"
+    ],
+    "Lua.workspace.library": [
+        "Story",
+        "Library"
     ]
 }

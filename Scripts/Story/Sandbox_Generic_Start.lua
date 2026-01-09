@@ -21,6 +21,10 @@ function Definitions()
 
     Filter_System = nil
 
+    Tech_Theft = nil
+
+    Global_Planet_Table = nil
+
     Player = nil
 
 end
@@ -34,12 +38,18 @@ function Global_Story(message)
 
         Filter_System = require("Unit_Filters") 
 
+        Tech_Theft = require("Tech_Stealing")
+
+        Global_Planet_Table = require("globalPlanetTable")
+
         Starting_Units:Start()
 
         if Starting_Units:Is_Finished() then
             Story_Event("Spawning_Done")
 
             Filter_System:Init(Player, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
+
+            Tech_Theft:Init(Global_Planet_Table, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
 
             Set_Next_State("Flush")
         end
@@ -49,6 +59,8 @@ end
 function Update(message)
     if message == OnUpdate then
         Filter_System:Update()
+
+        Tech_Theft:Update()
     end
 end
 
