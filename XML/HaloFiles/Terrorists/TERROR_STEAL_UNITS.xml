@@ -169,9 +169,9 @@
 	</HeroUnit>
 
     <HeroCompany Name="INNIE_MY_ASSHOLE">
-		<Text_ID>TEXT_HERO_DROID_R2D2</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2_AND_C3P0 </Encyclopedia_Text>
+		<Text_ID>HALO_TERROR_BLUEPRINT_THEFT</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> HALO_TERROR_BLUEPRINT_THEFT_ENC </Encyclopedia_Text>
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Terrorists</Affiliation>
