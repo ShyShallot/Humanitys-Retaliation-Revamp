@@ -353,6 +353,9 @@ local unit_table = {
     TERROR_STAR_BASE_5 = {
         Category = "Structure"
     },
+    INNIE_MY_ASSHOLE = {
+        Category = "Infantry"
+    },
 	SWORDS_CAS = {
         Category = "Super"
     },
