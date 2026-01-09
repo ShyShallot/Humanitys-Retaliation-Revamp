@@ -6,7 +6,7 @@ Tech_Stealing = {
         Object = nil,
         ---@type table
         Unit_Name = {
-            ---@type string
+            ---@type table
             TERRORISTS = {
                 Find = "FART_TOO_DEE_POO",
                 Lock = "INNIE_MY_ASSHOLE"
@@ -56,7 +56,10 @@ Tech_Stealing = {
         LAST_THEFT = "TEXT_STORY_TECH_THEFT_LATEST",
         COOLDOWN_STATUS = "TEXT_STORY_TECH_THEFT_COOLDOWN",
         VALID_TARGETS = "TEXT_STORY_TECH_THEFT_TARGETS",
-        REBEL = "TEXT_FACTION_REBEL",
+        REBEL = "TEXT_FACTION_REBELS",
+        EMPIRE = "TEXT_FACTION_EMPIRE",
+        SWORDS = "TEXT_FACTION_SWORDS",
+        TERRORISTS = "TEXT_FACTION_INSURRECTIONISTS",
     },
 
     Theft_Cooldown = {
