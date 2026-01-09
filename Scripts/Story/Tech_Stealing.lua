@@ -56,7 +56,7 @@ Tech_Stealing = {
         LAST_THEFT = "TEXT_STORY_TECH_THEFT_LATEST",
         COOLDOWN_STATUS = "TEXT_STORY_TECH_THEFT_COOLDOWN",
         VALID_TARGETS = "TEXT_STORY_TECH_THEFT_TARGETS",
-        VALID_TARGET = "TEXT_STORY_TECH_THEFT_TARGET"
+        REBEL = "TEXT_FACTION_REBEL",
     },
 
     Theft_Cooldown = {
@@ -310,10 +310,11 @@ function Tech_Stealing:Update()
 
     if Valid_Targets_Table ~= nil then
         for _, Faction_Name in pairs(Valid_Targets_Table) do
-            local Target = Find_Player(Faction_Name)
 
-            if TestValid(Target) then
-                self.Display.Add_Dialog_Text(self.String_Table.VALID_TARGET, Target.Get_Faction_Name())
+            local Proper_Faction_Name = self.String_Table[string.upper(Faction_Name)]
+
+            if Proper_Faction_Name ~= nil then
+                self.Display.Add_Dialog_Text(Proper_Faction_Name)
             end
         end
     end
