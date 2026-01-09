@@ -162,7 +162,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -367,7 +367,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -574,7 +574,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -845,7 +845,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -1058,7 +1058,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -1285,7 +1285,7 @@
 				<Heal_Range>1300.0</Heal_Range>
 				<Heal_Amount> 50 </Heal_Amount>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>0.5</Heal_Interval_In_Secs>
+				<Heal_Interval_In_Secs>10.5</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
@@ -1346,7 +1346,7 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
@@ -1613,7 +1613,7 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
@@ -1887,7 +1887,7 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
@@ -2162,7 +2162,7 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>

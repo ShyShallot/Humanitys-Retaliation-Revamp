@@ -22,11 +22,11 @@
 		
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -153,7 +153,6 @@
 		<SFXEvent_Engine_Moving_Loop>  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-
 		<Death_SFXEvent_Start_Die>Corvette_Death</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Health_Low_Warning> Corvette_Low_Health </SFXEvent_Health_Low_Warning>
@@ -216,7 +215,7 @@
 
 	</SpaceUnit>
 	
-   <!--	<Squadron Name="Gladius_Squadron">
+   <Squadron Name="Gladius_Squadron">
 
 		<Text_ID>TEXT_UNIT_UNSC_GLADIUS_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
@@ -230,7 +229,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		
@@ -289,7 +288,7 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron> -->
+		</Squadron> 
 	
 
 
@@ -308,11 +307,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -498,9 +497,9 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>2</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -544,11 +543,11 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -769,7 +768,7 @@
 	
 	<!-- Mako Squadron -->
 	
-	<!-- <Squadron Name="MAKO_SQUADRON">
+	<!--  <Squadron Name="MAKO_SQUADRON">
 
 		<Text_ID>TEXT_UNIT_UNSC_MAKO_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
@@ -829,7 +828,7 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron> -->
+		</Squadron>  -->
 
 
 	<SpaceUnit Name="UNSC_STRIDENT">
@@ -847,11 +846,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>     
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>     
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -859,7 +858,6 @@
 		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
-		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -1021,7 +1019,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 
-	</SpaceUnit>
+	</SpaceUnit> -->
 	
 	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
 	
@@ -1033,9 +1031,9 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_STRIDENT.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>4</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1080,11 +1078,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1347,9 +1345,9 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>1</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1367,7 +1365,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
 		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1507,11 +1505,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1698,9 +1696,9 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>1</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1717,8 +1715,8 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1745,11 +1743,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1941,9 +1939,9 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>1</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -1960,8 +1958,8 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1987,11 +1985,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -2055,7 +2053,12 @@
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> 
+		<Strafe_Distance>500.0</Strafe_Distance>	
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -2172,14 +2175,14 @@
 		<Variant_Of_Existing_Type>UNSC_BUCKLER</Variant_Of_Existing_Type>
 	
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		<Is_Community_Property>Yes</Is_Community_Property> 
-		<Space_Layer> frigate </Space_Layer> 
+		<Space_Layer>  </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
-		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Tech_Level>0</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
@@ -2196,8 +2199,8 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

@@ -204,32 +204,23 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>14500</Tactical_Health>
+		<Tactical_Health>40500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
 		<Hardpoints>UNSC_Supply_Depot_HP, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
 			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
 			UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
-			HP_HALC_REACTOR</Hardpoints>
+			</Hardpoints>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
-			Rebels,
-				<!-- Pelican_Squadron,
-				Shortsword_Squadron,
-				Baselard_Squadron,   
-				Late_Longsword_Squadron,
-				Sabre_Squadron,
-				Broadsword_Squadron,
-				Condor_Squadron,
-				B312_Squadron -->
-
+			Rebel,
+				UNSC_SINGLE_BUCKLER,
+				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>MAKO_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_BUCKLER, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Gladius_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -270,7 +261,7 @@
 		
                 <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
                 <Base_Income_Value>-12</Base_Income_Value>
-                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
                 <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
                 <Split_Favors_Owner>No</Split_Favors_Owner>
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -290,7 +281,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
@@ -322,7 +313,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>24500</Tactical_Health>
+		<Tactical_Health>84500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -336,16 +327,12 @@
 				UNSC_SINGLE_CHARON,
 				UNSC_SINGLE_STALWART,
 				UNSC_SINGLE_PARIS,
-				UNSC_SINGLE_HALBERD,
+			<!--UNSC_SINGLE_HALBERD,
 				UNSC_SINGLE_STRIDENT,
-				UNSC_POSEIDON
+				UNSC_POSEIDON -->
 
 		</Tactical_Buildable_Objects_Multiplayer>
-			
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_CHARON, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STALWART, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_PARIS, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_HALBERD, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_POSEIDON, 9999</Starting_Spawned_Units_Tech_0>
@@ -388,7 +375,7 @@
 		
                 <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
                 <Base_Income_Value>-16</Base_Income_Value>
-                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
                 <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
                 <Split_Favors_Owner>No</Split_Favors_Owner>
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -414,7 +401,7 @@
 		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
 
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>180</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
@@ -446,7 +433,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>34500</Tactical_Health>
+		<Tactical_Health>164500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -468,19 +455,15 @@
 				UNSC_PHOENIX,
 				UNSC_HALCYON,
 				UNSC_MARATHON,
-				UNSC_AUTUMN,
-				UNSC_VINDICATION,
-				UNSC_EPOCH,
 				UNSC_FLEET_COMMANDER,
 				
 				
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_MUSASHI, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PHOENIX, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_MARATHON, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_AUTUMN, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_VINDICATION, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_EPOCH, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -520,7 +503,7 @@
 		
                 <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
                 <Base_Income_Value>-50</Base_Income_Value>
-                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
                 <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
                 <Split_Favors_Owner>No</Split_Favors_Owner>
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -551,7 +534,7 @@
 		<Build_Time_Seconds>240</Build_Time_Seconds>
 		
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -563,6 +546,7 @@
 		<AI_Combat_Power>250</AI_Combat_Power>
 
     </SpecialStructure>
+	
 	
 	<SpecialStructure Name="UNSC_Cargo_Depot_Skirmish">
 		<Text_ID>UNSC_CARGO_DEPOT</Text_ID>
@@ -587,7 +571,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>14500</Tactical_Health>
+		<Tactical_Health>16500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -627,28 +611,22 @@
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
+		
 		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Condor_Squadron, 9999</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
 		
-		<!-- <Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer> 
 		
-			Rebels,
+			Rebel,
 				Pelican_Squadron,
 				Shortsword_Squadron,
 				Baselard_Squadron,   
 				Late_Longsword_Squadron,
-				Sabre_Squadron,
-				Broadsword_Squadron,
-				Condor_Squadron,
 				B312_Squadron,
 
-		</Tactical_Buildable_Objects_Multiplayer> -->
+		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Abilities SubObjectList="Yes">
 		
@@ -656,12 +634,40 @@
 		
                 <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
                 <Base_Income_Value>25</Base_Income_Value>
-                <Base_Interval_In_Secs>1</Base_Interval_In_Secs>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
                 <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
                 <Split_Favors_Owner>No</Split_Favors_Owner>
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 				
             </Income_Stream_Ability>
+			
+			
+			<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>750.0</Heal_Range>
+				<Heal_Amount> 200 </Heal_Amount>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>10.5</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories> Fighter, Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT, B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
 			
 		</Abilities>
 		
@@ -676,7 +682,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>

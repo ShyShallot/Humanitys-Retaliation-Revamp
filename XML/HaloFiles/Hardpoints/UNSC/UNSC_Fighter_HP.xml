@@ -37,6 +37,7 @@
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 
@@ -56,6 +57,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 	
@@ -122,6 +124,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 
@@ -142,6 +145,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 	
@@ -183,6 +187,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent/>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 
@@ -203,8 +208,8 @@
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
-		<Fire_Category_Restrictions/>
-
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
+		
 	</HardPoint>
 
 	<HardPoint Name="UNSC_BS_02">
@@ -216,7 +221,7 @@
 		<Fire_Bone_B>HP_BS_M_02</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MEDUSA_MISSILE</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MEDUSA_MISSILE</Fire_Projectile_Type> <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -255,12 +260,12 @@
 		<Fire_Bone_B>FB_ARCHERS_02</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>120.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>120.5</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>40.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>40.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_Range_Distance>1250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 			
@@ -286,6 +291,7 @@
 		<Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -298,7 +304,7 @@
 		<Fire_Bone_B>HP_MISSILE_01</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MEDUSA_MISSILE</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MEDUSA_MISSILE</Fire_Projectile_Type> <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -325,7 +331,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
-		<Fire_Category_Restrictions>Super</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
   
 	</HardPoint>
 	
@@ -338,13 +344,14 @@
 		<Fire_Bone_B>FB_01</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type> <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		
 			
 	</HardPoint>
 	
@@ -365,6 +372,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
 			
 	</HardPoint>
 
@@ -396,11 +404,11 @@
 		<Fire_Cone_Width>15</Fire_Cone_Width>
 		<Fire_Cone_Height>15</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250</Fire_Range_Distance>
+		<Fire_Range_Distance>1750</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -418,11 +426,11 @@
 		<Fire_Cone_Width>5</Fire_Cone_Width>
 		<Fire_Cone_Height>5</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>350</Fire_Range_Distance>
+		<Fire_Range_Distance>750</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 

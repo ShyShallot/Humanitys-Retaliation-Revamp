@@ -334,10 +334,10 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 2 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>550.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
+	  <Min_Pitch>85</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
 
@@ -347,10 +347,10 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 2 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>750.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
+	  <Min_Pitch>85</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
 
@@ -360,10 +360,10 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>350.0</Volume_Saturation_Distance>
 	  <Min_Volume>25</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
+	  <Min_Pitch>85</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
 
@@ -373,10 +373,10 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 1 </Priority>
 	  <Max_Instances> 16 </Max_Instances>
-	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>750.0</Volume_Saturation_Distance>
 	  <Min_Volume>90</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
+	  <Min_Pitch>85</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
 
@@ -386,10 +386,10 @@
 	  <Is_2D> No </Is_2D>
 	  <Priority> 4 </Priority>
 	  <Max_Instances> 32 </Max_Instances>
-	  <Volume_Saturation_Distance>150.0</Volume_Saturation_Distance>
+	  <Volume_Saturation_Distance>750.0</Volume_Saturation_Distance>
 	  <Min_Volume>90</Min_Volume>
 	  <Max_Volume>100</Max_Volume>
-	  <Min_Pitch>95</Min_Pitch>
+	  <Min_Pitch>85</Min_Pitch>
 	  <Max_Pitch>105</Max_Pitch>
 </SFXEvent>
 

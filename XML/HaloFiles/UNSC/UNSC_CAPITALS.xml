@@ -19,8 +19,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -225,8 +225,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -430,8 +430,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -636,8 +636,8 @@
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -666,9 +666,9 @@
 		<Shield_Points>85000</Shield_Points>
 		<Tactical_Health>19500</Tactical_Health> 
 		<!-- Shield Recharge Was Reduced across all ships due to an increase of recharge rate -->
-		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate> 
-		<Energy_Capacity>40000</Energy_Capacity>
-		<Energy_Refresh_Rate>8000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>400</Shield_Refresh_Rate> 
+		<Energy_Capacity>4000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -848,8 +848,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
@@ -1032,7 +1032,7 @@
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
 				<Applicable_Unit_Types />
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<SFXEvent_Target_Affected></SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
@@ -1119,8 +1119,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.0</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>

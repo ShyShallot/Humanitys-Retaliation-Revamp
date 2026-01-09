@@ -20,7 +20,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>3.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.6</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -37,9 +37,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>35</Shield_Points>
-		<Tactical_Health>12</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Shield_Points>350</Shield_Points>
+		<Tactical_Health>120</Tactical_Health>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Energy_Capacity>20</Energy_Capacity>
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -253,7 +253,7 @@
 		
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>480</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>220</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -286,7 +286,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>3.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.01</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -303,9 +303,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>40</Tactical_Health>
-		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
+		<Shield_Points>600</Shield_Points>
+		<Tactical_Health>1200</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -514,7 +514,7 @@
 
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>320</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>160</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -545,7 +545,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>3.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.4</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -563,7 +563,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Tactical_Health>600</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
@@ -723,7 +723,7 @@
 
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>280</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>140</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -755,7 +755,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Mass>0.99</Mass>
-		<Max_Speed>2.0</Max_Speed>
+		<Max_Speed>3.0</Max_Speed>
 		<Min_Speed>3</Min_Speed>
 		<Max_Thrust>0.7</Max_Thrust>
 		<OverrideAcceleration>0.12</OverrideAcceleration>
@@ -773,7 +773,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>10</Tactical_Health>
+		<Tactical_Health>200</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
@@ -948,7 +948,7 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>90</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>75</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
