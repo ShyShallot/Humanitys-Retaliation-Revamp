@@ -4,203 +4,203 @@ Planet_Table = {
     Planets = {
         REACH = {
             Tech_Difficulty = 1, -- 1 Easiest, 1 Hardest
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         AKTIS_IV = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         ALERIA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         ALLUVION = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         ARCADIA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         CHI_CETI_IV = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         ERIDANUS_2 = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         MADRIGAL = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         CHARYBDIS_IX = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         MERIDIAN = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         GAO = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         HARVEST = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         EARTH = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         FALAKNUMA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         HARMONY = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         NEW_CARTHAGE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         NEW_JERUSALEM = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TANTALUS = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TERRA_NOVA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         MARS = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         MIRIDEM = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         NETHEROP = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         FAR_ISLE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         THRESHOLD = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         YONHE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         KAMCHATKA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TARAM = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TROVE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         INSTALLATION_01 = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         NEFOLUZO = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         THUA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         GLYKE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         KARAVA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         VICTORS_TRUTH = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         BALAHO = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TE = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         DOISAC = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         SANGHELIOS = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         RHANELO = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         SONG_OF_VICTORY = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         EAYN = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         BHEDALON = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         CODISFOLD = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         FELDOKRA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         ULGETHON = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         PALAMOK = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         VEN_III = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         KOSTRODA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         KHAELMOTHKA = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
         TVAO = {
             Tech_Difficulty = 1,
-            Tech_Availability = 1,
+            Tech_Availability = 5,
         },
     }
 }
