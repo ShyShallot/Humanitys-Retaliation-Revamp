@@ -5,21 +5,16 @@ require("PGBase")
 function Return_Chance(value_to_check, factor)
     factor = factor or 1
 
-    -- Normalize input if it's a decimal
-    if value_to_check < 1 then
-
-        local randomValue = EvenMoreRandomFloat()
-
-        --DebugMessage("%s -- Value to Check: %s, Random Value: %s", tostring(Script), tostring(value_to_check * factor), tostring(randomValue))
-
-        return randomValue <= value_to_check * factor
+    if value_to_check == 1 then
+        return true
     end
 
-    local randomValue = EvenMoreRandom(1, 100, 20)
+    local randomValue = EvenMoreRandomFloat()
 
-    --DebugMessage("%s -- Value to Check: %s, Random Value: %s", tostring(Script), tostring(value_to_check * factor), tostring(randomValue))
+    DebugMessage("%s -- Value to Check: %s, Random Value: %s", tostring(Script), tostring(value_to_check * factor), tostring(randomValue))
 
     return randomValue <= value_to_check * factor
+
 end
 
 function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, sfx_event_to_play) -- Already a function but this looks better
