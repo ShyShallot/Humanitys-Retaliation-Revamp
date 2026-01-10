@@ -262,6 +262,9 @@ function Tech_Stealing:Init(Planet_Table, Plot)
     self.Plot = Get_Story_Plot(Plot)
 
     if self.Plot ~= nil then
+
+        Story_Event("ACTIVATE_THEFT_DISPLAY")
+
         self.Display = self.Plot.Get_Event("Tech_Theft_Display")
     end
 

@@ -123,7 +123,7 @@ function Init_Morale_System(message)
 
         plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Morale_System.xml")
 
-        if StringCompare(player.Get_Faction_Name(), "Rebel") then
+        if StringCompare(player.Get_Faction_Name(), "Rebel") or StringCompare(player.Get_Faction_Name(), "Terrorists") then
             Story_Event("Morale_Display_UNSC")
 
             display_event = plot.Get_Event("Morale_Display_UNSC")
