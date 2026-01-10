@@ -70,7 +70,9 @@ Tech_Stealing = {
     Last_Theft_Info = {
         Verdict = false,
         Tech_Stolen = nil,
-    }
+    },
+
+    Initialized = false
 }
 
 
@@ -267,9 +269,14 @@ function Tech_Stealing:Init(Planet_Table, Plot)
         ScriptError("%s -- Could not find a valid display Event or Plot File", tostring(Script))
     end
 
+    self.Initialized = true
 end
 
 function Tech_Stealing:Update()
+
+    if not self.Initialized then
+        return
+    end
 
     self.Display.Clear_Dialog_Text()
 
