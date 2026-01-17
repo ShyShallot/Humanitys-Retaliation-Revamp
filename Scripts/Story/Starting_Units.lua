@@ -1,35 +1,56 @@
 -- Script Written by ShyShallot
 Starting_Units_Handler = {
     Spawn_Settings = {
-        Category_Mapping = nil, -- this is filled in later with a weighted table in Global_Story OnEnter
+        ---@type table
+        Category_Mapping = {}, -- this is filled in later with a weighted table in Global_Story OnEnter
         Global_Multiplier = 1.75, -- Max Combat Power multiplier
         Factions = { 
             UNSC = {
                 Station = {
                     Default = {
-                        Power = 10000,
+                        Power = {
+                            Space = 10000,
+                            Ground = 300
+                        },
                         Structures = {"UNSC_CAMP"},
-                        Units = {"Rebel_Infantry_Squad","UNSC_SINGLE_BUCKLER"}
+                        Space_Units = {"UNSC_SINGLE_BUCKLER"},
+                        Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
-                        Power = 15000,
+                        Power = {
+                            Space = 15000,
+                            Ground = 300
+                        },
                         Structures = {"UNSC_BASE"},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad","UNSC_SINGLE_BUCKLER","UNSC_PHOENIX"}
+                        Space_Units = {"UNSC_SINGLE_BUCKLER","UNSC_PHOENIX"},
+                        Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad"},
                     },
                     Medium = {
-                        Power = 45000,
+                        Power = {
+                            Space = 45000,
+                            Ground = 300,
+                        },
                         Structures = {"UNSC_FORT"},
-                        Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company", "UNSC_PHOENIX", "UNSC_EPOCH",}
+                        Space_Units = {"UNSC_PHOENIX", "UNSC_EPOCH"},
+                        Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company"}
                     },
                     High = {
-                        Power = 45000,
+                        Power = {
+                            Space = 45000,
+                            Ground = 300,
+                        },
                         Structures = {"UNSC_FORT"},
-                        Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Space_Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"},
+                        Ground_Units = {},
                     },
                     Ultra = {
-                        Power = 45000,
+                        Power = {
+                            Space = 45000,
+                            Ground = 300,
+                        },
                         Structures = {"UNSC_FORT"},
-                        Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"}
+                        Space_Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"},
+                        Ground_Units = {}
                     }
                 },
                 Heroes = {
@@ -44,29 +65,49 @@ Starting_Units_Handler = {
             COVN = {
                 Station = {
                     Default = {
-                        Power = 25000,
+                        Power = {
+                            Space = 25000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "CRS_SQUADRON"}
+                        Space_Units = {"CRS_SQUADRON"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     },
                     Low = {
-                        Power = 30500,
+                        Power = {
+                            Space = 30500,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON"}
+                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     },
                     Medium = {
-                        Power = 60000,
+                        Power = {
+                            Space = 60000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"}
+                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"}
                     },
                     High = {
-                        Power = 120500,
+                        Power = {
+                            Space = 120500,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
+                        Space_Units = {"COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"}
                     },
                     Ultra = {
-                        Power = 185000,
+                        Power = {
+                            Space = 185000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"}
+                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"}
                     }
                 },
                 Heroes = {
@@ -84,19 +125,31 @@ Starting_Units_Handler = {
             Swords = {
                 Station = {
                     Default = {
-                        Power = 20000,
+                        Power = {
+                            Space = 20000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
+                        Space_Units = {"SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     },
                     Low = {
-                        Power = 55500,
+                        Power = {
+                            Space = 55500,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_SDV","SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
+                        Space_Units = {"SWORDS_SDV","SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     },
                     Medium = {
-                        Power = 65000,
+                        Power = {
+                            Space = 65000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Imperial_Stormtrooper_Squad", "SWORDS_SDV", "SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"}
+                        Space_Units = {"SWORDS_SDV","SWORDS_CRS", "SWORDS_CCS", "SWORDS_CAS"},
+                        Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     }
                 },
                 Planets = {},
@@ -105,19 +158,31 @@ Starting_Units_Handler = {
             Terror = {
                 Station = {
                     Default = {
-                        Power = 9000,
+                        Power = {
+                            Space = 9000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
+                        Space_Units = {"TERROR_PHOENIX"},
+                        Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
-                        Power = 15000,
+                        Power = {
+                            Space = 15000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
+                        Space_Units = {"TERROR_PHOENIX"},
+                        Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Medium = {
-                        Power = 25000,
+                        Power = {
+                            Space = 25000,
+                            Ground = 300,
+                        },
                         Structures = {},
-                        Units = {"Rebel_Infantry_Squad","TERROR_PHOENIX"}
+                        Space_Units = {"TERROR_PHOENIX"},
+                        Ground_Units = {"Rebel_Infantry_Squad"},
                     }
                 },
                 Planets = {},
@@ -127,6 +192,8 @@ Starting_Units_Handler = {
     },
 
     Global_Unit_Table = nil,
+
+    Global_Planet_Table = nil,
 
     Finished = false,
 
@@ -163,21 +230,25 @@ function Starting_Units_Handler:Start()
 
     self.Global_Unit_Table = require("globalUnitTable")
 
-    self.Spawn_Settings.Category_Mapping = DiscreteDistribution.Create() -- Higher Number, higher chance of being selected
+    self.Global_Planet_Table = require("globalPlanetTable")
+
+    self.Spawn_Settings.Category_Mapping.Space = DiscreteDistribution.Create() -- Higher Number, higher chance of being selected
+
+    self.Spawn_Settings.Category_Mapping.Ground = DiscreteDistribution.Create()
 	
-	self.Spawn_Settings.Category_Mapping.Insert("Infantry", 4)
+	self.Spawn_Settings.Category_Mapping.Ground.Insert("Infantry", 50)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Vehicle", 3)
+    self.Spawn_Settings.Category_Mapping.Ground.Insert("Vehicle", 50)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Fighter", 35)
+    self.Spawn_Settings.Category_Mapping.Space.Insert("Fighter", 35)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Corvette", 30)
+    self.Spawn_Settings.Category_Mapping.Space.Insert("Corvette", 30)
     
-    self.Spawn_Settings.Category_Mapping.Insert("Frigate", 30)
+    self.Spawn_Settings.Category_Mapping.Space.Insert("Frigate", 30)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Capital", 5)
+    self.Spawn_Settings.Category_Mapping.Space.Insert("Capital", 5)
 
-    self.Spawn_Settings.Category_Mapping.Insert("Super", 2)
+    self.Spawn_Settings.Category_Mapping.Space.Insert("Super", 2)
 
     self.Spawn_Settings.Factions.UNSC.Faction = Find_Player("Rebel")
 
@@ -187,9 +258,9 @@ function Starting_Units_Handler:Start()
 
     self.Spawn_Settings.Factions.Terror.Faction = Find_Player("TERRORISTS")
 
-    local planets = FindPlanet.Get_All_Planets()
+    for _, planet_name in pairs(self.Global_Planet_Table:Return_All_Keys()) do
 
-    for _, planet in pairs(planets) do
+        local planet = FindPlanet(planet_name)
 
         --DebugMessage("%s -- Starbase Level: %s", tostring(Script), tostring(planet.Get_Starbase_Level()))
 
@@ -211,7 +282,9 @@ function Starting_Units_Handler:Start()
 
             if Settings ~= nil then
 
-                local Planet_Power = 0
+                local Planet_Ground_Power = 0
+
+                local Planet_Space_Power = 0
 
                 for _, structure in pairs(Settings.Structures) do
 
@@ -235,15 +308,21 @@ function Starting_Units_Handler:Start()
 
                 local attempts = 0
 
-                while Planet_Power < tonumber(Dirty_Floor((Settings.Power * self.Spawn_Settings.Global_Multiplier))) and attempts < 50 do
+                local Space_Power = tonumber(Dirty_Floor(Settings.Power.Space * self.Spawn_Settings.Global_Multiplier))
+
+                local Ground_Power = tonumber(Dirty_Floor(Settings.Power.Ground * self.Spawn_Settings.Global_Multiplier))
+
+                DebugMessage("%s -- Space Power: %s, Ground Power: %s", tostring(Script), tostring(Space_Power), tostring(Ground_Power))
+
+                while Planet_Ground_Power < Ground_Power and attempts < 50 do
 
                     --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
 
-                    local Category = self.Spawn_Settings.Category_Mapping.Sample()
+                    local Category = self.Spawn_Settings.Category_Mapping.Ground.Sample()
 
                     --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
 
-                    for _, unit in pairs(Settings.Units) do
+                    for _, unit in pairs(Settings.Ground_Units) do
 
                         local Unit_Entry = self:Get_Unit_Entry(unit)
 
@@ -273,7 +352,55 @@ function Starting_Units_Handler:Start()
                                     end
                                 end
                                 
-                                Planet_Power = Planet_Power + Unit_Power
+                                Planet_Ground_Power = Planet_Ground_Power + Unit_Power
+                            end
+                        end
+                    end
+
+                    attempts = attempts + 1
+                end
+
+                attempts = 0
+
+                while Planet_Space_Power < Space_Power and attempts < 50 do
+
+                    --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
+
+                    local Category = self.Spawn_Settings.Category_Mapping.Space.Sample()
+
+                    --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
+
+                    for _, unit in pairs(Settings.Space_Units) do
+
+                        local Unit_Entry = self:Get_Unit_Entry(unit)
+
+                        local Unit_Type = Find_Object_Type(unit)
+
+                        --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
+
+                        if Unit_Entry ~= nil and Unit_Type ~= nil then
+
+                            local Unit_Category = Unit_Entry.Category
+
+                            --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
+                            
+                            local Unit_Power = Unit_Type.Get_Combat_Rating()
+                            
+                            --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
+                            
+                            if Unit_Category == Category then
+
+                                --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
+
+                                local spawned_unit = Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
+
+                                if spawned_unit ~= nil then
+                                    for _, unit in pairs(spawned_unit) do
+                                        unit.Prevent_AI_Usage(false)
+                                    end
+                                end
+                                
+                                Planet_Space_Power = Planet_Space_Power + Unit_Power
                             end
                         end
                     end

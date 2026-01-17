@@ -240,13 +240,14 @@ function Planet_Table:Get_Entry_From_String(planet_name)
     return self.Planets[string.upper(planet_name)] -- will return nil or the table
 end
 
----@return nil|table
+---@return table
 function Planet_Table:Return_All_Keys()
-    if tableLength(self.Planets) == 0 then
-        return nil
-    end
 
     local keys = {}
+    
+    if tableLength(self.Planets) == 0 then
+        return keys
+    end
 
     for key, _ in pairs(self.Planets) do
         table.insert(keys, key)
