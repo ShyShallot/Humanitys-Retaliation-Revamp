@@ -314,99 +314,10 @@ function Starting_Units_Handler:Start()
 
                 DebugMessage("%s -- Space Power: %s, Ground Power: %s", tostring(Script), tostring(Space_Power), tostring(Ground_Power))
 
-                while Planet_Ground_Power < Ground_Power and attempts < 50 do
+                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Ground, Settings.Ground_Units, planet, Ground_Power)
 
-                    --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
+                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Space, Settings.Space_Units, planet, Space_Power)
 
-                    local Category = self.Spawn_Settings.Category_Mapping.Ground.Sample()
-
-                    --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
-
-                    for _, unit in pairs(Settings.Ground_Units) do
-
-                        local Unit_Entry = self:Get_Unit_Entry(unit)
-
-                        local Unit_Type = Find_Object_Type(unit)
-
-                        --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
-
-                        if Unit_Entry ~= nil and Unit_Type ~= nil then
-
-                            local Unit_Category = Unit_Entry.Category
-
-                            --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
-                            
-                            local Unit_Power = Unit_Type.Get_Combat_Rating()
-                            
-                            --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
-                            
-                            if Unit_Category == Category then
-
-                                --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
-
-                                local spawned_unit = Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
-
-                                if spawned_unit ~= nil then
-                                    for _, unit in pairs(spawned_unit) do
-                                        unit.Prevent_AI_Usage(false)
-                                    end
-                                end
-                                
-                                Planet_Ground_Power = Planet_Ground_Power + Unit_Power
-                            end
-                        end
-                    end
-
-                    attempts = attempts + 1
-                end
-
-                attempts = 0
-
-                while Planet_Space_Power < Space_Power and attempts < 50 do
-
-                    --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
-
-                    local Category = self.Spawn_Settings.Category_Mapping.Space.Sample()
-
-                    --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
-
-                    for _, unit in pairs(Settings.Space_Units) do
-
-                        local Unit_Entry = self:Get_Unit_Entry(unit)
-
-                        local Unit_Type = Find_Object_Type(unit)
-
-                        --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
-
-                        if Unit_Entry ~= nil and Unit_Type ~= nil then
-
-                            local Unit_Category = Unit_Entry.Category
-
-                            --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
-                            
-                            local Unit_Power = Unit_Type.Get_Combat_Rating()
-                            
-                            --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
-                            
-                            if Unit_Category == Category then
-
-                                --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
-
-                                local spawned_unit = Spawn_Unit(Unit_Type, planet, planet.Get_Owner())
-
-                                if spawned_unit ~= nil then
-                                    for _, unit in pairs(spawned_unit) do
-                                        unit.Prevent_AI_Usage(false)
-                                    end
-                                end
-                                
-                                Planet_Space_Power = Planet_Space_Power + Unit_Power
-                            end
-                        end
-                    end
-
-                    attempts = attempts + 1
-                end
             end
         end
     end
@@ -445,7 +356,88 @@ function Starting_Units_Handler:Start()
     self.Finished = true
 end
 
+function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Planet, Max_Power)
+
+    if Category_Mapping == nil then
+        return
+    end
+
+    if Category_Mapping.Sample == nil then
+        return
+    end
+
+    if type(Units) ~= "table" then
+        return
+    end
+
+    if not TestValid(Planet) then
+        return
+    end
+
+    if type(Max_Power) ~= "number" then
+        return
+    end
+
+    local Current_Power = 0
+
+    local attempts = 0
+
+    while Current_Power < Max_Power and attempts < 50 do
+
+        --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
+
+        local Category = Category_Mapping.Sample()
+
+        --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
+
+        for _, unit in pairs(Units) do
+
+            local Unit_Entry = self:Get_Unit_Entry(unit)
+
+            local Unit_Type = Find_Object_Type(unit)
+
+            --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
+
+            if Unit_Entry ~= nil and Unit_Type ~= nil then
+
+                local Unit_Category = Unit_Entry.Category
+
+                --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
+                            
+                local Unit_Power = Unit_Type.Get_Combat_Rating()
+                            
+                --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
+                            
+                if Unit_Category == Category then
+
+                    --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
+
+                    local spawned_unit = Spawn_Unit(Unit_Type, Planet, Planet.Get_Owner())
+
+                    if spawned_unit ~= nil then
+                        for _, unit in pairs(spawned_unit) do
+                            unit.Prevent_AI_Usage(false)
+                        end
+                    end
+                                
+                    Current_Power = Current_Power + Unit_Power
+                end
+            end
+        end
+
+        attempts = attempts + 1
+    end
+end
+
 function Starting_Units_Handler:Spawn_Structure(structure, planet)
+
+    if structure == nil then
+        return
+    end
+
+    if not TestValid(planet) then
+        return
+    end
 
     local structure_type = Find_Object_Type(structure)
 
