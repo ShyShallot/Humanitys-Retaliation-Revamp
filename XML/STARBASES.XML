@@ -1112,7 +1112,7 @@
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron,16</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 12</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_STALWART, 12</Starting_Spawned_Units_Tech_1>	
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
@@ -1262,8 +1262,8 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_1> 
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 6</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 2</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_STALWART, 6</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_PARIS, 2</Starting_Spawned_Units_Tech_1>	
 
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -1419,8 +1419,8 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_1> 
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 16</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 12</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_STALWART, 16</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_PARIS, 12</Starting_Spawned_Units_Tech_1>	
 		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 3</Starting_Spawned_Units_Tech_1>	
 
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -1584,13 +1584,13 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 10</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_1> 
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_1>UNSC_STALWART, 20</Starting_Spawned_Units_Tech_1>	
-		<Starting_Spawned_Units_Tech_1>UNSC_PARIS, 12</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_STALWART, 20</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_1>UNSC_SINGLE_PARIS, 12</Starting_Spawned_Units_Tech_1>	
 		<Starting_Spawned_Units_Tech_1>UNSC_HALCYON, 3</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_2>Baselard_Squadron, 16</Starting_Spawned_Units_Tech_2> 
 		<Starting_Spawned_Units_Tech_2>Longsword_Squadron, 14</Starting_Spawned_Units_Tech_2>		
-		<Starting_Spawned_Units_Tech_2>UNSC_STALWART, 22</Starting_Spawned_Units_Tech_2>	
-		<Starting_Spawned_Units_Tech_2>UNSC_PARIS, 18</Starting_Spawned_Units_Tech_2>	
+		<Starting_Spawned_Units_Tech_2>UNSC_SINGLE_STALWART, 22</Starting_Spawned_Units_Tech_2>	
+		<Starting_Spawned_Units_Tech_2>UNSC_SINGLE_PARIS, 18</Starting_Spawned_Units_Tech_2>	
 		<Starting_Spawned_Units_Tech_2>UNSC_HALCYON, 4</Starting_Spawned_Units_Tech_2>			
 		<Starting_Spawned_Units_Tech_2>UNSC_MARATHON, 2</Starting_Spawned_Units_Tech_2>
 

@@ -109,7 +109,7 @@
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
@@ -710,7 +710,7 @@
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>

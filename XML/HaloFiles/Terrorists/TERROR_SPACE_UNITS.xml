@@ -1474,7 +1474,7 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1630,7 +1630,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1904,7 +1904,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -2180,7 +2180,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 

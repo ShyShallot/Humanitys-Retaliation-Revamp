@@ -42,7 +42,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -96,7 +96,7 @@
 			UNSC_INFINITY_ARCHERT_09, UNSC_INFINITY_ARCHERT_10
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>UNSC_STRIDENT, 10</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 10</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 18</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron,15</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
@@ -263,7 +263,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -317,7 +317,7 @@
 			UNSC_INFINITY_ARCHERT_09, UNSC_INFINITY_ARCHERT_10
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>UNSC_STRIDENT, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 18</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron,15</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
@@ -474,7 +474,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -868,7 +868,7 @@
 	
 		<Variant_Of_Existing_Type>Generic_COVN_CAS</Variant_Of_Existing_Type>
 		<Text_ID> TEXT_UNIT_COVN_CAS </Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CAS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CAS </Encyclopedia_Text> 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25, HP_CAS_26, HP_CAS_LANCE,
@@ -894,7 +894,7 @@
 
 		<Max_Speed>3.2</Max_Speed>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
-		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
 		
 		<Death_Clone />
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -965,7 +965,7 @@
 		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
 		<AI_Combat_Power>12000</AI_Combat_Power>
 		<Space_FOW_Reveal_Range>10500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
 		
 		<Death_Clone />
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>

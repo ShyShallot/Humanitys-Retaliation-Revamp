@@ -654,8 +654,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_01_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_01_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_01_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -663,7 +663,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -685,8 +685,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_02_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_02_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_02_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -694,7 +694,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -716,8 +716,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_03_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_03_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_03_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -725,7 +725,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -747,8 +747,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_04_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_04_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_04_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -756,7 +756,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -778,8 +778,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_05_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_05_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_05_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -787,7 +787,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -809,8 +809,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_06_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_06_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_06_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -818,7 +818,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -840,8 +840,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_07_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_07_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_07_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -849,7 +849,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -871,8 +871,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_08_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_08_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_08_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -880,7 +880,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -902,8 +902,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_09_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_09_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_09_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -911,7 +911,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
@@ -933,8 +933,8 @@
        <Health>750</Health>
        <Is_Turret>No</Is_Turret>
        <Damage_Particles>HP_CAS_HC_10_BONE_EMIT</Damage_Particles>
-       <Fire_Bone_A>FP_01</Fire_Bone_A>
-       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Fire_Bone_A>HP_CAS_HC_10_BONE</Fire_Bone_A>
+       <Fire_Bone_B>HP_CAS_HC_10_BONE</Fire_Bone_B>
        <Randomize_Between_Fire_Bones>True</Randomize_Between_Fire_Bones>
        <Fire_Cone_Width>180</Fire_Cone_Width>
        <Fire_Cone_Height>180</Fire_Cone_Height>
@@ -942,7 +942,7 @@
        <Fire_Min_Recharge_Seconds>23.45</Fire_Min_Recharge_Seconds>
        <Fire_Max_Recharge_Seconds>23.85</Fire_Max_Recharge_Seconds>
        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-       <Fire_Pulse_Count>1</Fire_Pulse_Count>
+       <Fire_Pulse_Count>200</Fire_Pulse_Count>
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        

@@ -2145,10 +2145,10 @@
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_MINE_DEEP</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_MINE_DEEP </Encyclopedia_Text>
 
-		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking -->
+		<Build_Cost_Credits>1500</Build_Cost_Credits> <!-- Needs Tweaking -->
 		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking -->
 
-		<Build_Max_Instances_Per_Planet> 4 </Build_Max_Instances_Per_Planet> <!-- Needs Tweaking -->
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet> <!-- Needs Tweaking -->
 
 		<Required_Planets> Earth, Mars, Reach, Meridian, Miridem, Harmony, New_Carthage, Terra_Nova, Far_Isle, Aleria </Required_Planets> <!-- Needs Tweaking-->
 
@@ -2267,7 +2267,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> </Required_Special_Structures>
-		<Required_Planets />
+		<Required_Planets>Earth, Mars, Reach, Harmony</Required_Planets>
 		<Tactical_Health>750</Tactical_Health>
 		<Icon_Name>I_BUTTON_UNSC_RESEARCH_STATION.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
