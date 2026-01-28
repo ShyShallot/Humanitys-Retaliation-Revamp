@@ -620,8 +620,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>35.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>3.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -1336,7 +1336,6 @@
 
 	</HardPoint>
 
-
 	<HardPoint Name="UNSC_AUTUMN_MAC">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
@@ -1350,8 +1349,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>35.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -2204,8 +2203,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>45.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -2727,8 +2726,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -3380,8 +3379,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>22.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>22.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -4345,8 +4344,8 @@
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_SUPER_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>110.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>75.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>75.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -4376,8 +4375,8 @@
 		<Fire_Cone_Width>35.0</Fire_Cone_Width>
 		<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>15.5</Fire_Min_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>

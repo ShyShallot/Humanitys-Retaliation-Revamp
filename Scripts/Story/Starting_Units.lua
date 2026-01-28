@@ -13,7 +13,7 @@ Starting_Units_Handler = {
                             Ground = 300
                         },
                         Structures = {"UNSC_CAMP"},
-                        Space_Units = {"UNSC_SINGLE_BUCKLER"},
+                        Space_Units = {"BUCKLER_SQUADRON"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
@@ -22,12 +22,12 @@ Starting_Units_Handler = {
                             Ground = 300
                         },
                         Structures = {"UNSC_BASE"},
-                        Space_Units = {"UNSC_SINGLE_BUCKLER","UNSC_PHOENIX"},
+                        Space_Units = {"BUCKLER_SQUADRON","UNSC_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad"},
                     },
                     Medium = {
                         Power = {
-                            Space = 45000,
+                            Space = 25000,
                             Ground = 300,
                         },
                         Structures = {"UNSC_FORT"},
@@ -40,7 +40,7 @@ Starting_Units_Handler = {
                             Ground = 300,
                         },
                         Structures = {"UNSC_FORT"},
-                        Space_Units = {"UNSC_SINGLE_BUCKLER", "UNSC_EPOCH", "UNSC_PHOENIX"},
+                        Space_Units = {"BUCKLER_SQUADRON", "UNSC_EPOCH", "UNSC_PHOENIX"},
                         Ground_Units = {},
                     },
                     Ultra = {

@@ -201,10 +201,6 @@ local unit_table = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Researched"
     },
-    UNSC_MUSASHI_2 = {
-        Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
-    },
     UNSC_POSEIDON = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Researched"
@@ -213,7 +209,7 @@ local unit_table = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
-    UNSC_SINGLE_STRIDENT = {
+    UNSC_STRIDENT = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
@@ -226,16 +222,16 @@ local unit_table = {
 	UNSC_IAC = {
         Category = "Frigate"
     },
-	UNSC_SINGLE_PARIS = {
+	UNSC_PARIS = {
         Category = "Frigate"
     },
-    UNSC_SINGLE_CHARON = {
+    UNSC_CHARON = {
         Category = "Frigate"
     },
-	UNSC_SINGLE_STALWART = {
+	UNSC_STALWART = {
         Category = "Frigate"
     },
-	UNSC_SINGLE_BUCKLER = {
+	BUCKLER_SQUADRON = {
         Category = "Frigate"
     },
     GLADIUS_SQUADRON = {
@@ -299,19 +295,19 @@ local unit_table = {
     TERROR_MUSASHI = {
         Category = "Capital",
     },
-    TERROR_UNSC_SINGLE_HALBERD = {
+    TERROR_UNSC_HALBERD = {
         Category = "Frigate"
     },
     TERROR_PARIS_SQUADRON = {
         Category = "Frigate"
     },
-    TERROR_UNSC_SINGLE_STALWART = {
+    TERROR_UNSC_STALWART = {
         Category = "Frigate"
     },
-	TERROR_UNSC_SINGLE_CHARON = {
+	TERROR_UNSC_CHARON = {
         Category = "Frigate"
     },
-	TERROR_UNSC_SINGLE_BUCKLER = {
+	TERROR_UNSC_BUCKLER = {
         Category = "Frigate"
     },
     TERROR_GLADIUS_SQUADRON = {

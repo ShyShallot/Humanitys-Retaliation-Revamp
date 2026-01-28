@@ -12,9 +12,9 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>6200</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -22,11 +22,11 @@
 		
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.6</Max_Speed>
+		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.1</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -35,7 +35,7 @@
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
 		<Damage_Type> Damage_UNSC_Corvette</Damage_Type>
-		<Armor_Type> Armor_UNSC_Corvette </Armor_Type>
+		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		
 		<Hyperspace>Yes</Hyperspace>
@@ -48,7 +48,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -69,12 +69,12 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 
 
@@ -153,7 +153,6 @@
 		<SFXEvent_Engine_Moving_Loop>  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-
 		<Death_SFXEvent_Start_Die>Corvette_Death</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Health_Low_Warning> Corvette_Low_Health </SFXEvent_Health_Low_Warning>
@@ -166,7 +165,7 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -216,7 +215,7 @@
 
 	</SpaceUnit>
 	
-	<Squadron Name="Gladius_Squadron">
+   <Squadron Name="Gladius_Squadron">
 
 		<Text_ID>TEXT_UNIT_UNSC_GLADIUS_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
@@ -230,7 +229,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		
@@ -279,19 +278,17 @@
 		</Abilities>
 		
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		
 		<Tactical_Build_Cost_Multiplayer>435</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
 		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron>
+		</Squadron> 
 	
 
 
@@ -310,11 +307,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -331,9 +328,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -341,7 +338,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -362,19 +359,19 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>SELECTABLE</Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		Pelican_Squadron, 1
+		
 		
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
@@ -440,7 +437,7 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -490,6 +487,44 @@
 	</SpaceUnit>
 	
 
+	<SpaceUnit Name="UNSC_SINGLE_HALBERD"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_HALBERD</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
+		<Tech_Level>2</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+	
+	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MAKO">
 		<Text_ID>TEXT_UNIT_UNSC_MAKO</Text_ID>
@@ -507,11 +542,11 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.995</Mass>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -523,12 +558,12 @@
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Damage_Type> Damage_UNSC_Corvette</Damage_Type>
-		<Armor_Type> Armor_UNSC_Corvette </Armor_Type>
+		<Damage_Type> Damage_UNSC_Corvette </Damage_Type>
+		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
 		<Shield_Armor_Type>Shield_UNSC_Corvette</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 then 1150 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -538,7 +573,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
@@ -559,7 +594,7 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -567,9 +602,9 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
@@ -696,11 +731,11 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		
 		
 
@@ -732,7 +767,7 @@
 	
 	<!-- Mako Squadron -->
 	
-	<Squadron Name="MAKO_SQUADRON">
+	<!--  <Squadron Name="MAKO_SQUADRON">
 
 		<Text_ID>TEXT_UNIT_UNSC_MAKO_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
@@ -784,19 +819,16 @@
 		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron>
+		</Squadron>  -->
+
 
 	<SpaceUnit Name="UNSC_STRIDENT">
 		<Text_ID>TEXT_UNIT_UNSC_STRIDENT</Text_ID>
@@ -813,11 +845,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>     
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>     
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -825,7 +857,6 @@
 		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
-		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -845,10 +876,10 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
-		<Required_Timeline>3</Required_Timeline>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Required_Planets/>
@@ -863,7 +894,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -871,9 +902,9 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone> Damage_Normal </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
@@ -940,7 +971,7 @@
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -987,7 +1018,48 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 
+	</SpaceUnit> -->
+	
+	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_STRIDENT</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_STRIDENT.tga</Icon_Name>
+		<Tech_Level>4</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+	
 	</SpaceUnit>
+	
+	
 
 	<SpaceUnit Name="UNSC_PARIS">
 		<Text_ID>TEXT_UNIT_UNSC_PARIS</Text_ID>
@@ -1004,11 +1076,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1026,9 +1098,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>14400</Tactical_Health>		<!-- was 3200 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1036,7 +1108,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -1052,12 +1124,12 @@
 		<Number_per_Squadron>2</Number_per_Squadron>
 		<Build_Cost_Credits>1900</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
-		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE </Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1065,17 +1137,15 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
 			UNSC_PARIS_MK33_01, UNSC_PARIS_MK33_02, UNSC_PARIS_MK33_03, UNSC_PARIS_MK33_04, UNSC_PARIS_AP_01, UNSC_PARIS_AP_02, UNSC_PARIS_MAC, UNSC_Paris_Hangar
 		</HardPoints>
 		
-		 
-
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
@@ -1135,7 +1205,7 @@
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -1188,6 +1258,235 @@
 
 	</SpaceUnit>
 
+ <!-- <Squadron Name="Paris_Squadron">
+
+		<Text_ID>TEXT_UNIT_UNSC_PARIS_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>I_BUTTON_UNSC_SQUADRON_PARIS.tga</Icon_Name>
+		
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>2</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>2</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1350</Build_Cost_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+
+		<Squadron_Units>UNSC_PARIS</Squadron_Units>
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
+		
+		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>3500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>3500.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
+		
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Population_Value>6</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	
+		</Squadron> -->
+		
+		
+	<SpaceUnit Name="UNSC_SINGLE_PARIS"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		
+		<Tech_Level>1</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+	
+	</SpaceUnit>
+	
+		
+		<!-- Ship Spawners - This was done in xml to prevent Desync, yes we know there are better ways - but Apple is extremely strict on lua -->
+	
+	<!-- <SpecialStructure Name="UNSC_PARIS_SPAWNER">
+		<Text_ID>TEXT_UNIT_UNSC_PARIS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>UNSC_PORTAL_MODEL.ALO</Space_Model_Name>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>0.47</Scale_Factor>  
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+		<Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Max_Speed>0</Max_Speed>
+		<Max_Thrust>0</Max_Thrust>
+		<Max_Lift>0</Max_Lift>
+		<Min_Speed>0</Min_Speed>
+		<OverrideAcceleration> 0 </OverrideAcceleration>
+		<OverrideDeceleration> 0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.0</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
+
+		
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.45</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
+		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Damage>40</Damage>
+		<Autoresolve_Health>3500</Autoresolve_Health>
+		<Shield_Points></Shield_Points>
+		<Tactical_Health>14400</Tactical_Health>		
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		<Required_Planets />
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>true</WaitsForFormationFormup>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>2</Number_per_Squadron>
+		<Build_Cost_Credits>1900</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior> DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+		
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+
+		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
+		 <Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Death_Clone>Damage_Normal </Death_Clone>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> frigate </Space_Layer> 
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<HardPoints>
+			UNSC_SHIP_SPAWNER
+		</HardPoints>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_PARIS, 3</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+
+		<CategoryMask> Frigate </CategoryMask>
+		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
+		<GUI_Distance>1200</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	
+
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Population_Value>6</Population_Value>
+	</SpecialStructure> -->
+	
+
 	<SpaceUnit Name="UNSC_STALWART">
 		<Text_ID>TEXT_UNIT_UNSC_STALWART</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STALWART </Encyclopedia_Text>
@@ -1203,11 +1502,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1220,7 +1519,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1229,9 +1528,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>9200</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1239,11 +1538,10 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
-
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
@@ -1258,10 +1556,11 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 
 		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1269,17 +1568,14 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
 			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_FLAK_03, UNSC_STALWART_FLAK_04, UNSC_STALWART_FLAK_05, UNSC_STALWART_FLAK_06, UNSC_STALWART_AP_01, UNSC_STALWART_AP_02 UNSC_STALWART_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
-		
-	
-		
 
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
@@ -1386,6 +1682,49 @@
 
 	</SpaceUnit>
 	
+	
+	<SpaceUnit Name="UNSC_SINGLE_STALWART"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_STALWART</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
+		
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		
+		<Tech_Level>1</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+	
+	
+	</SpaceUnit>
+	
+	
 	<SpaceUnit Name="UNSC_CHARON">
 		<Text_ID>TEXT_UNIT_UNSC_CHARON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
@@ -1401,11 +1740,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1418,7 +1757,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1427,9 +1766,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points></Shield_Points>
 		<Tactical_Health>7200</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1437,11 +1776,10 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
-
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
@@ -1457,9 +1795,10 @@
 
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1467,9 +1806,9 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 	
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1587,6 +1926,47 @@
 
 	</SpaceUnit>
 	
+	<SpaceUnit Name="UNSC_SINGLE_CHARON"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_CHARON</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
+		
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		
+		<Tech_Level>1</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+	
+	
+	</SpaceUnit>
+	
 	<SpaceUnit Name="UNSC_Buckler">
 		<Text_ID>TEXT_UNIT_UNSC_BUCKLER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
@@ -1602,11 +1982,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>2.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1620,7 +2000,7 @@
 		
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>3500</Idle_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -1629,9 +2009,9 @@
 		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>12000</Tactical_Health>		<!-- was 2800 -->
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Shield_Points></Shield_Points>
+		<Tactical_Health>3000</Tactical_Health>		<!-- was 2800 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1639,11 +2019,10 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level> <!-- 99 means it will no longer show in GC this is to prevent players from building individual ships -->
-		<Required_Timeline>1</Required_Timeline>
-
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
@@ -1659,6 +2038,7 @@
 
 		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
@@ -1669,8 +2049,13 @@
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> 
+		<Strafe_Distance>500.0</Strafe_Distance>	
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
@@ -1782,5 +2167,117 @@
 
 	</SpaceUnit>
 	
+	<!-- <SpaceUnit Name="UNSC_SINGLE_BUCKLER"> 
+	
+		<Variant_Of_Existing_Type>UNSC_BUCKLER</Variant_Of_Existing_Type>
+	
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer>  </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<Tech_Level>0</Tech_Level>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<Tech_Level>99</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+		<Population_Value>6</Population_Value>
+	
+	
+	</SpaceUnit> -->
+	
+	<Squadron Name="BUCKLER_SQUADRON">
+
+		<Text_ID>TEXT_UNIT_UNSC_BUCKLER_FLIGHT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
+		
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>2</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>875</Build_Cost_Credits>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+
+		<Squadron_Units>UNSC_Buckler, UNSC_Buckler</Squadron_Units>
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
+		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- <Abilities SubObjectList="Yes">
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities> -->
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>6</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	
+		</Squadron>
 
 </FrigateUnits>

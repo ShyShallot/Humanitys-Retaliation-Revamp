@@ -402,7 +402,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3950</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -610,8 +610,8 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
@@ -1092,7 +1092,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
@@ -1301,7 +1301,7 @@
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>15750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>10750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>

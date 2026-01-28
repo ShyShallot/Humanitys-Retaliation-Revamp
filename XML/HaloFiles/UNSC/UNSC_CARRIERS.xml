@@ -94,21 +94,23 @@
 			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_STALWART_MAC, HP_MUSASHI_REACTOR 
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_1>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 4</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_1>
 
-		<Starting_Spawned_Units_Tech_3>Pelican_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Saber, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Late_Longsword_Squadron, 4</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_3>
 		
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<Reserve_Spawned_Units_Tech_1>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Baselard_Squadron, 4</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Longsword_Squadron, 6</Reserve_Spawned_Units_Tech_1>
-
+		
+		
+		<Reserve_Spawned_Units_Tech_3>Sabre_Squadron, 7</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Late_Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_3>
@@ -282,14 +284,14 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>33</Population_Value>
+		<Population_Value>22</Population_Value>
 	</SpaceUnit>
 	
 	<!-- <SpaceUnit Name="UNSC_MUSASHI_2">

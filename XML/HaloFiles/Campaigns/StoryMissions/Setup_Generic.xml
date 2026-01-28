@@ -71,12 +71,4 @@
         <Perpetual>true</Perpetual>
     </Event>
 
-    <Event Name="Tech_Theft_Display">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>ACTIVATE_THEFT_DISPLAY</Event_Param2>
-		<Story_Dialog>DIALOG_TECH_STEAL</Story_Dialog>
-		<Story_Chapter>1</Story_Chapter>
-		<Story_Tag>Intro_Tag</Story_Tag>
-	</Event>
-
 </Story>
