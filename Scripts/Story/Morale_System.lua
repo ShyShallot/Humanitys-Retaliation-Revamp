@@ -749,7 +749,20 @@ function Build_Morale_Display_String(Morale_Entry)
 end
 
 function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired by the Thrawns Revenge Team but slightly modified to fit our purpose
+    
+    if plot == nill then
+        return
+    end
+
     local text_event = plot.Get_Event("Show_Screen_Text")
+
+    if text_event == nil then
+        return
+    end
+
+    if type(text) ~= "string" then
+        return
+    end
 
     local colorstring = ""
 
