@@ -41,6 +41,8 @@
 
 	<SpaceStructure> 	0x05000000		</SpaceStructure>
 
+	<NoTarget>          0x06000000      </NoTarget>
+
 	<!--
 	<Vehicle>		0x0001		</Vehicle>
 	<Infantry>		0x0002		</Infantry>
@@ -70,4 +72,3 @@
 	<None>			0x00000000	</None>
 	
 </EnumDefinition>
-

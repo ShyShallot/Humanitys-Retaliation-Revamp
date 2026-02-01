@@ -1082,7 +1082,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Tech_Level>99</Tech_Level>
-		<Is_Interdictor>Yes</Is_Interdictor>
+		<Is_Interdictor>No</Is_Interdictor>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1111,7 +1111,7 @@
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> NoTarget </CategoryMask>
 
 		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>

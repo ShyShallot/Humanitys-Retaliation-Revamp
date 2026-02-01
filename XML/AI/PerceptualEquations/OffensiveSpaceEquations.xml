@@ -153,6 +153,14 @@
 	-->
 	<Is_Space_Structure_Indestructable>
 		Variable_Target.Type.IsType { Parameter_Type = "N_Orbital_Construction_Pod" }
+		+
+		Variable_Target.Type.IsType { Parameter_Type = "Morale_Compromised" }
+		+
+		Variable_Target.Type.IsType { Parameter_Type = "Morale_Strained" }
+		+
+		Variable_Target.Type.IsType { Parameter_Type = "Morale_Resolute" }
+		+
+		Variable_Target.Type.IsType { Parameter_Type = "Morale_Ascendant" }
 	</Is_Space_Structure_Indestructable>
 
 	<!-- 	
