@@ -174,8 +174,8 @@
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L1_Bonus">
 				<Income_Multiplier>1.15</Income_Multiplier>
-				<Income_Additive_Value>45.0</Income_Additive_Value>
-				<Interval_Multiplier>1.05</Interval_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -211,8 +211,8 @@
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
 				<Income_Multiplier>1.45</Income_Multiplier>
-				<Income_Additive_Value>105.0</Income_Additive_Value>
-				<Interval_Multiplier>1.10</Interval_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -247,8 +247,8 @@
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L3_Bonus">
 				<Income_Multiplier>1.8</Income_Multiplier>
-				<Income_Additive_Value>125.0</Income_Additive_Value>
-				<Interval_Multiplier>1.15</Interval_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -283,8 +283,8 @@
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L4_Bonus">
 				<Income_Multiplier>2.5</Income_Multiplier>
-				<Income_Additive_Value>200.0</Income_Additive_Value>
-				<Interval_Multiplier>1.2</Interval_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>

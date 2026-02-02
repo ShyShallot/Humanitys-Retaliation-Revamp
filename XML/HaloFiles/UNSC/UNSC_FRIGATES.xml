@@ -192,7 +192,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	</SpaceUnit>
 
 
@@ -284,7 +284,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
@@ -483,7 +483,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	</SpaceUnit>
 	
 
@@ -522,7 +522,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	</SpaceUnit>
 
@@ -761,7 +761,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	</SpaceUnit>
 	
 	
@@ -823,7 +823,7 @@
 		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
@@ -1055,7 +1055,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	</SpaceUnit>
 	
@@ -1247,14 +1247,14 @@
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
 	</SpaceUnit>
 
@@ -1326,7 +1326,7 @@
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
@@ -1361,14 +1361,14 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	</SpaceUnit>
 	
@@ -1483,7 +1483,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	</SpecialStructure> -->
 	
 
@@ -1678,7 +1678,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
 	</SpaceUnit>
 	
@@ -1712,14 +1712,14 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	
 	</SpaceUnit>
@@ -1922,7 +1922,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
 	</SpaceUnit>
 	
@@ -1955,14 +1955,14 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	
 	</SpaceUnit>
@@ -2156,14 +2156,14 @@
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
 	</SpaceUnit>
 	
@@ -2200,7 +2200,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 	
 	
 	</SpaceUnit> -->
@@ -2274,7 +2274,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	

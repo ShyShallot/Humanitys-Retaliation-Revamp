@@ -204,7 +204,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>40500</Tactical_Health>
+		<Tactical_Health>60500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -281,7 +281,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
@@ -313,7 +313,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>84500</Tactical_Health>
+		<Tactical_Health>104500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -401,7 +401,7 @@
 		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
 
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>180</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
@@ -433,7 +433,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
-		<Tactical_Health>164500</Tactical_Health>
+		<Tactical_Health>184500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 		
@@ -462,9 +462,8 @@
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_AUTUMN, 9999</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_VINDICATION, 9999</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>90</Spawned_Squadron_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>

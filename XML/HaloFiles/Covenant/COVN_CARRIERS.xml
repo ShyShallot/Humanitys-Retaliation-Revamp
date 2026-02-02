@@ -56,11 +56,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>150000</Shield_Points>
-		<Tactical_Health>100000</Tactical_Health>
-		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
-		<Energy_Capacity>70000</Energy_Capacity>
-		<Energy_Refresh_Rate>750</Energy_Refresh_Rate>
+		<Shield_Points>45000</Shield_Points>
+		<Tactical_Health>20000</Tactical_Health>
+		<Shield_Refresh_Rate>1125</Shield_Refresh_Rate>
+		<Energy_Capacity>90000</Energy_Capacity>
+		<Energy_Refresh_Rate>3750</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -189,7 +189,7 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>53</Population_Value>
+		<Population_Value>33</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -218,10 +218,10 @@
 			<Unit_Ability>
 				<Type>DEFEND</Type>        
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.75f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	4.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
@@ -243,7 +243,7 @@
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>10750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
