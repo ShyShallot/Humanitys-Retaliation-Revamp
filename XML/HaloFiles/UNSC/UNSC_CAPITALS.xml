@@ -467,7 +467,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
-		<Tactical_Health>69000</Tactical_Health>
+		<Tactical_Health>75000</Tactical_Health>
 		<Shield_Points></Shield_Points>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -610,14 +610,14 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>22</Population_Value>
+		<Population_Value>12</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">

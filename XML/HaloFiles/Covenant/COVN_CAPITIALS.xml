@@ -54,11 +54,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>50000</Shield_Points>
-		<Tactical_Health>32000</Tactical_Health>
-		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
-		<Energy_Capacity>22000</Energy_Capacity>
-		<Energy_Refresh_Rate>240</Energy_Refresh_Rate>
+		<Shield_Points>22500</Shield_Points>
+		<Tactical_Health>9750</Tactical_Health>
+		<Shield_Refresh_Rate>1125</Shield_Refresh_Rate>
+		<Energy_Capacity>67500</Energy_Capacity>
+		<Energy_Refresh_Rate>1875</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -246,12 +246,12 @@
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
-		<Population_Value>28</Population_Value>
+		<Population_Value>22</Population_Value>
 
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>34</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -331,11 +331,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>20000</Shield_Points>
-		<Tactical_Health>60000</Tactical_Health>
-		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
-		<Energy_Capacity>10000</Energy_Capacity>
-		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
+		<Shield_Points>10000</Shield_Points>
+		<Tactical_Health>32000</Tactical_Health>
+		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
+		<Energy_Capacity>30000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -445,10 +445,10 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
-			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
+			<Unit_Ability>   <!-- !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!! -->
 				<Type>TURBO</Type>
 			
-				<Expiration_Seconds>9</Expiration_Seconds>
+				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
@@ -501,11 +501,11 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>28</Population_Value>
+		<Population_Value>18</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>4250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -567,11 +567,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>60000</Shield_Points>
-		<Tactical_Health>40000</Tactical_Health>
-		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
-		<Energy_Capacity>30000</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Shield_Points>35000</Shield_Points>
+		<Tactical_Health>17500</Tactical_Health>
+		<Shield_Refresh_Rate>1125</Shield_Refresh_Rate>
+		<Energy_Capacity>90000</Energy_Capacity>
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -675,7 +675,7 @@
 			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
 				<Type>TURBO</Type>
 			
-				<Expiration_Seconds>9</Expiration_Seconds>
+				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
@@ -729,8 +729,8 @@
 		<Population_Value>28</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>9520</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>8650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>56</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -791,11 +791,11 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>120000</Shield_Points>
-		<Tactical_Health>80000</Tactical_Health>
-		<Shield_Refresh_Rate>700</Shield_Refresh_Rate>
-		<Energy_Capacity>70000</Energy_Capacity>
-		<Energy_Refresh_Rate>750</Energy_Refresh_Rate>
+		<Shield_Points>45000</Shield_Points>
+		<Tactical_Health>20000</Tactical_Health>
+		<Shield_Refresh_Rate>1125</Shield_Refresh_Rate>
+		<Energy_Capacity>90000</Energy_Capacity>
+		<Energy_Refresh_Rate>3750</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -915,7 +915,7 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>53</Population_Value>
+		<Population_Value>33</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
@@ -934,7 +934,7 @@
 			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
 				<Type>TURBO</Type>
 			
-				<Expiration_Seconds>9</Expiration_Seconds>
+				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
@@ -978,8 +978,8 @@
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>11000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>10250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

@@ -37,11 +37,11 @@
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>350</Shield_Points>
-		<Tactical_Health>120</Tactical_Health>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-		<Energy_Capacity>20</Energy_Capacity>
-		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
+		<Shield_Points>650</Shield_Points>
+		<Tactical_Health>550</Tactical_Health>
+		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
+		<Energy_Capacity>1200</Energy_Capacity>
+		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Fighter</Shield_Armor_Type>
@@ -260,7 +260,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
@@ -304,10 +304,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>600</Shield_Points>
-		<Tactical_Health>1200</Tactical_Health>
-		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
-		<Energy_Capacity>10</Energy_Capacity>
-		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
+		<Tactical_Health>1600</Tactical_Health>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>150</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_COVN_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_COVN_Fighter</Shield_Armor_Type>
@@ -521,7 +521,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
@@ -563,7 +563,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>600</Tactical_Health>
+		<Tactical_Health>800</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
@@ -730,7 +730,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	</Squadron>
@@ -773,7 +773,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>350</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>10</Energy_Capacity>
 		<Energy_Refresh_Rate>3</Energy_Refresh_Rate>
@@ -955,7 +955,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>0</Population_Value>
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		
 	</Squadron>

@@ -121,7 +121,7 @@
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
-				CRS_SQUADRON,
+				SDV_SQUADRON,
 				COVN_ARDO,
 				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
@@ -145,7 +145,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>150</Base_Income_Value>
+				<Base_Income_Value>200</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -220,7 +220,6 @@
 				SDV_SQUADRON,
 				COVN_ARDO,
 				COVN_RCS,
-				COVN_CCS,
 				COVN_MACCABEUS,
 				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Enhanced_Shielding_L2_Upgrade,
@@ -247,7 +246,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>200</Base_Income_Value>
+				<Base_Income_Value>300</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -350,7 +349,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>250</Base_Income_Value>
+				<Base_Income_Value>400</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -462,7 +461,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>300</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

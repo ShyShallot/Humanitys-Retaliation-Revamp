@@ -57,11 +57,11 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>5100</Shield_Points>
+		<Shield_Points>3750</Shield_Points>
 		<Tactical_Health>2400</Tactical_Health>
-		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>
-		<Energy_Capacity>1050</Energy_Capacity>
-		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
+		<Energy_Capacity>9000</Energy_Capacity>
+		<Energy_Refresh_Rate>200</Energy_Refresh_Rate>
 		<Population_Value>4</Population_Value>
 		
 		<!-- Galactic Conquest Stats -->
@@ -320,7 +320,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>COVN_CRS, COVN_CRS</Squadron_Units>
+		<Squadron_Units>COVN_CRS</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -338,8 +338,8 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -660,11 +660,11 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>16000</Shield_Points>
-		<Tactical_Health>12000</Tactical_Health>
-		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
-		<Energy_Capacity>1500</Energy_Capacity>
-		<Energy_Refresh_Rate>15</Energy_Refresh_Rate>
+		<Shield_Points>7000</Shield_Points>
+		<Tactical_Health>3500</Tactical_Health>
+		<Shield_Refresh_Rate>1000</Shield_Refresh_Rate>
+		<Energy_Capacity>21000</Energy_Capacity>
+		<Energy_Refresh_Rate>700</Energy_Refresh_Rate>
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
@@ -884,8 +884,8 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 
-		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	

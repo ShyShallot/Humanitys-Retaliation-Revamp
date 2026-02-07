@@ -727,10 +727,10 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>250000</Shield_Points>
-		<Tactical_Health>250000</Tactical_Health>
+		<Tactical_Health>100000</Tactical_Health>
 		<Shield_Refresh_Rate>3000</Shield_Refresh_Rate>
-		<Energy_Capacity>100000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Energy_Capacity>250000</Energy_Capacity>
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -941,14 +941,14 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>Sanghelios</Required_Planets>
+		<Required_Planets>Sanghelios</Required_Planets> 
 
 		<Build_Cost_Credits>275000</Build_Cost_Credits>
 		<Build_Time_Seconds>420</Build_Time_Seconds>
-		<Shield_Points>3000000</Shield_Points>
+		<Shield_Points>1500000</Shield_Points>
 		<Tactical_Health>2000000</Tactical_Health>
 		<Shield_Refresh_Rate>3000</Shield_Refresh_Rate>
-		<Energy_Capacity>60000</Energy_Capacity>
+		<Energy_Capacity>750000</Energy_Capacity>
 		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
