@@ -3,6 +3,7 @@ require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PGStoryMode")
 require("PlanetNameTable")
+require("globalPlanetTable")
 
 function Definitions()
 
@@ -95,11 +96,6 @@ function Definitions()
 
     invalid_planet_names = {}
 
-    Planet_List = {
-        All = {},
-        Player = {}
-    }
-
 end
 
 function Init_Morale_System(message)
@@ -176,32 +172,14 @@ function Init_Morale_System(message)
         end
 
     
-        local planets = FindPlanet.Get_All_Planets()
+        local planets = Planet_Table:Return_All_Keys()
 
-        for _, entry in ipairs(Morale_Levels) do
+        for i,planet_name in ipairs(planets) do
 
-            invalid_planet_names[string.upper(entry.Name)] = true
+            local select_event = plot.Get_Event("SELECT_"..planet_name)
 
-            --DebugMessage("%s -- Adding %s to invalid_planet_names: %s", tostring(Script), tostring(string.upper(entry.Name)), tostring(invalid_planet_names[string.upper(entry.Name)]))
-        end
-
-        for i,planet in ipairs(planets) do
-
-            local planet_name = planet.Get_Type().Get_Name()
-
-            local is_planet_invalid = invalid_planet_names[string.upper(planet_name)]
-
-            --DebugMessage("%s -- Planet: %s, Is Invalid: %s", tostring(Script), tostring(string.upper(planet_name)), tostring(invalid_planet_names[string.upper(planet_name)]))
-
-            if is_planet_invalid ~= true then
-
-                table.insert(Planet_List.All, planet)
-
-                local select_event = plot.Get_Event("SELECT_"..planet_name)
-
-                if select_event ~= nil then
-                    select_event.Set_Reward_Parameter(1, player.Get_Faction_Name())
-                end
+            if select_event ~= nil then
+                select_event.Set_Reward_Parameter(1, player.Get_Faction_Name())
             end
         end
 
@@ -469,13 +447,17 @@ function Get_Selected_Planet()
 
     local player = Find_Human_Player()
 
-    for _,planet in pairs(Planet_List.All) do
+    for _,planet_name in pairs(Planet_Table:Return_All_Keys()) do
 
-        local flag_name = "PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
-        --DebugMessage("Checking Planet: %s", flag_name)
-        if Check_Story_Flag(player, flag_name, nil, true) then
-            DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
-            return planet
+        local planet = FindPlanet(planet_name)
+
+        if TestValid(planet) then
+            local flag_name = "PLAYER_SELECTED_" .. string.upper(planet_name)
+            --DebugMessage("Checking Planet: %s", flag_name)
+            if Check_Story_Flag(player, flag_name, nil, true) then
+                DebugMessage("Found Selected Planet: %s", planet_name)
+                return planet
+            end
         end
     end
 
@@ -750,7 +732,7 @@ end
 
 function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired by the Thrawns Revenge Team but slightly modified to fit our purpose
     
-    if plot == nill then
+    if plot == nil then
         return
     end
 
@@ -799,11 +781,13 @@ function Build_Neighbor_Table()
 
     local neighbor_table = {}
 
-    for _, planet in pairs(Planet_List.All) do
+    local All_Planets = Planet_Table:Return_All_Keys()
+
+    for _, planet_name in pairs(All_Planets) do
+
+        local planet = FindPlanet(planet_name)
 
         if Is_Valid_Planet(planet) then
-
-            local planet_name = planet.Get_Type().Get_Name()
 
             if neighbor_table[planet_name] == nil then
                 neighbor_table[planet_name] = {} 
@@ -811,7 +795,10 @@ function Build_Neighbor_Table()
                 neighbor_table[planet_name].Neighbors = {}
             end
 
-            for _, second_planet in pairs(Planet_List.All) do
+            for _, second_planet_name in pairs(All_Planets) do
+
+                local second_planet = FindPlanet(second_planet_name)
+
                 if second_planet ~= planet and Is_Valid_Planet(second_planet) then
                     if table.getn(Find_Path(player, planet, second_planet)) == 2 then
                         table.insert(neighbor_table[planet_name].Neighbors, second_planet)
@@ -827,19 +814,23 @@ end
 function Build_Morale_Table()
     local morale_table = {}
 
-    for _, planet in pairs(Planet_List.All) do
-        local planet_name = planet.Get_Type().Get_Name()
+    for _, planet_name in pairs(Planet_Table:Return_All_Keys()) do
 
-        morale_table[planet_name] = {}
+        local planet = FindPlanet(planet_name)
 
-        local planet_entry = morale_table[planet_name]
+        if TestValid(planet) then
+            morale_table[planet_name] = {}
 
-        planet_entry.Object = planet
-        planet_entry.Owner = planet.Get_Owner()
-        planet_entry.Last_Owner = planet.Get_Owner()
-        planet_entry.Morale = 100
-        planet_entry.Last_Morale = 100
-        planet_entry.When_Morale_Last_Changed = 0
+            local planet_entry = morale_table[planet_name]
+
+            planet_entry.Object = planet
+            planet_entry.Owner = planet.Get_Owner()
+            planet_entry.Last_Owner = planet.Get_Owner()
+            planet_entry.Morale = 100
+            planet_entry.Last_Morale = 100
+            planet_entry.When_Morale_Last_Changed = 0
+        end
+
     end
         
     return morale_table
@@ -1029,15 +1020,6 @@ function Set_Recent_Event(event_table)
     recent_event = event_table
 end
 
-function Update_Player_Owned_Planets()
-    Planet_List.Player = {}
-
-    for _, planet in pairs(Planet_List.All) do
-        if planet.Get_Owner() == player then
-            table.insert(Planet_List.Player, planet)
-        end
-    end
-end
 
 function Default_Event_Function(message)
     if message == OnEnter then

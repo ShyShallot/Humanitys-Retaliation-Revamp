@@ -114,7 +114,7 @@ Planet_Table = {
             Tech_Difficulty = 1,
             Tech_Availability = 5,
         },
-        INSTALLATION_01 = {
+        INSTALLATION_05 = {
             Tech_Difficulty = 1,
             Tech_Availability = 5,
         },
