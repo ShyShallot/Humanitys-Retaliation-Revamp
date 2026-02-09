@@ -2,7 +2,6 @@ require("PGStateMachine")
 require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PGStoryMode")
-require("PlanetNameTable")
 require("globalPlanetTable")
 
 function Definitions()
@@ -43,10 +42,10 @@ function Definitions()
 
     Morale_Levels = {
         {Range = {0,15}, Punishment = true, Name = "Compromised", Display_Name = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_DESCRIPTION"},
-        {Range = {16,35}, Punishment = false, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
-        {Range = {36,74}, Punishment = false, Name = "Stabilized", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
-        {Range = {75,89}, Punishment = false, Name = "Resolute", Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
-        {Range = {90,100}, Punishment = false, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
+        {Range = {16,35}, Punishment = true, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
+        {Range = {36,74}, Punishment = true, Name = "Stabilized", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
+        {Range = {75,89}, Punishment = true, Name = "Resolute", Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
+        {Range = {90,100}, Punishment = true, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
     }
 
     hero_status_table = {
@@ -301,7 +300,7 @@ function Morale_System_Update(message)
 
             display_event.Add_Dialog_Text(" ")
 
-            display_event.Add_Dialog_Text(morale_string.Target_Planet, Readable_Planet_Name(targeted_planet))
+            display_event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(targeted_planet))
 
             Selected_Planet_Morale_Display()
         else
@@ -410,7 +409,7 @@ function Selected_Planet_Morale_Display()
 
         if selected_planet_morale_entry ~= nil then
 
-            local planet_name = Get_Cus_Name(selected_planet.Get_Type().Get_Name())
+            local planet_name = Planet_Table:Get_Planet_String(selected_planet)
 
             local morale_name = "Morale Index"
 
@@ -787,7 +786,7 @@ function Build_Neighbor_Table()
 
         local planet = FindPlanet(planet_name)
 
-        if Is_Valid_Planet(planet) then
+        if TestValid(planet) then
 
             if neighbor_table[planet_name] == nil then
                 neighbor_table[planet_name] = {} 
@@ -799,7 +798,7 @@ function Build_Neighbor_Table()
 
                 local second_planet = FindPlanet(second_planet_name)
 
-                if second_planet ~= planet and Is_Valid_Planet(second_planet) then
+                if second_planet ~= planet and TestValid(second_planet) then
                     if table.getn(Find_Path(player, planet, second_planet)) == 2 then
                         table.insert(neighbor_table[planet_name].Neighbors, second_planet)
                     end
@@ -981,9 +980,14 @@ function Find_First_Loss_Planet()
 
     local player_owned_planets = {}
 
-    for _, planet in pairs(Planet_List.All) do
-        if planet.Get_Owner() == player and Is_Valid_Planet(planet) then
-            table.insert(player_owned_planets, planet)
+    for _, planet_name in pairs(Planet_Table:Return_All_Keys()) do
+
+        local planet = FindPlanet(planet_name)
+
+        if TestValid(planet) then
+            if planet.Get_Owner() == player then
+                table.insert(player_owned_planets, planet)
+            end
         end
     end
 
@@ -1001,19 +1005,6 @@ function Find_First_Loss_Planet()
     end
 
     return highest_enemy_neighbors_planet
-end
-
-function Is_Valid_Planet(planet)
-
-    if not TestValid(planet) then
-        return false
-    end
-
-    if invalid_planet_names[string.upper(planet.Get_Type().Get_Name())] ~= true then
-        return true
-    end
-
-    return false
 end
 
 function Set_Recent_Event(event_table)

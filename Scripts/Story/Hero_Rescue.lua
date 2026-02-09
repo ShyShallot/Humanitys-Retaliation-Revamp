@@ -2,7 +2,7 @@ require("PGStateMachine")
 require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PGStoryMode")
-require("PlanetNameTable")
+require("globalPlanetTable")
 
 function Definitions()
 
@@ -219,7 +219,7 @@ function Hero_Rescue_Update(message)
             rescue_display_event.Add_Dialog_Text(" ")
         end
 
-        rescue_display_event.Add_Dialog_Text("TEXT_STORY_HERO_RESCUE_LOCATION", tostring(Mission_Info.Prison.Get_Type().Get_Name()))
+        rescue_display_event.Add_Dialog_Text("TEXT_STORY_HERO_RESCUE_LOCATION", Planet_Table:Get_Planet_String(Mission_Info.Prison))
 
         rescue_display_event.Add_Dialog_Text(" ")
 
