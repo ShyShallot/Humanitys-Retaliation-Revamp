@@ -49,7 +49,7 @@
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>Yes</Initially_Enabled>
+				<Initially_Enabled>Yes</Initially_Enabled>	
 				<Base_Income_Value>100</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>

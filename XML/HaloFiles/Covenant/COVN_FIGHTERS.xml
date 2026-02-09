@@ -60,7 +60,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -326,7 +326,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -582,7 +582,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
@@ -795,7 +795,7 @@
 		<Damage>5</Damage>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Damage_Space_COVN_FIGHTER</Death_Explosions>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>

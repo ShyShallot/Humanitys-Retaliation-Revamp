@@ -126,7 +126,7 @@ Starting_Units_Handler = {
                 Station = {
                     Default = {
                         Power = {
-                            Space = 20000,
+                            Space = 10000,
                             Ground = 300,
                         },
                         Structures = {},
@@ -135,7 +135,7 @@ Starting_Units_Handler = {
                     },
                     Low = {
                         Power = {
-                            Space = 55500,
+                            Space = 25500,
                             Ground = 300,
                         },
                         Structures = {},
@@ -144,7 +144,7 @@ Starting_Units_Handler = {
                     },
                     Medium = {
                         Power = {
-                            Space = 65000,
+                            Space = 45000,
                             Ground = 300,
                         },
                         Structures = {},

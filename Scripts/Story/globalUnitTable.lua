@@ -205,10 +205,6 @@ local unit_table = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Researched"
     },
-    UNSC_POSEIDON_2 = {
-        Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
-    },
     UNSC_STRIDENT = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"

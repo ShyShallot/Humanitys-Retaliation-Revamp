@@ -56,10 +56,10 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>45000</Shield_Points>
+		<Shield_Points>60000</Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>
-		<Shield_Refresh_Rate>1125</Shield_Refresh_Rate>
-		<Energy_Capacity>90000</Energy_Capacity>
+		<Shield_Refresh_Rate>3125</Shield_Refresh_Rate>
+		<Energy_Capacity>180000</Energy_Capacity>
 		<Energy_Refresh_Rate>3750</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
