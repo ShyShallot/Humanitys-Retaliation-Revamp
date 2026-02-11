@@ -291,26 +291,17 @@ local unit_table = {
     TERROR_MUSASHI = {
         Category = "Capital",
     },
-    TERROR_UNSC_HALBERD = {
+    TERROR_HALBERD = {
         Category = "Frigate"
     },
-    TERROR_PARIS_SQUADRON = {
+    TERROR_STALWART = {
         Category = "Frigate"
     },
-    TERROR_UNSC_STALWART = {
+	TERROR_CHARON = {
         Category = "Frigate"
     },
-	TERROR_UNSC_CHARON = {
+	TERROR_BUCKLER = {
         Category = "Frigate"
-    },
-	TERROR_UNSC_BUCKLER = {
-        Category = "Frigate"
-    },
-    TERROR_GLADIUS_SQUADRON = {
-        Category = "Corvette"
-    },
-    TERROR_MAKO_SQUADRON = {
-        Category = "Corvette"
     },
     TERROR_SHORTSWORD_SQUADRON = {
         Category = "Fighter"

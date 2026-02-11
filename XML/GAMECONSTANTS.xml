@@ -176,7 +176,7 @@
 	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
-	<!-- Keep this as YES please (GrandMasterApple (HR Dev) )  -->
+	<!-- Currently Under Testing (GrandMasterApple (HR Dev) )  -->
 	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
@@ -185,22 +185,22 @@
 	<AutoResolveDisplayTime>0.01</AutoResolveDisplayTime>
 	<AutoResolveVoteDefaultToTactical>False</AutoResolveVoteDefaultToTactical>
 	<AutoResolveVoteDefaultTimeOut>15</AutoResolveVoteDefaultTimeOut>
-	<RetreatAutoResolveLoserAttrition>0.65</RetreatAutoResolveLoserAttrition>
-	<RetreatAutoResolveWinnerAttrition>0.50</RetreatAutoResolveWinnerAttrition>
-	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
-	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
+	<RetreatAutoResolveLoserAttrition>0.0</RetreatAutoResolveLoserAttrition>
+	<RetreatAutoResolveWinnerAttrition>0.0</RetreatAutoResolveWinnerAttrition>
+	<AutoResolveLoserAttrition>0.50</AutoResolveLoserAttrition>
+	<AutoResolveWinnerAttrition>0.35</AutoResolveWinnerAttrition>
 	<Minimum_Tactical_Overrun_Time_In_Secs> 15.0 </Minimum_Tactical_Overrun_Time_In_Secs>
 	<Tactical_Overrun_Multiple>10.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 	<!-- <Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple> -->		<!-- Comment out to disable overrun auto-resolve -->
 
 	<!-- How long to countdown before a tactical retreat is allowed -->
-	<Space_Retreat_Allowed_Countdown_Seconds> 30.0 </Space_Retreat_Allowed_Countdown_Seconds>
-	<Land_Retreat_Allowed_Countdown_Seconds> 30.0 </Land_Retreat_Allowed_Countdown_Seconds>
+	<Space_Retreat_Allowed_Countdown_Seconds> 10.0 </Space_Retreat_Allowed_Countdown_Seconds>
+	<Land_Retreat_Allowed_Countdown_Seconds> 10.0 </Land_Retreat_Allowed_Countdown_Seconds>
 
 	<!-- How long to countdown before objects become captureable -->
-	<Space_Capture_Allowed_Countdown_Seconds> 30.0 </Space_Capture_Allowed_Countdown_Seconds>
-	<Land_Capture_Allowed_Countdown_Seconds> 30.0 </Land_Capture_Allowed_Countdown_Seconds>
+	<Space_Capture_Allowed_Countdown_Seconds> 5.0 </Space_Capture_Allowed_Countdown_Seconds>
+	<Land_Capture_Allowed_Countdown_Seconds> 5.0 </Land_Capture_Allowed_Countdown_Seconds>
 
 
 	<GripperCombatGridSnapDistance>35.0</GripperCombatGridSnapDistance>
@@ -809,9 +809,9 @@
 	<ReinforcementOverlayBadColor>255,0,0,128</ReinforcementOverlayBadColor>
 
 	<!-- Per unit probability of destruction during a retreat -->
-	<Space_Retreat_Attrition_Factor>0.3</Space_Retreat_Attrition_Factor>
+	<Space_Retreat_Attrition_Factor>0.0</Space_Retreat_Attrition_Factor>
  	<Land_Retreat_Attrition_Factor>0.0</Land_Retreat_Attrition_Factor>
- 	<Blockade_Run_Attrition_Factor>0.2</Blockade_Run_Attrition_Factor>
+ 	<Blockade_Run_Attrition_Factor>0.0</Blockade_Run_Attrition_Factor>
 
 	<!-- Base level vs. object tech level build speed factor: 
 		  A higher level base should be able to build lower level items faster than a lower level base could. 
