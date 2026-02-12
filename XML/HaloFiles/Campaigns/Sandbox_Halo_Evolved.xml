@@ -626,15 +626,19 @@
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
 		
-		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		

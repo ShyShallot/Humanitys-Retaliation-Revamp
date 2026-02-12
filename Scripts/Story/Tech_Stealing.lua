@@ -41,15 +41,16 @@ Tech_Stealing = {
 
     Tech_Table = {
         TERRORISTS = {
-            { -- This is for Tech 1, so Tech 1 --> 2, we need to steal all of these ships to get to Tech 2, we all are stolen we advance from 1 --> 2
+            { -- This is for Tech 1, so Tech 1 --> 2, we need to steal all of these ships to get to Tech 2, when all are stolen we advance from 1 --> 2
                 TERROR_HALCYON = false,
-                TERROR_UNSC_SINGLE_HALBERD = false,
-                TERROR_UNSC_SINGLE_CHARON = false,
+                TERROR_HALBERD = false,
+                TERROR_CHARON = false,
                 TERROR_MUSASHI = false,
-                TERROR_UNSC_SINGLE_STALWART = false,
+                TERROR_STALWART = false,
             }, 
             {
                 TERROR_MARATHON = false,
+				TERROR_EPOCH = false,
             }, -- Same as above but from Tech 2 to 3
             {}, -- 3 --> 4
             {} -- 4 --> 5
