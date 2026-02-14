@@ -334,7 +334,7 @@
 	<GroundCompany Name="Rebel_Mini_Infantry_Squad">
 		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
 		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>5</Damage> 

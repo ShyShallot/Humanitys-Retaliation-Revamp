@@ -282,8 +282,6 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
-
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
 		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
@@ -294,17 +292,21 @@
 		
 		<!-- Innie Starting Forces -->
 		
-		<Starting_Credits> Terrorists, 26500 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
-		
-		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Netherop, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -314,7 +316,7 @@
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Swords, Ven_III, SWORDS_STARBASE_2</Starting_Forces>
 		
 		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		
@@ -610,8 +612,6 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
-
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
 		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
@@ -632,6 +632,8 @@
 		
 		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Netherop, Terrorists_Star_Base_1 </Starting_Forces>
+		
 		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
@@ -648,7 +650,7 @@
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Swords, Ven_III, SWORDS_STARBASE_2</Starting_Forces>
 		
 		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		
@@ -920,8 +922,6 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
-
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
 		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
@@ -932,19 +932,21 @@
 
 		<!-- Innie Starting Forces -->
 		
-		<Starting_Credits> Terrorists, 26500 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
-		
-		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Netherop, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -954,7 +956,7 @@
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Swords, Ven_III, SWORDS_STARBASE_2</Starting_Forces>
 		
 		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		
@@ -1196,6 +1198,7 @@
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
 		
 		<Starting_Forces> Rebel, Harvest, UNSC_Medium_Shipyard </Starting_Forces>
+		
 		<!-- Empire Starting Forces -->
 
 		<Starting_Credits> Empire, 46500 </Starting_Credits>
@@ -1226,8 +1229,6 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
-
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
 		<Starting_Forces> Empire, Khaelmothka, Empire_Star_Base_3</Starting_Forces>
@@ -1238,17 +1239,21 @@
 
 		<!-- Innie Starting Forces -->
 		
-		<Starting_Credits> Terrorists, 26500 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
-		
-		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Netherop, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -1258,7 +1263,7 @@
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
-		<Starting_Forces> Swords, Netherop, SWORDS_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Swords, Ven_III, SWORDS_STARBASE_2</Starting_Forces>
 		
 		<Starting_Forces> Swords, Khaelmothka, SWORDS_STARBASE_2 </Starting_Forces>
 		

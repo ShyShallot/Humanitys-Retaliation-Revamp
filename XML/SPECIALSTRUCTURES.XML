@@ -996,7 +996,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 	</SpecialStructure>
 
-		<SpecialStructure Name="DELETE_UNSC_Mining_Facility">
+		<!-- <SpecialStructure Name="DELETE_UNSC_Mining_Facility">
 			<Variant_Of_Existing_Type>UNSC_Trade_Platform</Variant_Of_Existing_Type>
 			<Required_Special_Structures>UNSC_Trade_Platform</Required_Special_Structures>
 			<Text_ID>TEXT_ASTEROID_TRADE_PLATFORM_DELTE</Text_ID>
@@ -1008,10 +1008,10 @@
 			<Build_Time_Seconds>10</Build_Time_Seconds>
 
 			<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
-		</SpecialStructure>
+		</SpecialStructure> -->
 
 	<SpecialStructure Name="UNSC_Mining_Facility">
-		<Text_ID>UNSC_TRADING_FACILITY</Text_ID>
+		<Text_ID>ORBITAL_MINING_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>

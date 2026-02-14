@@ -300,7 +300,7 @@ local unit_table = {
 	TERROR_CHARON = {
         Category = "Frigate"
     },
-	TERROR_BUCKLER = {
+	TERROR_BUCKLER_SQUAD = {
         Category = "Frigate"
     },
     TERROR_SHORTSWORD_SQUADRON = {

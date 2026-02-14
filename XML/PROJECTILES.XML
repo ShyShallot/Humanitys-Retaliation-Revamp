@@ -1300,8 +1300,8 @@
 	<Projectile Name="Proj_ATST_Blaster_Cannon_Red"> <!-- used by AT-ST -->
 		<Variant_Of_Existing_Type>Proj_Generic_Small_Red</Variant_Of_Existing_Type>
 		<Damage_Type> Damage_ATST </Damage_Type>
-		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1.0</Projectile_Blast_Area_Damage>
 		<Projectile_Damage>5.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<AI_Combat_Power>80</AI_Combat_Power>
@@ -1312,8 +1312,8 @@
 		<Projectile_Width>0.8</Projectile_Width>
 		<Damage_Type> Damage_ATST </Damage_Type>
 		<Projectile_Length>2.0</Projectile_Length>
-		<Projectile_Blast_Area_Range>35.0</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>8.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Max_Flight_Distance>150.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>3.0</Projectile_Damage>
@@ -1396,7 +1396,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>6.0</Projectile_Damage>
+		<Projectile_Damage>1.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1424,7 +1424,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>6.0</Projectile_Damage>
+		<Projectile_Damage>1.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1440,7 +1440,7 @@
 
 	<Projectile Name="Proj_HRB_Cannon_Red"> <!-- used by rebel & pirate anti-inf turret -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>W_UNSC_Bullet_Tiny.ALO</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -1560,15 +1560,10 @@
 
 	<Projectile Name="Proj_Ground_AV_Turret_Laser_Red"> <!-- used by Rebel AV turret -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_MEDIUM.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>10.4</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
 		<Damage_Type> Damage_AV_Turret </Damage_Type>
 		<Max_Speed>30.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
