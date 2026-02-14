@@ -358,6 +358,52 @@
 			
 	</HardPoint>
 	
+	<!-- Ground Variant Pelican -->
+	
+	<HardPoint Name="UNSC_GPELICAN_01">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>ROOT</Fire_Bone_A>
+		<Fire_Bone_B>ROOT</Fire_Bone_B>
+		<Fire_Cone_Width>360.0</Fire_Cone_Width>
+		<Fire_Cone_Height>50.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M370_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.3</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+  
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_GPELICAN_02">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>FB_01</Fire_Bone_A>
+		<Fire_Bone_B>FB_01</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>115.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Pelican_Missile</Fire_Projectile_Type> 
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		
+			
+	</HardPoint>
+	
 	
 	<HardPoint Name="UNSC_CONDOR_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>

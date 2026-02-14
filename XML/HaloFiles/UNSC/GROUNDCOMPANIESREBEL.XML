@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <RebelGroundCompanies>
 	<GroundCompany Name="Rebel_Speeder_Wing">
-		<Text_ID>TEXT_REBEL_SPEEDER_WING</Text_ID>
-		<Encyclopedia_Good_Against> AT_AT_Walker </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> AT_AA_Walker UC_Empire_Buildable_Anti_Aircraft_Turret </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>24</Damage>
@@ -29,7 +29,7 @@
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>Snowspeeder</Company_Units>
-		<Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
 		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
 		<GUI_Distance>70</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

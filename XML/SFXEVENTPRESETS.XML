@@ -638,10 +638,10 @@
 			<Is_3D> Yes </Is_3D>
 			<Is_2D> No </Is_2D>
 			<Priority> 1 </Priority>
-			<Max_Instances> 2 </Max_Instances>
+			<Max_Instances> 1 </Max_Instances>
 			<Play_Count>-1</Play_Count>
 			<Min_Volume>55</Min_Volume>
-			<Max_Volume>55</Max_Volume>
+			<Max_Volume>100</Max_Volume>
 			<Loop_Fade_In_Seconds> 3.0 </Loop_Fade_In_Seconds> 	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 			<Loop_Fade_Out_Seconds> 3.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 	 </SFXEvent>

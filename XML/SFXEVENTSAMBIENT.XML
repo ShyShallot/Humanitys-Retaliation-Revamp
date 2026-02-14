@@ -17,14 +17,14 @@
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
 		<Samples> AMB_Rain_Heavy.wav </Samples>
 		<Min_Volume>40</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Max_Volume>100</Max_Volume>
 </SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Medium_Rain_Loop">
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
 		<Samples> AMB_Rain_Medium.wav </Samples>
 		<Min_Volume>40</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Max_Volume>100</Max_Volume>
 	</SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Light_Medium_Rain_Loop">
@@ -48,50 +48,50 @@
 
 
 	<SFXEvent Name="Weather_Ambient_Clear_Temperate_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_TMP_Bird_1.wav AMB_TMP_Bird_2.wav AMB_TMP_Bird_3.wav AMB_TMP_Bird_4.wav AMB_TMP_Bird_5.wav AMB_TMP_Bird_6.wav AMB_TMP_Bird_7.wav AMB_TMP_Bird_8.wav AMB_TMP_Bird_9.wav AMB_TMP_Bird_10.wav AMB_TMP_Bird_11.wav AMB_TMP_Bird_12.wav AMB_TMP_Bird_13.wav AMB_TMP_Bird_14.wav AMB_TMP_Cricket_1.wav AMB_TMP_Cricket_2.wav AMB_TMP_Cricket_3.wav AMB_TMP_Cricket_4.wav AMB_TMP_Cricket_5.wav AMB_TMP_Cricket_6.wav AMB_TMP_Cricket_7.wav</Samples>
-		<Min_Volume>30</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav </Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 	</SFXEvent>
 
 
 
 	<SFXEvent Name="Weather_Ambient_Clear_Swamp_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_SWA_Creature_1.wav AMB_SWA_Creature_2.wav AMB_SWA_Creature_3.wav AMB_SWA_Creature_4.wav AMB_SWA_Creature_5.wav AMB_SWA_Creature_6.wav</Samples>
-		<Min_Volume>20</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav </Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		</SFXEvent>
 
 
 
 	<SFXEvent Name="Weather_Ambient_Clear_Desert_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_DES_Clear_1.wav AMB_DES_Clear_1.wav</Samples>
-		<Min_Volume>30</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav </Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		</SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Clear_Ice_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_ICE_Clear_1.wav AMB_ICE_Clear_1.wav</Samples>
-		<Min_Volume>30</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav</Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		</SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Clear_Urban_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_URB_Ship_1.wav AMB_URB_Ship_2.wav AMB_URB_Ship_3.wav AMB_URB_Ship_4.wav</Samples>
-		<Min_Volume>30</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav </Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		</SFXEvent>
 
 
 	<SFXEvent Name="Weather_Ambient_Clear_Volcanic_Intermittent">
-		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_VOL_Clear_1.wav AMB_VOL_Clear_2.wav</Samples>
-		<Min_Volume>30</Min_Volume>
-		<Max_Volume>40</Max_Volume>
+		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
+		<Samples> Data\Audio\OotF\AmbientSFX\GC_Battle_Ambience.wav </Samples>
+		<Min_Volume>80</Min_Volume>
+		<Max_Volume>100</Max_Volume>
 		</SFXEvent>
 
 
