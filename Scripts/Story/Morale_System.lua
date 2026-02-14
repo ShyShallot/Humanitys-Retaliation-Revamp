@@ -25,15 +25,20 @@ function Definitions()
     }
 
     morale_event_table = {
-        ["Morale_Lost_Battle"] = {Name = "Battle Lost", Value = 1, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
-        ["Morale_Lost_Battle_Major"] = {Name = "Battle Loss Streak", Value = 5, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
-        ["Morale_Won_Battle"] = {Name = "Battle Won", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
-        ["Morale_Won_Battle_Major"] = {Name = "Battle Win Streak", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
-        ["Morale_Construction_Event_Minor"] = {Name = "Minor Construction", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
-        ["Morale_Construction_Event"] = {Name = "Construction", Value = 2, Subtract = false,String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION"},
-        ["Morale_Construction_Event_Major"] = {Name = "Construction Major", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
-        ["Hero_Lost"] = {Name = "Major Hero Lost", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
-        ["Hero_Killed"] = {Name = "Major Hero Killed", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
+        ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 1, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
+        ["Morale_Lost_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK_NAME", Value = 5, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
+        ["Morale_Won_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_NAME", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
+        ["Morale_Won_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK_NAME", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
+        ["Morale_Construction_Event_Minor"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR_NAME", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
+        ["Morale_Construction_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_NAME", Value = 2, Subtract = false,String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION"},
+        ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
+        ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
+        ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
+    }
+
+    Morale_Event_Table_Cache = {
+        Positive = {},
+        Negative = {},
     }
 
     UNSC_Kill_Ratio_Table = {0.09, 0.15, 0.25 , 0.35, 0.6} -- the index is the morale gain from the kill ratio at that index
@@ -57,6 +62,30 @@ function Definitions()
         COVN_JUL = {Current_Status = false, Equation = "Is_Jul_Alive", Object = nil, Owner = nil},
         COVN_ARDO = {Current_Status = false, Equation = "Is_Ardo_Alive", Object = nil, Owner = nil},
         COVN_MACCABEUS = {Current_Status = false, Equation = "Is_Maccabeus_Alive", Object = nil, Owner = nil},
+    }
+
+    Modifiers = {
+        EMPIRE = {
+            ["Normal"] = {
+                Morale_Gain_Multiplier = 0.75,
+                Random_Morale_Negative_Chance = {50,60},
+                Random_Morale_Gain_Loss = {1,5},
+                Yearly_PLanetary_Morale_Loss = -15, -- when player is in low morale, how much morale does a planet lose every year out of 100, so 100/10 = 10 years to planet loss
+
+            },
+            ["Hard"] = {
+                Morale_Gain_Multiplier = 0.5,
+                Random_Morale_Negative_Chance = {60,80},
+                Random_Morale_Gain_Loss = {3,6},
+                Yearly_PLanetary_Morale_Loss = -20
+            },
+            ["Default"] = {
+                Morale_Gain_Multiplier = 1,
+                Random_Morale_Negative_Chance = {40,60},
+                Random_Morale_Gain_Loss = {0,3},
+                Yearly_PLanetary_Morale_Loss = -10,
+            }
+        }
     }
 
     planets_with_no_morale = {}
@@ -191,6 +220,14 @@ function Init_Morale_System(message)
         Planetary_Pathing_Table = Build_Neighbor_Table()
 
         Planet_Morale_Table = Build_Morale_Table()
+
+        for _, Morale_Event in pairs(morale_event_table) do
+            if Morale_Event.Subtract then
+                table.insert(Morale_Event_Table_Cache.Negative, Morale_Event)
+            else
+                table.insert(Morale_Event_Table_Cache.Positive, Morale_Event)
+            end
+        end
 
         Set_Next_State("Flush")
     end
@@ -329,6 +366,25 @@ function Morale_System_Update(message)
             High_Planet_Morale()
         end
     
+        display_event.Add_Dialog_Text(" ")
+
+        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE")
+
+        for _, Morale_Event in pairs(Morale_Event_Table_Cache.Positive) do
+            display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
+        end
+
+        display_event.Add_Dialog_Text(" ")
+
+        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE")
+
+        for _, Morale_Event in pairs(Morale_Event_Table_Cache.Negative) do
+            display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
+        end
+
+        display_event.Add_Dialog_Text(" ")
+
+        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM")
     end
 end
 
@@ -337,19 +393,47 @@ function Random_Morale_Swing()
     local Current_Week = Get_Current_Week()
 
     if next_random_swing <= Current_Week then
-        next_random_swing = Current_Week + 2
+        next_random_swing = Current_Week + EvenMoreRandom(2,4, 5)
 
-        local Bad_Chance = EvenMoreRandom(40,60,1) / 100
+        local Bad_Chances = {40,60}
+
+        local Morale_Swings = {0,2}
+
+        local Player_Modifiers_Entry = Modifiers[player.Get_Faction_Name()]
+
+        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(player), tostring(Player_Modifiers_Entry))
+
+        if Player_Modifiers_Entry ~= nil then
+            local Difficulty_Modifiers = Player_Modifiers_Entry[Difficulty]
+
+            if Difficulty_Modifiers == nil then
+                Difficulty_Modifiers = Player_Modifiers_Entry["Default"]
+            end
+
+            if type(Difficulty_Modifiers.Random_Morale_Gain_Loss) == "table" and type(Difficulty_Modifiers.Random_Morale_Negative_Chance) == "table" then
+                Bad_Chances = Difficulty_Modifiers.Random_Morale_Negative_Chance
+
+                Morale_Swings = Difficulty_Modifiers.Random_Morale_Gain_Loss
+            end
+        end
+
+        local Bad_Chance = EvenMoreRandom(Bad_Chances[1],Bad_Chances[2],1) / 100
 
         local Is_Bad = Return_Chance(Bad_Chance, 1)
 
-        local Morale_Swing = EvenMoreRandom(0,2,15)
+        local Morale_Swing = EvenMoreRandom(Morale_Swings[1],Morale_Swings[2],15)
 
         if Morale_Swing == 0 then
             return
         end
 
-        Modify_Morale({Name = "Random Morale Change", Value = Morale_Swing, Subtract = Is_Bad})
+        local Random_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_RANDOM_SWING_NEGATIVE"
+
+        if not Is_Bad then
+            Random_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_RANDOM_SWING_POSITIVE"
+        end
+
+        Modify_Morale({Name = "Random Morale Change", Value = Morale_Swing, Subtract = Is_Bad, String = Random_String})
     end
 end
 
@@ -579,7 +663,26 @@ function Low_Planet_Morale()
     DebugMessage("%s -- %s Last Morale Update: %s, Current Week: %s", tostring(Script), tostring(targeted_planet), tostring(target_planet_morale.When_Morale_Last_Changed), tostring(Get_Current_Week()))
 
     if target_planet_morale.When_Morale_Last_Changed < Get_Current_Week() then
-        Modify_Planet_Morale(targeted_planet, -10)
+
+        local Morale_Loss = -10
+
+        if Modifiers[player.Get_Faction_Name()] ~= nil then
+            local Modifier_Entry = Modifiers[player.Get_Faction_Name()]
+
+            local Difficulty_Modifiers = nil
+
+            if Modifier_Entry[Difficulty] ~= nil then
+                Difficulty_Modifiers = Modifier_Entry[Difficulty]
+            else
+                Difficulty_Modifiers = Modifier_Entry["Default"]
+            end
+
+            if type(Difficulty_Modifiers.Yearly_PLanetary_Morale_Loss) == "number" then
+                Morale_Loss = Difficulty_Modifiers.Yearly_PLanetary_Morale_Loss
+            end
+        end
+
+        Modify_Planet_Morale(targeted_planet, Morale_Loss)
     end
 
 end
@@ -620,11 +723,38 @@ function Modify_Morale(event_table)
 
     DebugMessage("%s -- Event Morale Value: %s, Subtract: %s, Event Name: %s", tostring(Script), tostring(Morale_Value), tostring(bad), tostring(event_table.Name))
 
+    if not bad then
+        DebugMessage("%s -- Applying Morale Gain Multiplier", tostring(Script))
+
+        local Player_Modifiers_Entry = Modifiers[player.Get_Faction_Name()]
+
+        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(player), tostring(Player_Modifiers_Entry))
+
+        if Player_Modifiers_Entry ~= nil then
+            local Difficulty_Modifiers = Player_Modifiers_Entry[Difficulty]
+
+            if Difficulty_Modifiers == nil then
+                Difficulty_Modifiers = Player_Modifiers_Entry["Default"]
+            end
+
+            Morale_Value = tonumber(Dirty_Floor(Morale_Value * Difficulty_Modifiers.Morale_Gain_Multiplier))
+
+            if type(Morale_Value) ~= "number" or Morale_Value < 1 then
+                Morale_Value = event_table.Value
+            end
+        end
+    end
+
+    if bad then
+        Morale_Value = Morale_Value * -1
+    end
+
     local Next_Morale_Level = global_morale_level + Morale_Value
 
     local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
     if Fake_Morale_Type == nil then
+        DebugMessage("%s -- Could not Find Fake_Morale_Type, was looking for: %s", tostring(Script), tostring(abs(Morale_Value)))
         return
     end
 
@@ -669,7 +799,7 @@ function Get_Morale_Influence()
         if Morale_Values.KD_Influence == true then
             local New_Morale_Value = Morale_Kill_Ratio_Influence(Morale_Values.Value, Morale_Values.Subtract)
 
-            return {Value = New_Morale_Value, Subtract = Morale_Values.Subtract, Name = Morale_Values.Name}
+            return {Value = New_Morale_Value, Subtract = Morale_Values.Subtract, Name = Morale_Values.Name, String = Morale_Values.String}
         else
             return Morale_Values
         end
