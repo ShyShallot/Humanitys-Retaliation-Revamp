@@ -219,7 +219,7 @@
 		<Damage>20</Damage>
 		
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>220.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>520.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
 		<Damage_Type> Damage_AI_Turret </Damage_Type>
@@ -306,7 +306,8 @@
 
 		<Projectile_Fire_Recharge_Seconds>15.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>300</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		
 
 		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
 
@@ -377,7 +378,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>

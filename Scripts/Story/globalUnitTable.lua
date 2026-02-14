@@ -130,7 +130,7 @@ local unit_table = {
     UNSC_RESEARCH_FACILITY = {
         Category = "Structure"
     },
-    COVN_RESEARCH_FACILITY = {
+    COVN_GROUND_RESEARCH_FACILITY = {
         Category = "Structure"
     },
     UNSC_MAC_PLATFORM = {
@@ -530,7 +530,7 @@ local unit_table = {
     COVN_DEEP_CORE_MINE = {
         Category = "Structure"
     },
-    COVN_RESEARCH_FACILITY = {
+    COVN_GROUND_RESEARCH_FACILITY = {
         Category = "Structure"
     },
     Rebel_Speeder_Wing = {
