@@ -234,7 +234,7 @@ function Service_Attack(object)
 	--repeating this enough that we don't care
 	closest_enemy = Find_Nearest(object, object.Get_Owner(), false)
 
-	if TestValid(closest_enemy) and not closest_enemy.Is_Good_Against(object) then
+	if TestValid(closest_enemy) and not closest_enemy.Is_Good_Against(object) and not (closest_enemy.Is_Category("NoTarget")) then
 		if object.Get_Distance(closest_enemy) < FREE_STORE_ATTACK_RANGE then
 			object.Attack_Move(closest_enemy.Get_Position())
 			return true		
@@ -279,7 +279,7 @@ function Service_Kite(object)
 	
 	if TestValid(lib_fs_deadly_enemy) then
 		
-		if lib_fs_deadly_enemy.Is_Good_Against(object) then
+		if lib_fs_deadly_enemy.Is_Good_Against(object) and not lib_fs_deadly_enemy.Is_Category("NoTarget") then
 		
 			if Try_Ability(object, "PROXIMITY_MINES", object) then
 				return true

@@ -1113,6 +1113,8 @@
 		
 		<CategoryMask> NoTarget </CategoryMask>
 
+		<AI_Combat_Power> 0 </AI_Combat_Power>
+
 		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Custom_Soft_Footprint_Radius> 500 </Custom_Soft_Footprint_Radius>

@@ -521,7 +521,7 @@
 
 	-->
 	<Needs_Hypervelocity_Shot>
-		(1 - Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]})
+		(1 - Function_Is_Space_Structure_Indestructable.Evaluate)
 		*
 		(1 - (Variable_Target.Force{Parameter_Category = GameObjectCategoryType[Corvette]} > 0))
 		*
@@ -550,7 +550,7 @@
 		Variable_Target.Energy
 	-->
 	<Needs_Ion_Shot>
-		(1 - Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]})
+		(1 - Function_Is_Space_Structure_Indestructable.Evaluate)
 		*
 		(1 - (Variable_Target.Force{Parameter_Category = GameObjectCategoryType[Corvette]} > 0))
 		*

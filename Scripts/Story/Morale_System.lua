@@ -25,15 +25,15 @@ function Definitions()
     }
 
     morale_event_table = {
-        ["Morale_Lost_Battle"] = {Name = "Battle Lost", Value = 1, Subtract = true, KD_Influence = true},
-        ["Morale_Lost_Battle_Major"] = {Name = "Battle Loss Streak", Value = 5, Subtract = true, KD_Influence = true},
-        ["Morale_Won_Battle"] = {Name = "Battle Won", Value = 1, Subtract = false, KD_Influence = true},
-        ["Morale_Won_Battle_Major"] = {Name = "Battle Win Streak", Value = 3, Subtract = false, KD_Influence = true},
-        ["Morale_Construction_Event_Minor"] = {Name = "Minor Construction", Value = 1, Subtract = false},
-        ["Morale_Construction_Event"] = {Name = "Construction", Value = 2, Subtract = false},
-        ["Morale_Construction_Event_Major"] = {Name = "Construction Major", Value = 3, Subtract = false},
-        ["Hero_Lost"] = {Name = "Major Hero Lost", Value = 8, Subtract = true},
-        ["Hero_Killed"] = {Name = "Major Hero Killed", Value = 3, Subtract = false},
+        ["Morale_Lost_Battle"] = {Name = "Battle Lost", Value = 1, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
+        ["Morale_Lost_Battle_Major"] = {Name = "Battle Loss Streak", Value = 5, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
+        ["Morale_Won_Battle"] = {Name = "Battle Won", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
+        ["Morale_Won_Battle_Major"] = {Name = "Battle Win Streak", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
+        ["Morale_Construction_Event_Minor"] = {Name = "Minor Construction", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
+        ["Morale_Construction_Event"] = {Name = "Construction", Value = 2, Subtract = false,String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION"},
+        ["Morale_Construction_Event_Major"] = {Name = "Construction Major", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
+        ["Hero_Lost"] = {Name = "Major Hero Lost", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
+        ["Hero_Killed"] = {Name = "Major Hero Killed", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
     }
 
     UNSC_Kill_Ratio_Table = {0.09, 0.15, 0.25 , 0.35, 0.6} -- the index is the morale gain from the kill ratio at that index
@@ -42,10 +42,10 @@ function Definitions()
 
     Morale_Levels = {
         {Range = {0,15}, Punishment = true, Name = "Compromised", Display_Name = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_DESCRIPTION"},
-        {Range = {16,35}, Punishment = true, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
-        {Range = {36,74}, Punishment = true, Name = "Stabilized", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
-        {Range = {75,89}, Punishment = true, Name = "Resolute", Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
-        {Range = {90,100}, Punishment = true, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
+        {Range = {16,35}, Punishment = false, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
+        {Range = {36,74}, Punishment = false, Name = "Stabilized", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
+        {Range = {75,89}, Punishment = false, Name = "Resolute", Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
+        {Range = {90,100}, Punishment = false, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
     }
 
     hero_status_table = {
@@ -71,8 +71,10 @@ function Definitions()
 
     player = nil
 
+    ---@type StoryPlot
     plot = nil
 
+    ---@type StoryEvent
     display_event = nil
 
     morale_string = {}
@@ -94,6 +96,8 @@ function Definitions()
     enemy = nil
 
     invalid_planet_names = {}
+
+    Can_Lose_Only_Planet = false
 
 end
 
@@ -132,7 +136,7 @@ function Init_Morale_System(message)
             display_event = plot.Get_Event("Morale_Display_COVN")
         end
 
-        morale_string.Target_Planet = "TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET"
+        morale_string.Target_Planet = "TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_INFO"
 
         morale_string.Recent_Event = {}
 
@@ -161,13 +165,15 @@ function Init_Morale_System(message)
         --DebugMessage("%s -- Current Difficulty: %s", tostring(Script), tostring(Difficulty))
 
         if StringCompare(Difficulty, "Normal") then
-            global_morale_level = 75
+            global_morale_level = 50
 
-            global_last_morale_level = 75
+            global_last_morale_level = 50
         elseif StringCompare(Difficulty, "Hard") then
-            global_morale_level = 45
+            global_morale_level = 25
 
-            global_last_morale_level = 45
+            global_last_morale_level = 25
+
+            Can_Lose_Only_Planet = true
         end
 
     
@@ -241,8 +247,8 @@ function Morale_System_Update(message)
         if display_event ~= nil and Current_Morale_Status ~= nil then
 
             display_event.Clear_Dialog_Text()
-
-            display_event.Add_Dialog_Text(morale_string.Level, Build_Morale_Display_String(Current_Morale_Entry))
+            
+            display_event.Add_Dialog_Text(morale_string.Level, Current_Morale_Entry.Display_Name, tostring(global_morale_level))
 
             display_event.Add_Dialog_Text(" ")
 
@@ -295,14 +301,30 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- End of Main Event Display", tostring(Script))
 
-        if Current_Morale_Entry.Punishment then
+        local Is_On_Last_Planet = Is_Player_On_Last_Planet()
+
+        local Activate_Low_Morale = false
+
+        if Current_Morale_Entry ~= nil and Current_Morale_Entry.Punishment then
+            if (not Is_On_Last_Planet) or Can_Lose_Only_Planet then
+                Activate_Low_Morale = true
+            end
+        end
+
+        if Activate_Low_Morale then
             Low_Planet_Morale()
 
-            display_event.Add_Dialog_Text(" ")
+            if targeted_planet ~= nil then
+                local targeted_planet_entry = Get_Planet_Morale(targeted_planet)
 
-            display_event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(targeted_planet))
+                if targeted_planet_entry ~= nil then
+                    display_event.Add_Dialog_Text(" ")
 
-            Selected_Planet_Morale_Display()
+                    display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_TITLE")
+
+                    display_event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(targeted_planet), tostring(targeted_planet_entry.Morale))
+                end
+            end
         else
             High_Planet_Morale()
         end
@@ -419,26 +441,8 @@ function Selected_Planet_Morale_Display()
 
             local selected_planet_morale_string = planet_name .. "'s " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Morale) .. "%, Last " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Last_Morale) .. "%"
 
-            --Show_Screen_Text(selected_planet_morale_string, nil, 3, nil, false)
+            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_PLANET_MORALE_STATUS", selected_planet, 5, nil, true)
         end
-    end
-end
-
-function Readable_Planet_Name(planet)
-    if planet == nil then
-        return ""
-    end
-
-    if planet.Get_Type == nil then
-        return ""
-    end
-
-    local planet_name = planet.Get_Type().Get_Name()
-
-    if Has_Custom_Name(planet_name) then
-        return Get_Cus_Name(planet_name)
-    else
-        return Capital_First_Letter(planet_name)
     end
 end
 
@@ -526,6 +530,28 @@ function Planet_Morale_Updater()
     end
 end
 
+function Is_Player_On_Last_Planet()
+    local All_Planets = Planet_Table:Return_All_Keys()
+
+    local Owned_Planets = 0
+
+    for _, planet_name in pairs(All_Planets) do
+        local Planet = FindPlanet(planet_name)
+
+        if TestValid(Planet) then
+            if Planet.Get_Owner() == player then
+                Owned_Planets = Owned_Planets + 1
+            end
+        end
+    end
+
+    if Owned_Planets > 1 then
+        return false
+    end
+
+    return true
+end
+
 function Low_Planet_Morale()
 
     DebugMessage("%s -- Low Morale Active", tostring(Script))
@@ -596,20 +622,13 @@ function Modify_Morale(event_table)
 
     local Next_Morale_Level = global_morale_level + Morale_Value
 
-    local Event_String = "Event " .. event_table.Name .. " has "
+    local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
-    if bad then
-        Next_Morale_Level = global_morale_level - Morale_Value
-
-        Event_String = Event_String .. "Decreased Morale by: " .. tostring(Morale_Value)
-
-        Show_Screen_Text(Event_String, nil, 6, nil, true)
-    else
-
-        Event_String = Event_String .. "Increased Morale by: " .. tostring(Morale_Value)
-
-        Show_Screen_Text(Event_String, nil, 6, nil, true)
+    if Fake_Morale_Type == nil then
+        return
     end
+
+    Show_Screen_Text(event_table.String, Fake_Morale_Type, 5, nil, true)
 
     DebugMessage("%s -- Next Morale Value: %s", tostring(Script), tostring(Next_Morale_Level))
 
@@ -959,7 +978,16 @@ function Find_Neighbors(planet)
 end
 
 function Count_Enemy_Neighbors(planet)
+
+    if planet == nil then
+        return 0
+    end
+
+    DebugMessage("%s -- Counting Neighbors for %s", tostring(Script), tostring(planet))
+
     local planet_neighbors = Find_Neighbors(planet)
+
+    PrintTable(planet_neighbors)
 
     local enemy_neighbors = 0
 
@@ -968,7 +996,9 @@ function Count_Enemy_Neighbors(planet)
     end
 
     for _, neighbor in pairs(planet_neighbors) do
+        DebugMessage("%s -- Found Neighbor: %s",tostring(Script), tostring(neighbor))
         if neighbor.Get_Owner() ~= planet.Get_Owner() and neighbor.Get_Owner() ~= Find_Player("NEUTRAL") then
+            DebugMessage("%s -- Neighbor is Enemy", tostring(Script))
             enemy_neighbors = enemy_neighbors + 1
         end
     end
@@ -984,8 +1014,11 @@ function Find_First_Loss_Planet()
 
         local planet = FindPlanet(planet_name)
 
+        DebugMessage("%s -- Checking if %s is Owned by Player", tostring(Script), tostring(planet))
+
         if TestValid(planet) then
             if planet.Get_Owner() == player then
+                DebugMessage("%s -- %s is Owned by the Player", tostring(Script), tostring(planet))
                 table.insert(player_owned_planets, planet)
             end
         end
@@ -998,11 +1031,15 @@ function Find_First_Loss_Planet()
     for _, planet in pairs(player_owned_planets) do
         local enemy_neighbors = Count_Enemy_Neighbors(planet)
 
+        DebugMessage("%s -- Highest Enemy Neighbors %s for Planet: %s, Enemy Neighbors for Planet %s: %s", tostring(Script), tostring(highest_enemy_neighbors), tostring(highest_enemy_neighbors_planet), tostring(planet),tostring(enemy_neighbors))
+
         if enemy_neighbors > highest_enemy_neighbors then
             highest_enemy_neighbors = enemy_neighbors
             highest_enemy_neighbors_planet = planet
         end
     end
+
+    DebugMessage("%s -- Planet %s has the Highest amount of Enemy Neighbors", tostring(Script), tostring(highest_enemy_neighbors_planet))
 
     return highest_enemy_neighbors_planet
 end
