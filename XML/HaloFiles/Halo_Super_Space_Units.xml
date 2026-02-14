@@ -522,7 +522,7 @@
 			UNSC_SOF_ARCHER_01, UNSC_SOF_ARCHER_02, UNSC_SOF_ARCHER_03, UNSC_SOF_ARCHER_04, UNSC_SOF_ARCHER_05,
 			UNSC_SOF_ARCHER_06, UNSC_SOF_ARCHER_07, UNSC_SOF_ARCHER_08, UNSC_SOF_ARCHER_09, UNSC_SOF_ARCHER_10,
 			UNSC_SOF_ARCHER_11, UNSC_SOF_ARCHER_12, UNSC_SOF_ARCHER_13, UNSC_SOF_ARCHER_14, UNSC_SOF_ARCHER_15,
-			UNSC_SOF_ARCHER_16
+			UNSC_SOF_ARCHER_16, HP_SOF_REACTOR
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_0>
@@ -625,7 +625,7 @@
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories> Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>

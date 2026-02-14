@@ -219,7 +219,7 @@
 		<Damage>20</Damage>
 		
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>220.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>520.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
 		<Damage_Type> Damage_AI_Turret </Damage_Type>
@@ -295,24 +295,26 @@
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
-		<Projectile_Types>Proj_HRB_Cannon_Red</Projectile_Types>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		<Projectile_Types>MA5C</Projectile_Types>
 
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
-		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>14</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.03</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>15.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>300</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		
 
 		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
 
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
 		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
 
 
@@ -376,7 +378,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -441,20 +443,20 @@
 		<Scale_Factor>1.0</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
+		
+		<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Projectile_Types>Proj_Ground_AV_Turret_Laser_Red</Projectile_Types>
+		<Projectile_Types>Proj_T4B_Missile</Projectile_Types>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 2.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 
 		<Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		<SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire>
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
 
    </GroundStructure>

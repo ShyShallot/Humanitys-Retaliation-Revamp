@@ -160,28 +160,28 @@ Starting_Units_Handler = {
                     Default = {
                         Power = {
                             Space = 9000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
                         Power = {
                             Space = 15000,
-                            Ground = 300,
+                            Ground = 900,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Medium = {
                         Power = {
                             Space = 25000,
-                            Ground = 300,
+                            Ground = 1200,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     }
                 },

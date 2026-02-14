@@ -41,7 +41,7 @@
 		<Fov_Per_Mouse_Unit>0</Fov_Per_Mouse_Unit>   <!-- 12.5 -->
 		
 		<Distance_Default>460.0</Distance_Default> 
-		<Distance_Max>460.0</Distance_Max>   <!-- 450  -->
+		<Distance_Max>1060.0</Distance_Max>   <!-- 450  -->
 		<Distance_Min>170.0</Distance_Min>
 		<Distance_Smooth_Time>0.21</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>100.0</Distance_Per_Mouse_Unit>  <!-- 70 -->
@@ -66,7 +66,7 @@
 		<Location_Follows_Terrain>1</Location_Follows_Terrain>
 		<Location_Height_Up_Smooth_Time>0.3</Location_Height_Up_Smooth_Time>
         <Location_Height_Down_Smooth_Time>1.0</Location_Height_Down_Smooth_Time>
-        <Min_Height_Above_Terrain>20.0</Min_Height_Above_Terrain>
+        <Min_Height_Above_Terrain>10.0</Min_Height_Above_Terrain>
 
 		<Near_Clip>10.0</Near_Clip>
 		<Far_Clip>7000.0</Far_Clip>	

@@ -114,7 +114,7 @@
 
     <HardPoint Name="UNSC_TURRET_PLATFORM_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Tooltip_Text>THIS_IS_NOT_A_PLASMA_CANON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>750.0</Health>
@@ -153,7 +153,7 @@
 
     <HardPoint Name="UNSC_TURRET_PLATFORM_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Tooltip_Text>THIS_IS_NOT_A_PLASMA_CANON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>750.0</Health>
@@ -192,7 +192,7 @@
 
     <HardPoint Name="UNSC_TURRET_PLATFORM_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Tooltip_Text>THIS_IS_NOT_A_PLASMA_CANON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>750.0</Health>
@@ -231,7 +231,7 @@
 
     <HardPoint Name="UNSC_TURRET_PLATFORM_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Tooltip_Text>THIS_IS_NOT_A_PLASMA_CANON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>750.0</Health>
@@ -270,7 +270,7 @@
 
     <HardPoint Name="UNSC_MAC_PLATFORM_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+        <Tooltip_Text>THIS_IS_NOT_A_PLASMA_CANON</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
         <Health>750.0</Health>
@@ -317,7 +317,8 @@
             <Fire_Bone_B>ROOT</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <!-- <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance> -->
+            <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+			<!-- <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance> -->
 			<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 			<Fire_Pulse_Count>1</Fire_Pulse_Count>

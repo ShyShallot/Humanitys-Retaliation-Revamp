@@ -73,7 +73,7 @@
 
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -241,7 +241,7 @@
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -413,7 +413,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 		
-		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -621,7 +621,7 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -959,7 +959,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1126,7 +1126,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
@@ -1304,7 +1304,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>110.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1467,7 +1467,7 @@
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
