@@ -1822,7 +1822,7 @@
 	<Projectile Name="MA5C"> <!-- Infantry Rounds -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>8</Max_Speed>
+		<Max_Speed>12</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
