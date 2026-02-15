@@ -19,7 +19,7 @@ Starting_Units_Handler = {
                     Low = {
                         Power = {
                             Space = 15000,
-                            Ground = 300
+                            Ground = 600
                         },
                         Structures = {"UNSC_BASE"},
                         Space_Units = {"BUCKLER_SQUADRON","UNSC_PHOENIX"},
@@ -28,7 +28,7 @@ Starting_Units_Handler = {
                     Medium = {
                         Power = {
                             Space = 25000,
-                            Ground = 300,
+                            Ground = 1200,
                         },
                         Structures = {"UNSC_FORT"},
                         Space_Units = {"UNSC_PHOENIX", "UNSC_EPOCH"},

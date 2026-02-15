@@ -1971,7 +1971,7 @@
 	
 	<Projectile Name="Proj_Covie_Ground_Pulse_Laser"> <!--Used for ground Pulse Lasers -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMALANCE.ALO</Land_Model_Name>
 		<Damage_Type>Damage_Covn_Light</Damage_Type>
 		<Max_Speed>180.0</Max_Speed>
 		<Projectile_Damage>0.01</Projectile_Damage>

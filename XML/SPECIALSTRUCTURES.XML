@@ -3630,7 +3630,7 @@
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
 		<Tutorial_Sabotage_Cost_Credits>100000</Tutorial_Sabotage_Cost_Credits>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		
@@ -4149,7 +4149,7 @@
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>800</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
@@ -4191,11 +4191,11 @@
 		<Property_Flags>InBase</Property_Flags>
 
       <AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>MPTL, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>MPTL, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
 		
 		<Starting_Spawned_Units_Tech_0>MPTL_Spotter, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>MPTL_Spotter, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
