@@ -198,12 +198,11 @@ local unit_table = {
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
     UNSC_MUSASHI = {
-        Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Researched"
+        Category = "Frigate"
     },
     UNSC_POSEIDON = {
         Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Researched"
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
     UNSC_STRIDENT = {
         Category = "Frigate",
