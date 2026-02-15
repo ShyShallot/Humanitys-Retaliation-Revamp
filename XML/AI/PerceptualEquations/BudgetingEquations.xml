@@ -196,9 +196,7 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicRebelOffensiveBudgetAllocation>
-		clamp((5.5 * Variable_Self.PlanetsControlled)
-		+
-		(1.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate)), 0.0, 1)
+		0.45
 	</BasicRebelOffensiveBudgetAllocation>
 	
 	<!-- Defensive budget increases with proportion of planets that are undefended -->
@@ -214,21 +212,12 @@
 	
 
 	<BasicRebelInfrastructureBudgetAllocation>
-		clamp(3.5 
-		* 
-		(5 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
-		* 
-		(1.0 + Variable_Self.Maintenance)
-		*
-		<!-- If half or more of our planets have mining facilitys-->
-		(1.0 + 3.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "UNSC_MINING_FACILITY"} / Variable_Self.PlanetsControlledUnnormalized)))
-		+
-		10 * ((Variable_Self.HasStructure {Parameter_Type = "UNSC_MINING_FACILITY"} == 0)),0.0,1)
+		0.45
 	</BasicRebelInfrastructureBudgetAllocation>
 	
 	<!-- Based on average age of scouted information -->
 	<BasicRebelInformationBudgetAllocation>
-		0.5 * Function_Global_Scout_Need.Evaluate
+		0.1
 	</BasicRebelInformationBudgetAllocation>	
 	
 	<GenericSpaceTargetedOffensiveBudgetAllocation>

@@ -332,10 +332,10 @@ function Update_Selected_Planet()
     for _,planet in pairs(planets) do
 
         flag_name = "ARTIFACT_PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
-        DebugMessage("Checking Planet: %s", flag_name)
+        --DebugMessage("Checking Planet: %s", flag_name)
 
         if Check_Story_Flag(player, flag_name, nil, true) then
-            DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
+            --DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
             selected_planet = planet
         end
     end

@@ -53,7 +53,7 @@ function Definitions()
 	MinContrastScale = 1.25
 	MaxContrastScale = 1.75
 
-	Category = "Conquer_Opponent | Capture_Installation_05 | Conquer_Empty_Planet"
+	Category = "Conquer_Opponent | Capture_Installation_05 | Conquer_Empty_Planet | Conquer_Pirate"
 	TaskForce = {
 	-- First Task Force
 	{
@@ -65,7 +65,7 @@ function Definitions()
 		,"Vehicle | Infantry = 100%"
 	}
 	}
-	RequiredCategories = {"Frigate | Capital | Bomber", "Infantry"}
+	RequiredCategories = {"Frigate | Capital | Bomber", "Infantry | Vehicle"}
 
 	PerFailureContrastAdjust = 0.15
 	
