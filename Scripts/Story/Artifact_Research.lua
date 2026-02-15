@@ -76,7 +76,7 @@ function Definitions()
 
     on_cooldown = 0
 
-    cooldown_time = 1 -- weeks
+    cooldown_time = 3 -- weeks
 
     planet_cooldown_time = 6
 

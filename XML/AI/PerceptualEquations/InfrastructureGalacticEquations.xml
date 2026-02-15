@@ -48,7 +48,7 @@
 	<Planet_Has_Research_Facility>
 		(Variable_Target.HasStructure{Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
 		+
-		(Variable_Target.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
+		(Variable_Target.HasStructure{Parameter_Type = "COVN_GROUND_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
 	</Planet_Has_Research_Facility>
 
 
