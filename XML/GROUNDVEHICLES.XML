@@ -580,7 +580,7 @@
 				<Type>BARRAGE</Type>
 				
 				<!-- This parameter is no longer used. Barrage radius is determined by
-					 Projectile_Max_Flight_Distance of the specific projectile for this aility -->
+					 Projectile_Max_Flight_Distance of the specific projectile for this ability -->
 				<!-- <Effective_Radius>1000.0</Effective_Radius> -->
 				
 				<!-- Modify this projectile for blast damage and range, range of barrage mode etc -->
