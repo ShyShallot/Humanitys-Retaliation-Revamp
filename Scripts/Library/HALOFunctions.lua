@@ -239,11 +239,11 @@ function customModulo(dividend, divisor)
 end
 
 function Time_To_Week(time)
-    return tonumber(Dirty_Floor(Get_Current_Week(time) + 0.5))
+    return tonumber(Dirty_Floor(Get_Current_Week(time))) + 1
 end
 
 function Get_Current_Week()
-    return tonumber(Dirty_Floor(Get_Current_Week_Raw() + 0.5))
+    return tonumber(Dirty_Floor(Get_Current_Week_Raw())) + 1
 end
 
 function Get_Current_Week_Raw(time)
@@ -252,6 +252,7 @@ function Get_Current_Week_Raw(time)
         time = GetCurrentTime.Galactic_Time()
     end
 
+    
     weekTime = 60
     week = (time / weekTime)
     return week

@@ -345,19 +345,7 @@
 		(1.0 + Variable_Target.Hints.Chokepoint)
 	-->
 	<Need_To_Reconnect_Islands>
-		Variable_Target.ConnectsLargestIslands
-		*
-		Function_First_Attack_Allowed.Evaluate
-		*
-		(
-			5.0
-			+
-			clamp(Function_Is_Good_Invasion_Target.Evaluate, 0.0, 5.0)
-			+ 
-			5.0 * Variable_Target.ConnectsIsolatedPlanetsByForce
-			+
-			(10.0 * Variable_Self.WorstIslandFractionOfLargest)
-		)
+		0
 	</Need_To_Reconnect_Islands>
 
 	<Space_Contrast>

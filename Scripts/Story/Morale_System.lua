@@ -25,8 +25,8 @@ function Definitions()
     }
 
     morale_event_table = {
-        ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 1, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
-        ["Morale_Lost_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK_NAME", Value = 5, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
+        ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 2, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
+        ["Morale_Lost_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK_NAME", Value = 7, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
         ["Morale_Won_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_NAME", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
         ["Morale_Won_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK_NAME", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
         ["Morale_Construction_Event_Minor"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR_NAME", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
@@ -238,7 +238,7 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
 
-        --DebugMessage("%s -- Galactic Time: %s, Current Week: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()), tostring(Get_Current_Week()))
+        DebugMessage("%s -- Time: %s, Galactic Time: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()))
 
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
