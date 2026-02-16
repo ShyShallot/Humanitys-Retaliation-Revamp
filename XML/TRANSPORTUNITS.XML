@@ -27,7 +27,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Affiliation>Empire, Swords</Affiliation>
-		<Ship_Class>Transport</Ship_Class>
+		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>400</Autoresolve_Health>
@@ -102,7 +102,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Transport | Vehicle</CategoryMask>
+		<CategoryMask>Frigate | Vehicle</CategoryMask>
 		<Landing_Transport_Variant>Imperial_Landing_Craft_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
 
@@ -177,7 +177,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Affiliation>Empire</Affiliation>
-		<Ship_Class>Transport</Ship_Class>
+		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>400</Autoresolve_Health>
@@ -252,7 +252,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_ATAT_Barge_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Frigate</CategoryMask>
 		<Landing_Transport_Variant>Imperial_ATAT_Barge_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
 
@@ -322,7 +322,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Affiliation>Rebel</Affiliation>
-		<Ship_Class>Transport</Ship_Class>
+		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>600</Autoresolve_Health>
@@ -386,7 +386,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Frigate</CategoryMask>
 		<Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
 
@@ -463,7 +463,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Affiliation>Empire</Affiliation>
-		<Ship_Class>Transport</Ship_Class>
+		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>150</Autoresolve_Health>
@@ -544,7 +544,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Frigate</CategoryMask>
 
 		<Landing_Transport_Variant>Shuttle_Tyderium_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
@@ -654,7 +654,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Affiliation>Rebel</Affiliation>
-		<Ship_Class>Transport</Ship_Class>
+		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>250</Autoresolve_Health>
@@ -736,7 +736,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Frigate</CategoryMask>
 
 		<Landing_Transport_Variant>Alliance_Shuttle_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
