@@ -265,7 +265,7 @@
 		<Damage>15</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
 		<Affiliation>Rebel, Terrorists</Affiliation>
-		<Build_Cost_Credits>150</Build_Cost_Credits>
+		<Build_Cost_Credits>1550</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -289,9 +289,26 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
 		</Company_Units>
 		
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
 		
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
@@ -320,7 +337,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>60</Recharge_Seconds>
+				<Recharge_Seconds>9999</Recharge_Seconds>
 				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 			</Unit_Ability>
@@ -333,7 +350,7 @@
 	
 	<GroundCompany Name="Rebel_Mini_Infantry_Squad">
 		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
-		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, </Company_Units>
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -351,7 +368,7 @@
 		<Damage>6</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Rebel, Terrorists</Affiliation>
-		<Build_Cost_Credits>75</Build_Cost_Credits>
+		<Build_Cost_Credits>1475</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -370,8 +387,15 @@
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Create_Team_Type> Plex_Soldier_Team </Create_Team_Type>
-		<Company_Units> Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier </Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> 
+		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier,
+		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, 		
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,		
+		</Company_Units>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
 		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
 		<GUI_Model_Name>RI_PLEXSOLDIER.ALO</GUI_Model_Name>
 		<GUI_Offset>0 0 5</GUI_Offset>

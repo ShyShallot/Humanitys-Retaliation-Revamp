@@ -54,8 +54,7 @@ Starting_Units_Handler = {
                     }
                 },
                 Heroes = {
-                    "UNSC_SOF", 
-                    "UNSC_IAC",
+                    "UNSC_SOF",
                     "UNSC_ROMAN_BLUE"
                 },
                 Special_Units = {},
@@ -79,7 +78,7 @@ Starting_Units_Handler = {
                             Ground = 300,
                         },
                         Structures = {},
-                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON"},
+                        Space_Units = {"COVN_SDV", "CRS_SQUADRON"},
                         Ground_Units = {"Imperial_Stormtrooper_Squad"},
                     },
                     Medium = {
@@ -88,7 +87,7 @@ Starting_Units_Handler = {
                             Ground = 300,
                         },
                         Structures = {},
-                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS"},
+                        Space_Units = {"COVN_SDV", "CRS_SQUADRON", "COVN_RCS"},
                         Ground_Units = {"Imperial_Stormtrooper_Squad"}
                     },
                     High = {
@@ -106,7 +105,7 @@ Starting_Units_Handler = {
                             Ground = 300,
                         },
                         Structures = {},
-                        Space_Units = {"SDV_SQUADRON", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"},
+                        Space_Units = {"COVN_SDV", "CRS_SQUADRON", "COVN_RCS", "COVN_CCS", "COVN_DDS", "COVN_ORS", "COVN_CAS"},
                         Ground_Units = {"Imperial_Stormtrooper_Squad"}
                     }
                 },

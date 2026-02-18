@@ -156,7 +156,7 @@ local unit_table = {
     CRS_SQUADRON = {
         Category = "Corvette"
     },
-    SDV_SQUADRON = {
+    COVN_SDV = {
         Category = "Frigate"
     },
     SERAPH_SQUADRON = {

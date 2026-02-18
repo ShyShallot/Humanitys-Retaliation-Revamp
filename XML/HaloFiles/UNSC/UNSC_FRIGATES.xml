@@ -1798,7 +1798,7 @@
 		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1926,7 +1926,7 @@
 
 	</SpaceUnit>
 	
-	<SpaceUnit Name="UNSC_SINGLE_CHARON"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	<SpaceUnit Name="UNSC_SINGLE_CHARON"> <!-- This variant allows us to produce individual Charons's in skirmish without them being in a squad -->
 	
 		<Variant_Of_Existing_Type>UNSC_CHARON</Variant_Of_Existing_Type>
 	

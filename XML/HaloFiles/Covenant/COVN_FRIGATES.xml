@@ -617,7 +617,7 @@
 
 		<!-- Classes -->
 		<MovementClass> Space </MovementClass>
-		<Space_Layer>  </Space_Layer>
+		<Space_Layer> Frigate </Space_Layer>
 		<Ship_Class>corvette</Ship_Class>
 		<CategoryMask> Corvette | AntiFighter </CategoryMask>
 
@@ -644,7 +644,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
-		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
@@ -668,7 +668,7 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -680,7 +680,7 @@
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>01.45</Hyperspace_Speed>
+		<Hyperspace_Speed>1.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<!-- AI Control -->
@@ -690,7 +690,7 @@
 		
 		<!-- Misc-->
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
@@ -818,20 +818,18 @@
 		<!-- <Lua_Script>ObjectScript_RandomZLayer</Lua_Script> -->
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12900</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+	
+		<Population_Value>4</Population_Value>
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>3500</AI_Combat_Power>
 		
 	</SpaceUnit>
 	
-	<Squadron Name="SDV_SQUADRON">    <!-- DO NOT TURN THIS BACK ON UNLESS YOU WANT 3 HOURS OF HEADACHE DEBUGGING THE SDV | I turned it back on - Apple -->
+	<!-- <Squadron Name="SDV_SQUADRON">     DO NOT TURN THIS BACK ON UNLESS YOU WANT 3 HOURS OF HEADACHE DEBUGGING THE SDV | I turned it back on - Apple 
 
 		<Text_ID>TEXT_UNIT_COVN_SDV</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SDV </Encyclopedia_Text>
@@ -893,6 +891,6 @@
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron> 
+		</Squadron> -->
 
 </FrigateUnits>

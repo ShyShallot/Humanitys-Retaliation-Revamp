@@ -1,30 +1,52 @@
 <?xml version="1.0"?>
 <TransportUnits>
 	<TransportUnit Name="Imperial_Landing_Craft">
+
 		<Text_ID>TEXT_UNIT_IMPERIAL_LANDING_CRAFT</Text_ID>
 		<Land_Model_Name>EV_IMPERIALCRAFT.ALO</Land_Model_Name>
-		<Space_Model_Name>EV_IMPERIALCRAFT_SPACE.ALO</Space_Model_Name>
-		<Icon_Name>i_button_Sentinel_Lander.tga</Icon_Name>
+		<Space_Model_Name>COVN_SDV.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_SDV.tga</Icon_Name>
 		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>0.7</Scale_Factor>
+		<Scale_Factor>0.62</Scale_Factor>
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
-		<Max_Speed>3.0</Max_Speed>
-		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
+		<Damage_Type>Damage_COVIE_Corvette</Damage_Type>
+		<Armor_Type> Armor_COVN_Assault </Armor_Type>
+		<Shield_Armor_Type>Sheild_COVN_Destroyer</Shield_Armor_Type>
+		
+		<Max_Speed>2.8</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
+		<Max_Lift>0.2</Max_Lift>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.3</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>65</Bank_Turn_Angle>
+		<Autoresolve_Health>7500</Autoresolve_Health>
+		<Shield_Points>11000</Shield_Points>
+		<Tactical_Health>3500</Tactical_Health>
+		<Shield_Refresh_Rate>1000</Shield_Refresh_Rate>
+		<Energy_Capacity>21000</Energy_Capacity>
+		<Energy_Refresh_Rate>700</Energy_Refresh_Rate>
+		
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
-		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		
+		<HardPoints> 
+			HP_SDV_HANGAR_01, HP_SDV_AS_01, HP_SDV_AS_02, HP_SDV_AS_03, HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06, HP_SDV_AF_01, HP_SDV_AF_02, HP_SDV_AF_03, HP_SDV_AF_04, HP_SDV_AF_05, HP_SDV_AF_06 
+		</HardPoints>
+		
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>1.45</Hyperspace_Speed>
 
 		<Affiliation>Empire, Swords</Affiliation>
 		<Ship_Class>Frigate</Ship_Class>
@@ -32,11 +54,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>2</Damage>
-		<Shield_Points>10</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
-		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
-		<Energy_Capacity>300</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -47,10 +65,12 @@
 		<Size_Value>120</Size_Value>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED,  FLYING_LOCOMOTOR, AMBIENT_SFX, UNIT_AI, TARGETING, WEAPON, STUNNABLE, DAMAGE_TRACKING </LandBehavior> 
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_SDV.TGA</Radar_Icon_Name>
 
 		<Death_Clone>Damage_Normal, Imperial_Landing_Craft_Death_Clone</Death_Clone>
 
@@ -59,27 +79,19 @@
       	<Obstacle_X_Offset>-60.0</Obstacle_X_Offset>
       	<Obstacle_Y_Offset>-60.0</Obstacle_Y_Offset>
 
-		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>900.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
-		<!-- <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance> -->
-		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-
+		<Guard_Chase_Range>100.0</Guard_Chase_Range>
+		<Idle_Chase_Range>500</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 
 		<Exit_Door_Angle_Degrees>180.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
@@ -105,7 +117,10 @@
 		<CategoryMask>Frigate | Vehicle</CategoryMask>
 		<Landing_Transport_Variant>Imperial_Landing_Craft_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
-
+		<Population_Value>4</Population_Value>
+		
+		<Text_ID>TEXT_UNIT_COVN_SDV</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SDV </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -296,42 +311,50 @@
 
 	<TransportUnit Name="Gallofree_Transport">
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
-		<Space_Model_Name>RV_TRANSPORT.ALO</Space_Model_Name>
-		<Icon_Name>i_button_Gallofree_Transport.tga</Icon_Name>
+		<Space_Model_Name>UNSC_CHARONClass.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>0.7</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
-		<Max_Speed>2.0</Max_Speed>
-		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
-		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
+		<Armor_Type> Armor_UNSC_Frigate </Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
 		
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Ship_Class>Frigate</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>2</Damage>
-		<Shield_Points>50</Shield_Points>
-		<Tactical_Health>350</Tactical_Health>
-		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
-		<Energy_Capacity>400</Energy_Capacity>
-		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Autoresolve_Health>3500</Autoresolve_Health>
+		<Shield_Points></Shield_Points>
+		<Tactical_Health>7200</Tactical_Health>		<!-- was 2800 -->
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -344,10 +367,20 @@
 		<Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
 
 		<Behavior>TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
+		<HardPoints>
+			UNSC_CHARON_MK33_01, UNSC_CHARON_MK33_02, UNSC_CHARON_MK33_03, UNSC_CHARON_MK33_04, 
+			UNSC_CHARON_AP_01, UNSC_CHARON_AP_02, UNSC_CHARON_AP_05, UNSC_CHARON_AP_06,
+			UNSC_CHARON_AP_07, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
+		</HardPoints>
+		
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Obstacle_Width>140.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>
@@ -359,10 +392,6 @@
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-		<HardPoints>HP_Gallofree_01</HardPoints>
 
 		<Exit_Door_Angle_Degrees>90.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
@@ -389,10 +418,7 @@
 		<CategoryMask>Frigate</CategoryMask>
 		<Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
-
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Population_Value>6</Population_Value>
 
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
