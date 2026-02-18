@@ -86,7 +86,7 @@
 				UC_Empire_Buildable_Repair_Facility, 
 				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
+		<Text_ID> Neutral-Build-Pad </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
 		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
