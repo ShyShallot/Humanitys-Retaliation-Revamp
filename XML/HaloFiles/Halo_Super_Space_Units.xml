@@ -965,7 +965,7 @@
 		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
 		<AI_Combat_Power>12000</AI_Combat_Power>
 		<Space_FOW_Reveal_Range>10500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>6500.0</Targeting_Max_Attack_Distance>
 		
 		<Death_Clone />
 		<Death_Explosions>Large_Damage_Space</Death_Explosions>
@@ -989,30 +989,20 @@
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
 		<Population_Value>150</Population_Value>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-	
-	</SpaceUnit>
-
-	
-	<SpaceUnit Name="COVN_CAS_Death_Clone">
-		<Text_ID>TEXT_UNIT_COVN_CAS</Text_ID>
-		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
-		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>1</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Speed>0.25</Max_Speed>
-		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
-		<Max_Thrust>0.05</Max_Thrust>
-		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<Affiliation>Empire</Affiliation>
-		<Ship_Class>capital_ship</Ship_Class>
-		<Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-	</SpaceUnit>
-	
-		<!--	<Unit_Abilities_Data SubObjectList="Yes">
+		
+		<Abilities SubObjectList="Yes">
+		
+            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
+                
+                <Absolute_Income_Modifier>-3000</Absolute_Income_Modifier>
+               
+            </Planet_Income_Bonus_Ability>
+		</Abilities>
+		
+			<!--   (Apple) These are OLD Glassing beams 	
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
 		
 			<Unit_Ability>
 				<Type>SUPER_LASER</Type>
@@ -1056,16 +1046,32 @@
 
 		</Abilities> -->
 		
+	
+	</SpaceUnit>
+
+	
+	<SpaceUnit Name="COVN_CAS_Death_Clone">
+		<Text_ID>TEXT_UNIT_COVN_CAS</Text_ID>
+		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Empire</Affiliation>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+	
+	
 		
-		<Abilities SubObjectList="Yes">
 		
-            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
-                
-                <Absolute_Income_Modifier>-3000</Absolute_Income_Modifier>
-               
-            </Planet_Income_Bonus_Ability>
-		</Abilities>
 		
 
 </SpaceUnitsSupers>

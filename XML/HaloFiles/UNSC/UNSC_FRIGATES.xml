@@ -78,8 +78,9 @@
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 
 
-		 <Remove_Upon_Death>true</Remove_Upon_Death>
-		<Death_Clone>Damage_Normal, </Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Death_Clone> Damage_Normal, Medium_Explosion_FRIGATE </Death_Clone>
+		
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints> 
@@ -175,14 +176,7 @@
 		
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 		
-		<Abilities SubObjectList="Yes">
-            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
-                
-                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
-               
-            </Planet_Income_Bonus_Ability>
-		</Abilities>
+		
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
@@ -193,26 +187,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
-	</SpaceUnit>
-
-
-	<SpaceUnit Name="">
-		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
-		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>UNSC_Gladius.ALO</xxxSpace_Model_Name>
-		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
-		<Scale_Factor>0.76</Scale_Factor> 
-		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Speed>15.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
-		<Max_Thrust>1</Max_Thrust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>0</Bank_Turn_Angle>
-		<Affiliation>Rebel</Affiliation>
-		<Ship_Class>frigate</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceUnit>
 	
    <Squadron Name="Gladius_Squadron">
@@ -229,7 +203,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		
@@ -276,9 +250,7 @@
                
             </Planet_Income_Bonus_Ability>
 		</Abilities>
-		
-		
-		
+
 		<Tactical_Build_Cost_Multiplayer>435</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
@@ -1042,7 +1014,7 @@
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
-
+		
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		
@@ -1813,8 +1785,7 @@
 
 		<HardPoints>
 			UNSC_CHARON_MK33_01, UNSC_CHARON_MK33_02, UNSC_CHARON_MK33_03, UNSC_CHARON_MK33_04, 
-			UNSC_CHARON_AP_01, UNSC_CHARON_AP_02, UNSC_CHARON_AP_05, UNSC_CHARON_AP_06,
-			UNSC_CHARON_AP_07, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
+			UNSC_CHARON_AP_01, UNSC_CHARON_AP_02, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
 		<CategoryMask> Frigate </CategoryMask>
