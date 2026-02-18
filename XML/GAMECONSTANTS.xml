@@ -514,7 +514,7 @@
     <Mouse_Over_Highlight_Scale>1.5</Mouse_Over_Highlight_Scale>
 
 	<AI_SpaceEvaluatorRegionSize>2000.0</AI_SpaceEvaluatorRegionSize>
-	<AI_LandEvaluatorRegionSize>2000.0</AI_LandEvaluatorRegionSize>
+	<AI_LandEvaluatorRegionSize>6000.0</AI_LandEvaluatorRegionSize>
 	
 	<AI_SpaceThreatDistanceFactor>0.5</AI_SpaceThreatDistanceFactor>
 	<AI_LandThreatDistanceFactor>0.5</AI_LandThreatDistanceFactor>
@@ -531,7 +531,7 @@
 	Note that this serves for Land threat decay as well.-->
 	<AI_SpaceThreatDecayStep>0.05</AI_SpaceThreatDecayStep>
 
-	<AI_BuildTaskReservationSeconds>15.0</AI_BuildTaskReservationSeconds>
+	<AI_BuildTaskReservationSeconds>10.0</AI_BuildTaskReservationSeconds>
 	
 	<MinimumDragSelectDistance> 100.0 </MinimumDragSelectDistance>
 	<MinimumDragDistance> 4.0 </MinimumDragDistance>

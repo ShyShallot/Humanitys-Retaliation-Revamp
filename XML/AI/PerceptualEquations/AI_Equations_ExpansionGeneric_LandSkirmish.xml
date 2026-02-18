@@ -173,10 +173,9 @@
 		*
 		(4 > Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Rebel_Mineral_Processor"
 														,Parameter_Type = "Empire_Mineral_Processor"
-														,Parameter_Type = "Underworld_Mineral_Processor"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_U"})
+														,Parameter_Type = "Empire_Ground_Mining_Facility"
+														,Parameter_Type = "UNSC_TITANIUM_MINE"
+														,Parameter_Type = "UC_Rebel_Ground_Mining_Facility"})
 		*
 		(1500 > Variable_Self.CreditsUnnormalized)
 		*
@@ -187,10 +186,9 @@
 	<Num_Refineries>
 		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Rebel_Mineral_Processor"
 													,Parameter_Type = "Empire_Mineral_Processor"
-													,Parameter_Type = "Underworld_Mineral_Processor"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_U"}
+													,Parameter_Type = "Empire_Ground_Mining_Facility"
+													,Parameter_Type = "UNSC_TITANIUM_MINE"
+													,Parameter_Type = "UC_Rebel_Ground_Mining_Facility"}
 	</Num_Refineries>
 
 	<Is_Refinery_Pad>
@@ -246,12 +244,10 @@
 		(
 			Function_Should_Burn_Units_Land.Evaluate
 			+
-			(Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Skirmish_Ground_Mining_Facility_E", 
-														Parameter_Type = "Skirmish_Ground_Mining_Facility_R",
-														Parameter_Type = "Skirmish_Ground_Mining_Facility_U",
+			(Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", 
+														Parameter_Type = "UNSC_TITANIUM_MINE",
 														Parameter_Type = "Empire_Mineral_Processor", 
-														Parameter_Type = "Rebel_Mineral_Processor",
-														Parameter_Type = "Underworld_Mineral_Processor"} >= 1)	
+														Parameter_Type = "Rebel_Mineral_Processor"} >= 1)	
 			*
 			(Variable_Self.FriendlyForceUnnormalized > 400) 
 			* 

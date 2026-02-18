@@ -45,7 +45,7 @@ require("pgevents")
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	
---	Category = "Build_Ground_Defensive_Structure"
+--	Category = "Build_Ground_Defensive_Structure, AlwaysOff"
 	Category = "AlwaysOff"
 	IgnoreTarget = true
 	TaskForce = {

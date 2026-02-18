@@ -1375,7 +1375,7 @@
 	<GroundBuildable Name="UC_Rebel_Ground_Mining_Facility">
 		<Text_ID> TEXT_NEUTRAL_MINING_BUILD_PAD </Text_ID>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
-		<Tactical_Buildable_Constructed> Rebel_Ground_Mining_Facility </Tactical_Buildable_Constructed>
+		<Tactical_Buildable_Constructed> UNSC_TITANIUM_MINE </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>

@@ -423,13 +423,13 @@
 				*
 				(1.0 + Variable_Target.IncomeUnnormalized * Variable_Target.IncomeUnnormalized / 250000.0)
 				+
-				10 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", Parameter_Type = "Rebel_Ground_Mining_Facility", Parameter_Only_Consider_Complete = 1.0} / Variable_Self.PlanetsControlledUnnormalized))
+				10 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", Parameter_Type = "UNSC_TITANIUM_MINE", Parameter_Only_Consider_Complete = 1.0} / Variable_Self.PlanetsControlledUnnormalized))
 			)
 			*
 			clamp(Function_Defense_Level.Evaluate - 1, 0.0, 2.0)
 			*
 			((Variable_Target.MaxStructureSlotsUnnormalized / 2.0) > Variable_Target.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility",
-																										Parameter_Type = "Rebel_Ground_Mining_Facility",
+																										Parameter_Type = "UNSC_TITANIUM_MINE",
 																										Parameter_Only_Consider_Complete = 1.0})
 			*
 			Variable_Self.HasStructure {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
@@ -445,7 +445,7 @@
 			50.0
 			*
 			(Variable_Self.HasStructure {Parameter_Type = "Empire_Ground_Mining_Facility",
-											Parameter_Type = "Rebel_Ground_Mining_Facility",
+											Parameter_Type = "UNSC_TITANIUM_MINE",
 											Parameter_Only_Consider_Complete = 1.0} == 0.0)
 		)
 		*

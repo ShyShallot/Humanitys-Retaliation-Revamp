@@ -429,7 +429,7 @@
 		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, 
 		</Company_Units>
 		
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
 		
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
@@ -441,6 +441,12 @@
 		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

@@ -56,14 +56,12 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"Fighter = 0,4"
-		,"Bomber = 0,4"
-		,"Corvette = 0,4"
-		,"Frigate = 0,4"
-		,"Capital = 0,4"
+		,"Corvette = 1,10"
+		,"Frigate = 1,10"
+		,"Capital = 1,10"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Fighter | Bomber" }
+	RequiredCategories = { "Capital | Frigate | Corvette" }
 	AllowFreeStoreUnits = false
 end
 

@@ -1724,7 +1724,6 @@
 	
 	</SpaceUnit>
 	
-	
 	<SpaceUnit Name="UNSC_CHARON">
 		<Text_ID>TEXT_UNIT_UNSC_CHARON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
@@ -1818,8 +1817,6 @@
 			UNSC_CHARON_AP_07, UNSC_CHARON_MAC, UNSC_STALWART_HANGAR
 		</HardPoints>
 		
-	
-		
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
@@ -1845,7 +1842,6 @@
 		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Assault_Frigate </SFXEvent_Attack_Hardpoint>
@@ -1890,8 +1886,6 @@
 
 		</Unit_Abilities_Data> -->
 
-
-		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
@@ -1963,7 +1957,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
-	
 	
 	</SpaceUnit>
 	

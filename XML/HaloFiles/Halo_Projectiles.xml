@@ -1820,6 +1820,7 @@
 	<!-- Ground Projectiles -->
 	
 	<Projectile Name="MA5C"> <!-- Infantry Rounds -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
 		<Max_Speed>12</Max_Speed>
@@ -1844,6 +1845,7 @@
 	</Projectile>
 	
 	<Projectile Name="LAAG"> <!-- HMG Rounds -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
 		<Max_Speed>20</Max_Speed>
@@ -1868,6 +1870,7 @@
 	</Projectile>
 	
 	<Projectile Name="M370_Cannon"> <!-- Ground Pelican Rounds -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
 		<Max_Speed>20</Max_Speed>
@@ -1892,6 +1895,7 @@
 	</Projectile>
 	
 	<Projectile Name="Pelican_Missile"> <!-- Ground Pelican Missile -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
 		<Scale_Factor>0.3</Scale_Factor>
@@ -1917,9 +1921,11 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
+		
 	</Projectile>
 	
 	<Projectile Name="Tank_Boom"> <!-- Tank Rounds -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
 		<Max_Speed>10</Max_Speed>
@@ -1944,12 +1950,13 @@
 	</Projectile>
 	
 	<Projectile Name="Plasma_Rifle"> <!-- Covn Plasma Rifle -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>COVN_PLASMAPROJECTILE_FIGHTER.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
 		<Max_Speed>5.0</Max_Speed>
-		<Projectile_Damage>3.0</Projectile_Damage>
+		<Projectile_Damage>4.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -1970,6 +1977,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Covie_Ground_Pulse_Laser"> <!--Used for ground Pulse Lasers -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>COVN_PLASMALANCE.ALO</Land_Model_Name>
 		<Damage_Type>Damage_Covn_Light</Damage_Type>
@@ -1992,7 +2000,6 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-		
 	</Projectile>
 	
 	

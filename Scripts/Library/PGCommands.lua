@@ -504,19 +504,19 @@ function Set_Land_AI_Targeting_Priorities(tf)
 	--First set up generic priorities
 	tf.Set_Targeting_Priorities("Infantry_Attack_Move", "Infantry")
 	tf.Set_Targeting_Priorities("Infantry_Attack_Move", "LandHero")
-	tf.Set_Targeting_Priorities("Air_Attack_Move", "Air")
-	tf.Set_Targeting_Priorities("Heavy_Vehicle_Attack_Move", "Vehicle")
+	--tf.Set_Targeting_Priorities("Air_Attack_Move", "Air")
+	--tf.Set_Targeting_Priorities("Heavy_Vehicle_Attack_Move", "Vehicle")
 	
-	--Now for some more specific stuff
-	tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Plex_Soldier_Team")
-	tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Pirate_Plex_Soldier_Team")
-	tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "TIE_Crawler")
-	tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "AT_ST_Walker")
-	tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "T2B_Tank")
-	tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "Dark_Trooper_PhaseI")
-	tf.Set_Targeting_Priorities("Artillery_Attack_Move", "MPTL")
-	tf.Set_Targeting_Priorities("Artillery_Attack_Move", "SPMAT_Walker")
-	tf.Set_Targeting_Priorities("Artillery_Attack_Move", "MAL_Rocket_Vehicle")
+	--Now for some more specific stuff (Apple) these have not been defined Commenting them out till they are!!!
+	--tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Plex_Soldier_Team")
+	--tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Pirate_Plex_Soldier_Team")
+	--tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "TIE_Crawler")
+	--tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "AT_ST_Walker")
+	--tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "T2B_Tank")
+	--tf.Set_Targeting_Priorities("Light_Vehicle_Attack_Move", "Dark_Trooper_PhaseI")
+	--tf.Set_Targeting_Priorities("Artillery_Attack_Move", "MPTL")
+	--tf.Set_Targeting_Priorities("Artillery_Attack_Move", "SPMAT_Walker")
+	--tf.Set_Targeting_Priorities("Artillery_Attack_Move", "MAL_Rocket_Vehicle")
 end
 
 function Try_Weapon_Switch(object, target)
