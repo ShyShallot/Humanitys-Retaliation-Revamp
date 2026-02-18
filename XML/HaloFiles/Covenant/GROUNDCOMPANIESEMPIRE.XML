@@ -9,7 +9,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -73,7 +73,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>70</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -135,7 +135,7 @@
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -200,7 +200,7 @@
 		<Damage>24</Damage>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>150</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -271,7 +271,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -331,7 +331,7 @@
 		<Damage>20</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>180</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -406,7 +406,7 @@
 		<Damage>18</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>3400</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -504,7 +504,7 @@
 		<Damage>10</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>150</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -691,7 +691,7 @@
 		<Text_ID>TEXT_HERO_UNIT_PROBE_DROID</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Combat_Power_Value>0</Combat_Power_Value>
