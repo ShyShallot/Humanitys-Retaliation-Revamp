@@ -314,10 +314,10 @@
 
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>		
 
@@ -427,10 +427,10 @@
 
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 		
@@ -487,7 +487,7 @@
 
 		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
@@ -607,7 +607,7 @@
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
@@ -659,7 +659,7 @@
 
 		<Icon_Name>i_button_field_commander.tga</Icon_Name>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
@@ -1542,7 +1542,7 @@
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<CategoryMask>LandHero</CategoryMask>
 

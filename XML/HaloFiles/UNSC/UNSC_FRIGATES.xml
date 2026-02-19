@@ -69,12 +69,12 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer>  </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 
 
@@ -118,15 +118,15 @@
 		<SFXEvent_Build_Complete>Corvette_Built</SFXEvent_Build_Complete>
 
 		<SFXEvent_Ambient_Loop></SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Corvette_Select</SFXEvent_Select>
-		<SFXEvent_Move>Corvette_Move</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Corvette_Move</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Corvette_Attack</SFXEvent_Attack>
-		<SFXEvent_Guard>Corvette_Guard</SFXEvent_Guard>
-		<SFXEvent_Stop>Corvette_Stop</SFXEvent_Stop>
+		<SFXEvent_Select>Unit_Corvette_Select</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Corvette_Move</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Corvette_Move</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Corvette_Attack</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Corvette_Guard</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Corvette_Stop</SFXEvent_Stop>
 		<SFXEvent_Barrage>Unit_Barrage_Nebulon</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Corvette_Move_Asteroids </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Corvette_Move_Nebula </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Corvette_Move_Asteroids </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Corvette_Move_Nebula </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
@@ -203,7 +203,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		
@@ -218,8 +218,6 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		
@@ -568,7 +566,7 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -578,7 +576,7 @@
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer>  </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
@@ -655,15 +653,15 @@
 		<SFXEvent_Build_Complete>Corvette_Built</SFXEvent_Build_Complete>
 
 		<SFXEvent_Ambient_Loop></SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Corvette_Select</SFXEvent_Select>
-		<SFXEvent_Move>Corvette_Move</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Corvette_Move</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Corvette_Attack</SFXEvent_Attack>
-		<SFXEvent_Guard>Corvette_Guard</SFXEvent_Guard>
-		<SFXEvent_Stop>Corvette_Stop</SFXEvent_Stop>
+		<SFXEvent_Select>Unit_Corvette_Select</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Corvette_Move</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Corvette_Move</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Corvette_Attack</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Corvette_Guard</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Corvette_Stop</SFXEvent_Stop>
 		<SFXEvent_Barrage>Unit_Barrage_Nebulon</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Corvette_Move_Asteroids </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Corvette_Move_Nebula </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Corvette_Move_Asteroids </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Corvette_Move_Nebula </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
@@ -741,7 +739,7 @@
 	
 	<!-- Mako Squadron -->
 	
-	<!--  <Squadron Name="MAKO_SQUADRON">
+	  <Squadron Name="MAKO_SQUADRON">
 
 		<Text_ID>TEXT_UNIT_UNSC_MAKO_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
@@ -755,7 +753,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		
@@ -801,7 +799,7 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron>  -->
+		</Squadron> 
 
 
 	<SpaceUnit Name="UNSC_STRIDENT">
@@ -1148,7 +1146,6 @@
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Assault_Frigate </SFXEvent_Attack_Hardpoint>
@@ -1172,9 +1169,7 @@
 		<SFXEvent_Engine_Moving_Loop>  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-
 		<Death_SFXEvent_Start_Die>Unit_UNSC_Frigate_Death</Death_SFXEvent_Start_Die>
-
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
@@ -1188,8 +1183,6 @@
 		
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-
-
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
 	<!--	<Unit_Abilities_Data SubObjectList="Yes">
@@ -1207,9 +1200,6 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data> -->
-
-		
-		
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 		
