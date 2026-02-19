@@ -22,7 +22,7 @@ Starting_Units_Handler = {
                             Ground = 600
                         },
                         Structures = {"UNSC_BASE"},
-                        Space_Units = {"BUCKLER_SQUADRON","UNSC_SINGLE_CHARON", "UNSC_PHOENIX"},
+                        Space_Units = {"BUCKLER_SQUADRON", "UNSC_SINGLE_CHARON", "UNSC_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad"},
                     },
                     Medium = {
