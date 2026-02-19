@@ -456,6 +456,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		<AI_Combat_Power>300</AI_Combat_Power>
+		
 	</SpaceUnit>
 	
 
@@ -989,8 +991,10 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		
+		<AI_Combat_Power>600</AI_Combat_Power>
 
-	</SpaceUnit> -->
+	</SpaceUnit> 
 	
 	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
 	
@@ -1227,6 +1231,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		
+		<AI_Combat_Power>300</AI_Combat_Power>
 
 	</SpaceUnit>
 
@@ -1651,6 +1657,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		
+		<AI_Combat_Power>300</AI_Combat_Power>
 
 	</SpaceUnit>
 	
@@ -1888,6 +1896,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		
+		<AI_Combat_Power>300</AI_Combat_Power>
 
 	</SpaceUnit>
 	
