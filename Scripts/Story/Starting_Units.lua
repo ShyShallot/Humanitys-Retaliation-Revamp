@@ -313,7 +313,7 @@ function Starting_Units_Handler:Start()
 
                 DebugMessage("%s -- Space Power: %s, Ground Power: %s", tostring(Script), tostring(Space_Power), tostring(Ground_Power))
 
-                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Ground, Settings.Ground_Units, planet, Ground_Power)
+                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Ground, Settings.Ground_Units, planet, Ground_Power, true)
 
                 self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Space, Settings.Space_Units, planet, Space_Power)
 
@@ -355,7 +355,7 @@ function Starting_Units_Handler:Start()
     self.Finished = true
 end
 
-function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Planet, Max_Power)
+function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Planet, Max_Power, Is_Ground)
 
     if Category_Mapping == nil then
         return
@@ -381,6 +381,8 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Plane
 
     local attempts = 0
 
+    local Spawned_Units = 0
+
     while Current_Power < Max_Power and attempts < 50 do
 
         --DebugMessage("%s -- Planet Power: %s, Max Power: %s", tostring(Script), tostring(Planet_Power), tostring(Settings.Power))
@@ -390,6 +392,12 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Plane
         --DebugMessage("%s -- Selected Category: %s", tostring(Script), tostring(Category))
 
         for _, unit in pairs(Units) do
+
+            if Spawned_Units >= 10 and Is_Ground then
+                attempts = 10000
+
+                break
+            end
 
             local Unit_Entry = self:Get_Unit_Entry(unit)
 
@@ -414,6 +422,9 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Plane
                     local spawned_unit = Spawn_Unit(Unit_Type, Planet, Planet.Get_Owner())
 
                     if spawned_unit ~= nil then
+
+                        Spawned_Units = Spawned_Units + 1
+
                         for _, unit in pairs(spawned_unit) do
                             unit.Prevent_AI_Usage(false)
                         end
