@@ -56,7 +56,9 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"Fighter | Frigate | Corvette = 2,6"
+		,"Fighter | Bomber = 4,10"
+		,"Corvette | Frigate = 2,8"
+		,"Capital = 0,3"
 	}
 	}
 	RequiredCategories = {"Fighter | Frigate | Corvette"}
