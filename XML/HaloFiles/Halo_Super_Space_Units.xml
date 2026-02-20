@@ -950,18 +950,14 @@
 		<Shield_Refresh_Rate>6000</Shield_Refresh_Rate>
 		<Energy_Capacity>750000</Energy_Capacity>
 		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
-		
-		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 	
-
 		<Space_Model_Name>COVN_CSO.ALO</Space_Model_Name>
 		<Select_Box_Scale>650</Select_Box_Scale>
 		<Scale_Factor>5.5</Scale_Factor>
 		<Max_Speed>3.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>1.45</Hyperspace_Speed>
 		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
 		<AI_Combat_Power>12000</AI_Combat_Power>
 		<Space_FOW_Reveal_Range>10500.0</Space_FOW_Reveal_Range>
@@ -995,7 +991,7 @@
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
                 <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
                 
-                <Absolute_Income_Modifier>-3000</Absolute_Income_Modifier>
+                <Absolute_Income_Modifier>-1500</Absolute_Income_Modifier>
                
             </Planet_Income_Bonus_Ability>
 		</Abilities>
