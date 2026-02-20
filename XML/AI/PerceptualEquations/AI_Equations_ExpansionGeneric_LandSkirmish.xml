@@ -173,24 +173,18 @@
 		*
 		(4 > Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Rebel_Mineral_Processor"
 														,Parameter_Type = "Empire_Mineral_Processor"
-														,Parameter_Type = "Underworld_Mineral_Processor"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-														,Parameter_Type = "Skirmish_Ground_Mining_Facility_U"})
+														,Parameter_Type = "Underworld_Mineral_Processor"})
 		*
 		(1500 > Variable_Self.CreditsUnnormalized)
 		*
-		Function_Want_More_Resource_Structures_Land.Evaluate
+		Function_Want_More_Resource_Structures_Land.Evaluate 
 	</Is_Saving_For_Refineries_Land>
 
 
 	<Num_Refineries>
 		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Rebel_Mineral_Processor"
 													,Parameter_Type = "Empire_Mineral_Processor"
-													,Parameter_Type = "Underworld_Mineral_Processor"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_U"}
+													,Parameter_Type = "Underworld_Mineral_Processor"}
 	</Num_Refineries>
 
 	<Is_Refinery_Pad>

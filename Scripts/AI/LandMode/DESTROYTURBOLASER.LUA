@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/DestroyTurbolaser.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,15 +25,15 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/DestroyTurbolaser.lua $
 --
 --    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
@@ -41,40 +41,60 @@
 
 require("pgevents")
 
--- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 16
 
 function Definitions()
-	DebugMessage("%s -- In Definitions", tostring(Script))
 	
-	Category = "Upgrade_Starbase | HR_Build_Initial_Starbase_Only"
-	IgnoreTarget = true
+	Category = "Destroy_Turbolaser"
 	TaskForce = {
 	{
-		"BaseForce",
-		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Terrorists_Star_Base_1 | Terrorists_Star_Base_2 | Terrorists_Star_Base_3 | SWORDS_STARBASE_1 | SWORDS_STARBASE_2 = 0,1"
-		,"UNSC_Light_Shipyard = 0,1"
-		,"UNSC_Medium_Shipyard = 0,1"
-		,"UNSC_Heavy_Shipyard = 0,1"
-		,"UNSC_Infinity_Shipyard = 0,1"
+		"MainForce"						
+		,"DenyHeroAttach"
+		,"Infantry | Air | LandHero = 3,10"
+		,"-Gallofree_HTT_Company"
+		,"-HAV_Juggernaut_Company"
+		,"-F9TZ_Cloaking_Transport_Company"	
+		,"-AT_AA_Walker"	
+	},
+	{
+		"GuardForce"
+		,"EscortForce"
+		,"Squad_Rebel_Trooper | Squad_Stormtrooper = 0,2"
 	}
 	}
-
-	DebugMessage("%s -- Done Definitions", tostring(Script))
+	
+	start_loc = nil
+	
 end
 
-function BaseForce_Thread()
-	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	BaseForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(BaseForce)
+	QuickReinforce(PlayerObject, AITarget, MainForce, GuardForce)
 	
-	BaseForce.Set_Plan_Result(true)
-	DebugMessage("%s -- BaseForce done!", tostring(Script));
+	Try_Ability(MainForce, "FORCE_CLOAK")
+	Try_Ability(MainForce, "STEALTH")
+
+	-- Try to get under the min attack range, then attack
+	BlockOnCommand(MainForce.Move_To(AITarget, MainForce.Get_Self_Threat_Sum()))
+	BlockOnCommand(MainForce.Attack_Target(AITarget))	
+
 	ScriptExit()
 end
 
-function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
-	ScriptExit()
+function GuardForce_Thread()
+	BlockOnCommand(GuardForce.Produce_Force())
+
+	QuickReinforce(PlayerObject, AITarget, GuardForce, MainForce)
+	
+	-- Give an initial order to put the escorts in a state that the Escort function expects
+	GuardForce.Guard_Target(MainForce)
+
+	-- Make sure these guys will shoot at structures autonomously
+	GuardForce.Set_Targeting_Priorities("Infantry_Attack_Move")
+
+	while true do
+		Escort(GuardForce, MainForce)
+	end
 end
+

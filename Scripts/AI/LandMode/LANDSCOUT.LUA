@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/LandScout.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,15 +25,15 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/LandScout.lua $
 --
 --    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
@@ -41,40 +41,45 @@
 
 require("pgevents")
 
--- Tell the script pooling system to pre-cache this number of scripts.
-ScriptPoolCount = 16
-
 function Definitions()
-	DebugMessage("%s -- In Definitions", tostring(Script))
-	
-	Category = "Upgrade_Starbase | HR_Build_Initial_Starbase_Only"
+
+	Category = "Land_Scout_Area"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce = 
 	{
-		"BaseForce",
-		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Terrorists_Star_Base_1 | Terrorists_Star_Base_2 | Terrorists_Star_Base_3 | SWORDS_STARBASE_1 | SWORDS_STARBASE_2 = 0,1"
-		,"UNSC_Light_Shipyard = 0,1"
-		,"UNSC_Medium_Shipyard = 0,1"
-		,"UNSC_Heavy_Shipyard = 0,1"
-		,"UNSC_Infinity_Shipyard = 0,1"
-	}
+		{
+			"MainForce",
+			"Infantry | Air | LandHero = 1"
+		}
 	}
 
-	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function BaseForce_Thread()
-	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
-	
-	BaseForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(BaseForce)
-	
-	BaseForce.Set_Plan_Result(true)
-	DebugMessage("%s -- BaseForce done!", tostring(Script));
-	ScriptExit()
-end
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
+	QuickReinforce(PlayerObject, AITarget, MainForce)	
 
-function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	-- Do it once without interruption
+	MainForce.Set_As_Goal_System_Removable(false)
+	Try_Ability(MainForce, "FORCE_CLOAK")
+	BlockOnCommand(MainForce.Attack_Move(AITarget, MainForce.Get_Self_Threat_Max()))
+	BlockOnCommand(MainForce.Explore_Area(AITarget), 10)
+	MainForce.Set_Plan_Result(true)
+--	MainForce.Set_As_Goal_System_Removable(true)
+
+-- 	Removing this loop to give other plans a chance.  If the AI still wants to scout, the plan will be proposed again.
+--	while true do
+--		AITarget = FindTarget(MainForce, "Land_Area_Needs_Scouting", "Tactical_Location", 0.8, 1000.0)
+		
+--		if not TestValid(AITarget) then
+--			DebugMessage("%s -- Unable to find a target for MainForce.", tostring(Script))
+--			ScriptExit()
+--		end
+		
+--		BlockOnCommand(MainForce.Move_To(AITarget, MainForce.Get_Self_Threat_Max()))
+--		BlockOnCommand(MainForce.Explore_Area(AITarget), 10)
+--		Sleep(1)
+--	end
+	
 	ScriptExit()
 end

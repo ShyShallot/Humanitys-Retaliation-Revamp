@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/SecureVictoryControlPoint.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,15 +25,15 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/SecureVictoryControlPoint.lua $
 --
 --    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
@@ -41,40 +41,71 @@
 
 require("pgevents")
 
--- Tell the script pooling system to pre-cache this number of scripts.
-ScriptPoolCount = 16
-
 function Definitions()
-	DebugMessage("%s -- In Definitions", tostring(Script))
-	
-	Category = "Upgrade_Starbase | HR_Build_Initial_Starbase_Only"
-	IgnoreTarget = true
-	TaskForce = {
+
+	Category = "Secure_Victory_Control_Point"
+	IgnoreTarget = false
+	MinContrastScale = 0.5
+	MaxContrastScale = 1.5
+	TaskForce = 
 	{
-		"BaseForce",
-		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Terrorists_Star_Base_1 | Terrorists_Star_Base_2 | Terrorists_Star_Base_3 | SWORDS_STARBASE_1 | SWORDS_STARBASE_2 = 0,1"
-		,"UNSC_Light_Shipyard = 0,1"
-		,"UNSC_Medium_Shipyard = 0,1"
-		,"UNSC_Heavy_Shipyard = 0,1"
-		,"UNSC_Infinity_Shipyard = 0,1"
-	}
+		{
+			"MainForce"
+			,"Infantry = 100%"
+		},
+		{
+			"EscortForce"		
+			,"Vehicle | LandHero = 100%"
+			,"EscortForce"
+		}
 	}
 
-	DebugMessage("%s -- Done Definitions", tostring(Script))
+	RequiredCategories = { "Infantry" }
 end
 
-function BaseForce_Thread()
-	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	BaseForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(BaseForce)
+	QuickReinforce(PlayerObject, AITarget, MainForce, EscortForce)
 	
-	BaseForce.Set_Plan_Result(true)
-	DebugMessage("%s -- BaseForce done!", tostring(Script));
+	-- move to contestables
+	BlockOnCommand(MainForce.Move_To(AITarget, MainForce.Get_Self_Threat_Max()))
+	
+	MainForce.Set_As_Goal_System_Removable(false)
+					
+	-- Stand guard so that we can retain usage of this structure
+	MainForce.Guard_Target(AITarget)
+	Sleep(30)
+
+	MainForce.Set_Plan_Result(true)
+
 	ScriptExit()
 end
 
-function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
-	ScriptExit()
+-- Override default handling, which will kill the plan
+function MainForce_Original_Target_Owner_Changed(tf, old_player, new_player)
+end
+
+
+function EscortForce_Thread()
+	BlockOnCommand(EscortForce.Produce_Force())
+	
+	QuickReinforce(PlayerObject, AITarget, EscortForce, MainForce)
+
+	-- Give an initial order to put the escorts in a state that the Escort function expects
+	Try_Ability(EscortForce, "FORCE_CLOAK")
+	EscortForce.Guard_Target(MainForce)
+
+	EscortAlive = true
+	while EscortAlive do
+		Escort(EscortForce, MainForce)
+	end
+end
+
+function EscortForce_No_Units_Remaining()
+	EscortAlive = false
+end
+
+-- Override default handling, which will kill the plan
+function EscortForce_Original_Target_Owner_Changed(tf, old_player, new_player)
 end

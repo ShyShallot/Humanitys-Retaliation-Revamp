@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/BuildAntiVehicleTurret.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,15 +25,15 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/BuildAntiVehicleTurret.lua $
 --
---    Original Author: James Yarrow
+--    Original Author: Steve_Copeland
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
@@ -41,40 +41,38 @@
 
 require("pgevents")
 
--- Tell the script pooling system to pre-cache this number of scripts.
-ScriptPoolCount = 16
+-- Build a single turret.
 
 function Definitions()
-	DebugMessage("%s -- In Definitions", tostring(Script))
 	
-	Category = "Upgrade_Starbase | HR_Build_Initial_Starbase_Only"
-	IgnoreTarget = true
+	Category = "Build_AntiVehicle_Turret"
 	TaskForce = {
 	{
-		"BaseForce",
-		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Terrorists_Star_Base_1 | Terrorists_Star_Base_2 | Terrorists_Star_Base_3 | SWORDS_STARBASE_1 | SWORDS_STARBASE_2 = 0,1"
-		,"UNSC_Light_Shipyard = 0,1"
-		,"UNSC_Medium_Shipyard = 0,1"
-		,"UNSC_Heavy_Shipyard = 0,1"
-		,"UNSC_Infinity_Shipyard = 0,1"
+		"MainForce"					
+		,"TaskForceRequired"
+		,"UC_Empire_Buildable_Anti_Vehicle_Turret | UC_Rebel_Buildable_Anti_Vehicle_Turret | UC_Pirate_Buildable_Anti_Vehicle_Turret | UC_Underworld_Buildable_Torpedo_Turret | UC_Hutt_Grenade_Mortar = 1"
 	}
 	}
 
-	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function BaseForce_Thread()
-	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
-	
-	BaseForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(BaseForce)
-	
-	BaseForce.Set_Plan_Result(true)
-	DebugMessage("%s -- BaseForce done!", tostring(Script));
+function MainForce_Thread()
+	--MessageBox("%s -- Building a turret.", tostring(Script))
+
+	-- Make sure we've ended up with a build location that's reasonably close to our original target
+	pad_table = MainForce.Get_Reserved_Build_Pads()
+	for i,pad in pad_table do
+		if pad.Get_Distance(AITarget) > 120 then
+			ScriptExit()
+		end
+	end
+
+	-- Build the task force
+	-- Blocking shouldn't be necessary, but we'll use it to ease watching the script
+	MainForce.Set_Plan_Result(true)
+	BlockOnCommand(MainForce.Build_All())
 	ScriptExit()
 end
 
-function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
-	ScriptExit()
-end
+
+

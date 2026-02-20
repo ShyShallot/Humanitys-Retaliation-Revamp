@@ -43,7 +43,7 @@ require("pgevents")
 require("HALOFunctions")
 
 -- Tell the script pooling system to pre-cache this number of scripts.
-ScriptPoolCount = 4
+ScriptPoolCount = 1
 
 function Definitions()
 	Category = "Build_Space_Forces"
@@ -56,28 +56,25 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"Fighter = 0,4"
-		,"Bomber = 0,4"
-		,"Corvette = 0,4"
-		,"Frigate = 0,4"
-		,"Capital = 0,4"
+		,"Fighter | Frigate | Corvette = 2,6"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Fighter | Bomber" }
+	RequiredCategories = {"Fighter | Frigate | Corvette"}
 	AllowFreeStoreUnits = false
 end
 
-function ReserveForce_Thread()	
-	ReserveForce.Set_As_Goal_System_Removable(false)
-
-	DebugMessage("Target: %s", tostring(Target))
-
-	if IgnoreTarget then
-		BlockOnCommand(ReserveForce.Produce_Force())
-	else 
-		BlockOnCommand(ReserveForce.Produce_Force(Target))
-	end
+function ReserveForce_Thread()
+	DebugMessage("%s -- In ReserveForce_Thread.", tostring(Script))
+	
+    ReserveForce.Set_As_Goal_System_Removable(false)
+	BlockOnCommand(ReserveForce.Produce_Force())
+	
 	ReserveForce.Set_Plan_Result(true)
+	DebugMessage("%s -- ReserveForce done!", tostring(Script));
+	ScriptExit()
+end
 
-
+function ReserveForce_Production_Failed(tf, failed_object_type)
+	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	ScriptExit()
 end

@@ -364,8 +364,34 @@
 	<!-- Does this planet have a starbase already? -->
 	<Needs_Initial_Starbase>
 		100.0 *
-		(Variable_Target.StarbaseLevel == 0.0) *
-        (Variable_Target.EnemyForce.HasSpaceForce == 0)
+		(
+			(Variable_Target.MaxStarbaseLevel != Variable_Target.StarbaseLevel)
+			+
+			(
+				Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+				+
+				Variable_Self.IsFaction {Parameter_Faction = "Terrorists"}
+			)
+			*
+			(
+				(1 - Variable_Target.StructureCount {Parameter_Type = "UNSC_Light_Shipyard",
+													Parameter_Only_Consider_Complete = 1.0}
+				)
+				+
+				(1 - Variable_Target.StructureCount {Parameter_Type = "UNSC_Medium_Shipyard",
+													Parameter_Only_Consider_Complete = 1.0}
+				)
+				+
+				(1 - Variable_Target.StructureCount {Parameter_Type = "UNSC_Heavy_Shipyard",
+													Parameter_Only_Consider_Complete = 1.0}
+				)
+				+
+				(1 - Variable_Target.StructureCount {Parameter_Type = "UNSC_Infinity_Shipyard",
+													Parameter_Only_Consider_Complete = 1.0}
+				)
+			)
+
+		)
 	</Needs_Initial_Starbase>
 	
 	<!-- Does this planet have a groundbase already?  This now builds a barracks.

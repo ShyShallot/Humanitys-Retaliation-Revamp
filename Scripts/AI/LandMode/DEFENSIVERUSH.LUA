@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/DefensiveRush.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,56 +25,73 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/UpgradeStarbasePlan.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/AI/LandMode/DefensiveRush.lua $
 --
 --    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+-- This plan is to send a limited amount of force to try to initially push the attacker off a planet.
+-- It should only be invoked if the defender can spare some units and still have a strong base defense.
+-- This is to provide a middle ground between the all out rush (when the AI decides that it has overwhelming
+-- force) and the total defensive posture (when AI doesn't clearly have overwhelming force).
+
 require("pgevents")
 
--- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 16
 
 function Definitions()
-	DebugMessage("%s -- In Definitions", tostring(Script))
 	
-	Category = "Upgrade_Starbase | HR_Build_Initial_Starbase_Only"
+	Category = "Defensive_Rush"
+	AllowEngagedUnits = true
 	IgnoreTarget = true
 	TaskForce = {
 	{
-		"BaseForce",
-		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Terrorists_Star_Base_1 | Terrorists_Star_Base_2 | Terrorists_Star_Base_3 | SWORDS_STARBASE_1 | SWORDS_STARBASE_2 = 0,1"
-		,"UNSC_Light_Shipyard = 0,1"
-		,"UNSC_Medium_Shipyard = 0,1"
-		,"UNSC_Heavy_Shipyard = 0,1"
-		,"UNSC_Infinity_Shipyard = 0,1"
+		"MainForce"					
+		,"DenyHeroAttach"
+		,"Infantry | Vehicle | Air = 5,12"
 	}
 	}
-
-	DebugMessage("%s -- Done Definitions", tostring(Script))
-end
-
-function BaseForce_Thread()
-	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
 	
-	BaseForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(BaseForce)
-	
-	BaseForce.Set_Plan_Result(true)
-	DebugMessage("%s -- BaseForce done!", tostring(Script));
-	ScriptExit()
+	guard_duration = 20
+
 end
 
-function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
-	ScriptExit()
-end
+function MainForce_Thread()
+
+	BlockOnCommand(MainForce.Produce_Force())
+
+	MainForce.Set_As_Goal_System_Removable(false)
+
+	Set_Land_AI_Targeting_Priorities(MainForce)
+	
+	-- Rush the LZ
+	lz_table = PruneFriendlyObjects(Find_All_Objects_Of_Type("IsRushTarget"))
+	if TestValid(lz_table[1]) then
+		--MessageBox("guarding the LZ")
+		BlockOnCommand(MainForce.Attack_Move(lz_table[1]))
+		BlockOnCommand(MainForce.Guard_Target(lz_table[1]), guard_duration)
+	end
+
+	-- Rush any attackers that we might be able to see
+	nearest_enemy = Find_Nearest(MainForce, PlayerObject, false)
+	while TestValid(nearest_enemy) do
+		BlockOnCommand(MainForce.Attack_Move(nearest_enemy))
+		nearest_enemy = Find_Nearest(MainForce, PlayerObject, false)
+	end
+
+	-- This plan should only be allowed to occur once
+	while true do
+		Sleep(200)
+	end
+end 
+

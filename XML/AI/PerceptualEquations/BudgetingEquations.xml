@@ -6,9 +6,7 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicEmpireOffensiveBudgetAllocation>
-		5.0 
-		*
-		(2.0 * Variable_Self.PlanetsControlled)
+		0.45
 	</BasicEmpireOffensiveBudgetAllocation>
 
 	<!-- Defensive budget
@@ -73,21 +71,12 @@
 		Infrastructure money should then be spent on upgrading the highest level starbase, lifting the dependency.
 		-->
 	<BasicEmpireInfrastructureBudgetAllocation>
-		3.5 
-		* 
-		(5 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
-		* 
-		(1.0 + Variable_Self.Maintenance)
-		*
-		<!-- If half or more of our planets have mining facilitys-->
-		(1.0 + 3.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "COVENANT_MINING_FACILITY"} / Variable_Self.PlanetsControlledUnnormalized)))
-		+
-		10 * ((Variable_Self.HasStructure {Parameter_Type = "COVENANT_MINING_FACILITY"} == 0))
+		0.45
 	</BasicEmpireInfrastructureBudgetAllocation>
 
 	<!-- Based on average age of scouted information -->
 	<BasicEmpireInformationBudgetAllocation>
-		0.5 * Function_Global_Scout_Need.Evaluate
+		.1
 	</BasicEmpireInformationBudgetAllocation>
 
 	<!-- Receive a trickle of funds so that eventually, a major purchase is likely
@@ -196,7 +185,7 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicRebelOffensiveBudgetAllocation>
-		0.45
+		45
 	</BasicRebelOffensiveBudgetAllocation>
 	
 	<!-- Defensive budget increases with proportion of planets that are undefended -->
@@ -212,12 +201,12 @@
 	
 
 	<BasicRebelInfrastructureBudgetAllocation>
-		0.45
+		45
 	</BasicRebelInfrastructureBudgetAllocation>
 	
 	<!-- Based on average age of scouted information -->
 	<BasicRebelInformationBudgetAllocation>
-		0.1
+		5
 	</BasicRebelInformationBudgetAllocation>	
 	
 	<GenericSpaceTargetedOffensiveBudgetAllocation>

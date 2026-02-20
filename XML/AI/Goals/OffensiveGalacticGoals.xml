@@ -127,15 +127,7 @@
 		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>
 	</Build_Ground_Forces>
 	
-	<Build_Space_Forces>
-		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
-		<GameMode> Galactic </GameMode>
-		<Category> Offensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 120.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>1.0</Build_Time_Delay_Tolerance>
-	</Build_Space_Forces>
-
+	
 	<!-- Because it's in the Hero category, the Death Star never receives any budget.
 	It must be built by other means than chance affordability.  Currently this is done via MajorItem purchasing.
 		<Tracking_Duration>900</Tracking_Duration>

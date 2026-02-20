@@ -283,35 +283,7 @@
 
 	-->
 	<Want_To_Retreat_From_Land>
-		(1 - Game.IsSetupPhase)
-		*
-		(Game.Age > 30)
-		*
-		(
-			(
-				(1.0 - Variable_Self.IsDefender) 
-				* 
-				(
-					Variable_Enemy.LandedForceUnnormalized{Parameter_Attenuator = 1.0} >= (2.0 * Variable_Self.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0} + Variable_Self.ReinforcementsUnnormalized)
-				)
-			)
-			+
-			(
-				Variable_Self.IsDefender 
-				* 
-				(Variable_Enemy.LandedForceUnnormalized{Parameter_Attenuator = 1.0} >= (2.5 * Variable_Self.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0})) 
-				*
-				(
-					((Variable_Self.BaseLevel == 0)
-					+
-					(1 > Variable_Self.BaseLevel) *
-					(Variable_Enemy.LandedForceUnnormalized >= (5.0 * Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Structure]})))
-					>
-					0
-				)
-			)
-			
-		)
+		0
 	</Want_To_Retreat_From_Land>
 
 	<!-- 
@@ -779,8 +751,6 @@
 	
 	-->
 	<Need_To_Secure_Contestable_Land>
-		(1 - Function_Should_Firesale_Land.Evaluate)
-		*
 		(
 			(Game.IsCampaignGame == 0)
 			*
@@ -814,25 +784,8 @@
 			*
 			(
 				Function_Is_Allowed_To_Build.Evaluate
-				*
-				Function_Need_For_Tactical_Funding.Evaluate
-				+
-				2 * Script_TargetHasProperty.Evaluate{Parameter_Script_String = "IsRushTarget"}
-				* (Variable_Self.ReinforcementsUnnormalized > 0)
 			)
 		)
-		*
-		Variable_Target.IsContestable
-		*
-		( 
-			5 * (Variable_Target.Location.EnemyForce == 0)
-			+
-			5 * clamp( (500 / (Variable_Target.DistanceToNearestFriendly + 1)), 0, 1)
-			+
-			5
-		)		
-		*
-		(1.0 - Function_May_Lose_Land_Control_Game.Evaluate)
 	</Need_To_Secure_Contestable_Land>
 
 	<Need_To_Secure_Contestable_Escorted_Land>

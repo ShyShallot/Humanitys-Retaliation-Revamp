@@ -109,9 +109,7 @@
 	 </Allow_Blind_Ground_Production>
 
 	 <Allow_Blind_Space_Production>
-		15.0
-		*
-		(Variable_Self.CreditsUnnormalized >= 7500)
+		50
 	 </Allow_Blind_Space_Production>
 
 	<!-- Determine if we'd like to invade this system.
@@ -219,7 +217,7 @@
 		8/16/05 - reduced the amount by which AI has to be winning 
 	-->
 	<Has_Enough_Space_Force_Globally>
-		(0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate) > Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate
+		0.0
 	</Has_Enough_Space_Force_Globally>
 
 
@@ -391,6 +389,12 @@
 		Function_Is_Connected_To_Me.Evaluate
 		*
 		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
+		*
+		(
+			Variable_Target.IsFaction {Parameter_Faction = "Swords"}
+			+
+			Variable_Target.IsFaction {Parameter_Faction = "Terrorists"}
+		)
 	</Should_Conquer_Pirate_Planet>
 
 	<!-- 

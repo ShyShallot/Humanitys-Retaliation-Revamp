@@ -2222,18 +2222,23 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
-		
+
+		<CategoryMask> Frigate </CategoryMask>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Autoresolve_Health>200</Autoresolve_Health>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>875</Build_Cost_Credits>
 		<Build_Time_Seconds>6</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Required_Timeline>0</Required_Timeline>
+		<Property_Flags> SmallShip </Property_Flags>
+
 		
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
