@@ -204,7 +204,7 @@ local unit_table = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
-    UNSC_STRIDENT = {
+    UNSC_SINGLE_STRIDENT = {
         Category = "Frigate",
         Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
@@ -214,16 +214,13 @@ local unit_table = {
 	UNSC_FLEET_CAPTAIN = {
         Category = "Frigate"
     },
-	UNSC_IAC = {
+	SINGLE_PARIS = {
         Category = "Frigate"
     },
-	UNSC_PARIS = {
+    UNSC_SINGLE_CHARON = {
         Category = "Frigate"
     },
-    UNSC_CHARON = {
-        Category = "Frigate"
-    },
-	UNSC_STALWART = {
+	UNSC_SINGLE_STALWART = {
         Category = "Frigate"
     },
 	BUCKLER_SQUADRON = {

@@ -960,13 +960,13 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Pedistal_Faction.alo</Land_Model_Name>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Space_Model_Name />
 		<Behavior> CAPTURE_POINT, REVEAL, REINFORCEMENT_POINT, DUMMY_TOOLTIP </Behavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<Reinforcement_Enabling_Radius>4250.0</Reinforcement_Enabling_Radius>
+		<Reinforcement_Enabling_Radius>250.0</Reinforcement_Enabling_Radius>
 		<Land_FOW_Reveal_Range>275.0</Land_FOW_Reveal_Range>
 		<Capture_Point_Radius>100.0</Capture_Point_Radius>
 		

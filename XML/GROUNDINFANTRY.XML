@@ -71,9 +71,9 @@
 
 		<Armor_Type> Armor_Scout_Bike </Armor_Type>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -134,7 +134,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 
@@ -238,8 +238,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -278,7 +278,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 
@@ -348,8 +348,8 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>EI_TROOPER.ALo</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SHIELDED</LandBehavior>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar> 
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
@@ -357,7 +357,7 @@
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
@@ -386,8 +386,8 @@
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>40</Shield_Points>
 		<Tactical_Health>40</Tactical_Health>
-		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
-		<Energy_Capacity>10</Energy_Capacity>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Energy_Capacity>30</Energy_Capacity>
 		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
 		<Stealth_Capable>Yes</Stealth_Capable>
 
@@ -398,21 +398,21 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Projectile_Types>Plasma_Rifle</Projectile_Types>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+			
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 		
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Plasma_Rifle</Projectile_Types>
+		
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
@@ -447,12 +447,14 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Surface_Type_Cover_Damage_Shield>.1</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -573,7 +575,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Projectile_Fire_Recharge_Seconds>10.5</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 4.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
@@ -610,16 +612,16 @@
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>20</AI_Combat_Power>
+		<AI_Combat_Power>3</AI_Combat_Power>
 
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -715,7 +717,7 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -733,7 +735,7 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
+		<FormationSpacing> .3 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<OverrideAcceleration> .07 </OverrideAcceleration>
 		<OverrideDeceleration> .07 </OverrideDeceleration>
@@ -752,7 +754,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5</Tactical_Health>
+		<Tactical_Health>6</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -760,7 +762,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>		
+		
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -768,10 +770,10 @@
 		
 		<Projectile_Types>MA5C</Projectile_Types>
 
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Projectile_Fire_Recharge_Seconds>0.05</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
@@ -816,12 +818,13 @@
 		<Death_Clone>Damage_Force_Whirlwind, Rebel_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Rebel_Trooper_Force_Lightning_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Rebel_Trooper_Crush_Death_Clone</Death_Clone>
-		<AI_Combat_Power>6</AI_Combat_Power>
+		<AI_Combat_Power>3</AI_Combat_Power>
 
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
-
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -843,14 +846,23 @@
 				AT_AT_Walker_Death_Clone_02
 		</Presence_Induced_Animations>		
 		
-		<!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+			
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data> -->
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
@@ -956,8 +968,8 @@
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1014,7 +1026,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1124,8 +1136,8 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 		<Projectile_Types> Proj_Infiltrator_Blaster </Projectile_Types>
@@ -1171,7 +1183,7 @@
 		<Create_Team>No</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 
@@ -1301,8 +1313,8 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1345,7 +1357,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1464,8 +1476,8 @@
 
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1507,7 +1519,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1607,7 +1619,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		
@@ -1746,7 +1758,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1792,7 +1804,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
 		
@@ -1862,20 +1874,20 @@
 	<GroundInfantry Name="Squad_Stormtrooper">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>Covenant-Elite</Text_ID>
-		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SHIELDED</LandBehavior>
+		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.7 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<FormationRaggedness> .2 </FormationRaggedness>
 		<MaxJiggleDistance> 2 </MaxJiggleDistance>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Squad_Rebel_Trooper">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>UNSC-Army-Trooper</Text_ID>
-		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Text_ID>UNSC-Marine</Text_ID>
+		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>		
 		<Max_Speed> 0.5 </Max_Speed>
 		<Space_Layer> None </Space_Layer>

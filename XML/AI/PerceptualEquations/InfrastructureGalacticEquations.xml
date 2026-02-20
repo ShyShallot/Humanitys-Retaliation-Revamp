@@ -30,7 +30,6 @@
 		7.0
 	</Needs_Groundbase_Upgrade>
 
-
 	<Does_Planet_Need_Units>
 		25.0 
 		*
@@ -123,9 +122,10 @@
 	This planet is level X-1
 	OR
 	...
-	-->
-	<Needs_Better_Buying_Capability_Space>
-		12 * ((0.33 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 2} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
+	
+	(Apple) This is for Better Buying Capability Space, I removed this to make the AI focus SOLELY on building ships for the time being
+	
+	12 * ((0.33 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 2} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
 		(Variable_Target.StarbaseLevelUnnormalized == 1.0)
 		+
 		10 * ((0.25 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 3} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
@@ -136,6 +136,11 @@
 		+
 		3 * ((0.06 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 5} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
 		(Variable_Target.StarbaseLevelUnnormalized == 4.0)
+	
+	
+	-->
+	<Needs_Better_Buying_Capability_Space>
+		0
 	</Needs_Better_Buying_Capability_Space>
 
 	<Is_HWD_Researched>
@@ -146,17 +151,7 @@
 	offensive space unit.
 	-->
 	<Can_Build_Offensive_Space>
-		(Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
-		+
-		(Variable_Self.IsFaction {Parameter_Faction = "Empire"}) 
-		*
-		(
-			(Variable_Self.HasStarbaseOfLevel {Parameter_Level = 3, Parameter_Count = 1}
-			+
-			Variable_Self.HasStarbaseOfLevel {Parameter_Level = 2, Parameter_Count = 1} *
-			(Variable_Self.TechLevel >= 2))
-			>= 1
-		)
+		1
 	</Can_Build_Offensive_Space>
 
 	<!-- SCALE DOWN as we improve to the desired ratio of structures per planet
@@ -432,7 +427,6 @@
 		50.0
 	</Needs_Cantina>
 
-
 	<!-- Desire to build a mine.
 		desirability is like arenas
 		PLUS
@@ -442,6 +436,7 @@
 		AND
 		Must have basic build facilities first
 		-->
+		
 	<Needs_Mining_Facility>
 		(
 			(
@@ -449,13 +444,13 @@
 				*
 				(1.0 + Variable_Target.IncomeUnnormalized * Variable_Target.IncomeUnnormalized / 250000.0)
 				+
-				10 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", Parameter_Type = "Rebel_Ground_Mining_Facility", Parameter_Only_Consider_Complete = 1.0} / Variable_Self.PlanetsControlledUnnormalized))
+				10 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", Parameter_Type = "UNSC_TITANIUM_MINE", Parameter_Only_Consider_Complete = 1.0} / Variable_Self.PlanetsControlledUnnormalized))
 			)
 			*
 			clamp(Function_Defense_Level.Evaluate - 1, 0.0, 2.0)
 			*
 			((Variable_Target.MaxStructureSlotsUnnormalized / 2.0) > Variable_Target.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility",
-																										Parameter_Type = "Rebel_Ground_Mining_Facility",
+																										Parameter_Type = "UNSC_TITANIUM_MINE",
 																										Parameter_Only_Consider_Complete = 1.0})
 			*
 			Variable_Self.HasStructure {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
@@ -471,7 +466,7 @@
 			50.0
 			*
 			(Variable_Self.HasStructure {Parameter_Type = "Empire_Ground_Mining_Facility",
-											Parameter_Type = "Rebel_Ground_Mining_Facility",
+											Parameter_Type = "UNSC_TITANIUM_MINE",
 											Parameter_Only_Consider_Complete = 1.0} == 0.0)
 		)
 		*
@@ -487,6 +482,7 @@
 		AND
 		Have we already addressed production bottleneck issues
 		-->
+		
 	<Needs_Scanner>
 		Variable_Target.OpenStructureSlots 
 		*
@@ -510,6 +506,7 @@
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		-->
+		
 	<Needs_Hutt_Palace>
 		Function_Has_Enough_Bases_For_Tech.Evaluate
 		*
@@ -517,7 +514,6 @@
 		*
 		50.0
 	</Needs_Hutt_Palace>
-
 
 	<!--
 		are we Rebels?
@@ -534,6 +530,7 @@
 		AND
 		Big Bonus if we have no structure of this type yet
 		-->
+		
 	<Needs_Ground_Infiltrator_Facility>
 		(
 			5.0 

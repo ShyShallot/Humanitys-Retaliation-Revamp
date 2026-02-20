@@ -13,7 +13,7 @@ Starting_Units_Handler = {
                             Ground = 300
                         },
                         Structures = {"UNSC_CAMP"},
-                        Space_Units = {"BUCKLER_SQUADRON"},
+                        Space_Units = {"BUCKLER_SQUADRON", "UNSC_SINGLE_CHARON"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
@@ -22,7 +22,7 @@ Starting_Units_Handler = {
                             Ground = 600
                         },
                         Structures = {"UNSC_BASE"},
-                        Space_Units = {"BUCKLER_SQUADRON","UNSC_PHOENIX"},
+                        Space_Units = {"BUCKLER_SQUADRON", "UNSC_SINGLE_CHARON", "UNSC_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad"},
                     },
                     Medium = {
@@ -31,7 +31,7 @@ Starting_Units_Handler = {
                             Ground = 1200,
                         },
                         Structures = {"UNSC_FORT"},
-                        Space_Units = {"UNSC_PHOENIX", "UNSC_EPOCH"},
+                        Space_Units = {"UNSC_SINGLE_CHARON", "UNSC_PHOENIX", "UNSC_EPOCH"},
                         Ground_Units = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company"}
                     },
                     High = {
@@ -162,7 +162,7 @@ Starting_Units_Handler = {
                             Ground = 600,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_CHARON", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Low = {
@@ -171,7 +171,7 @@ Starting_Units_Handler = {
                             Ground = 900,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_CHARON", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     },
                     Medium = {
@@ -180,7 +180,7 @@ Starting_Units_Handler = {
                             Ground = 1200,
                         },
                         Structures = {},
-                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_PHOENIX"},
+                        Space_Units = {"TERROR_BUCKLER_SQUAD", "TERROR_CHARON", "TERROR_PHOENIX"},
                         Ground_Units = {"Rebel_Infantry_Squad"},
                     }
                 },

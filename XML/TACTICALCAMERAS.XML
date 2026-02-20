@@ -34,24 +34,24 @@
 		<Yaw_Max>1000</Yaw_Max>
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 
-		<Fov_Default>90.0</Fov_Default>
+		<Fov_Default>70.0</Fov_Default>
 		<Fov_Max>105.0</Fov_Max>
 		<Fov_Min>25.0</Fov_Min>
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
 		<Fov_Per_Mouse_Unit>2.0</Fov_Per_Mouse_Unit>
 
-		<Distance_Default>750.0</Distance_Default>
-		<Distance_Max>3000.0</Distance_Max>
+		<Distance_Default>350.0</Distance_Default>
+		<Distance_Max>750.0</Distance_Max>
 		<Distance_Min>50.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>50.0</Distance_Per_Mouse_Unit>
 
-        <Tactical_Overview_Distance>4000.0</Tactical_Overview_Distance>
+        <Tactical_Overview_Distance>500.0</Tactical_Overview_Distance>
         <Tactical_Overview_FOV>60.0</Tactical_Overview_FOV>
         <Tactical_Overview_Clicks>10</Tactical_Overview_Clicks>
         <Tactical_Overview_Click_Time>1.8</Tactical_Overview_Click_Time>    
 
-        <Tactical_Overview_Distance2>5000.0</Tactical_Overview_Distance2>
+        <Tactical_Overview_Distance2>750.0</Tactical_Overview_Distance2>
         <Tactical_Overview_Pitch2>80.0</Tactical_Overview_Pitch2>
         <Tactical_Overview_FOV2>70.0</Tactical_Overview_FOV2>
 
@@ -65,9 +65,9 @@
         <Object_Fade_Begin>1000000.0f</Object_Fade_Begin>
         <Object_Fade_End>1200000.0f</Object_Fade_End>
         
-        <Side_Bounds_Buffer>-900000.0f</Side_Bounds_Buffer>
-        <Top_Bounds_Buffer>-900000.0f</Top_Bounds_Buffer>
-        <Bottom_Bounds_Buffer>-900000.0f</Bottom_Bounds_Buffer>
+        <Side_Bounds_Buffer>-750.0f</Side_Bounds_Buffer>
+        <Top_Bounds_Buffer>-750.0f</Top_Bounds_Buffer>
+        <Bottom_Bounds_Buffer>0.0f</Bottom_Bounds_Buffer>
 
 	</TacticalCamera>
 
@@ -93,8 +93,8 @@
 		<Fov_Per_Mouse_Unit>2.0</Fov_Per_Mouse_Unit>
 
 		<Distance_Default>750.0</Distance_Default>
-		<Distance_Max>3000.0</Distance_Max>
-		<Distance_Min>50.0</Distance_Min>
+		<Distance_Max>1500.0</Distance_Max>
+		<Distance_Min>10.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>500.0</Distance_Per_Mouse_Unit>
 

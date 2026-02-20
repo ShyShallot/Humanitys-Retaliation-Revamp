@@ -28,6 +28,7 @@
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Land_Tactical_Map>LAND_PLANET_TEST.ted</Land_Tactical_Map>
+		<!-- LAND_PLANET_TEST.ted, _LAND_PLANET_GEONOSIS_02.TED -->
 		<Space_Tactical_Map>GC_Reach.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
@@ -267,7 +268,7 @@
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<Land_Tactical_Map>LAND_PLANET_TEST.ted</Land_Tactical_Map>
+		<!-- <Land_Tactical_Map>LAND_PLANET_TEST.ted</Land_Tactical_Map> -->
 		<Space_Tactical_Map>GC_Aleria.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
@@ -907,7 +908,7 @@
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories>Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
 				<Stacking_Category>1</Stacking_Category>
 				<Galaxy_Wide>No</Galaxy_Wide>
 			</Reduce_Production_Price_Ability>
@@ -916,7 +917,7 @@
 				<Applicable_Unit_Categories>Fighter, Bomber, Frigate, Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
 				<Excluded_Unit_Types/>
-				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
 				<Stacking_Category>1</Stacking_Category>
 				<Galaxy_Wide>No</Galaxy_Wide>
 			</Reduce_Production_Time_Ability>

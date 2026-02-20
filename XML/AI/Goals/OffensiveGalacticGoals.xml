@@ -118,12 +118,13 @@
 	<!-- It's a safe bet because the units we produce will go -->
 	<!-- into the free-store for future offensive goals, so we're -->
 	<!-- not throwing money away on things we might not need -->
+	<!-- (Apple) I reduced these from 200 and 120 to 20 respectively to attempt to get the AI TO DO LITERALLY ANYTHING ITS SUPPOSED TO DO) -->
 	<Build_Ground_Forces>
 		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Offensive </Category>
 		<Reachability> Any </Reachability>
-		<Time_Limit> 200.0 </Time_Limit>		
+		<Time_Limit> 20.0 </Time_Limit>		
 		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>
 	</Build_Ground_Forces>
 	

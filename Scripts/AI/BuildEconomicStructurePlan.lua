@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"UNSC_Mining_Facility | Covenant_Mining_Facility = 1"
+		"UNSC_Mining_Facility | UNSC_DEEP_CORE_MINE | UNSC_TITANIUM_MINE | UNSC_RESORT | UNSC_Trade_Platform | Terror_Mining_Facility |COVN_TITANIUM_MINE | Covenant_Mining_Facility |  = 1"
 	}
 	}
 

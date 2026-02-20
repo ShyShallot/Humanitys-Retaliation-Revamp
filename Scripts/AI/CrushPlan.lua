@@ -75,12 +75,12 @@ function Definitions()
 	LandSecured = false	
 end
 
-function MainForce_Thread()
+--function MainForce_Thread()
 	
-	--Let's not even do this on easy: the AI force can just be too overwhelming
-	if difficulty == "Easy" or difficulty == "Normal" then
-		ScriptExit()
-	end
+	--Let's not even do this on easy: the AI force can just be too overwhelming (Apple - I activated the crush plan as an experimental change)
+	--if difficulty == "Easy" or difficulty == "Normal" then
+		--ScriptExit()
+	--end
 	
 	-- Since we're using plan failure to adjust contrast, we're 
 	-- only concerned with failures in battle. Default the 

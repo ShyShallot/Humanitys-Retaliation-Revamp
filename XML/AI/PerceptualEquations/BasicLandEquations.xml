@@ -166,10 +166,9 @@
 			+
 			(20 * Variable_Target.Type.IsType { Parameter_Type = "Empire_Mineral_Processor"
 												,Parameter_Type = "Rebel_Mineral_Processor"
-												,Parameter_Type = "Underworld_Mineral_Processor"
-												,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-												,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-												,Parameter_Type = "Skirmish_Ground_Mining_Facility_U" })
+												,Parameter_Type = "Empire_Ground_Mining_Facility"
+												,Parameter_Type = "UNSC_TITANIUM_MINE"
+												,Parameter_Type = "UC_Rebel_Ground_Mining_Facility" })
 			+
 			(15.0 * (1 - Variable_Target.Location.EnemyForce))
 		)
@@ -795,10 +794,9 @@
 	<Number_Resource_Structures_Land>
 		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Empire_Mineral_Processor"
 													,Parameter_Type = "Rebel_Mineral_Processor"
-													,Parameter_Type = "Underworld_Mineral_Processor"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_E"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_R"
-													,Parameter_Type = "Skirmish_Ground_Mining_Facility_U" }
+													,Parameter_Type = "Empire_Ground_Mining_Facility"
+													,Parameter_Type = "UNSC_TITANIUM_MINE"
+													,Parameter_Type = "UC_Rebel_Ground_Mining_Facility" }
 	</Number_Resource_Structures_Land>
 
 	<!-- Boolean.  Global desire to sell off a tactical structure to make room on a build pad for something else.
@@ -1049,9 +1047,9 @@
 				+
 				(Game.IsCampaignGame == 0)
 				*
-				(Game.Age > 400)
+				(Game.Age > 1)
 				*
-				(1 - Function_Is_Saving_For_Refineries_Land.Evaluate)
+				1
 			)
 		)
 		+

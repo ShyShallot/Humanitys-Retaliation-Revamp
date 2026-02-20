@@ -58,14 +58,14 @@ function Definitions()
 	-- First Task Force
 	{
 		"SpaceForce"				
-		,"Frigate | Capital | Corvette | Bomber = 100%"
+		,"Frigate | Capital | Corvette |  = 100%"
 	},
 	{
 		"GroundForce"
 		,"Vehicle | Infantry = 100%"
 	}
 	}
-	RequiredCategories = {"Frigate | Capital | Bomber", "Infantry | Vehicle"}
+	RequiredCategories = {"Frigate | Capital", "Infantry | Vehicle"}
 
 	PerFailureContrastAdjust = 0.15
 	
@@ -75,9 +75,9 @@ function Definitions()
 	difficulty = PlayerObject.Get_Difficulty()
 
 	sleeps = {
-		["Easy"] = 240,
-		["Normal"] = 180,
-		["Hard"] = 120
+		["Easy"] = 120,
+		["Normal"] = 90,
+		["Hard"] = 60
 	}
 
 	sleep_duration = sleeps[difficulty]

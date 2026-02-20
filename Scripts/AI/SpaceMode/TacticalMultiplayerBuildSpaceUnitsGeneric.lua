@@ -48,7 +48,7 @@ function Definitions()
 	IgnoreTarget = true
 	TaskForce = {
 		{
-		"ReserveForce" -- DO NOT INCLUDE SPACE STAITON UPGRADES IN THIS PLAN IT CAUSES THE AI TO FREAK OUT AND NOT BUILD SHIT
+		"ReserveForce" -- DO NOT INCLUDE SPACE STATION UPGRADES IN THIS PLAN IT CAUSES THE AI TO FREAK OUT AND NOT BUILD SHIT
 		--,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
 		--,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
 		,"Fighter = 0,2"

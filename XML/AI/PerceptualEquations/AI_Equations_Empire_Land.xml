@@ -9,7 +9,7 @@
 		Variable_Target.FriendlyForce {Parameter_Category = GameObjectCategoryType[Vehicle]})		
 		+
 		(100.0 > Variable_Target.DistanceToNearestFriendly {Parameter_Type = "Empire_Mineral_Processor",
-															Parameter_Type = "Skirmish_Ground_Mining_Facility_E"}))
+															Parameter_Type = "Empire_Ground_Mining_Facility"}))
 	</Should_Build_EM_Field_Generator>
 
 	<Should_Build_Grenade_Mortar>

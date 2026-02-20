@@ -86,7 +86,7 @@
 				UC_Empire_Buildable_Repair_Facility, 
 				UC_Empire_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
+		<Text_ID> Neutral-Build-Pad </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
 		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
@@ -1375,7 +1375,7 @@
 	<GroundBuildable Name="UC_Rebel_Ground_Mining_Facility">
 		<Text_ID> TEXT_NEUTRAL_MINING_BUILD_PAD </Text_ID>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
-		<Tactical_Buildable_Constructed> Rebel_Ground_Mining_Facility </Tactical_Buildable_Constructed>
+		<Tactical_Buildable_Constructed> UNSC_TITANIUM_MINE </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>

@@ -327,11 +327,12 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 			(lib_current_health < 0.7 and lib_attacker_is_good_vs_me) or
 			(lib_current_health < 0.4 and not lib_i_am_good_vs_attacker) then
 
-			--Certain factions have no self-preservation
-			lib_faction_name = unit.Get_Owner().Get_Faction_Name()
-			if lib_faction_name == "PIRATES" or lib_faction_name == "HUTTS" then
-				return
+			--Certain factions have no self-preservation (Apple - I added all factions here to experiment with making combat more aggressive)
+			if  lib_faction_name == "PIRATES" or lib_faction_name == "SWORDS" or lib_faction_name == "REBELS" or lib_faction_name == "EMPIRE" or lib_faction_name == "TERRORISTS"
+			then
+					return
 			end
+
 
 			-- Turn off any abilities that would hinder self-preservation
 			unit.Activate_Ability("Power_To_Weapons", false)
