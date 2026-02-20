@@ -437,14 +437,23 @@
         <Select_Box_Scale>65</Select_Box_Scale>
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-        <!-- Non-Hero unit abilities description -->
+        <!--  
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+			
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data> -->
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
