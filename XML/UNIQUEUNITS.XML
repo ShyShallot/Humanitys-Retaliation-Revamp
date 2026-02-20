@@ -2157,6 +2157,7 @@
 
 
 	<GroundVehicle Name="Pod_Walker">
+	
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_UNIT_POD_WALKER</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper Scout_Trooper </Encyclopedia_Good_Against>
@@ -2166,7 +2167,7 @@
 		<Land_Model_Name>EV_PODWALKER.ALO</Land_Model_Name>
 		
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE, SQUASH, HUNT, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>WALK_LOCOMOTOR, TARGETING, IDLE, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, SQUASH, HUNT, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<Autoresolve_Health>200</Autoresolve_Health>
@@ -2176,7 +2177,7 @@
 		<Walk_Transition>Yes</Walk_Transition>
 		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 1.5 </Rotation_Animation_Speed>
-		<Max_Speed>1.1</Max_Speed>
+		<Max_Speed>0.5</Max_Speed>
 		<Max_Rate_Of_Turn>4</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>3.75</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
@@ -2212,7 +2213,7 @@
 
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>500</Tactical_Health>
+		<Tactical_Health>1500</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -2220,9 +2221,9 @@
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		
 		<Projectile_Types>Tank_Boom</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 
 		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>

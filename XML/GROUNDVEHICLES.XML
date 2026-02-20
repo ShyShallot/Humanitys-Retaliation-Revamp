@@ -1895,7 +1895,7 @@
 		<Size_Value>75</Size_Value>
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>500</Tactical_Health>
+		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1923,12 +1923,12 @@
 		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
-		<Projectile_Types>Proj_Ground_Laser_Cannon_Red_T4B</Projectile_Types>
+		<Projectile_Types>Tank_Boom</Projectile_Types>
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
