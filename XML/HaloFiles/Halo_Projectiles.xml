@@ -59,14 +59,14 @@
 				<!--<Activation_Style> Space_Automatic </Activation_Style> -->
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Defense_Duration_In_Secs>1.0</Defense_Duration_In_Secs>
+				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>15.0</Protection_Radius>
+				<Protection_Radius>20.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
-				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Projectile_Dist_Travelled>50</Projectile_Dist_Travelled>
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
 				<Recharge_Time_In_Secs>0.1</Recharge_Time_In_Secs>
@@ -133,18 +133,18 @@
 				<!--<Activation_Style> Space_Automatic </Activation_Style> -->
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Defense_Duration_In_Secs>1.0</Defense_Duration_In_Secs>
+				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>5.0</Protection_Radius>
+				<Protection_Radius>20.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
-				<Laser_Beam_Width>4</Laser_Beam_Width>
-				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Laser_Beam_Width>1</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>50</Projectile_Dist_Travelled>
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
-				<Recharge_Time_In_Secs>0.5</Recharge_Time_In_Secs>
-				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+				<Recharge_Time_In_Secs>0.1</Recharge_Time_In_Secs>
+				<Zap_SFXEvent></Zap_SFXEvent>
 			</Laser_Defense_Ability>
 			
 		</Abilities>
