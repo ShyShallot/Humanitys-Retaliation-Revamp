@@ -587,7 +587,7 @@
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Speed>9.0</Max_Speed>
-		<Projectile_Damage>200.0</Projectile_Damage>
+		<Projectile_Damage>400.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>35.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
@@ -602,10 +602,10 @@
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
 		
 	</Projectile>
 	
@@ -615,7 +615,7 @@
 		
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Speed>9.0</Max_Speed>
-		<Projectile_Damage>145.0</Projectile_Damage>
+		<Projectile_Damage>300.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<CategoryMask>Transport</CategoryMask>
@@ -632,10 +632,10 @@
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
 		
 		
 	</Projectile>
@@ -990,7 +990,7 @@
 	<Projectile Name="Proj_UNSC_MK33_SPITFIRE"> <!-- Large Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Cap.alo</Space_Model_Name>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>40.0</Max_Speed>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1014,7 +1014,7 @@
 	<Projectile Name="Proj_UNSC_MK40_SPITFIRE"> <!-- Largest Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
@@ -1040,7 +1040,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
@@ -1066,7 +1066,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>

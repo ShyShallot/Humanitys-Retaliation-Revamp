@@ -65,8 +65,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -89,8 +89,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -409,7 +409,7 @@
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -434,7 +434,7 @@
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>70</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -459,7 +459,7 @@
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>70</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -483,7 +483,7 @@
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -1644,8 +1644,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -1668,8 +1668,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -1692,8 +1692,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -1716,8 +1716,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -1981,8 +1981,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -2630,8 +2630,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -2652,8 +2652,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -2672,8 +2672,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -2887,8 +2887,8 @@
         <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>5.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
@@ -2911,8 +2911,8 @@
         <Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>45</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>45.24</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>5.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
