@@ -58,7 +58,7 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Fighter | Bomber = 4,10"
 		,"Corvette | Frigate = 2,8"
-		,"Capital = 0,3"
+		,"Capital = 1,3"
 	}
 	}
 	RequiredCategories = {"Fighter | Frigate | Corvette"}
