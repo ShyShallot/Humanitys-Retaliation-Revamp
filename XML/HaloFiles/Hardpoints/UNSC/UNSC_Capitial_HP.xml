@@ -2631,7 +2631,8 @@
 		<Fire_Bone_B>HP_HALC_POINT_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2655,7 +2656,8 @@
 		<Fire_Bone_B>HP_HALC_POINT_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2679,7 +2681,8 @@
 		<Fire_Bone_B>HP_HALC_POINT_03</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2703,7 +2706,8 @@
 		<Fire_Bone_B>HP_HALC_POINT_04</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -6733,18 +6737,20 @@ It is older and less effective then the M870 this block represents the left hand
 	</HardPoint>
 	
 	<HardPoint Name="HP_EPOCH_REACTOR">
+	
 		<Type>HARD_POINT_GRAVITY_WELL</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Model_To_Attach/>
 		<Attachment_Bone>ROOT</Attachment_Bone>
 		<Collision_Mesh>ROOT</Collision_Mesh>
-		<Health>105000.0</Health>
+		<Health>155000.0</Health>
 		<Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text><Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
 	</HardPoint>
 
 	<HardPoint Name="HP_ROMAN_BLUE_REACTOR">
+	
 		<Type>HARD_POINT_GRAVITY_WELL</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>

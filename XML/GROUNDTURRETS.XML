@@ -268,7 +268,7 @@
 
 		<Affiliation>Empire, Swords</Affiliation>
 
-		<Projectile_Types>Proj_HRB_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
@@ -310,7 +310,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<Projectile_Fire_Recharge_Seconds>15.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>300</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Count>50</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		
 

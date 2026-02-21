@@ -78,7 +78,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI,  DAMAGE_TRACKING, POWERED, STUNNABLE,  NEBULA, </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI,  DAMAGE_TRACKING, POWERED, STUNNABLE,  NEBULA, </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -88,7 +88,7 @@
 		<Death_Clone>Damage_Normal, </Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
-		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<MovementClass> Space </MovementClass> <Space_Layer> Frigate </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 	
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
