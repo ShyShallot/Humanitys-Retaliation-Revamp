@@ -121,16 +121,7 @@ local unit_table = {
     DELETE_COVN_MINING_FACILITY = {
         Category = "Structure"
     },
-    UNSC_FARM = {
-        Category = "Structure",
-    },
     DELETE_UNSC_FARM = {
-        Category = "Structure"
-    },
-    UNSC_RESEARCH_FACILITY = {
-        Category = "Structure"
-    },
-    COVN_GROUND_RESEARCH_FACILITY = {
         Category = "Structure"
     },
     UNSC_MAC_PLATFORM = {
