@@ -24,17 +24,29 @@ function Definitions()
         Morale_Update = Morale_System_Update,
     }
 
-    morale_event_table = {
-        ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 2, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
-        ["Morale_Lost_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK_NAME", Value = 7, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
-        ["Morale_Won_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_NAME", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
-        ["Morale_Won_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK_NAME", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
-        ["Morale_Construction_Event_Minor"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR_NAME", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
-        ["Morale_Construction_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_NAME", Value = 2, Subtract = false,String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION"},
-        ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
-        ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
-        ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
+    Morale_Event_Table = {
+        Events = {
+            ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 2, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
+            ["Morale_Lost_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK_NAME", Value = 7, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_STREAK"},
+            ["Morale_Won_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_NAME", Value = 1, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN"},
+            ["Morale_Won_Battle_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK_NAME", Value = 3, Subtract = false, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_WIN_STREAK"},
+            ["Morale_Construction_Event_Minor"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR_NAME", Value = 1, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MINOR"},
+            ["Morale_Construction_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_NAME", Value = 2, Subtract = false,String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION"},
+            ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
+            ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
+            ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
+        },
+        
+        Recent = nil
     }
+
+    function Morale_Event_Table:Set_Recent_Event(Event)
+        if type(Event) ~= "table" or type(Event.Value) ~= "number" then
+            self.Recent = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_UNKNOWN", Value = 0, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_UNKNOWN"}
+        else
+            self.Recent = Event
+        end
+    end
 
     Morale_Event_Table_Cache = {
         Positive = {},
@@ -70,73 +82,116 @@ function Definitions()
                 Morale_Gain_Multiplier = 0.75,
                 Random_Morale_Negative_Chance = {50,60},
                 Random_Morale_Gain_Loss = {1,5},
-                Yearly_PLanetary_Morale_Loss = -15, -- when player is in low morale, how much morale does a planet lose every year out of 100, so 100/10 = 10 years to planet loss
+                Yearly_Planetary_Morale_Loss = -15, -- when player is in low morale, how much morale does a planet lose every year out of 100, so 100/10 = 10 years to planet loss
+                Battle_Win_Streak_Requirement = 8,
 
             },
             ["Hard"] = {
                 Morale_Gain_Multiplier = 0.5,
                 Random_Morale_Negative_Chance = {60,80},
                 Random_Morale_Gain_Loss = {3,6},
-                Yearly_PLanetary_Morale_Loss = -20
-            },
+                Yearly_Planetary_Morale_Loss = -20,
+                Battle_Win_Streak_Requirement = 12,
+            }
+        },
+        Default = {
             ["Default"] = {
                 Morale_Gain_Multiplier = 1,
                 Random_Morale_Negative_Chance = {40,60},
                 Random_Morale_Gain_Loss = {0,3},
-                Yearly_PLanetary_Morale_Loss = -10,
+                Yearly_Planetary_Morale_Loss = -10,
+                Battle_Win_Streak_Requirement = 6,
             }
         }
     }
 
-    planets_with_no_morale = {}
+    function Modifiers:Get_Modifiers(Faction)
+        if Faction == nil or Faction.Get_Faction_Name == nil then
+            return self.Default["Default"]
+        end
 
-    global_morale_level = 100
+        local Faction_Name = string.upper(Faction.Get_Faction_Name())
 
-    global_last_morale_level = 100
+        if self[Faction_Name] == nil then
+            return self.Default["Default"]
+        end
 
-    win_streak = 0
+        if Difficulty == nil then
+            return self.Default["Default"]
+        end
 
-    loss_streak = 0
+        if self[Faction_Name][Difficulty] == nil then
+            return self.Default["Default"]
+        end
 
-    player = nil
+        return self[Faction_Name][Difficulty]
+    end
 
-    ---@type StoryPlot
-    plot = nil
+    Global_Values = {
+        Player = nil,
+        Enemy = nil,
+        Difficulty = nil,
+        Plot = nil,
+        Display_Event = nil,
+        Can_Lose_Only_Planet = false,
 
-    ---@type StoryEvent
-    display_event = nil
+    }
 
-    morale_string = {}
+    Morale_Value_Status = {
+        Current = 100,
+        Last = 100,
+        Targeted_Planet = nil,
+        Next_Random_Morale_Swing = 3
+    }
+
+    Battle_Info = {
+        Win_Streak = 0,
+        Loss_Streak = 0
+    }
+
+    function Battle_Info:Increase_Win_Streak() 
+        self.Win_Streak = self.Win_Streak + 1
+
+        if type(self.Win_Streak) ~= "number" then
+            self.Win_Streak = 0
+        end
+
+        self.Loss_Streak = 0
+    end
+
+    function Battle_Info:Increase_Loss_Streak()
+        self.Loss_Streak = self.Loss_Streak + 1
+
+        if type(self.Loss_Streak) ~= "number" then
+            self.Loss_Streak = 0
+        end
+
+        self.Win_Streak = 0
+    end
+
+    morale_string = {
+        Target_Planet = "TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_INFO",
+        Recent_Event = {
+            Bad = "TEXT_STORY_MORALE_DISPLAY_RECENT_EVENT_BAD",
+            Good = "TEXT_STORY_MORALE_DISPLAY_RECENT_EVENT_GOOD"
+        },
+        Win_Streak = "TEXT_STORY_MORALE_DISPLAY_WIN_STREAK",
+        Loss_Streak = "TEXT_STORY_MORALE_DISPLAY_LOSS_STREAK"
+    }
 
     Planetary_Pathing_Table = nil
 
     Planet_Morale_Table = nil
-
-    selected_planet = nil
-
-    targeted_planet = nil
-
-    recent_event = nil
-
-    next_random_swing = 3
-
-    Difficulty = ""
-
-    enemy = nil
-
-    invalid_planet_names = {}
-
-    Can_Lose_Only_Planet = false
 
 end
 
 function Init_Morale_System(message)
     if message == OnEnter then
 
-        player = Find_Human_Player()
+        Global_Values.Player = Find_Human_Player()
 
         for hero, status in pairs(hero_status_table) do
-            if EvaluatePerception(status.Equation, player) == 1 then
+            if EvaluatePerception(status.Equation, Global_Values.Player) == 1 then
                 hero_status_table[hero].Current_Status = true
                 
                 local hero_object = Find_First_Object(hero)
@@ -149,12 +204,12 @@ function Init_Morale_System(message)
             end
         end
 
-        plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Morale_System.xml")
+        Global_Values.Plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Morale_System.xml")
 
-        if StringCompare(player.Get_Faction_Name(), "Rebel") or StringCompare(player.Get_Faction_Name(), "Terrorists") then
+        if StringCompare(Global_Values.Player.Get_Faction_Name(), "Rebel") or StringCompare(Global_Values.Player.Get_Faction_Name(), "Terrorists") then
             Story_Event("Morale_Display_UNSC")
 
-            display_event = plot.Get_Event("Morale_Display_UNSC")
+            Global_Values.Display_Event = Global_Values.Plot.Get_Event("Morale_Display_UNSC")
 
             morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES"
         else
@@ -162,47 +217,35 @@ function Init_Morale_System(message)
 
             morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_COVN_VALUES"
 
-            display_event = plot.Get_Event("Morale_Display_COVN")
+            Global_Values.Display_Event = Global_Values.Plot.Get_Event("Morale_Display_COVN")
         end
-
-        morale_string.Target_Planet = "TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_INFO"
-
-        morale_string.Recent_Event = {}
-
-        morale_string.Recent_Event.Bad = "TEXT_STORY_MORALE_DISPLAY_RECENT_EVENT_BAD"
-
-        morale_string.Recent_Event.Good = "TEXT_STORY_MORALE_DISPLAY_RECENT_EVENT_GOOD"
-
-        morale_string.Win_Streak = "TEXT_STORY_MORALE_DISPLAY_WIN_STREAK"
-
-        morale_string.Loss_Streak = "TEXT_STORY_MORALE_DISPLAY_LOSS_STREAK"
 
         GlobalValue.Set("Morale_Active", 1)
 
-        if StringCompare(player.Get_Faction_Name(), "Empire") then
-            enemy = Find_Player("Rebel")
+        if StringCompare(Global_Values.Player.Get_Faction_Name(), "Empire") then
+            Global_Values.Enemy = Find_Player("Rebel")
         else
-            enemy = Find_Player("Empire")
+            Global_Values.Enemy = Find_Player("Empire")
         end
 
         --DebugMessage("%s -- Enemy Player: %s", tostring(Script), tostring(enemy))
 
-        if TestValid(enemy) then
-            Difficulty = enemy.Get_Difficulty()
+        if TestValid(Global_Values.Enemy) then
+            Global_Values.Difficulty = Global_Values.Enemy.Get_Difficulty()
         end
 
         --DebugMessage("%s -- Current Difficulty: %s", tostring(Script), tostring(Difficulty))
 
-        if StringCompare(Difficulty, "Normal") then
-            global_morale_level = 50
+        if StringCompare(Global_Values.Difficulty, "Normal") then
+            Morale_Value_Status.Current = 50
 
-            global_last_morale_level = 50
+            Morale_Value_Status.Last = 50
         elseif StringCompare(Difficulty, "Hard") then
-            global_morale_level = 25
+            Morale_Value_Status.Current = 25
 
-            global_last_morale_level = 25
+            Morale_Value_Status.Last = 25
 
-            Can_Lose_Only_Planet = true
+            Global_Values.Can_Lose_Only_Planet = true
         end
 
     
@@ -210,10 +253,10 @@ function Init_Morale_System(message)
 
         for i,planet_name in ipairs(planets) do
 
-            local select_event = plot.Get_Event("SELECT_"..planet_name)
+            local select_event = Global_Values.Plot.Get_Event("SELECT_"..planet_name)
 
             if select_event ~= nil then
-                select_event.Set_Reward_Parameter(1, player.Get_Faction_Name())
+                select_event.Set_Reward_Parameter(1, Global_Values.Player.Get_Faction_Name())
             end
         end
 
@@ -221,7 +264,7 @@ function Init_Morale_System(message)
 
         Planet_Morale_Table = Build_Morale_Table()
 
-        for _, Morale_Event in pairs(morale_event_table) do
+        for _, Morale_Event in pairs(Morale_Event_Table.Events) do
             if Morale_Event.Subtract then
                 table.insert(Morale_Event_Table_Cache.Negative, Morale_Event)
             else
@@ -238,7 +281,7 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
 
-        DebugMessage("%s -- Time: %s, Galactic Time: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()))
+        --DebugMessage("%s -- Time: %s, Galactic Time: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()))
 
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
@@ -248,12 +291,10 @@ function Morale_System_Update(message)
 
         Reset_Morale_Entries()
 
-        selected_planet = Get_Selected_Planet()
-
-        if global_morale_level > 100 then
-            global_morale_level = 100
-        elseif global_morale_level < 0 then
-            global_morale_level = 0
+        if Morale_Value_Status.Current > 100 then
+            Morale_Value_Status.Current = 100
+        elseif Morale_Value_Status.Current < 0 then
+            Morale_Value_Status.Current = 0
         end
 
         local Current_Morale_Entry = Get_Morale_Level()
@@ -281,57 +322,57 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Morale Status: %s", tostring(Script), tostring(Current_Morale_Status))
 
-        if display_event ~= nil and Current_Morale_Status ~= nil then
+        if Global_Values.Display_Event ~= nil and Current_Morale_Status ~= nil then
 
-            display_event.Clear_Dialog_Text()
+            Global_Values.Display_Event.Clear_Dialog_Text()
             
-            display_event.Add_Dialog_Text(morale_string.Level, Current_Morale_Entry.Display_Name, tostring(global_morale_level))
+            Global_Values.Display_Event.Add_Dialog_Text(morale_string.Level, Current_Morale_Entry.Display_Name, tostring(Morale_Value_Status.Current))
 
-            display_event.Add_Dialog_Text(" ")
+            Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-            display_event.Add_Dialog_Text(morale_string.Description)
+            Global_Values.Display_Event.Add_Dialog_Text(morale_string.Description)
 
-            display_event.Add_Dialog_Text(" ")
+            Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-            display_event.Add_Dialog_Text(morale_string.Battle_Bonus)
+            Global_Values.Display_Event.Add_Dialog_Text(morale_string.Battle_Bonus)
 
-            display_event.Add_Dialog_Text(" ")
+            Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-            display_event.Add_Dialog_Text(morale_string.Production_Bonus)
+            Global_Values.Display_Event.Add_Dialog_Text(morale_string.Production_Bonus)
 
-            display_event.Add_Dialog_Text(" ")
+            Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-            if recent_event ~= nil then
+            if Morale_Event_Table.Recent ~= nil then
 
                 local Recent_Event_String = morale_string.Recent_Event.Good
 
-                if recent_event.Subtract then
+                if Morale_Event_Table.Recent.Subtract then
                     Recent_Event_String = morale_string.Recent_Event.Bad
                 end
 
-                display_event.Add_Dialog_Text(Recent_Event_String, recent_event.Name, recent_event.Value)
+                Global_Values.Display_Event.Add_Dialog_Text(Recent_Event_String, Morale_Event_Table.Recent.Name, Morale_Event_Table.Recent.Value)
 
-                display_event.Add_Dialog_Text(" ")
+                Global_Values.Display_Event.Add_Dialog_Text(" ")
             end
 
-            if win_streak > 0 then
-                display_event.Add_Dialog_Text(morale_string.Win_Streak, tostring(win_streak))
+            if Battle_Info.Win_Streak > 0 then
+                Global_Values.Display_Event.Add_Dialog_Text(morale_string.Win_Streak, tostring(Battle_Info.Win_Streak))
 
-                display_event.Add_Dialog_Text(" ")
+                Global_Values.Display_Event.Add_Dialog_Text(" ")
             end
 
-            if loss_streak > 0 then
-                display_event.Add_Dialog_Text(morale_string.Loss_Streak, tostring(loss_streak))
+            if Battle_Info.Loss_Streak > 0 then
+                Global_Values.Display_Event.Add_Dialog_Text(morale_string.Loss_Streak, tostring(Battle_Info.Loss_Streak))
 
-                display_event.Add_Dialog_Text(" ")
+                Global_Values.Display_Event.Add_Dialog_Text(" ")
             end
 
-            display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_LEVELS")
+            Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_LEVELS")
 
-            display_event.Add_Dialog_Text(" ")
+            Global_Values.Display_Event.Add_Dialog_Text(" ")
 
             for _, entry in ipairs(Morale_Levels) do
-                display_event.Add_Dialog_Text(entry.Display_Name .. "_RANGE", tostring(entry.Range[1]), tostring(entry.Range[2]))
+                Global_Values.Display_Event.Add_Dialog_Text(entry.Display_Name .. "_RANGE", tostring(entry.Range[1]), tostring(entry.Range[2]))
             end
             
         end
@@ -343,7 +384,7 @@ function Morale_System_Update(message)
         local Activate_Low_Morale = false
 
         if Current_Morale_Entry ~= nil and Current_Morale_Entry.Punishment then
-            if (not Is_On_Last_Planet) or Can_Lose_Only_Planet then
+            if (not Is_On_Last_Planet) or Global_Values.Can_Lose_Only_Planet then
                 Activate_Low_Morale = true
             end
         end
@@ -351,40 +392,40 @@ function Morale_System_Update(message)
         if Activate_Low_Morale then
             Low_Planet_Morale()
 
-            if targeted_planet ~= nil then
-                local targeted_planet_entry = Get_Planet_Morale(targeted_planet)
+            if Morale_Value_Status.Targeted_Planet ~= nil then
+                local targeted_planet_entry = Get_Planet_Morale(Morale_Value_Status.Targeted_Planet)
 
                 if targeted_planet_entry ~= nil then
-                    display_event.Add_Dialog_Text(" ")
+                    Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-                    display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_TITLE")
+                    Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_TITLE")
 
-                    display_event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(targeted_planet), tostring(targeted_planet_entry.Morale))
+                    Global_Values.Display_Event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(Morale_Value_Status.Targeted_Planet), tostring(targeted_planet_entry.Morale))
                 end
             end
         else
             High_Planet_Morale()
         end
     
-        display_event.Add_Dialog_Text(" ")
+        Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE")
+        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE")
 
         for _, Morale_Event in pairs(Morale_Event_Table_Cache.Positive) do
-            display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
+            Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
         end
 
-        display_event.Add_Dialog_Text(" ")
+        Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE")
+        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE")
 
         for _, Morale_Event in pairs(Morale_Event_Table_Cache.Negative) do
-            display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
+            Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
         end
 
-        display_event.Add_Dialog_Text(" ")
+        Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-        display_event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM")
+        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM")
     end
 end
 
@@ -392,28 +433,23 @@ function Random_Morale_Swing()
 
     local Current_Week = Get_Current_Week()
 
-    if next_random_swing <= Current_Week then
-        next_random_swing = Current_Week + EvenMoreRandom(2,4, 5)
+    if Morale_Value_Status.Next_Random_Morale_Swing <= Current_Week then
+        Morale_Value_Status.Next_Random_Morale_Swing = Current_Week + EvenMoreRandom(2,4, 5)
 
         local Bad_Chances = {40,60}
 
         local Morale_Swings = {0,2}
 
-        local Player_Modifiers_Entry = Modifiers[player.Get_Faction_Name()]
+        local Player_Modifiers_Entry = Modifiers:Get_Modifiers(Global_Values.Player)
 
-        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(player), tostring(Player_Modifiers_Entry))
+        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(Global_Values.Player), tostring(Player_Modifiers_Entry))
 
         if Player_Modifiers_Entry ~= nil then
-            local Difficulty_Modifiers = Player_Modifiers_Entry[Difficulty]
 
-            if Difficulty_Modifiers == nil then
-                Difficulty_Modifiers = Player_Modifiers_Entry["Default"]
-            end
+            if type(Player_Modifiers_Entry.Random_Morale_Gain_Loss) == "table" and type(Player_Modifiers_Entry.Random_Morale_Negative_Chance) == "table" then
+                Bad_Chances = Player_Modifiers_Entry.Random_Morale_Negative_Chance
 
-            if type(Difficulty_Modifiers.Random_Morale_Gain_Loss) == "table" and type(Difficulty_Modifiers.Random_Morale_Negative_Chance) == "table" then
-                Bad_Chances = Difficulty_Modifiers.Random_Morale_Negative_Chance
-
-                Morale_Swings = Difficulty_Modifiers.Random_Morale_Gain_Loss
+                Morale_Swings = Player_Modifiers_Entry.Random_Morale_Gain_Loss
             end
         end
 
@@ -459,8 +495,8 @@ function Handle_Planet_Production(Current_Morale_Entry)
 
             if entry.Name == Current_Morale_Entry.Name then
 
-                if level_planet.Get_Owner() ~= player then
-                    level_planet.Change_Owner(player)
+                if level_planet.Get_Owner() ~= Global_Values.Player then
+                    level_planet.Change_Owner(Global_Values.Player)
                 end
             else
                 if level_planet.Get_Owner() ~= Neutral then
@@ -478,7 +514,7 @@ function Get_Morale_Level()
         local min_val = level.Range[1]
         local max_val = level.Range[2]
 
-        if global_morale_level >= min_val and global_morale_level <= max_val then
+        if Morale_Value_Status.Current >= min_val and Morale_Value_Status.Current <= max_val then
             return level
         end
     end
@@ -491,10 +527,10 @@ function Get_Morale_Level()
         local max_val = level.Range[2]
 
         local distance = 0
-        if global_morale_level < min_val then
-            distance = min_val - global_morale_level
-        elseif global_morale_level > max_val then
-            distance = global_morale_level - max_val
+        if Morale_Value_Status.Current < min_val then
+            distance = min_val - Morale_Value_Status.Current
+        elseif Morale_Value_Status.Current > max_val then
+            distance = Morale_Value_Status.Current - max_val
         end
 
         if distance < closest_distance then
@@ -506,56 +542,10 @@ function Get_Morale_Level()
     return closest_level
 end
 
-function Selected_Planet_Morale_Display()
-
-    --DebugMessage("%s -- Checking Selected Planet", tostring(Script))
-
-    if selected_planet ~= nil then
-        local selected_planet_morale_entry = Get_Planet_Morale(selected_planet)
-
-        if selected_planet_morale_entry ~= nil then
-
-            local planet_name = Planet_Table:Get_Planet_String(selected_planet)
-
-            local morale_name = "Morale Index"
-
-            if StringCompare(player.Get_Faction_Name(), "Empire") then
-                morale_name = "Religious Resolve Index"
-            end
-
-            local selected_planet_morale_string = planet_name .. "'s " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Morale) .. "%, Last " .. morale_name .. ": " .. tostring(selected_planet_morale_entry.Last_Morale) .. "%"
-
-            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_PLANET_MORALE_STATUS", selected_planet, 5, nil, true)
-        end
-    end
-end
-
-function Get_Selected_Planet()
-
-    local player = Find_Human_Player()
-
-    for _,planet_name in pairs(Planet_Table:Return_All_Keys()) do
-
-        local planet = FindPlanet(planet_name)
-
-        if TestValid(planet) then
-            local flag_name = "PLAYER_SELECTED_" .. string.upper(planet_name)
-            --DebugMessage("Checking Planet: %s", flag_name)
-            if Check_Story_Flag(player, flag_name, nil, true) then
-                DebugMessage("Found Selected Planet: %s", planet_name)
-                return planet
-            end
-        end
-    end
-
-    return nil
-
-end
-
 function Check_Hero_Status()
     for hero, status in pairs(hero_status_table) do
 
-        local Current_Status = EvaluatePerception(status.Equation, player)
+        local Current_Status = EvaluatePerception(status.Equation, Global_Values.Player)
 
         DebugMessage("%s -- Current Status for Hero: %s: %s, Last Known Status: %s", tostring(Script), tostring(hero), tostring(Current_Status), tostring(status.Current_Status))
 
@@ -568,7 +558,7 @@ function Check_Hero_Status()
 
                     hero_status_table[hero].Current_Status = false
 
-                    if status.Owner ~= player then -- if the owner of the hero was not the player, we killed one
+                    if status.Owner ~= Global_Values.Player then -- if the owner of the hero was not the player, we killed one
                         Set_Next_State("Hero_Killed")
                     else -- if the hero that was killed was ours
                         Set_Next_State("Hero_Lost")
@@ -623,34 +613,30 @@ function Is_Player_On_Last_Planet()
         local Planet = FindPlanet(planet_name)
 
         if TestValid(Planet) then
-            if Planet.Get_Owner() == player then
+            if Planet.Get_Owner() == Global_Values.Player then
                 Owned_Planets = Owned_Planets + 1
             end
         end
     end
 
-    if Owned_Planets > 1 then
-        return false
-    end
-
-    return true
+    return Owned_Planets > 1
 end
 
 function Low_Planet_Morale()
 
     DebugMessage("%s -- Low Morale Active", tostring(Script))
 
-    if targeted_planet == nil or targeted_planet.Get_Owner() ~= player then
-        targeted_planet = Find_First_Loss_Planet()
+    if Morale_Value_Status.Targeted_Planet == nil or Morale_Value_Status.Targeted_Planet.Get_Owner() ~= Global_Values.Player then
+        Morale_Value_Status.Targeted_Planet = Find_First_Loss_Planet()
     end
             
-    if targeted_planet == nil then
+    if Morale_Value_Status.Targeted_Planet == nil then
         return
     end
 
-    DebugMessage("%s -- Targeted Planet: %s", tostring(Script), tostring(targeted_planet))
+    DebugMessage("%s -- Targeted Planet: %s", tostring(Script), tostring(Morale_Value_Status.Targeted_Planet))
 
-    local target_planet_morale = Get_Planet_Morale(targeted_planet)
+    local target_planet_morale = Get_Planet_Morale(Morale_Value_Status.Targeted_Planet)
 
     if target_planet_morale == nil then
         return
@@ -660,29 +646,15 @@ function Low_Planet_Morale()
 
     PrintTable(target_planet_morale)
 
-    DebugMessage("%s -- %s Last Morale Update: %s, Current Week: %s", tostring(Script), tostring(targeted_planet), tostring(target_planet_morale.When_Morale_Last_Changed), tostring(Get_Current_Week()))
+    DebugMessage("%s -- %s Last Morale Update: %s, Current Week: %s", tostring(Script), tostring(Morale_Value_Status.Targeted_Planet), tostring(target_planet_morale.When_Morale_Last_Changed), tostring(Get_Current_Week()))
 
     if target_planet_morale.When_Morale_Last_Changed < Get_Current_Week() then
 
-        local Morale_Loss = -10
+        local Modifier_Entry = Modifiers:Get_Modifiers(Global_Values.Player)
 
-        if Modifiers[player.Get_Faction_Name()] ~= nil then
-            local Modifier_Entry = Modifiers[player.Get_Faction_Name()]
-
-            local Difficulty_Modifiers = nil
-
-            if Modifier_Entry[Difficulty] ~= nil then
-                Difficulty_Modifiers = Modifier_Entry[Difficulty]
-            else
-                Difficulty_Modifiers = Modifier_Entry["Default"]
-            end
-
-            if type(Difficulty_Modifiers.Yearly_PLanetary_Morale_Loss) == "number" then
-                Morale_Loss = Difficulty_Modifiers.Yearly_PLanetary_Morale_Loss
-            end
-        end
-
-        Modify_Planet_Morale(targeted_planet, Morale_Loss)
+        if Modifier_Entry ~= nil then
+            Modify_Planet_Morale(Morale_Value_Status.Targeted_Planet, Modifier_Entry.Yearly_Planetary_Morale_Loss)
+        end       
     end
 
 end
@@ -696,7 +668,7 @@ function High_Planet_Morale()
 
         --DebugMessage("%s -- Planet Name: %s, Owner: %s", tostring(Script), tostring(planet_name), tostring(planet_owner.Get_Faction_Name()))
 
-        if planet_owner == player then
+        if planet_owner == Global_Values.Player then
             Modify_Planet_Morale(planet_entry.Object, 5)
         end
     end
@@ -704,7 +676,7 @@ end
 
 function Modify_Morale(event_table)
 
-    if plot == nil then
+    if Global_Values.Plot == nil then
         return
     end
 
@@ -726,18 +698,13 @@ function Modify_Morale(event_table)
     if not bad then
         DebugMessage("%s -- Applying Morale Gain Multiplier", tostring(Script))
 
-        local Player_Modifiers_Entry = Modifiers[player.Get_Faction_Name()]
+        local Player_Modifiers_Entry = Modifiers:Get_Modifiers(Global_Values.Player)
 
-        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(player), tostring(Player_Modifiers_Entry))
+        DebugMessage("%s -- %s Modifiers Entry: %s", tostring(Script), tostring(Global_Values.Player), tostring(Player_Modifiers_Entry))
 
         if Player_Modifiers_Entry ~= nil then
-            local Difficulty_Modifiers = Player_Modifiers_Entry[Difficulty]
 
-            if Difficulty_Modifiers == nil then
-                Difficulty_Modifiers = Player_Modifiers_Entry["Default"]
-            end
-
-            Morale_Value = tonumber(Dirty_Floor(Morale_Value * Difficulty_Modifiers.Morale_Gain_Multiplier))
+            Morale_Value = tonumber(Dirty_Floor(Morale_Value * Player_Modifiers_Entry.Morale_Gain_Multiplier))
 
             if type(Morale_Value) ~= "number" or Morale_Value < 1 then
                 Morale_Value = event_table.Value
@@ -749,7 +716,7 @@ function Modify_Morale(event_table)
         Morale_Value = Morale_Value * -1
     end
 
-    local Next_Morale_Level = global_morale_level + Morale_Value
+    local Next_Morale_Level = Morale_Value_Status.Current + Morale_Value
 
     local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
@@ -774,18 +741,18 @@ function Modify_Morale(event_table)
         return
     end
 
-    Set_Recent_Event(event_table)
+    Morale_Event_Table:Set_Recent_Event(event_table)
 
-    global_last_morale_level = global_morale_level
+    Morale_Value_Status.Last = Morale_Value_Status.Current
 
-    global_morale_level = Next_Morale_Level
+    Morale_Value_Status.Current = Next_Morale_Level
 
 end
 
 function Get_Morale_Influence()
     local State = Get_Current_State()
 
-    local Morale_Values = morale_event_table[State]
+    local Morale_Values = Morale_Event_Table.Events[State]
 
     DebugMessage("%s -- Morale Value for State %s", tostring(Script), tostring(State))
 
@@ -834,7 +801,7 @@ function Morale_Kill_Ratio_Influence(Base_Morale, is_loss)
 
     local Kill_Ratio_Table = UNSC_Kill_Ratio_Table
 
-    if player == Find_Player("EMPIRE") then
+    if Global_Values.Player == Find_Player("EMPIRE") then
         Kill_Ratio_Table = COVN_Kill_Ratio_Table
     end
 
@@ -865,26 +832,13 @@ function Morale_Kill_Ratio_Influence(Base_Morale, is_loss)
     return Final_Morale_Gain
 end
 
-function Build_Morale_Display_String(Morale_Entry)
-
-    if Morale_Entry == nil or type(Morale_Entry) ~= "table" then
-        return ""
-    end
-
-    local final_string = ""
-
-    final_string = final_string .. Morale_Entry.Name .. " " ..tostring(global_morale_level) .. tostring("%")
-
-    return final_string
-end
-
 function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired by the Thrawns Revenge Team but slightly modified to fit our purpose
     
-    if plot == nil then
+    if Global_Values.Plot == nil then
         return
     end
 
-    local text_event = plot.Get_Event("Show_Screen_Text")
+    local text_event = Global_Values.Plot.Get_Event("Show_Screen_Text")
 
     if text_event == nil then
         return
@@ -948,7 +902,7 @@ function Build_Neighbor_Table()
                 local second_planet = FindPlanet(second_planet_name)
 
                 if second_planet ~= planet and TestValid(second_planet) then
-                    if table.getn(Find_Path(player, planet, second_planet)) == 2 then
+                    if table.getn(Find_Path(Global_Values.Player, planet, second_planet)) == 2 then
                         table.insert(neighbor_table[planet_name].Neighbors, second_planet)
                     end
                 end
@@ -1047,11 +1001,11 @@ function Modify_Planet_Morale(planet, amount)
         New_Morale = 0
     end
     
-    if New_Morale == 0 and planet.Get_Owner() == player then
+    if New_Morale == 0 and planet.Get_Owner() == Global_Values.Player then
 
         local new_faction = nil
 
-        if StringCompare(player.Get_Faction_Name(), "Rebel") then
+        if StringCompare(Global_Values.Player.Get_Faction_Name(), "Rebel") then
             new_faction = Find_Player("TERRORISTS")
         else
             new_faction = Find_Player("Swords")
@@ -1147,7 +1101,7 @@ function Find_First_Loss_Planet()
         DebugMessage("%s -- Checking if %s is Owned by Player", tostring(Script), tostring(planet))
 
         if TestValid(planet) then
-            if planet.Get_Owner() == player then
+            if planet.Get_Owner() == Global_Values.Player then
                 DebugMessage("%s -- %s is Owned by the Player", tostring(Script), tostring(planet))
                 table.insert(player_owned_planets, planet)
             end
@@ -1174,11 +1128,6 @@ function Find_First_Loss_Planet()
     return highest_enemy_neighbors_planet
 end
 
-function Set_Recent_Event(event_table)
-    recent_event = event_table
-end
-
-
 function Default_Event_Function(message)
     if message == OnEnter then
         Modify_Morale(Get_Morale_Influence())
@@ -1190,7 +1139,7 @@ end
 function Flush(message)
     if message == OnEnter then
 
-        if plot == nil then
+        if Global_Values.Plot == nil then
             Set_Next_State("Morale_Level_Init")
         else
             Set_Next_State("Morale_Update")
@@ -1200,11 +1149,10 @@ end
 
 function Lost_Battle(message)
     if message == OnEnter then
-        loss_streak = loss_streak + 1
 
-        win_streak = 0
+        Battle_Info:Increase_Loss_Streak()
 
-        if customModulo(loss_streak, 3) == 0 then
+        if customModulo(Battle_Info.Loss_Streak, 3) == 0 then
             Set_Next_State("Morale_Lost_Battle_Major")
 
             return
@@ -1230,11 +1178,11 @@ end
 function Won_Battle(message)
     if message == OnEnter then
 
-        win_streak = win_streak + 1
+        Battle_Info:Increase_Win_Streak()
 
-        loss_streak = 0
+        local Faction_Modifiers = Modifiers:Get_Modifiers(Global_Values.Player)
 
-        if customModulo(win_streak, 3) == 0 then
+        if customModulo(Battle_Info.Win_Streak, Faction_Modifiers.Battle_Win_Streak_Requirement) == 0 then
             Set_Next_State("Morale_Won_Battle_Major")
 
             return

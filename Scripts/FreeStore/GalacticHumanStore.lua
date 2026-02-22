@@ -48,7 +48,7 @@ function Base_Definitions()
 
 	-- how often does this script get serviced?
 	ServiceRate = 0.3
-	UnitServiceRate = 20
+	UnitServiceRate = 10
 	
 	Common_Base_Definitions()
 	
@@ -96,7 +96,7 @@ function MoveUnit(object)
 	end
 
 	if not TestValid(object.Get_Planet_Location()) then
-		return
+		return false
 	end
 
 	local freighter_entry = freighter_table[object]
@@ -104,7 +104,7 @@ function MoveUnit(object)
 	local target = freighter_entry.Destination
 
 	if not TestValid(target) then
-		return
+		return false
 	end
 
 	FreeStore.Move_Object(object, target)
@@ -136,6 +136,10 @@ function On_Unit_Service(object)
 	local Entry = freighter_table[object]
 
 	if Entry == nil then
+		return
+	end
+
+	if not Entry.Allowed_To_Move then
 		return
 	end
 	
@@ -200,7 +204,8 @@ function On_Unit_Added(object)
 	    Start = nil,
 	    Done = false,
 		Number = Generate_Freight_Number(),
-		Finished_Date = nil
+		Finished_Date = nil,
+		Allowed_To_Move = false
 	}
 end
 
@@ -237,16 +242,26 @@ function FreeStoreService()
 	DebugMessage("%s -- Current Freighter Count: %s, Max Freighter Count: %s", tostring(Script), tostring(FreighterCount), tostring(Freighter_Limit))
 
 	if FreighterCount >= Freighter_Limit then
+
+		DebugMessage("%s -- Freighter Cap Reached", tostring(Script))
+
 		GlobalValue.Set("Max_Freighters", 1)
 
 		local freighters_to_remove = FreighterCount - Freighter_Limit
 
 		local freighters_removed = 0
 
+		DebugMessage("%s -- Freighters To Remove: %s, FreighterCount: %s, Freighter_Limit: %s", tostring(Script), tostring(freighters_to_remove), tostring(FreighterCount), tostring(Freighter_Limit))
+
 		if freighters_to_remove > 0 then
 
+			DebugMessage("%s -- Freighters to Remove is greater than 0", tostring(Script))
+
 			for _, freighter in pairs(freighter_list) do
-				if (freighter_table[freighter] == nil or not FreeStore.Is_Unit_In_Transit(freighter)) and freighters_removed < freighters_to_remove then
+
+				local Freighter_Entry = freighter_table[freighter]
+
+				if (Freighter_Entry == nil or Freighter_Entry.Allowed_To_Move == false) and freighters_removed < freighters_to_remove then
 					Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
 					local freighter_cost = freighter.Get_Type().Get_Build_Cost()
 					freighter.Get_Owner().Give_Money(freighter_cost)
@@ -259,15 +274,47 @@ function FreeStoreService()
 		GlobalValue.Set("Max_Freighters", 0)
 	end
 
-	local Current_Year = Get_Current_Week()
+	for _, freighter in pairs(freighter_list) do
+		local Freighter_Entry = freighter_table[freighter]
 
-	local Income_YTD = "TEXT_STORY_FREIGHT_MANAGER_YTD_NONE"
-
-	if Current_Year > 1 then
-		local Income_YTD = tostring(Income_Per_Year[Current_Year - 1])
+		if Freighter_Entry ~= nil then
+			Freighter_Entry.Allowed_To_Move = true
+		end
 	end
 
-	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_YTD", Income_YTD)
+	local Current_Year = Get_Current_Week()
+
+	local Generated_Income = 0
+
+	for Year, Income in pairs(Income_Per_Year) do
+		Generated_Income = Generated_Income + Income
+	end
+
+	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_YTD", formatNumberWithCommas(Generated_Income))
+
+	event.Add_Dialog_Text(" ")
+
+	local Avg_Income_Per_Year = 0
+
+	if Current_Year > 0 and Generated_Income > 0 then
+		Avg_Income_Per_Year = Generated_Income/Current_Year
+	end
+
+	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_AVG", formatNumberWithCommas(Avg_Income_Per_Year))
+	
+	event.Add_Dialog_Text(" ")
+
+	local Income_By_Year = Income_Per_Year[Current_Year]
+
+	local Income_Per_Year_String = "TEXT_STORY_FREIGHT_MANAGER_YTD_NONE"
+
+	if type(Income_By_Year) == "number" then
+		Income_Per_Year_String = formatNumberWithCommas(Income_By_Year)
+	end
+	
+	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_YEAR", tostring(Current_Year), Income_Per_Year_String)
+	
+	event.Add_Dialog_Text(" ")
 
 	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()), tostring(FreighterCount))
 	
@@ -422,7 +469,7 @@ function Generate_Freight_Number()
 end
 
 function Calculate_Reward_Income(freighter, entry)
-	local base_credit = 110
+	local base_credit = 80
 
 	local Planet_Path = Find_Path(freighter.Get_Owner(), entry.Start, entry.Destination)
 
@@ -461,7 +508,7 @@ function Reward_Freighter(freighter, entry)
 	local bonus = 0
 
 	if EvaluatePerception("Does_Planet_Have_Econ_Structures", PlayerObject, freighter.Get_Planet_Location()) > 0 then
-		bonus = 250
+		bonus = 150
     end
 
 	local income = Calculate_Reward_Income(freighter, entry) + bonus
@@ -474,7 +521,7 @@ function Reward_Freighter(freighter, entry)
 
 	local Income_YTD = Income_Per_Year[Current_Year]
 
-	local Income_Per_Year[Current_Year] = Income_YTD + income
+	Income_Per_Year[Current_Year] = Income_YTD + income
 
 	freighter.Get_Owner().Give_Money(income)
 
