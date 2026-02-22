@@ -64,6 +64,8 @@ function Base_Definitions()
 
 	FreighterCount = 0
 
+	Income_Per_Year = {}
+
 	if Definitions then
 		Definitions()
 	end
@@ -257,8 +259,20 @@ function FreeStoreService()
 		GlobalValue.Set("Max_Freighters", 0)
 	end
 
+	local Current_Year = Get_Current_Week()
+
+	local Income_YTD = "TEXT_STORY_FREIGHT_MANAGER_YTD_NONE"
+
+	if Current_Year > 1 then
+		local Income_YTD = tostring(Income_Per_Year[Current_Year - 1])
+	end
+
+	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_YTD", Income_YTD)
+
 	event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()), tostring(FreighterCount))
 	
+	event.Add_Dialog_Text(" ")
+
 	if FreighterCount <= 0 then
 		return	
 	end
@@ -451,6 +465,16 @@ function Reward_Freighter(freighter, entry)
     end
 
 	local income = Calculate_Reward_Income(freighter, entry) + bonus
+
+	local Current_Year = Get_Current_Week()
+
+	if Income_Per_Year[Current_Year] == nil then
+		Income_Per_Year[Current_Year] = 0
+	end
+
+	local Income_YTD = Income_Per_Year[Current_Year]
+
+	local Income_Per_Year[Current_Year] = Income_YTD + income
 
 	freighter.Get_Owner().Give_Money(income)
 
