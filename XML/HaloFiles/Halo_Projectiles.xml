@@ -765,7 +765,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>200000.0</Projectile_Damage>
+		<Projectile_Damage>250000.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -794,7 +794,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>50000.0</Projectile_Damage>
+		<Projectile_Damage>75000.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1709,7 +1709,8 @@
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name>
-		<Max_Speed>6</Max_Speed>
+		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Land_Model_Name>
+		<Max_Speed>10.8</Max_Speed>
 		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
 		<Projectile_Damage>295.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
@@ -1725,6 +1726,7 @@
 		
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Land_Model_Name>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Speed>10.8</Max_Speed>
@@ -1877,7 +1879,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>5</Projectile_Damage>
+		<Projectile_Damage>20</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -1907,7 +1909,7 @@
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
 		<Projectile_Damage>0.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage> 250 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 40 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
@@ -2002,6 +2004,26 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
+	</Projectile>
+	
+	<Projectile Name="Scarab_Incendiary_Gel">
+	
+		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Land_Model_Name>
+		<Max_Speed>10.8</Max_Speed>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+		<Projectile_Damage>295.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 35 </Projectile_Blast_Area_Range>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
+		
 	</Projectile>
 	
 	

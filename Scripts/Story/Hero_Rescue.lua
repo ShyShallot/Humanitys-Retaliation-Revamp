@@ -391,48 +391,24 @@ function Check_Hero_Status()
 end
 
 function Find_Suitable_Prison()
-    local Planets = Planet_Table:Return_All_Keys()
+    local Planets = FindPlanet.Get_All_Planets()
 
     local Neutral = Find_Player("Neutral")
 
+    local highest_power = 0
+
     local prison = nil
 
-    local Player_Owned_Planets = {}
+    for _, planet in pairs(Planets) do
+        if planet.Get_Owner() ~= Player and planet.Get_Owner() ~= Neutral then
+            local power = EvaluatePerception("Planet_Force_Strength", planet.Get_Owner(), planet)
 
-    local Non_Player_Owned_Planets = {}
-
-    local Possible_Prisons = {}
-
-    for _, planet_name in pairs(Planets) do
-
-        local planet = FindPlanet(planet_name)
-
-        if TestValid(planet) then
-            if planet.Get_Owner() == Player then
-                table.insert(Player_Owned_Planets, planet)
-            end
-
-            if planet.Get_Owner() ~= Neutral then
-                table.insert(Non_Player_Owned_Planets, planet)
+            if power > highest_power then
+                prison = planet
+                highest_power = power
             end
         end
     end
-
-    for _, planet in pairs(Non_Player_Owned_Planets) do
-        for _, player_planet in pairs(Player_Owned_Planets) do
-            local planet_path = Find_Path(Player, planet, player_planet)
-
-            if planet_path ~= nil then
-                local path_length = tableLength(planet_path)
-
-                if path_length == 2 or path_length == 3 then
-                    table.insert(Possible_Prisons, planet)
-                end
-            end
-        end
-    end
-
-    prison = Random_From_List(Possible_Prisons)
 
     return prison
 end
@@ -440,18 +416,13 @@ end
 function Find_Random_AI_Planet(owner)
     if not TestValid(owner) then return end
 
-    local Planets = Planet_Table:Return_All_Keys()
+    local Planets = FindPlanet.Get_All_Planets()
 
     local Owned_Planets = {}
 
-    for _, planet_name in pairs(Planets) do
-        
-        local planet = FindPlanet(planet_name)
-
-        if TestValid(planet) then
-            if planet.Get_Owner() == owner then
-                table.insert(Owned_Planets, planet)
-            end
+    for _, planet in pairs(Planets) do 
+        if planet.Get_Owner() == owner then
+            table.insert(Owned_Planets, planet)
         end
     end
     

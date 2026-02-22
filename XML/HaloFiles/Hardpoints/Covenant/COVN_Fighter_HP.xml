@@ -212,26 +212,26 @@
 
         </Hardpoint>
 		
-		<Hardpoint Name="GroundBeam">
+	<Hardpoint Name="Scarab_Beam">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
         
 		
-        <Attachment_Bone>ROOT</Attachment_Bone>
-        <Collision_Mesh>ROOT</Collision_Mesh>
-        <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-        <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+        <Attachment_Bone>Scarab_Beam_00</Attachment_Bone>
+        <Collision_Mesh>Scarab_Beam_00</Collision_Mesh>
+        <Fire_Bone_A>Scarab_Beam_00</Fire_Bone_A>
+        <Fire_Bone_B>Scarab_Beam_00</Fire_Bone_B>
  
-        <Fire_Cone_Width>15</Fire_Cone_Width>
-        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Cone_Width>35</Fire_Cone_Width>
+        <Fire_Cone_Height>35</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Covie_Ground_Pulse_Laser</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>10.1</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>30.1</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>100</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>450</Fire_Range_Distance>
+        <Fire_Range_Distance>750</Fire_Range_Distance>
         
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
         

@@ -120,6 +120,7 @@
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		
 		<Lua_Script>Ground_Structure_Upgrade</Lua_Script>
+		
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_BASE">   <!-- THIS IS UNSC STATION -->
@@ -2255,7 +2256,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>1200</Build_Cost_Credits> <!-- Needs Tweaking -->
@@ -2270,7 +2271,8 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> </Required_Special_Structures>
-		<Required_Planets>Earth, Mars, Reach, Harmony</Required_Planets>
+		<Required_Planets></Required_Planets>
+		
 		<Tactical_Health>750</Tactical_Health>
 		<Icon_Name>I_BUTTON_UNSC_RESEARCH_STATION.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2309,6 +2311,9 @@
 				RL_Enhanced_Turret_Firepower_L2_Upgrade,
 				RL_Planetary_Bombard_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="R_Research_Facility_Self_Repair">

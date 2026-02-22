@@ -65,7 +65,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="Imperial_Anti_Aircraft_Company">
-		<Text_ID>TEXT_IMPERIAL_ANTI_AIRCRAFT</Text_ID>
+		<Text_ID>DEFINITELY-A-SCARAB</Text_ID>
 		<Encyclopedia_Good_Against> Snowspeeder Y-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -73,7 +73,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire, Swords</Affiliation>
-		<Build_Cost_Credits>2850</Build_Cost_Credits>
+		<Build_Cost_Credits>10850</Build_Cost_Credits>
 		<Build_Time_Seconds>70</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -88,7 +88,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_AA_Walker, AT_AA_Walker, AT_AA_Walker</Company_Units>
+		<Company_Units>AT_AA_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_ataa.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -97,22 +97,10 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AA</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>500</Score_Cost_Credits>
 
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-
-				<Effective_Radius>100</Effective_Radius>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -123,6 +111,7 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
  
 		<Population_Value>1</Population_Value>
+		
 	</GroundCompany>
 	
 	

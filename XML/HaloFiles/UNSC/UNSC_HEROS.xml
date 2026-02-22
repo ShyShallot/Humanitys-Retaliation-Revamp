@@ -420,7 +420,7 @@
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-175.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -469,13 +469,14 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Asteroid_Damage_Hit_Particles></Asteroid_Damage_Hit_Particles>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
+		
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
@@ -571,19 +572,6 @@
 			</Unit_Ability>-->
 
 		</Unit_Abilities_Data>
-
-		
-		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="FIRE_MAC_CANNON">
-				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>1</Charge_Up_Seconds>
-                <Damage_Multiplier>1</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
-				<SFXEvent_Activate />
-			</Blast_Ability>
-
-		</Abilities>
 
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
