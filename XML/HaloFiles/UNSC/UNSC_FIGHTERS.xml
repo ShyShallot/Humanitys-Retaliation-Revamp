@@ -137,6 +137,15 @@
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
+	
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	
 	</SpaceUnit>
 
 	<Squadron Name="Late_Longsword_Squadron">
@@ -211,6 +220,13 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>125</Tactical_Build_Cost_Multiplayer>
@@ -297,6 +313,13 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>125</Tactical_Build_Cost_Multiplayer>
@@ -446,7 +469,17 @@
 
 	
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
-	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
+	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
+	
+	<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+	</Unit_Abilities_Data>
+	
+	</SpaceUnit>
 
 	<SpaceUnit Name="Longsword_Shiva"> <!-- We dont want every longsword to shoot a shiva nuke so we have only one that can use the ability-->
 		<Variant_Of_Existing_Type>Longsword</Variant_Of_Existing_Type>
@@ -551,16 +584,11 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+
 			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Longsword_Shiva_Nuke</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_UNSC_Shiva_Missiles</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_LONGSWORD_SHIVA</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_LONGSWORD_SHIVA_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">
@@ -752,10 +780,19 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
 		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
 	
-	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
-	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
+		<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
+	
+	</SpaceUnit>
 
 	<SpaceUnit Name="Shortsword_Disable"> <!-- We dont want every longsword to shoot a shiva nuke so we have only one that can use the ability-->
 		<Variant_Of_Existing_Type>Shortsword</Variant_Of_Existing_Type>
@@ -861,27 +898,12 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Shortsword_Disable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_UNSC_Disable_Torpedo</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_SHORTSWORD_DISABLER</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_SHORTSWORD_DISABLER_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
 
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Shortsword_Disable">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Corvette,Frigate,Capital,Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>
 		
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1034,35 +1056,20 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+
 			<Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+                <Type>HUNT</Type>
             </Unit_Ability>
-
-			<Unit_Ability>
-				<Type>DEFEND</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			0.6f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.85f</Mod_Multiplier>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>9</Expiration_Seconds>
-		
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-
-				<Alternate_Name_Text>HALO_FAST_STRIKE</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_FAST_STRIKE_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
+			
 		</Unit_Abilities_Data>
 
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
-	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
-	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
-	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> </SpaceUnit>
+		
+		<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
+		<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop>
+
+		</SpaceUnit>
 
 	<Squadron Name="Broadsword_Squadron">
 		<Text_ID>TEXT_UNIT_UNSC_BROADSWORD_SQUAD</Text_ID>
@@ -1139,29 +1146,11 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 			
 		<Unit_Abilities_Data SubObjectList="Yes">
+
 			<Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+                <Type>HUNT</Type>
             </Unit_Ability>
-
-			<Unit_Ability>
-				<Type>DEFEND</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			0.6f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.85f</Mod_Multiplier>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>9</Expiration_Seconds>
-		
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-
-				<Alternate_Name_Text>HALO_FAST_STRIKE</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_FAST_STRIKE_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 		
@@ -1176,6 +1165,7 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
 	</Squadron>
 	
 
@@ -1314,33 +1304,12 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>STEALTH</Type>
-				<Alternate_Name_Text>HALO_OFFRADAR</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_OFFRADAR_ENC</Alternate_Description_Text>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-				<Expiration_Seconds>25.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>BASELARD_OFFRADAR</GUI_Activated_Ability_Name> 
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
             </Unit_Ability>
-
-			<!-- <Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
-            </Unit_Ability> -->
-
+			
 		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-            <Stealth_Ability Name="BASELARD_OFFRADAR">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 125</Stealth_Color>
-                <Stealth_Transition_Time>1.0</Stealth_Transition_Time>
-            </Stealth_Ability>
-        </Abilities>
 
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
@@ -1422,33 +1391,12 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 			
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>STEALTH</Type>
-				<Alternate_Name_Text>HALO_OFFRADAR</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_OFFRADAR_ENC</Alternate_Description_Text>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-				<Expiration_Seconds>25.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>BASELARD_OFFRADAR</GUI_Activated_Ability_Name> 
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
-            </Unit_Ability>
 
 			<Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+                <Type>HUNT</Type>
             </Unit_Ability>
-
+			
 		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-            <Stealth_Ability Name="BASELARD_OFFRADAR">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 125</Stealth_Color>
-                <Stealth_Transition_Time>1.0</Stealth_Transition_Time>
-            </Stealth_Ability>
-        </Abilities>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>40</Tactical_Build_Cost_Multiplayer>
@@ -1608,21 +1556,12 @@
             </Unit_Ability>
 
 			<Unit_Ability>
-				<Type>TURBO</Type>
-			
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Recharge_Seconds>80</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1.8f</Mod_Multiplier>
-				<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated> -->
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
 			
 		</Unit_Abilities_Data>
+		
+		
 
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		
@@ -1712,22 +1651,11 @@
                 <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
                 <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
             </Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>TURBO</Type>
-			
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Recharge_Seconds>80</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1.8f</Mod_Multiplier>
-				<!-- <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated> -->
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability>
 
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 		
@@ -1801,7 +1729,7 @@
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, SPAWN_SQUADRON, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		
@@ -1887,6 +1815,14 @@
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
 	
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>60</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
@@ -1971,6 +1907,14 @@
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
      	<Max_Squad_Size> 6 </Max_Squad_Size>
+		
+			<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 		
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -2129,6 +2073,15 @@
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
+	
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	
 	</SpaceUnit>
 
 	<Squadron Name="Condor_Squadron">
@@ -2203,6 +2156,13 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
+			<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>195</Tactical_Build_Cost_Multiplayer>
@@ -2215,6 +2175,7 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
 	</Squadron>
 	
 

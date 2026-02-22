@@ -286,7 +286,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT, HUNT</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
@@ -323,12 +323,18 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+		
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+		
 		</Unit_Abilities_Data>
 
 
@@ -387,7 +393,9 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
-		
+		<Unit_Ability>
+                <Type>HUNT</Type>
+        </Unit_Ability>
 	
 		<CategoryMask>Infantry</CategoryMask>
 	</Container>
@@ -400,7 +408,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT, ABILITY_COUNTDOWN, HUNT</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
@@ -455,6 +463,11 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 				 

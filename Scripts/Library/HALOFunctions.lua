@@ -253,7 +253,7 @@ function Get_Current_Week_Raw(time)
     end
 
     
-    weekTime = 60
+    weekTime = 45
     week = (time / weekTime)
     return week
 end

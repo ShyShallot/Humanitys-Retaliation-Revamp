@@ -348,7 +348,7 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>EI_TROOPER.ALo</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED</LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED, HUNT</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar> 
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -479,7 +479,13 @@
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			</Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+				
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 	</GroundInfantry>
@@ -717,7 +723,7 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -864,6 +870,11 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
 		
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
@@ -1874,7 +1885,7 @@
 	<GroundInfantry Name="Squad_Stormtrooper">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>Covenant-Elite</Text_ID>
-		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED</LandBehavior>
+		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED, HUNT</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>
 		<Max_Speed> 0.7 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
@@ -1887,7 +1898,7 @@
 	<GroundInfantry Name="Squad_Rebel_Trooper">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Marine</Text_ID>
-		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, HUNT</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>		
 		<Max_Speed> 0.5 </Max_Speed>
 		<Space_Layer> None </Space_Layer>

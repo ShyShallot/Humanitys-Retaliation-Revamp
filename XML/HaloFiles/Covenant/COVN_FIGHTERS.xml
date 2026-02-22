@@ -336,30 +336,6 @@
 			COVN_TARA_01
 		</HardPoints>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Tarasque_High_Plasma</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_COV_Plasma_Missile_Heavy</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_HIGH_PLASMA</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_HIGH_PLASMA_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
-
-		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Tarasque_High_Plasma">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Skirmish_Rebel_Star_Base_1,Skirmish_Rebel_Star_Base_2,Skirmish_Rebel_Star_Base_3,Skirmish_Rebel_Star_Base_4,Skirmish_Rebel_Star_Base_5,Skirmish_Empire_Star_Base_1,Skirmish_Empire_Star_Base_2,Skirmish_Empire_Star_Base_3,Skirmish_Empire_Star_Base_4,Skirmish_Empire_Star_Base_5</Applicable_Unit_Types>
-				<Activation_Max_Range>600.0</Activation_Max_Range>
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>
-
 		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Y_Wing</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Y_Wing</SFXEvent_Move>
@@ -489,28 +465,12 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Tarasque_High_Plasma</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_COV_Plasma_Missile_Heavy</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_HIGH_PLASMA</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_HIGH_PLASMA_ENC</Alternate_Description_Text>
-				<Supports_Autofire>False</Supports_Autofire>
-			</Unit_Ability>
 
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Tarasque_High_Plasma">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Skirmish_Rebel_Star_Base_1,Skirmish_Rebel_Star_Base_2,Skirmish_Rebel_Star_Base_3,Skirmish_Rebel_Star_Base_4,Skirmish_Rebel_Star_Base_5,Skirmish_Empire_Star_Base_1,Skirmish_Empire_Star_Base_2,Skirmish_Empire_Star_Base_3,Skirmish_Empire_Star_Base_4,Skirmish_Empire_Star_Base_5</Applicable_Unit_Types>
-				<Activation_Max_Range>600.0</Activation_Max_Range>
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>
 
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -635,6 +595,14 @@
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -720,6 +688,14 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Cerastes_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -861,12 +837,11 @@
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 
-		 
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-
-		</Abilities>
 
 		<Population_Value>0</Population_Value>
 	</SpaceUnit>
@@ -946,6 +921,14 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type> Banshee_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>75</Tactical_Build_Cost_Multiplayer>

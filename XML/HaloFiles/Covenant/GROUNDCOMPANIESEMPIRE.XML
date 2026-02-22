@@ -465,6 +465,10 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
 
 		</Unit_Abilities_Data>
 		
