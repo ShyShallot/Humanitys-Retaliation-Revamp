@@ -191,7 +191,7 @@
 		
 				<Type>TURBO</Type>
 			
-				<Expiration_Seconds>30</Expiration_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>100</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
@@ -213,7 +213,7 @@
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 
@@ -293,7 +293,7 @@
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.56</Scale_Factor>  <!-- Original was 1.02 -->
+		<Scale_Factor>0.51</Scale_Factor>  <!-- Original was 1.02 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -469,7 +469,7 @@
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>15</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 
@@ -695,7 +695,7 @@
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 
@@ -926,7 +926,7 @@
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
 			</Unit_Ability>

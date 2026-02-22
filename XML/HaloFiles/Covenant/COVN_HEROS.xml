@@ -179,6 +179,11 @@
 			
 		</Abilities>
 		
+		<Starting_Spawned_Units_Tech_0>COVN_CCS, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_RCS, 3</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		
 		<Tactical_Build_Cost_Multiplayer>150850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
