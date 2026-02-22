@@ -173,7 +173,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -368,7 +368,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -575,7 +575,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -794,7 +794,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -1070,7 +1070,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -1097,7 +1097,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>25</Population_Value>
+		<Population_Value>22</Population_Value>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 	</SpaceUnit>
 	
@@ -1273,7 +1273,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>1</Recharge_Seconds>
 
 				
@@ -1306,7 +1306,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>33</Population_Value>
+		<Population_Value>28</Population_Value>
 
 	</SpaceUnit>
 	
