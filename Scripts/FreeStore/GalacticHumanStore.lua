@@ -41,6 +41,7 @@
 
 require("pgcommands")
 require("HALOFunctions")
+require("globalPlanetTable")
 
 function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
@@ -84,14 +85,23 @@ end
 
 function MoveUnit(object)
 
+	if not TestValid(object) then
+		return false
+	end
+
 	if freighter_table[object] == nil then
 		return false
 	end
 
+	if not TestValid(object.Get_Planet_Location()) then
+		return
+	end
+
 	local freighter_entry = freighter_table[object]
+
 	local target = freighter_entry.Destination
 
-	if target == nil then
+	if not TestValid(target) then
 		return
 	end
 
@@ -106,10 +116,7 @@ end
 function On_Unit_Service(object)
 
 	if not TestValid(object) then
-		if freighter_table[object] ~= nil then
-			freighter_table[object] = nil
-		end
-
+		freighter_table[object] = nil
 		return
 	end
 	
@@ -164,7 +171,7 @@ function On_Unit_Service(object)
 		end
 	end
 
-	DebugMessage("%s -- EoS for Freighter %s, Destination: %s", tostring(Script), tostring(Entry.Number), tostring(Entry.Des))
+	DebugMessage("%s -- EoS for Freighter %s, Destination: %s", tostring(Script), tostring(Entry.Number), tostring(Entry.Destination))
 	
 end
 
@@ -200,12 +207,22 @@ function FreeStoreService()
 
 	local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Freighter_Display.xml")
 
+	if plot == nil then
+		return
+	end
+
 	local event = plot.Get_Event("Freight_Display")
+
+	if event == nil then
+		return
+	end
 	event.Clear_Dialog_Text() -- Clears all added Text
 
-	
-
 	local freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
+
+	if freighter_list == nil then
+		freighter_list = {}
+	end
 
 	FreighterCount = tableLength(freighter_list)
 
@@ -224,13 +241,16 @@ function FreeStoreService()
 
 		local freighters_removed = 0
 
-		for _, freighter in pairs(freighter_list) do
-			if (freighter_table[freighter] == nil or not FreeStore.Is_Unit_In_Transit(freighter)) and freighters_removed < freighters_to_remove then
-				Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
-				local freighter_cost = freighter.Get_Type().Get_Build_Cost()
-				freighter.Get_Owner().Give_Money(freighter_cost)
-				freighter.Despawn()
-				freighters_removed = freighters_removed + 1
+		if freighters_to_remove > 0 then
+
+			for _, freighter in pairs(freighter_list) do
+				if (freighter_table[freighter] == nil or not FreeStore.Is_Unit_In_Transit(freighter)) and freighters_removed < freighters_to_remove then
+					Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
+					local freighter_cost = freighter.Get_Type().Get_Build_Cost()
+					freighter.Get_Owner().Give_Money(freighter_cost)
+					freighter.Despawn()
+					freighters_removed = freighters_removed + 1
+				end
 			end
 		end
 	else
@@ -283,16 +303,24 @@ function Freighter_Setup(freighter)
 	}
 end
 
-function Find_Target(freighter)
+function Find_Target(freighter, tries)
+
+	if tries == nil then
+		tries = 0
+	end
+
+	if tries > 20 then
+		return nil
+	end
 
 	local target = FindTarget.Reachable_Target(freighter.Get_Owner(), "Is_Connected_To_Me", "Friendly", "Friendly_Only", 0.1, freighter) -- Using PerceptualEquations from SandboxHuman, select a planet that we own
 
 	if target == nil then
-		return Find_Target(freighter)
+		return Find_Target(freighter, tries + 1)
 	end
 
 	if freighter.Get_Planet_Location() == nil then
-		return Find_Target(freighter)
+		return Find_Target(freighter, tries + 1)
 	end
     
     -- PerceptualEquation does not return a gameobject, so we call a function that somehow does turn it into one
@@ -302,11 +330,11 @@ function Find_Target(freighter)
     local path = Find_Path(freighter.Get_Owner(), freighter.Get_Planet_Location(), target)
 
 	if path == nil then
-		return Find_Target(freighter)
+		return Find_Target(freighter, tries + 1)
 	end
 
 	if tableLength(path) < 2 then
-		return Find_Target(freighter)
+		return Find_Target(freighter, tries + 1)
 	end
     
     -- Check if the path contains any planets not controlled by the freighter's owner
@@ -320,7 +348,7 @@ function Find_Target(freighter)
 
     -- If the target is the same as the freighter's current location or if the path contains non-controlled planets, call the function recursively
     if target == freighter.Get_Planet_Location() or contains_non_controlled then
-        return Find_Target(freighter)  -- Recursive call
+        return Find_Target(freighter, tries + 1)  -- Recursive call
     end
 
     -- Return the valid target if found
@@ -330,13 +358,19 @@ function Find_Target(freighter)
 end
 
 function All_UNSC_Planets()
-	local planets = FindPlanet.Get_All_Planets()
+	local planets = Planet_Table:Return_All_Keys()
 
 	local unsc_planets = {}
 
-	for _, planet in pairs(planets) do
-		if planet.Get_Owner() == PlayerObject then
-			table.insert(unsc_planets, planet)
+	for _, planet_name in pairs(planets) do
+
+		local planet = FindPlanet(planet_name)
+
+		if TestValid(planet) then
+
+			if planet.Get_Owner() == PlayerObject then
+				table.insert(unsc_planets, planet)
+			end
 		end
 	end
 
@@ -353,7 +387,7 @@ function Max_Freighters()
 end
 
 function Generate_Freight_Number()
-	local randomNum = EvenMoreRandom(1,500, 15)
+	local randomNum = EvenMoreRandom(1,1000, 15)
 
 	local isTaken = false
 
@@ -376,7 +410,13 @@ end
 function Calculate_Reward_Income(freighter, entry)
 	local base_credit = 110
 
-	local credit_muliplier = (tableLength(Find_Path(freighter.Get_Owner(), entry.Start, entry.Destination))) - 1
+	local Planet_Path = Find_Path(freighter.Get_Owner(), entry.Start, entry.Destination)
+
+	if Planet_Path == nil then
+		return base_credit
+	end
+
+	local credit_muliplier = tableLength(Planet_Path) - 1
 
 	if credit_muliplier < 1 then
 		credit_muliplier = 1
@@ -391,6 +431,18 @@ end
 
 
 function Reward_Freighter(freighter, entry)
+
+	if freighter == nil then
+		return
+	end
+
+	if type(entry) ~= "table" then
+		return
+	end
+
+	if freighter.Get_Planet_Location() == nil then
+		return
+	end
 	
 	local bonus = 0
 
