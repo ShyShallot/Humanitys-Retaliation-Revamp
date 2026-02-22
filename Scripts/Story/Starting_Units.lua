@@ -60,6 +60,10 @@ Starting_Units_Handler = {
                 Special_Units = {},
                 Planets = {},
                 Mapping = {},
+                Unit_Limits = {
+                    --["UNSC_PHOENIX"] = 10,
+                    --["UNSC_EPOCH"] = 1,
+                }
             },
             COVN = {
                 Station = {
@@ -120,6 +124,7 @@ Starting_Units_Handler = {
                 },
                 Planets = {},
                 Mapping = {},
+                Unit_Limits = {},
             },
             Swords = {
                 Station = {
@@ -153,6 +158,7 @@ Starting_Units_Handler = {
                 },
                 Planets = {},
                 Mapping = {},
+                Unit_Limits = {},
             },
             Terror = {
                 Station = {
@@ -186,6 +192,7 @@ Starting_Units_Handler = {
                 },
                 Planets = {},
                 Mapping = {},
+                Unit_Limits = {},
             }
         }
     },
@@ -257,6 +264,11 @@ function Starting_Units_Handler:Start()
 
     self.Spawn_Settings.Factions.Terror.Faction = Find_Player("TERRORISTS")
 
+    local Spawned_Units = {
+        Total = {},
+        Types = {},
+    }
+
     for _, planet_name in pairs(self.Global_Planet_Table:Return_All_Keys()) do
 
         local planet = FindPlanet(planet_name)
@@ -313,9 +325,9 @@ function Starting_Units_Handler:Start()
 
                 DebugMessage("%s -- Space Power: %s, Ground Power: %s", tostring(Script), tostring(Space_Power), tostring(Ground_Power))
 
-                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Ground, Settings.Ground_Units, planet, Ground_Power, true)
+                self:Normal_Unit_Spawn(Spawned_Units, Spawn_Entry.Unit_Limits, self.Spawn_Settings.Category_Mapping.Ground, Settings.Ground_Units, planet, Ground_Power, true)
 
-                self:Normal_Unit_Spawn(self.Spawn_Settings.Category_Mapping.Space, Settings.Space_Units, planet, Space_Power)
+                self:Normal_Unit_Spawn(Spawned_Units, Spawn_Entry.Unit_Limits, self.Spawn_Settings.Category_Mapping.Space, Settings.Space_Units, planet, Space_Power)
 
             end
         end
@@ -355,7 +367,13 @@ function Starting_Units_Handler:Start()
     self.Finished = true
 end
 
-function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Planet, Max_Power, Is_Ground)
+function Starting_Units_Handler:Normal_Unit_Spawn(Spawned_Units_List, Unit_Limits, Category_Mapping, Units, Planet, Max_Power, Is_Ground)
+
+    if Unit_Limits == nil then
+        Unit_Limits = {}
+    end
+
+    PrintTable(Unit_Limits)
 
     if Category_Mapping == nil then
         return
@@ -381,7 +399,9 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Plane
 
     local attempts = 0
 
-    local Spawned_Units = 0
+    if Spawned_Units_List.Total[Planet] == nil then
+        Spawned_Units_List.Total[Planet] = 0
+    end
 
     while Current_Power < Max_Power and attempts < 50 do
 
@@ -393,44 +413,70 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Category_Mapping, Units, Plane
 
         for _, unit in pairs(Units) do
 
-            if Spawned_Units >= 10 and Is_Ground then
+            if Spawned_Units_List.Total[Planet] >= 10 and Is_Ground then
                 attempts = 10000
 
                 break
             end
 
-            local Unit_Entry = self:Get_Unit_Entry(unit)
+            local Is_Valid_Inital_Spawn = true
 
-            local Unit_Type = Find_Object_Type(unit)
+            if Spawned_Units_List.Types[unit] ~= nil and Unit_Limits[unit] ~= nil then
+                DebugMessage("%s -- Total Spawned Units of Type %s: %s, Unit Limit: %s", tostring(Script), tostring(unit), tostring(Spawned_Units_List.Types[unit]), tostring(Unit_Limits[unit]))
+                if Spawned_Units_List.Types[unit] >= Unit_Limits[unit] then
+                    DebugMessage("%s -- Spawend Meets Cap", tostring(Script))
+                    Is_Valid_Inital_Spawn = false
+                end
+            end
 
-            --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
+            if Unit_Limits[unit] ~= nil then
+                if Unit_Limits[unit] == 0 then
+                    DebugMessage("%s -- Unit Limit is Zero", tostring(Script))
+                    Is_Valid_Inital_Spawn = false
+                end
+            end
+    
+            if Is_Valid_Inital_Spawn then
 
-            if Unit_Entry ~= nil and Unit_Type ~= nil then
-
-                local Unit_Category = Unit_Entry.Category
-
-                --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
-                            
-                local Unit_Power = Unit_Type.Get_Combat_Rating()
-                            
-                --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
-                            
-                if Unit_Category == Category then
-
-                    --DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(planet))
-
-                    local spawned_unit = Spawn_Unit(Unit_Type, Planet, Planet.Get_Owner())
-
-                    if spawned_unit ~= nil then
-
-                        Spawned_Units = Spawned_Units + 1
-
-                        for _, unit in pairs(spawned_unit) do
-                            unit.Prevent_AI_Usage(false)
-                        end
-                    end
+                local Unit_Entry = self:Get_Unit_Entry(unit)
+            
+                local Unit_Type = Find_Object_Type(unit)
+            
+                --DebugMessage("%s -- Current Unit: %s, Unit Entry: %s, Type: %s", tostring(Script), tostring(unit), tostring(Unit_Entry), tostring(Unit_Type))
+            
+                if Unit_Entry ~= nil and Unit_Type ~= nil then
+                
+                    local Unit_Category = Unit_Entry.Category
+                
+                    --DebugMessage("%s -- Spawn Chance: %s, Unit Count: %s, Base Chance: %s, Per Unit Chance Drop: %s", tostring(Script), tostring(Spawn_Chance), tostring(Unit_Count), tostring(Spawn_Chance_Settings.Chance), tostring(Spawn_Chance_Settings.Per_Unit_Chance_Drop))
                                 
-                    Current_Power = Current_Power + Unit_Power
+                    local Unit_Power = Unit_Type.Get_Combat_Rating()
+                                
+                    --DebugMessage("%s -- Unit Category: %s, Spawn Chance: %s %%, Unit Power: %s", tostring(Script), tostring(Unit_Category), tostring(Spawn_Chance), tostring(Unit_Power))
+                                
+                    if Unit_Category == Category then
+                    
+                        DebugMessage("%s -- Spawned a %s, at %s", tostring(Script), tostring(unit), tostring(Planet))
+                    
+                        local spawned_unit = Spawn_Unit(Unit_Type, Planet, Planet.Get_Owner())
+                    
+                        if spawned_unit ~= nil then
+                        
+                            Spawned_Units_List.Total[Planet] = Spawned_Units_List.Total[Planet] + 1
+                            
+                            if Spawned_Units_List.Types[unit] == nil then
+                                Spawned_Units_List.Types[unit] = 0
+                            end
+                        
+                            Spawned_Units_List.Types[unit] = Spawned_Units_List.Types[unit] + 1
+                        
+                            for _, unit in pairs(spawned_unit) do
+                                unit.Prevent_AI_Usage(false)
+                            end
+                        end
+                                    
+                        Current_Power = Current_Power + Unit_Power
+                    end
                 end
             end
         end
