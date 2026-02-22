@@ -662,30 +662,31 @@
 
 
 	<GroundVehicle Name="AT_AA_Walker">
+	
 		<LOD_Bias>1</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>75.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>TEXT_UNIT_AT_AA_WALKER</Text_ID>
-		<Encyclopedia_Good_Against> Snowspeeder Y-wing Skipray_Blastboat</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL MZ8_Pulse_Cannon_Tank</Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATAA</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+		<Text_ID>DEFINITELY-A-SCARAB</Text_ID>
+		<Encyclopedia_Good_Against> Snowspeeder </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>SCARAB</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Land_Model_Name>EV_AT-AA.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>5.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Movement_Animation_Speed> 0.25 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.45 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Rotation_Animation_Speed> 1.25 </Rotation_Animation_Speed>
-		<Max_Speed> .65 </Max_Speed>
-		<Max_Rate_Of_Turn>6</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn> 3.5 </Stopped_Rate_Of_Turn>
+		<Max_Speed> .35 </Max_Speed>
+		<Max_Rate_Of_Turn>3</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn> 1.5 </Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Min_Speed_Fraction_For_Turn> .25 </Min_Speed_Fraction_For_Turn>
@@ -705,7 +706,7 @@
 		<Size_Value>150</Size_Value>
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Health>16500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -713,14 +714,16 @@
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,TURRET, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH</LandBehavior>
 
-		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+		<Is_Supercrusher>Yes</Is_Supercrusher>
+		<Property_Flags>IsSupercrusher</Property_Flags>
+		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>14.0</Turret_Rotate_Speed>
+		<Turret_Elevate_Extent_Degrees>65</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>0.1</Turret_Rotate_Speed>
 		<Turret_Bone_Name>B_Turret_Base</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Missile_Launcher</Barrel_Bone_Name>
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Z_Turret_Rotate_To_Axis>0.1</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
 
 		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
@@ -730,18 +733,20 @@
 
 		<!-- <Attack_Category_Restrictions> Infantry | Vehicle | LandHero | Structure </Attack_Category_Restrictions> -->
 
-		<Land_FOW_Reveal_Range>380.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 
-		<Projectile_Types>Proj_Flak_Pod</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Scarab_Incendiary_Gel</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		<!-- <HardPoints>Scarab_Beam</HardPoints> -->
 
-		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -752,7 +757,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AA</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_AT_AA</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_AT_AA</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Anti_Air_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_COVN_PLASMA_TORP</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_AT_AA </SFXEvent_Assist_Move>		
@@ -763,10 +768,9 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-
-		<CategoryMask> Vehicle | AntiAir</CategoryMask>
+		<CategoryMask> Vehicle | AntiAir </CategoryMask>
 		<Icon_Name>i_button_ataa.tga</Icon_Name>
-		<MovementClass>Walker</MovementClass>
+		<MovementClass>LargeWalker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
@@ -799,35 +803,19 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Deploys>Yes</Deploys>
-		<Auto_Deploys>No</Auto_Deploys>
+		<Auto_Deploys>Yes</Auto_Deploys>
 		<Deployment_Anim_Rate>2.0</Deployment_Anim_Rate>
 		
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>20.0</Death_Persistence_Duration>
+		<Death_Persistence_Duration>320.0</Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 		<Lua_Script>ObjectScript_MissileShield</Lua_Script>
 
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
 		
-			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
-			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
-		
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-	
-				<Effective_Radius>150</Effective_Radius>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Redirect_Blaster_Ability Name="EL_Light_Reflective_Armor_L1_Bonus">

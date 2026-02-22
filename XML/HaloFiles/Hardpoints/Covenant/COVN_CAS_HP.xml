@@ -8,17 +8,18 @@
             <Health>1050.0</Health>
             <Attachment_Bone>HP_HUGEFUCKINGLASER</Attachment_Bone>
             <Collision_Mesh>HP_HUGEFUCKINGLASER</Collision_Mesh>
-            <Blast_Ability_Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Blast_Ability_Fire_Projectile_Type>
+            
 			<Fire_Bone_A>HP_HUGEFUCKINGLASER</Fire_Bone_A>
             <Fire_Bone_B>HP_HUGEFUCKINGLASER</Fire_Bone_B>
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Min_Recharge_Seconds>75.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>75.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>36</Fire_Pulse_Count>
+			<Fire_Projectile_Type>Proj_Plasma_Lance</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>100.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>100.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>100</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1875.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>3500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
+			<Fire_SFXEvent></Fire_SFXEvent>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
             
@@ -39,10 +40,10 @@
 			<Fire_Projectile_Type>Proj_Plasma_Lance</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>100.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>100.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>216</Fire_Pulse_Count>
+            <Fire_Pulse_Count>100</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvettes </Fire_Category_Restrictions>
