@@ -378,6 +378,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_CAS_12">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
@@ -400,6 +401,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_CAS_13">
+	
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>

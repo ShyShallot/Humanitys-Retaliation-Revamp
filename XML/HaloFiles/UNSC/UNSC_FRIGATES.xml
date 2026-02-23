@@ -259,8 +259,6 @@
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
 		</Squadron> 
-	
-
 
 	<SpaceUnit Name="UNSC_HALBERD">
 	
@@ -414,8 +412,6 @@
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-		
-		
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
@@ -436,12 +432,14 @@
 		</Unit_Abilities_Data> -->
 		
 		<Abilities SubObjectList="Yes">
+		
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
                 <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
                 
                 <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
                
             </Planet_Income_Bonus_Ability>
+			
 		</Abilities>
 
 

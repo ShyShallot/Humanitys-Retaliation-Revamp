@@ -106,7 +106,6 @@
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		
-
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
@@ -1189,7 +1188,6 @@
 		<Fires_Forward>yes</Fires_Forward>
 		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		
-		
 		<Mass>0.99</Mass>
 		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>1</Min_Speed>
@@ -1235,7 +1233,6 @@
 		<Death_Explosions>Small_Damage_Space_UNSC_FIGHTER</Death_Explosions>
 		<!-- <Death_SFXEvent_Start_Die>Unit_UNSC_FIGHTER_Death_SFX</Death_SFXEvent_Start_Die> -->
 
-		
 		<HardPoints>
 			UNSC_BASELARD_01, UNSC_BASELARD_02
 		</HardPoints>
@@ -1343,30 +1340,11 @@
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Baselard, Baselard, Baselard</Squadron_Units>
+		
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+        
 		<Icon_Name>I_BUTTON_BASELARD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

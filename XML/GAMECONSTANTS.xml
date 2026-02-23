@@ -840,7 +840,7 @@
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
 	<Raid_Force_Required_Faction> Neutral, Rebel, Empire, Terrorists, Swords </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle </Raid_Force_Limited_Object_Category_Mask>
-	<Raid_Force_Max_Limited_Objects> 100 </Raid_Force_Max_Limited_Objects>
+	<Raid_Force_Max_Limited_Objects> 10 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 10 </Raid_Force_Max_Heros>
 	<Raid_Force_Free_Object_Category_Mask> LandHero </Raid_Force_Free_Object_Category_Mask>	<!-- can have as many of these as you want -->
 
@@ -4922,11 +4922,10 @@
 
 
 
+
 	<!--                                    -->
 	<!--    END ARMOR AND DAMAGE SECTION    -->
 	<!--                                    -->
-
-
 
 
 	
@@ -4977,7 +4976,6 @@
 	
 	<Planet_Reveal_Delay_Time>0.5</Planet_Reveal_Delay_Time>
 	<Base_Shield_Delay_Time>10.0</Base_Shield_Delay_Time>
-	
 	
 	<Star_Wars_Crawl_Start_Fadeout_Frame>800</Star_Wars_Crawl_Start_Fadeout_Frame>
 	
@@ -5046,6 +5044,18 @@
 	<Energy_Beam_Texture>tractor_beam00.tga</Energy_Beam_Texture>
 	<Energy_Beam_Color>255, 75, 0</Energy_Beam_Color>
 	
+	<MP_Color_Blue>54, 185, 255</MP_Color_Blue>	 
+	<MP_Color_Red>255, 54, 54</MP_Color_Red>		 
+	<MP_Color_Green>102, 250, 120</MP_Color_Green>	
+	<MP_Color_Orange>255, 158, 54</MP_Color_Orange>
+	<MP_Color_Cyan>54, 255, 222</MP_Color_Cyan>	 
+	<MP_Color_Purple>165, 54, 255</MP_Color_Purple>
+	<MP_Color_Yellow>255, 228, 54</MP_Color_Yellow>
+	<MP_Color_Gray>153, 149, 124</MP_Color_Gray>	 
+	<MP_Color_Eight>252, 101, 207</MP_Color_Eight>
+	
+	<!-- USE THESE COLORS IF U WANT TO FUCK WITH COLORBLIND PEOPLE 
+	
 	<MP_Color_Blue>186, 202, 255</MP_Color_Blue>	 
 	<MP_Color_Red>255, 186, 186</MP_Color_Red>		 
 	<MP_Color_Green>187, 255, 186</MP_Color_Green>	
@@ -5054,7 +5064,7 @@
 	<MP_Color_Purple>227, 177, 252</MP_Color_Purple>
 	<MP_Color_Yellow>242, 252, 177</MP_Color_Yellow>
 	<MP_Color_Gray>255, 255, 255</MP_Color_Gray>	 
-	<MP_Color_Eight>253, 207, 255</MP_Color_Eight>
+	<MP_Color_Eight>253, 207, 255</MP_Color_Eight> -->
 	
 	<!-- PALE COLORS
 	<MP_Color_Blue>186, 202, 255</MP_Color_Blue>	 

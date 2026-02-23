@@ -684,9 +684,9 @@
 		<Movement_Animation_Speed> 0.45 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Rotation_Animation_Speed> 0.70 </Rotation_Animation_Speed>
-		<Max_Speed> .35 </Max_Speed>
-		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn> 0.5 </Stopped_Rate_Of_Turn>
+		<Max_Speed> .45 </Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn> 0.2 </Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Min_Speed_Fraction_For_Turn> .25 </Min_Speed_Fraction_For_Turn>
