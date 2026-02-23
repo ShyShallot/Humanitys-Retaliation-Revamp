@@ -3,6 +3,7 @@
 
 	<!-- Pillar of Autumn Hardpoints-->
 	<HardPoint Name="UNSC_POA_HANAGR_01">
+	
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -16,6 +17,7 @@
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_HANAGR_02">
+	
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -29,6 +31,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_POA_REACTOR">
+	
 		<Type>HARD_POINT_GRAVITY_WELL</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -41,6 +44,7 @@
 	</HardPoint>
 
 	<Hardpoint Name="UNSC_POA_01">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -73,6 +77,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_02">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -106,6 +111,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_03">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -139,6 +145,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_04">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -172,6 +179,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_05">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -205,6 +213,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_06">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -238,6 +247,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_07">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -271,6 +281,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_08">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -306,6 +317,7 @@
 
 
 	<Hardpoint Name="UNSC_POA_AP_01">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -331,6 +343,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_02">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -356,6 +369,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_03">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -381,6 +395,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_04">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -406,6 +421,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_05">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -431,6 +447,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_06">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -456,6 +473,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_07">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -481,6 +499,7 @@
 	</Hardpoint>
 
 	<Hardpoint Name="UNSC_POA_AP_08">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -508,6 +527,7 @@
 
 
 	<HardPoint Name="UNSC_POA_AP_09">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -533,6 +553,7 @@
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_AP_10">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -558,6 +579,7 @@
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_AP_11">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -583,6 +605,7 @@
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_AP_12">
+	
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -608,6 +631,7 @@
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_MAC">
+	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -620,9 +644,9 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>35.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>35.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>3.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>

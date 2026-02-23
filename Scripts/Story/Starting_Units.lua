@@ -55,7 +55,6 @@ Starting_Units_Handler = {
                 },
                 Heroes = {
                     "UNSC_SOF",
-                    "UNSC_ROMAN_BLUE"
                 },
                 Special_Units = {},
                 Planets = {},

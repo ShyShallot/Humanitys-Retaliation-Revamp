@@ -1,6 +1,63 @@
 <?xml version="1.0"?>
 <Projectiles>
 
+		
+	<!--	<Projectile Name="Fuck_Around_And_Find_Out">
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_COVN_CLUSTER_TORPEDO_EXPERIMENTAL.ALO</Space_Model_Name>
+		<Damage_Type>Damage_Covn_Light</Damage_Type>
+		<Max_Speed>0.0</Max_Speed>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, ABILITY_COUNTDOWN</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2300.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie_AF</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie_AF</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Damage_Space_Covie_AF</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Covie_AF</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Damage_Space_Covie_AF</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	
+		<AI_Combat_Power>300</AI_Combat_Power>
+		
+		<Abilities SubObjectList="Yes">
+
+			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
+				<Activation_Style> Skirmish_Automatic </Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>10500</Activation_Max_Range>
+
+				 Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease"
+				<Damage_Per_Frame>700</Damage_Per_Frame>			
+				<Fire_Frame>300</Fire_Frame>
+				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
+				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
+				<Num_Anim_Frames>0</Num_Anim_Frames>
+				<Line_Width>200</Line_Width>
+				<Line_Color>198 47 224 255</Line_Color>
+				<Face_Target>false</Face_Target>
+				<Turn_Rate>-1.0f</Turn_Rate>
+				<Firing_Cone>360.0f</Firing_Cone>
+            	<Fire_Delay>1</Fire_Delay>
+            	<Fire_Continuation>0.01</Fire_Continuation>
+			</Super_Laser_Ability>
+
+		</Abilities> 
+		
+	</Projectile> -->
+
+
 	<!--Antifighter on Capitals (Un-Used DO NOT REMOVE THIS CONTAINS STATS WE NEED IF WE EVER WANT TO GO BACK-->
 	<Projectile Name="Proj_Covie_Pulse_Laser_Capital">
 	
@@ -559,10 +616,11 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>UNSC_SHIVA_NUKE.alo</Space_Model_Name>
-		<Damage_Type>Damage_UNSC_Nuke</Damage_Type>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
+		<CategoryMask>Transport</CategoryMask>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>100.0</Projectile_Max_Scan_Range>
 		<Projectile_Damage>1200.0</Projectile_Damage>

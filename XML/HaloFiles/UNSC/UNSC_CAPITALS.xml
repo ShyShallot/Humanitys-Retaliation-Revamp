@@ -1012,6 +1012,7 @@
                 <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
                 <!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
             </Planet_Income_Bonus_Ability>
+			
             <Income_Stream_Ability Name="Empire_Mining_Income_Stream">
                 <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
                 <Base_Income_Value>25</Base_Income_Value>
