@@ -263,6 +263,7 @@
 
 
 	<SpaceUnit Name="UNSC_HALBERD">
+	
 		<Text_ID>TEXT_UNIT_UNSC_HALBERD</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALBERD </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
@@ -311,7 +312,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
@@ -326,9 +327,10 @@
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 
 		<Build_Time_Seconds>27</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
-		<Behavior>SELECTABLE</Behavior>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -459,7 +461,7 @@
 	</SpaceUnit>
 	
 
-	<SpaceUnit Name="UNSC_SINGLE_HALBERD"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	<SpaceUnit Name="UNSC_SINGLE_HALBERD"> <!-- This variant allows us to produce individual Halberds's in skirmish without them being in a squad -->
 	
 		<Variant_Of_Existing_Type>UNSC_HALBERD</Variant_Of_Existing_Type>
 	
@@ -469,7 +471,7 @@
 		<Space_Layer> frigate </Space_Layer> 
 		
 		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
@@ -1509,7 +1511,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>

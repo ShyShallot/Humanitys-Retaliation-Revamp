@@ -683,10 +683,10 @@
 
 		<Movement_Animation_Speed> 0.45 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Rotation_Animation_Speed> 1.25 </Rotation_Animation_Speed>
+		<Rotation_Animation_Speed> 0.70 </Rotation_Animation_Speed>
 		<Max_Speed> .35 </Max_Speed>
-		<Max_Rate_Of_Turn>3</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn> 1.5 </Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn> 0.5 </Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Min_Speed_Fraction_For_Turn> .25 </Min_Speed_Fraction_For_Turn>
@@ -720,10 +720,10 @@
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>65</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>0.1</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>0.25</Turret_Rotate_Speed>
 		<Turret_Bone_Name>B_Turret_Base</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Missile_Launcher</Barrel_Bone_Name>
-		<Apply_Z_Turret_Rotate_To_Axis>0.1</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Z_Turret_Rotate_To_Axis>0.25</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
 
 		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>

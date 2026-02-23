@@ -213,6 +213,9 @@ local unit_table = {
     },
 	UNSC_SINGLE_STALWART = {
         Category = "Frigate"
+	},
+	UNSC_SINGLE_HALBERD = {
+        Category = "Frigate"
     },
 	BUCKLER_SQUADRON = {
         Category = "Frigate"
