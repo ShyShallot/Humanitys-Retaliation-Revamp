@@ -46,7 +46,7 @@
 	<Player_Color>50, 209, 63, 255</Player_Color>
 	<Enemy_Color>239, 9, 9, 255</Enemy_Color>
 
-	<!-- Units are more vulnerable right after being unloaded... time is in Seconds -->
+	<!-- Units are more vulnerable right after being unloaded... time is in Seconds (Apple) We got rid of this as this doesnt exist in halo) -->
 	<Elevated_Vulnerability_Duration>0.0</Elevated_Vulnerability_Duration> 
 	<Elevated_Vulnerability_Factor>0.0</Elevated_Vulnerability_Factor>
     <Space_Elevated_Vulnerability_Duration>0.0</Space_Elevated_Vulnerability_Duration> 
@@ -90,7 +90,7 @@
 	<Income_Redistribution>0.6</Income_Redistribution> -->
 	
 	<!-- No player can ever accumulate more than this number of credits times the number of planets he controls. -->
-	<Credit_Cap_Per_Planet> 500000000000.0 </Credit_Cap_Per_Planet>
+	<Credit_Cap_Per_Planet> 1000000.0 </Credit_Cap_Per_Planet>
 	
 	<!-- In tactical multiplayer games, the team with the lower total credit income will share
 	a "bonus" amount of credits every tick based on the difference in total credit income between
@@ -190,7 +190,7 @@
 	<AutoResolveLoserAttrition>0.50</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.35</AutoResolveWinnerAttrition>
 	<Minimum_Tactical_Overrun_Time_In_Secs> 15.0 </Minimum_Tactical_Overrun_Time_In_Secs>
-	<Tactical_Overrun_Multiple>10.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
+	<Tactical_Overrun_Multiple>5.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 	<!-- <Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple> -->		<!-- Comment out to disable overrun auto-resolve -->
 
@@ -608,8 +608,8 @@
 	<MaxWaypointsPerPath> 6 </MaxWaypointsPerPath>
 
 	<!-- Asteroid Field -->
-	<Asteroid_Field_Damage>10</Asteroid_Field_Damage>
-	<Asteroid_Field_Damage_Rate>0.15</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
+	<Asteroid_Field_Damage>0</Asteroid_Field_Damage>
+	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
 	<!-- Pathfinding and Movement -->
@@ -838,17 +838,17 @@
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
-	<Raid_Force_Required_Faction> Neutral </Raid_Force_Required_Faction>
+	<Raid_Force_Required_Faction> Neutral, Rebel, Empire, Terrorists, Swords </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle </Raid_Force_Limited_Object_Category_Mask>
-	<Raid_Force_Max_Limited_Objects> 3 </Raid_Force_Max_Limited_Objects>
-    <Raid_Force_Max_Heros> 1 </Raid_Force_Max_Heros>
+	<Raid_Force_Max_Limited_Objects> 100 </Raid_Force_Max_Limited_Objects>
+    <Raid_Force_Max_Heros> 10 </Raid_Force_Max_Heros>
 	<Raid_Force_Free_Object_Category_Mask> LandHero </Raid_Force_Free_Object_Category_Mask>	<!-- can have as many of these as you want -->
 
 	<!-- Subjective thresholds for unit health levels - used by game object type SFXEvent triggers -->
 	<Health_Low_Percent_Threshold> 0.43 </Health_Low_Percent_Threshold>
 	<Health_Critical_Percent_Threshold> 0.15 </Health_Critical_Percent_Threshold>
 
-	<Under_Construction_Damage_Multiplier> 2.0 </Under_Construction_Damage_Multiplier>
+	<Under_Construction_Damage_Multiplier> 0.0 </Under_Construction_Damage_Multiplier>
 
 
 	<!--                                -->
@@ -5025,7 +5025,7 @@
 	<!-- Multiplayer Data End -->
 
 	<!-- This entry can be used to artificially make build times faster in tactical mode when debugging. -->
-	<Tactical_Build_Time_Multiplier> 0.5 </Tactical_Build_Time_Multiplier>
+	<Tactical_Build_Time_Multiplier> 0.1 </Tactical_Build_Time_Multiplier>
 	
 	<Health_Bar_Scale> 2500.0 </Health_Bar_Scale>
 	<Land_Health_Bar_Scale> 500.0 </Land_Health_Bar_Scale>
