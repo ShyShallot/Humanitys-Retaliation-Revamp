@@ -23,9 +23,17 @@ Starting_Units_Handler = {
                         },
                         Ground_Units = {
                             ["Rebel_Infantry_Squad"] = {
-                                Weight = 100,
+                                Weight = 65,
                                 Limit = -1
-                            }
+                            },
+                            ["Rebel_Tank_Buster_Squad"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
+                            ["Rebel_Pod_Walker_Company"] = {
+                                Weight = 15,
+                                Limit = -1
+                            },
                         },
                     },
                     Low = {
@@ -44,7 +52,7 @@ Starting_Units_Handler = {
                                 Limit = -1
                             },
                             ["UNSC_PHOENIX"] = {
-                                Weight = 20,
+                                Weight = 5,
                                 Limit = -1
                             }
                         },
@@ -56,7 +64,11 @@ Starting_Units_Handler = {
                             ["Rebel_Tank_Buster_Squad"] = {
                                 Weight = 35,
                                 Limit = -1
-                            }
+                            },
+                            ["Rebel_Pod_Walker_Company"] = {
+                                Weight = 15,
+                                Limit = -1
+                            },
                         },
                     },
                     Medium = {
@@ -66,16 +78,20 @@ Starting_Units_Handler = {
                         },
                         Structures = {"UNSC_FORT"},
                         Space_Units = {
+							["BUCKLER_SQUADRON"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
                             ["UNSC_SINGLE_CHARON"] = {
                                 Weight = 35,
                                 Limit = -1
                             },
                             ["UNSC_PHOENIX"] = {
-                                Weight = 50,
+                                Weight = 5,
                                 Limit = -1
                             },
                             ["UNSC_EPOCH"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             }
                         },
@@ -105,12 +121,16 @@ Starting_Units_Handler = {
                                 Weight = 35,
                                 Limit = -1
                             },
+                            ["UNSC_SINGLE_CHARON"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
                             ["UNSC_PHOENIX"] = {
-                                Weight = 50,
+                                Weight = 5,
                                 Limit = -1
                             },
                             ["UNSC_EPOCH"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             }
                         },
@@ -127,12 +147,16 @@ Starting_Units_Handler = {
                                 Weight = 35,
                                 Limit = -1
                             },
+                            ["UNSC_SINGLE_CHARON"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
                             ["UNSC_PHOENIX"] = {
-                                Weight = 50,
+                                Weight = 5,
                                 Limit = -1
                             },
                             ["UNSC_EPOCH"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             }
                         },
@@ -151,63 +175,63 @@ Starting_Units_Handler = {
                     Default = {
                         Power = {
                             Space = 25000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
                             ["CRS_SQUADRON"] = {
                                 Weight = 100,
-                                Limit = -1
+                                Limit = 10
                             }
                         },
                         Ground_Units = {
                             ["Imperial_Stormtrooper_Squad"] = {
                                 Weight = 100,
-                                Limit = -1,
+                                Limit = 5
                             }
                         },
                     },
                     Low = {
                         Power = {
                             Space = 30500,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 50,
-                                Limit = -1
+                                Limit = 8
                             },
                             ["CRS_SQUADRON"] = {
                                 Weight = 50,
-                                Limit = -1
+                                Limit = 12
                             }
                         },
                         Ground_Units = {
                             ["Imperial_Stormtrooper_Squad"] = {
                                 Weight = 100,
-                                Limit = -1,
+                                Limit = 8
                             }
                         },
                     },
                     Medium = {
                         Power = {
                             Space = 60000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 10
                             },
                             ["CRS_SQUADRON"] = {
                                 Weight = 50,
-                                Limit = -1
+                                Limit = 14
                             },
                             ["COVN_RCS"] = {
-                                Weight = 35,
-                                Limit = -1
+                                Weight = 3,
+                                Limit = 6
                             }
                         },
                         Ground_Units = {
@@ -220,78 +244,86 @@ Starting_Units_Handler = {
                     High = {
                         Power = {
                             Space = 120500,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
+							["COVN_SDV"] = {
+                                Weight = 25,
+                                Limit = 10
+                            },
+                            ["CRS_SQUADRON"] = {
+                                Weight = 30,
+                                Limit = 20
+                            },
                             ["COVN_RCS"] = {
-                                Weight = 70,
-                                Limit = -1
+                                Weight = 15,
+                                Limit = 20
                             },
                             ["COVN_CCS"] = {
-                                Weight = 55,
-                                Limit = -1
+                                Weight = 5,
+                                Limit = 20
                             },
                             ["COVN_DDS"] = {
-                                Weight = 40,
-                                Limit = -1
+                                Weight = 2,
+                                Limit = 6
                             },
                             ["COVN_ORS"] = {
-                                Weight = 30,
-                                Limit = -1
+                                Weight = 2,
+                                Limit = 6
                             },
                             ["COVN_CAS"] = {
-                                Weight = 45,
-                                Limit = -1
+                                Weight = 1,
+                                Limit = 3
                             },
                         },
                         Ground_Units = {
                             ["Imperial_Stormtrooper_Squad"] = {
                                 Weight = 100,
-                                Limit = -1
+                                Limit = 10
                             }
                         }
                     },
                     Ultra = {
                         Power = {
                             Space = 185000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 25,
-                                Limit = -1
+                                Limit = 10
                             },
                             ["CRS_SQUADRON"] = {
                                 Weight = 30,
-                                Limit = -1
+                                Limit = 20
                             },
                             ["COVN_RCS"] = {
-                                Weight = 70,
-                                Limit = -1
+                                Weight = 15,
+                                Limit = 20
                             },
                             ["COVN_CCS"] = {
-                                Weight = 55,
-                                Limit = -1
+                                Weight = 5,
+                                Limit = 20
                             },
                             ["COVN_DDS"] = {
-                                Weight = 40,
-                                Limit = -1
+                                Weight = 2,
+                                Limit = 6
                             },
                             ["COVN_ORS"] = {
-                                Weight = 30,
-                                Limit = -1
+                                Weight = 2,
+                                Limit = 6
                             },
                             ["COVN_CAS"] = {
-                                Weight = 45,
-                                Limit = -1
+                                Weight = 1,
+                                Limit = 3
                             },
                         },
                         Ground_Units = {
                             ["Imperial_Stormtrooper_Squad"] = {
                                 Weight = 100,
-                                Limit = -1
+                                Limit = 10
                             }
                         }
                     }
@@ -313,21 +345,25 @@ Starting_Units_Handler = {
                     Default = {
                         Power = {
                             Space = 10000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
                             ["SWORDS_CRS"] = {
                                 Weight = 50,
+                                Limit = 20
+                            },
+							["SWORDS_SDV"] = {
+                                Weight = 25,
                                 Limit = -1
                             },
                             ["SWORDS_CCS"] = {
-                                Weight = 40,
-                                Limit = -1
+                                Weight = 4,
+                                Limit = 10
                             },
                             ["SWORDS_CAS"] = {
-                                Weight = 45,
-                                Limit = -1
+                                Weight = 1,
+                                Limit = 1
                             },
                         },
                         Ground_Units = {
@@ -340,25 +376,25 @@ Starting_Units_Handler = {
                     Low = {
                         Power = {
                             Space = 25500,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
-                            ["SWORDS_SDV"] = {
+                            ["SWORDS_CRS"] = {
+                                Weight = 50,
+                                Limit = 20
+                            },
+							["SWORDS_SDV"] = {
                                 Weight = 25,
                                 Limit = -1
                             },
-                            ["SWORDS_CRS"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
                             ["SWORDS_CCS"] = {
-                                Weight = 35,
-                                Limit = -1
+                                Weight = 4,
+                                Limit = 10
                             },
                             ["SWORDS_CAS"] = {
-                                Weight = 40,
-                                Limit = -1
+                                Weight = 1,
+                                Limit = 1
                             },
                         },
                         Ground_Units = {
@@ -370,25 +406,25 @@ Starting_Units_Handler = {
                     Medium = {
                         Power = {
                             Space = 45000,
-                            Ground = 300,
+                            Ground = 600,
                         },
                         Structures = {},
                         Space_Units = {
-                            ["SWORDS_SDV"] = {
+                            ["SWORDS_CRS"] = {
+                                Weight = 50,
+                                Limit = 20
+                            },
+							["SWORDS_SDV"] = {
                                 Weight = 25,
                                 Limit = -1
                             },
-                            ["SWORDS_CRS"] = {
-                                Weight = 45,
-                                Limit = -1
-                            },
                             ["SWORDS_CCS"] = {
-                                Weight = 40,
-                                Limit = -1
+                                Weight = 4,
+                                Limit = 10
                             },
                             ["SWORDS_CAS"] = {
-                                Weight = 45,
-                                Limit = -1
+                                Weight = 1,
+                                Limit = 1
                             },
                         },
                         Ground_Units = {
@@ -419,7 +455,7 @@ Starting_Units_Handler = {
                                 Limit = -1
                             },
                             ["TERROR_PHOENIX"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             },
                         },
@@ -445,7 +481,7 @@ Starting_Units_Handler = {
                                 Limit = -1
                             },
                             ["TERROR_PHOENIX"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             },
                         },
@@ -471,7 +507,7 @@ Starting_Units_Handler = {
                                 Limit = -1
                             },
                             ["TERROR_PHOENIX"] = {
-                                Weight = 20,
+                                Weight = 2,
                                 Limit = -1
                             },
                         },
