@@ -214,7 +214,7 @@ function split(str, separator)
 end
 
 function formatNumberWithCommas(number)
-    local formattedNumber = tostring(number)
+    local formattedNumber = tostring(Dirty_Floor(number))
     local length = string.len(formattedNumber)
 
     local result = ""
