@@ -5315,8 +5315,8 @@
     <Lava_Ground_Color_Tint>255, 0, 0</Lava_Ground_Color_Tint>
     <Infantry_Ground_Color_Tint>0, 255, 255</Infantry_Ground_Color_Tint>
     
-	<Max_Bombing_Run_Interval_Seconds>120.0</Max_Bombing_Run_Interval_Seconds>				
-	<Min_Bombing_Run_Interval_Seconds>120.0</Min_Bombing_Run_Interval_Seconds>				
+	<Max_Bombing_Run_Interval_Seconds>9999.0</Max_Bombing_Run_Interval_Seconds>				
+	<Min_Bombing_Run_Interval_Seconds>9999.0</Min_Bombing_Run_Interval_Seconds>				
 	<Bombing_Run_Reduction_Per_Squadron_Percent>0</Bombing_Run_Reduction_Per_Squadron_Percent>
 	<Space_Guard_Range>750.0</Space_Guard_Range>
 	<Land_Guard_Range>150.0</Land_Guard_Range>

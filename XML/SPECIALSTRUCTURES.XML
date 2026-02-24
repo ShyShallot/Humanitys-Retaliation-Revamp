@@ -3396,7 +3396,7 @@
 
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_infantry_barracks.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.TGA</Icon_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
