@@ -1931,7 +1931,7 @@
 	
 	</SpaceUnit>
 	
-	<SpaceUnit Name="UNSC_Buckler">
+		<SpaceUnit Name="UNSC_Buckler">
 		<Text_ID>TEXT_UNIT_UNSC_BUCKLER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
@@ -1962,11 +1962,7 @@
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 		
-		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
+		<Minimum_Follow_Distance>300.0</Minimum_Follow_Distance>
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Frigate </Armor_Type>
@@ -1990,7 +1986,8 @@
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
-		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>true</WaitsForFormationFormup>
+		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
@@ -2012,11 +2009,11 @@
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Death_Clone>Damage_Normal, </Death_Clone>
+		<Death_Clone>Damage_Normal, Medium_Explosion_FRIGATE </Death_Clone>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> 
 		<Strafe_Distance>500.0</Strafe_Distance>	
-		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000</Idle_Chase_Range>
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
@@ -2029,12 +2026,7 @@
 
 		<CategoryMask> Corvette </CategoryMask>
 		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
-		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
-		<GUI_Distance>1200</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
@@ -2099,7 +2091,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -2187,7 +2179,6 @@
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 
-		<CategoryMask> Frigate </CategoryMask>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -2201,9 +2192,6 @@
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Required_Timeline>0</Required_Timeline>
-		<Property_Flags> SmallShip </Property_Flags>
-
-		
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		
@@ -2219,8 +2207,9 @@
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<LOD_Bias>10</LOD_Bias>
 
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>

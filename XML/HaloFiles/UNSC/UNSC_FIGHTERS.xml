@@ -44,7 +44,7 @@
 		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -152,7 +152,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -245,7 +245,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -375,7 +375,7 @@
 		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -515,7 +515,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -692,7 +692,7 @@
 		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -827,7 +827,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -1075,7 +1075,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -1320,7 +1320,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -1554,7 +1554,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -1697,7 +1697,7 @@
 		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -1820,7 +1820,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
@@ -1957,7 +1957,7 @@
 		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -2068,7 +2068,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
