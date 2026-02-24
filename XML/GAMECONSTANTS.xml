@@ -839,13 +839,13 @@
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
 	<Raid_Force_Required_Faction> Neutral, Rebel, Empire, Terrorists, Swords </Raid_Force_Required_Faction>
-	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle </Raid_Force_Limited_Object_Category_Mask>
+	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle | Air </Raid_Force_Limited_Object_Category_Mask>
 	<Raid_Force_Max_Limited_Objects> 10 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 10 </Raid_Force_Max_Heros>
 	<Raid_Force_Free_Object_Category_Mask> LandHero </Raid_Force_Free_Object_Category_Mask>	<!-- can have as many of these as you want -->
 
 	<!-- Subjective thresholds for unit health levels - used by game object type SFXEvent triggers -->
-	<Health_Low_Percent_Threshold> 0.43 </Health_Low_Percent_Threshold>
+	<Health_Low_Percent_Threshold> 0.50 </Health_Low_Percent_Threshold>
 	<Health_Critical_Percent_Threshold> 0.15 </Health_Critical_Percent_Threshold>
 
 	<Under_Construction_Damage_Multiplier> 0.0 </Under_Construction_Damage_Multiplier>
