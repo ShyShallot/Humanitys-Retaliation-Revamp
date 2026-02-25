@@ -148,10 +148,12 @@
 
 		<Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
-		<Terrorists_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Terrorists_Story_Name>
-		<Swords_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Swords_Story_Name>
+		<Story_Name>
+			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+		</Story_Name>
 
 		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
 
@@ -490,10 +492,12 @@
 
 		<Starting_Active_Player> Terrorists </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml</Rebel_Story_Name>
-		<Terrorists_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC</Terrorists_Story_Name>
-		<Swords_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Swords_Story_Name>
+		<Story_Name>
+			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml,
+			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+		</Story_Name>
 
 		<AI_Player_Control> Rebel, BasicRebel</AI_Player_Control>
 
@@ -832,10 +836,12 @@
 
 		<Starting_Active_Player> Empire </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml</Rebel_Story_Name>
-		<Terrorists_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Terrorists_Story_Name>
-		<Swords_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Swords_Story_Name>
+		<Story_Name>
+			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml,
+			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+		</Story_Name>
 
 		<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
 
@@ -859,13 +865,13 @@
 				Galactic_Control_Named_Planets
 		</Human_Victory_Conditions>
 
-		<Human_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
 
 		<AI_Victory_Conditions>
 				Galactic_Control_Named_Planets
 		</AI_Victory_Conditions>
 
-		<AI_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
 
 
 		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
@@ -1150,11 +1156,12 @@
 
 		<Starting_Active_Player> Swords </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
-		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml</Rebel_Story_Name>
-		<Terrorists_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Terrorists_Story_Name>
-		<Swords_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Swords_Story_Name>
-
+		<Story_Name>
+			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
+			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml,
+		</Story_Name>
 		<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
 
 		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
@@ -1177,13 +1184,13 @@
 				Galactic_Control_Named_Planets
 		</Human_Victory_Conditions>
 
-		<Human_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
+		<Human_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</Human_Victory_Planet_Names>
 
 		<AI_Victory_Conditions>
 				Galactic_Control_Named_Planets
 		</AI_Victory_Conditions>
 
-		<AI_Victory_Planet_Names>Reach, Reach_Custom, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
+		<AI_Victory_Planet_Names>Reach, Aktis_IV, Aleria, Alluvion, Arcadia, Chi_Ceti_IV, Eridanus_2, Madrigal, Charybdis_IX, Meridian, Gao, Harvest, Earth, Falaknuma, Harmony, New_Carthage, New_Jerusalem, Tantalus, Terra_Nova, Mars, Miridem, Netherop, Far_Isle, Threshold, Yonhe, Kamchatka, Taram, Trove, Installation_05, Nefoluzo, Thua, Glyke, Karava, Victors_Truth, Balaho, Te, Doisac, Sanghelios, Rhanelo, Song_Of_Victory, Eayn, Bhedalon, Codisfold, Feldokra, Ulgethon, Palamok, Ven_III, Kostroda, Khaelmothka, Tvao</AI_Victory_Planet_Names>
 
 
 		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
