@@ -1169,7 +1169,7 @@
 		<AI_Combat_Power>130</AI_Combat_Power>
 
 		<Behavior>SELECTABLE, POWERED</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR, REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR, REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, HUNT</LandBehavior>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Weather_Category>Speeder</Weather_Category>
 	
@@ -1270,14 +1270,17 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+		
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_ATAT_Assault_Speeder </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
 			
 		</Unit_Abilities_Data>
 
@@ -1287,7 +1290,7 @@
 				
 				<!-- We need to be within this distance of the clicked target to consider activating the cable -->
 				<Activation_Min_Range>10.0</Activation_Min_Range>
-				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Activation_Max_Range>200.0</Activation_Max_Range>
 				<Activation_Chance>1.0f</Activation_Chance>
 
 				<!-- options available: -->
@@ -1305,7 +1308,7 @@
 
 				<!-- We only consider the following unit types "valid targets": -->
 				<!--  <Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>  -->
-				<Applicable_Unit_Types>AT_AT_Walker</Applicable_Unit_Types>
+				<Applicable_Unit_Types>AT_AT_Walker, AT_AA_Walker</Applicable_Unit_Types>
 				
 				<!--This ability is canceled by movement-->
 				<Terminate_Effect_On_Move_Command>True</Terminate_Effect_On_Move_Command>

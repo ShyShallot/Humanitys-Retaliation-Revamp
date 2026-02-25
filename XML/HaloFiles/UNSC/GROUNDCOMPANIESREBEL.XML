@@ -41,6 +41,7 @@
 		<Score_Cost_Credits>225</Score_Cost_Credits>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
+		
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
@@ -48,7 +49,12 @@
 				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
+
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
