@@ -116,15 +116,15 @@ function Definitions()
             return self.Default["Default"]
         end
 
-        if Difficulty == nil then
+        if Global_Values.Difficulty == nil then
             return self.Default["Default"]
         end
 
-        if self[Faction_Name][Difficulty] == nil then
+        if self[Faction_Name][Global_Values.Difficulty] == nil then
             return self.Default["Default"]
         end
 
-        return self[Faction_Name][Difficulty]
+        return self[Faction_Name][Global_Values.Difficulty]
     end
 
     Global_Values = {
