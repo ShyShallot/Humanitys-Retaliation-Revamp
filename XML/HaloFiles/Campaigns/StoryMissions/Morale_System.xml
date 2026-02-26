@@ -48,6 +48,11 @@
 		<Perpetual>true</Perpetual>
 	</Event>
 
+    <Event Name="Great_Schism_Event">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_Great_Schism</Event_Param2>
+    </Event>
+
     <Event Name="Morale_Display_UNSC">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Morale_Display_UNSC</Event_Param2>

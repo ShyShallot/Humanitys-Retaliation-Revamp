@@ -601,7 +601,11 @@ function Starting_Units_Handler:Start()
 
             Station.Spawn_Layout = {}
 
-            Station.Spawn_Layout.Space = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+            Station.Spawn_Layout.Space = {}
+
+            Station.Spawn_Layout.Space[1] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+            Station.Spawn_Layout.Space[2] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+            Station.Spawn_Layout.Space[3] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
 
 
 
@@ -620,7 +624,11 @@ function Starting_Units_Handler:Start()
                 end
             end
 
-            Station.Spawn_Layout.Ground = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+            Station.Spawn_Layout.Ground = {}
+
+            Station.Spawn_Layout.Ground[1] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+            Station.Spawn_Layout.Ground[2] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+            Station.Spawn_Layout.Ground[3] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
 
         end
     end
@@ -672,8 +680,11 @@ function Starting_Units_Handler:Start()
                 if Settings.Spawn_Layout ~= nil then
 
                     if Settings.Spawn_Layout.Space ~= nil and Settings.Spawn_Layout.Ground ~= nil then
-                        self:Spawn_From_List(Settings.Spawn_Layout.Space, planet)
-                        self:Spawn_From_List(Settings.Spawn_Layout.Ground, planet)
+                        local Space_Variation = EvenMoreRandom(1, tableLength(Settings.Spawn_Layout.Space))
+                        local Ground_Variation = EvenMoreRandom(1, tableLength(Settings.Spawn_Layout.Ground))
+
+                        self:Spawn_From_List(Settings.Spawn_Layout.Space[Space_Variation], planet)
+                        self:Spawn_From_List(Settings.Spawn_Layout.Ground[Ground_Variation], planet)
                     end
                 end
  

@@ -20,6 +20,7 @@ function Definitions()
         Morale_Construction_Event_Major = Default_Event_Function,
         Hero_Lost = Default_Event_Function,
         Hero_Killed = Default_Event_Function,
+        Great_Schism_Event = Great_Schism,
         Flush = Flush,
         Morale_Update = Morale_System_Update,
     }
@@ -35,6 +36,7 @@ function Definitions()
             ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
             ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
             ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
+            ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM"},
         },
         
         Recent = nil
@@ -1203,4 +1205,20 @@ function Won_Battle_Major(message)
 
         Set_Next_State("Flush")
     end
+end
+
+function Great_Schism(message)
+
+    if message ~= OnEnter then
+
+        Set_Next_State("Flush")
+        
+        return
+    end
+
+    if Global_Values.Player.Get_Faction_Name() == "EMPIRE" then
+        Modify_Morale(Get_Morale_Influence())
+    end
+
+    Set_Next_State("Flush")
 end

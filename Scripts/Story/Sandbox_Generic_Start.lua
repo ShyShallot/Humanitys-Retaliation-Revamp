@@ -27,6 +27,8 @@ function Definitions()
 
     Player = nil
 
+    Great_Schism = nil
+
 end
 
 function Global_Story(message)
@@ -42,6 +44,8 @@ function Global_Story(message)
 
         Global_Planet_Table = require("globalPlanetTable")
 
+        Great_Schism = require("Great_Schism")
+
         Starting_Units:Start()
 
         if Starting_Units:Is_Finished() then
@@ -50,6 +54,8 @@ function Global_Story(message)
             Filter_System:Init(Player, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
 
             Tech_Theft:Init(Global_Planet_Table, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
+
+            Great_Schism:Init()
 
             Set_Next_State("Flush")
         end
@@ -61,6 +67,8 @@ function Update(message)
         Filter_System:Update()
 
         Tech_Theft:Update()
+
+        Great_Schism:Check()
     end
 end
 
