@@ -531,7 +531,11 @@ Starting_Units_Handler = {
 
     Finished = false,
 
-    Banned_Structures = {}
+    Banned_Structures = {},
+
+    Unit_Type_Cache = {},
+
+    Unit_Power_Cache = {},
 }
 
 function Starting_Units_Handler:Start()
@@ -573,6 +577,53 @@ function Starting_Units_Handler:Start()
     self.Spawn_Settings.Factions.Swords.Faction = Find_Player("Swords")
 
     self.Spawn_Settings.Factions.Terror.Faction = Find_Player("TERRORISTS")
+
+    for Faction, Entry in pairs(self.Spawn_Settings.Factions) do
+
+        for _, Station in pairs(Entry.Station) do
+
+            local Space_Distribution = DiscreteDistribution.Create()
+
+            local Unit_Limits = {}
+
+            if Station.Space_Units then
+                for unit, entry in pairs(Station.Space_Units) do
+
+                    local weight = entry.Weight or 50
+
+                    Unit_Limits[unit] = entry.Limit or -1
+
+                    Space_Distribution.Insert(unit,weight)
+
+                    self:Get_Unit_Type(unit)
+                end
+            end
+
+            Station.Spawn_Layout = {}
+
+            Station.Spawn_Layout.Space = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+
+
+
+            local Ground_Distribution = DiscreteDistribution.Create()
+
+            if Station.Ground_Units then
+                for unit, entry in pairs(Station.Ground_Units) do
+
+                    local weight = entry.Weight or 50
+
+                    Unit_Limits[unit] = entry.Limit or -1
+
+                    Ground_Distribution.Insert(unit,weight)
+
+                    self:Get_Unit_Type(unit)
+                end
+            end
+
+            Station.Spawn_Layout.Ground = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+
+        end
+    end
 
     for _,planet_name in pairs(self.Global_Planet_Table:Return_All_Keys()) do
 
@@ -618,16 +669,14 @@ function Starting_Units_Handler:Start()
 
                 end
 
-                local Space_Power = tonumber(Dirty_Floor(Settings.Power.Space * self.Spawn_Settings.Global_Multiplier))
+                if Settings.Spawn_Layout ~= nil then
 
-                local Ground_Power = tonumber(Dirty_Floor(Settings.Power.Ground * self.Spawn_Settings.Global_Multiplier))
-
-                DebugMessage("%s -- Space Power: %s,Ground Power: %s",tostring(Script),tostring(Space_Power),tostring(Ground_Power))
-
-                self:Normal_Unit_Spawn(Settings.Ground_Units,planet,Ground_Power,true)
-
-                self:Normal_Unit_Spawn(Settings.Space_Units,planet,Space_Power)
-
+                    if Settings.Spawn_Layout.Space ~= nil and Settings.Spawn_Layout.Ground ~= nil then
+                        self:Spawn_From_List(Settings.Spawn_Layout.Space, planet)
+                        self:Spawn_From_List(Settings.Spawn_Layout.Ground, planet)
+                    end
+                end
+ 
             end
         end
     end
@@ -641,7 +690,7 @@ function Starting_Units_Handler:Start()
             if entry.Heroes ~= nil then
                 for _,hero in pairs(entry.Heroes) do
 
-                    local hero_type = Find_Object_Type(hero)
+                    local hero_type = self:Get_Unit_Type(hero)
 
                     if hero_type ~= nil then
 
@@ -661,44 +710,23 @@ function Starting_Units_Handler:Start()
                 end
             end
         end
+
+        local All_Spawned_Units = Find_All_Objects_Of_Type(entry.Faction)
+
+        for _, unit in pairs(All_Spawned_Units) do
+            if TestValid(unit) then
+                unit.Prevent_AI_Usage(false)
+            end
+        end
     end
 
     self.Finished = true
 end
 
-function Starting_Units_Handler:Normal_Unit_Spawn(Units,Planet,Max_Power,Is_Ground)
+function Starting_Units_Handler:Calculate_Spawn_Variation(Settings, Mapping, Unit_Limits, Is_Ground)
 
-    if type(Units) ~= "table" then
-        return
-    end
-
-    if not TestValid(Planet) then
-        return
-    end
-
-    if type(Max_Power) ~= "number" then
-        return
-    end
-
-    local Unit_Mapping = DiscreteDistribution.Create()
-
-    local Unit_Limits = {}
-
-    for Unit_Name,Entry in pairs(Units) do
-
-        local Weight = Entry.Weight
-
-        if Weight == nil then
-            Weight = 50
-        end
-
-        Unit_Mapping.Insert(Unit_Name,Weight)
-
-        Unit_Limits[Unit_Name] = Entry.Limit
-
-        if Unit_Limits[Unit_Name] == nil then
-            Unit_Limits[Unit_Name] = -1
-        end
+    if Mapping == nil then
+        return {}
     end
 
     local Current_Power = 0
@@ -710,6 +738,30 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Units,Planet,Max_Power,Is_Grou
         Units = {}
     }
 
+    local Spawn_List = Settings.Space_Units
+
+    local Max_Power = tonumber(Dirty_Floor(Settings.Power.Space * self.Spawn_Settings.Global_Multiplier))
+
+    if Is_Ground == true then
+        Spawn_List = Settings.Ground_Units
+
+        Max_Power = tonumber(Dirty_Floor(Settings.Power.Ground * self.Spawn_Settings.Global_Multiplier))
+    end
+
+    if type(Max_Power) ~= "number" then
+        return
+    end
+
+    if Spawn_List == nil then
+        return {}
+    end
+
+    local Unit_Count = {}
+
+    for Unit, _ in pairs(Spawn_List) do
+        Unit_Count[Unit] = 0
+    end
+
     while Current_Power < Max_Power and attempts < 50 do
 
         if Spawned_Units.Total >= 10 and Is_Ground then
@@ -717,7 +769,7 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Units,Planet,Max_Power,Is_Grou
             break
         end
 
-        local Unit = Unit_Mapping.Sample()
+        local Unit = Mapping.Sample()
 
         local Unit_Entry = self:Get_Unit_Entry(Unit)
 
@@ -737,35 +789,28 @@ function Starting_Units_Handler:Normal_Unit_Spawn(Units,Planet,Max_Power,Is_Grou
 
             if Is_Valid_Spawn then
 
-                local Unit_Type = Find_Object_Type(Unit)
+                local Unit_Power = self:Get_Combat_Power(Unit)
 
-                if Unit_Type ~= nil then
-                    local Unit_Power = Unit_Type.Get_Combat_Rating()
+                Unit_Count[Unit] = Unit_Count[Unit] + 1
 
-                    local Spawned_Unit = Spawn_Unit(Unit_Type,Planet,Planet.Get_Owner())
-
-                    if Spawned_Unit ~= nil then
-                        if Spawned_Units.Units[Unit] == nil then
-                            Spawned_Units.Units[Unit] = 0
-                        end
-
-                        Spawned_Units.Total = Spawned_Units.Total + 1
-
-                        Spawned_Units.Units[Unit] = Spawned_Units.Units[Unit] + 1
-
-                        for _,unit in pairs(Spawned_Unit) do
-                            unit.Prevent_AI_Usage(false)
-                        end
-
-                        Current_Power = Current_Power + Unit_Power
-                    end
+                if Spawned_Units.Units[Unit] == nil then
+                    Spawned_Units.Units[Unit] = 0
                 end
+
+                Spawned_Units.Total = Spawned_Units.Total + 1
+
+                Spawned_Units.Units[Unit] = Spawned_Units.Units[Unit] + 1
+
+                Current_Power = Current_Power + Unit_Power
+
             end
 
         end
 
         attempts = attempts + 1
     end
+
+    return Unit_Count
 end
 
 function Starting_Units_Handler:Spawn_Structure(structure,planet)
@@ -778,7 +823,7 @@ function Starting_Units_Handler:Spawn_Structure(structure,planet)
         return
     end
 
-    local structure_type = Find_Object_Type(structure)
+    local structure_type = self:Get_Unit_Type(structure)
 
     if structure_type ~= nil then
 
@@ -902,10 +947,10 @@ function Starting_Units_Handler:Special_Unit_Spawn_Filter(special_entry,planet_l
     end
 
     if special_entry.Filter.Type == "Power" then
-        DebugMessage("%s -- Special Unit Filter: Power",tostring(Script))
+        --DebugMessage("%s -- Special Unit Filter: Power",tostring(Script))
         local filtered_planet_table = {}
         if special_entry.Filter.Value  then -- if true,we are looking for the weakest planet,if false we are looking for the strongest
-            DebugMessage("%s -- Looking for Weakest Planet",tostring(Script))
+            --DebugMessage("%s -- Looking for Weakest Planet",tostring(Script))
             local weakest_power = 1000000000
             local weakest_planet = nil
 
@@ -918,13 +963,13 @@ function Starting_Units_Handler:Special_Unit_Spawn_Filter(special_entry,planet_l
                 end
             end
 
-            DebugMessage("%s -- Found Weakest Planet: %s" ,tostring(Script),tostring(weakest_planet))
+            --DebugMessage("%s -- Found Weakest Planet: %s" ,tostring(Script),tostring(weakest_planet))
 
             if TestValid(weakest_planet) then
                 self:Special_Unit_Spawn(special_entry,{weakest_planet},faction)
             end
         else
-            DebugMessage("%s -- Looking for Strongest Planet",tostring(Script))
+            --DebugMessage("%s -- Looking for Strongest Planet",tostring(Script))
             local strongest_power = 0
             local strongest_planet = nil
 
@@ -937,7 +982,7 @@ function Starting_Units_Handler:Special_Unit_Spawn_Filter(special_entry,planet_l
                 end
             end
 
-            DebugMessage("%s -- Found Strongest Planet: %s",tostring(Script),tostring(strongest_planet))
+            --DebugMessage("%s -- Found Strongest Planet: %s",tostring(Script),tostring(strongest_planet))
 
             if TestValid(strongest_planet) then
                 self:Special_Unit_Spawn(special_entry,{strongest_planet},faction)
@@ -969,11 +1014,11 @@ function Starting_Units_Handler:Special_Unit_Spawn(special_entry,planet_list,fac
         return
     end
 
-    local Unit_Type = Find_Object_Type(special_entry.Unit)
+    local Unit_Type = self:Get_Unit_Type(special_entry.Unit)
 
-    DebugMessage("%s -- Spawning %s %s for %s",tostring(Script),tostring(special_entry.Count),tostring(special_entry.Unit),tostring(faction.Get_Faction_Name()))
+    --DebugMessage("%s -- Spawning %s %s for %s",tostring(Script),tostring(special_entry.Count),tostring(special_entry.Unit),tostring(faction.Get_Faction_Name()))
 
-    DebugMessage("%s -- Found Unit Type: %s",tostring(Script),tostring(Unit_Type))
+    --DebugMessage("%s -- Found Unit Type: %s",tostring(Script),tostring(Unit_Type))
 
     if Unit_Type ~= nil and special_entry.Count > 0 then
         local spawned = 0
@@ -981,14 +1026,82 @@ function Starting_Units_Handler:Special_Unit_Spawn(special_entry,planet_list,fac
         while spawned < special_entry.Count do
             local planet = Random_From_List(planet_list)
 
-            DebugMessage("%s -- Selected %s,Spawn Count: %s for %s",tostring(Script),tostring(planet),tostring(spawned + 1),tostring(special_entry.Unit))
+            --DebugMessage("%s -- Selected %s,Spawn Count: %s for %s",tostring(Script),tostring(planet),tostring(spawned + 1),tostring(special_entry.Unit))
 
             if TestValid(planet) then
-                DebugMessage("%s -- Planet Was valid,spawning",tostring(Script))
+                --DebugMessage("%s -- Planet Was valid,spawning",tostring(Script))
                 Spawn_Unit(Unit_Type,planet,faction)
             end
 
             spawned = spawned + 1
+        end
+    end
+end
+
+function Starting_Units_Handler:Get_Unit_Type(unit_name)
+
+    if unit_name == nil then
+        return nil
+    end
+
+    local cached = self.Unit_Type_Cache[unit_name]
+
+    if cached ~= nil then
+        return cached
+    end
+
+    local unit_type = Find_Object_Type(unit_name)
+    
+    self.Unit_Type_Cache[unit_name] = unit_type
+
+    return unit_type
+end
+
+function Starting_Units_Handler:Get_Combat_Power(unit_name)
+
+    if unit_name == nil then
+        return 0
+    end
+
+    local cached = self.Unit_Power_Cache[unit_name]
+
+    if cached ~= nil then
+        return cached
+    end
+
+    local unit_type = self:Get_Unit_Type(unit_name)
+
+    if unit_type == nil then
+        return 0
+    end
+
+    local rating = unit_type.Get_Combat_Rating()
+
+    self.Unit_Power_Cache[unit_name] = rating
+
+    return rating
+end
+
+function Starting_Units_Handler:Spawn_From_List(Spawn_List, Planet)
+
+    if Spawn_List == nil then
+        return
+    end
+
+    if not TestValid(Planet) then
+        return
+    end
+
+    local Owner = Planet.Get_Owner()
+
+    for Unit, Amount in pairs(Spawn_List) do
+
+        local Unit_Type = self:Get_Unit_Type(Unit)
+
+        if type(Unit) == "string" and type(Amount) == "number" and Unit_Type ~= nil then
+            for i=Amount, 1, -1 do
+                Spawn_Unit(Unit_Type, Planet, Owner)
+            end
         end
     end
 end
