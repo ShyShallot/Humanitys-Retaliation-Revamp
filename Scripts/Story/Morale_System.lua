@@ -36,7 +36,7 @@ function Definitions()
             ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
             ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
             ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
-            ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM"},
+            ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM", Hidden = true},
         },
         
         Recent = nil
@@ -267,11 +267,15 @@ function Init_Morale_System(message)
         Planet_Morale_Table = Build_Morale_Table()
 
         for _, Morale_Event in pairs(Morale_Event_Table.Events) do
-            if Morale_Event.Subtract then
-                table.insert(Morale_Event_Table_Cache.Negative, Morale_Event)
-            else
-                table.insert(Morale_Event_Table_Cache.Positive, Morale_Event)
+
+            if Morale_Event.Hidden ~= true then
+                if Morale_Event.Subtract then
+                    table.insert(Morale_Event_Table_Cache.Negative, Morale_Event)
+                else
+                    table.insert(Morale_Event_Table_Cache.Positive, Morale_Event)
+                end
             end
+
         end
 
         Set_Next_State("Flush")
@@ -722,12 +726,9 @@ function Modify_Morale(event_table)
 
     local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
-    if Fake_Morale_Type == nil then
-        DebugMessage("%s -- Could not Find Fake_Morale_Type, was looking for: %s", tostring(Script), tostring(abs(Morale_Value)))
-        return
+    if Fake_Morale_Type ~= nil then
+        Show_Screen_Text(event_table.String, Fake_Morale_Type, 5, nil, true)
     end
-
-    Show_Screen_Text(event_table.String, Fake_Morale_Type, 5, nil, true)
 
     DebugMessage("%s -- Next Morale Value: %s", tostring(Script), tostring(Next_Morale_Level))
 

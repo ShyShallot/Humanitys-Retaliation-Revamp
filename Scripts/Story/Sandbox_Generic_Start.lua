@@ -69,6 +69,17 @@ function Update(message)
         Tech_Theft:Update()
 
         Great_Schism:Check()
+
+        -- Uncomment to Force the Great Schism for Debugging Purporses
+        --if GetCurrentTime.Galactic_Time() >= 8 then
+        --    local Earth = FindPlanet("EARTH")
+
+        --    if TestValid(Earth) then
+        --        if Earth.Get_Owner() == Find_Player("REBEL") then
+        --            Earth.Change_Owner(Find_Player("EMPIRE"))
+        --        end
+        --    end
+        --end
     end
 end
 
