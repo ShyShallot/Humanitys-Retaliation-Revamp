@@ -496,9 +496,11 @@
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_BASIC_BARRACKS">
+	
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_BARRACKS1</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_BARRACKS1 </Encyclopedia_Text>

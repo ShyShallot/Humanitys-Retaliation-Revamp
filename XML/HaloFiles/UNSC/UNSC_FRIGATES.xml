@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <FrigateUnits>
 	<SpaceUnit Name="UNSC_GLADIUS">
+	
 		<Text_ID>TEXT_UNIT_UNSC_GLADIUS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
@@ -176,8 +177,6 @@
 		
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 		
-		
-
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
@@ -333,8 +332,6 @@
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		
-		
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -397,9 +394,7 @@
 		<SFXEvent_Engine_Moving_Loop>  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-
 		<Death_SFXEvent_Start_Die>Unit_UNSC_Frigate_Death</Death_SFXEvent_Start_Die>
-
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
@@ -457,7 +452,6 @@
 		<AI_Combat_Power>300</AI_Combat_Power>
 		
 	</SpaceUnit>
-	
 
 	<SpaceUnit Name="UNSC_SINGLE_HALBERD"> <!-- This variant allows us to produce individual Halberds's in skirmish without them being in a squad -->
 	
@@ -695,8 +689,6 @@
 
 		<SFXEvent_Health_Low_Warning> Corvette_Low_Health </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Corvette_Low_Health </SFXEvent_Health_Critical_Warning>
-
-
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
@@ -709,11 +701,8 @@
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-		
-		
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-
 
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 		
@@ -735,8 +724,8 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		
 	</SpaceUnit>
-	
 	
 	<!-- Mako Squadron -->
 	
@@ -1626,8 +1615,6 @@
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		
-		
-
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 		
 		<Abilities SubObjectList="Yes">

@@ -676,7 +676,7 @@
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Land_Model_Name>EV_AT-AA.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>5.5</Scale_Factor>
+		<Scale_Factor>6.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -720,10 +720,10 @@
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>65</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>0.25</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>0.40</Turret_Rotate_Speed>
 		<Turret_Bone_Name>B_Turret_Base</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Missile_Launcher</Barrel_Bone_Name>
-		<Apply_Z_Turret_Rotate_To_Axis>0.25</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Z_Turret_Rotate_To_Axis>0.35</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
 
 		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
