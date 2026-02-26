@@ -240,7 +240,7 @@ function Init_Morale_System(message)
             Morale_Value_Status.Current = 50
 
             Morale_Value_Status.Last = 50
-        elseif StringCompare(Difficulty, "Hard") then
+        elseif StringCompare(Global_Values.Difficulty, "Hard") then
             Morale_Value_Status.Current = 25
 
             Morale_Value_Status.Last = 25
