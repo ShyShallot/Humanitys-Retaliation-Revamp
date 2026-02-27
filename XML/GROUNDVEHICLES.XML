@@ -674,7 +674,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
-		<Land_Model_Name>EV_AT-AA.ALO</Land_Model_Name>
+		<Land_Model_Name>COVN_SCARAB.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>6.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -944,7 +944,7 @@
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
 		<Turret_Rotate_Extent_Degrees>10</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
