@@ -2,6 +2,7 @@
 Starting_Units_Handler = {
     Spawn_Settings = {
         Global_Multiplier = 1.75,-- Max Combat Power multiplier
+        Spawn_Variations = 6, -- How many variations do we want to generate
         Factions = {
             UNSC = {
                 Station = {
@@ -603,11 +604,13 @@ function Starting_Units_Handler:Start()
 
             Station.Spawn_Layout.Space = {}
 
-            Station.Spawn_Layout.Space[1] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
-            Station.Spawn_Layout.Space[2] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
-            Station.Spawn_Layout.Space[3] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+            local Total_Space_Variations = 0
 
+            while Total_Space_Variations < self.Spawn_Settings.Spawn_Variations do
+                Station.Spawn_Layout.Space[Total_Space_Variations + 1] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
 
+                Total_Space_Variations = Total_Space_Variations + 1
+            end
 
             local Ground_Distribution = DiscreteDistribution.Create()
 
@@ -626,9 +629,13 @@ function Starting_Units_Handler:Start()
 
             Station.Spawn_Layout.Ground = {}
 
-            Station.Spawn_Layout.Ground[1] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
-            Station.Spawn_Layout.Ground[2] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
-            Station.Spawn_Layout.Ground[3] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+            local Total_Ground_Variations = 0
+
+            while Total_Ground_Variations < self.Spawn_Settings.Spawn_Variations do
+                Station.Spawn_Layout.Ground[Total_Ground_Variations + 1] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+
+                Total_Ground_Variations = Total_Ground_Variations + 1
+            end
 
         end
     end

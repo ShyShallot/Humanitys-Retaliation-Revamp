@@ -97,6 +97,9 @@ function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackov
     return t1
 end
 
+---Get Amount of elements in a table, table.getn() has edge cases so this is more reliable but a bit slower
+---@param table table|nil
+---@return number
 function tableLength(table)
 
     if table == nil then
@@ -110,26 +113,23 @@ function tableLength(table)
     return count
 end
 
-function getRandomStringKey(Table)
-    local keys = {}
-    for key, _ in pairs(Table) do
-        if type(key) == "string" then
-            table.insert(keys, key)
-        end
-    end
-
-    if table.getn(keys) > 0 then
-        local randomIndex = EvenMoreRandom(1, table.getn(keys))
-        return keys[randomIndex]
-    else
-        return nil -- Return nil if there are no string keys in the table
-    end
-end
-
+---@param min number|nil Minimum Number 
+---@param max number|nil Maximum Number
+---@param count? number|nil Variation for more randomness
+---@return number
 function EvenMoreRandom(min,max,count) 
     if count == 0 or count == nil then
         count = 20
     end
+
+    if min == nil then
+        min = 0
+    end
+
+    if max == nil then
+        max = 1
+    end
+
     --DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
     local values = {}
     for i = 1, count, 1 do
@@ -158,6 +158,7 @@ function EvenMoreRandomFloat(count)
 
 end
 
+---@return PlayerWrapper|nil
 function Find_Human_Player()
     empire = Find_Player("EMPIRE")
     rebels = Find_Player("REBEL")
