@@ -86,4 +86,12 @@
 		<Story_Chapter>1</Story_Chapter>
 		<Story_Tag>Schism_Tag</Story_Tag>
     </Event>
+
+    <Event Name="Far_Isle_Event_Dialog">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_Far_Isle_Campaign_Dialog</Event_Param2>
+        <Story_Dialog>DIALOG_SCHISM</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Schism_Tag</Story_Tag>
+    </Event>
 </Story>

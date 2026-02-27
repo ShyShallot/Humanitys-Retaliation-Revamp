@@ -29,6 +29,8 @@ function Definitions()
 
     Great_Schism = nil
 
+    Far_Isle_Campaign = nil
+
 end
 
 function Global_Story(message)
@@ -45,6 +47,8 @@ function Global_Story(message)
         Global_Planet_Table = require("globalPlanetTable")
 
         Great_Schism = require("Great_Schism")
+        
+        Far_Isle_Campaign = require("Far_Isle_Campaign")
 
         Starting_Units:Start()
 
@@ -56,6 +60,8 @@ function Global_Story(message)
             Tech_Theft:Init(Global_Planet_Table, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
 
             Great_Schism:Init()
+
+            Far_Isle_Campaign:Init()
 
             Set_Next_State("Flush")
         end
@@ -70,16 +76,28 @@ function Update(message)
 
         Great_Schism:Check()
 
-        -- Uncomment to Force the Great Schism for Debugging Purporses
-        --if GetCurrentTime.Galactic_Time() >= 8 then
-        --    local Earth = FindPlanet("EARTH")
+        Far_Isle_Campaign:Check()
 
-        --    if TestValid(Earth) then
-        --        if Earth.Get_Owner() == Find_Player("REBEL") then
-        --            Earth.Change_Owner(Find_Player("EMPIRE"))
-        --        end
-        --    end
-        --end
+        -- Uncomment to Force the Great Schism for Debugging Purporses
+        --[[if GetCurrentTime.Galactic_Time() >= 8 then
+            local Earth = FindPlanet("EARTH")
+
+            if TestValid(Earth) then
+                if Earth.Get_Owner() == Find_Player("REBEL") then
+                    Earth.Change_Owner(Find_Player("EMPIRE"))
+                end
+            end
+        end ]]--
+
+        --[[if GetCurrentTime.Galactic_Time() >= 5 then
+            local Far_Isle = FindPlanet("Far_Isle")
+
+            if TestValid(Far_Isle) then
+                if Far_Isle.Get_Owner() ~= Find_Player("REBEL") then
+                    Far_Isle.Change_Owner(Find_Player("REBEL"))
+                end
+            end
+        end ]]--
     end
 end
 

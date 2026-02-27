@@ -53,6 +53,11 @@
         <Event_Param2>Trigger_Great_Schism</Event_Param2>
     </Event>
 
+    <Event Name="Far_Isle_Event">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_Far_Isle_Campaign</Event_Param2>
+    </Event>
+
     <Event Name="Morale_Display_UNSC">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Morale_Display_UNSC</Event_Param2>
@@ -75,6 +80,11 @@
         <Event_Type>STORY_SPACE_TACTICAL</Event_Type>
         <Event_Param1>HaloFiles\Campaigns\StoryFiles\Morale_System_Tactical_Plot.xml</Event_Param1>
         <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Hero_Rescued">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_Hero_Rescue</Event_Param2>
     </Event>
 
     <Event Name="Morale_Lost_Battle">
