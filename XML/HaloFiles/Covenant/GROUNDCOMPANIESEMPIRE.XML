@@ -81,7 +81,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>5</Formation_Priority>
@@ -252,7 +252,7 @@
 	</GroundCompany>
 
 	<GroundCompany Name="Imperial_Artillery_Corp">
-		<Text_ID>TEXT_IMPERIAL_ARTILLERY_CORPS</Text_ID>
+		<Text_ID>COVN_WRAITH_DIVISION</Text_ID>
 		<Encyclopedia_Good_Against> UC_Rebel_Buildable_Anti_Vehicle_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank Plex_Soldier </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -268,7 +268,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>COVN_STANDARD_FACTORY</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>6</Formation_Priority>

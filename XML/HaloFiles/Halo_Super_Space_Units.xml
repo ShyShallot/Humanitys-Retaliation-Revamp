@@ -927,8 +927,9 @@
 	<SpaceUnit Name="COVN_CSO">
 	
 		<Variant_Of_Existing_Type>COVN_CAS</Variant_Of_Existing_Type>
-		<Text_ID> TEXT_UNIT_COVN_HERO_RHO </Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_HERO_RHO TEXT_TOOLTIP_COVN_CSO</Encyclopedia_Text>
+		<Text_ID> TEXT_COVN_CSO </Text_ID>
+		<!-- <Text_ID> TEXT_UNIT_COVN_HERO_RHO </Text_ID> <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HERO_RHO </Encyclopedia_Text>-->
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CSO</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
 		
 		<Custom_Hard_XExtent> 200 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 200 </Custom_Hard_YExtent>

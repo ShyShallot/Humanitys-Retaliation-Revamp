@@ -10,7 +10,7 @@ Starting_Units_Handler = {
                             Space = 10000,
                             Ground = 300
                         },
-                        Structures = {"UNSC_CAMP"},
+                        Structures = {"UNSC_CAMP", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY"},
                         Space_Units = {
                             ["BUCKLER_SQUADRON"] = {
                                 Weight = 50,
@@ -41,7 +41,7 @@ Starting_Units_Handler = {
                             Space = 15000,
                             Ground = 600
                         },
-                        Structures = {"UNSC_BASE"},
+                        Structures = {"UNSC_BASE", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY"},
                         Space_Units = {
                             ["BUCKLER_SQUADRON"] = {
                                 Weight = 35,
@@ -76,7 +76,7 @@ Starting_Units_Handler = {
                             Space = 25000,
                             Ground = 1200,
                         },
-                        Structures = {"UNSC_FORT"},
+                        Structures = {"UNSC_FORT", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY", "COMMUNICATIONS_ARRAY_R"},
                         Space_Units = {
 							["BUCKLER_SQUADRON"] = {
                                 Weight = 35,
@@ -177,7 +177,7 @@ Starting_Units_Handler = {
                             Space = 25000,
                             Ground = 600,
                         },
-                        Structures = {},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY"},
                         Space_Units = {
                             ["CRS_SQUADRON"] = {
                                 Weight = 100,
@@ -196,7 +196,7 @@ Starting_Units_Handler = {
                             Space = 30500,
                             Ground = 600,
                         },
-                        Structures = {},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY"},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 50,
@@ -219,7 +219,7 @@ Starting_Units_Handler = {
                             Space = 60000,
                             Ground = 600,
                         },
-                        Structures = {},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY"},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 65,
@@ -246,7 +246,7 @@ Starting_Units_Handler = {
                             Space = 120500,
                             Ground = 600,
                         },
-                        Structures = {},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "POWER_GENERATOR_E", "E_GROUND_BASE_SHIELD"},
                         Space_Units = {
 							["COVN_SDV"] = {
                                 Weight = 25,
@@ -289,7 +289,7 @@ Starting_Units_Handler = {
                             Space = 185000,
                             Ground = 600,
                         },
-                        Structures = {},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "POWER_GENERATOR_E", "E_GROUND_BASE_SHIELD"},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 25,

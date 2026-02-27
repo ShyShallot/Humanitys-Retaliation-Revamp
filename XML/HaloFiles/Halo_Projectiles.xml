@@ -1932,7 +1932,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>20</Projectile_Damage>
+		<Projectile_Damage>250</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2067,7 +2067,7 @@
 		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Land_Model_Name>
 		<Max_Speed>10.8</Max_Speed>
 		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
-		<Projectile_Damage>295.0</Projectile_Damage>
+		<Projectile_Damage>395.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 35 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
