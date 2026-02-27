@@ -341,15 +341,15 @@
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>TEXT_UNIT_AT_ST_WALKER</Text_ID>
-		<Encyclopedia_Good_Against> Rebel_Trooper Underworld_Merc </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ATST</Encyclopedia_Text>
+		<Text_ID>UNSC_MANTIS</Text_ID>
+		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>UNSC_MANTIS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
+		<Land_Model_Name>UNSC_MANTIS.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,SHIELDED,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
 
 		<Garrison_Category> Vehicle </Garrison_Category>
@@ -360,12 +360,12 @@
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>2.6</Scale_Factor>
 
 		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
-		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
@@ -390,7 +390,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Required_Timeline>0</Required_Timeline>
 		<Size_Value>75</Size_Value>
@@ -399,17 +399,17 @@
 		<Damage_Type>Damage_ATST</Damage_Type>
 		<Projectile_Damage>7.0</Projectile_Damage>
 		<Damage>6</Damage>
-		<Shield_Points>200</Shield_Points>
-		<Tactical_Health>400</Tactical_Health>
-		<Shield_Refresh_Rate>100.0</Shield_Refresh_Rate>
+		<Shield_Points>0.0</Shield_Points>
+		<Tactical_Health>2400</Tactical_Health>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Projectile_Types>Plasma_Rifle</Projectile_Types>
+		<Projectile_Types>LAAG</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Count>35</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
@@ -419,7 +419,7 @@
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
@@ -428,11 +428,11 @@
 		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Corvette, 45.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
+		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -442,7 +442,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_AT_ST</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_AT_ST</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_AT_ST </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_AT_ST </SFXEvent_Assist_Attack>
