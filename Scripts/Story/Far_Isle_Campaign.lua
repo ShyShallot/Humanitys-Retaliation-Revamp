@@ -3,7 +3,7 @@ Far_Isle_Campaign = {
 
     Capture_List = {"Far_Isle"},
 
-    Planet_Loss_List = {"Madrigal", "Meridian", "Arcadia", "Aleria", "Gao", "Harmony"},
+    Planet_Loss_List = {"Meridian", "Arcadia", "Aleria", "Gao", "Harmony"},
 
     Terrorists = nil,
 
