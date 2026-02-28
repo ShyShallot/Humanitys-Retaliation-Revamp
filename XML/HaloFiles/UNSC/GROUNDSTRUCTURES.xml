@@ -2,7 +2,7 @@
 <UNSC_Ground_Structs>
     <SpecialStructure Name="UNSC_CAMP">  <!-- THIS IS UNSC FIREBASE -->
 		<Select_Box_Scale>200</Select_Box_Scale>
-
+		<Variant_Of_Existing_Type>R_Ground_Barracks</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FIREBASE</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FIREBASE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BASE</Encyclopedia_Unit_Class>
@@ -11,7 +11,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_BARRACKS.ALO</Land_Model_Name>
 		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -127,7 +127,7 @@
 		
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_STATION</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_STATION </Encyclopedia_Text>
-
+		<Variant_Of_Existing_Type>R_Ground_Barracks</Variant_Of_Existing_Type>
 		<Required_Special_Structures>UNSC_CAMP</Required_Special_Structures>
 		
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -137,7 +137,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_BARRACKS.ALO</Land_Model_Name>
 		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -253,12 +253,12 @@
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FORTRESS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FORTRESS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BASE</Encyclopedia_Unit_Class>
-		
+		<Variant_Of_Existing_Type>R_Ground_Barracks</Variant_Of_Existing_Type>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_BARRACKS.ALO</Land_Model_Name>
 		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -419,7 +419,7 @@
 	<SpecialStructure Name="UNSC_FARM">
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FARM</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
@@ -1760,7 +1760,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1876,7 +1876,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -2010,7 +2010,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
-		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Dummy>No</Is_Dummy>
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Scale_Factor>0.75</Scale_Factor>

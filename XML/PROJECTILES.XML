@@ -1307,19 +1307,7 @@
 		<AI_Combat_Power>80</AI_Combat_Power>
 	</Projectile>
 
-	<Projectile Name="AT_ST_Barrage"> <!-- used by AT-ST -->
-		<Variant_Of_Existing_Type>Proj_Generic_Small_Red</Variant_Of_Existing_Type>
-		<Projectile_Width>0.8</Projectile_Width>
-		<Damage_Type> Damage_ATST </Damage_Type>
-		<Projectile_Length>2.0</Projectile_Length>
-		<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
-		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Max_Flight_Distance>150.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>3.0</Projectile_Damage>
-		<AI_Combat_Power>80</AI_Combat_Power>
-		<Projectile_Lifetime_Detonation_Particle>Medium_Damage_Land</Projectile_Lifetime_Detonation_Particle>
-	</Projectile>
+	
 
 	<Projectile Name="Proj_Flak_Pod"> <!-- Used by AT-AA -->
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -1662,7 +1650,7 @@
 		<Land_Model_Name>p_spmat_shot.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>18.0</Max_Speed>
+		<Max_Speed>14.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -1672,7 +1660,7 @@
 		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->
 		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
 		
-		<Projectile_Damage>3000.0</Projectile_Damage>
+		<Projectile_Damage>2250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>

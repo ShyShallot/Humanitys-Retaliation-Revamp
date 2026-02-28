@@ -360,9 +360,9 @@
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
-		<Scale_Factor>2.6</Scale_Factor>
+		<Scale_Factor>1.9</Scale_Factor>
 
-		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
 		<Max_Speed>0.5</Max_Speed>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
@@ -412,7 +412,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
 
 		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
@@ -433,6 +433,8 @@
 		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
+		
+		<HardPoints>UNSC_Mantis_Rocket</HardPoints>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -521,7 +523,7 @@
                 <Area_Effect_Decal_Distance> 75.0 </Area_Effect_Decal_Distance>
                 
 				<!-- keep this the same as Area_Effect_Decal_Distance -->
-				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>15</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 				
 				<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
 
@@ -966,8 +968,8 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
 

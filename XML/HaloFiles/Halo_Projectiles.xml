@@ -1979,6 +1979,45 @@
 		
 	</Projectile>
 	
+	<Projectile Name="AT_ST_Barrage"> <!-- used by Mantis (HE version of the LAAG) -->
+		<Variant_Of_Existing_Type>LAAG</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_ATST </Damage_Type>
+		<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Max_Flight_Distance>550.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>3.0</Projectile_Damage>
+		<AI_Combat_Power>80</AI_Combat_Power>
+		<Projectile_Lifetime_Detonation_Particle>Medium_Damage_Land</Projectile_Lifetime_Detonation_Particle>
+	</Projectile>
+	
+	<Projectile Name="M5920_Missile_System"> <!-- Mantis Missile -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
+		<Scale_Factor>0.3</Scale_Factor>
+		<Damage_Type> Damage_Con_Missile_T4B </Damage_Type>
+		<Max_Speed>6.5</Max_Speed>
+		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
+		<Projectile_Damage>500.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+		
+	</Projectile>
+	
 	<Projectile Name="Tank_Boom"> <!-- Tank Rounds -->
 	
 			<Text_ID>TEXT_NONE</Text_ID>
