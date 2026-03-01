@@ -508,6 +508,227 @@
 		<Behavior>HINT</Behavior>
 		<Create_Team>No</Create_Team>
 	</GroundInfantry>
+	
+	<GroundInfantry Name="COVN_HUNTER"> <!-- Covenant Hunter -->
+	
+		<LOD_Bias>1</LOD_Bias>
+		<Text_ID>COVN_HUNTER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Land_Model_Name> COVN_HUNTER_TEST.alo </Land_Model_Name>
+		<Icon_Name>i_button_rancor.tga</Icon_Name>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior> WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SQUASH, HUNT, UNIT_AI</LandBehavior>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Select_Box_Scale>50</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mass>1.0</Mass>
+		<GUI_Bracket_Width>5</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		
+		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .566 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.9 </FormationSpacing> 
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.05 </OverrideAcceleration>
+		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+
+		<Scale_Factor>0.35</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Affiliation>Empire, Swords</Affiliation>
+		<Type>Walk</Type>
+		<Required_Timeline>0</Required_Timeline>
+		<IsBuildable>Yes</IsBuildable>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_Default </Armor_Type>
+		<Damage>90</Damage>
+		<Tactical_Health>1500</Tactical_Health>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>33.0, 33.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
+		<Projectile_Types>Proj_Rancor_Hit</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
+		
+		<Hardpoints>Hunter_Beam</Hardpoints>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>Rancor_Dark_Ally_Attack_Priority</Targeting_Priority_Set>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Fade_Time>3.0</Death_Fade_Time>
+
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+		<Create_Team>Yes</Create_Team>
+
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+
+		<Influences_Capture_Point> True </Influences_Capture_Point>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		
+		<Death_Clone>Damage_Normal, Hunter_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, Hunter_Death_Clone_01</Death_Clone>
+				
+		<Abilities SubObjectList="Yes">
+			<Generic_Attack_Ability Name="Rancor_Pound_Vehicles">
+				<Activation_Chance>1.0</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>10.0</Activation_Max_Range>
+				<Damage_Amount>400.0</Damage_Amount>
+				<Damage_Percentage>0.0</Damage_Percentage>
+				<Damage_Type>Damage_Normal</Damage_Type>
+				<Attack_Animation>POUND_ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Damage_Frame_Number>20</Damage_Frame_Number>
+				<SFXEvent_Apply_Damage />
+				<Applicable_Unit_Categories>Vehicle, Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Generic_Attack_Ability>
+			
+		
+			<Eat_Attack_Ability Name="Rancor_Eat_Infantry">
+				<Activation_Chance>1.0</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>10.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Health_Per_Victim>120</Health_Per_Victim>
+				<Damage_Type>Damage_Eat</Damage_Type>
+				<Attack_Animation>EAT_ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
+				<Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
+				<Attachment_Frame>14</Attachment_Frame>
+				<Target_Destruction_Frame>110</Target_Destruction_Frame>
+				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Types>
+					Rancor, 
+					Rancor_Dark_Ally,
+					Night_Sister,
+					UM06_Night_Sister,
+					Prisoner_Night_Sister,
+                    Wampa,
+					Cuddles_The_Rancor
+				</Excluded_Unit_Types>
+				<Applicable_Unit_Types />
+			</Eat_Attack_Ability>
+
+			<Arc_Sweep_Attack_Ability Name="Rancor_Swat_Infantry_Left">
+				<Activation_Chance>0.5</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>10.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
+				<Attack_Animation>ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Attack_Animation_Subindex>0</Attack_Animation_Subindex>
+				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
+				<Arc_Min_Range>0.0</Arc_Min_Range>
+				<Arc_Max_Range>30.0</Arc_Max_Range>
+				<Begin_Applying_Damage_Frame>27</Begin_Applying_Damage_Frame>
+				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
+				<Apply_Damage_Right_To_Left>Yes</Apply_Damage_Right_To_Left>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Applicable_Unit_Types />
+			</Arc_Sweep_Attack_Ability>
+
+			<Arc_Sweep_Attack_Ability Name="Rancor_Swat_Infantry_Right">
+				<Activation_Chance>0.5</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>10.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
+				<Attack_Animation>ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Attack_Animation_Subindex>1</Attack_Animation_Subindex>	<!-- left-to-right sweep -->
+				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
+				<Arc_Min_Range>0.0</Arc_Min_Range>
+				<Arc_Max_Range>30.0</Arc_Max_Range>
+				<Begin_Applying_Damage_Frame>27</Begin_Applying_Damage_Frame>
+				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
+				<Apply_Damage_Right_To_Left>No</Apply_Damage_Right_To_Left>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Applicable_Unit_Types />
+			</Arc_Sweep_Attack_Ability>
+		</Abilities>
+		<AI_Combat_Power>1000</AI_Combat_Power>
+		
+	</GroundInfantry>
+	
+		<GroundInfantry Name="Hunter_Death_Clone_00">
+		<Variant_Of_Existing_Type>COVN_HUNTER</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+      
+		<Custom_Hard_XExtent_Offset> 30.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 23.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 24.0 </Custom_Hard_YExtent>
+		
+		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
+		<Death_Fade_Time>3.0</Death_Fade_Time>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+   
+	</GroundInfantry>
+
+	<GroundInfantry Name="Hunter_Death_Clone_01">
+		<Variant_Of_Existing_Type>COVN_HUNTER</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+      
+		<Custom_Hard_XExtent_Offset> -42.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 24.0 </Custom_Hard_YExtent>
+		
+		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
+		<Death_Fade_Time>3.0</Death_Fade_Time>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+   
+	</GroundInfantry>
 
 	<GroundInfantry Name="Plex_Soldier">
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
@@ -666,6 +887,8 @@
 		<Conversion_Ability_Changes_To_Enemy> Plex_Soldier_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
 	</GroundInfantry>
+	
+
 
 	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
@@ -2242,10 +2465,23 @@
 		<Create_Team>Yes</Create_Team>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Squad_Stormtrooper">
+	<GroundInfantry Name="Squad_Stormtrooper"> 
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>Covenant-Elite</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED, HUNT</LandBehavior>
+		<Is_Squashable> No </Is_Squashable>
+		<Max_Speed> 0.7 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Squad_COVN_HUNTER"> 
+		<Variant_Of_Existing_Type>COVN_HUNTER</Variant_Of_Existing_Type>
+		<Text_ID>Hunter</Text_ID>
+		<LandBehavior>LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, HUNT</LandBehavior>
 		<Is_Squashable> No </Is_Squashable>
 		<Max_Speed> 0.7 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
