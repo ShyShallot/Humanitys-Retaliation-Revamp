@@ -1645,7 +1645,7 @@
 		<AI_Combat_Power>300</AI_Combat_Power>
 	</Projectile>
 
-	<Projectile Name="Proj_Ground_SPMAT_Grenade"> <!-- This is the Placeholder Wraith Roung -->
+	<Projectile Name="Proj_Ground_SPMAT_Grenade"> <!-- This is the Placeholder Wraith Round -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>p_spmat_shot.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Scale_Factor>2.0</Scale_Factor>

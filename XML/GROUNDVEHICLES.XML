@@ -684,10 +684,10 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Movement_Animation_Speed> 0.45 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.30 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Rotation_Animation_Speed> 0.70 </Rotation_Animation_Speed>
-		<Max_Speed> .45 </Max_Speed>
+		<Max_Speed> 1.05 </Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn> 0.2 </Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
@@ -709,7 +709,7 @@
 		<Size_Value>150</Size_Value>
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>16500</Tactical_Health>
+		<Tactical_Health>26500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -739,12 +739,12 @@
 		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 
-		<Projectile_Types>Scarab_Incendiary_Gel</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Types>Scarab_AA_GUN</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>14.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 		
-		<!-- <HardPoints>Scarab_Beam</HardPoints> -->
+		<HardPoints>Scarab_Beam</HardPoints>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
