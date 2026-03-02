@@ -3,48 +3,30 @@
 Random_Start = {
     Total_Major_Starting_Planets = 1,
 
-    Minor_Faction_Control_Percentage = 0.45, -- this is per minor faction, so each minor faction controls 40% at first, and with 2 minor factions that is 80% of the map starts with minor factions
-
     Spawn_List = {
-        {Name = "Rebel", Major = true},
-        {Name = "Empire", Major = true},
-        {Name = "Swords", Major = false},
-        {Name = "Terrorists", Major = false},
+        {Name = "Rebel", Control_Percentage = 0.35}, -- Control Percentage is out of 100%, however because 1 of these factions will be human, only 3/4 of them will contribute to the 100%
+        {Name = "Empire", Control_Percentage = 0.35},
+        {Name = "Swords", Control_Percentage = 0.1},
+        {Name = "Terrorists", Control_Percentage = 0.1},
     },
 
-    Starting_Structures = {
+    Starbases = {
         REBEL = {
-            Ground = {"Rebel_Infantry_Squad", "Rebel_Tank_Buster_Squad", "Rebel_Pod_Walker_Company"},
-            Space = {},
-            Station = {
-                Level = 5,
-                Name = "Rebel_Star_Base_"
-            },
+            Random = {"Rebel_Star_Base_1","Rebel_Star_Base_2","Rebel_Star_Base_3","Rebel_Star_Base_4","Rebel_Star_Base_5"},
+            Starting = "Rebel_Star_Base_5",
         },
         EMPIRE = {
-            Ground = {"Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad"},
-            Space = {},
-            Station = {
-                Level = 5,
-                Name = "Empire_Star_Base_"
-            },
+            Random = {"Empire_Star_Base_1", "Empire_Star_Base_2", "Empire_Star_Base_3", "Empire_Star_Base_4", "Empire_Star_Base_5"},
+            Starting = "Empire_Star_Base_5",
         },
         SWORDS = {
-            Ground = {"Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad", "Imperial_Stormtrooper_Squad"},
-            Space = {},
-            Station = {
-                Name = "SWORDS_STARBASE_",
-                Range = {1,2,3}
-            }
+            Random = {"SWORDS_STARBASE_1", "SWORDS_STARBASE_2", "SWORDS_STARBASE_3"},
+            Starting = "SWORDS_STARBASE_3"
         },
         TERRORISTS = {
-            Ground = {"Rebel_Infantry_Squad", "Rebel_Infantry_Squad"},
-            Space = {},
-            Station = {
-                Name = "Terrorists_Star_Base_",
-                Range = {1,2,3}
-            }
-        }
+            Random = {"Terrorists_Star_Base_1", "Terrorists_Star_Base_2", "Terrorists_Star_Base_3"},
+            Starting = "Terrorists_Star_Base_3",
+        },
     },
 
     Starting_Units = {
@@ -58,258 +40,228 @@ Random_Start = {
 
     Neutral = nil,
 
+    Human = nil,
+
     Finished = false
 }
 
-function Random_Start:Clear_Starting_Planets(faction)
+function Random_Start:Clear_Starting_Planets()
 
-    if not TestValid(faction) then
-        return
-    end
+    for _, Faction_Entry in pairs(self.Spawn_List) do
+        local Faction = Find_Player(Faction_Entry.Name)
 
-    local Unit_To_Find = self.Starting_Units[faction.Get_Faction_Name()]
+        if TestValid(Faction) then
+            local Unit_To_Find = self.Starting_Units[string.upper(Faction.Get_Faction_Name())]
 
-    if Unit_To_Find ~= nil then
-        local Unit = Find_First_Object(Unit_To_Find)
+            if Unit_To_Find ~= nil then
+                local Unit = Find_First_Object(Unit_To_Find)
 
-        if TestValid(Unit) then
-            local Planet = Unit.Get_Planet_Location()
+                if TestValid(Unit) then
+                    local Planet = Unit.Get_Planet_Location()
 
-            if TestValid(Planet) then
-                Unit.Despawn()
-                Planet.Change_Owner(self.Neutral)
-            end
-        end
-    end
-end
-
-function Random_Start:Pick_Faction_Start_Major(Faction_Name)
-
-    local faction = Find_Player(Faction_Name)
-
-    if not TestValid(faction) then return end
-
-    self:Clear_Starting_Planets(faction)
-
-    local Selected_Planets = 0
-
-    local attempts = 0
-
-    while Selected_Planets < self.Total_Major_Starting_Planets and attempts < 15 do
-
-        local Starting_Planet = Random_From_List(self.Planet_List)
-
-        if TestValid(Starting_Planet) then
-
-            if Starting_Planet.Get_Owner() == self.Neutral then
-
-                Starting_Planet.Change_Owner(faction)
-
-                local Structs = self.Starting_Structures[faction.Get_Faction_Name()]
-
-                if Structs ~= nil then
-
-                    local Station_Info = Structs.Station
-
-                    if Station_Info.Name ~= nil then
-
-                        if type(Station_Info.Level) == "number" then
-                            local Station_To_Spawn = Station_Info.Name .. Station_Info.Level
-
-                            Spawn_Unit(Find_Object_Type(Station_To_Spawn), Starting_Planet, faction)
-                        end
-                    end
-
-                    for _, struct in pairs(Structs.Ground) do
-                        Spawn_Unit(Find_Object_Type(struct), Starting_Planet, faction)
-                    end
-
-                    for _, struct in pairs(Structs.Space) do
-                        Spawn_Unit(Find_Object_Type(struct), Starting_Planet, faction)
+                    if TestValid(Planet) then
+                        Unit.Despawn()
+                        Planet.Change_Owner(self.Neutral)
                     end
                 end
-
-                Selected_Planets = Selected_Planets + 1
             end
         end
-
-        attempts = attempts + 1
-    end
-end
-
-function Random_Start:Minor_Faction_Fill(Faction_Name)
-
-    local faction = Find_Player(Faction_Name)
-
-    if not TestValid(faction) then return end
-
-    self:Clear_Starting_Planets(faction)
-
-    local Planets_To_Control = tonumber(Dirty_Floor(tableLength(self.Planet_List) * self.Minor_Faction_Control_Percentage))
-
-    local Controlled_Planets = 0 
-
-    local attempts = 0
-
-    while Controlled_Planets < Planets_To_Control and attempts < 60 do
-
-        local Starting_Planet = Random_From_List(self.Planet_List)
-
-        if TestValid(Starting_Planet) then
-
-            if Starting_Planet.Get_Owner() == self.Neutral then
-
-                Starting_Planet.Change_Owner(faction)
-                
-
-                local Structs = self.Starting_Structures[faction.Get_Faction_Name()]
-
-                if Structs ~= nil then
-
-                    local Station_Info = Structs.Station
-
-                    if Station_Info.Name ~= nil then
-                        local Station_Level = EvenMoreRandom(Station_Info.Range[1],Station_Info.Range[2])
-
-                        if type(Station_Level) == "number" then
-                            local Station_To_Spawn = Station_Info.Name .. Station_Level
-
-                            Spawn_Unit(Find_Object_Type(Station_To_Spawn), Starting_Planet, faction)
-                        end
-                    end
-
-                    for _, struct in pairs(Structs.Ground) do
-                        Spawn_Unit(Find_Object_Type(struct), Starting_Planet, faction)
-                    end
-
-                    for _, struct in pairs(Structs.Space) do
-                        Spawn_Unit(Find_Object_Type(struct), Starting_Planet, faction)
-                    end
-                end
-
-                Controlled_Planets = Controlled_Planets + 1
-            end
-        end
-
-        attempts = attempts + 1
     end
 end
 
 function Random_Start:Start()
 
-    local Planets = FindPlanet.Get_All_Planets()
+    if self.Finished then
+        return
+    end
 
-    local invalid_planets = {"Compromised", "Strained", "Resolute", "Ascendant"}
+    local Planets = Planet_Table:Return_All_Keys()
 
-    for _, planet in pairs(Planets) do
-        local planet_name = planet.Get_Type().Get_Name()
+    for _, Planet_Name in pairs(Planets) do
+        local Planet = FindPlanet(Planet_Name)
 
-        local valid = true
-
-        for _, invalid in pairs(invalid_planets) do
-            if string.upper(invalid) == string.upper(planet_name) then
-                valid = false
-
-                break
-            end
-        end
-
-        if valid then
-            table.insert(self.Planet_List, planet)
+        if TestValid(Planet) then
+            table.insert(self.Planet_List, Planet)
         end
     end
 
     self.Neutral = Find_Player("Neutral")
 
+    self:Clear_Starting_Planets()
+
+    self.Human = Find_Human_Player()
+
+    self:Human_Random_Start()
+
     for _, Faction_Info in pairs(self.Spawn_List) do
-        if Faction_Info.Major then
-            self:Pick_Faction_Start_Major(Faction_Info.Name)
-        else
-            self:Minor_Faction_Fill(Faction_Info.Name)
+        local Player = Find_Player(Faction_Info.Name)
+
+        if TestValid(Player) then
+            if not Player.Is_Human() then
+                self:Fill_Random_Start(Player, Faction_Info.Control_Percentage)
+            end
         end
     end
 
     self.Finished = true
 end
 
-function Random_Start:Set_Starting_Planet_Count(count)
-    self.Total_Major_Starting_Planets = count
-end
-
 function Random_Start:Is_Finished()
     return self.Finished
 end
 
-function Random_Start:Set_Major_Faction_Starting_Station_Level(faction, level)
+function Random_Start:Set_Starting_Planet_Count(Count)
+    if type(Count) ~= "number" then
+        Count = 1
+    end
 
-    if faction == nil then
+    self.Total_Major_Starting_Planets = Count
+end
+
+function Random_Start:Human_Random_Start()
+    if not TestValid(self.Human) then
         return
     end
 
-    if type(level) ~= "number" then
+    local Human_Planets = 0
+
+    local attempts = 0
+
+    while Human_Planets < self.Total_Major_Starting_Planets and attempts < 10 do
+
+        local Random_Planet = Random_From_List(self.Planet_List)
+
+        local attempts_y = 0
+
+        local Valid_Planet = false
+
+        while not Valid_Planet and attempts_y < 10 do
+
+            if TestValid(Random_Planet) then
+                if Random_Planet.Get_Owner() == self.Neutral then
+                    Valid_Planet = true
+                    break
+                end
+            end
+
+            Random_Planet = Random_From_List(self.Planet_List)
+
+            attempts_y = attempts_y + 1
+        end
+
+        if TestValid(Random_Planet) then
+            Random_Planet.Change_Owner(self.Human)
+
+            self:Spawn_Space_Station(Random_Planet, self.Human, true)
+
+            Human_Planets = Human_Planets + 1
+        end
+
+        attempts = attempts + 1
+    end
+end
+
+function Random_Start:Fill_Random_Start(Player, Control_Percentage)
+
+    if not TestValid(Player) then
         return
     end
 
-    if level < 1 or level > 5 then 
+    if type(Control_Percentage) ~= "number" then
         return
     end
 
-    if TestValid(faction) then
-        local Faction_Name = faction.Get_Faction_Name()
+    local New_Planet_List = {}
 
-        if Faction_Name ~= nil then
-            local Faction_Info = self.Starting_Structures[Faction_Name]
+    for _, Planet in pairs(self.Planet_List) do
+        if TestValid(Planet) then
+            if Planet.Get_Owner() == self.Neutral then
+                table.insert(New_Planet_List, Planet)
+            end
+        end
+    end
 
-            if Faction_Info ~= nil then
+    local Planets_To_Control = tonumber(Dirty_Floor(tableLength(New_Planet_List) * Control_Percentage))
 
-                if Faction_Info.Station.Level ~= nil then
-                    Faction_Info.Station.Level = level
+    if Planets_To_Control > 0 then
+        local Controlled_Planets = 0
+
+        local attempts = 0
+
+        while Controlled_Planets < Planets_To_Control and attempts < 50 do
+            local Random_Planet = Random_From_List(New_Planet_List)
+
+            local Is_Valid_Spawn = false
+
+            local attempts_y = 0
+
+            while not Is_Valid_Spawn and attempts_y < 10 do
+                if TestValid(Random_Planet) then
+                    if Random_Planet.Get_Owner() == self.Neutral then
+                        Is_Valid_Spawn = true
+                        break
+                    end
+                end
+
+                Random_Planet = Random_From_List(New_Planet_List)
+
+                attempts_y = attempts_y + 1
+            end
+
+            if TestValid(Random_Planet) then
+                Random_Planet.Change_Owner(Player)
+
+                self:Spawn_Space_Station(Random_Planet, Player)
+
+                Controlled_Planets = Controlled_Planets + 1
+            end
+
+            attempts = attempts + 1
+        end
+    end
+end
+
+function Random_Start:Spawn_Space_Station(Planet, Player, Is_Starting)
+    if not TestValid(Planet) then
+        return
+    end
+
+    if not TestValid(Player) then
+        return 
+    end
+
+    local Station_Entry = self.Starbases[string.upper(Player.Get_Faction_Name())]
+
+    if Station_Entry == nil then
+        return
+    end
+
+    if Is_Starting then
+        local Station = Station_Entry.Starting
+
+        if Station ~= nil then
+            local Station_Type = Find_Object_Type(Station)
+
+            if Station_Type ~= nil then
+                Spawn_Unit(Station_Type, Planet, Player)
+            end
+        end
+    else
+        local Random_Starbases = Station_Entry.Random
+
+        if Random_Starbases ~= nil then
+            local Random_Starbase = Random_From_List(Random_Starbases)
+
+            if Random_Starbase ~= nil then
+                local Random_Starbase_Type = Find_Object_Type(Random_Starbase)
+
+                if Random_Starbase_Type ~= nil then
+                    Spawn_Unit(Random_Starbase_Type, Planet, Player)
                 end
             end
         end
     end
 end
 
-function Random_Start:Set_Minor_Faction_Starting_Station_Range(faction, low, high)
-
-    if faction == nil then
-        return
-    end
-
-    if type(low) ~= "number" and type(high) ~= "number" then
-        return
-    end
-
-    if low < 1 then
-        return
-    end
-
-    if high > 5 then
-        return
-    end
-
-    if low > high then
-        local temp = high
-
-        high = low
-
-        low = temp
-    end
-
-    if TestValid(faction) then
-        local Faction_Name = faction.Get_Faction_Name()
-
-        if Faction_Name ~= nil then
-            local Faction_Info = self.Starting_Structures[Faction_Name]
-
-            if Faction_Info ~= nil then
-
-                if Faction_Info.Station.Range ~= nil then
-                    Faction_Info.Station.Range = {low, high}
-                end
-            end
-        end
-    end
-end
 
 return Random_Start
