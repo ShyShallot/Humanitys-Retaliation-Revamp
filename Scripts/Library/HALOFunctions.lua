@@ -130,6 +130,10 @@ function EvenMoreRandom(min,max,count)
         max = 1
     end
 
+    if max == min then
+        return min
+    end
+
     --DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
     local values = {}
     for i = 1, count, 1 do
@@ -192,6 +196,10 @@ function PrintTable(array)
 
     for key,pair in pairs(array) do
         DebugMessage("Key: %s, Pair: %s", tostring(key), tostring(pair))
+
+        if type(pair) == "table" then
+            PrintTable(pair)
+        end
     end
 end
 

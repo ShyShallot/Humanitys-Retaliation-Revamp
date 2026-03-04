@@ -20,6 +20,6 @@ function State_Init(messsage)
 
         Sleep(1)
 
-        BaseStory:Initialize(nil, "HaloFiles\\Campaigns\\StoryMissions\\Setup_Generic.xml")
+        BaseStory:Initialize(nil)
     end
 end

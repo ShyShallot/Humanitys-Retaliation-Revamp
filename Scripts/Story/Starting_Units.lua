@@ -2,7 +2,7 @@
 Starting_Units_Handler = {
     Spawn_Settings = {
         Global_Multiplier = 1.75,-- Max Combat Power multiplier
-        Spawn_Variations = 1, -- How many variations do we want to generate
+        Spawn_Variations = 5, -- How many variations do we want to generate
         Factions = {
             UNSC = {
                 Station = {
@@ -135,7 +135,20 @@ Starting_Units_Handler = {
                                 Limit = -1
                             }
                         },
-                        Ground_Units = {},
+                        Ground_Units = {
+                            ["Rebel_Infantry_Squad"] = {
+                                Weight = 65,
+                                Limit = -1
+                            },
+                            ["Rebel_Tank_Buster_Squad"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
+                            ["Rebel_Pod_Walker_Company"] = {
+                                Weight = 15,
+                                Limit = -1
+                            },
+                        },
                     },
                     Ultra = {
                         Power = {
@@ -161,7 +174,20 @@ Starting_Units_Handler = {
                                 Limit = -1
                             }
                         },
-                        Ground_Units = {}
+                        Ground_Units = {
+                            ["Rebel_Infantry_Squad"] = {
+                                Weight = 65,
+                                Limit = -1
+                            },
+                            ["Rebel_Tank_Buster_Squad"] = {
+                                Weight = 35,
+                                Limit = -1
+                            },
+                            ["Rebel_Pod_Walker_Company"] = {
+                                Weight = 15,
+                                Limit = -1
+                            },
+                        }
                     }
                 },
                 Heroes = {
@@ -609,6 +635,8 @@ function Starting_Units_Handler:Start()
             while Total_Space_Variations < self.Spawn_Settings.Spawn_Variations do
                 Station.Spawn_Layout.Space[Total_Space_Variations + 1] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
 
+                DebugMessage("%s -- New Space Spawn Variation: %s", tostring(Script), tostring(Station.Spawn_Layout.Space[Total_Space_Variations + 1]))
+
                 Total_Space_Variations = Total_Space_Variations + 1
             end
 
@@ -633,6 +661,8 @@ function Starting_Units_Handler:Start()
 
             while Total_Ground_Variations < self.Spawn_Settings.Spawn_Variations do
                 Station.Spawn_Layout.Ground[Total_Ground_Variations + 1] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+
+                DebugMessage("%s -- New Ground Spawn Variation: %s", tostring(Script), tostring(Station.Spawn_Layout.Ground[Total_Ground_Variations + 1]))
 
                 Total_Ground_Variations = Total_Ground_Variations + 1
             end
@@ -1101,6 +1131,10 @@ function Starting_Units_Handler:Get_Combat_Power(unit_name)
 end
 
 function Starting_Units_Handler:Spawn_From_List(Spawn_List, Planet)
+
+    DebugMessage("%s -- Spawning List %s on Planet: %s", tostring(Script), tostring(Spawn_List),tostring(Planet))
+
+    PrintTable(Spawn_List)
 
     if Spawn_List == nil then
         return

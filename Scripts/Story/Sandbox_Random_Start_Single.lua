@@ -24,8 +24,7 @@ function State_Init(messsage)
         BaseStory:Initialize(
             {
                 {Name = "Random_Planet_Starter", File = "Random_Planet_Starter", Dependency = nil, Update = false, Starts_GC = false, Needs_Plot_File = false}
-            }, 
-            "HaloFiles\\Campaigns\\StoryMissions\\Random_Start.xml"
+            }
         )
     end
 end

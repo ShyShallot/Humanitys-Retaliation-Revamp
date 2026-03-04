@@ -4,7 +4,7 @@ local BaseStory = {
     Plot_File = nil,
 }
 
-function BaseStory:Initialize(Custom_Modules, Plot_File)
+function BaseStory:Initialize(Custom_Modules, Manual_Start)
     DebugMessage("%s -- Initialize: Starting BaseStory Initialization", tostring(Script))
     if Custom_Modules then
         DebugMessage("%s -- Initialize: Registering Custom Modules", tostring(Script))
@@ -13,14 +13,16 @@ function BaseStory:Initialize(Custom_Modules, Plot_File)
         end
     end
 
-    self.Plot_File = Plot_File
+    self.Plot_File = "HaloFiles\\Campaigns\\StoryMissions\\Common_Events.xml"
     DebugMessage("%s -- Initialize: Plot File Set to %s", tostring(Script), tostring(Plot_File))
 
     self:Load_Default_Modules()
 
     PG_Story_Mode_Init()
 
-    self:Start_GC()
+    if not Manual_Start then
+        self:Start_GC()
+    end
 end
 
 function BaseStory:Register_Module(Module_Name, Module_File_Name, Module_Load_Dependency, Has_Update, Starts_GC, Needs_Plot_File)
@@ -161,6 +163,48 @@ function BaseStory:Init_Module(Module_Name)
     end
 end
 
+function BaseStory:Call_Module_Function(Module_Name, Function_Name, Values)
+
+    if type(Module_Name) ~= "string" then
+        DebugMessage("%s -- Call_Module_Function: Module_Name is not string", tostring(Script))
+        return nil
+    end
+    if type(Function_Name) ~= "string" then
+        DebugMessage("%s -- Call_Module_Function: Function_Name is not string", tostring(Script))
+        return nil
+    end
+
+    local Module_Entry = self.Modules[Module_Name]
+
+    if Module_Entry == nil then
+        DebugMessage("%s -- Call_Module_Function: Module '%s' not registered", tostring(Script), tostring(Module_Name))
+        return nil
+    end
+
+    local Module_Ref = Module_Entry.Module_Reference
+    if Module_Ref == nil then
+        DebugMessage("%s -- Call_Module_Function: Module_Reference for '%s' is nil", tostring(Script), tostring(Module_Name))
+        return nil
+    end
+
+    local Module_Function = Module_Ref[Function_Name]
+
+    if type(Module_Function) ~= "function" then
+        return
+    end
+
+    local args = {}
+    if type(Values) == "table" then
+       args = Values 
+    elseif Values ~= nil then
+        args[1] = Values
+    end
+
+    PrintTable(args)
+
+    return Module_Function(Module_Ref, unpack(args))
+end
+
 function BaseStory:Update_Module(Module_Name)
     if type(Module_Name) ~= "string" then
         DebugMessage("%s -- Update_Module: Module_Name is not string", tostring(Script))
@@ -250,6 +294,7 @@ function BaseStory:Start_GC()
         for Name, Entry in pairs(BaseStory.Modules) do
             if BaseStory.Init_Module(BaseStory, Name) then
                 Made_Progress = true
+                Sleep(1)
             end
         end
     end

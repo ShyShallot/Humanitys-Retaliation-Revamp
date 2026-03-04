@@ -4,6 +4,8 @@
     <Lua_Script>Sandbox_Generic_Start</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_Generic.xml</Active_Plot>
 
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Common_Events.xml</Active_Plot>
+
     <Lua_Script>Unit_Filters</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
 
@@ -19,5 +21,4 @@
     <Lua_Script>Hero_Rescue</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Rescue_Hero.xml</Active_Plot>
 
-    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
 </Story_Mode_Plots>
