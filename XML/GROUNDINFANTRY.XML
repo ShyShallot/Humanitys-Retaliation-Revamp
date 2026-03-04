@@ -730,21 +730,21 @@
    
 	</GroundInfantry>
 
-	<GroundInfantry Name="Plex_Soldier">
+	<GroundInfantry Name="Plex_Soldier">  <!-- UNSC MARINE ROCKETEER -->
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank TIE_Crawler AT_AT_Walker </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Stormtrooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Stealth_Capable>No</Stealth_Capable>
-		<Land_Model_Name>RI_PLEXSOLDIER.ALO</Land_Model_Name>
+		<Land_Model_Name>UNSC_INFANTRY_ROCKET.ALO</Land_Model_Name>
 
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			RI_PLEXS_Forest.ALO,
-			Urban, 				RI_PLEXS_Forest.ALO,
-			Arctic, 			RI_PLEXS_Forest.ALO,
-			Volcanic, 			RI_PLEXS_Forest.ALO,
-			Desert, 			RI_PLEXS_Forest.ALO,
-			Forest, 			RI_PLEXS_Forest.ALO,
-			Swamp, 				RI_PLEXS_Forest.ALO
+			Temperate, 			UNSC_INFANTRY_ROCKET.ALO,
+			Urban, 				UNSC_INFANTRY_ROCKET.ALO,
+			Arctic, 			UNSC_INFANTRY_ROCKET.ALO,
+			Volcanic, 			UNSC_INFANTRY_ROCKET.ALO,
+			Desert, 			UNSC_INFANTRY_ROCKET.ALO,
+			Forest, 			UNSC_INFANTRY_ROCKET.ALO,
+			Swamp, 				UNSC_INFANTRY_ROCKET.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
