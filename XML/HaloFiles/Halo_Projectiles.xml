@@ -2121,6 +2121,40 @@
 		
 	</Projectile>
 	
+	<Projectile Name="M400_ARTILLERY_SYSTEM"> <!-- This is unsc artillery goes on the mptl -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_concussion_missile.ALO</Land_Model_Name> 
+
+		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>GRENADE</Projectile_Category>
+		<Projectile_Grenade_Gravity>0.05</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
+		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
+		
+		<Projectile_Damage>1250.0</Projectile_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
 	<Projectile Name="Tank_Boom"> <!-- Tank Rounds -->
 	
 			<Text_ID>TEXT_NONE</Text_ID>
@@ -2143,8 +2177,8 @@
 		<Projectile_Lifetime_Detonation_Particle/>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 	</Projectile>
 	
