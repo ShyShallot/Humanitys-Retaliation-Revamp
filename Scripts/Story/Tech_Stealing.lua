@@ -23,9 +23,6 @@ Tech_Stealing = {
     ---@type PlayerWrapper|nil
     Player = nil,
 
-    ---@type PlanetTable|nil
-    Planet_Table = nil,
-
     ---@class Theft_Table
     Theft_Table = {
         ---@type table
@@ -227,21 +224,20 @@ function Tech_Stealing.Tech_Table:Set_Tech_Stolen_Status(Player, Tech_Name, Is_S
     end
 end
 
-function Tech_Stealing:Init(Planet_Table, Plot)
+function Tech_Stealing:Init(Plot)
 
-    self.Planet_Table = Planet_Table
 
-    if self.Planet_Table == nil or tableLength(self.Planet_Table.Planets) < 1 then
+    if Planet_Table == nil or tableLength(Planet_Table.Planets) < 1 then
         ScriptError("%s -- Planet Table is Empty or Nil", tostring(Script))
     end
 
     self.Player = Find_Human_Player()
 
-    if not TestValid(Player) then
+    if not TestValid(self.Player) then
         ScriptError("%s -- Cannot Find a Valid Human Player", tostring(Script)) -- ScriptError auto Script Exits
     end
 
-    local Tech_Table_Entry = self.Tech_Table:Get_Player_Entry(Player)
+    local Tech_Table_Entry = self.Tech_Table:Get_Player_Entry(self.Player)
 
     if Tech_Table_Entry == nil then
         DebugMessage("%s -- No Ship Table Entry for Player: %s",tostring(Script), tostring(self.Player.Get_Faction_Name()))
@@ -576,7 +572,7 @@ function Tech_Stealing:Does_Theft_Succeed(Planet)
         return Return_Theft_Status()
     end
 
-    local Planet_Entry = self.Planet_Table:Get_Entry(Planet)
+    local Planet_Entry = Planet_Table:Get_Entry(Planet)
 
     PrintTable(Planet_Entry)
 

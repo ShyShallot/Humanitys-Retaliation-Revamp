@@ -18,9 +18,11 @@ local Unit_Filters = {
     Fighter_Filter = {"Fighter" , "Infantry"},
 }
 
-function Unit_Filters:Init(player, plot_file)
+function Unit_Filters:Init(plot_file)
 
     DebugMessage("%s -- Init Unit Filters", tostring(Script))
+
+    local player = Find_Human_Player()
 
     if not TestValid(player) then
         DebugMessage("%s -- NO VALID PLAYER ASSIGNED", tostring(Script))
@@ -28,6 +30,7 @@ function Unit_Filters:Init(player, plot_file)
     end
 
     if plot_file == nil then
+        DebugMessage("%s -- No Plot File", tostring(Script))
         return
     end
 

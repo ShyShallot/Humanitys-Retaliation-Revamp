@@ -2,7 +2,7 @@
 Starting_Units_Handler = {
     Spawn_Settings = {
         Global_Multiplier = 1.75,-- Max Combat Power multiplier
-        Spawn_Variations = 6, -- How many variations do we want to generate
+        Spawn_Variations = 1, -- How many variations do we want to generate
         Factions = {
             UNSC = {
                 Station = {

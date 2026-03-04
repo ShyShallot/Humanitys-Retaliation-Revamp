@@ -52,10 +52,14 @@ function PG_Story_Mode_Init()
 
 	if StoryModeEvents ~= nil then
 		for key,value in pairs(StoryModeEvents) do
+
+			DebugMessage("%s -- Adding Story Mode Event %s, Function: %s", tostring(Script), tostring(key), tostring(value))
+
 			if type(value) == "function" then
+
 				Define_State(key, value)
 			else
-				MessageBox("%s--Invalid function object for Storyevent: %s, got a \"%s\" instead.", tostring(Script), tostring(key), type(value))
+				DebugMessage("%s--Invalid function object for Storyevent: %s, got a \"%s\" instead.", tostring(Script), tostring(key), type(value))
 			end
 		end
 	end
@@ -72,6 +76,9 @@ function Story_Event_Trigger(name)
 	--MessageBox("%s--In Story_Event_Trigger: %s", tostring(Script), name)
 
 	local event = StoryModeEvents[name]
+
+	DebugMessage("%s -- Event: %s, Name: %s", tostring(Script), tostring(event), tostring(name))
+
 	if event ~= nil then
 		if type(event) == "function" then
 			if Get_Current_State() == Get_Next_State() then

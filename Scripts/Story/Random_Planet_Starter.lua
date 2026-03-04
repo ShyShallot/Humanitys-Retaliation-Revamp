@@ -6,8 +6,8 @@ Random_Start = {
     Spawn_List = {
         {Name = "Rebel", Control_Percentage = 0.35}, -- Control Percentage is out of 100%, however because 1 of these factions will be human, only 3/4 of them will contribute to the 100%
         {Name = "Empire", Control_Percentage = 0.35},
-        {Name = "Swords", Control_Percentage = 0.1},
-        {Name = "Terrorists", Control_Percentage = 0.1},
+        {Name = "Swords", Control_Percentage = 0.25},
+        {Name = "Terrorists", Control_Percentage = 0.25},
     },
 
     Starbases = {
