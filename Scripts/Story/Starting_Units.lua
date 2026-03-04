@@ -1158,4 +1158,20 @@ function Starting_Units_Handler:Spawn_From_List(Spawn_List, Planet)
     end
 end
 
+function Starting_Units_Handler:Set_Spawn_Variations(Spawn_Variations_Count)
+    if type(Spawn_Variations_Count) ~= "number" then
+        return
+    end
+
+    if Spawn_Variations_Count < 1 then
+        Spawn_Variations_Count = 1
+    end
+
+    if Spawn_Variations_Count > 20 then
+        Spawn_Variations_Count = 20
+    end
+    
+    self.Spawn_Settings.Spawn_Variations = Spawn_Variations_Count
+end
+
 return Starting_Units_Handler

@@ -30,6 +30,10 @@ function State_Init(messsage)
 
         BaseStory:Call_Module_Function("Random_Planet_Starter", "Set_Starting_Planet_Count", 2)
 
-        BaseStory:Start_GC()
+        BaseStory:Call_Module_Function("Starting_Units", "Set_Spawn_Variations", 2)
+
+        -- BaseStory:Unregister_Module("Great_Schism") -- Say we wanted to Disable the Great_Schism in random start 
+
+        BaseStory:Start_GC() -- We set BaseStory to Manual Start so we can set the amount of starting planets for the player, thus we have to manually call Start_GC
     end
 end

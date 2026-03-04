@@ -24,7 +24,12 @@ function State_Init(messsage)
         BaseStory:Initialize(
             {
                 {Name = "Random_Planet_Starter", File = "Random_Planet_Starter", Dependency = nil, Update = false, Starts_GC = false, Needs_Plot_File = false}
-            }
+            }, true
         )
+        
+
+        BaseStory:Call_Module_Function("Starting_Units", "Set_Spawn_Variations", 2)
+
+        BaseStory:Start_GC() -- We set BaseStory to Manual Start so we can set the amount of starting planets for the player, thus we have to manually call Start_GC
     end
 end
