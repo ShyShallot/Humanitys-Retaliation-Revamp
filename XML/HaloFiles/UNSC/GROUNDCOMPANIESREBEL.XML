@@ -624,15 +624,15 @@
         <!-- AI  Changed to 15 soldiers with 5 per troop -->
 		
 		<Company_Units> 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
@@ -646,7 +646,7 @@
 		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
 		</Company_Units>
 		
-		<Max_Squad_Size> 8 </Max_Squad_Size>
+		<Max_Squad_Size> 2 </Max_Squad_Size>
 		
 		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
