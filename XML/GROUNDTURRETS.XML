@@ -319,7 +319,7 @@
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_LAAG</SFXEvent_Fire>
 		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
 
 

@@ -120,7 +120,14 @@
 		<Max_Pitch>90</Max_Pitch>
 	</SFXEvent>
 
-
+	
+	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_LOOP">
+		<Use_Preset>Preset_EGLC_Idle</Use_Preset>
+		<Samples>
+		Data\Audio\OotF\Vehicles\UNSC\Warthog\UNSC_WARTHOG_ENGINE.wav
+		</Samples>
+	</SFXEvent>
+	
 
 	<SFXEvent Name="Unit_UNSC_Idle_Engine_Loop">
 		<Use_Preset>Preset_EGLC_Idle</Use_Preset>

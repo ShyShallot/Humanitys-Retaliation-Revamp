@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <RebelGroundCompanies>
-	<GroundCompany Name="Rebel_Speeder_Wing"> UNSC_FALCON
+	<GroundCompany Name="Rebel_Speeder_Wing">
 		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
@@ -71,7 +71,7 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 	
-	<GroundCompany Name="UNSC_FALCON_WING"> 
+	<GroundCompany Name="UNSC_FALCON_WING">  <!-- Falcons -->
 		<Text_ID>UNSC_FALCON</Text_ID>
 		<Encyclopedia_Text>UNSC_FALCON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
@@ -99,7 +99,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>UNSC_FALCON, UNSC_FALCON, UNSC_FALCON</Company_Units>
+		<Company_Units> UNSC_FALCON </Company_Units>
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
 		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
 		<GUI_Distance>70</GUI_Distance>
@@ -645,7 +645,7 @@
 		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
 		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
 		</Company_Units>
-		
+			
 		<Max_Squad_Size> 2 </Max_Squad_Size>
 		
 		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>

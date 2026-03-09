@@ -4,6 +4,15 @@
 
 		<!-- Begin UNSC AUDIO -->
 		
+		<SFXEvent Name="Unit_UNSC_M6D">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M6D_PISTOL</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>100</Min_Pitch>
+					<Max_Pitch>115</Max_Pitch>	
+		 </SFXEvent>
+		
 		<SFXEvent Name="Unit_UNSC_SMG">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_SMG.wav</Samples>
@@ -29,6 +38,33 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>115</Max_Pitch>	
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_SPNKR">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_SPNKR.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>100</Min_Pitch>
+					<Max_Pitch>115</Max_Pitch>	
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_LAAG">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_LAAG.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>115</Max_Pitch>	
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_M638">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M638_FALCON.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_BULLET_ONAGER">
@@ -170,6 +206,15 @@
 		<!-- END UNSC AUDIO -->
 		
 		<!-- BEGIN COVENANT AUDIO -->
+		
+		<SFXEvent Name="Unit_COVN_SCARAB_BEAM">
+					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_SCARAB_BEAM.wav</Samples>
+					<Min_Volume>80</Min_Volume>
+					<Max_Volume>95</Max_Volume>
+					<Min_Pitch>95</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_BULLET">
 					<Use_Preset>Preset_COVN_BEAM</Use_Preset>

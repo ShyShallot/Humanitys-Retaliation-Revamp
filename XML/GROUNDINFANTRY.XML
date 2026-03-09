@@ -812,7 +812,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plex_Soldier</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Plex_Soldier</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Plex_Soldier</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_SPNKR</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		
 		<!-- Placeholder events for Frank -->
@@ -1227,7 +1227,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M6D</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 		
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		

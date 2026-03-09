@@ -224,13 +224,13 @@
         <Fire_Cone_Width>135</Fire_Cone_Width>
         <Fire_Cone_Height>55</Fire_Cone_Height>
         <Fire_Projectile_Type>Scarab_Focus_Beam</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>12</Fire_Pulse_Count>
+        <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>10.1</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>750</Fire_Range_Distance>
         
-        <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+        <Fire_SFXEvent>Unit_COVN_SCARAB_BEAM</Fire_SFXEvent>
         
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>

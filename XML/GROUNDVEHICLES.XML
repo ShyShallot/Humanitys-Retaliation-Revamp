@@ -1336,21 +1336,21 @@
 		<Land_Model_Name>UNSC_FALCON_Backup.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>0.60</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>3.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0.10</Min_Speed>
-		<Movement_Animation_Speed> 0.2 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.1 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
 		<OverrideDeceleration> .2 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.5</Max_Rate_Of_Roll>
-		<Max_Lift>1.5</Max_Lift>
+		<Max_Lift>0.5</Max_Lift>
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Space_Layer> Land </Space_Layer>
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
@@ -1396,15 +1396,15 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
 		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
@@ -1441,7 +1441,7 @@
 		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
 		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
 
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M638</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Assault_Speeder</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Assault_Speeder</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
@@ -1469,7 +1469,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Air | AntiStructure | AntiAir </CategoryMask>
+		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Lancet </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1496,7 +1496,7 @@
 		<Score_Cost_Credits>50</Score_Cost_Credits>
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
-      <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+        <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1940,7 +1940,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_LAAG</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
@@ -1951,7 +1951,7 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Juggernaut_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Juggernaut_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_WARTHOG_ENGINE_LOOP </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
@@ -2160,7 +2160,7 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Juggernaut_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Juggernaut_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_WARTHOG_ENGINE_LOOP </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
@@ -2356,7 +2356,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_SPNKR</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
@@ -2367,7 +2367,7 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Juggernaut_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Juggernaut_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_WARTHOG_ENGINE_LOOP </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
