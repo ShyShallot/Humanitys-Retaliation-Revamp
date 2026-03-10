@@ -63,7 +63,7 @@
 	<Land_Auto_Resolve_Delay_Seconds>0.01</Land_Auto_Resolve_Delay_Seconds>
 	<Political_Control_Change_Time_Seconds>7</Political_Control_Change_Time_Seconds>
 	
-	<Melee_Cutoff_Range> 51.0 </Melee_Cutoff_Range>
+	<Melee_Cutoff_Range> 1.0 </Melee_Cutoff_Range> <!-- Idk what this does but it might have something to do with why hunters struggle to melee (Apple) -->
 
 	<!-- Edge scrolling for tactical modes -->
 	<Tactical_Edge_Scroll_Region>2</Tactical_Edge_Scroll_Region>
@@ -848,7 +848,7 @@
 	<Health_Low_Percent_Threshold> 0.50 </Health_Low_Percent_Threshold>
 	<Health_Critical_Percent_Threshold> 0.15 </Health_Critical_Percent_Threshold>
 
-	<Under_Construction_Damage_Multiplier> 0.0 </Under_Construction_Damage_Multiplier>
+	<Under_Construction_Damage_Multiplier> 1.0 </Under_Construction_Damage_Multiplier>
 
 
 	<!--                                -->
