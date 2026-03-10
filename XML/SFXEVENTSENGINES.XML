@@ -119,9 +119,25 @@
 		<Min_Pitch>90</Min_Pitch>
 		<Max_Pitch>90</Max_Pitch>
 	</SFXEvent>
-
 	
-	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_LOOP">
+	
+	<!-- UNSC ENGINES -->
+	
+	<SFXEvent Name="Unit_UNSC_FALCON_BLADES_LOOP"> <!-- This is Falcon Heli Blades Noise -->
+		<Use_Preset>Preset_EGLC_Idle</Use_Preset>
+		<Samples>
+		Data\Audio\OotF\Vehicles\UNSC\Falcon\UNSC_FALCON_BLADES.wav
+		</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_IDLE_LOOP"> <!-- This is Idle -->
+		<Use_Preset>Preset_EGLC_Idle</Use_Preset>
+		<Samples>
+		Data\Audio\OotF\Vehicles\UNSC\Warthog\UNSC_WARTHOG_ENGINE_IDLE.wav
+		</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_LOOP"> <!-- This is driving -->
 		<Use_Preset>Preset_EGLC_Idle</Use_Preset>
 		<Samples>
 		Data\Audio\OotF\Vehicles\UNSC\Warthog\UNSC_WARTHOG_ENGINE.wav

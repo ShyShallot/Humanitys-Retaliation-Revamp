@@ -571,10 +571,11 @@
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 		
         <Select_Box_Scale>65</Select_Box_Scale>

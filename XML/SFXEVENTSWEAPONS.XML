@@ -9,8 +9,8 @@
 					<Samples>Data\Audio\OotF\UNSC_M6D_PISTOL</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>		
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_SMG">
@@ -18,8 +18,8 @@
 					<Samples>Data\Audio\OotF\UNSC_SMG.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>		
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_SRS99">
@@ -27,8 +27,8 @@
 					<Samples>Data\Audio\OotF\UNSC_SRS99_SNIPER.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M90">
@@ -36,33 +36,33 @@
 					<Samples>Data\Audio\OotF\UNSC_M90_SHOTGUN.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_SPNKR">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_SPNKR.wav</Samples>
-					<Min_Volume>100</Min_Volume>
-					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Min_Volume>70</Min_Volume>
+					<Max_Volume>70</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_LAAG">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_LAAG.wav</Samples>
-					<Min_Volume>100</Min_Volume>
-					<Max_Volume>100</Max_Volume>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>90</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>	
+					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M638">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_M638_FALCON.wav</Samples>
-					<Min_Volume>100</Min_Volume>
-					<Max_Volume>100</Max_Volume>
+					<Min_Volume>50</Min_Volume>
+					<Max_Volume>50</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>

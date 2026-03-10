@@ -648,6 +648,11 @@
 			
 		<Max_Squad_Size> 2 </Max_Squad_Size>
 		
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range> 
+		
 		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>

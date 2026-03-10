@@ -1056,6 +1056,7 @@
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -1215,7 +1216,7 @@
 		<Projectile_Types>MA5C</Projectile_Types>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
-		<Projectile_Fire_Recharge_Seconds>0.05</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -1270,7 +1271,8 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -1469,6 +1471,7 @@
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -1669,6 +1672,7 @@
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>20.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>35.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -1848,6 +1852,7 @@
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>20.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>35.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
