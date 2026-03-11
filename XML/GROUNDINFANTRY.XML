@@ -1258,7 +1258,7 @@
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARINE_ENGINEER.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -1324,10 +1324,11 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
 			
+			
 			<Unit_Ability>
 			
 				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>9999</Recharge_Seconds>
+				<Recharge_Seconds>9998</Recharge_Seconds>
 				<Spawned_Object_Type>UNSC_ENGINEER_Anti_Infantry_Turret</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 				
@@ -1466,7 +1467,7 @@
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARINE_MEDIC.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -1670,7 +1671,7 @@
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARINE_RADIO.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -1857,7 +1858,7 @@
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARINE_SNIPER.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
@@ -2038,7 +2039,7 @@
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SCOUT.tga</Icon_Name>
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
