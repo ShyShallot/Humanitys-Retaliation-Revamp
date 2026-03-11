@@ -324,6 +324,41 @@
 
 
    </GroundStructure>
+   
+   <GroundStructure Name="UNSC_ENGINEER_Anti_Infantry_Turret">
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>UNSC_INFANTRY_LAAG.ALO</Land_Model_Name>
+		<Icon_Name>i_button_r_anti_infantry.tga</Icon_Name>
+		
+		<Scale_Factor>0.35</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Projectile_Types>LAAG</Projectile_Types>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+
+		<Projectile_Fire_Recharge_Seconds>15.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>50</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		<SFXEvent_Fire>Unit_UNSC_LAAG</SFXEvent_Fire>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+
+
+   </GroundStructure>
 
 	<GroundStructure Name="Pirate_Anti_Infantry_Turret">
 

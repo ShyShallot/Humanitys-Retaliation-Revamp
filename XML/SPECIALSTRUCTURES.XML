@@ -3522,11 +3522,8 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 20</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 0</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

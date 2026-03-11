@@ -431,7 +431,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>MPTL, MPTL, MPTL_Spotter, MPTL_Spotter</Company_Units>
+		<Company_Units>MPTL, MPTL</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
 		<Ignore_For_Reoptimization>MPTL_Spotter</Ignore_For_Reoptimization>
 
@@ -594,8 +594,8 @@
 	
 	<GroundCompany Name="Rebel_Infantry_Squad">
 		<Text_ID>UNSC-Marines</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>UNSC_MECHANIZED_MARINE_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>MECHANIZED_DIVISION</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -615,12 +615,17 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets />
+		
 		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
+		
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
+		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+		
+		<!-- <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type> -->
+		<Is_Homogeneous>No</Is_Homogeneous>
         <!-- AI  Changed to 15 soldiers with 5 per troop -->
 		
 		<Company_Units> 
@@ -629,29 +634,27 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
+		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG
+		
+		
 		</Company_Units>
 			
-		<Max_Squad_Size> 2 </Max_Squad_Size>
-		
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>350.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range> 
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
 		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
@@ -732,7 +735,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>

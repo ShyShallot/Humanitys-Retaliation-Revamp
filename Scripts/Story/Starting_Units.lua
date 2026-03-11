@@ -27,11 +27,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Rebel_Tank_Buster_Squad"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["Rebel_Pod_Walker_Company"] = {
+                            ["Warthog_Company"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -62,11 +58,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Rebel_Tank_Buster_Squad"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["Rebel_Pod_Walker_Company"] = {
+                            ["Warthog_Company"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -101,11 +93,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Rebel_Tank_Buster_Squad"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["Rebel_Pod_Walker_Company"] = {
+                            ["Warthog_Company"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -140,11 +128,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Rebel_Tank_Buster_Squad"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["Rebel_Pod_Walker_Company"] = {
+                            ["Warthog_Company"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -179,11 +163,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Rebel_Tank_Buster_Squad"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["Rebel_Pod_Walker_Company"] = {
+                            ["Warthog_Company"] = {
                                 Weight = 15,
                                 Limit = -1
                             },

@@ -135,6 +135,10 @@
 		<Samples>
 		Data\Audio\OotF\Vehicles\UNSC\Warthog\UNSC_WARTHOG_ENGINE_IDLE.wav
 		</Samples>
+		
+		<Min_Volume>20</Min_Volume>
+		<Max_Volume>20</Max_Volume>
+		
 	</SFXEvent>
 	
 	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_LOOP"> <!-- This is driving -->
@@ -142,6 +146,9 @@
 		<Samples>
 		Data\Audio\OotF\Vehicles\UNSC\Warthog\UNSC_WARTHOG_ENGINE.wav
 		</Samples>
+		<Min_Volume>20</Min_Volume>
+		<Max_Volume>20</Max_Volume>
+		
 	</SFXEvent>
 	
 
