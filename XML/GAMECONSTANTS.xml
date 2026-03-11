@@ -156,10 +156,10 @@
 	<MaximumPoliticalControl> 5 </MaximumPoliticalControl>
 	<MaximumStarbaseLevel> 5 </MaximumStarbaseLevel>
 	<MaximumGroundbaseLevel> 5 </MaximumGroundbaseLevel>
-	<MaximumSpecialStructures> 5 </MaximumSpecialStructures>
-	<MaximumSpecialStructuresLand> 3 </MaximumSpecialStructuresLand>
-	<MaximumSpecialStructuresSpace> 3 </MaximumSpecialStructuresSpace>
-	<MaximumFleetMovementDistance> 1.0 </MaximumFleetMovementDistance>
+	<MaximumSpecialStructures> 10 </MaximumSpecialStructures>
+	<MaximumSpecialStructuresLand> 10 </MaximumSpecialStructuresLand>
+	<MaximumSpecialStructuresSpace> 10 </MaximumSpecialStructuresSpace>
+	<MaximumFleetMovementDistance> 100.0 </MaximumFleetMovementDistance>
 	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
 	<Tooltip_Delay>1</Tooltip_Delay>
 	<Encyclopedia_Delay>350</Encyclopedia_Delay>
