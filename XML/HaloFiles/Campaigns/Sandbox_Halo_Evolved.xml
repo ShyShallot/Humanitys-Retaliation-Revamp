@@ -23,6 +23,7 @@
 		Arcadia,
 		Chi_Ceti_IV,
 		Eridanus_2,
+		Eridanus_Asteroid_Belt,
 		Charybdis_IX,
 		Meridian,
 		Gao,
@@ -92,7 +93,8 @@
 			Meridian_Gao,
 			Gao_Eridanus_2,
 			Eridanus_2_Far_Isle,
-			Eridanus_2_Aktis_IV,,
+			Eridanus_2_Aktis_IV,
+			Eridanus_2_Eridanus_Asteroids,
 			Far_Isle_Charybdis_IX,
 			Charybdis_IX_New_Jerusalem,
 			Aktis_IV_Netherop,
@@ -322,6 +324,10 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
@@ -367,6 +373,7 @@
 		Arcadia,
 		Chi_Ceti_IV,
 		Eridanus_2,
+		Eridanus_Asteroid_Belt,
 		Charybdis_IX,
 		Meridian,
 		Gao,
@@ -436,7 +443,8 @@
 			Meridian_Gao,
 			Gao_Eridanus_2,
 			Eridanus_2_Far_Isle,
-			Eridanus_2_Aktis_IV,,
+			Eridanus_2_Aktis_IV,
+			Eridanus_2_Eridanus_Asteroids,
 			Far_Isle_Charybdis_IX,
 			Charybdis_IX_New_Jerusalem,
 			Aktis_IV_Netherop,
@@ -666,6 +674,10 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
@@ -711,6 +723,7 @@
 		Arcadia,
 		Chi_Ceti_IV,
 		Eridanus_2,
+		Eridanus_Asteroid_Belt,
 		Charybdis_IX,
 		Meridian,
 		Gao,
@@ -780,7 +793,8 @@
 			Meridian_Gao,
 			Gao_Eridanus_2,
 			Eridanus_2_Far_Isle,
-			Eridanus_2_Aktis_IV,,
+			Eridanus_2_Aktis_IV,
+			Eridanus_2_Eridanus_Asteroids,
 			Far_Isle_Charybdis_IX,
 			Charybdis_IX_New_Jerusalem,
 			Aktis_IV_Netherop,
@@ -986,6 +1000,10 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
@@ -1031,6 +1049,7 @@
 		Arcadia,
 		Chi_Ceti_IV,
 		Eridanus_2,
+		Eridanus_Asteroid_Belt,
 		Charybdis_IX,
 		Meridian,
 		Gao,
@@ -1100,7 +1119,8 @@
 			Meridian_Gao,
 			Gao_Eridanus_2,
 			Eridanus_2_Far_Isle,
-			Eridanus_2_Aktis_IV,,
+			Eridanus_2_Aktis_IV,
+			Eridanus_2_Eridanus_Asteroids,
 			Far_Isle_Charybdis_IX,
 			Charybdis_IX_New_Jerusalem,
 			Aktis_IV_Netherop,
@@ -1305,6 +1325,10 @@
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Medium_Shipyard </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		

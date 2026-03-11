@@ -198,6 +198,15 @@
         <Visible_Line_Name>Normal</Visible_Line_Name>
 	</TradeRoute>
 	
+	<TradeRoute Name="Eridanus_2_Eridanus_Asteroids">
+		<Point_A>Eridanus_2</Point_A>
+		<Point_B>Eridanus_Asteroid_Belt</Point_B>
+		<HS_Speed_Factor>0.5</HS_Speed_Factor>
+		<Political_Control_Gain>0.0</Political_Control_Gain>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
+        <Visible_Line_Name>Normal</Visible_Line_Name>
+	</TradeRoute>
+	
 	<TradeRoute Name="Far_Isle_Charybdis_IX">
 		<Point_A>Far_Isle</Point_A>
 		<Point_B>Charybdis_IX</Point_B>

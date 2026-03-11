@@ -932,7 +932,7 @@
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
 
-	<GroundInfantry Name="Rebel_Trooper">
+	<GroundInfantry Name="Rebel_Trooper">       <!-- MA5C UNSC RIFLEMAN -->
 		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -1002,13 +1002,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		
 		<Projectile_Types>MA5C</Projectile_Types>
-
-		<Projectile_Fire_Recharge_Seconds>0.05</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>10.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>64</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.10</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -1218,14 +1221,18 @@
 
 		<Victory_Relevant>yes</Victory_Relevant>
 		
-		<Projectile_Types>MA5C</Projectile_Types>
-
-		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Types>M6D</Projectile_Types>
+		
+		<Projectile_Fire_Recharge_Seconds>6.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.30</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -1424,9 +1431,11 @@
 
 		<Victory_Relevant>yes</Victory_Relevant>
 		
-		<Projectile_Types>MA5C</Projectile_Types>
+		<Projectile_Types>M7_SMG</Projectile_Types>
 
-		<Projectile_Fire_Recharge_Seconds>0.01</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>60</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.01</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -1626,9 +1635,11 @@
 
 		<Victory_Relevant>yes</Victory_Relevant>
 		
-		<Projectile_Types>MA5C</Projectile_Types>
+		<Projectile_Types>M7_SMG</Projectile_Types>
 
-		<Projectile_Fire_Recharge_Seconds>0.01</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>60</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.01</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -1811,12 +1822,16 @@
 		
 		<Projectile_Types>SRS99_S7_AM</Projectile_Types>
 
-		<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -1863,7 +1878,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1990,7 +2005,9 @@
 		
 		<Projectile_Types>M99_SASR</Projectile_Types>
 
-		<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>16.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>2</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
@@ -2042,7 +2059,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -2171,12 +2188,16 @@
 		
 		<Projectile_Types>M90_SHOTGUN</Projectile_Types>
 
-		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>10.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
