@@ -1358,6 +1358,31 @@
 			
 		</Unit_Abilities_Data>
 		
+		<Abilities SubObjectList="Yes">
+		
+		<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>50.0</Heal_Range>
+				<Heal_Percent> 0.15 </Heal_Percent>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Air, Vehicle, Structure</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
+				<Applicable_Unit_Types />
+				
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				
+			</Force_Healing_Ability>
+			
+			</Abilities>
+		
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
@@ -1561,6 +1586,31 @@
 			</Force_Healing_Ability>
 			
 		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>50.0</Heal_Range>
+				<Heal_Percent> 0.25 </Heal_Percent>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
+				<Applicable_Unit_Types />
+				
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				
+			</Force_Healing_Ability>
+			
+			</Abilities>
 		
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>

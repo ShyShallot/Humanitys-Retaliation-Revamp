@@ -2031,28 +2031,6 @@
 
 	</GroundVehicle>
 
-
-	<!-- Chewbacca can only capture a Juggernaut if it's empty! -->
-	<GroundVehicle Name="HAV_Juggernaut_Captured">
-		<Variant_Of_Existing_Type>Unsc_Warthog</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_chewbacca_ev_juggernaut.tga</Icon_Name>
-	
-		<!-- MUST have same abilities PLUS EJECT_THIEF -->
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<!-- Primary ability -->
-		
-			<Unit_Ability>
-				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-	</GroundVehicle>
-
-
-
 <GroundVehicle Name="UNSC_Gausshog">   <!-- UNSC WARTHOG ATTEMPT NUMBER 3 -->
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>UNSC_GaussHOG</Text_ID>
@@ -2240,25 +2218,6 @@
 
 	</GroundVehicle>
 
-
-	<!-- Chewbacca can only capture a Juggernaut if it's empty! -->
-	<GroundVehicle Name="HAV_Juggernaut_Captured">
-		<Variant_Of_Existing_Type>Unsc_Warthog</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_chewbacca_ev_juggernaut.tga</Icon_Name>
-	
-		<!-- MUST have same abilities PLUS EJECT_THIEF -->
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<!-- Primary ability -->
-		
-			<Unit_Ability>
-				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-	</GroundVehicle>
 	
 		<GroundVehicle Name="UNSC_ROCKETHOG">   
 		<LOD_Bias>0.5</LOD_Bias>
@@ -2445,6 +2404,25 @@
 		</Abilities> -->
         
 
+	</GroundVehicle>
+	
+	<!-- Chewbacca can only capture a Juggernaut if it's empty! -->
+	<GroundVehicle Name="HAV_Juggernaut_Captured">
+		<Variant_Of_Existing_Type>Unsc_Warthog</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_chewbacca_ev_juggernaut.tga</Icon_Name>
+	
+		<!-- MUST have same abilities PLUS EJECT_THIEF -->
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<!-- Primary ability -->
+		
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
 	</GroundVehicle>
 
 
