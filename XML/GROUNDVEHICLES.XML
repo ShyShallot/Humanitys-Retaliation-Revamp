@@ -337,7 +337,7 @@
 
 
 	<GroundVehicle Name="AT_ST_Walker"> <!-- UNSC MANTIS -->
-		<LOD_Bias>4</LOD_Bias>
+		<LOD_Bias>1</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
@@ -349,7 +349,7 @@
 
 		<Land_Model_Name>UNSC_MANTIS.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR, TARGETING, IDLE, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
 
 		<Garrison_Category> Vehicle </Garrison_Category>
@@ -397,7 +397,6 @@
 
 		<Armor_Type> Armor_ATST </Armor_Type>
 		<Damage_Type>Damage_ATST</Damage_Type>
-		<Projectile_Damage>7.0</Projectile_Damage>
 		<Damage>6</Damage>
 		<Shield_Points>0.0</Shield_Points>
 		<Tactical_Health>2400</Tactical_Health>
@@ -406,20 +405,20 @@
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Projectile_Types>LAAG</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>35</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>M638_Cannon</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
+		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
 
 		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
@@ -434,7 +433,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
 		
-		<HardPoints>UNSC_Mantis_Rocket</HardPoints>
+		<HardPoints>UNSC_MANTIS_LMG</HardPoints>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -444,7 +443,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_AT_ST</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_AT_ST</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M638</SFXEvent_Fire>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_AT_ST </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_AT_ST </SFXEvent_Assist_Attack>
@@ -1171,7 +1170,17 @@
 		<Hover_Offset>150.0</Hover_Offset>
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
-		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>	
+		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
+
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>			
 			
 		<AI_Combat_Power>130</AI_Combat_Power>
 
@@ -1356,6 +1365,15 @@
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
 		<FormationGrouping> Solo </FormationGrouping>
 		<PathFrameDelay> 4 </PathFrameDelay>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>	
 		
 		<Hover_Height>80.0</Hover_Height>
 		
@@ -1418,10 +1436,10 @@
 		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
-		<Projectile_Types>LAAG</Projectile_Types>
+		<Projectile_Types>M638_Cannon</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>50</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Count>20</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
