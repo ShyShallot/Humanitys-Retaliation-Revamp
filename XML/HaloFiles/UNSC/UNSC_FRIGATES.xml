@@ -498,11 +498,11 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>UNSC_MAKO.ALO</Space_Model_Name>
+		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name> <!-- UNSC_MAKO.ALO  -->
 		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
-		<Scale_Factor>0.06</Scale_Factor>  <!-- Original was 0.12 -->
+		<Scale_Factor>0.26</Scale_Factor>  <!-- Original was 0.12 -->
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>3</Ranking_In_Category>
@@ -576,8 +576,14 @@
 
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
-		<HardPoints>
-			UNSC_MAKO_M66_01, UNSC_MAKO_M66_02, UNSC_MAKO_M870_03, UNSC_MAKO_M870_04, UNSC_MAKO_AP_01
+		<HardPoints> 
+			<!--HP_HALC_REACTOR,--> 
+			HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, 
+			HP_HALC_HANGER_01, HP_HALC_HANGER_02, 
+			UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
+			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
+			UNSC_HALC_FLAK_01, UNSC_HALC_FLAK_02, UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
+			UNSC_HALCYON_MAC, HP_HALC_REACTOR
 		</HardPoints>
 
 		<!--	<Unit_Abilities_Data SubObjectList="Yes">

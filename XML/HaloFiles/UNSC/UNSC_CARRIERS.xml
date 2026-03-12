@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <CarrierUnits>
+
     <SpaceUnit Name="UNSC_MUSASHI">
+	
 		<Text_ID>TEXT_UNIT_UNSC_MUSASHI</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI TEXT_TOOLTIP_UNSC_MUSASHI_COMPLIMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ESCORT_CARRIER </Encyclopedia_Unit_Class>
@@ -91,7 +93,7 @@
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 		
 		<HardPoints>
-			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_STALWART_MAC, HP_MUSASHI_REACTOR 
+			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_MAC, HP_MUSASHI_REACTOR 
 		</HardPoints>
 		
 		<Starting_Spawned_Units_Tech_1>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -292,20 +294,11 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
+		
 	</SpaceUnit>
-	
-	<!-- <SpaceUnit Name="UNSC_MUSASHI_2">
-		<Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNSC_MUSASHI_2</Text_ID>
-		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Tech_Level>3</Tech_Level>
-		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-	</SpaceUnit> -->
 
 	<SpaceUnit Name="UNSC_POSEIDON">
+	
 		<Text_ID>TEXT_UNIT_UNSC_POSEIDON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_TOOLTIP_UNSC_POSEIDON_COMPLIMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CARRIER </Encyclopedia_Unit_Class>
@@ -517,6 +510,7 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
+			
 		</Abilities>	
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>

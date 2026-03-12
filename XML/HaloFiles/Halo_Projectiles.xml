@@ -28,7 +28,7 @@
 		
 		<Abilities SubObjectList="Yes">
 
-			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
+		<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
 				<Activation_Style> Skirmish_Automatic </Activation_Style>
 				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -50,7 +50,7 @@
 				<Firing_Cone>360.0f</Firing_Cone>
             	<Fire_Delay>1</Fire_Delay>
             	<Fire_Continuation>0.01</Fire_Continuation>
-			</Super_Laser_Ability>
+		</Super_Laser_Ability>
 
 		</Abilities> 
 		
@@ -1551,7 +1551,7 @@
 				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
-				<Projectile_Types_Targeted>MISSILE, ROCKET, </Projectile_Types_Targeted>
+				<Projectile_Types_Targeted>MISSILE, ROCKET </Projectile_Types_Targeted>
 				<Protection_Radius>10.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
