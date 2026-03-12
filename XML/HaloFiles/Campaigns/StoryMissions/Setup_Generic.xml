@@ -2,11 +2,6 @@
 
 <Story>
 
-    <Event Name="Init_GC">
-        <Event_Type>STORY_ELAPSED</Event_Type>
-        <Event_Param1>0</Event_Param1>
-    </Event>
-
     <Event Name="Universal_Story_Start">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Spawning_Done</Event_Param2>
@@ -15,5 +10,4 @@
         <Story_Tag>Intro_Tag</Story_Tag>
     </Event>
 
-    
 </Story>

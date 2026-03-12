@@ -2,7 +2,7 @@ require("PGStoryMode")
 require("PGStateMachine")
 require("HALOFunctions")
 
-local BaseStory = require("Sanbox_Base_Story")
+local BaseStory = require("Sandbox_Base_Story")
 
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))

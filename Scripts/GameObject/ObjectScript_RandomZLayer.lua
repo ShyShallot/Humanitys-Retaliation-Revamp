@@ -12,9 +12,12 @@ end
 
 function State_Init(message)
     if message == OnEnter then
-        layer_manager = require("eaw-layerz/layermanager")
-        layer_manager:update_unit_layer(Object,true)
-        ScriptExit()
+
+        if Get_Game_Mode() == "Space" then
+            layer_manager = require("eaw-layerz/layermanager")
+            layer_manager:update_unit_layer(Object,true)
+            ScriptExit()
+        end
     end
 
 end

@@ -1,4 +1,5 @@
 -- Script Written by ShyShallot
+---@class Starting_Units_Handler
 Starting_Units_Handler = {
     Spawn_Settings = {
         Global_Multiplier = 1.75,-- Max Combat Power multiplier

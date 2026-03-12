@@ -41,6 +41,7 @@
 
 require("pgcommands")
 require("HALOFunctions")
+require("EventNotif")
 
 -- Don't pool...
 ScriptPoolCount = 0
@@ -493,18 +494,19 @@ function Game_Mode_Ending_Event(mode_name)
 
 	if CampaignGame then
 
-		if player_losses == 0 then
+		local Death_Score = player_deaths * 50
 
-			GlobalValue.Set("Morale_Kill_Ratio", player_kills)
+		local Kill_Score = player_kills * 100
 
-			return
+		local Final_Score = Kill_Score - Death_Score
+
+		if Final_Score < 0 then
+			Final_Score = 0
 		end
-
-		player_kill_ratio = player_kills / player_deaths
 		
-		DebugMessage("%s -- Player KD: %s, Kills: %s, Deaths: %s", tostring(Script), tostring(player_kill_ratio), tostring(player_kills), tostring(player_deaths))
+		DebugMessage("%s -- Player KD: %s, Kills: %s, Deaths: %s", tostring(Script), tostring(Final_Score), tostring(player_kills), tostring(player_deaths))
 
-		GlobalValue.Set("Morale_Kill_Ratio", player_kill_ratio)
+		GlobalValue.Set("Morale_Kill_Ratio", Final_Score)
 	end
 end
 
@@ -564,7 +566,7 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 -- 
 function Galactic_Production_Begin_Event(planet, object_type)
-
+	Game_Scoring_Event_Manager:Trigger_Event("Production_Started", {planet, object_type})
 --Track credits spent
 end
 

@@ -73,7 +73,7 @@ function Story_Event_Trigger(name)
 		return
 	end
 
-	--MessageBox("%s--In Story_Event_Trigger: %s", tostring(Script), name)
+	MessageBox("%s--In Story_Event_Trigger: %s", tostring(Script), name)
 
 	local event = StoryModeEvents[name]
 
@@ -82,7 +82,7 @@ function Story_Event_Trigger(name)
 	if event ~= nil then
 		if type(event) == "function" then
 			if Get_Current_State() == Get_Next_State() then
-				--MessageBox("%s--Setting next state %s", tostring(Script), name)
+				MessageBox("%s--Setting next state %s", tostring(Script), name)
 				Set_Next_State(name)
 			end
 		end

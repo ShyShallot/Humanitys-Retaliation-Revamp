@@ -1,24 +1,6 @@
 <?xml version="1.0" ?>
 
 <Story>
-    <Event Name="Init_Random">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-        <Event_Param1>0</Event_Param1>
-	</Event>
-
-	<Event Name="Disable_Victory">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Prereq>Init_Random</Prereq>
-		<Reward_Type>ENABLE_VICTORY</Reward_Type>
-		<Reward_Param1>0</Reward_Param1>
-	</Event>
-	
-	<Event Name="No_Touchy_Touchy">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_CONTROLS</Reward_Type>
-		<Reward_Param1>1</Reward_Param1>
-		<Prereq>Init_Random</Prereq>
-	</Event>
 
     <Event Name="Universal_Story_Start">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -28,17 +10,5 @@
 		<Story_Tag>Intro_Tag</Story_Tag>
     </Event>
 
-	<Event Name="Enable_Victory">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Prereq>Universal_Story_Start</Prereq>
-		<Reward_Type>ENABLE_VICTORY</Reward_Type>
-		<Reward_Param1>1</Reward_Param1>
-	</Event>
-
-	<Event Name="Yes_Touchy_Touchy">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_CONTROLS</Reward_Type>
-		<Reward_Param1>0</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
+	
 </Story>

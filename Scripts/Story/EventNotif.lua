@@ -1,80 +1,98 @@
----@class EventNotif
-EventNotif = {
-    init = false,
+---@class Game_Scoring_Event_Manager
 
-    Events = {}
+Game_Scoring_Event_Manager = {
+    Events = {
+        Galactic = {
+            ["Unit_Destroyed"] = {
+                Subscribers = {}
+            },
+            ["Production_Started"] = {
+                Subscribers = {}
+            },
+            ["Production_Canceled"] = {
+                Subscribers = {}
+            },
+            ["Production_End"] = {
+                Subscribers = {}
+            },
+            ["Starbase_Level_Change"] = {
+                Subscribers = {}
+            },
+            ["Planet_Ownership_Change"] = {
+                Subscribers = {}
+            },
+            ["Hero_Neutralized"] = {
+                Subscribers = {}
+            }
+        }
+    }
 }
 
-function EventNotif:Init()
-    self.init = true
+--Get_Object_ID
 
-    _G.EventNotif = self
-    DebugMessage("%s -- EventNotif:Init() called, table: %s", tostring(Script), tostring(self))
+function Game_Scoring_Event_Manager:Serialize_Object(obj)
+    if obj == nil then
+        return ""
+    end
+
+    local Object_Name = ""
+
+    if obj.Get_Type == nil then -- assume object is type
+        Object_Name = obj.Get_Name() .. "_"
+    end
+
+    
+
+    local Serialized_String = ""
 end
 
-function EventNotif:Call(event_name, args)
-
-    if _G.EventNotif == nil then
+function Game_Scoring_Event_Manager:Subscribe(Event_Name, Function)
+    if type(Event_Name) ~= "string" then
         return
     end
 
-    if type(event_name) ~= "string" then
+    if self.Events.Galactic[Event_Name] == nil then
         return
     end
 
-    local instance = _G.EventNotif
-
-    DebugMessage("%s -- is EventNotif Init: %s", tostring(Script), tostring(instance.init))
-
-    if not instance.init then
-        DebugMessage("%s -- Tried Calling Event but System is not setup", tostring(Script))
+    if type(Function) ~= "function" then
         return
     end
 
-    local Subscribers = instance.Events[event_name]
+    table.insert(self.Events.Galactic[Event_Name].Subscribers, Function)
+end
 
-    if Subscribers == nil or table.getn(Subscribers) < 1 then
-        return
-    end
+function Game_Scoring_Event_Manager:Process_Events()
+    for Event_Name, Info in pairs(self.Events.Galactic) do
+        if GlobalValue.Get(Event_Name) ~= "" or GlobalValue.Get(Event_Name) ~= nil then
+            for _, Subscriber in pairs(Info.Subscribers) do
+                if type(Subscriber) == "function" then
+                    pcall(Subscriber, unpack(GlobalValue.Get(Event_Name).Parameters))
+                end
+            end
 
-    if args == nil or type(args) ~= "table" then
-        args = {nil, nil}
-    end
- 
-    for _, Subscriber in pairs(Subscribers) do
-        if type(Subscriber) == "function" then
-            pcall(Subscriber, event_name, unpack(args))
+            GlobalValue.Set(Event_Name, "")
         end
     end
 end
 
-function EventNotif:Subscribe(event_name, function_call)
-
-    if _G.EventNotif == nil then
+function Game_Scoring_Event_Manager:Trigger_Event(Event_Name, Parameters)
+    if type(Event_Name) ~= "string" then
         return
     end
 
-    local instance = _G.EventNotif
-
-    if type(event_name) ~= "string" then
+    if self.Events.Galactic[Event_Name] == nil then
         return
     end
 
-    if type(function_call) ~= "function" then
+    if type(Parameters) ~= "table" then
         return
     end
 
-    if not instance.init then
-        DebugMessage("%s -- Tried Calling Event but System is not setup", tostring(Script))
-        return
-    end
+    local Event = {
+        Name = "Event_Name",
+        Parameters = Parameters
+    }
 
-    if instance.Events[event_name] == nil then
-        instance.Events[event_name] = {}
-    end
-    
-    table.insert(instance.Events[event_name], function_call)
-
+    GlobalValue.Set(Event_Name, Event)
 end
-
-return EventNotif
