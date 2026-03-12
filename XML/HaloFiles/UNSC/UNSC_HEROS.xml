@@ -201,9 +201,6 @@
         <Population_Value>5</Population_Value>
     </SpaceUnit>
 
-
-
-
     <SpaceUnit Name="UNSC_FLEET_COMMANDER"> <!-- THIS IS THE CAPTAIN SPEAKING THIS IS THE CAPTAIN YES THIS ONE THE CAPTAIN (HALCYON) -->
 	
 		<Variant_Of_Existing_Type> UNSC_HALCYON </Variant_Of_Existing_Type>
@@ -213,7 +210,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
 		
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name>
+		<Space_Model_Name>UNSC_HALCYON_CAPTAIN.ALO</Space_Model_Name>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
