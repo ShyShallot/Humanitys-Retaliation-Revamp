@@ -119,4 +119,16 @@
 		<Story_Chapter>2</Story_Chapter>
 		<Story_Tag>Schism_Tag</Story_Tag>
     </Event>
+
+    <Event Name="Galactic_Conquest_Victory">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_GC_Victory</Event_Param2>
+        <Reward_Type>VICTORY</Reward_Type>
+    </Event>
+
+    <Event Name="Galactic_Conquest_Loss">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Trigger_GC_Loss</Event_Param2>
+        <Reward_Type>VICTORY</Reward_Type>
+    </Event>
 </Story>

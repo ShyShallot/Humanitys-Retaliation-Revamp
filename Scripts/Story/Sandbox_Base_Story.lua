@@ -34,6 +34,8 @@ function Definitions()
     Random_Planet_Starter = require("Random_Planet_Starter")
 
     Utilize_Random_Start = false
+
+    Player = nil
     
 end
 
@@ -44,6 +46,8 @@ function Init_GC(messsage)
     if messsage ~= OnEnter then
         return
     end
+
+    Player = Find_Human_Player()
 
     local Single_Start_Object = Find_First_Object("Single_Random_Start")
     
@@ -86,6 +90,22 @@ function Init_GC(messsage)
 
     Story_Event("Spawning_Done")
 
+    local Plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Common_Events.xml")
+
+    local Victory_Event = Plot.Get_Event("Galactic_Conquest_Victory")
+
+    Victory_Event.Set_Reward_Parameter(0, Player.Get_Faction_Name())
+
+    local Loss_Event = Plot.Get_Event("Galactic_Conquest_Loss")
+
+    local Loss_Player = Find_Player("EMPIRE")
+
+    if string.upper(Player.Get_Faction_Name()) == "EMPIRE" then
+        Loss_Player = Find_Player("REBEL")
+    end
+
+    Loss_Event.Set_Reward_Parameter(0, Loss_Player.Get_Faction_Name())
+
     Set_Next_State("Flush")
 end
 
@@ -99,11 +119,58 @@ function Update(messsage)
     Great_Schism:Check()
 
     Far_Isle_Campaign:Check()
+
+    --Test_Victory_Condition()
+
+    Should_GC_End()
 end
 
 function Flush(message)
     if message == OnEnter then
         Set_Next_State("Update")
+    end
+end
+
+function Test_Victory_Condition()
+
+    local Neutral = Find_Player("Neutral")
+
+    if GetCurrentTime.Galactic_Time() >= 6 then
+        for _, Planet_Name in pairs(Planet_Table:Return_All_Keys()) do
+            local Planet = FindPlanet(Planet_Name)
+
+            if TestValid(Planet) then
+                if Planet.Get_Owner() == Player then
+                    Planet.Change_Owner(Neutral)
+                end
+            end
+        end
+    end
+end
+
+function Should_GC_End()
+   local Player_Planets = 0
+
+    for _, Planet_Name in pairs(Planet_Table:Return_All_Keys()) do
+        local Planet = FindPlanet(Planet_Name)
+
+        if TestValid(Planet) then
+            if Planet.Get_Owner() == Player then
+                Player_Planets = Player_Planets + 1
+            else
+                break
+            end
+        end
+    end
+
+    DebugMessage("%s -- Num of Player Controlled Planets: %s", tostring(Script), tostring(Player_Planets))
+
+    if Player_Planets == table.getn(Planet_Table:Return_All_Keys()) then
+        Story_Event("Trigger_GC_Victory")
+    end
+
+    if Player_Planets == 0 then
+        Story_Event("Trigger_GC_Loss")
     end
 end
 

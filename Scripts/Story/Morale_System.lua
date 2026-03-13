@@ -468,6 +468,37 @@ function Morale_System_Update(message)
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_PLANETRY_MORALE", nil, nil, false, true)
+
+            local Is_On_Last_Planet = Is_Player_On_Last_Planet()
+
+            local Activate_Low_Morale = false
+
+            if Current_Morale_Entry ~= nil and Current_Morale_Entry.Punishment then
+                if (not Is_On_Last_Planet) or Global_Values.Can_Lose_Only_Planet then
+                    Activate_Low_Morale = true
+                end
+            end
+
+            if Activate_Low_Morale then
+                Low_Planet_Morale()
+
+                if Morale_Value_Status.Targeted_Planet ~= nil then
+                    local targeted_planet_entry = Get_Planet_Morale(Morale_Value_Status.Targeted_Planet)
+
+                    if targeted_planet_entry ~= nil then
+                        Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_TITLE")
+
+                        Add_Display_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(Morale_Value_Status.Targeted_Planet), tostring(targeted_planet_entry.Morale))
+                    end
+                end
+            else
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_NONE")
+                High_Planet_Morale()
+            end
+
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
+
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_RECENT_EVENTS", nil, nil, false, true)
 
             if tableLength(Morale_Event_Table.Recent) > 0 then
@@ -510,60 +541,25 @@ function Morale_System_Update(message)
             end
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
-            
-        end
 
-        DebugMessage("%s -- End of Main Event Display", tostring(Script))
+            --[[Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS", nil, nil, false, true)
 
-        --[[local Is_On_Last_Planet = Is_Player_On_Last_Planet()
-
-        local Activate_Low_Morale = false
-
-        if Current_Morale_Entry ~= nil and Current_Morale_Entry.Punishment then
-            if (not Is_On_Last_Planet) or Global_Values.Can_Lose_Only_Planet then
-                Activate_Low_Morale = true
+            for _, Morale_Event in pairs(Morale_Event_Table_Cache.Positive) do
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE", Morale_Event.Name)
             end
-        end
 
-        if Activate_Low_Morale then
-            Low_Planet_Morale()
-
-            if Morale_Value_Status.Targeted_Planet ~= nil then
-                local targeted_planet_entry = Get_Planet_Morale(Morale_Value_Status.Targeted_Planet)
-
-                if targeted_planet_entry ~= nil then
-                    Global_Values.Display_Event.Add_Dialog_Text(" ")
-
-                    Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_TITLE")
-
-                    Global_Values.Display_Event.Add_Dialog_Text(morale_string.Target_Planet, Planet_Table:Get_Planet_String(Morale_Value_Status.Targeted_Planet), tostring(targeted_planet_entry.Morale))
-                end
+            for _, Morale_Event in pairs(Morale_Event_Table_Cache.Negative) do
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE", Morale_Event.Name)
             end
-        else
-            High_Planet_Morale()
-        end ]]--
-    
-        --[[Global_Values.Display_Event.Add_Dialog_Text(" ")
 
-        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE")
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM", nil, nil, true, true)
 
-        for _, Morale_Event in pairs(Morale_Event_Table_Cache.Positive) do
-            Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, false, true)
+
+            ]]--
+
+            DebugMessage("%s -- End of Main Event Display", tostring(Script))
         end
-
-        Global_Values.Display_Event.Add_Dialog_Text(" ")
-
-        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE")
-
-        for _, Morale_Event in pairs(Morale_Event_Table_Cache.Negative) do
-            Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT", Morale_Event.Name)
-        end
-
-        Global_Values.Display_Event.Add_Dialog_Text(" ")
-
-        Global_Values.Display_Event.Add_Dialog_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM")
-
-        ]]--
     end
 end
 

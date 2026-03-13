@@ -252,6 +252,11 @@ Planet_Table = {
             Tech_Availability = 5,
             String = "HALO_PLANET_TVAO",
         },
+        ERIDANUS_ASTEROID_BELT = {
+            Tech_Difficulty = 1,
+            Tech_Availability = 5,
+            String = "ERIDANUS_ASTEROIDS",
+        }
     }
 }
 
