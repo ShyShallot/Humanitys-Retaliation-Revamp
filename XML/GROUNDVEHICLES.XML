@@ -1390,7 +1390,7 @@
 		<AI_Combat_Power>130</AI_Combat_Power>
 
 		<Behavior>SELECTABLE, POWERED</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR, REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX, SURFACE_FX, UNIT_AI, TURRET, TARGETING, WEAPON, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, HUNT, IDLE</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, SURFACE_FX, UNIT_AI, TURRET, TARGETING, WEAPON, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, HUNT, IDLE</LandBehavior>
 		
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		   
@@ -1409,7 +1409,7 @@
 		<Damage>8</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2500</Tactical_Health>
+		<Tactical_Health>10500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1441,6 +1441,8 @@
 		<Projectile_Fire_Pulse_Count>20</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
+		<HardPoints>UNSC_FALCON_LEFT, UNSC_FALCON_RIGHT</HardPoints>
+	
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 		
@@ -3157,9 +3159,9 @@
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>180.0</Targeting_Max_Attack_Distance>
 
-		<Hardpoints>
+		<HardPoints>
 				HP_2M_Tank_00		
-		</Hardpoints>
+		</HardPoints>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
