@@ -618,8 +618,8 @@
 		<!-- Classes -->
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
-		<Ship_Class>corvette</Ship_Class>
-		<CategoryMask> Corvette | AntiFighter </CategoryMask>
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiFighter </CategoryMask>
 
 		<!-- Class Shield and Damage -->
 		<Damage_Type>Damage_COVIE_Corvette</Damage_Type>
@@ -714,7 +714,7 @@
 		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
 		<!-- Unknown Don't touch unless experiementing-->
 		<Mass>0.999</Mass>

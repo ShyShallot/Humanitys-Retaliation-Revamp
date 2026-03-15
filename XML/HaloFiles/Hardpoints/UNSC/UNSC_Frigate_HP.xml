@@ -1384,6 +1384,8 @@
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
+		
 
     </HardPoint>
 
@@ -1416,6 +1418,8 @@
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
+		
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_03">
@@ -1445,7 +1449,9 @@
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
+		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 		
 		
 		
     </HardPoint>
@@ -1479,6 +1485,8 @@
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
+		
 
     </HardPoint>
 
@@ -1510,6 +1518,8 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
+		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
 
     </HardPoint>
@@ -1543,6 +1553,8 @@
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
+		
 
     </HardPoint>
 
@@ -1574,6 +1586,8 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
+		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 		
 
     </HardPoint>
@@ -1607,6 +1621,8 @@
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
 		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
+		
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_09">
@@ -1636,7 +1652,9 @@
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
+		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 		
 		
 
     </HardPoint>
@@ -1669,6 +1687,8 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent> 
+		
+		 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> 
 
 
     </HardPoint>

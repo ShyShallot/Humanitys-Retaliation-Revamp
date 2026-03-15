@@ -1453,7 +1453,7 @@
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
-	<SpaceUnit Name="Single_Random_Start">  <!-- UNSC Gausshog COMPANY -->
+	<SpaceUnit Name="Single_Random_Start"> 
 		<Is_Named_Hero>No</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_UNSC_PHOENIX</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PHOENIX TEXT_TOOLTIP_UNSC_PHOENIX_COMPLIMENT TEXT_TOOLTIP_UNSC_PHOENIX_BUFF TEXT_TOOLTIP_UNSC_PHOENIX_BUFF_2  </Encyclopedia_Text>
@@ -1500,7 +1500,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -1763,7 +1763,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
