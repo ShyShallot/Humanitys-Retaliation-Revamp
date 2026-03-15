@@ -57,10 +57,10 @@
 		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>3750</Shield_Points>
+		<Shield_Points>6750</Shield_Points>
 		<Tactical_Health>2400</Tactical_Health>
-		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
-		<Energy_Capacity>9000</Energy_Capacity>
+		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
+		<Energy_Capacity>337500</Energy_Capacity>
 		<Energy_Refresh_Rate>200</Energy_Refresh_Rate>
 		<Population_Value>4</Population_Value>
 		
@@ -661,9 +661,9 @@
 		<Bank_Turn_Angle>65</Bank_Turn_Angle>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>11000</Shield_Points>
-		<Tactical_Health>3500</Tactical_Health>
-		<Shield_Refresh_Rate>1000</Shield_Refresh_Rate>
-		<Energy_Capacity>21000</Energy_Capacity>
+		<Tactical_Health>7500</Tactical_Health>
+		<Shield_Refresh_Rate>2750</Shield_Refresh_Rate>
+		<Energy_Capacity>550000</Energy_Capacity>
 		<Energy_Refresh_Rate>700</Energy_Refresh_Rate>
 		
 		<!-- Galactic Conquest Stats -->

@@ -611,7 +611,8 @@
 	
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Shiva_Missiles">
+	<Projectile Name="Proj_UNSC_Shiva_Missiles"> 
+	<!-- These due to EM interference and radiation are capable of doing energy regen damage to covenant ships -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>UNSC_SHIVA_NUKE.alo</Space_Model_Name>
@@ -622,11 +623,11 @@
 		<CategoryMask>Transport</CategoryMask>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>100.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>1200.0</Projectile_Damage>
+		<Projectile_Damage>2500.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Nuke_Explode_Space</Projectile_Object_Detonation_Particle>
@@ -638,6 +639,32 @@
 		<Max_Speed>6.5</Max_Speed>
 		
 	</Projectile>
+	
+		
+	<!-- VERY VERY IMPORTANT STUN STUFF FOR EM BOMBS (Apple) 
+	
+		<Projectile_Stun_On_Detonation>yes</Projectile_Stun_On_Detonation>
+		<Projectile_Stun_Duration_Frames>450</Projectile_Stun_Duration_Frames>
+		<Projectile_Stun_Radius>200</Projectile_Stun_Radius>
+		
+		<Projectile_Stun_Victims_Category_Mask> Vehicle | Structure </Projectile_Stun_Victims_Category_Mask>
+		
+		<Projectile_Blast_Area_Range>400.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>3000.0</Projectile_Blast_Area_Damage>
+		
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+		
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>3.0</Projectile_Disable_Engines_Duration> -->
+
+		<!-- Stun specifics - this is more for visual effect than stun ability -->
+	<!--	<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation> -->
+	<!--	<Projectile_Ion_Stun_Duration>3.0</Projectile_Ion_Stun_Duration> must be same as Projectile_Disable_Engines_Duration in this case -->
+	<!--	<Projectile_Ion_Stun_Speed_Reduction_Percent>0.5f</Projectile_Ion_Stun_Speed_Reduction_Percent>  almost total speed reduction -->
+	<!--	<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.3</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> fire rate reduced to 20% -->
+	<!--	<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration> -->
+	
 	
 	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard variant and are shot by the cluster missile #139 -->
 	
@@ -811,7 +838,7 @@
 	</Projectile>
 	
 
-	<Projectile Name="Proj_UNSC_SUPER_DUPER_MAC_SHELL">
+	<Projectile Name="Proj_UNSC_SUPER_DUPER_MAC_SHELL"> <!-- Orbital Defense Platform -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<!-- <Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name> -->
 		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
@@ -821,8 +848,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>250000.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<Projectile_Damage>150000.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -837,10 +864,11 @@
 		
 		<AI_Combat_Power>22000</AI_Combat_Power>
 		
-	</Projectile>
-
-	<Projectile Name="Proj_UNSC_SUPER_MAC_SHELL">
+	</Projectile>  
 	
+	
+	<Projectile Name="Proj_UNSC_SUPER_MAC_SHELL">  <!-- Infinity , Vindication -->
+	 
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
 		
@@ -850,8 +878,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>75000.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<Projectile_Damage>100000.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -879,37 +907,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>15000.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
-		
-		<AI_Combat_Power>2000</AI_Combat_Power>
-		
-	</Projectile>
-	
-	<Projectile Name="Proj_UNSC_MAC_SHELL">
-	
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
-		
-		<Damage_Type>Damage_UNSC_MAC</Damage_Type>
-		<Max_Speed>320.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>3500.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>15650.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -937,8 +936,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>3250.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<Projectile_Damage>5625.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -966,8 +965,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>1750.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>2625.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
@@ -995,7 +994,7 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
 		<Projectile_Damage>2250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1024,8 +1023,8 @@
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>550.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>1250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

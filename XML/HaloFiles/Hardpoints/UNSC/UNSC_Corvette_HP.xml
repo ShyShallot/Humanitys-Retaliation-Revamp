@@ -336,8 +336,12 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 
-    </HardPoint> -->
+    </HardPoint> 
 	
     <HardPoint Name="UNSC_GLAD_01">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>

@@ -643,18 +643,21 @@
 		<Fire_Bone_B>FB_POA_MAC_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>3.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<AI_Combat_Power>4500</AI_Combat_Power>
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
 	</HardPoint>
 
 	<HardPoint Name="UNSC_POA_EG_01">
@@ -1378,13 +1381,16 @@
 		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<AI_Combat_Power>4500</AI_Combat_Power>
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
 	</HardPoint>
 
 	<HardPoint Name="UNSC_AUTUMN_EG_01">
@@ -2232,9 +2238,15 @@
 		<Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
 		<AI_Combat_Power>4500</AI_Combat_Power>
 
 	</HardPoint>
@@ -2759,9 +2771,14 @@
 		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
        
 		<AI_Combat_Power>4500</AI_Combat_Power>
         
@@ -3425,9 +3442,14 @@
 		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
        
 		<AI_Combat_Power>4500</AI_Combat_Power>
         
@@ -4390,12 +4412,14 @@
 		<Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3875.0</Fire_Range_Distance>
+		<Fire_Range_Distance>5250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<AI_Combat_Power>4500</AI_Combat_Power>
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 	</HardPoint>
 	
@@ -4423,7 +4447,12 @@
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Range_Distance>3875</Fire_Range_Distance>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	

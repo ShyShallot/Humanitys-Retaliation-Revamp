@@ -311,6 +311,10 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
     </HardPoint>
@@ -334,6 +338,11 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
     </HardPoint>
@@ -387,7 +396,12 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -743,6 +757,10 @@
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 
     </HardPoint>
 	
@@ -1769,7 +1787,11 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -2061,7 +2083,11 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -2724,7 +2750,12 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
+		
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -2748,7 +2779,12 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 
@@ -3151,7 +3187,12 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent> 
-	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<AI_Combat_Power>500</AI_Combat_Power>
 

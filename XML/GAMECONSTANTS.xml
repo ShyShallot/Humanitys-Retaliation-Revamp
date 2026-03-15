@@ -256,7 +256,7 @@
 
 	<!-- Shields and Power Recharge -->
 
-	<ShieldRechargeIntervalInSecs>1.0</ShieldRechargeIntervalInSecs>
+	<ShieldRechargeIntervalInSecs>0.25</ShieldRechargeIntervalInSecs>
 	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
 	<EnergyToShieldExchangeRate>1.0</EnergyToShieldExchangeRate>
 
