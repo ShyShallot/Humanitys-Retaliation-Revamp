@@ -457,7 +457,7 @@
 		<Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1750</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
@@ -477,11 +477,11 @@
 		<Fire_Cone_Width>15</Fire_Cone_Width>
 		<Fire_Cone_Height>15</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bident_Missiles</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>12.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1750</Fire_Range_Distance>
+		<Fire_Range_Distance>3750</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -510,6 +510,7 @@
 	</Hardpoint>
 	
 	<HardPoint Name="UNSC_SHIP_SPAWNER"> <!-- Highly experimental hardpoint system to spawn multiple of a single ship in one location speak to GrandMasterApple for more info -->
+	
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -520,6 +521,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 		<Damage_Particles></Damage_Particles>
+		
 	</HardPoint>
 	
 	<!-- Ground Weapons -->
