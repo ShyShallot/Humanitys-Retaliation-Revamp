@@ -4808,13 +4808,13 @@
 		<Fire_Bone_B>HP_Archer_01</Fire_Bone_B>
 		<Fire_Cone_Width>185.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Bident_Missile_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
 		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Range_Distance>3500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5438,12 +5438,12 @@
 		<Fire_Bone_B>HP_Archer_32</Fire_Bone_B>
 		<Fire_Cone_Width>185.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Bident_Missile_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
 		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>3500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
 
