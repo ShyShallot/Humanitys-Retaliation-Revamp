@@ -2234,8 +2234,8 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>45.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
@@ -4410,8 +4410,8 @@
 		<Fire_Projectile_Type>Proj_UNSC_SUPER_MAC_SHELL</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>110.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>

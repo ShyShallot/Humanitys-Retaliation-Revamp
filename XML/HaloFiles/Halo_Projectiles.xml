@@ -838,7 +838,7 @@
 	</Projectile>
 	
 
-	<Projectile Name="Proj_UNSC_SUPER_DUPER_MAC_SHELL"> <!-- Orbital Defense Platform -->
+	<Projectile Name="Proj_UNSC_SUPER_DUPER_MAC_SHELL"> <!-- Infinity -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<!-- <Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name> -->
 		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
@@ -867,7 +867,7 @@
 	</Projectile>  
 	
 	
-	<Projectile Name="Proj_UNSC_SUPER_MAC_SHELL">  <!-- Infinity , Vindication -->
+	<Projectile Name="Proj_UNSC_SUPER_MAC_SHELL">  <!-- ODP moncton , Vindication -->
 	 
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
