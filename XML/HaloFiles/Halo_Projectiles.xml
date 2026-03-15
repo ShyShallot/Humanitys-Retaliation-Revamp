@@ -703,7 +703,9 @@
 		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
 		
-		<Projectile_Damage>7500.0</Projectile_Damage>
+		<Projectile_Damage>500.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 7500 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1000 </Projectile_Blast_Area_Range>
 		
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1082,7 +1084,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
-		<Projectile_Damage>2625.0</Projectile_Damage>
+		<Projectile_Damage>3625.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>

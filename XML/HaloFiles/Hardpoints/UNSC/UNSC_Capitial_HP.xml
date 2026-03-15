@@ -2235,7 +2235,7 @@
 		<Fire_Min_Recharge_Seconds>45.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
