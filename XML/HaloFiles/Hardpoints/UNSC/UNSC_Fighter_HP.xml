@@ -583,21 +583,54 @@
 
 	</HardPoint>
 	
-	<HardPoint Name="UNSC_MANTIS_ARTILLERY"> <!-- Mantis Artillery Attempt Non functional -->
+	<HardPoint Name="UNSC_MANTIS_ARTILLERY"> <!-- Mantis Artillery Attempt -->
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_TURRET</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>2000</Health>
+		
+		<Is_Turret>Yes</Is_Turret>
+		<Model_To_Attach>UNSC_TURRET_MANTIS_00.ALO</Model_To_Attach>
+		
+		<Turret_Rest_Angle>0.0, 45.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotate_Extent_Degrees>120</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-		<Fire_Bone_A>B_Artillery</Fire_Bone_A>
-		<Fire_Bone_B>B_Artillery</Fire_Bone_B>
-		<Fire_Cone_Width>360.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>M9_HE_DP</Fire_Projectile_Type> 
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy>
+		
+		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+		<Attachment_Bone>Artillery_Turret</Attachment_Bone>
+		<Collision_Mesh>Artillery_Turret</Collision_Mesh>
+		<Fire_Bone_A>FP_01</Fire_Bone_A>
+		<Fire_Bone_B>FP_02</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>10</Fire_Cone_Width>
+		<Fire_Cone_Height>10</Fire_Cone_Height>
+		<Fire_Projectile_Type>M9_40MM_HE_DP</Fire_Projectile_Type> 
 		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_Range_Distance>1550</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
