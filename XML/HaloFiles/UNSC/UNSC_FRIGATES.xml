@@ -990,7 +990,7 @@
 
 	</SpaceUnit> 
 	
-	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> 
 	
 		<Variant_Of_Existing_Type>UNSC_STRIDENT</Variant_Of_Existing_Type>
 	

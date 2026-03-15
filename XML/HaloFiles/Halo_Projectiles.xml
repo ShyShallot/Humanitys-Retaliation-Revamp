@@ -615,28 +615,46 @@
 	<!-- These due to EM interference and radiation are capable of doing energy regen damage to covenant ships -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
+		
 		<Space_Model_Name>UNSC_SHIVA_NUKE.alo</Space_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		
+		<Max_Speed>6.5</Max_Speed>
+		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<CategoryMask>Transport</CategoryMask>
+		
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>100.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>2500.0</Projectile_Damage>
+		<Projectile_Damage>15000.0</Projectile_Damage>
+		
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
 		<Projectile_Object_Detonation_Particle>Nuke_Explode_Space</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Nuke_Explode_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Nuke_Explode_Space</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Nuke_Explode_Space</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>900</AI_Combat_Power>
-		<Max_Speed>6.5</Max_Speed>
+
+		<Projectile_Stun_Victims_Category_Mask> Fighter| Bomber | Corvette | Frigate | Capital </Projectile_Stun_Victims_Category_Mask>
+		
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>5.0</Projectile_Disable_Engines_Duration>
+		
+		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation> 
+		<Projectile_Ion_Stun_Radius>750.0</Projectile_Ion_Stun_Radius>
+		<Projectile_Ion_Stun_Duration>5.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.25f</Projectile_Ion_Stun_Speed_Reduction_Percent>  <!-- speed reduced to 75% -->
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
+		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
 	</Projectile>
 	
@@ -1038,6 +1056,32 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
 		<AI_Combat_Power>2000</AI_Combat_Power>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_Bullet_Break"> <!-- Breakwater Naval Coilguns -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UNSC_ONAGER.alo</Land_Model_Name>
+		<Space_Model_Name>W_UNSC_ONAGER.alo</Space_Model_Name>
+		<Max_Speed>150.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
+		<Projectile_Damage>5625.0</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 	</Projectile>
 		
@@ -1492,33 +1536,8 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 	</Projectile>
-	
-	<Projectile Name="Proj_UNSC_Bullet_Break">
-	
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
-		<Max_Speed>100.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
-		<Projectile_Damage>1500.0</Projectile_Damage>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle/>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<Projectile_SFXEvent_Detonate>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-	</Projectile>
 
-	<Projectile Name="Proj_UNSC_COIL">
+	<Projectile Name="Proj_UNSC_COIL">  <!-- Mako Coilguns -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_COIL.alo</Space_Model_Name>
