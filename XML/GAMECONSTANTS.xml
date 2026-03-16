@@ -256,7 +256,7 @@
 
 	<!-- Shields and Power Recharge -->
 
-	<ShieldRechargeIntervalInSecs>1.0</ShieldRechargeIntervalInSecs>
+	<ShieldRechargeIntervalInSecs>0.25</ShieldRechargeIntervalInSecs>
 	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
 	<EnergyToShieldExchangeRate>1.0</EnergyToShieldExchangeRate>
 
@@ -5175,14 +5175,6 @@
 		UNSC_PHOENIX, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_CHARON, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_BUCKLER, Data\ship_nicknames_frigate_unsc.txt,
-		UNSC_CHARON, Data\ship_nicknames_frigate_unsc.txt,
-		UNSC_BUCKLER, Data\ship_nicknames_frigate_unsc.txt,
-		UNSC_EPOCH, Data\ship_nicknames_capital_unsc.txt,
-		UNSC_PHOENIX, Data\ship_nicknames_capital_unsc.txt,
-		
-		
-		
-
 		COVN_CAS, Data\ship_nicknames_capital_covies.txt,
 		COVN_ORS, Data\ship_nicknames_capital_covies.txt,
 		COVN_DDS, Data\ship_nicknames_capital_covies.txt,

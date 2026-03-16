@@ -297,7 +297,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>20000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>26000</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -476,7 +476,7 @@
 		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		
@@ -990,7 +990,7 @@
 
 	</SpaceUnit> 
 	
-	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> 
 	
 		<Variant_Of_Existing_Type>UNSC_STRIDENT</Variant_Of_Existing_Type>
 	

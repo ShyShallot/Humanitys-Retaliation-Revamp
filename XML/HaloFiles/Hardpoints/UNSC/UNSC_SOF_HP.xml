@@ -150,8 +150,12 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -176,7 +180,10 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -201,11 +208,11 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
                 
-                
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 
 	<Hardpoint Name="UNSC_SOF_LAR_01">
@@ -1451,7 +1458,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1477,7 +1484,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1505,7 +1512,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1533,7 +1540,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1560,7 +1567,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1587,7 +1594,7 @@
                
 		<Fire_Cone_Width>360</Fire_Cone_Width>
 		<Fire_Cone_Height>90</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>36</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>36.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>

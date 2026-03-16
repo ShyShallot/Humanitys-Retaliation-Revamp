@@ -832,7 +832,6 @@
 	
 	<SpaceUnit Name="UNSC_PHOENIX">
 
-		<Is_Named_Hero>No</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_UNSC_PHOENIX</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PHOENIX TEXT_TOOLTIP_UNSC_PHOENIX_COMPLIMENT TEXT_TOOLTIP_UNSC_PHOENIX_BUFF TEXT_TOOLTIP_UNSC_PHOENIX_BUFF_2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COLONY </Encyclopedia_Unit_Class>
@@ -1093,6 +1092,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
+		
 	</SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_EPOCH">

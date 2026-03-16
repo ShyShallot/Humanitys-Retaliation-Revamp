@@ -436,7 +436,8 @@
 		<Additional_Population_Capacity>3</Additional_Population_Capacity>
 		<Abilities SubObjectList="Yes"/>
 	</Planet>
-	<Planet Name="Chi_Ceti_IV"><!-- ADD A RESEARCH BOOST HERE -->
+	
+	<Planet Name="Chi_Ceti_IV"> <!-- ADD A RESEARCH BOOST HERE -->
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>HALO_PLANET_CHI_CETI_IV</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -457,7 +458,7 @@
 		<Terrain>Forest</Terrain>
 		<Planet_Credit_Value>250</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-60.0, -81.0, 10.0</Galactic_Position>
+		<Galactic_Position>-60.0, -101.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>7</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
@@ -488,6 +489,7 @@
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
 		<Additional_Population_Capacity>3</Additional_Population_Capacity>
 	</Planet>
+	
 	<Planet Name="Eridanus_2"><!-- INSURRECTION HOTBED -->
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>HALO_PLANET_ERIDANUS_2</Text_ID>
