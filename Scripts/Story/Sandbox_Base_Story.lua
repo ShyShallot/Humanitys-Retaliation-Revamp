@@ -122,7 +122,7 @@ function Update(messsage)
 
     --Test_Victory_Condition()
 
-    Should_GC_End()
+    --Should_GC_End()
 end
 
 function Flush(message)
@@ -150,6 +150,10 @@ end
 
 function Should_GC_End()
    local Player_Planets = 0
+
+    if GetCurrentTime.Galactic_Time() <= 45 then
+        return
+    end
 
     for _, Planet_Name in pairs(Planet_Table:Return_All_Keys()) do
         local Planet = FindPlanet(Planet_Name)

@@ -22,11 +22,6 @@ end
 function Game_Message(message)
 end
 
----Returns current time in seconds
----@return number
-function GetCurrentTime()
-end
-
 ---@param lower_bound number The lower bound of the random number (inclusive)   
 ---@param upper_bound number The upper bound of the random number (inclusive)
 ---@return number

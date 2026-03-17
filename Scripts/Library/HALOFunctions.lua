@@ -486,3 +486,24 @@ function Random_From_List(list)
 
     return random_item
 end
+
+---@param t table
+---@return table|nil
+--- Deep clones a table so its no longer a direct reference
+function Clone_Table(t)
+    if type(t) ~= "table" then
+        return nil
+    end
+
+    local copy = {}
+
+    for k,v in pairs(t) do
+        if type(v) == "table" then
+            copy[k] = copy(v)
+        else
+            copy[k] = v
+        end
+    end
+
+    return copy
+end
