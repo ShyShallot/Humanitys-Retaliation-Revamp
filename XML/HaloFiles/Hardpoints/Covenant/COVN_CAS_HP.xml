@@ -14,9 +14,9 @@
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
 			<Fire_Projectile_Type>Proj_Plasma_Lance</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>100.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>100.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>100</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>90.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>90.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>25</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
 			<Fire_SFXEvent></Fire_SFXEvent>
@@ -40,7 +40,7 @@
 			<Fire_Projectile_Type>Proj_Plasma_Lance</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>100.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>100.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>100</Fire_Pulse_Count>
+            <Fire_Pulse_Count>25</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance> <!-- CAS CAN FIRE FROM ORBIT it is now the LONGEST RANGE UNIT ON MAP -->
 			<Fire_SFXEvent></Fire_SFXEvent>

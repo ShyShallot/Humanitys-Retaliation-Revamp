@@ -8,7 +8,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LATE_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_C712.alo</Space_Model_Name>
-		<Scale_Factor>0.27</Scale_Factor>
+		<Scale_Factor>0.04</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -339,7 +339,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Longsword.alo</Space_Model_Name>
-		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.75 -->
+		<Scale_Factor>0.20</Scale_Factor> <!-- Original was 0.75 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -653,7 +653,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SHORTSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_Shortsword.alo</Space_Model_Name>
-		<Scale_Factor>0.24</Scale_Factor> <!-- Original was 0.45 -->
+		<Scale_Factor>0.18</Scale_Factor> <!-- Original was 0.45 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -927,7 +927,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BROADSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRIKE_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BROAD.alo</Space_Model_Name>
-		<Scale_Factor>0.75</Scale_Factor> <!-- Original was 1.5 -->
+		<Scale_Factor>0.6</Scale_Factor> <!-- Original was 1.5 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1174,7 +1174,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_BASELARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_BASELARD_2.alo</Space_Model_Name>
-		<Scale_Factor>0.55</Scale_Factor> <!-- Original was 1.1 -->
+		<Scale_Factor>0.44</Scale_Factor> <!-- Original was 1.1 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1398,7 +1398,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SABRE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_SABRE.alo</Space_Model_Name>
-		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.75 -->
+		<Scale_Factor>0.30</Scale_Factor> <!-- Original was 0.75 -->
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1659,7 +1659,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<Space_Model_Name>UNSC_PELICAN.alo</Space_Model_Name>
-		<Scale_Factor>0.2</Scale_Factor> <!-- Original was 0.4 -->
+		<Scale_Factor>0.18</Scale_Factor> <!-- Original was 0.4 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>
@@ -1919,7 +1919,7 @@
 		<Encyclopedia_Good_Against> COVN_CRS COVN_RCS Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_D80_Condor.alo</Space_Model_Name>
-		<Scale_Factor>0.15</Scale_Factor>  <!-- Original was 0.3 -->
+		<Scale_Factor>0.16</Scale_Factor>  <!-- Original was 0.3 -->
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 		<Collision_Box_Modifier>9.0</Collision_Box_Modifier>

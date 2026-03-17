@@ -55,6 +55,245 @@
 		</Abilities> 
 		
 	</Projectile> -->
+	
+	
+	<Projectile Name="Proj_COV_TORPEDO">
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>10.8</Max_Speed>
+		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		
+		<Projectile_Stun_Victims_Category_Mask> Fighter | Bomber | Corvette | Frigate | Capital </Projectile_Stun_Victims_Category_Mask>
+		
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>5.0</Projectile_Disable_Engines_Duration>
+		
+		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation> 
+		<Projectile_Ion_Stun_Radius>750.0</Projectile_Ion_Stun_Radius>
+		<Projectile_Ion_Stun_Duration>5.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.25f</Projectile_Ion_Stun_Speed_Reduction_Percent>  <!-- speed reduced to 75% -->
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
+		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_COVN_CLUSTER_TORPEDO">
+	
+		<!--	<Space_Model_Name>W_COVN_CLUSTER_TORPEDO_EXPERIMENTAL.ALO</Space_Model_Name> -->
+		<Space_Model_Name>W_COVN_CLUSTER_TORPEDO_EXPERIMENTAL.ALO</Space_Model_Name>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>10.8</Max_Speed>
+		<Projectile_Damage>3000.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<CategoryMask>Transport</CategoryMask>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Hardpoints>CLUSTER_TORPEDO</Hardpoints>
+		<Projectile_Category>ROCKET</Projectile_Category>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
+		
+		<Projectile_Stun_Victims_Category_Mask> Fighter | Bomber | Corvette | Frigate | Capital </Projectile_Stun_Victims_Category_Mask>
+		
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>5.0</Projectile_Disable_Engines_Duration>
+		
+		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation> 
+		<Projectile_Ion_Stun_Radius>750.0</Projectile_Ion_Stun_Radius>
+		<Projectile_Ion_Stun_Duration>5.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.25f</Projectile_Ion_Stun_Speed_Reduction_Percent>  <!-- speed reduced to 75% -->
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
+		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
+		
+	</Projectile>
+	
+	<Projectile Name="PROJ_COVN_TORPEDO_AF">
+		
+		<!-- This is broken and we dont know why -->
+		
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>10.8</Max_Speed>
+		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		
+	</Projectile>
+
+	<Projectile Name="Proj_COV_TORPEDO_LIGHT_ARTY"> <!-- These are used on the CRS specifcally -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_ARTY.ALO</Space_Model_Name>
+
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<CategoryMask>Transport</CategoryMask>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance> <!-- was 2000 -->
+		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>450.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_AF_Death</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		<Projectile_Blast_Area_Damage>55</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>75</Projectile_Blast_Area_Range>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_COVN_TORPEDO_SDV_ARTY"> <!-- These are used on the SDV specifcally -->
+
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name> 
+
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+        <Max_Speed>10.8</Max_Speed>
+        <Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+        <Projectile_Category>ROCKET</Projectile_Category>
+
+        <Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+
+        <Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+        <Projectile_Damage>350.0</Projectile_Damage>
+        <Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+        <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
+        <Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+        <Projectile_Ground_Detonation_Particle/>
+        <Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
+        <Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
+        <AI_Combat_Power>900</AI_Combat_Power>
+
+    </Projectile>
+
+	<Projectile Name="Proj_COV_TORPEDO_Fighter">
+	
+		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Land_Model_Name>
+		<Max_Speed>10.8</Max_Speed>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+		<Projectile_Damage>295.0</Projectile_Damage>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_COV_TORPEDO_Bomber">
+		
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Land_Model_Name>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>10.8</Max_Speed>
+		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>900</AI_Combat_Power>
+		
+	</Projectile>
 
 
 	<!--Antifighter on Capitals (Un-Used DO NOT REMOVE THIS CONTAINS STATS WE NEED IF WE EVER WANT TO GO BACK-->
@@ -239,7 +478,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILEBEAM.ALO</Space_Model_Name>
 		<Max_Speed>120.0</Max_Speed>
-		<Projectile_Damage>41.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Covn_Normal</Damage_Type>
@@ -265,7 +504,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILEBEAM.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>250.0</Max_Speed>
-		<Projectile_Damage>41.0</Projectile_Damage>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Covn_Normal</Damage_Type>
@@ -353,14 +592,14 @@
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>200.0</Max_Speed>
-		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_Damage>1200.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>5500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Object_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -379,14 +618,14 @@
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>200.0</Max_Speed>
-		<Projectile_Damage>800.0</Projectile_Damage>
+		<Projectile_Damage>3500.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>5500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Object_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -405,14 +644,14 @@
 		<Space_Model_Name>COVN_PLASMALANCE_CSO.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>200.0</Max_Speed>
-		<Projectile_Damage>1250.0</Projectile_Damage>
+		<Projectile_Damage>3500.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>5500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Object_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -425,7 +664,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="Proj_Plasma_Array"> <!-- CAS Emitter BEAM ON CRACK (CSO) -->
+	<Projectile Name="Proj_Plasma_Array"> <!-- CSO primary Array (Lances on crack) -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
@@ -438,7 +677,7 @@
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>16500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Object_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1711,219 +1950,6 @@
 		
 	</Projectile>
 
-	<Projectile Name="Proj_COV_TORPEDO">
-	
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>10.8</Max_Speed>
-		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>250.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
-		
-	</Projectile>
-	
-	<Projectile Name="Proj_COVN_CLUSTER_TORPEDO">
-	
-		<!--	<Space_Model_Name>W_COVN_CLUSTER_TORPEDO_EXPERIMENTAL.ALO</Space_Model_Name> -->
-		<Space_Model_Name>W_COVN_CLUSTER_TORPEDO_EXPERIMENTAL.ALO</Space_Model_Name>
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>10.8</Max_Speed>
-		<Projectile_Damage>3000.0</Projectile_Damage>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
-		
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<CategoryMask>Transport</CategoryMask>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Hardpoints>CLUSTER_TORPEDO</Hardpoints>
-		<Projectile_Category>ROCKET</Projectile_Category>
-
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Object_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
-		
-	</Projectile>
-	
-	<Projectile Name="PROJ_COVN_TORPEDO_AF">
-		
-		<!-- This is broken and we dont know why -->
-		
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>10.8</Max_Speed>
-		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>50.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
-		
-	</Projectile>
-
-	<Projectile Name="Proj_COV_TORPEDO_LIGHT_ARTY"> <!-- These are used on the CRS specifcally -->
-	
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_ARTY.ALO</Space_Model_Name>
-
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>7.5</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		<CategoryMask>Transport</CategoryMask>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance> <!-- was 2000 -->
-		<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range> <!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>450.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_AF_Death</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_AF_Death</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
-		<Projectile_Blast_Area_Damage>55</Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range>75</Projectile_Blast_Area_Range>
-		
-	</Projectile>
-	
-	<Projectile Name="Proj_COVN_TORPEDO_SDV_ARTY"> <!-- These are used on the SDV specifcally -->
-
-        <Text_ID>TEXT_NONE</Text_ID>
-        <Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name> 
-
-        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-        <Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-        <Max_Speed>10.8</Max_Speed>
-        <Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
-        <Projectile_Category>ROCKET</Projectile_Category>
-
-        <Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-        <Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-
-        <Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-        <Projectile_Damage>350.0</Projectile_Damage>
-        <Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-        <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-        <Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
-        <Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-        <Projectile_Ground_Detonation_Particle/>
-        <Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
-        <Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
-        <AI_Combat_Power>900</AI_Combat_Power>
-
-    </Projectile>
-
-	<Projectile Name="Proj_COV_TORPEDO_Fighter">
-	
-		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Space_Model_Name>
-		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_BOMBER.ALO</Land_Model_Name>
-		<Max_Speed>10.8</Max_Speed>
-		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
-		<Projectile_Damage>295.0</Projectile_Damage>
-		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
-		
-	</Projectile>
-	
-	<Projectile Name="Proj_COV_TORPEDO_Bomber">
-		
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
-		<Land_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Land_Model_Name>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>10.8</Max_Speed>
-		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>250.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
-		
-	</Projectile>
 	<Projectile Name="Reduce_Ship_Firespeed_40">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.2</Scale_Factor>

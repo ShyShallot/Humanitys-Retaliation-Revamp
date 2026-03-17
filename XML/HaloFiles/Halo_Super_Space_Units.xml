@@ -49,13 +49,16 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Infinity_Drydock </Required_Special_Structures>
 		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
-		<Autoresolve_Health>32500</Autoresolve_Health>
+		
+		<Autoresolve_Health>52500</Autoresolve_Health>
 		<Tactical_Health>282000</Tactical_Health>
-		<Shield_Points>125650</Shield_Points>
-		<Shield_Refresh_Rate>9260</Shield_Refresh_Rate>
+		<Shield_Points>100000</Shield_Points>
+		<Shield_Refresh_Rate>25000</Shield_Refresh_Rate>
 		<Energy_Capacity>250000</Energy_Capacity>
-		<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
+		<Energy_Refresh_Rate>312500</Energy_Refresh_Rate>
+		
 		<Ship_Class>capital</Ship_Class>
+		
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>

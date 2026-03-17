@@ -1924,9 +1924,9 @@
             <Fire_Cone_Width>360.0</Fire_Cone_Width>
             <Fire_Cone_Height>165.0</Fire_Cone_Height>
 			<Fire_Projectile_Type>Proj_ORS_Plasma_Lance</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>120.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>120.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>100</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>90.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>90.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>25</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2250</Fire_Range_Distance> <!-- ORS ARTILLERY RANGE -->
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2107,7 +2107,7 @@
         <Fire_Min_Recharge_Seconds>25.45</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>25.85</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>50</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
