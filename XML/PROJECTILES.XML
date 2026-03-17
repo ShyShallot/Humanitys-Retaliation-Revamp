@@ -538,6 +538,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Diamond_Boron_Missile">
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
@@ -574,6 +575,7 @@
 		<Projectile_Lifetime_Detonation_Particle>DB_Missile_Explosion</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>DB_Missile_Explosion</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>600</AI_Combat_Power>
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Diamond_Boron_Missile_Barrage">
@@ -1654,7 +1656,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
-		<Projectile_Grenade_Gravity>0.05</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity>0.20</Projectile_Grenade_Gravity>
 		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
 		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
 		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->

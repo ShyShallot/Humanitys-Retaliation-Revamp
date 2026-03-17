@@ -54,11 +54,13 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
+		
 		<Shield_Points>22500</Shield_Points>
 		<Tactical_Health>9750</Tactical_Health>
 		<Shield_Refresh_Rate>5625</Shield_Refresh_Rate>
 		<Energy_Capacity>1125000</Energy_Capacity>
 		<Energy_Refresh_Rate>1875</Energy_Refresh_Rate>
+		
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->

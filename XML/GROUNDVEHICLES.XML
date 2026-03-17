@@ -360,11 +360,11 @@
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.9</Scale_Factor>
+		<Scale_Factor>0.95</Scale_Factor>
 
-		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
-		<Max_Speed>0.5</Max_Speed>
+		<Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 3.2 </Rotation_Animation_Speed>
+		<Max_Speed>0.3</Max_Speed>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
@@ -414,7 +414,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
 
 		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
@@ -680,13 +680,13 @@
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Land_Model_Name>COVN_SCARAB.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>6.5</Scale_Factor>
+		<Scale_Factor>5.0</Scale_Factor>
 		<Ranged_Target_Z_Adjust>65.0</Ranged_Target_Z_Adjust>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Movement_Animation_Speed> 0.30 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.55 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Rotation_Animation_Speed> 0.70 </Rotation_Animation_Speed>
 		<Max_Speed> 1.05 </Max_Speed>
@@ -707,11 +707,11 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
-		<Armor_Type> Armor_ATAA </Armor_Type>
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
 		<Size_Value>150</Size_Value>
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>26500</Tactical_Health>
+		<Tactical_Health>566500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -739,7 +739,7 @@
 		<!-- <Attack_Category_Restrictions> Infantry | Vehicle | LandHero | Structure </Attack_Category_Restrictions> -->
 
 		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Scarab_AA_GUN</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>14.0</Projectile_Fire_Recharge_Seconds>
@@ -897,7 +897,7 @@
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Land_Model_Name>COVN_WRAITH.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -905,7 +905,7 @@
 		<Movement_Animation_Speed> 0.0 </Movement_Animation_Speed>
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Rotation_Animation_Speed> 0.0 </Rotation_Animation_Speed>
-		<Max_Speed> 0.85 </Max_Speed>
+		<Max_Speed> 0.65 </Max_Speed>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn> 3.1 </Stopped_Rate_Of_Turn>
 		<Walk_Transition>No</Walk_Transition>
@@ -917,7 +917,7 @@
 		<Custom_Hard_YExtent> 18.0 </Custom_Hard_YExtent>
 		<FormationGrouping> Standard </FormationGrouping>
 		<FormationOrder> 8 </FormationOrder>
-		<FormationSpacing> 1 </FormationSpacing>
+		<FormationSpacing> 0.5 </FormationSpacing>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
 		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>		
 		<Close_Enough_Angle_For_Move_Start> 45 </Close_Enough_Angle_For_Move_Start>
@@ -964,7 +964,7 @@
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 		
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Proj_Ground_SPMAT_Grenade</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
@@ -1148,11 +1148,11 @@
 		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
-		<Variant_Of_Existing_Type>Pelican</Variant_Of_Existing_Type>
+		
 		<Land_Model_Name>UNSC_PELICAN.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>15.2</Scale_Factor>
+		<Scale_Factor>9.4</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -1168,27 +1168,28 @@
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Space_Layer> Frigate </Space_Layer>
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
-		<FormationGrouping> Solo </FormationGrouping>
 		<PathFrameDelay> 4 </PathFrameDelay>
+		
 		<Hover_Offset>150.0</Hover_Offset>
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
+		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
 		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
 
-		<FormationSpacing> 1 </FormationSpacing>
+		<FormationSpacing> 0.1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Solo </FormationGrouping>
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.5 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>			
 			
 		<AI_Combat_Power>130</AI_Combat_Power>
 
 		<Behavior>SELECTABLE, POWERED</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR, REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, HUNT</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, SURFACE_FX, UNIT_AI, TURRET, TARGETING, WEAPON, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, HUNT, IDLE</LandBehavior>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Weather_Category>Speeder</Weather_Category>
 	
@@ -1198,18 +1199,18 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Armor_Type> Armor_Speeder </Armor_Type>
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
 		<Damage>8</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>190</Tactical_Health>
+		<Tactical_Health>4000</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
 			UNSC_GPELICAN_01,
@@ -1258,8 +1259,8 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Air | AntiStructure</CategoryMask>
-		<MovementClass> Flying </MovementClass>
+		<CategoryMask> Vehicle</CategoryMask>
+		<MovementClass> LargeWalker </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1279,7 +1280,6 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<FormationGrouping> Solo </FormationGrouping>
 		<Weather_Category>Flying</Weather_Category>
 
 		<Score_Cost_Credits>50</Score_Cost_Credits>
@@ -1333,6 +1333,7 @@
 				<Terminate_Effect_On_Move_Command>True</Terminate_Effect_On_Move_Command>
 				
 			</Cable_Ability>
+			
 		</Abilities>
 
 	</GroundVehicle>
@@ -1348,13 +1349,13 @@
 		<Land_Model_Name>UNSC_FALCON_Backup.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>0.45</Scale_Factor>
+		<Scale_Factor>0.16</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>1.8</Max_Speed>
 		<Min_Speed>0.10</Min_Speed>
 		<Movement_Animation_Speed> 0.1 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
@@ -1366,7 +1367,6 @@
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Space_Layer> Land </Space_Layer>
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
-		<FormationGrouping> Solo </FormationGrouping>
 		<PathFrameDelay> 4 </PathFrameDelay>
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
@@ -1408,18 +1408,18 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		
-		<Armor_Type> Armor_Speeder </Armor_Type>
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
 		<Damage>8</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>10500</Tactical_Health>
+		<Tactical_Health>950</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		
 		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -1548,7 +1548,7 @@
 
 		<Land_Model_Name>RV_MPTL-2A.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>0.55</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -1562,7 +1562,7 @@
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		<FormationSpacing> 1.75 </FormationSpacing>
+		<FormationSpacing> 0.35 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
@@ -1576,9 +1576,8 @@
 
 		<Armor_Type> Armor_MPTL </Armor_Type>
 		<Damage>21</Damage>
-		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>2200</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1586,7 +1585,7 @@
 		<LandBehavior>AFFECTED_BY_SHIELD,TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED,  SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,SQUASH,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
 		
 		<Deploys>Yes</Deploys>
-		<Deployment_Anim_Rate>1.5</Deployment_Anim_Rate>
+		<Deployment_Anim_Rate>0.3</Deployment_Anim_Rate>
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 		
@@ -1605,9 +1604,9 @@
 
 		<Projectile_Types>M400_ARTILLERY_SYSTEM</Projectile_Types>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
-		<Targeting_Fire_Inaccuracy_Fixed_Radius> 140 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -1883,11 +1882,11 @@
 
 		<Land_Model_Name>UNSC_WARTHOG.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.35</Scale_Factor>
-		<Max_Speed>2.6</Max_Speed>
+		<Scale_Factor>0.17</Scale_Factor>
+		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
-		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.85 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Deploys>Yes</Deploys>
 
@@ -1930,7 +1929,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -2070,11 +2069,11 @@
 
 		<Land_Model_Name>UNSC_GAUSSHOG.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.35</Scale_Factor>
-		<Max_Speed>2.6</Max_Speed>
+		<Scale_Factor>0.17</Scale_Factor>
+		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
-		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.85 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Deploys>Yes</Deploys>
 
@@ -2117,7 +2116,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -2258,11 +2257,11 @@
 
 		<Land_Model_Name>UNSC_ROCKETHOG.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.35</Scale_Factor>
-		<Max_Speed>2.6</Max_Speed>
+		<Scale_Factor>0.17</Scale_Factor>
+		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
-		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.85 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Deploys>Yes</Deploys>
 
@@ -2305,7 +2304,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -2462,7 +2461,7 @@
 
 		<Land_Model_Name>RV_T2BTank.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
@@ -2657,7 +2656,7 @@
 
 		<Land_Model_Name>RV_T4BTank.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>.85</Scale_Factor>
+		<Scale_Factor>.35</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>

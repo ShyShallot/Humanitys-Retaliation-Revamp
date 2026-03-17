@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+
 <FrigateUnits>
 	<SpaceUnit Name="UNSC_GLADIUS">
 	
@@ -1058,7 +1059,6 @@
 		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 
-		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -1085,7 +1085,8 @@
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
-		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>true</WaitsForFormationFormup>
+		<Formation_Priority>3</Formation_Priority> 
+		<WaitsForFormationFormup>true</WaitsForFormationFormup>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
@@ -1098,8 +1099,8 @@
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Size_Value>8</Size_Value>
-		<Behavior>DUMMY_STARSHIP, SELECTABLE </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE, NEBULA </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -1181,22 +1182,6 @@
 		
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
-	<!--	<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.01f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-
-				
-			</Unit_Ability>
-
-		</Unit_Abilities_Data> -->
-
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 		
 		<Abilities SubObjectList="Yes">
@@ -1222,7 +1207,63 @@
 
 	</SpaceUnit>
 
- <!-- <Squadron Name="Paris_Squadron">
+ 
+		
+	<SpaceUnit Name="UNSC_SINGLE_PARIS"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
+	
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		
+		<Tech_Level>1</Tech_Level>
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+			
+				<Type>power_to_weapons</Type>
+				<Expiration_Seconds>-1</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
+				<Recharge_Seconds>1</Recharge_Seconds>
+
+				
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>4</Population_Value>
+	
+	</SpaceUnit>
+	
+	<!-- <Squadron Name="Paris_Squadron">
 
 		<Text_ID>TEXT_UNIT_UNSC_PARIS_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
@@ -1296,52 +1337,13 @@
 	
 		</Squadron> -->
 		
-		
-	<SpaceUnit Name="UNSC_SINGLE_PARIS"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
-	
-		<Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
-	
-		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
-		<Is_Community_Property>Yes</Is_Community_Property> 
-		<Space_Layer> frigate </Space_Layer> 
-		
-		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
-		<Max_Speed>3.6</Max_Speed>  
-		<Max_Thrust>0.4</Max_Thrust>
-		<Max_Lift>0.4</Max_Lift>
-		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
-		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>
-		
-		<Tech_Level>1</Tech_Level>
-		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
-		
-		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
-	
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>4</Population_Value>
-	
-	</SpaceUnit>
 	
 		
-		<!-- Ship Spawners - This was done in xml to prevent Desync, yes we know there are better ways - but Apple is extremely strict on lua -->
-	
+  <!-- Ship Spawners - This was done in xml to prevent Desync in multiplayer skirmish, yes we know there are better ways - but Apple is extremely strict on lua -->
+  
 	<!-- <SpecialStructure Name="UNSC_PARIS_SPAWNER">
-		<Text_ID>TEXT_UNIT_UNSC_PARIS</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_PARIS_SPAWNER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS_SPAWNER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_PORTAL_MODEL.ALO</Space_Model_Name>
@@ -1363,10 +1365,9 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.0</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
-		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>180</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 
-		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
@@ -1377,23 +1378,23 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>14400</Tactical_Health>		
+		<Tactical_Health>1</Tactical_Health>		
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		
-		<Energy_Capacity>3000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Energy_Capacity>3</Energy_Capacity>
+		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
-		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>true</WaitsForFormationFormup>
+		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
@@ -1424,7 +1425,7 @@
 		</HardPoints>
 		
 		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_PARIS, 3</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 
 		<CategoryMask> Frigate </CategoryMask>
 		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
@@ -1432,13 +1433,10 @@
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
-		
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	
 
@@ -1448,7 +1446,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Population_Value>4</Population_Value>
-	</SpecialStructure> -->
+	</SpecialStructure>  -->
 	
 
 	<SpaceUnit Name="UNSC_STALWART">
@@ -2191,7 +2189,7 @@
 		
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Squadron_Units>UNSC_Buckler, UNSC_Buckler</Squadron_Units>
+		<Squadron_Units>UNSC_Buckler, UNSC_Buckler, UNSC_Buckler</Squadron_Units>
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
@@ -2203,11 +2201,11 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<LOD_Bias>10</LOD_Bias>
 
-		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<!-- <Abilities SubObjectList="Yes">
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
