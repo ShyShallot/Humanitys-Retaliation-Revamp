@@ -250,14 +250,14 @@ function Tech_Stealing:Init(Plot)
         ScriptError("%s -- Player does not have a Valid Targets Table", tostring(Script))
     end
 
-    if Filter_System == nil then
+    if Unit_Filters == nil then
         ScriptError("%s -- Unit Filter System is not init", tostring(Script))
     end
 
     for _, Tech_Entry in pairs(Tech_Table_Entry) do
         for Tech, Stolen in pairs(Tech_Entry) do
             if Tech ~= nil then
-                Filter_System:Should_Lock_Unit(Tech, not Stolen)
+                Unit_Filters:Should_Lock_Unit(Tech, not Stolen)
             end
         end
     end
@@ -300,7 +300,7 @@ function Tech_Stealing:Update()
             self.Theft_Cooldown.Active = false
             self.Theft_Cooldown.End_On = nil
 
-            Filter_System:Should_Lock_Unit(self.Stealing_Unit.Unit_Name[string.upper(self.Player.Get_Faction_Name())].Lock, false)
+            Unit_Filters:Should_Lock_Unit(self.Stealing_Unit.Unit_Name[string.upper(self.Player.Get_Faction_Name())].Lock, false)
         end
     end
 
@@ -539,7 +539,7 @@ function Tech_Stealing:Steal_Tech(Planet)
     self.Last_Theft_Info.Verdict = true
     self.Last_Theft_Info.Tech_Stolen = Random_Tech
 
-    Filter_System:Should_Lock_Unit(Random_Tech, false) 
+    Unit_Filters:Should_Lock_Unit(Random_Tech, false) 
     
     self.Tech_Table:Set_Tech_Stolen_Status(self.Player, Random_Tech, true)
 
@@ -559,7 +559,7 @@ function Tech_Stealing:Thief_Build_Cooldown(Theft_Status)
     self.Theft_Cooldown.Active = true
     self.Theft_Cooldown.End_On = Get_Current_Week() + Cooldown_Time
 
-    Filter_System:Should_Lock_Unit(self.Stealing_Unit.Unit_Name[string.upper(self.Player.Get_Faction_Name())].Lock, true)
+    Unit_Filters:Should_Lock_Unit(self.Stealing_Unit.Unit_Name[string.upper(self.Player.Get_Faction_Name())].Lock, true)
 end
 
 ---@param Planet PlanetObject|nil

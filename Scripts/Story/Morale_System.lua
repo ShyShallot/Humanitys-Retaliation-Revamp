@@ -27,6 +27,27 @@ function Definitions()
         Morale_Update = Morale_System_Update,
     }
 
+    ---@class PlanetMoraleEntry
+    ---@field Object PlanetObject|nil
+    ---@field Owner PlayerWrapper|nil
+    ---@field Last_Owner PlayerWrapper|nil
+    ---@field Morale number
+    ---@field Last_Morale number
+    ---@field When_Morale_Last_Changed number
+
+    ---@class MoraleEvent
+    ---@field Name string
+    ---@field Value number
+    ---@field Subtract boolean
+    ---@field String string
+    ---@field KD_Influence? boolean 
+    ---@field Hidden? boolean Deprecated
+    ---@field Last_Event_Happened? number Seconds since even happened
+    ---@field Benefits_Enemy? boolean Event Loses Morale for faction experiencing it, but other factions gain morale from it
+
+    ---@class MoraleEventTable
+    ---@field Events table<string, MoraleEvent>
+    ---@field Recent MoraleEvent[]
     Morale_Event_Table = {
         Events = {
             ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 2, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
@@ -38,8 +59,8 @@ function Definitions()
             ["Morale_Construction_Event_Major"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_CONSTRUCTION_MAJOR"},
             ["Hero_Lost"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST_NAME", Value = 8, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_LOST"},
             ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
-            ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM", Hidden = true},
-            ["Far_Isle_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE", Hidden = true},
+            ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM", Hidden = true, Benefits_Enemy = true},
+            ["Far_Isle_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE", Hidden = true, Benefits_Enemy = true},
             ["Morale_Hero_Rescued"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED_NAME", Value = 10, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED"}
         },
         
@@ -97,16 +118,23 @@ function Definitions()
         return Time_Since
     end
 
-
-    Morale_Event_Table_Cache = {
-        Positive = {},
-        Negative = {},
-    }
-
     UNSC_Kill_Ratio_Table = {0, 5000, 12500, 20000, 25000} -- the index is the morale gain from the kill ratio at that index
 
     COVN_Kill_Ratio_Table = {0, 15000, 20000, 32500, 50000}
 
+    ---@class Morale_Bonus
+    ---@field Battle string
+    ---@field Production string
+
+    ---@class Morale_Level
+    ---@field Range number[]
+    ---@field Punishment boolean
+    ---@field Name string
+    ---@field Display_Name string
+    ---@field Bonus Morale_Bonus
+    ---@field Description string
+
+    ---@type Morale_Level[]
     Morale_Levels = {
         {Range = {0,15}, Punishment = true, Name = "Compromised", Display_Name = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_DESCRIPTION"},
         {Range = {16,35}, Punishment = false, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
@@ -256,8 +284,21 @@ function Definitions()
 
     Planetary_Pathing_Table = nil
 
+    ---@alias Planet_Morale_Table table<string, PlanetMoraleEntry>
     Planet_Morale_Table = nil
+    
+    ---@class Random_Event
+    ---@field Base_Morale number
+    ---@field Negative boolean
+    ---@field Weight number
+    ---@field Display_Name string
+    ---@field String string
 
+    ---@class Random_Events
+    ---@field Distribution_Table DiscreteDistributionObject|nil
+    ---@field Possible_Events table<string, Random_Event>
+    ---@field Next_Random_Event number
+    ---@field Last_Random_Event number
     Random_Events = {
         Distribution_Table = nil,
         Possible_Events = {
@@ -285,12 +326,15 @@ function Definitions()
         self.Next_Random_Event = self.Last_Random_Event + EvenMoreRandom(35,170)
     end
 
+    ---@return boolean
     function Random_Events:Should_Random_Event_Happen()
         if GetCurrentTime.Galactic_Time() >= self.Next_Random_Event then
             self:Calculate_Next_Random_Event()
             self.Last_Random_Event = GetCurrentTime.Galactic_Time()
             return true
         end
+
+        return false
     end
 
 end
@@ -383,20 +427,6 @@ function Init_Morale_System(message)
         Planetary_Pathing_Table = Build_Neighbor_Table()
 
         Planet_Morale_Table = Build_Morale_Table()
-
-        for _, Morale_Event in pairs(Morale_Event_Table.Events) do
-
-            Morale_Event.Last_Event_Happened = 0
-
-            if Morale_Event.Hidden ~= true then
-                if Morale_Event.Subtract then
-                    table.insert(Morale_Event_Table_Cache.Negative, Morale_Event)
-                else
-                    table.insert(Morale_Event_Table_Cache.Positive, Morale_Event)
-                end
-            end
-
-        end
 
         Random_Events.Distribution_Table = DiscreteDistribution.Create()
 
@@ -542,22 +572,6 @@ function Morale_System_Update(message)
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
-            --[[Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS", nil, nil, false, true)
-
-            for _, Morale_Event in pairs(Morale_Event_Table_Cache.Positive) do
-                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_POSITIVE", Morale_Event.Name)
-            end
-
-            for _, Morale_Event in pairs(Morale_Event_Table_Cache.Negative) do
-                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENTS_NEGATIVE", Morale_Event.Name)
-            end
-
-            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MORALE_EVENT_RANDOM", nil, nil, true, true)
-
-            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, false, true)
-
-            ]]--
-
             DebugMessage("%s -- End of Main Event Display", tostring(Script))
         end
     end
@@ -656,8 +670,8 @@ function Handle_Planet_Production(Current_Morale_Entry)
     end
 end
 
+---@return Morale_Level|nil
 function Get_Morale_Level()
-    local morale_level = nil
 
     for _, level in ipairs(Morale_Levels) do
         local min_val = level.Range[1]
@@ -884,6 +898,8 @@ function Modify_Morale(event_table)
         return
     end
 
+    event_table.Happened = Get_Current_Week()
+
     Morale_Event_Table:Add_Recent(event_table)
 
     Morale_Value_Status.Last = Morale_Value_Status.Current
@@ -894,16 +910,15 @@ function Modify_Morale(event_table)
 
 end
 
-function Get_Morale_Influence()
+---@param Affected_Player? PlayerWrapper|nil
+---@return MoraleEvent
+function Get_Morale_Influence(Affected_Player)
     local State = Get_Current_State()
 
-    local Morale_Values = Morale_Event_Table.Events[State]
+    ---@type MoraleEvent|nil
+    local Morale_Values = Clone_Table(Morale_Event_Table.Events[State])
 
     DebugMessage("%s -- Morale Value for State %s", tostring(Script), tostring(State))
-
-    if Morale_Values == nil then
-        return
-    end
 
     PrintTable(Morale_Values)
 
@@ -911,10 +926,16 @@ function Get_Morale_Influence()
         if Morale_Values.KD_Influence == true then
             local New_Morale_Value = Morale_Kill_Ratio_Influence(Morale_Values.Value, Morale_Values.Subtract)
 
-            return {Value = New_Morale_Value, Subtract = Morale_Values.Subtract, Name = Morale_Values.Name, String = Morale_Values.String}
-        else
-            return Morale_Values
+            Morale_Values.Value = New_Morale_Value
         end
+
+        if Morale_Values.Benefits_Enemy then
+            if Global_Values.Player ~= Affected_Player then
+                Morale_Values.Subtract = false
+            end
+        end
+
+        return Morale_Values
     else
         return {Value = 0, Subtract = false, Name = "No Entry"}
     end
@@ -1054,7 +1075,10 @@ function Build_Neighbor_Table()
     return neighbor_table
 end
 
+---@return MoraleTable
 function Build_Morale_Table()
+    
+    ---@type MoraleTable
     local morale_table = {}
 
     for _, planet in pairs(Global_Values.Planets) do
@@ -1082,7 +1106,7 @@ end
 
 function Reset_Morale_Entries()
     if Planet_Morale_Table == nil then
-        return nil
+        return
     end
 
     for planet_name, entry in pairs(Planet_Morale_Table) do
@@ -1099,6 +1123,8 @@ function Reset_Morale_Entries()
     end
 end
 
+---@param planet PlanetObject|nil
+---@return PlanetMoraleEntry|nil
 function Get_Planet_Morale(planet)
     if Planet_Morale_Table == nil then
         return nil
@@ -1354,9 +1380,7 @@ function Great_Schism(message)
         return
     end
 
-    if Global_Values.Player.Get_Faction_Name() == "EMPIRE" then
-        Modify_Morale(Get_Morale_Influence())
-    end
+    Modify_Morale(Get_Morale_Influence(Find_Player("EMPIRE")))
 
     Set_Next_State("Flush")
 end
@@ -1369,9 +1393,8 @@ function Far_Isle_Event(message)
         return
     end
 
-    if Global_Values.Player.Get_Faction_Name() == "REBEL" then
-        Modify_Morale(Get_Morale_Influence())
-    end
+    Modify_Morale(Get_Morale_Influence(Find_Player("REBEL")))
+
 
     Set_Next_State("Flush")
 end
