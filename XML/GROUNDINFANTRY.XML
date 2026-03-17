@@ -34,7 +34,7 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
-		<Max_Speed>3.0</Max_Speed>
+		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -50,7 +50,7 @@
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<FormationOrder> 1 </FormationOrder>
 		
-		<Scale_Factor>1</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<CanCellStack>yes</CanCellStack>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
@@ -73,7 +73,7 @@
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -212,7 +212,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.75</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.37</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -239,7 +239,7 @@
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -357,11 +357,11 @@
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 
-		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Walk_Animation_Speed> 1.3 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed>1</Max_Speed>
+		<Max_Speed>0.35</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -374,7 +374,7 @@
 		<OverrideDeceleration> 0.05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.85</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.45</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -451,7 +451,7 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.1</Surface_Type_Cover_Damage_Shield>
@@ -531,11 +531,11 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		
-		<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 0.95 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Walk_Animation_Speed> .766 </Walk_Animation_Speed>
+		<Walk_Animation_Speed> 1.366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed>0.55</Max_Speed>
+		<Max_Speed>0.35</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -775,7 +775,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -846,7 +846,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
-		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -958,10 +958,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -977,7 +977,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1178,10 +1178,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1197,7 +1197,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1279,7 +1279,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1414,10 +1414,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1433,7 +1433,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1513,7 +1513,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1635,7 +1635,12 @@
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT</LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, REINFORCEMENT_POINT</LandBehavior>
+		
+		<Reinforcement_Enabling_Radius>150.0</Reinforcement_Enabling_Radius>
+		<Radar_Range_Icon_Name>i_radar_landing.tga</Radar_Range_Icon_Name>
+		<Reinforcement_Region_Blob_Name>Reinforcement_Point_Radius_Overlay</Reinforcement_Region_Blob_Name>
+		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1643,10 +1648,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1662,7 +1667,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1742,7 +1747,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1778,24 +1783,46 @@
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 			</Unit_Ability>
 		</Unit_Abilities_Data> -->
-		
-		
+			
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			
+		
 			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 23.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 			
 			<Unit_Ability>
-                <Type>HUNT</Type>
-            </Unit_Ability>
 			
-			
-		</Unit_Abilities_Data>
+				<Type>SUMMON</Type>
+				<Recharge_Seconds>9998.0</Recharge_Seconds>
+                <Area_Effect_Decal_Distance> 125.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name> HELLJUMPERS </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<SFXEvent_Target_Ability> HARD_POINT_ENABLE_SPECIAL_ABILITY </SFXEvent_Target_Ability>  
+				
+			</Unit_Ability>
+
+		</Unit_Abilities_Data> 
+	
+		<Abilities SubObjectList="Yes">
+		
+		  <Summon_Ability Name="Paris_Summon">
+		  
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>100.0</Activation_Min_Range>
+   				<Activation_Max_Range>1000.0</Activation_Max_Range>
+                <Object_Type>UNSC_INFANTRY_STANCHION</Object_Type>
+                <SFXEvent_Unit_Summoned>Unit_Force_Summon</SFXEvent_Unit_Summoned>
+                <Creation_Delay_In_Seconds>0.1</Creation_Delay_In_Seconds>
+                <Target_Particle_Effect>Summon_Effect</Target_Particle_Effect>
+				
+            </Summon_Ability>
+		
+		</Abilities>
 		
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
@@ -1828,10 +1855,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1847,7 +1874,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1929,7 +1956,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -2011,10 +2038,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2030,7 +2057,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2110,7 +2137,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -2194,10 +2221,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2213,7 +2240,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2295,7 +2322,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -2373,10 +2400,10 @@
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
 		
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2395,7 +2422,7 @@
 
 		<Select_Box_Scale>20</Select_Box_Scale>
 
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2415,7 +2442,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2564,7 +2591,7 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.75</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2582,7 +2609,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
@@ -2725,10 +2752,10 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 
-		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.5 </Max_Speed> <!-- DECR from 1.0 -->
+		<Max_Speed> 0.25 </Max_Speed> <!-- DECR from 1.0 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2743,7 +2770,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -2760,7 +2787,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2905,7 +2932,7 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -2923,7 +2950,7 @@
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -3049,7 +3076,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
@@ -3167,7 +3194,7 @@
 
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
 		<Max_Speed>0.8</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -3182,7 +3209,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.75</Scale_Factor>
+		<Scale_Factor>0.37</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire, Swords</Affiliation>
@@ -3345,7 +3372,7 @@
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Marine</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3361,7 +3388,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_RADIO</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Radio-Operator</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3377,7 +3404,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_ENGINEER</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Engineer</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3418,7 +3445,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_MEDIC</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Medic</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3459,7 +3486,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_SNIPER</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SNIPER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3475,7 +3502,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_STANCHION</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SNIPER-SPECIALIST</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3491,7 +3518,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_SHOTGUN</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SHOTGUNNER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3521,7 +3548,7 @@
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.25 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>

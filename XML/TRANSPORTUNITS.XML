@@ -3,7 +3,7 @@
 	<TransportUnit Name="Imperial_Landing_Craft">
 
 		<Text_ID>TEXT_UNIT_IMPERIAL_LANDING_CRAFT</Text_ID>
-		<Land_Model_Name>EV_IMPERIALCRAFT.ALO</Land_Model_Name>
+		<Land_Model_Name>Lander_Root.ALO</Land_Model_Name>
 		<Space_Model_Name>COVN_SDV.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_SDV.tga</Icon_Name>
 		<Select_Box_Scale>150</Select_Box_Scale>
@@ -144,14 +144,29 @@
 	<TransportUnit Name="Imperial_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>2.25</Scale_Factor>
+		<Scale_Factor>60.25</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, SELECTABLE,POWERED, SHIELDED,</LandBehavior> 
 		<Is_Valid_Target>Yes</Is_Valid_Target>
+		<HardPoints>
+		  HP_SHIP_LANDING_SDV
+		</HardPoints>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
       	<UnitCollisionClass>Vehicle</UnitCollisionClass>	
+		
+		<Abilities SubObjectList="Yes">
+            <Battlefield_Modifier_Ability Name="NL_Enhanced_Deployment_L1_Upgrade">
+                <Activation_Style>Ground_Automatic</Activation_Style>
+                <Reinforcement_Deploy_Time_Multiplier>0.1</Reinforcement_Deploy_Time_Multiplier>
+                <Disable_Reinforcement_Vulnerability>Yes</Disable_Reinforcement_Vulnerability>
+                <Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+                <Stacking_Category>3</Stacking_Category>
+            </Battlefield_Modifier_Ability>
+        </Abilities>
+		
+		
 	</TransportUnit>
 	
 	<TransportUnit Name="Imperial_Landing_Craft_Landing_Cinematic">
@@ -324,7 +339,7 @@
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
+		<Land_Model_Name>Lander_Root.ALO</Land_Model_Name>
 		<Space_Model_Name>UNSC_CHARONClass.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -452,16 +467,38 @@
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
 		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
 	</TransportUnit>
+	
+	<TransportUnit Name="Generic_Ship_Landing">
+		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
+		<Land_Model_Name>Lander_Root.alo</Land_Model_Name>
+		<Icon_Name></Icon_Name>
+		<Behavior>TRANSPORT</Behavior>
+		<Scale_Factor>2.5</Scale_Factor><!-- Changes depending on which ship you choose -->
+		<HardPoints>
+		  HP_SHIP_LANDING_CHARON
+		</HardPoints>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<User_Bound_Min>-700, -700, 0</User_Bound_Min><!-- might need adjustments to your likings -->
+		<User_Bound_Max>700, 700, 1500</User_Bound_Max><!-- same for this one -->
+		<Has_Space_Evaluator>False</Has_Space_Evaluator>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+	</TransportUnit>
 
 	<TransportUnit Name="Gallofree_Transport_Landing">
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>40.5</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>
 		<User_Bound_Max>0, 0, 0</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
+		
+		<HardPoints>
+		  HP_SHIP_LANDING_CHARON
+		</HardPoints>
 		
 		<Obstacle_Width>0</Obstacle_Width>
 		<Obstacle_Height>0</Obstacle_Height>

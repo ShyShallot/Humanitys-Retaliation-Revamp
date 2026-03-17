@@ -207,11 +207,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 		
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -300,11 +300,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 		
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -448,11 +448,11 @@
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<Minimum_Follow_Distance>250.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Strafe_Distance>500.0</Strafe_Distance>
@@ -570,11 +570,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -884,11 +884,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -1131,11 +1131,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -1356,11 +1356,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>5</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -1610,11 +1610,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -1875,11 +1875,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
@@ -2123,11 +2123,11 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1000</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
+		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+        <Idle_Chase_Range>700.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->

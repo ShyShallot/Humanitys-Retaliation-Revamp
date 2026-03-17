@@ -526,7 +526,7 @@
 		
 	</Projectile>
 
-	<Projectile Name="Proj_Covie_Plasma_Beam_Platform">
+	<Projectile Name="Proj_Covie_Plasma_Beam_Platform"> <!-- plasma beamy thing space turret -->
 	
 		<Variant_Of_Existing_Type>Proj_Covie_Pulse_Laser_Corvette</Variant_Of_Existing_Type>
 		<Projectile_Damage>21.0</Projectile_Damage>
@@ -641,7 +641,7 @@
 	<Projectile Name="Proj_Plasma_Lance_CSO"> <!-- CSO SUPER BEAM LANCE THING -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMALANCE_CSO.ALO</Space_Model_Name>
+		<Space_Model_Name>COVN_PLASMALANCE.ALO</Space_Model_Name>
 		<Scale_Factor>7.0</Scale_Factor>
 		<Max_Speed>200.0</Max_Speed>
 		<Projectile_Damage>3500.0</Projectile_Damage>
@@ -689,6 +689,11 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 	</Projectile>
+	
+	
+	<!-- Unsc Stuff -->
+	
+	
 	
 	<Projectile Name="UNSC_Frigate_Self_Destruct">
 	
@@ -897,7 +902,6 @@
 		
 	</Projectile>
 	
-		
 	<!-- VERY VERY IMPORTANT STUN STUFF FOR EM BOMBS (Apple) 
 	
 		<Projectile_Stun_On_Detonation>yes</Projectile_Stun_On_Detonation>
@@ -2465,11 +2469,11 @@
 		<Land_Model_Name>W_concussion_missile.ALO</Land_Model_Name> 
 
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>30.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
-		<Projectile_Grenade_Gravity>0.05</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity>0.10</Projectile_Grenade_Gravity>
 		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
 		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
 		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->
@@ -2580,10 +2584,10 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Space_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Space_Model_Name>
 		<Land_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Land_Model_Name>
-		<Max_Speed>10.8</Max_Speed>
+		<Max_Speed>4.8</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Damage>395.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Damage>1395.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 35 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
@@ -2600,9 +2604,9 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Space_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Space_Model_Name>
 		<Land_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Land_Model_Name>
-		<Max_Speed>4.8</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Damage>500.0</Projectile_Damage>
+		<Max_Speed>2.8</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Projectile_Damage>10500.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 20 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
