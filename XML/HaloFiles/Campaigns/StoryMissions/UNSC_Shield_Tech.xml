@@ -7,14 +7,14 @@
         <Event_Param1>0</Event_Param1>
     </Event>
 
-    <Event Name="Rebel_Tech_4">
+    <Event Name="UNSC_Enters_Tech_4">
         <Event_Type>STORY_TECH_LEVEL</Event_Type>
         <Event_Param1>3</Event_Param1>
     </Event>
 
     <Event Name="CAPTURE_INSTALLATION_05_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Prereq>Rebel_Tech_4</Prereq>
+		<Prereq>UNSC_Enters_Tech_4</Prereq>
 		<Story_Dialog>DIALOG_UNSC_TECH</Story_Dialog>
         <Story_Chapter>1</Story_Chapter>
         <Story_Dialog_Popup>True</Story_Dialog_Popup>
@@ -47,5 +47,6 @@
         <Story_Dialog>DIALOG_UNSC_TECH</Story_Dialog>
         <Story_Chapter>2</Story_Chapter>
         <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Shield_Display</Story_Tag>
     </Event>
 </Story>

@@ -15,7 +15,7 @@ function Definitions()
     trigged_event = false
 
     StoryModeEvents = {
-        Rebel_Tech_4 = Shield_System,
+        UNSC_Enters_Tech_4 = Shield_System,
         Galactic_Start = Init_Shield_Tech,
     }
 

@@ -40,7 +40,7 @@ end
 function Find_Nearest(source_object, taskforce, category, player, allied)
 end
 
----@param planet_name string The name of the planet
+---@param planet_name PlanetName The name of the planet
 ---@return PlanetObject|nil
 ---Returns the PlanetObject matching the given planet name
 function FindPlanet(planet_name)

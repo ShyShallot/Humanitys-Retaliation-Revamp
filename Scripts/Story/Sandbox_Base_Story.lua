@@ -106,6 +106,8 @@ function Init_GC(messsage)
 
     Loss_Event.Set_Reward_Parameter(0, Loss_Player.Get_Faction_Name())
 
+    Shield_Research_Test()
+
     Set_Next_State("Flush")
 end
 
@@ -175,6 +177,20 @@ function Should_GC_End()
 
     if Player_Planets == 0 then
         Story_Event("Trigger_GC_Loss")
+    end
+end
+
+function Shield_Research_Test()
+    if string.upper(Player.Get_Faction_Name()) ~= "REBEL" then
+        return
+    end
+
+    local Planet = FindPlanet("INSTALLATION_05")
+
+    if TestValid(Planet) then
+        Planet.Change_Owner(Player)
+
+        Spawn_Unit(Find_Object_Type("UNSC_RESEARCH_FACILITY"), FindPlanet("EARTH"), Player)
     end
 end
 
