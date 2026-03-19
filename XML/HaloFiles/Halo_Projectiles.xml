@@ -1955,6 +1955,7 @@
 	</Projectile>
 
 	<Projectile Name="Reduce_Ship_Firespeed_40">
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Damage_Type>Damage_Land_AntiInfantry_Explosive</Damage_Type>
@@ -1985,9 +1986,11 @@
 		<Projectile_Combat_Mod_Value>0.40</Projectile_Combat_Mod_Value>
 		<Projectile_Combat_Mod_Effect/>
 		<Projectile_Combat_Mod_Category_Mask/>
+		
 	</Projectile>
 
 	<Projectile Name="Redirect_Engine_Power_40">
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Damage_Type>Damage_Land_AntiInfantry_Explosive</Damage_Type>
@@ -2018,9 +2021,46 @@
 		<Projectile_Combat_Mod_Value>1.40</Projectile_Combat_Mod_Value>
 		<Projectile_Combat_Mod_Effect/>
 		<Projectile_Combat_Mod_Category_Mask/>
+		
 	</Projectile>
 	
 	<!-- Ground Projectiles -->
+
+	<Projectile Name="Proj_UNSC_ODST">     <!-- Experimental Projectile to Spawn Units -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Layer_Z_Adjust> 35 </Layer_Z_Adjust>
+		
+		<Land_Model_Name>w_smallbomb.ALO</Land_Model_Name>
+		<Space_Model_Name>w_smallbomb.ALO</Space_Model_Name>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Max_Speed>0.0</Max_Speed>
+		<Damage_Type> Damage_StickyBomb </Damage_Type>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, BOMB</Behavior>
+		<Projectile_Category>STATIC_BOMB</Projectile_Category>
+		<Projectile_Blast_Area_Range>80.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>75.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Grenade_Sticks_On_Collision>no</Projectile_Grenade_Sticks_On_Collision>
+		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Death_Explosions> Thermal_Detonator_Explosion </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Unit_Katarn_Building_Bomb_SFX </Death_SFXEvent_Start_Die>
+		<AI_Combat_Power>300</AI_Combat_Power>
+
+		<Destruction_Survivors>
+		
+		UNSC_WARTHOG, 1.0
+		
+		</Destruction_Survivors>
+		
+	</Projectile>
 	
 	<Projectile Name="M9_HE_DP"> <!-- This is unsc hand grenade -->
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -2481,8 +2521,8 @@
 		
 		<Projectile_Damage>1250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>60.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>225.0</Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2498,7 +2538,7 @@
 		<AI_Combat_Power>600</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Tank_Boom"> <!-- Tank Rounds -->
+	<Projectile Name="Tank_Boom"> <!-- Tank Rounds 90mm smoothbore high vel M512 -->
 	
 			<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
@@ -2506,9 +2546,9 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>750</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		<Projectile_Damage>4750</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 3 </Projectile_Blast_Area_Range>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

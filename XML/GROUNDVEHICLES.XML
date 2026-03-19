@@ -711,7 +711,7 @@
 		<Size_Value>150</Size_Value>
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>566500</Tactical_Health>
+		<Tactical_Health>406500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1417,7 +1417,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		
@@ -1930,7 +1930,7 @@
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -2117,7 +2117,7 @@
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -2305,7 +2305,7 @@
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -2644,19 +2644,19 @@
 	</GroundVehicle>
 
 
-	<GroundVehicle Name="T4B_Tank">
+	<GroundVehicle Name="UNSC_SCORPION_TANK">
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>TEXT_UNIT_T3B_TANK</Text_ID>
-		<Encyclopedia_Good_Against> M1_Repulsor_Tank Canderous_Assault_Tank AT_AT_Walker </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> AT_AT_Walker Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T4B</Encyclopedia_Text>
+		<Text_ID>Scorpion_Tank</Text_ID>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>RV_T4BTank.ALO</Land_Model_Name>
+		<Land_Model_Name>UNSC_SCORPION_TANK.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>.35</Scale_Factor>
+		<Scale_Factor>.42</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
@@ -2664,8 +2664,8 @@
 		<Political_Control>0</Political_Control>
 		
         <Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.7</Max_Speed>
-		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
+		<Max_Speed>0.8</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
@@ -2680,11 +2680,11 @@
 		<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 		
-		<Armor_Type> Armor_T4B </Armor_Type>
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
 		<Size_Value>75</Size_Value>
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2500</Tactical_Health>
+		<Tactical_Health>12500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -2697,11 +2697,11 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<HardPoints>
-			HP_T4B_Tank_03, HP_T4B_Tank_04, HP_T4B_Tank_05
+			Scorpion_LMG_00
 		</HardPoints>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>80</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
@@ -2717,22 +2717,22 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
-		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<SFXEvent_Fire>Unit_Tank_T4B_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M512</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_T4B_Tank</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_T4B_Tank</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
@@ -2780,7 +2780,7 @@
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
-		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Autonomous_Move_Extension_Vs_Attacker>750.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Select_Box_Scale>75</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2793,19 +2793,19 @@
 		<Vehicle_Thief_Inside_Clone>T4B_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+	
+		<!-- <Unit_Abilities_Data SubObjectList="Yes">  Disabled (apple)
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
 				<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 			</Unit_Ability>
-		</Unit_Abilities_Data>
+		</Unit_Abilities_Data> -->
 
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
-	</GroundVehicle>
+		
+		</GroundVehicle> 
 
 		<!-- E3 variant -->
 	<GroundVehicle Name="E3_T4B_Tank">

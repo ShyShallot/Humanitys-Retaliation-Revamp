@@ -58,6 +58,15 @@
 					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
 		 
+		 <SFXEvent Name="Unit_UNSC_M512">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M512.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>90</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
+		 </SFXEvent>
+		 
 		 <SFXEvent Name="Unit_UNSC_M638">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_M638_FALCON.wav</Samples>

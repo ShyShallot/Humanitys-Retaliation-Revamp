@@ -75,7 +75,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
@@ -241,7 +241,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -400,7 +400,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 			
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
@@ -579,7 +579,7 @@
 		
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 
 		<Idle_Chase_Range>500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
@@ -798,7 +798,7 @@
 
 		<Projectile_Types>M41_102MM_Rocket</Projectile_Types>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Projectile_Fire_Recharge_Seconds>12.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -996,7 +996,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1216,7 +1216,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1332,7 +1332,7 @@
 				<Spawned_Object_Type>UNSC_ENGINEER_Anti_Infantry_Turret</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 				
-			</Unit_Ability>
+			</Unit_Ability> 
 
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
@@ -1452,7 +1452,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1623,6 +1623,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Land_Model_Name>UNSC_INFANTRY_RADIO.ALO</Land_Model_Name>
+		
 		<Land_Terrain_Model_Mapping>
             		Temperate, 			UNSC_INFANTRY_RADIO.ALO,
             		Urban, 				UNSC_INFANTRY_RADIO.ALO,
@@ -1633,12 +1634,14 @@
             		Swamp, 				UNSC_INFANTRY_RADIO.ALO
 
 		</Land_Terrain_Model_Mapping>
+		
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
 		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, REINFORCEMENT_POINT</LandBehavior>
 		
 		<Reinforcement_Enabling_Radius>150.0</Reinforcement_Enabling_Radius>
 		<Radar_Range_Icon_Name>i_radar_landing.tga</Radar_Range_Icon_Name>
+		
 		<Reinforcement_Region_Blob_Name>Reinforcement_Point_Radius_Overlay</Reinforcement_Region_Blob_Name>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1686,7 +1689,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1765,6 +1768,9 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		
+		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
+		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
+		
 		<Presence_Induced_Animations>
 			Celebrate, 
 				AT_AT_Walker_Cable_Attack_Death_Clone,
@@ -1795,32 +1801,22 @@
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance> 
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
-			
+
 			<Unit_Ability>
 			
-				<Type>SUMMON</Type>
-				<Recharge_Seconds>9998.0</Recharge_Seconds>
-                <Area_Effect_Decal_Distance> 125.0 </Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name> HELLJUMPERS </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> HARD_POINT_ENABLE_SPECIAL_ABILITY </SFXEvent_Target_Ability>  
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>9998</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_UNSC_ODST</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 				
-			</Unit_Ability>
+			</Unit_Ability> 
+		
 
 		</Unit_Abilities_Data> 
 	
 		<Abilities SubObjectList="Yes">
 		
-		  <Summon_Ability Name="Paris_Summon">
 		  
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>100.0</Activation_Min_Range>
-   				<Activation_Max_Range>1000.0</Activation_Max_Range>
-                <Object_Type>UNSC_INFANTRY_STANCHION</Object_Type>
-                <SFXEvent_Unit_Summoned>Unit_Force_Summon</SFXEvent_Unit_Summoned>
-                <Creation_Delay_In_Seconds>0.1</Creation_Delay_In_Seconds>
-                <Target_Particle_Effect>Summon_Effect</Target_Particle_Effect>
-				
-            </Summon_Ability>
 		
 		</Abilities>
 		
@@ -1893,7 +1889,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2076,7 +2072,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2259,7 +2255,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2444,7 +2440,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
@@ -2611,7 +2607,7 @@
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 
 		<Projectile_Types> Proj_Infiltrator_Blaster </Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
@@ -2789,7 +2785,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -2952,7 +2948,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
@@ -3094,7 +3090,7 @@
 		
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -3233,7 +3229,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>

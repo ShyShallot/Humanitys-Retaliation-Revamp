@@ -668,9 +668,9 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="Rebel_Heavy_Tank_Brigade">
-		<Text_ID>TEXT_REBEL_HEAVY_TANK_BRIGADE</Text_ID>
+		<Text_ID>SCORPION_TANKS</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank AT_ST_Walker AT_AT_Walker </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> AT_AT_Walker </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -695,7 +695,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>T4B_Tank</Company_Units>
+		<Company_Units>UNSC_SCORPION_TANK, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_t-3b_repulsor_tank.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -704,27 +704,26 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		
+	
+		<!-- <Unit_Abilities_Data SubObjectList="Yes">
 		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
 			</Unit_Ability>
-		</Unit_Abilities_Data>
+		</Unit_Abilities_Data> -->
 		
 		
         
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
         
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T4B</Encyclopedia_Text>
+  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
