@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Story>
+    <Event Name="AI_START">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+    </Event>
+</Story>

@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<Shipyards>
+    <SpecialStructure Name="COVN_Light_Shipyard">
+		<Text_ID>HALO_SHIPYARD_LIGHT</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Space_Model_Name>COVN_Shipyard_Light.ALO</Space_Model_Name>
+
+		<Scale_Factor>5.25</Scale_Factor>
+
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Tactical_Health>4500</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI</SpaceBehavior>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_CORVETTE.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Structure_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
+				<!-- 15% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
+				<!-- plus an absolute 215 credits to planetary income -->
+				<Absolute_Income_Modifier>-95</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_LIGHT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	</SpecialStructure>
+
+    <SpecialStructure Name="COVN_Medium_Shipyard">
+        <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
+
+        <Text_ID>HALO_SHIPYARD_MEDIUM</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_MEDIUM </Encyclopedia_Text>
+
+		<Space_Model_Name>COVN_Shipyard_Med.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
+
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+
+        <Build_Cost_Credits>5500</Build_Cost_Credits>
+		<Build_Time_Seconds>150</Build_Time_Seconds>
+
+        <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
+				<!-- 15% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
+				<!-- plus an absolute 215 credits to planetary income -->
+				<Absolute_Income_Modifier>-155</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+    </SpecialStructure>
+
+    <SpecialStructure Name="COVN_Heavy_Shipyard">
+        <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
+
+        <Text_ID>HALO_SHIPYARD_HEAVY</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_HEAVY </Encyclopedia_Text>
+
+		<Space_Model_Name>COVN_SHIPYARD_03_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
+
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+
+		<Required_Planets>Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda, Harmony, Eridanus_2</Required_Planets>
+
+        <Build_Cost_Credits>7250</Build_Cost_Credits>
+		<Build_Time_Seconds>240</Build_Time_Seconds>
+
+        <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_SHIPYARD_LIGHT</Specific_Mod_Source_Text>
+				<!-- 15% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
+				<!-- plus an absolute 215 credits to planetary income -->
+				<Absolute_Income_Modifier>-225</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
+				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+    </SpecialStructure>
+	
+	<SpecialStructure Name="COVN_Infinity_Drydock">
+        <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
+
+        <Text_ID>INF-Dockyard</Text_ID>
+        <Encyclopedia_Text> HALO_SHIPYARD_INFINITY </Encyclopedia_Text>
+
+		<Space_Model_Name>COVN_SHIPYARD_03_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
+		
+		<Tech_Level>4</Tech_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+
+		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
+
+        <Build_Cost_Credits>20250</Build_Cost_Credits>
+		<Build_Time_Seconds>240</Build_Time_Seconds>
+
+    </SpecialStructure>
+	
+	<SpecialStructure Name="COVN_Military_Academy">
+        <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
+
+        <Text_ID>Military-Academy</Text_ID>
+        <Encyclopedia_Text> COVN-MILITARY-ACADEMY </Encyclopedia_Text>
+
+		<Space_Model_Name>COVN_SHIPYARD_03_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_ACADEMY.TGA</Icon_Name>
+		<Tech_Level>0</Tech_Level>	
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+
+		<Required_Planets>Harmony, Reach, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
+
+        <Build_Cost_Credits>10450</Build_Cost_Credits>
+		<Build_Time_Seconds>70</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+    </SpecialStructure>
+	
+	<!-- Skirmish Shipyards -->
+	
+	<SpecialStructure Name="COVN_Light_Shipyard_Skirmish">
+		<Text_ID>HALO_SHIPYARD_LIGHT</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Space_Model_Name>COVN_SHIPYARD_CORVETTE_SPAWNER.ALO</Space_Model_Name>
+
+		<Scale_Factor>1.10</Scale_Factor>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Tactical_Health>60500</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+
+		<Tactical_Buildable_Objects_Multiplayer> 
+
+		</Tactical_Buildable_Objects_Multiplayer>
+		
+		<Starting_Spawned_Units_Tech_0>BUCKLER_SQUADRON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
+
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_CORVETTE.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Structure_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-12</Base_Income_Value>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
+		</Abilities>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_LIGHT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		
+		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>8</Build_Limit_Current_For_All_Allies>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>250</AI_Combat_Power>
+		
+	</SpecialStructure>
+
+    <SpecialStructure Name="COVN_Medium_Shipyard_Skirmish">
+		
+       <Scale_Factor>1.7</Scale_Factor>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Tactical_Health>104500</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+
+		</Tactical_Buildable_Objects_Multiplayer>
+		
+		<!--<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_HALBERD, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SINGLE_STRIDENT, 9999</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_POSEIDON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds> -->
+		
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Structure_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Abilities SubObjectList="Yes">
+		
+			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-16</Base_Income_Value>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
+		</Abilities>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+        <Text_ID>HALO_SHIPYARD_MEDIUM</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_MEDIUM </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Space_Model_Name>COVN_SHIPYARD_FRIGATE_SPAWNER.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_FRIGATE.tga</Icon_Name>
+
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>6</Build_Limit_Current_For_All_Allies>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>250</AI_Combat_Power>
+        
+    </SpecialStructure>
+
+    <SpecialStructure Name="COVN_Heavy_Shipyard_Skirmish">
+	
+       <Scale_Factor>1.55</Scale_Factor>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Tactical_Health>184500</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<!--<Hardpoints>
+		
+		UNSC_Supply_Depot_HP,HP_Archer_01, HP_Archer_02, HP_Archer_03, HP_Archer_04, HP_Archer_05, HP_Archer_06, HP_Archer_07, HP_Archer_08, HP_Archer_09, HP_Archer_10,
+		HP_Archer_11, HP_Archer_12, HP_Archer_13, HP_Archer_14, HP_Archer_15, HP_Archer_16, HP_Archer_17, HP_Archer_18, HP_Archer_19, HP_Archer_20,
+		HP_Archer_21, HP_Archer_22, HP_Archer_23, HP_Archer_24, HP_Archer_25, HP_Archer_26, HP_Archer_27, HP_Archer_28, HP_Archer_29, HP_Archer_30,
+		HP_Archer_31, HP_Archer_32, HP_Archer_33, HP_Archer_34, HP_Archer_35, HP_Archer_36, HP_Archer_37, HP_Archer_38, HP_Archer_39, HP_Archer_40,
+		HP_Archer_41, HP_Archer_42, HP_Archer_43, HP_Archer_44, HP_Archer_45, HP_Archer_46, HP_Archer_47, HP_Archer_48, HP_Archer_49, HP_Archer_50,
+		HP_Archer_51, HP_Archer_52, HP_Archer_53, HP_Archer_54, HP_M810_01, HP_M810_02, HP_M810_03, HP_M810_04, HP_M810_05, HP_M810_06, HP_M810_07, HP_M810_08, HP_M810_09, HP_M810_10, HP_M810_11, HP_M810_12, HP_M810_13, HP_M810_14, HP_M810_15, HP_M810_16, HP_M810_17, HP_M810_18, HP_M810_19, HP_M810_20, HP_M870_01, HP_M870_02, HP_M870_03, HP_M870_04, HP_M870_05, HP_M870_06, HP_M870_07, HP_M870_08, HP_M870_09, HP_M870_10, HP_M870_11, HP_M870_12, HP_M66_01, HP_M66_02, HP_M66_03, HP_M66_04,HP_M66_05, HP_M66_06, HP_M66_07, HP_M66_08, HP_M66_09, HP_M66_10, HP_M66_11, HP_M66_12, HP_breakwater_01, HP_breakwater_02
+			
+		</Hardpoints>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+		
+			Empire,
+				UNSC_MUSASHI,
+				UNSC_PHOENIX,
+				UNSC_HALCYON,
+				UNSC_MARATHON,
+				UNSC_EPOCH,
+				UNSC_FLEET_COMMANDER,
+				
+				
+				
+		</Tactical_Buildable_Objects_Multiplayer> 
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>90</Spawned_Squadron_Delay_Seconds>-->
+		
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Build_Started>GUI_Structure_Building</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_Structure_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
+		
+                <!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+                <Base_Income_Value>-50</Base_Income_Value>
+                <Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+                <Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+                <Split_Favors_Owner>No</Split_Favors_Owner>
+                <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				
+            </Income_Stream_Ability>
+			
+		</Abilities>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+        <Text_ID>HALO_SHIPYARD_HEAVY</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SHIPYARD_HEAVY </Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Space_Model_Name>COVN_SHIPYARD_CAPITAL_SPAWNER.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_COVN_SHIPYARD_SKIRMISH_CAPITAL.tga</Icon_Name>
+
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+
+        <Build_Cost_Credits>7250</Build_Cost_Credits>
+		<Build_Time_Seconds>240</Build_Time_Seconds>
+		
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_For_All_Allies>2</Build_Limit_Current_For_All_Allies>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>0</Population_Value>
+		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>250</AI_Combat_Power>
+
+    </SpecialStructure>
+
+</Shipyards>
