@@ -3500,7 +3500,7 @@
 				Warthog_Company,
 				Gausshog_Company,
 				Rockethog_Company,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				Rebel_Infiltrator_Team,
 				RL_Combat_Armor_L1_Upgrade,
@@ -3513,7 +3513,7 @@
 			Rebel,
 				Rebel_Infantry_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				RL_Infiltrator_Research_Upgrade,
 				Rebel_Infiltrator_Team, 
@@ -3689,7 +3689,7 @@
 		
 	    <Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Light_Tank_Brigade,
+				<!-- Rebel_Light_Tank_Brigade, -->
 				Rebel_Speeder_Wing,
 				UNSC_FALCON_WING,
 				Imperial_Heavy_Scout_Squad,
@@ -4215,6 +4215,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_MAMMOTH_HQ,
 				Rebel_Heavy_Tank_Brigade,  
 				Rebel_Artillery_Brigade,
 				Gallofree_HTT_Company,

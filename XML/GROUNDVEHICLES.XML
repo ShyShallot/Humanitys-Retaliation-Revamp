@@ -457,7 +457,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
-		<Icon_Name>i_button_atst.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_MANTIS.tga</Icon_Name>
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1864,6 +1864,382 @@
 
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
+	
+		<GroundVehicle Name="UNSC_MAMMOTH">   <!-- UNSC MAMMOTH -->
+		<LOD_Bias>0.5</LOD_Bias>
+		<Text_ID>UNSC_MAMMOTH</Text_ID>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+  		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_MAMMOTH.tga</Icon_Name>
+	
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+
+		<Land_Model_Name>UNSC_MAMMOTH.alo</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Max_Speed>0.6</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<Movement_Animation_Speed> 0.85 </Movement_Animation_Speed>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Deploys>Yes</Deploys>
+
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Ranking_In_Category>5</Ranking_In_Category>
+
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
+
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
+		<Size_Value>75</Size_Value>
+		<Damage>20</Damage>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>61650</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison</Property_Flags>
+		<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		
+		<Land_FOW_Reveal_Range>1000.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2050.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+
+		<Projectile_Types>Proj_UNSC_Heavy_MAC_SHELL</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<SFXEvent_Fire>Unit_MAC</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Juggernaut</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Juggernaut</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Juggernaut </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Juggernaut</SFXEvent_Assist_Attack>
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
+
+		<SFXEvent_Engine_Idle_Loop> Unit_UNSC_WARTHOG_ENGINE_IDLE_LOOP </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_WARTHOG_ENGINE_LOOP </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+
+		<CategoryMask> Vehicle </CategoryMask>
+		<MovementClass>Wheeled</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Overall_Length>166.0</Overall_Length> <!-- For vehicle pitching up and down on terrain (40 by geometry -->
+		<Overall_Width>56.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (50 by geometry) -->
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<AI_Combat_Power>50</AI_Combat_Power>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Score_Cost_Credits>200</Score_Cost_Credits>
+		<Weather_Category>Tracked</Weather_Category>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
+
+      <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
+
+		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+	<!--	<Unit_Abilities_Data SubObjectList="Yes"> 
+            <Unit_Ability>
+                <Type>LASER_DEFENSE</Type>
+                <Recharge_Seconds>35.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Juggernaut_Laser_Defense </GUI_Activated_Ability_Name> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Defense_On_Juggernaut </SFXEvent_GUI_Unit_Ability_Activated>  
+					 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Defense_Off_Juggernaut </SFXEvent_GUI_Unit_Ability_Deactivated>  
+					 <Effective_Radius> 500.0 </Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+            <Laser_Defense_Ability Name="Juggernaut_Laser_Defense">
+                <Activation_Style> User_Input </Activation_Style>
+                <Defense_Duration_In_Secs> 28.0 </Defense_Duration_In_Secs>
+                <Laser_Color>34, 34, 235, 255</Laser_Color>
+                <Bone_Names>muzzleb_00, muzzleb_01</Bone_Names>
+                <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+                <Protection_Radius>350.0</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>40</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
+            </Laser_Defense_Ability>
+		</Abilities> -->
+        
+
+	</GroundVehicle>
+	
+	
+	
+		<GroundVehicle Name="UNSC_ROCKETGOOSE">   
+		<LOD_Bias>0.5</LOD_Bias>
+		<Text_ID>UNSC_ROCKETHOG</Text_ID>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+  		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_ROCKETHOG.tga</Icon_Name>
+	
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+
+		<Land_Model_Name>UNSC_MONGOOSE_ROCKET.ALO</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.09</Scale_Factor>
+		<Max_Speed>1.3</Max_Speed>
+		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<Movement_Animation_Speed> 0.85 </Movement_Animation_Speed>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Deploys>Yes</Deploys>
+
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Ranking_In_Category>5</Ranking_In_Category>
+
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
+
+		<Armor_Type> Armor_Juggernaut </Armor_Type>
+		<Size_Value>75</Size_Value>
+		<Damage>20</Damage>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>650</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+		<Property_Flags>GoodInfantryCrusher | CanContainGarrison</Property_Flags>
+		<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+
+		<Projectile_Types>M19_102MM_Rocket</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<SFXEvent_Fire>Unit_UNSC_SPNKR</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Juggernaut</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Juggernaut</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Juggernaut</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Juggernaut</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Juggernaut </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Juggernaut</SFXEvent_Assist_Attack>
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
+
+		<SFXEvent_Engine_Idle_Loop> Unit_UNSC_WARTHOG_ENGINE_IDLE_LOOP </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_UNSC_WARTHOG_ENGINE_LOOP </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+
+		<CategoryMask> Vehicle </CategoryMask>
+		<MovementClass>Wheeled</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Overall_Length>166.0</Overall_Length> <!-- For vehicle pitching up and down on terrain (40 by geometry -->
+		<Overall_Width>56.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (50 by geometry) -->
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<AI_Combat_Power>50</AI_Combat_Power>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Score_Cost_Credits>200</Score_Cost_Credits>
+		<Weather_Category>Tracked</Weather_Category>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
+
+      <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
+
+		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+	<!--	<Unit_Abilities_Data SubObjectList="Yes"> 
+            <Unit_Ability>
+                <Type>LASER_DEFENSE</Type>
+                <Recharge_Seconds>35.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Juggernaut_Laser_Defense </GUI_Activated_Ability_Name> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Defense_On_Juggernaut </SFXEvent_GUI_Unit_Ability_Activated>  
+					 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Defense_Off_Juggernaut </SFXEvent_GUI_Unit_Ability_Deactivated>  
+					 <Effective_Radius> 500.0 </Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+            <Laser_Defense_Ability Name="Juggernaut_Laser_Defense">
+                <Activation_Style> User_Input </Activation_Style>
+                <Defense_Duration_In_Secs> 28.0 </Defense_Duration_In_Secs>
+                <Laser_Color>34, 34, 235, 255</Laser_Color>
+                <Bone_Names>muzzleb_00, muzzleb_01</Bone_Names>
+                <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+                <Protection_Radius>350.0</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>40</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
+            </Laser_Defense_Ability>
+		</Abilities> -->
+        
+
+	</GroundVehicle>
 
 
 	<GroundVehicle Name="UNSC_Warthog">   <!-- UNSC WARTHOG ATTEMPT NUMBER 3 -->
@@ -1873,7 +2249,7 @@
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WARTHOG.TGA</Icon_Name>
 	
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2060,7 +2436,7 @@
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_GAUSSHOG.tga</Icon_Name>
 	
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2248,7 +2624,7 @@
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_ROCKETHOG.tga</Icon_Name>
 	
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2787,7 +3163,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 
 		<Weather_Category>Tracked</Weather_Category>
-		<Icon_Name>i_button_t-3b_repulsor_tank.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_SCORPION.TGA</Icon_Name>
 		
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>T4B_Tank_Captured</Vehicle_Thief_Inside_Clone>

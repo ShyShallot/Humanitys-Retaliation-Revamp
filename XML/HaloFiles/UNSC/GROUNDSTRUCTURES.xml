@@ -609,7 +609,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				Rebel_Infiltrator_Team,
 				RL_Combat_Armor_L1_Upgrade,
@@ -622,7 +622,7 @@
 			Rebel,
 				Rebel_Infantry_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				RL_Infiltrator_Research_Upgrade,
 				Rebel_Infiltrator_Team, 
@@ -634,8 +634,8 @@
 		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -797,7 +797,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				Rebel_Infiltrator_Team,
 				RL_Combat_Armor_L1_Upgrade,
@@ -810,7 +810,7 @@
 			Rebel,
 				Rebel_Infantry_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				RL_Infiltrator_Research_Upgrade,
 				Rebel_Infiltrator_Team, 
@@ -822,8 +822,8 @@
 		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1023,7 +1023,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				Rebel_Infiltrator_Team,
 				RL_Combat_Armor_L1_Upgrade,
@@ -1036,7 +1036,7 @@
 			Rebel,
 				Rebel_Infantry_Squad,
 				RL_Plex_Soldier_Research_Upgrade,
-				Rebel_Tank_Buster_Squad,
+				UNSC_ANTI_TANK_PLATOON,
 				Field_Com_Rebel_Team,
 				RL_Infiltrator_Research_Upgrade,
 				Rebel_Infiltrator_Team, 
@@ -1048,8 +1048,8 @@
 		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

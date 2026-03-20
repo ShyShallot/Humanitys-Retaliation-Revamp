@@ -731,7 +731,7 @@
 
 	<Container Name="Plex_Soldier_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
-		<Text_ID>TEXT_REBEL_TANK_BUSTER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNSC_ANTI_TANK_PLATOON</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank TIE_Crawler AT_AT_Walker </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Stormtrooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>

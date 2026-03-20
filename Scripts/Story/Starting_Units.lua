@@ -28,7 +28,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Warthog_Company"] = {
+                            ["Warthog_Platoon"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -59,7 +59,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Warthog_Company"] = {
+                            ["Warthog_Platoon"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -94,7 +94,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Warthog_Company"] = {
+                            ["Warthog_Platoon"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -129,7 +129,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Warthog_Company"] = {
+                            ["Warthog_Platoon"] = {
                                 Weight = 15,
                                 Limit = -1
                             },
@@ -164,7 +164,7 @@ Starting_Units_Handler = {
                                 Weight = 65,
                                 Limit = -1
                             },
-                            ["Warthog_Company"] = {
+                            ["Warthog_Platoon"] = {
                                 Weight = 15,
                                 Limit = -1
                             },

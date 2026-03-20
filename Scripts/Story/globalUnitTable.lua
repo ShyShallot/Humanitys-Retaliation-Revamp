@@ -538,13 +538,16 @@ local unit_table = {
     Rebel_Infantry_Squad = {
         Category = "Infantry"
     },
-    Rebel_Tank_Buster_Squad = {
+    UNSC_ANTI_TANK_PLATOON = {
         Category = "Infantry"
     },
     Rebel_Infiltrator_Team = {
         Category = "Infantry"
     },
     Rebel_Pod_Walker_Company = {
+        Category = "Vehicle"
+    },
+	Warthog_Platoon = {
         Category = "Vehicle"
     },
     Imperial_Armor_Group = {

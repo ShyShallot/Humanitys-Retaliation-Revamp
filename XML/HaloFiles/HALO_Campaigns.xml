@@ -144,7 +144,7 @@
         <!-- Hoth Land Forces -->
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Base_Shield </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, UNSC_ANTI_TANK_PLATOON </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<!-- Bespin Space Forces -->
@@ -180,7 +180,7 @@
 		<Starting_Forces> Rebel, Utapau, Y-Wing_Squadron </Starting_Forces>
         <!-- Utapau Land Forces -->
 		<Starting_Forces> Rebel, Utapau, UNSC_TITANIUM_MINE </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, UNSC_ANTI_TANK_PLATOON </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
         
         <!-- Tatooine Space Forces -->
@@ -190,7 +190,7 @@
         <!-- Tatooine Land Forces -->
 		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, UNSC_ANTI_TANK_PLATOON </Starting_Forces>
         
         <!-- Mandalore Space Forces -->
 		<Starting_Forces> Rebel, Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>

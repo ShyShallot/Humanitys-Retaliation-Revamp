@@ -48,7 +48,7 @@
 
 		<Destruction_Survivors>
 			Rebel_Infantry_Squad, .07
-			Rebel_Tank_Buster_Squad, .07
+			UNSC_ANTI_TANK_PLATOON, .07
 			Pirate_Soldier_Squad, .07
 			Pirate_PLEX_Squad, .07
 			Endor_Ewok_Hunting_Party, .07
@@ -160,9 +160,9 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Starting_Spawned_Units_Tech_0>Rebel_infantry_squad, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Rebel_tank_buster_squad, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_infantry_squad, -1</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_tank_buster_squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ANTI_TANK_PLATOON, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>110.0</Spawned_Squadron_Location_Flyout_Distances>
