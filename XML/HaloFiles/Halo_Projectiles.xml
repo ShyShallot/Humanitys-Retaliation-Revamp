@@ -2565,6 +2565,37 @@
 		
 	</Projectile>
 	
+	<Projectile Name="Proj_UNSC_MAMMOTH_MAC_SHELL"> <!-- Mammoth Mac Round -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Land_Model_Name>
+		<Damage_Type>Damage_UNSC_MAC</Damage_Type>
+		<Max_Speed>60.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>300000.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 100 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		
+		<AI_Combat_Power>2000</AI_Combat_Power>
+		
+	</Projectile>
+	
 	<Projectile Name="Plasma_Rifle"> <!-- Covn Plasma Rifle -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -2616,6 +2647,26 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
+	</Projectile>
+	
+	<Projectile Name="Hunter_Focus_Beam">
+	
+		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Space_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Land_Model_Name>
+		<Max_Speed>2.8</Max_Speed>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Projectile_Damage>350.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 20 </Projectile_Blast_Area_Range>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
+		
 	</Projectile>
 	
 	<Projectile Name="Scarab_AA_GUN">
