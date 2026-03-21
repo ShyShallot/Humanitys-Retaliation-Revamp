@@ -753,7 +753,7 @@
 
 	</HardPoint>
 	
-	<HardPoint Name="UNSC_Infantry_Grenade"> <!-- Infantry Grenade Attempt -->
+	<HardPoint Name="UNSC_Infantry_Grenade"> <!-- Infantry Grenade Attempt / Doesnt work yet-->
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -768,6 +768,25 @@
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>50</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_Spartan_Grenade"> <!-- Spartan Grenade Attempt -->
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>B_Hand_L</Fire_Bone_A>
+		<Fire_Bone_B>B_Hand_L</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>115.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M9_HE_DP_Spartan</Fire_Projectile_Type> 
+		<Fire_Min_Recharge_Seconds>65.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>65.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
