@@ -578,7 +578,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
-		<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 95.0 </Targeting_Fire_Inaccuracy>
 		
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -942,18 +942,20 @@
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
 		<Stealth_Capable>Yes</Stealth_Capable>
-		<Land_Model_Name>RI_INFANTRY_Forest.ALO</Land_Model_Name>
+		<Land_Model_Name>UNSC_INFANTRY_SPARTAN_I.ALO</Land_Model_Name>
+		
 		<Land_Terrain_Model_Mapping>
-            		Temperate, 			RI_INFANTRY_Forest.ALO,
-            		Urban, 				RI_INFANTRY_Forest.ALO,
-					Arctic, 			RI_INFANTRY_Forest.ALO,
-            		Volcanic, 			RI_INFANTRY_Forest.ALO,
-            		Desert, 			RI_INFANTRY_Forest.ALO,
-            		Forest, 			RI_INFANTRY_Forest.ALO,
-            		Swamp, 				RI_INFANTRY_Forest.ALO
+            		Temperate, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Urban, 				UNSC_INFANTRY_SPARTAN_I.ALO,
+					Arctic, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Volcanic, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Desert, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Forest, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Swamp, 				UNSC_INFANTRY_SPARTAN_I.ALO
 
 		</Land_Terrain_Model_Mapping>
-		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
+		
+		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
 		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT</LandBehavior>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
@@ -982,7 +984,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.55</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>

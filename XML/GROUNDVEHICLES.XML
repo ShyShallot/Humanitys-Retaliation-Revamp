@@ -742,16 +742,18 @@
 		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Scarab_AA_GUN</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>14.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<HardPoints>Scarab_Beam</HardPoints>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> <Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

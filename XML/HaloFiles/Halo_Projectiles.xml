@@ -2580,8 +2580,8 @@
 		
 		<Projectile_Damage>1250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Blast_Area_Damage>60.0</Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range>225.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>80.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2638,7 +2638,7 @@
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
 		<Projectile_Damage>300000.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 100 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2717,7 +2717,7 @@
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Projectile_Damage>350.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 15 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage> 20 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
@@ -2727,8 +2727,8 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
 		
 	</Projectile>
-	
-	<Projectile Name="Scarab_AA_GUN">
+	 
+	<Projectile Name="Scarab_AA_GUN">  <!-- this cannot fire at infantry please double check that this is true (Apple and Murphy ) -->
 	
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -2736,9 +2736,9 @@
 		<Land_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Land_Model_Name>
 		<Max_Speed>4.8</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Damage>1395.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 35 </Projectile_Blast_Area_Range>
+		<Projectile_Damage>795.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -2757,8 +2757,8 @@
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>10500.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 20 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
