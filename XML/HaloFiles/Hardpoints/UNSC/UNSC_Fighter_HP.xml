@@ -533,7 +533,90 @@
            
     </HardPoint>
 	
-	<!-- Ground Weapons -->
+	<!-- Ground Weapons  BECAUSE I WAS TOO LAZY TO PUT THEM IN THEIR OWN FILE (apple) <3 -->
+	
+	<!-- Hard points for the T4-B Tank -->
+
+    <HardPoint Name="Scorpion_LMG_00">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>MA5C</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>128</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>350.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Air, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+
+    </HardPoint>
+
+  <!--  <HardPoint Name="Scorpion_LMG_01">
+  
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_T4B_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>330.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Tank_Missile_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+			<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
+			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
+	
+    </HardPoint>
+
+    <HardPoint Name="Scorpion_LMG_02">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_T4B_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>330.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Tank_Missile_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+			<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
+			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
+
+    </HardPoint> -->
 	
 	<HardPoint Name="UNSC_FALCON_LEFT">
 	
@@ -562,7 +645,7 @@
 		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
 	</HardPoint>
@@ -593,7 +676,7 @@
 		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 
 	</HardPoint>
@@ -603,6 +686,8 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>B_Artillery</Attachment_Bone>
+		<Collision_Mesh>B_Artillery</Collision_Mesh>
 		<Fire_Bone_A>B_Artillery</Fire_Bone_A>
 		<Fire_Bone_B>B_Artillery</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
@@ -611,7 +696,7 @@
 		<Projectile_Fire_Recharge_Seconds>13.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>135</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>650</Fire_Range_Distance>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
@@ -663,12 +748,12 @@
 		<Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1550</Fire_Range_Distance>
+		<Fire_Range_Distance>150</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 
 	</HardPoint>
 	
-	<HardPoint Name="UNSC_Infantry_Grenade"> <!-- Infantry Grenade Attempt -->
+	<HardPoint Name="UNSC_Infantry_Grenade"> <!-- Infantry Grenade Attempt / Doesnt work yet-->
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -686,5 +771,90 @@
 		<Fire_SFXEvent/>
 
 	</HardPoint>
+	
+	<HardPoint Name="UNSC_Spartan_Grenade"> <!-- Spartan Grenade Attempt -->
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>B_Hand_L</Fire_Bone_A>
+		<Fire_Bone_B>B_Hand_L</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>115.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M9_HE_DP_Spartan</Fire_Projectile_Type> 
+		<Fire_Min_Recharge_Seconds>65.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>65.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_ODST_RADIO_DROP"> <!-- Infantry Grenade Attempt -->
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>B_Hand_L</Fire_Bone_A>
+		<Fire_Bone_B>B_Hand_L</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>115.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M9_HE_DP</Fire_Projectile_Type> 
+		<Fire_Min_Recharge_Seconds>65.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>65.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>50</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		
+		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
+		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
+
+	</HardPoint>
+	
+	<!-- Mammoth side guns -->
+	
+	<HardPoint Name="UNSC_MAMMOTH_LMG_00">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+		<Collision_Mesh>MuzzleB_00</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Projectile_Types>LAAG</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>33.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>135</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_MAMMOTH_LMG_01">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+		<Collision_Mesh>MuzzleB_01</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Projectile_Types>LAAG</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>33.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>135</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+
+	</HardPoint>
+	
+	
 	
 </HardPoints>

@@ -153,7 +153,7 @@
 		<Story_Name>
 			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
 			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml,
-			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_INNIE_AI.xml,
 			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
 		</Story_Name>
 
@@ -853,7 +853,7 @@
 		<Story_Name>
 			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml,
 			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
-			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_INNIE_AI.xml,
 			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
 		</Story_Name>
 
@@ -1179,7 +1179,7 @@
 		<Story_Name>
 			Empire, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml,
 			Rebel, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
-			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml,
+			Terrorists, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_INNIE_AI.xml,
 			Swords, HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml,
 		</Story_Name>
 		<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>

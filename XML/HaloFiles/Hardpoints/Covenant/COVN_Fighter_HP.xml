@@ -243,6 +243,10 @@
         <Fire_Range_Distance>750</Fire_Range_Distance>
         
         <Fire_SFXEvent>Unit_COVN_SCARAB_BEAM</Fire_SFXEvent>
+		
+		
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
         
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -259,14 +263,17 @@
  
         <Fire_Cone_Width>55</Fire_Cone_Width>
         <Fire_Cone_Height>55</Fire_Cone_Height>
-        <Fire_Projectile_Type>Scarab_Focus_Beam</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Hunter_Focus_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>30.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>3</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>250</Fire_Range_Distance>
         
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
         
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -296,6 +303,8 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
+			<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
 				
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			
@@ -323,6 +332,8 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
+			<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
 				
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			
@@ -350,6 +361,8 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
+			<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
 				
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			
@@ -377,6 +390,8 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
+			<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
 				
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			

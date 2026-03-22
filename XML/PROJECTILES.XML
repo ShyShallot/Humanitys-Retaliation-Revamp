@@ -2102,6 +2102,8 @@
 		<Projectile_Stun_Radius>80</Projectile_Stun_Radius>
 		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> <!-- PLACEHOLDER -->
 		<Projectile_Stun_Victims_Category_Mask> Vehicle | Structure </Projectile_Stun_Victims_Category_Mask>
+		
+		
 	</Projectile>
 
 	<Projectile Name="Proj_Sticky_Bomb">

@@ -144,7 +144,7 @@
 	<TransportUnit Name="Imperial_Landing_Craft_Landing">
 		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>60.25</Scale_Factor>
+		<Scale_Factor>30.25</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, SELECTABLE,POWERED, SHIELDED,</LandBehavior> 
 		<Is_Valid_Target>Yes</Is_Valid_Target>
 		<HardPoints>
@@ -489,7 +489,7 @@
 	<TransportUnit Name="Gallofree_Transport_Landing">
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>40.5</Scale_Factor>
+		<Scale_Factor>20.5</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>

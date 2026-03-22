@@ -1261,7 +1261,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
-		
+		<Land_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Land_Model_Name>
 		<Damage_Type>Damage_UNSC_MAC</Damage_Type>
 		<Max_Speed>320.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1955,6 +1955,7 @@
 	</Projectile>
 
 	<Projectile Name="Reduce_Ship_Firespeed_40">
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Damage_Type>Damage_Land_AntiInfantry_Explosive</Damage_Type>
@@ -1985,9 +1986,11 @@
 		<Projectile_Combat_Mod_Value>0.40</Projectile_Combat_Mod_Value>
 		<Projectile_Combat_Mod_Effect/>
 		<Projectile_Combat_Mod_Category_Mask/>
+		
 	</Projectile>
 
 	<Projectile Name="Redirect_Engine_Power_40">
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Damage_Type>Damage_Land_AntiInfantry_Explosive</Damage_Type>
@@ -2018,9 +2021,46 @@
 		<Projectile_Combat_Mod_Value>1.40</Projectile_Combat_Mod_Value>
 		<Projectile_Combat_Mod_Effect/>
 		<Projectile_Combat_Mod_Category_Mask/>
+		
 	</Projectile>
 	
 	<!-- Ground Projectiles -->
+
+	<Projectile Name="Proj_UNSC_ODST">     <!-- Experimental Projectile to Spawn Units -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Layer_Z_Adjust> 35 </Layer_Z_Adjust>
+		
+		<Land_Model_Name>w_smallbomb.ALO</Land_Model_Name>
+		<Space_Model_Name>w_smallbomb.ALO</Space_Model_Name>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Max_Speed>0.0</Max_Speed>
+		<Damage_Type> Damage_StickyBomb </Damage_Type>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, BOMB</Behavior>
+		<Projectile_Category>STATIC_BOMB</Projectile_Category>
+		<Projectile_Blast_Area_Range>80.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>75.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Grenade_Sticks_On_Collision>no</Projectile_Grenade_Sticks_On_Collision>
+		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Death_Explosions> Thermal_Detonator_Explosion </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Unit_Katarn_Building_Bomb_SFX </Death_SFXEvent_Start_Die>
+		<AI_Combat_Power>300</AI_Combat_Power>
+
+		<Destruction_Survivors>
+		
+		UNSC_WARTHOG, 1.0
+		
+		</Destruction_Survivors>
+		
+	</Projectile>
 	
 	<Projectile Name="M9_HE_DP"> <!-- This is unsc hand grenade -->
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -2031,7 +2071,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
-		<Projectile_Grenade_Gravity>0.05</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity>0.01</Projectile_Grenade_Gravity>
 		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
 		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
 		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->
@@ -2041,6 +2081,40 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Damage>50.0</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="M9_HE_DP_Spartan"> <!-- This is unsc spartan hand grenade which is in fact significantly bigger than a regular grenade -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_concussion_missile.ALO</Land_Model_Name> 
+
+		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>GRENADE</Projectile_Category>
+		<Projectile_Grenade_Gravity>0.01</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
+		<!--  <Projectile_Max_Flight_Distance>30000.0</Projectile_Max_Flight_Distance> -->
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
+		
+		<Projectile_Damage>10.0</Projectile_Damage> 
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Damage>70.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>50.0</Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2089,7 +2163,32 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>1.5</Projectile_Damage>
+		<Projectile_Damage>8.5</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+	</Projectile>
+	
+	<Projectile Name="SPARTAN_MA5C"> <!-- Spartan MA5C Rounds -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
+		<Max_Speed>20</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
+		<Projectile_Damage>16</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2139,7 +2238,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>45</Projectile_Damage>
+		<Projectile_Damage>65</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2189,7 +2288,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>55</Projectile_Damage>
+		<Projectile_Damage>55</Projectile_Damage>  <!-- 82 damage -->
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2240,7 +2339,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
-		<Projectile_Damage>750</Projectile_Damage>
+		<Projectile_Damage>425</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2336,7 +2435,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="M370_Cannon"> <!-- Ground Pelican Rounds -->
+	<Projectile Name="M370_Cannon"> <!-- Ground Pelican Rounds AP Depleted Uranium-->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
@@ -2481,8 +2580,8 @@
 		
 		<Projectile_Damage>1250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>80.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2498,7 +2597,7 @@
 		<AI_Combat_Power>600</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Tank_Boom"> <!-- Tank Rounds -->
+	<Projectile Name="Tank_Boom"> <!-- Tank Rounds 90mm smoothbore high vel M512 -->
 	
 			<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
@@ -2506,9 +2605,9 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>750</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		<Projectile_Damage>4750</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 3 </Projectile_Blast_Area_Range>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2522,6 +2621,37 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_MAMMOTH_MAC_SHELL"> <!-- Mammoth Mac Round -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_MAC_EXPERIMENTAL.alo</Land_Model_Name>
+		<Damage_Type>Damage_UNSC_MAC</Damage_Type>
+		<Max_Speed>60.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>300000.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		
+		<AI_Combat_Power>2000</AI_Combat_Power>
 		
 	</Projectile>
 	
@@ -2578,7 +2708,27 @@
 
 	</Projectile>
 	
-	<Projectile Name="Scarab_AA_GUN">
+	<Projectile Name="Hunter_Focus_Beam">
+	
+		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Space_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Space_Model_Name>
+		<Land_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Land_Model_Name>
+		<Max_Speed>2.8</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Projectile_Damage>350.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 20 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
+		
+	</Projectile>
+	 
+	<Projectile Name="Scarab_AA_GUN">  <!-- this cannot fire at infantry please double check that this is true (Apple and Murphy ) -->
 	
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -2586,9 +2736,9 @@
 		<Land_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Land_Model_Name>
 		<Max_Speed>4.8</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Damage>1395.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 35 </Projectile_Blast_Area_Range>
+		<Projectile_Damage>795.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -2607,8 +2757,8 @@
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>10500.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 20 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Object_Armor_Reduced_Detonation_Particle>

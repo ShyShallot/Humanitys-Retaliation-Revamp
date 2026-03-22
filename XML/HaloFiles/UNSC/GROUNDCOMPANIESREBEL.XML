@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <RebelGroundCompanies>
 
-	<GroundCompany Name="Rebel_Speeder_Wing">  <!-- Pelican Company -->
+<GroundCompany Name="Rebel_Speeder_Wing">  <!-- Pelican Company -->
 	
 		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
@@ -32,8 +32,16 @@
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
-		<Company_Units>Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder</Company_Units>
-
+		<Company_Units> 
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, Snowspeeder,
+		</Company_Units>
 		
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
 		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
@@ -139,8 +147,8 @@
 		
 	</GroundCompany> -->
 	
-	<GroundCompany Name="UNSC_FALCON_WING">  <!-- Falcons -->
-		<Text_ID>UNSC_FALCON</Text_ID>
+	<GroundCompany Name="UNSC_FALCON_WING">  <!-- Falcon Platoon-->
+		<Text_ID>UNSC_FALCON_Platoon</Text_ID>
 		<Encyclopedia_Text>UNSC_FALCON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -167,7 +175,20 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units> UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON </Company_Units>
+		
+		<Company_Units>
+		
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_FALCON,
+		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_FALCON,
+		
+		</Company_Units>
+		
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
 		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
 		<GUI_Distance>70</GUI_Distance>
@@ -205,11 +226,11 @@
 
 	
 	
-	<GroundCompany Name="Warthog_Company">  <!-- UNSC Forward Scout COMPANY -->
-		<Text_ID>Forward_Scouting_Company</Text_ID>
+	<GroundCompany Name="Warthog_Platoon">  <!-- Warthog Platoon - Armored Recon -->
+		<Text_ID>Warthog_Armored_Recon</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Underworld_Merc </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Beep_Beep</Encyclopedia_Text>
+  		<Encyclopedia_Text>OOPS_ALL_WARTHOGS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
@@ -236,26 +257,15 @@
 		
 		<Company_Units>
 
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog,
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
+		UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG, 
+		UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG, 
+		UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG,
+		UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG
 		
 		</Company_Units>
 		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WARTHOG.TGA</Icon_Name>
 		<GUI_Model_Name>UNSC_WARTHOG.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 15</GUI_Offset>
@@ -290,141 +300,9 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 	
-	<GroundCompany Name="Gausshog_Company">  <!-- UNSC Gausshog COMPANY -->
-		<Text_ID>Gausshog_Company</Text_ID>
-		<Encyclopedia_Good_Against> Rebel_Trooper Underworld_Merc </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Beep_Beep</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>24</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Affiliation>Rebel, Terrorists</Affiliation>
-		<Build_Cost_Credits>850</Build_Cost_Credits>
-		<Build_Time_Seconds>40</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>1</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		
-		<Company_Units>UNSC_GAUSSHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG</Company_Units>
-		
-		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
-		<GUI_Model_Name>UNSC_GAUSSHOG.ALO</GUI_Model_Name>
-		<GUI_Distance>115</GUI_Distance>
-		<GUI_Offset>0 0 15</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_AT_ST</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>150</Score_Cost_Credits>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>UNSC_GaussHog_SQUAD</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Maintenance_Cost>0.05</Maintenance_Cost>
-
-		<Population_Value>1</Population_Value>
-	</GroundCompany>
+	<GroundCompany Name="Imperial_Heavy_Scout_Squad"> <!-- Mantis Based MECHAnized Division -->
 	
-	<GroundCompany Name="Rockethog_Company">  <!-- UNSC Rockethog_Company  -->
-		<Text_ID>Rockethog_Company</Text_ID>
-		<Encyclopedia_Good_Against> Rebel_Trooper Underworld_Merc </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Beep_Beep</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>24</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Affiliation>Rebel, Terrorists</Affiliation>
-		<Build_Cost_Credits>850</Build_Cost_Credits>
-		<Build_Time_Seconds>40</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>1</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
-		<GUI_Model_Name>UNSC_ROCKETHOG.ALO</GUI_Model_Name>
-		<GUI_Distance>115</GUI_Distance>
-		<GUI_Offset>0 0 15</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_AT_ST</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>150</Score_Cost_Credits>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>UNSC_ROCKETHOG_SQUAD</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Maintenance_Cost>0.05</Maintenance_Cost>
-
-		<Population_Value>1</Population_Value>
-	</GroundCompany>
-	
-	<GroundCompany Name="Imperial_Heavy_Scout_Squad">
-	
-		<Text_ID>UNSC_MANTIS_SQUAD</Text_ID>
+		<Text_ID>UNSC_MECHANIZED_MARINE_MANTIS_VARIANT</Text_ID>
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -450,35 +328,22 @@
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
 		
-		<Company_Units>
+		<Company_Units> 
 		
-		
-		AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker,
-		AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker,		
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_STANCHION,
-		UNSC_Warthog, UNSC_Warthog
-		
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_Warthog,
+		AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker,
 		
 		</Company_Units>
+		
+		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_atst.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_MANTIS.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-ST.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 15</GUI_Offset>
@@ -551,24 +416,17 @@
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
-		<Company_Units>
-		MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO,
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog
+		<Company_Units> 
+		
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
+		Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, UNSC_Warthog,
+		MPTL, MPTL, MPTL, MPTL, MPTL,
+		
 		</Company_Units>
 		
 		<Is_Homogeneous>No</Is_Homogeneous>
@@ -623,7 +481,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>3</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -667,10 +525,10 @@
 
 	</GroundCompany>
 	
-	<GroundCompany Name="Rebel_Heavy_Tank_Brigade">
-		<Text_ID>TEXT_REBEL_HEAVY_TANK_BRIGADE</Text_ID>
+	<GroundCompany Name="Rebel_Heavy_Tank_Brigade"> <!-- Tank platoon primarily scorpions and shit -->
+		<Text_ID>SCORPION_TANKS</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank AT_ST_Walker AT_AT_Walker </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> AT_AT_Walker </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -680,7 +538,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
@@ -695,36 +553,123 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>T4B_Tank</Company_Units>
+		
+		
+		<Company_Units>
+		
+		UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK, 
+		UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK, 
+		UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK,
+		UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK
+		
+		</Company_Units>
+		
+		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_t-3b_repulsor_tank.tga</Icon_Name>
+		
+		
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_SCORPION.TGA</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_T4B_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		
+	
+		<!-- <Unit_Abilities_Data SubObjectList="Yes">
 		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
 			</Unit_Ability>
-		</Unit_Abilities_Data>
+			
+		</Unit_Abilities_Data> -->
 		
 		
         
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
         
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T4B</Encyclopedia_Text>
+  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+        <Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+
+	</GroundCompany>
+	
+	<GroundCompany Name="UNSC_MAMMOTH_HQ"> <!-- Mammoth -->
+		<Text_ID>Mammoth</Text_ID>
+		<Encyclopedia_Good_Against> M1_Repulsor_Tank AT_ST_Walker AT_AT_Walker </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Build_Cost_Credits>750</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures> R_Ground_Heavy_Vehicle_Factory </Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		
+		
+		<Company_Units>
+		
+		UNSC_MAMMOTH
+		
+		</Company_Units>
+		
+		
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		
+		
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_MAMMOTH.tga</Icon_Name>
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_T4B_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		
+	
+		<!-- <Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data> -->
+		
+		
+        
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+        
+  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
@@ -769,29 +714,14 @@
 		
 		<Company_Units> 
 		
-		
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_SHOTGUN,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_STANCHION,
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_FALCON, UNSC_FALCON, UNSC_GAUSSHOG, UNSC_GAUSSHOG
-		
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_Warthog,
+		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, Squad_UNSC_SPARTAN_RIFLEMAN, Squad_UNSC_SPARTAN_RIFLEMAN
 		
 		</Company_Units>
 			
@@ -858,94 +788,110 @@
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>5</Damage> 
 	</GroundCompany>
-
-	<GroundCompany Name="Rebel_Tank_Buster_Squad">
-		<Text_ID>UNSC_ANTI_TANK_COMPANY</Text_ID>
-		<Encyclopedia_Good_Against>    </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>    </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>UNSC_ANTI_TANK_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	
+	<GroundCompany Name="UNSC_ANTI_TANK_PLATOON">
+		<Text_ID>UNSC_ANTI_TANK_PLATOON</Text_ID>
+		<Encyclopedia_Text>UNSC_MECHANIZED_AT_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>MECHANIZED_DIVISION</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Crawler </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>6</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Build_Cost_Credits>750</Build_Cost_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures> R_Ground_Barracks </Required_Special_Structures>
+		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>2</Formation_Priority>
+		
+		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
+		
+		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>walker</Ship_Class>
+		<Ship_Class>infantry</Ship_Class>
+		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Create_Team_Type> Plex_Soldier_Team </Create_Team_Type>
+		
+		<!-- <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type> -->
+		<Is_Homogeneous>No</Is_Homogeneous>
+        <!-- AI  Changed to 15 soldiers with 5 per troop -->
 		
 		<Company_Units> 
 		
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_MEDIC, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_ENGINEER, Squad_UNSC_INFANTRY_ENGINEER, Squad_Plex_Soldier, Squad_Plex_Soldier, 
-		UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG	
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_Warthog,
+		UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_ROCKETHOG, UNSC_GAUSSHOG, UNSC_GAUSSHOG,
 		
 		</Company_Units>
+			
+		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Max_Squad_Size> 4 </Max_Squad_Size>
-		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
-		<GUI_Model_Name>RI_PLEXSOLDIER.ALO</GUI_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARINE_ROCKETEER.TGA</Icon_Name>
+		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
+		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
 		<GUI_Offset>0 0 5</GUI_Offset>
-		<GUI_Velocity>90</GUI_Velocity>
+		<GUI_Velocity>45</GUI_Velocity>
 		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Plex_Soldier</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plex_Soldier</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 
-		<Score_Cost_Credits>55</Score_Cost_Credits>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Cost_Multiplayer>320</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		  			
+		
+		<!--
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>9999</Recharge_Seconds>
+				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
+			</Unit_Ability>
+		</Unit_Abilities_Data> -->
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
 
 	
 	<!--  Oksana 08/25/2005:  Since this team has only one unit, and this unit is supposed to have a non-team ability,
@@ -954,8 +900,8 @@
 
 	<!-- This unit is supposed to be SOLO.  DO NOT add another infiltrator to this team.  -PP 11/30/05 -->
 
-	 <GroundCompany Name="Rebel_Infiltrator_Team">
-		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR</Text_ID>
+	 <GroundCompany Name="Rebel_Infiltrator_Team"> <!-- Infantry Scouting Division -->
+		<Text_ID>UNSC_Infantry_Scouting_Division</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -978,7 +924,18 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
-		<Company_Units> Rebel_Infiltrator, Rebel_Infiltrator</Company_Units>
+		<Company_Units> 
+		
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
+		Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, UNSC_Warthog,
+		
+		</Company_Units>
+		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<Formation_Priority>1</Formation_Priority>
@@ -1020,7 +977,7 @@
 
 	
 	
-	<GroundCompany Name="Rebel_Pod_Walker_Company">
+	<GroundCompany Name="Rebel_Pod_Walker_Company">  <!-- Mobile Walker Artillery -->
 		<Text_ID>TEXT_UNIT_POD_WALKER_COMPANY</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper Scout_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> M1_Repulsor_Tank UC_Empire_Buildable_Anti_Vehicle_Turret  </Encyclopedia_Vulnerable_To>
@@ -1125,7 +1082,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
 		
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
 	</GroundCompany>	

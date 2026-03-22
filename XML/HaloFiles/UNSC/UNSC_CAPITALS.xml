@@ -1023,7 +1023,7 @@
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>500.0</Heal_Range>
+				<Heal_Range>150.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>

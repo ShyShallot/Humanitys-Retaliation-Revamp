@@ -1049,7 +1049,7 @@
 			<Garrison_Upgrade_Ability Name="RL_More_Garrisons_L1_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Additional_Garrison_Units>Rebel_Tank_Buster_Squad, Rebel_Light_Tank_Brigade</Additional_Garrison_Units>
+				<Additional_Garrison_Units>UNSC_ANTI_TANK_PLATOON, Rebel_Light_Tank_Brigade</Additional_Garrison_Units>
 			</Garrison_Upgrade_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
