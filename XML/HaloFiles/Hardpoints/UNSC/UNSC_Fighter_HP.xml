@@ -558,6 +558,8 @@
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Air, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		    <Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 
 			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
@@ -648,6 +650,9 @@
 		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		
 	</HardPoint>
 	
 	<HardPoint Name="UNSC_FALCON_RIGHT">
@@ -678,6 +683,9 @@
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	
@@ -698,6 +706,9 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	
@@ -732,6 +743,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
@@ -750,6 +762,9 @@
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>150</Fire_Range_Distance>
 		<Fire_SFXEvent/>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	
