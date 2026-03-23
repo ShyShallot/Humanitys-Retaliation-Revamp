@@ -143,17 +143,6 @@ function Definitions()
         {Range = {90,100}, Punishment = false, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
     }
 
-    hero_status_table = {
-        UNSC_POA = {Current_Status = false, Equation = "Is_POA_Alive", Object = nil, Owner = nil},
-        UNSC_IAC = {Current_Status = false, Equation = "Is_IAC_Alive", Object = nil, Owner = nil},
-        UNSC_ROMAN_BLUE = {Current_Status = false, Equation = "Is_Roman_Blue_Alive", Object = nil, Owner = nil},
-        UNSC_SOF = {Current_Status = false, Equation = "Is_SOF_Alive", Object = nil, Owner = nil},
-        COVN_PIOUS = {Current_Status = false, Equation = "Is_Pious_Alive", Object = nil, Owner = nil},
-        COVN_JUL = {Current_Status = false, Equation = "Is_Jul_Alive", Object = nil, Owner = nil},
-        COVN_ARDO = {Current_Status = false, Equation = "Is_Ardo_Alive", Object = nil, Owner = nil},
-        COVN_MACCABEUS = {Current_Status = false, Equation = "Is_Maccabeus_Alive", Object = nil, Owner = nil},
-    }
-
     Modifiers = {
         EMPIRE = {
             ["Normal"] = {
@@ -344,20 +333,6 @@ function Init_Morale_System(message)
 
         Global_Values.Player = Find_Human_Player()
 
-        for hero, status in pairs(hero_status_table) do
-            if EvaluatePerception(status.Equation, Global_Values.Player) == 1 then
-                hero_status_table[hero].Current_Status = true
-                
-                local hero_object = Find_First_Object(hero)
-
-                if TestValid(hero_object) then
-                    hero_status_table[hero].Object = hero_object
-                    hero_status_table[hero].Owner = hero_object.Get_Owner()
-                end
-
-            end
-        end
-
         Global_Values.Plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Morale_System.xml")
 
         if StringCompare(Global_Values.Player.Get_Faction_Name(), "Rebel") or StringCompare(Global_Values.Player.Get_Faction_Name(), "Terrorists") then
@@ -416,12 +391,6 @@ function Init_Morale_System(message)
             if TestValid(planet) then
                 table.insert(Global_Values.Planets, planet)
             end
-
-            local select_event = Global_Values.Plot.Get_Event("SELECT_"..planet_name)
-
-            if select_event ~= nil then
-                select_event.Set_Reward_Parameter(1, Global_Values.Player.Get_Faction_Name())
-            end
         end
 
         Planetary_Pathing_Table = Build_Neighbor_Table()
@@ -448,8 +417,6 @@ function Morale_System_Update(message)
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
         --DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(global_morale_level))
-
-        Check_Hero_Status()
 
         Reset_Morale_Entries()
 
@@ -549,7 +516,7 @@ function Morale_System_Update(message)
             end
 
             if Battle_Info.Win_Streak > 0 then
-                Add_Display_Text(morale_string.Win_Streak, tostring(Battle_Info.Win_Streak))
+                Add_Display_Text(morale_string.Win_Streak, tostring(Battle_Info.Win_Streak), nil, true)
             end
 
             if Battle_Info.Loss_Streak > 0 then
@@ -703,49 +670,6 @@ function Get_Morale_Level()
     end
 
     return closest_level
-end
-
-function Check_Hero_Status()
-    for hero, status in pairs(hero_status_table) do
-
-        local Current_Status = EvaluatePerception(status.Equation, Global_Values.Player)
-
-        DebugMessage("%s -- Current Status for Hero: %s: %s, Last Known Status: %s", tostring(Script), tostring(hero), tostring(Current_Status), tostring(status.Current_Status))
-
-        if type(Current_Status) == "number" then
-            if (Current_Status == 0) and status.Current_Status == true then -- if perception returns 0 (not alive) and we last knew they were alive, we can assume they are dead
-
-                DebugMessage("%s -- Hero %s has Died, Owner: %s", tostring(Script), tostring(hero), tostring(status.Owner))
-
-                if status.Owner ~= nil then
-
-                    hero_status_table[hero].Current_Status = false
-
-                    if status.Owner ~= Global_Values.Player then -- if the owner of the hero was not the player, we killed one
-                        Set_Next_State("Hero_Killed")
-                    else -- if the hero that was killed was ours
-                        Set_Next_State("Hero_Lost")
-                    end
-                end
-            end
-
-            if (Current_Status == 1) then
-
-                hero_status_table[hero].Current_Status = true
-
-                if status.Object == nil or (not TestValid(status.Object)) then
-
-                    local hero_object = Find_First_Object(hero)
-
-                    if TestValid(hero_object) then
-                        hero_status_table[hero].Object = hero_object
-                        hero_status_table[hero].Owner = hero_object.Get_Owner()
-                    end
-
-                end
-            end
-        end
-    end
 end
 
 function Planet_Morale_Updater()

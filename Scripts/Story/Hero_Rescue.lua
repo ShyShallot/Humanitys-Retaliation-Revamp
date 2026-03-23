@@ -344,6 +344,12 @@ function Hero_Lost(hero, owner)
     Hero_Entry.Last_Death = DoD
 
     DebugMessage("%s -- %s Date of Death: %s", tostring(Script), tostring(hero), tostring(DoD))
+
+    if owner ~= Player then
+        Story_Event("Enemy_Hero_Killed")
+    else
+        Story_Event("Friendly_Hero_Lost")
+    end
 end
 
 function Flush(message)
