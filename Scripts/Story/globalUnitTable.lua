@@ -438,7 +438,10 @@ local unit_table = {
     UNSC_DEEP_CORE_MINE = {
         Category = "Structure"
     },
-    UNSC_RESEARCH_FACILITY = {
+    UNSC_RESEARCH_FACILITY = { 
+        Category = "Structure"
+    },
+	UNSC_PROJECT_ORION = { 
         Category = "Structure"
     },
     COVN_CAMP = {
@@ -536,6 +539,9 @@ local unit_table = {
         Category = "Vehicle"
     },
     Rebel_Infantry_Squad = {
+        Category = "Infantry"
+    },
+	UNSC_SPARTAN_SQUAD = {
         Category = "Infantry"
     },
     UNSC_ANTI_TANK_PLATOON = {
