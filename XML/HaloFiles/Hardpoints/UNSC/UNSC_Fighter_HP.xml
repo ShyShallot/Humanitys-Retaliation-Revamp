@@ -535,9 +535,9 @@
 	
 	<!-- Ground Weapons  BECAUSE I WAS TOO LAZY TO PUT THEM IN THEIR OWN FILE (apple) <3 -->
 	
-	<!-- Hard points for the T4-B Tank -->
+	<!-- Hard points for the scorpion Tank -->
 
-    <HardPoint Name="Scorpion_LMG_00">
+    <HardPoint Name="UNSC_SCORPION_TANK_COAXIAL">
 			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -564,6 +564,40 @@
 			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
     </HardPoint>
+	
+		<HardPoint Name="UNSC_SCORPION_TURRET">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_TURRET</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>2000</Health>
+		<Is_Turret>Yes</Is_Turret>
+		<Model_To_Attach>UNSC_SCORPION_TANK_TURRET_00.ALO</Model_To_Attach>
+		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+		<Turret_Rotate_Extent_Degrees>120</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+		<Attachment_Bone>SCORPION_TURRET_00</Attachment_Bone>
+		<Collision_Mesh>SCORPION_TURRET_00</Collision_Mesh>
+		<Fire_Bone_A>FP_01</Fire_Bone_A>
+		<Fire_Bone_B>FP_02</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>15</Fire_Cone_Width>
+		<Fire_Cone_Height>15</Fire_Cone_Height>
+		<Fire_Projectile_Type>MA5C</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>450</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+
+	</HardPoint>
 
   <!--  <HardPoint Name="Scorpion_LMG_01">
   
@@ -688,6 +722,8 @@
 		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
+	
+
 	
 	<HardPoint Name="UNSC_MANTIS_LMG">
 	

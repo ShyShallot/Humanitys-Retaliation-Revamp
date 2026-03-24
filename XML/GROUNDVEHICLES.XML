@@ -1923,7 +1923,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN, REINFORCEMENT_POINT</LandBehavior>
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN, REINFORCEMENT_POINT, GARRISON_VEHICLE</LandBehavior>
 		
 		<Reinforcement_Enabling_Radius>450.0</Reinforcement_Enabling_Radius>
 		<Radar_Range_Icon_Name>i_radar_landing.tga</Radar_Range_Icon_Name>
@@ -1956,7 +1956,8 @@
 		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> <Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy> LandHero, 99.99 </Targeting_Fire_Inaccuracy>
 		
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
@@ -2259,6 +2260,7 @@
 
 
 	<GroundVehicle Name="UNSC_Warthog">   <!-- UNSC WARTHOG ATTEMPT NUMBER 3 -->
+
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>UNSC_WARTHOG</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
@@ -2308,14 +2310,17 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		
+		<LandBehavior> AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Num_Garrison_Slots>10</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>
 		<Property_Flags>GoodInfantryCrusher | CanContainGarrison</Property_Flags>
+		<Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
+		
 		<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
@@ -2407,8 +2412,6 @@
 		<Weather_Category>Tracked</Weather_Category>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
-
-      <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
 
 		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
 
@@ -3093,7 +3096,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<HardPoints>
-			Scorpion_LMG_00
+			UNSC_SCORPION_TANK_COAXIAL, UNSC_SCORPION_TURRET
 		</HardPoints>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
