@@ -37,7 +37,7 @@ function Definitions()
 
     Player = nil
 
-    UNSC_Reward_Triggered = false
+    Player_Name = nil
 
     ---@type StoryPlot
     Plot = nil
@@ -45,9 +45,23 @@ function Definitions()
     ---@type PlanetName[]
     Init_Restrict_List = {"VICTORS_TRUTH", "KARAVA", "TROVE", "NETHEROP"}
 
-    Init_Restrict = false
+    Custom_Timed_Events = {
+        ["REBEL"] = {
+            [35] = {
+                UNSC_Income_Reward,
+            } 
+        },
+        ["All"] = {
+            [0] = {
+                Initial_Planet_Restrict,
+            },
+            [35] = {
+                Planet_Unrestrict,
+            }
+        }
+    }
 
-    Post_Unrestrict = false
+    Executed_Timed_Events = {}
 end
 
 function Init_GC(messsage)
@@ -59,6 +73,8 @@ function Init_GC(messsage)
     end
 
     Player = Find_Human_Player()
+
+    Player_Name = string.upper(Player.Get_Faction_Name())
 
     local Single_Start_Object = Find_First_Object("Single_Random_Start")
     
@@ -133,9 +149,7 @@ function Update(messsage)
 
     Far_Isle_Campaign:Check()
 
-    UNSC_Income_Reward()
-
-    Initial_Planet_Restrict()
+    Execute_Custom_Events()
 
     --Test_Victory_Condition()
 
@@ -145,6 +159,33 @@ end
 function Flush(message)
     if message == OnEnter then
         Set_Next_State("Update")
+    end
+end
+
+function Execute_Custom_Events()
+    local Year = Get_Current_Week()
+    
+    for Faction, Events in pairs(Custom_Timed_Events) do
+        if Faction == "All" or string.upper(Faction) == Player_Name then
+            for Event_Year, Functions in pairs(Events) do
+                if Event_Year <= Year then
+
+                    Executed_Timed_Events[Faction] = Executed_Timed_Events[Faction] or {}
+
+                    if not Executed_Timed_Events[Faction][Event_Year] then
+                        for _, Function in pairs(Functions) do
+                            local success, err = pcall(Function)
+
+                            if not success then
+                                DebugMessage("%s -- Custom Event Error: %s", tostring(Script), tostring(err))
+                            end
+                        end
+
+                        Executed_Timed_Events[Faction][Event_Year] = true
+                    end
+                end
+            end
+        end
     end
 end
 
@@ -211,52 +252,37 @@ end
 
 function UNSC_Income_Reward()
 
-    if Player.Get_Faction_Name() ~= "REBEL" then
-        return
-    end
+    local Player_Credits = Player.Get_Credits()
 
-    if UNSC_Reward_Triggered then
-        return
-    end
+    Player_Credits = Player_Credits * 4
 
-    if Get_Current_Week() >= 35 then
-        UNSC_Reward_Triggered = true
-
-        local Player_Credits = Player.Get_Credits()
-
-        Player_Credits = Player_Credits * 4
-
-        Player.Give_Money(Player_Credits)
-    end
+    Player.Give_Money(Player_Credits)
 end
 
 function Initial_Planet_Restrict()
 
-    if not Init_Restrict then
-        for _, Planet_Name in pairs(Init_Restrict_List) do
-            local Planet = FindPlanet(Planet_Name)
+    for _, Planet_Name in pairs(Init_Restrict_List) do
+        local Planet = FindPlanet(Planet_Name)
 
-            if TestValid(Planet) then
-                Restrict_Planet(Planet)
-            end
-        end
-
-        Init_Restrict = true
-    end
-
-    if not Post_Unrestrict then
-        if Get_Current_Week() >= 35 then
-            for _, Planet_Name in pairs(Init_Restrict_List) do
-                local Planet = FindPlanet(Planet_Name)
-
-                if TestValid(Planet) then
-                    Unrestrict_Planet(Planet)
-                end
-            end
-
-            Post_Unrestrict = true
+        if TestValid(Planet) then
+            Restrict_Planet(Planet)
         end
     end
+end
+
+function Planet_Unrestrict()
+
+    for _, Planet_Name in pairs(Init_Restrict_List) do
+
+        local Planet = FindPlanet(Planet_Name)
+            
+        if TestValid(Planet) then
+            Unrestrict_Planet(Planet)
+        end
+            
+    end
+
+    Post_Unrestrict = true
 end
 
 ---@param Planet PlanetObject|nil

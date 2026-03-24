@@ -47,7 +47,7 @@ function Definitions()
 
     ---@class MoraleEventTable
     ---@field Events table<string, MoraleEvent>
-    ---@field Recent MoraleEvent[]
+    ---@field Recent MoraleEvent[]|Random_Event[]
     Morale_Event_Table = {
         Events = {
             ["Morale_Lost_Battle"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS_NAME", Value = 2, Subtract = true, KD_Influence = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_BATTLE_LOSS"},
@@ -315,7 +315,8 @@ function Definitions()
         Random_Chances = {
             Current_Chance = 0.0005,
             Chance_Increase_Per_Tick = 0.0005,
-            Chance_Cap = 0.5
+            Chance_Cap = 0.5,
+            Last_Happened = 0,
         }
     }
 
@@ -338,8 +339,9 @@ function Definitions()
 
         DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll))
 
-        if roll <= self.Current_Chance then
+        if roll <= self.Current_Chance and GetCurrentTime.Galactic_Time() >= self.Last_Happened + 10 then
             self.Current_Chance = 0.0005
+            self.Last_Happened = GetCurrentTime.Galactic_Time()
             return true
         end
 
