@@ -36,7 +36,18 @@ function Definitions()
     Utilize_Random_Start = false
 
     Player = nil
-    
+
+    UNSC_Reward_Triggered = false
+
+    ---@type StoryPlot
+    Plot = nil
+
+    ---@type PlanetName[]
+    Init_Restrict_List = {"VICTORS_TRUTH", "KARAVA", "TROVE", "NETHEROP"}
+
+    Init_Restrict = false
+
+    Post_Unrestrict = false
 end
 
 function Init_GC(messsage)
@@ -90,7 +101,7 @@ function Init_GC(messsage)
 
     Story_Event("Spawning_Done")
 
-    local Plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Common_Events.xml")
+    Plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Common_Events.xml")
 
     local Victory_Event = Plot.Get_Event("Galactic_Conquest_Victory")
 
@@ -106,7 +117,7 @@ function Init_GC(messsage)
 
     Loss_Event.Set_Reward_Parameter(0, Loss_Player.Get_Faction_Name())
 
-    Shield_Research_Test()
+    --Shield_Research_Test()
 
     Set_Next_State("Flush")
 end
@@ -121,6 +132,10 @@ function Update(messsage)
     Great_Schism:Check()
 
     Far_Isle_Campaign:Check()
+
+    UNSC_Income_Reward()
+
+    Initial_Planet_Restrict()
 
     --Test_Victory_Condition()
 
@@ -192,6 +207,104 @@ function Shield_Research_Test()
 
         Spawn_Unit(Find_Object_Type("UNSC_RESEARCH_FACILITY"), FindPlanet("EARTH"), Player)
     end
+end
+
+function UNSC_Income_Reward()
+
+    if Player.Get_Faction_Name() ~= "REBEL" then
+        return
+    end
+
+    if UNSC_Reward_Triggered then
+        return
+    end
+
+    if Get_Current_Week() >= 35 then
+        UNSC_Reward_Triggered = true
+
+        local Player_Credits = Player.Get_Credits()
+
+        Player_Credits = Player_Credits * 4
+
+        Player.Give_Money(Player_Credits)
+    end
+end
+
+function Initial_Planet_Restrict()
+
+    if not Init_Restrict then
+        for _, Planet_Name in pairs(Init_Restrict_List) do
+            local Planet = FindPlanet(Planet_Name)
+
+            if TestValid(Planet) then
+                Restrict_Planet(Planet)
+            end
+        end
+
+        Init_Restrict = true
+    end
+
+    if not Post_Unrestrict then
+        if Get_Current_Week() >= 35 then
+            for _, Planet_Name in pairs(Init_Restrict_List) do
+                local Planet = FindPlanet(Planet_Name)
+
+                if TestValid(Planet) then
+                    Unrestrict_Planet(Planet)
+                end
+            end
+
+            Post_Unrestrict = true
+        end
+    end
+end
+
+---@param Planet PlanetObject|nil
+function Restrict_Planet(Planet)
+
+    if not TestValid(Planet) or Planet.Get_Type == nil then
+        return
+    end
+
+    local restrict = Plot.Get_Event("Restrict_Planet")
+
+    local Planet_Name = Planet.Get_Type().Get_Name()
+
+    if restrict == nil then
+        return
+    end
+
+    if Planet_Name == nil then
+        return
+    end
+
+    restrict.Set_Reward_Parameter(0, Planet_Name)
+
+    Story_Event("Restrict_Planet")
+end
+
+---@param Planet PlanetObject|nil
+function Unrestrict_Planet(Planet)
+
+    if not TestValid(Planet) or Planet.Get_Type == nil then
+        return
+    end
+
+    local unrestrict = Plot.Get_Event("Unrestrict_Planet")
+
+    local Planet_Name = Planet.Get_Type().Get_Name()
+
+    if unrestrict == nil then
+        return
+    end
+
+    if Planet_Name == nil then
+        return
+    end
+
+    unrestrict.Set_Reward_Parameter(0, Planet_Name)
+
+    Story_Event("Unrestrict_Planet")
 end
 
 function Set_Structures_Super_Filter(message)

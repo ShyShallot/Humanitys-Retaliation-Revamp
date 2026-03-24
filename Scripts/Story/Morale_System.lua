@@ -313,8 +313,8 @@ function Definitions()
             ["Wartime_Propaganda"] = {Base_Morale = 4, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA"}
         },
         Random_Chances = {
-            Current_Chance = 0.005,
-            Chance_Increase_Per_Tick = 0.0015,
+            Current_Chance = 0.0005,
+            Chance_Increase_Per_Tick = 0.0005,
             Chance_Cap = 0.5
         }
     }
@@ -332,14 +332,14 @@ function Definitions()
     function Random_Events.Random_Chances:Should_Random_Event_Happen()
         local roll = (GameRandom.Free_Random(0,100) / 100)
 
-        if roll <= 0.01 then
-            roll = 0.01
+        if roll <= 0.05 then
+            roll = 0.05
         end
 
         DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll))
 
         if roll <= self.Current_Chance then
-            self.Current_Chance = 0.005
+            self.Current_Chance = 0.0005
             return true
         end
 

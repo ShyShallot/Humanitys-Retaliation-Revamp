@@ -9,14 +9,15 @@ Far_Isle_Campaign = {
 
     UNSC = nil,
 
-    Planet_Loss_Percentage = 0.5,
+    Planet_Loss_Percentage = 0.65,
 
     Schism_Event_Trigger = "Trigger_Far_Isle_Campaign",
 
     Schism_Event_Trigger_Dialog = "Trigger_Far_Isle_Campaign_Dialog",
 
-    Planet_Table = nil
+    Planet_Table = nil,
 
+    Unit_Spawn_Multiplier = 2.5,
 }
 
 function Far_Isle_Campaign:Init() 
@@ -90,6 +91,12 @@ function Far_Isle_Campaign:Trigger()
 
                     for Unit_Name, Amount in pairs(Units_To_Spawn.Units) do
                         local Selected_Amount = EvenMoreRandom(Amount[1], Amount[2])
+
+                        Selected_Amount = tonumber(tostring(Selected_Amount * self.Unit_Spawn_Multiplier))
+
+                        if type(Selected_Amount) ~= "number" then
+                            Selected_Amount = EvenMoreRandom(Amount[1], Amount[2])
+                        end
 
                         local Spawned = 0
 

@@ -131,4 +131,24 @@
         <Event_Param2>Trigger_GC_Loss</Event_Param2>
         <Reward_Type>VICTORY</Reward_Type>
     </Event>
+
+    <Event Name="Restrict_Planet">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Restrict_Planet</Event_Param2>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1></Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+        <Reward_Param3>1</Reward_Param3>
+        <Reward_Param4>1</Reward_Param4>
+    </Event>
+
+    <Event Name="Unrestrict_Planet">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Unrestrict_Planet</Event_Param2>
+        <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+        <Reward_Param1></Reward_Param1>
+        <Reward_Param2>0</Reward_Param2>
+        <Reward_Param3>0</Reward_Param3>
+        <Reward_Param4>0</Reward_Param4>
+    </Event>
 </Story>
