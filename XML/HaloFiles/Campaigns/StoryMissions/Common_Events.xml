@@ -140,6 +140,7 @@
         <Reward_Param2>1</Reward_Param2>
         <Reward_Param3>1</Reward_Param3>
         <Reward_Param4>1</Reward_Param4>
+        <Perpetual>true</Perpetual>
     </Event>
 
     <Event Name="Unrestrict_Planet">
@@ -150,5 +151,6 @@
         <Reward_Param2>0</Reward_Param2>
         <Reward_Param3>0</Reward_Param3>
         <Reward_Param4>0</Reward_Param4>
+        <Perpetual>true</Perpetual>
     </Event>
 </Story>
