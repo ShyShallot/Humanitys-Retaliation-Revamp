@@ -1,5 +1,5 @@
 ---@meta
----@diagnostic disable: lowercase-global, missing-return, duplicate-set-field, undefined-global
+---@diagnostic disable: lowercase-global, missing-return, duplicate-set-field, undefined-global, missing-fields
 
 ---@class GetCurrentTime
 ---Returns the game time in frames.

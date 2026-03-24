@@ -76,8 +76,10 @@ function Definitions()
 
         local n = tableLength(self.Recent)
 
-        if n > 5 then
-            for i=n, 6, -1 do
+        local Recent_Cap = 8
+
+        if n > Recent_Cap then
+            for i=n, Recent_Cap + 1, -1 do
                 table.remove(self.Recent, i)
             end
         end
@@ -146,10 +148,11 @@ function Definitions()
     Modifiers = {
         EMPIRE = {
             ["Normal"] = {
-                Morale_Gain_Multiplier = 0.75,
-                Random_Morale_Gain_Loss = {1,2},
+                Morale_Gain_Multiplier = 0.75, --- Does not affect Morale loss, only applies when gaining morale
+                Random_Morale_Gain_Loss = {1,2}, --- The Range at which we +/- to the random event morale 
                 Yearly_Planetary_Morale_Loss = -15, -- when player is in low morale, how much morale does a planet lose every year out of 100, so 100/10 = 10 years to planet loss
-                Battle_Win_Streak_Requirement = 8,
+                Battle_Win_Streak_Requirement = 8, --- How many battles do we have to win in a row to count for the battle win streak
+                Negative_Random_Event_Weight_Multiplier = 1.05 --- Multiplies negative random morale event weight by this number rounded down
 
             },
             ["Hard"] = {
@@ -157,6 +160,7 @@ function Definitions()
                 Random_Morale_Gain_Loss = {1,1},
                 Yearly_Planetary_Morale_Loss = -20,
                 Battle_Win_Streak_Requirement = 12,
+                Negative_Random_Event_Weight_Multiplier = 1.1
             }
         },
         Default = {
@@ -165,6 +169,7 @@ function Definitions()
                 Random_Morale_Gain_Loss = {0,2},
                 Yearly_Planetary_Morale_Loss = -10,
                 Battle_Win_Streak_Requirement = 6,
+                Negative_Random_Event_Weight_Multiplier = 1
             }
         }
     }
@@ -291,37 +296,54 @@ function Definitions()
     Random_Events = {
         Distribution_Table = nil,
         Possible_Events = {
-            ["Milita_Crackdown"] = {Base_Morale = 3, Negative = false, Weight = 40, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN"},
-            ["Milita_Advance"] = {Base_Morale = 4, Negative = true, Weight = 25, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE"},
+            ["Milita_Crackdown"] = {Base_Morale = 3, Negative = false, Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN"},
+            ["Milita_Advance"] = {Base_Morale = 4, Negative = true, Weight = 45, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE"},
 
-            ["Colony_Breakdown"] = {Base_Morale = 3, Negative = true, Weight = 10, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN"},
-            ["Colony_Evacuation"] = {Base_Morale = 4, Negative = true, Weight = 8, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION"},
-            ["Colony_Celebration"] = {Base_Morale = 3, Negative = false, Weight = 30, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION"},
+            ["Colony_Breakdown"] = {Base_Morale = 3, Negative = true, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN"},
+            ["Colony_Evacuation"] = {Base_Morale = 4, Negative = true, Weight = 30, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION"},
+            ["Colony_Celebration"] = {Base_Morale = 3, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION"},
 
-            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Weight = 25, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
-            ["Wartime_Fears"] = {Base_Morale = 2, Negative = true, Weight = 45, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS"},
+            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Weight = 50, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
+            ["Wartime_Fears"] = {Base_Morale = 2, Negative = true, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS"},
 
-            ["Settlement_Created"] = {Base_Morale = 3, Negative = false, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED"},
-            ["Settlement_Grew"] = {Base_Morale = 2, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW"},
-            ["Settlement_Abandonded"] = {Base_Morale = 3, Negative = true, Weight = 15, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED"},
+            ["Settlement_Created"] = {Base_Morale = 3, Negative = false, Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED"},
+            ["Settlement_Grew"] = {Base_Morale = 2, Negative = false, Weight = 65, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW"},
+            ["Settlement_Abandonded"] = {Base_Morale = 3, Negative = true, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED"},
 
-            ["Wartime_Propaganda"] = {Base_Morale = 4, Negative = false, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA"}
+            ["Wartime_Propaganda"] = {Base_Morale = 4, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA"}
         },
-        Next_Random_Event = 30,
-        Last_Random_Event = 0,
+        Random_Chances = {
+            Current_Chance = 0.005,
+            Chance_Increase_Per_Tick = 0.0015,
+            Chance_Cap = 0.5
+        }
     }
 
-    function Random_Events:Calculate_Next_Random_Event()
-        self.Next_Random_Event = self.Last_Random_Event + EvenMoreRandom(35,170)
+    function Random_Events.Random_Chances:Increase_Chance()
+        self.Current_Chance = self.Current_Chance + self.Chance_Increase_Per_Tick
+
+        DebugMessage("%s -- Increasing Current Chance to: %s, By Adding: %s", tostring(Script), tostring(self.Current_Chance), tostring(self.Chance_Increase_Per_Tick))
+
+        if self.Current_Chance > self.Chance_Cap then
+            self.Current_Chance = self.Chance_Cap
+        end
     end
 
-    ---@return boolean
-    function Random_Events:Should_Random_Event_Happen()
-        if GetCurrentTime.Galactic_Time() >= self.Next_Random_Event then
-            self:Calculate_Next_Random_Event()
-            self.Last_Random_Event = GetCurrentTime.Galactic_Time()
+    function Random_Events.Random_Chances:Should_Random_Event_Happen()
+        local roll = (GameRandom.Free_Random(0,100) / 100)
+
+        if roll <= 0.01 then
+            roll = 0.01
+        end
+
+        DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll))
+
+        if roll <= self.Current_Chance then
+            self.Current_Chance = 0.005
             return true
         end
+
+        self:Increase_Chance()
 
         return false
     end
@@ -400,7 +422,21 @@ function Init_Morale_System(message)
         Random_Events.Distribution_Table = DiscreteDistribution.Create()
 
         for Random_Event_Name, Random_Event in pairs(Random_Events.Possible_Events) do
-            Random_Events.Distribution_Table.Insert(Random_Event_Name, Random_Event.Weight)
+
+            local Diff_Modifiers = Modifiers:Get_Modifiers(Global_Values.Player)
+
+            local Weight = Random_Event.Weight
+
+            if Random_Event.Negative then
+                Weight = tonumber(Dirty_Floor(Diff_Modifiers.Negative_Random_Event_Weight_Multiplier * Random_Event.Weight))
+
+                if type(Weight) ~= "number" then
+                    Weight = Random_Event.Weight
+                end
+            end
+
+            
+            Random_Events.Distribution_Table.Insert(Random_Event_Name, Weight)
         end
 
         Set_Next_State("Flush")
@@ -572,7 +608,7 @@ end
 
 function Random_Morale_Swing()
 
-    if Random_Events:Should_Random_Event_Happen() then
+    if Random_Events.Random_Chances:Should_Random_Event_Happen() then
 
         local Random_Event = Random_Events.Distribution_Table.Sample()
 
