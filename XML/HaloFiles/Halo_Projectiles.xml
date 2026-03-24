@@ -2708,8 +2708,8 @@
 
 	</Projectile>
 	
-	<Projectile Name="Hunter_Focus_Beam">
-	
+	<Projectile Name="Hunter_Focus_Beam">  <!-- Fuelrods can do 415 damage when we get to making them -->
+	 
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>LASER</Projectile_Category>
 		<Space_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Space_Model_Name>

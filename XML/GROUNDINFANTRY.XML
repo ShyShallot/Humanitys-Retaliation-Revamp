@@ -387,7 +387,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>40</Shield_Points>
-		<Tactical_Health>40</Tactical_Health>
+		<Tactical_Health>60</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>30</Energy_Capacity>
 		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
@@ -789,7 +789,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -939,7 +939,8 @@
 	
 	<GroundInfantry Name="UNSC_SPARTAN">       <!-- Spartan Future Spartan Laser Model --> 
 	
-		<Is_Named_Hero> Yes </Is_Named_Hero>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		
 		<Text_ID>TEXT_UNSC_SPARTAN_PROTOTYPE</Text_ID>
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -1040,9 +1041,8 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
-		<Property_Flags>Fodder</Property_Flags>
 
 		<Pause_During_Cinematic_Anim>yes</Pause_During_Cinematic_Anim>
 		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
@@ -1120,7 +1120,7 @@
             </Unit_Ability>
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Percent> 0.25 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -1145,9 +1145,9 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
-				<Heal_Percent> 0.25 </Heal_Percent>
+				<Heal_Percent> 0.05 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
@@ -1171,7 +1171,8 @@
 	
 	<GroundInfantry Name="UNSC_SPARTAN_ETILKA">       <!--  UNSC SPARTAN UNSC_INFANTRY_SPARTAN_ETILKA --> 
 	
-		<Is_Named_Hero> Yes </Is_Named_Hero>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		
 		<Text_ID>TEXT_UNSC_SPARTAN_PROTOTYPE</Text_ID>
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -1271,9 +1272,8 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
-		<Property_Flags>Fodder</Property_Flags>
 
 		<Pause_During_Cinematic_Anim>yes</Pause_During_Cinematic_Anim>
 		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
@@ -1351,7 +1351,7 @@
             </Unit_Ability>
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Percent> 0.25 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -1376,9 +1376,9 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
-				<Heal_Percent> 0.25 </Heal_Percent>
+				<Heal_Percent> 0.05 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
@@ -1455,7 +1455,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -1675,7 +1675,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -1805,7 +1805,7 @@
 
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -1830,7 +1830,7 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -1912,7 +1912,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2035,7 +2035,7 @@
             </Unit_Ability>
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.25 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -2060,7 +2060,7 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.25 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -2150,7 +2150,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2351,7 +2351,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2535,7 +2535,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>6</Tactical_Health>
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2719,7 +2719,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>12</Tactical_Health>
+		<Tactical_Health>62</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -3849,9 +3849,6 @@
 		<FormationRaggedness> 1.6 </FormationRaggedness>
 		<MaxJiggleDistance> 3.5 </MaxJiggleDistance>
 
-		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
-		<Conversion_Ability_Changes_To_Enemy> Squad_Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
-
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Squad_UNSC_SPARTAN_ETILKA">
@@ -3863,9 +3860,6 @@
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
 		<FormationRaggedness> 1.6 </FormationRaggedness>
 		<MaxJiggleDistance> 3.5 </MaxJiggleDistance>
-
-		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
-		<Conversion_Ability_Changes_To_Enemy> Squad_Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
 	</GroundInfantry> 
 
@@ -3915,7 +3909,7 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
@@ -3956,7 +3950,7 @@
 		<Abilities SubObjectList="Yes">
 		
 		<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>50.0</Heal_Range>
 				<Heal_Percent> 0.25 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>

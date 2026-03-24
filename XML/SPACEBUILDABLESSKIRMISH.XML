@@ -713,7 +713,7 @@
 			UNSC_TURRET_PLATFORM_01, UNSC_TURRET_PLATFORM_02, UNSC_TURRET_PLATFORM_03, UNSC_TURRET_PLATFORM_04
 		</Hardpoints>
 		<Damage_Type>Damage_UNSC_Frigate</Damage_Type>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>
 	</SpaceBuildable>
@@ -1156,7 +1156,7 @@
 		</HardPoints>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Affiliation>Rebel</Affiliation>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 	</SpaceBuildable>
 
 
@@ -1351,7 +1351,7 @@
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Destroy_When_Child_Dies>True</Destroy_When_Child_Dies>
 		
-		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar> <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -1396,7 +1396,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1597,7 +1597,7 @@
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Destroy_When_Child_Dies>True</Destroy_When_Child_Dies>
 		
-		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar> <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -1641,7 +1641,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>no</Victory_Relevant>

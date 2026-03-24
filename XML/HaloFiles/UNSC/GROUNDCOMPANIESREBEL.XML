@@ -679,9 +679,14 @@
 	<GroundCompany Name="UNSC_SPARTAN_SQUAD">
 		<Text_ID>UNSC-SPARTAN-II</Text_ID>
 		<Encyclopedia_Text>UNSC_SPARTAN_II_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>UNSC_SPARTAN_II_SQUAD</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>1000</Damage>
@@ -704,18 +709,14 @@
 		
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>infantry</Ship_Class>
+		
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
-		<!-- <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type> -->
 		<Is_Homogeneous>No</Is_Homogeneous>
-        <!-- AI  Changed to 15 soldiers with 5 per troop -->
 		
 		<Company_Units> 
-		
 		 Squad_UNSC_SPARTAN_ETILKA, Squad_UNSC_SPARTAN_ETILKA, Squad_UNSC_SPARTAN_ETILKA, Squad_UNSC_SPARTAN_RIFLEMAN
-		
 		</Company_Units>
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -771,7 +772,6 @@
 		
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
-		<Build_Limit_Current_Per_Player>14</Build_Limit_Current_Per_Player>
 		
 	</GroundCompany>
 	
