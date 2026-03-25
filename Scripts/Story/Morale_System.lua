@@ -303,7 +303,7 @@ function Definitions()
             ["Colony_Evacuation"] = {Base_Morale = 4, Negative = true, Weight = 30, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION"},
             ["Colony_Celebration"] = {Base_Morale = 3, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION"},
 
-            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Weight = 50, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
+            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
             ["Wartime_Fears"] = {Base_Morale = 2, Negative = true, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS"},
 
             ["Settlement_Created"] = {Base_Morale = 3, Negative = false, Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED"},
@@ -484,6 +484,12 @@ function Morale_System_Update(message)
         end
 
         Random_Morale_Swing()
+
+        if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status and GlobalValue.Get("Morale_Status") ~= nil then
+            Story_Event("Morale_Level_Changed")
+
+            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT", nil, 5, {r=255,b=0,g=0}, true)
+        end
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
@@ -960,6 +966,11 @@ function Morale_Kill_Ratio_Influence(Base_Morale, is_loss)
     return Final_Morale_Gain
 end
 
+---@param text string
+---@param var any|nil
+---@param time_to_show number
+---@param color? table
+---@param teletype? boolean
 function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired by the Thrawns Revenge Team but slightly modified to fit our purpose
     
     if Global_Values.Plot == nil then
@@ -983,7 +994,7 @@ function Show_Screen_Text(text, var, time_to_show, color, teletype) -- inspired 
     end
     
     if color then
-        colorstring = color.r .. " " .. color.g .. " " .. color.b 
+        colorstring = color.r .. " " .. color.g .. " " .. color.b
     end
 
     local use_teletype = 1
