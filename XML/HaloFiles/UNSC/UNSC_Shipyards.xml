@@ -160,8 +160,8 @@
 	<SpecialStructure Name="UNSC_Military_Academy">
         <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
 
-        <Text_ID>Military-Academy</Text_ID>
-        <Encyclopedia_Text> UNSC-MILITARY-ACADEMY </Encyclopedia_Text>
+        <Text_ID>TEXT_UNIT_UNSC_BUILDING_ACADEMY</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_ACADEMY </Encyclopedia_Text>
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 

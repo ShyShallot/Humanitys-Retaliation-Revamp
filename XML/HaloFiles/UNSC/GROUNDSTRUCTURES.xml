@@ -1754,6 +1754,7 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_ADMIN</Text_ID>
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_ADMIN </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
@@ -1833,11 +1834,11 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>-0.03</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>15</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> <!-- Needs Tweaking-->
+				<Additional_Multiplier_On_Mining_Colonies>0</Additional_Multiplier_On_Mining_Colonies> <!-- Needs Tweaking-->
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
 			<Force_Healing_Ability Name="R_Mining_Facility_Self_Repair">
