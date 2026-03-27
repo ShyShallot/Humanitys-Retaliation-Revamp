@@ -3,6 +3,7 @@ require("PGStateMachine")
 require("HALOFunctions")
 require("globalPlanetTable")
 require("globalUnitTable")
+require("GlobalVarProcess")
 
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
@@ -17,6 +18,14 @@ function Definitions()
         Fighter_Filter = Set_Fighter_Filter,
         Flush = Flush,
         Update = Update,
+    }
+
+    ---@type Factions[]
+    Player_List = {
+        "REBEL",
+        "EMPIRE",
+        "SWORDS",
+        "TERRORISTS"
     }
 
     ---@type Starting_Units_Handler
@@ -35,8 +44,10 @@ function Definitions()
 
     Utilize_Random_Start = false
 
+    ---@type PlayerWrapper
     Player = nil
 
+    ---@type Factions
     Player_Name = nil
 
     ---@type StoryPlot
@@ -153,6 +164,12 @@ function Update(messsage)
 
     --Experiment_01()
 
+    local Defender, Attacker, Location = Custom_Global_Var:Get("Planet_Attacked", true)
+    DebugMessage("%s -- Defender: %s, Attacker: %s, Location: %s", tostring(Script), tostring(Defender), tostring(Attacker), tostring(Location))
+    if Defender ~= nil and Attacker ~= nil and Location ~= nil then
+        
+    end
+
     --DebugMessage("%s -- Time Since Last Attacker: %s, Time Since Left Defender: %s", tostring(Script), tostring(EvaluatePerception("Time_Since_Last_Attacker",Player)), tostring()
 
     --Test_Victory_Condition()
@@ -215,7 +232,25 @@ function Experiment_01()
                     DebugMessage("%s -- Planet %s time since conflict: %s", tostring(Script), tostring(Planet), tostring(Space_Conflict))
 
                     if abs(Space_Conflict - Time_Since_Defense) < 0.2 then
-                        
+                        for _, Faction_Name in pairs(Player_List) do
+                            if Faction_Name ~= Player_Name then
+                                local Faction = Find_Player(Faction_Name)
+
+                                if TestValid(Faction) then
+                                    local Time_Since_Attack = EvaluatePerception("Time_Since_Last_Attacker", Faction)
+
+                                    if Time_Since_Attack > 10 then
+                                        Time_Since_Attack = 0
+                                    end
+
+                                    if Time_Since_Attack > 0 then
+                                        if abs(Time_Since_Defense - Time_Since_Attack) <= 0.1 then
+                                            DebugMessage("%s -- Player %s was Attacked by: %s", tostring(Script), tostring(Player), tostring(Faction))
+                                        end
+                                    end
+                                end
+                            end
+                        end
                     end
                 end
             end

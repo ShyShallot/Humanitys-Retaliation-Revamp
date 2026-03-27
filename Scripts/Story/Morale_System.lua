@@ -61,7 +61,9 @@ function Definitions()
             ["Hero_Killed"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED_NAME", Value = 3, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_KILLED"},
             ["Great_Schism_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_GREAT_SCHISM", Hidden = true, Benefits_Enemy = true},
             ["Far_Isle_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE_NAME", Value = 25, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_FAR_ISLE", Hidden = true, Benefits_Enemy = true},
-            ["Morale_Hero_Rescued"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED_NAME", Value = 10, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED"}
+            ["Morale_Hero_Rescued"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED_NAME", Value = 10, Subtract = false, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_HERO_RESCUED"},
+            ["Morale_Negative_Construction_Event_Minor"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_NEGATIVE_CONSTRUCTION_MINOR_NAME", Value = 1, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_NEGATIVE_CONSTRUCTION_MINOR"},
+            ["Morale_Negative_Construction_Event"] = {Name = "TEXT_STORY_MORALE_DISPLAY_EVENT_NEGATIVE_CONSTRUCTION_NAME", Value = 3, Subtract = true, String = "TEXT_STORY_MORALE_DISPLAY_EVENT_NEGATIVE_CONSTRUCTION"},
         },
         
         Recent = {}
@@ -481,6 +483,8 @@ function Morale_System_Update(message)
             --DebugMessage("%s -- Morale Display Strings: %s, %s, %s, %s", tostring(Script), tostring(Current_Morale_Status.Name), tostring(Current_Morale_Status.Bonus.Battle), tostring(status.Bonus.Production), tostring(status.Description))
 
             Handle_Planet_Production(Current_Morale_Entry)
+
+            Handle_Planetary_Taxes()
         end
 
         Random_Morale_Swing()
@@ -678,6 +682,19 @@ function Handle_Planet_Production(Current_Morale_Entry)
                 end
             end
         end
+    end
+end
+
+function Handle_Planetary_Taxes()
+
+    local Structures = Find_All_Objects_Of_Type(Global_Values.Player, "TaxingBuilding")
+
+    PrintTable(Structures)
+
+    local Structures_Count = tableLength(Structures)
+
+    if type(Structures_Count) == "number" then
+        DebugMessage("%s -- Number of Taxing Structures owned by the player: %s", tostring(Script), tostring(Structures_Count))
     end
 end
 

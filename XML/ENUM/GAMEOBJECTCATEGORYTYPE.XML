@@ -43,6 +43,8 @@
 
 	<NoTarget>          0x06000000      </NoTarget>
 
+	<TaxingBuilding>    0x00000500      </TaxingBuilding>
+
 	<!--
 	<Vehicle>		0x0001		</Vehicle>
 	<Infantry>		0x0002		</Infantry>

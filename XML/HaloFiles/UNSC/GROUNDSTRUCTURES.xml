@@ -1778,11 +1778,11 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_CAMP | UNSC_BASE | UNSC_FORT | UNSC_CAPITAL </Required_Special_Structures>
+		<Required_Special_Structures/>
 		<Required_Planets />
 		<Tactical_Health>600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
@@ -1828,7 +1828,7 @@
 
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> Structure | TaxingBuilding</CategoryMask>
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>
