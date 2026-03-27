@@ -394,6 +394,7 @@ function Definitions()
         Amount = 1,
         Last_Taxed = 0,
         Last_Amount_Taxed = 0,
+        Enabled = false,
     }
 end
 
@@ -410,6 +411,8 @@ function Init_Morale_System(message)
             Global_Values.Display_Event = Global_Values.Plot.Get_Event("Morale_Display_UNSC")
 
             morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES"
+
+            Morale_Tax.Enabled = true
         else
             Story_Event("Morale_Display_COVN")
 
@@ -556,11 +559,13 @@ function Morale_System_Update(message)
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
-            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_TITLE", nil, nil, false, true)
+            if Morale_Tax.Enabled then
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_TITLE", nil, nil, false, true)
 
-            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_YEARLY", tostring(Morale_Tax.Last_Taxed), tostring(Morale_Tax.Last_Amount_Taxed))
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_YEARLY", tostring(Morale_Tax.Last_Taxed), tostring(Morale_Tax.Last_Amount_Taxed))
 
-            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
+            end
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_PLANETRY_MORALE", nil, nil, false, true)
 
@@ -735,6 +740,10 @@ function Handle_Planet_Production(Current_Morale_Entry)
 end
 
 function Handle_Planetary_Taxes()
+
+    if not Morale_Tax.Enabled then
+        return
+    end
 
     local Structures = Find_All_Objects_Of_Type(Global_Values.Player, "TaxingBuilding")
 
