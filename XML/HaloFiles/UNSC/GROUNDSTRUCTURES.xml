@@ -1770,7 +1770,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
-		<Build_Time_Seconds>30</Build_Time_Seconds> <!-- Needs Tweaking-->
+		<Build_Time_Seconds>10</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		
@@ -1829,12 +1829,12 @@
 
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 
-		<CategoryMask> Structure | TaxingBuilding</CategoryMask>
+		<CategoryMask> Structure | TaxingBuilding </CategoryMask>
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>15</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
