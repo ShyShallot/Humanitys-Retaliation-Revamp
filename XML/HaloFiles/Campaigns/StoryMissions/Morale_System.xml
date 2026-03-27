@@ -58,6 +58,32 @@
         <Event_Param2>Trigger_Far_Isle_Campaign</Event_Param2>
     </Event>
 
+    <Event Name="Morale_Level_Changed">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed</Event_Param2>
+        <Reward_Type>FLASH_GUI</Reward_Type>
+        <Reward_Param1>b_story_arc_g</Reward_Param1>
+        <Reward_Param2>Story_Arc_Hint</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Morale_Level_Changed_Speech">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Morale_Level_Changed</Prereq>
+        <Perpetual>true</Perpetual>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
+    </Event>
+    
+    <Event Name="Morale_Level_Changed_Remove_Cursor">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>5</Event_Param1>
+        <Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+        <Reward_Param1>Story_Arc_Hint</Reward_Param1>
+        <Prereq>Morale_Level_Changed_Speech</Prereq>
+        <Perpetual>true</Perpetual>
+    </Event>
+
     <Event Name="Morale_Display_UNSC">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Morale_Display_UNSC</Event_Param2>

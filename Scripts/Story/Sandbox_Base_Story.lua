@@ -151,6 +151,10 @@ function Update(messsage)
 
     Execute_Custom_Events()
 
+    --Experiment_01()
+
+    --DebugMessage("%s -- Time Since Last Attacker: %s, Time Since Left Defender: %s", tostring(Script), tostring(EvaluatePerception("Time_Since_Last_Attacker",Player)), tostring()
+
     --Test_Victory_Condition()
 
     --Should_GC_End()
@@ -182,6 +186,36 @@ function Execute_Custom_Events()
                         end
 
                         Executed_Timed_Events[Faction][Event_Year] = true
+                    end
+                end
+            end
+        end
+    end
+end
+
+function Experiment_01()
+    local Time_Since_Defense = EvaluatePerception("Time_Since_Last_Defender",Player)
+
+    if Time_Since_Defense > 10 then
+        Time_Since_Defense = 0
+    end
+
+    DebugMessage("%s -- Time Since Last Defense: %s", tostring(Script), tostring(Time_Since_Defense))
+
+    if Time_Since_Defense > 0 then
+        local All_Planet_Names = Planet_Table:Return_All_Keys()
+
+        for _, Name in pairs(All_Planet_Names) do
+            local Planet = FindPlanet(Name)
+
+            if TestValid(Planet) then
+                if Planet.Get_Owner() == Player then
+                    local Space_Conflict = EvaluatePerception("Time_Since_Planet_Conflict", Player, Planet)
+
+                    DebugMessage("%s -- Planet %s time since conflict: %s", tostring(Script), tostring(Planet), tostring(Space_Conflict))
+
+                    if abs(Space_Conflict - Time_Since_Defense) < 0.2 then
+                        
                     end
                 end
             end

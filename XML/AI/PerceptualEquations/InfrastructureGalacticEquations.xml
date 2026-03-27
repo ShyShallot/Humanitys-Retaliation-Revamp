@@ -893,4 +893,15 @@
 		((Variable_Target.StructureCount {Parameter_Type = "COVN_CAPITAL", Parameter_Only_Consider_Complete = 1.0}) > 0 )
 	</Does_Planet_Have_Capital>
 
+	<Time_Since_Last_Attacker>
+		Variable_Self.TimeSinceSpaceAttacker
+	</Time_Since_Last_Attacker>
+
+	<Time_Since_Last_Defender>
+		Variable_Self.TimeSinceSpaceDefender
+	</Time_Since_Last_Defender>
+	
+	<Time_Since_Planet_Conflict>
+		Variable_Target.TimeSinceSpaceConflict
+	</Time_Since_Planet_Conflict>
 </Equations>
