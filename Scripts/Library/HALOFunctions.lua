@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global
 -- Main Overall Custom Functions Script for LOZ
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 require("PGBase")
@@ -506,4 +507,37 @@ function Clone_Table(t)
     end
 
     return copy
+end
+
+function valid_pairs(tbl)
+    local function iter(tbl, key)
+        local next_key, value = next(tbl, key)
+
+        while next_key ~= nil and not TestValid(value) do
+            next_key, value = next(tbl, next_key)
+        end
+
+        return next_key, value
+    end
+    
+    return iter, tbl, nil
+end
+
+function Get_Object_By_ID(id)
+    local Objects = Find_All_Objects_Of_Type("Fighter | Bomber | Transport | Corvette | Frigate | Capital | Super | Structure | Infantry | Vehicle | SpaceStructure | LandHero | SpaceHero")
+
+    local object = nil
+
+    for _, obj in pairs(Objects) do
+        if TestValid(obj) then
+            local obj_id = obj.Get_Object_ID()
+
+            if obj_id == id then
+                object = obj
+                break
+            end
+        end
+    end
+
+    return object
 end

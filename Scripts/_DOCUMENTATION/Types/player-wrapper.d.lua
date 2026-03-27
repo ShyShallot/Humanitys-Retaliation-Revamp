@@ -40,7 +40,7 @@ function PlayerWrapper.Get_Name()
 end
 
 ---Returns the xml faction name
----@return string
+---@return Factions
 function PlayerWrapper.Get_Faction_Name()
 end
 

@@ -56,7 +56,7 @@ end
 
 ---Returns the PlayerWrapper matching the given faction name.
 ---Find_Player("local") will always return the local human player.
----@param faction_name string The name of the faction
+---@param faction_name Factions The name of the faction
 ---@overload fun(faction_name: "local"): PlayerWrapper
 ---@return PlayerWrapper|nil
 function Find_Player(faction_name)

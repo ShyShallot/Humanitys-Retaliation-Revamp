@@ -1,0 +1,7 @@
+---@meta
+---@alias Factions
+---| "REBEL"
+---| "EMPIRE"
+---| "SWORDS"
+---| "TERRORISTS"
+---| "NEUTRAL"

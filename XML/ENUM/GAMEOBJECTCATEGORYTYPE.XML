@@ -39,11 +39,11 @@
 	<SpaceHero>			0x02000000		</SpaceHero>
 	<NonCombatHero>		0x04000000		</NonCombatHero>
 
-	<SpaceStructure> 	0x05000000		</SpaceStructure>
+	<SpaceStructure> 	0x08000000 		</SpaceStructure>
 
-	<NoTarget>          0x06000000      </NoTarget>
+	<NoTarget>          0x10000000      </NoTarget>
 
-	<TaxingBuilding>    0x00000500      </TaxingBuilding>
+	<TaxingBuilding>    0x20000000      </TaxingBuilding>
 
 	<!--
 	<Vehicle>		0x0001		</Vehicle>

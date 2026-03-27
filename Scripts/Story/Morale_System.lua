@@ -18,6 +18,8 @@ function Definitions()
         Morale_Construction_Event_Minor = Default_Event_Function,
         Morale_Construction_Event = Default_Event_Function,
         Morale_Construction_Event_Major = Default_Event_Function,
+        Morale_Negative_Construction_Event = Default_Event_Function,
+        Morale_Negative_Construction_Event_Minor = Default_Event_Function,
         Morale_Hero_Rescued = Default_Event_Function,
         Hero_Lost = Default_Event_Function,
         Hero_Killed = Default_Event_Function,
@@ -223,6 +225,42 @@ function Definitions()
         Last_Morale_Loss = 0,
     }
 
+    function Morale_Value_Status:Modify_Morale(Amount, Negative)
+
+        if type(Amount) ~= "number" then
+            return
+        end
+
+        Amount = abs(Amount)
+
+        if Negative ~= true then
+            Negative = false
+        end
+
+        if Negative then
+            self:Morale_Loss()
+            Amount = Amount * -1
+        else
+            self:Morale_Gain()
+        end
+
+        DebugMessage("%s -- Modifying Morale by: %s, Is Bad: %s, Current Morale: %s", tostring(Script), tostring(Amount), tostring(Negative), tostring(self.Current))
+
+        self.Last = self.Current
+
+        local New_Morale = self.Current + Amount
+
+        if New_Morale < 0 then
+            New_Morale = 0
+        end
+
+        if New_Morale > 100 then
+            New_Morale = 100
+        end
+
+        self.Current = New_Morale
+    end
+
     function Morale_Value_Status:Morale_Gain()
         self.Last_Morale_Gain = GetCurrentTime.Galactic_Time()
     end
@@ -352,6 +390,11 @@ function Definitions()
         return false
     end
 
+    Morale_Tax = {
+        Amount = 1,
+        Last_Taxed = 0,
+        Last_Amount_Taxed = 0,
+    }
 end
 
 function Init_Morale_System(message)
@@ -510,6 +553,12 @@ function Morale_System_Update(message)
 
             Add_Display_Text(morale_string.Battle_Bonus)
             Add_Display_Text(morale_string.Production_Bonus, false, false, false, false)
+
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
+
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_TITLE", nil, nil, false, true)
+
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_YEARLY", tostring(Morale_Tax.Last_Taxed), tostring(Morale_Tax.Last_Amount_Taxed))
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
@@ -689,13 +738,31 @@ function Handle_Planetary_Taxes()
 
     local Structures = Find_All_Objects_Of_Type(Global_Values.Player, "TaxingBuilding")
 
-    PrintTable(Structures)
+    DebugMessage("%s -- Number of Taxing Structures owned by the player: %s", tostring(Script), tostring(Structures_Count))
 
     local Structures_Count = tableLength(Structures)
 
-    if type(Structures_Count) == "number" then
-        DebugMessage("%s -- Number of Taxing Structures owned by the player: %s", tostring(Script), tostring(Structures_Count))
+    if type(Structures_Count) ~= "number" then
+        return
     end
+
+    if Structures_Count < 1 then
+        return
+    end
+
+    if Morale_Tax.Last_Taxed >= Get_Current_Week() then
+        return
+    end
+
+    local Morale_Loss = Morale_Tax.Amount * Structures_Count
+
+    Morale_Value_Status:Modify_Morale(Morale_Loss, true)
+
+    Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_EVENT_TAX_NOTIF", nil, 3, {r=255,b=0,g=0},true)
+
+    Morale_Tax.Last_Taxed = Get_Current_Week()
+
+    Morale_Tax.Last_Amount_Taxed = Morale_Loss
 end
 
 ---@return Morale_Level|nil
@@ -857,11 +924,8 @@ function Modify_Morale(event_table)
         end
     end
 
-    if bad then
-        Morale_Value = Morale_Value * -1
-    end
 
-    local Next_Morale_Level = Morale_Value_Status.Current + Morale_Value
+    Morale_Value_Status:Modify_Morale(Morale_Value, bad)
 
     local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
@@ -869,27 +933,9 @@ function Modify_Morale(event_table)
         Show_Screen_Text(event_table.String, Fake_Morale_Type, 5, nil, true)
     end
 
-    DebugMessage("%s -- Next Morale Value: %s", tostring(Script), tostring(Next_Morale_Level))
-
-    if Next_Morale_Level < 0 then
-        Next_Morale_Level = 0
-    elseif Next_Morale_Level > 100 then
-        Next_Morale_Level = 100
-    end
-
-    DebugMessage("%s -- Final Morale Value: %s", tostring(Script), tostring(Next_Morale_Level))
-
-    if Next_Morale_Level == nil or type(Next_Morale_Level) ~= "number" then
-        return
-    end
-
     event_table.Happened = Get_Current_Week()
 
     Morale_Event_Table:Add_Recent(event_table)
-
-    Morale_Value_Status.Last = Morale_Value_Status.Current
-
-    Morale_Value_Status.Current = Next_Morale_Level
 
     Morale_Event_Table:Trigger(Get_Current_State())
 

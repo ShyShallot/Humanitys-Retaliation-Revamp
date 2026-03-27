@@ -42,6 +42,7 @@
 require("pgcommands")
 require("HALOFunctions")
 require("EventNotif")
+require("GlobalVarProcess")
 
 -- Don't pool...
 ScriptPoolCount = 0
@@ -380,6 +381,9 @@ end
 -- @param killer        the player that killed this object
 -- @since 3/15/2005 4:10:19 PM -- BMH
 -- 
+---@param stat_table table
+---@param object GameObject
+---@param killer PlayerWrapper
 function Update_Kill_Stats_Table(stat_table, object, killer)
 
 	if TestValid(object) == false or TestValid(killer) == false then
@@ -396,7 +400,9 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 	killer_id = killer.Get_ID()
 	owner_id = object.Get_Owner().Get_ID()
 
-	GameScoringMessage("GameScoring -- Object: %s, was killed by %s.", object_type.Get_Name(), killer.Get_Name())
+	GameScoringMessage("GameScoring -- Object: %s, was killed by %s. on Planet: %s", object_type.Get_Name(), killer.Get_Name(), tostring(object.Get_Planet_Location()))
+
+	Custom_Global_Var:Set("Planet_Attacked", {object.Get_Owner().Get_Faction_Name(), killer.Get_Faction_Name(), object.Get_Planet_Location().Get_Type().Get_Name()})
 	
 	-- Update frags
 	frag_entry = stat_table[frag_index]
