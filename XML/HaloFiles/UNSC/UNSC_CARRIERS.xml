@@ -72,7 +72,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2450</Build_Cost_Credits>
+		<Build_Cost_Credits>38450</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
@@ -357,7 +357,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>850</Build_Cost_Credits>
+		<Build_Cost_Credits>8543</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -475,7 +475,7 @@
 		</Unit_Abilities_Data>
 		
 
-		<Abilities SubObjectList="Yes">
+	<!--	<Abilities SubObjectList="Yes">
 		
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
@@ -492,7 +492,7 @@
 				<Heal_Interval_In_Secs>10.5</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
+				
 				<Applicable_Unit_Categories>Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
@@ -511,7 +511,7 @@
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 			
-		</Abilities>	
+		</Abilities>	-->
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>

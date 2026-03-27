@@ -159,7 +159,7 @@
 	<MaximumSpecialStructures> 10 </MaximumSpecialStructures>
 	<MaximumSpecialStructuresLand> 10 </MaximumSpecialStructuresLand>
 	<MaximumSpecialStructuresSpace> 10 </MaximumSpecialStructuresSpace>
-	<MaximumFleetMovementDistance> 100.0 </MaximumFleetMovementDistance>
+	<MaximumFleetMovementDistance> 75.0 </MaximumFleetMovementDistance> <!-- This is the Slipspace for ships to move outside of trade routes -->
 	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
 	<Tooltip_Delay>1</Tooltip_Delay>
 	<Encyclopedia_Delay>350</Encyclopedia_Delay>

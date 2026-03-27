@@ -202,7 +202,7 @@ local unit_table = {
 	UNSC_FLEET_COMMANDER = {
         Category = "Capital"
     },
-	UNSC_FLEET_CAPTAIN = {
+	UNSC_FLEET_COMMANDER = {
         Category = "Frigate"
     },
 	SINGLE_PARIS = {

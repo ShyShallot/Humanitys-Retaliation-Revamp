@@ -961,7 +961,7 @@
 		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
 		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, </LandBehavior>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
@@ -1141,6 +1141,7 @@
 			</Force_Healing_Ability>
 			
 		</Unit_Abilities_Data>
+
 		
 		<Abilities SubObjectList="Yes">
 		
@@ -1164,6 +1165,29 @@
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
 				
 			</Force_Healing_Ability>
+			
+			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+        	<System_Spy_Ability Name="Mako_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
 			
 			</Abilities>
 		
@@ -1192,7 +1216,7 @@
 		
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
 		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, </LandBehavior>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
@@ -1395,6 +1419,29 @@
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
 				
 			</Force_Healing_Ability>
+			
+			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+        	<System_Spy_Ability Name="Mako_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
 			
 			</Abilities>
 		

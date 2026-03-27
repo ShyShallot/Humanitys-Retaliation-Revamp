@@ -124,10 +124,10 @@
 		 <SFXEvent Name="Unit_UNSC_BULLET_CWIS">
 					<Use_Preset>Preset_UNSC_CWIS</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET.wav</Samples>
-					<Min_Volume>50</Min_Volume>
-					<Max_Volume>70</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Volume>10</Min_Volume>
+					<Max_Volume>30</Max_Volume>
+					<Min_Pitch>70</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CAP">

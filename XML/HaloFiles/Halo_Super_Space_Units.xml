@@ -62,7 +62,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>202500</Build_Cost_Credits>
+		<Build_Cost_Credits>2722830</Build_Cost_Credits>
 		<AI_Combat_Power>12000</AI_Combat_Power>
 		<Build_Time_Seconds>600</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -277,7 +277,7 @@
 		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
 		<Autoresolve_Health>32500</Autoresolve_Health>
 		<Tactical_Health>282000</Tactical_Health> <!-- NEED TO BUFF for INFNITY AND ETERNITY -->
-		<Shield_Points>125650</Shield_Points>
+		<Shield_Points>65650</Shield_Points>
 		<Shield_Refresh_Rate>3260</Shield_Refresh_Rate>
 		<Energy_Capacity>75000</Energy_Capacity>
 		<Energy_Refresh_Rate>2500</Energy_Refresh_Rate>
@@ -285,7 +285,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>102500</Build_Cost_Credits>
+		<Build_Cost_Credits>1323858</Build_Cost_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>600</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -488,14 +488,14 @@
 		<Required_Special_Structures />
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
-		<Tactical_Health>100005</Tactical_Health>
+		<Tactical_Health>155005</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>18500</Build_Cost_Credits>
+		<Build_Cost_Credits>40380</Build_Cost_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>165</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -514,6 +514,7 @@
 		<Death_Clone />
 
 		<HardPoints> 
+		
 			USNC_SOF_ENGINE_O1, USNC_SOF_ENGINE_O2, USNC_SOF_ENGINE_O3, 
 
 			UNSC_SOF_HG_01, UNSC_SOF_HG_02, UNSC_SOF_HG_03, UNSC_SOF_HG_04, UNSC_SOF_HG_05, UNSC_SOF_HG_06, 
@@ -530,6 +531,7 @@
 			UNSC_SOF_ARCHER_06, UNSC_SOF_ARCHER_07, UNSC_SOF_ARCHER_08, UNSC_SOF_ARCHER_09, UNSC_SOF_ARCHER_10,
 			UNSC_SOF_ARCHER_11, UNSC_SOF_ARCHER_12, UNSC_SOF_ARCHER_13, UNSC_SOF_ARCHER_14, UNSC_SOF_ARCHER_15,
 			UNSC_SOF_ARCHER_16, HP_SOF_REACTOR
+			
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 6</Starting_Spawned_Units_Tech_0>
@@ -623,7 +625,7 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
+		<!--	<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>1100.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
@@ -631,7 +633,6 @@
 				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories> Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
@@ -649,7 +650,7 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
+			</Force_Healing_Ability> -->
 
 			<Concentrate_Fire_Attack_Ability Name="FLEET_COMMAND_CONCENTRATE">
 				<Activation_Style> User_Input </Activation_Style>
@@ -661,6 +662,7 @@
 				<Target_Speed_Decrease_Percent>0.15</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Concentrate_Fire_Attack_Ability>
+			
 		</Abilities>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CPT_CUTTER TEXT_TOOLTIP_UNSC_PHOENIX HALO_SHIP_REPAIR_BIG HALO_SHIP_HEAL_RATE_SOF TEXT_TOOLTIP_UNSC_HERO_CPT_BUFF </Encyclopedia_Text>

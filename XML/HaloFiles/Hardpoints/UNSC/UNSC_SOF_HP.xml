@@ -143,7 +143,7 @@
 		<Fire_Bone_B>HP_MAC_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_SOF_MAC_SHELL</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -159,7 +159,8 @@
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		
 	</HardPoint>
 
 	<HardPoint Name="UNSC_SOF_MAC_02">
@@ -172,7 +173,7 @@
 		<Fire_Bone_B>HP_MAC_02</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_SOF_MAC_SHELL</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -187,7 +188,7 @@
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 
 	<HardPoint Name="UNSC_SOF_MAC_03">
@@ -200,7 +201,7 @@
 		<Fire_Bone_B>HP_MAC_03</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_SOF_MAC_SHELL</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -212,6 +213,9 @@
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
                 
 	</HardPoint>
 
@@ -225,7 +229,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_01.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -238,15 +242,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
                
                
                
@@ -265,7 +269,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_02.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -278,15 +282,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
                
                
                
@@ -305,7 +309,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_03.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -318,15 +322,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
                
                
                
@@ -345,7 +349,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_04.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -358,15 +362,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
                
                
                
@@ -385,7 +389,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_05.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -398,15 +402,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
                
                
                
@@ -425,7 +429,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_06.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -438,15 +442,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -462,7 +466,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_07.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -475,15 +479,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -499,7 +503,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_08.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -512,15 +516,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -536,7 +540,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_09.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -549,15 +553,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -573,7 +577,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_10.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -586,15 +590,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -610,7 +614,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_11.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -623,15 +627,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -647,7 +651,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_12.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -660,15 +664,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -684,7 +688,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_13.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -697,15 +701,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -721,7 +725,7 @@
 		<Model_To_Attach>UNSC_SOF_TURRET_14.ALO</Model_To_Attach>
 		<Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
 		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
@@ -734,15 +738,15 @@
 		<Fire_Cone_Width>150</Fire_Cone_Width>
 		<Fire_Cone_Height>40</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
 		<Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		<Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 				
@@ -1607,7 +1611,7 @@
 				
 	</Hardpoint>
 
-	<!-- PHOENIX AND SPIRIT OF FIRE SHARE HARDPOINTS EXCEPT THESE BELOW -->
+	<!-- PHOENIX CLASS AND SPIRIT OF FIRE SHARE HARDPOINTS EXCEPT THESE BELOW -->
  
 	<Hardpoint Name="UNSC_PHOENIX_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>

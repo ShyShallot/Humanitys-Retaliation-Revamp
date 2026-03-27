@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <HeroUnits>
 
-     <SpaceUnit Name="UNSC_Fleet_Captain"> <!-- THIS IS THE COMMANDER DONT LET IT LIE TO YOU -->
+     <SpaceUnit Name="UNSC_FLEET_COMMANDER"> <!-- THIS IS THE COMMANDER DONT LET IT LIE TO YOU -->
 
 		 <Variant_Of_Existing_Type> UNSC_CHARON </Variant_Of_Existing_Type>
 		 
@@ -201,7 +201,7 @@
         <Population_Value>5</Population_Value>
     </SpaceUnit>
 
-    <SpaceUnit Name="UNSC_FLEET_COMMANDER"> <!-- THIS IS THE CAPTAIN SPEAKING THIS IS THE CAPTAIN YES THIS ONE THE CAPTAIN (HALCYON) -->
+    <SpaceUnit Name="UNSC_FLEET_CAPTAIN"> <!-- Honeycomb Halcyon -->
 	
 		<Variant_Of_Existing_Type> UNSC_HALCYON </Variant_Of_Existing_Type>
 
@@ -260,7 +260,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>8500</Build_Cost_Credits>
+		<Build_Cost_Credits>26050</Build_Cost_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>89</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -456,7 +456,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>4500</Build_Cost_Credits>
+		<Build_Cost_Credits>38000</Build_Cost_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>185</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -671,7 +671,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>2</Number_per_Squadron>
-		<Build_Cost_Credits>1150</Build_Cost_Credits>
+		<Build_Cost_Credits>2275</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
@@ -787,7 +787,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
 
 		<Tactical_Health>220000</Tactical_Health>
-		<Build_Cost_Credits>8500</Build_Cost_Credits>
+		<Build_Cost_Credits>62300</Build_Cost_Credits>
 		<Build_Time_Seconds>110</Build_Time_Seconds>
 		<Icon_Name>I_BUTTON_HOOD.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -870,9 +870,9 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>335</Shield_Points>
-		<Tactical_Health>10130</Tactical_Health>
+		<Tactical_Health>5130</Tactical_Health>
 		<Shield_Refresh_Rate>220</Shield_Refresh_Rate>
-		<Energy_Capacity>3500</Energy_Capacity>
+		<Energy_Capacity>35000</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
@@ -985,7 +985,7 @@
 		<Damage>15</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>1010</Build_Cost_Credits>
+		<Build_Cost_Credits>1050</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>

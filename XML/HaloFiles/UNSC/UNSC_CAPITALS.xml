@@ -65,7 +65,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>7500</Build_Cost_Credits>
+		<Build_Cost_Credits>30407</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>155</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -271,7 +271,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>4500</Build_Cost_Credits>
+		<Build_Cost_Credits>18050</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>145</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -476,7 +476,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>3650</Build_Cost_Credits>
+		<Build_Cost_Credits>16550</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>89</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -688,7 +688,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Cost_Credits>36686</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>195</Build_Time_Seconds>
@@ -891,9 +891,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>4750</Build_Cost_Credits>
+		<Build_Cost_Credits>20550</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
-		<Build_Time_Seconds>70</Build_Time_Seconds>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -915,7 +915,7 @@
 			USNC_SOF_ENGINE_O1, USNC_SOF_ENGINE_O2, USNC_SOF_ENGINE_O3, 
 
 			UNSC_SOF_HG_01, UNSC_SOF_HG_02, UNSC_SOF_HG_03, UNSC_SOF_HG_04, UNSC_SOF_HG_05, UNSC_SOF_HG_06, 
-			UNSC_SOF_MAC_01,
+			UNSC_SOF_MAC_02,
 			
 			UNSC_PHOENIX_01, UNSC_PHOENIX_02, UNSC_PHOENIX_03, UNSC_PHOENIX_04, UNSC_PHOENIX_05, 
 			UNSC_PHOENIX_06, UNSC_PHOENIX_07, UNSC_PHOENIX_08, UNSC_PHOENIX_09, UNSC_PHOENIX_10,
@@ -1021,7 +1021,7 @@
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
             </Income_Stream_Ability>
 			
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
+		<!--	<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>150.0</Heal_Range>
 				<Heal_Percent> 0.15 </Heal_Percent>
@@ -1029,8 +1029,8 @@
 				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
+				
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				
 				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
@@ -1040,8 +1040,7 @@
 				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
 				
-			</Force_Healing_Ability>
-			
+			</Force_Healing_Ability>  -->
 			
       <Reduce_Production_Price_Ability Name="Phoenix_Capital_Boost">
         <Unit_Strength_Category/>
@@ -1157,7 +1156,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>9750</Build_Cost_Credits>
+		<Build_Cost_Credits>52605</Build_Cost_Credits>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Build_Time_Seconds>180</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>

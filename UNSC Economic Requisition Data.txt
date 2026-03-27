@@ -1,0 +1,357 @@
+ UNSC Economic Requisition Data
+This sheet was designed by GrandMasterApple & Murphy
+
+To indicate and inform the economic balance of the unsc economy during the insurrectionist war and covenant war. 
+Within reasonable margins of what the Empire at War game engine can handle
+
+We are designing this to provide a canon realistic feel to the universe and to pre-calculate unit upkeep costs and maintenance so the playerbase does not have to worry about such things.
+
+Data points Needed to understand this Informational Document
+
+UNSC PARIS CLASS is now arbitrarily stated to cost 20 Billion Dollars
+19,700,000,000 in Materials and Construction
+300,000,000 in Troop and Crew
+
+These numbers are generated on 4 point basis
+
+1. The cost per metric ton of a UNSC ship made specifically by the UNSC will thus further be 0.0015 in game credits or 15,000$ 
+
+2. The average cost of an American soldier in 2010 was 400,000$
+We have rounded this number up to 500,000$ for all unsc personnel meaning that every 20 men = 10 Million
+
+3. If a UNSC ship has Shielding - Double its Base Cost 
+
+4. If a ship was initially paid for by the UEG or Otherwise and was bought and refit by the UNSC after its initial construction, Reduce its cost by 70% and Double its Build Time
+
+Every 1 EAW in game credit is = to 10 Million $
+Every 100 EAW in game credits = 1 Billion $
+
+Thus with these costs, the Paris becomes our reference point at 2000 in game Credits 
+
+The UNSC faction will start with an income of 40,000 Credits a year or 400 Billion$
+
+The UNSC Faction will be capped to 100,000 Credits or 1 Trillion $ a year until year 35  
+
+Year 35 will Enable a Multiplier to the UNSC budget of 4x to indicate the start of the Human Covenant war where the UNSC Military budget exploded up to 10x by the end of the war.
+
+This enables the UNSC player to Make up to 400,000 Credits total or 4 Trillion $ 
+
+Data Sheet - COST per Ship
+
+Corvettes
+
+Mako Class Corvette
+43 Credits
+
+Gladius Class Corvette
+55 Credits
+
+
+Buckler Class Corvette
+61 Credits
+
+
+Lancer Class Corvette 
+76 Credits
+
+Sholte Class Corvette
+76 Credits
+
+Frigates
+
+Charon Class Light Frigate
+1014 Credits
+
+
+Anlace Class Light Frigate 
+1350 Credits
+
+Mulsanne Class Light Frigate
+1350 Credits
+
+Stalwart Class Light Frigate
+1421 Credits
+
+Paris Class Heavy Frigate
+2000 Credits
+
+Strident Class Heavy Frigate
+3320 Credits
+
+Destroyers
+
+Halberd Class Light Destroyer
+2715 Credits
+
+Diligence Class Destroyer 
+3308 Credits
+
+Able Class Heavy Destroyer
+3470 Credits
+
+Cruisers
+
+Halcyon Class Cruiser
+16,550 Credits
+
+Marathon Class Heavy Cruiser
+18,050 Credits
+
+Valiant Class Heavy Cruiser
+25,500 Credits
+
+Autumn Class Heavy Cruiser 
+30,407 Credits
+
+Vindication
+36,686 Credits
+
+Carriers
+
+Poseidon Class Light Carrier
+8543 Credits
+
+Phoenix Class Carrier
+20,550 Credits
+
+Musashi Class Carrier
+38,450 Credits
+
+Epoch Class Heavy Carrier
+52,605 Credits
+
+Orion Class Assault Carrier
+60,103 Credits
+
+Punic Class Super Carrier
+1,005,358 Credits
+
+Eternity Class Super Carrier (Half Shields)
+1,323,858 Credits
+
+Infinity Class Super Carrier
+2,722,830 Credits
+
+
+Cargo and Transportation
+
+
+Vancouver Class Transport
+9.5 Credits
+
+UNSC Schooner 
+81 Credits
+
+UNSC Cargo Freighter
+4,523 Credits
+
+Springhill Class Mining Ship
+7586 Credits
+
+UNSC Cargo Tender
+9,035 Credits
+
+Ammunition Ship 
+12,045 Credits
+
+UNSC Logistics Ship
+13,550 Credits
+
+UNSC Colony Freighter
+18,060 Credits
+
+
+
+Planetary Economic Data Calculation
+
+We will start the player with 40,000 Credits a year as their primary budget gained from their most important planets IE: Earth, Mars, Reach, Harmony, Arcadia, Tantalus
+
+Building economic facilities will allow the player to reach 100,000 Credits a year 60,000 more than baseline.
+
+The player is capable of controlling 22 Planets and 1 Asteroid field by year 35.
+
+This means each planet can produce up to 2608 Additional Credits through buildable economic sources.
+
+We have 6 Economic Facility options  Available to the player at this time
+2x Titanium Mine per planet (44)
+1x Deep core mine (10 Available Planets)
+1x Trade Station per planet (23)
+Ultra Rich Resorts (2 - Tantalus , Arcadia)
+(Infinite) Phoenix’s 25 Credits Per + 0.01% Planetary Income
+
+Titanium Mine income: T
+Deep Core Mine income: D
+Trade Station income: S
+Ultra Rich Resort income: R
+Phoenix income (per): P
+44T+10D+23S+2R+8P=60,000
+
+Titanium (Extremely Common) → baseline
+Phoenix (Uncommon) → better than Titanium
+Trade (Very Common) → better than Phoenix
+Deep Core (Rare) → high
+Resort (Extremely Rare) → very high
+
+T=350
+S=700
+D=1,500
+R=5,000
+
+totals:
+Titanium:
+44×350=15,400
+Trade:
+23×700=16,100
+Deep Core:
+10×1,500=15,000
+Resorts:
+2×5,000=10,000
+Sum of fixed sources:
+15,400+16,100+15,000+10,000=56,500
+We need:
+56,500+8P=60,000⇒8P=3,500⇒P=437.5
+So:
+Phoenix per: +/- 30 credits +0.01% of planetary income
+Titanium Mine: 350 credits
+Deep Core Mine: 1,500 credits
+Trade Station: 700 credits
+Ultra Rich Resort: 5,000 credits
+
+
+
+
+Calculation of Baseline Economy per Capita
+Total # of humans Alive in our Combat Evolved Campaign
+
+15,764,000,000
+15.764 Billion Humans
+
+Divide 40,000 by 15,764 = 2.5 Credits per 1 Million People
+
+1 Pop cap is = 1 Million People = 2.5 Credits
+
+Apply this Value to all planets 
+
+Earth 25,792 Credits
+
+Mars 8,222 Credits
+
+Reach 1,757 Credits
+
+Miridem 1,420 Credits
+
+Meridian 955 Credits
+
+Alluvion 840 Credits
+
+Eridanus II 135 Credits
+
+Harmony 85 Credits
+
+New Jerusalem 60 Credits
+
+Madrigal 45 Credits
+
+Gao 15 Credits
+
+Falaknuma 15 Credits
+
+Charybdis 10 Credits
+
+Chi Ceti IV 7 Credits
+
+Arcadia 7 Credits
+
+New Carthage 5 Credits
+
+Terra Nova 5 Credits
+
+Far Isle 2 Credits
+
+Aleria 2 Credits
+
+Threshold 2 Credits
+
+Tantalus 2 Credits
+
+Eridanus Asteroids 2 Credits (UNSC, COVN, SWORDS) Otherwise 20,000 +/- (INNIES)
+
+
+Starting Fleet Requirements
+
+The starting fleet of the UNSC cannot cost more than 1.7 trillion $ in Upkeep
+This is because the player makes 40,000 credits per year which is 20% of the entire UNSC budget in 2490
+
+We have allowed the player to grow that number to 1 Trillion a year via economic sources (with manufacturing sacrifices) which is 1 trillion$
+
+If we scale economic sources to pay 80% of their income to upkeep costs for the UNSC player this means that at 100,000 credits the player is paying an automatic Allocation of funds numbering 400,000 Credits putting Upkeep allotted budget to
+4 Trillion$ with a maximum designated budget for the UNSC player of 5 Trillion prior to the Human Covenant War
+
+At the start of the Human Covenant War we automatically do a 4x wartime multiplier as a conceptualization similar to the USA entering WW2
+
+Making the Maximum amount in income allocated to the UNSC during the human covenant war with only human based planets under their control = to 20 Trillion$
+
+Meaning the UNSC player scales from spending 1.66% (factoring in upkeep) of Humanity’s budget in 2490 to a possible maximum of 20% of Humanity’s budget at the start of 2526
+
+The Maximum possible income for the UNSC in Galactic Conquest will be calculated after we have finalized the Covenant Galactic Economy Sheet.
+
+Ground Asset Cost Estimations
+
+Ground assets costs will include the cost of their transport, in this case that transport is the Charon Class Light Frigate
+
+Minimum Ground Asset Cost = 1014
+
+
+Otherwise the average cost of a ground asset is almost negligible and in the 0.1-0.9 credit range.
+
+We will do a basic estimate for ground unit costs using weight and infantry cost but otherwise these numbers pale in comparison to ship prices.
+
+These are the initial costs on a very basic basis and will be tweaked at a later time
+
+Mechanized Infantry Platoon 
+1018 Credits
+
+Mechanized AT Platoon
+1015 Credits
+
+Armored Warthog Recon Platoon
+1022 Credits
+
+Mantis Platoon
+1022 Credits
+
+Kodiak Artillery  Platoon
+1074 Credits
+
+Scorpion Platoon
+1140 Credits
+
+Falcon Platoon
+1197 Credits
+
+Wombat UAV Element
+1239 Credits
+
+Mammoth Platoon
+1586 Credits
+
+B-65 Bomber Element
+2201 Credits
+
+Combat Pelican Platoon
+2809 Credits
+
+C712 Longsword Element
+3355 Credits
+
+C709 Longsword Element
+5931 Credits
+
+
+
+
+
+
+ 
+
+

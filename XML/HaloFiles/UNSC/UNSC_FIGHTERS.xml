@@ -1784,8 +1784,10 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>550.0</Strafe_Distance>
+
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
+		
+		
 
 	
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
