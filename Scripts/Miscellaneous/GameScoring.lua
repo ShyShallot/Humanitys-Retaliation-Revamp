@@ -400,9 +400,18 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 	killer_id = killer.Get_ID()
 	owner_id = object.Get_Owner().Get_ID()
 
-	GameScoringMessage("GameScoring -- Object: %s, was killed by %s. on Planet: %s", object_type.Get_Name(), killer.Get_Name(), tostring(object.Get_Planet_Location()))
+	GameScoringMessage("GameScoring -- Object: %s, was killed by %s.", object_type.Get_Name(), killer.Get_Name())
 
-	Custom_Global_Var:Set("Planet_Attacked", {object.Get_Owner().Get_Faction_Name(), killer.Get_Faction_Name(), object.Get_Planet_Location().Get_Type().Get_Name()})
+	if object.Is_Galactic_Object and object.Is_Galactic_Object() then
+    local planet = object.Get_Planet_Location()
+    if TestValid(planet) then
+        Custom_Global_Var:Set("Planet_Attacked", {
+            object.Get_Owner().Get_Faction_Name(),
+            killer.Get_Faction_Name(),
+            planet.Get_Type().Get_Name()
+			})
+		end
+	end
 	
 	-- Update frags
 	frag_entry = stat_table[frag_index]

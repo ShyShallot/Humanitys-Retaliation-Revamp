@@ -212,8 +212,8 @@
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Starting_Spawned_Units_Tech_0>BUCKLER_SQUADRON, 9999</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>
+		<!-- <Starting_Spawned_Units_Tech_0>BUCKLER_SQUADRON, 9999</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds> -->
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>

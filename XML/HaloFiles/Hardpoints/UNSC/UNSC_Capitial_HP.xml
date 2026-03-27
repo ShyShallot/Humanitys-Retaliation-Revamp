@@ -630,7 +630,37 @@
 		
 	</HardPoint>
 
-	<HardPoint Name="UNSC_POA_MAC">
+	<HardPoint Name="UNSC_POA_MAC">  <!-- Auto Firing Mac, No user Input Required -->
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>4000.0</Health>
+		<Attachment_Bone>HP_POA_MAC_BONE</Attachment_Bone>
+		<Damage_Particles>HP_POA_MAC_BONE_EMIT</Damage_Particles>
+		<Fire_Bone_A>FB_POA_MAC_01</Fire_Bone_A>
+		<Fire_Bone_B>FB_POA_MAC_01</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>3.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_POA_MAC_DIRECT_FIRE"> <!-- Direct Fire MAC only, Requires User Input , This will only fire at Player Targeted Ships -->
 	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
