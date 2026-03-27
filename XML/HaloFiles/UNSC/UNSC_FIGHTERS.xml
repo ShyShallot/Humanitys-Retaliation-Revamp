@@ -98,6 +98,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -236,6 +238,11 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 	<Squadron Name="Late_Longsword_Squadron_Paris">
@@ -429,6 +436,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -611,6 +620,11 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 
 	<Squadron Name="Longsword_Far_Isle_Squadron">
@@ -745,6 +759,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -914,7 +930,11 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 
@@ -1021,6 +1041,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -1163,6 +1185,10 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 
@@ -1267,6 +1293,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -1387,6 +1415,10 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 
@@ -1492,6 +1524,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -1647,6 +1681,11 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 
@@ -1754,6 +1793,9 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -1907,6 +1949,11 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
+		
 	</Squadron>
 	
 
@@ -2015,6 +2062,8 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
@@ -2154,6 +2203,10 @@
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		
 	</Squadron>
 	

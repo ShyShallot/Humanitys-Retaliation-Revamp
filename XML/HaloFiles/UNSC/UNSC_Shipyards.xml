@@ -52,6 +52,7 @@
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>2</Radar_Icon_Scale_Space>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
@@ -249,6 +250,7 @@
 		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
@@ -363,6 +365,7 @@
 		<CategoryMask> Corvette </CategoryMask>  <!-- this is to allow the AI to build in smirmish -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->

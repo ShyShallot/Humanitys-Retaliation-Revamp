@@ -5106,7 +5106,7 @@
 
 	<SpecialStructure Name="Communications_Array_R">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
-		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
+		<Text_ID>Communications_Outpost</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -5117,7 +5117,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, TERRAIN_TEXTURE_MODIFICATION, EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> Communications_Array_R_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
@@ -5137,7 +5137,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
-		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Cost_Credits>350</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
@@ -5193,24 +5193,39 @@
 		<SFXEvent_Unit_Lost> RHD_Comm_Array_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Select> Structure_Comm_Array_Select_SFX </SFXEvent_Select>
 		
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01, TEXT_TOOLTIP_UNSC_BUILDING_COMM_RELAY </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 		
+		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00, ROOT</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		
 		<Abilities SubObjectList="Yes">
+		
  			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+			
  				<Activation_Style>Skirmish_Automatic</Activation_Style>
  				<Affects_All_Allies>True</Affects_All_Allies>
+				
  			</Enable_Radar_Ability>
+			
 			<Battlefield_Modifier_Ability Name="R_Comm_Array_Slower_Reinforcements_Effect">
+			
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Reinforcement_Time_Multiplier>2.0</Reinforcement_Time_Multiplier>
 				<Reverse_Application_Logic>Yes</Reverse_Application_Logic>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
+				
 			</Battlefield_Modifier_Ability>
+			
 			<Force_Healing_Ability Name="R_Comm_Array_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
@@ -5228,7 +5243,9 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
+			
 			<Redirect_Blaster_Ability Name="R_Magnetically_Sealed_Structure">
+			
 				<Initially_Enabled> No </Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -5240,9 +5257,38 @@
 				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+				
 			</Redirect_Blaster_Ability>
 			
+			<System_Spy_Ability Name="UNSC_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>No</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>No</See_Special_Structures>
+				<See_Political_Control>No</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+			
 		</Abilities>
+
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>75.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>150.0</Hyperspace_Fleet_Reveal_Range>
+		
+		
+		
    </SpecialStructure>
 
 

@@ -163,7 +163,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_GLAD.tga</Radar_Icon_Name>
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
@@ -233,6 +233,7 @@
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
 
 		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
@@ -398,7 +399,7 @@
 		<Death_SFXEvent_Start_Die>Unit_UNSC_Frigate_Death</Death_SFXEvent_Start_Die>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
@@ -698,7 +699,7 @@
 		<SFXEvent_Health_Critical_Warning> Corvette_Low_Health </SFXEvent_Health_Critical_Warning>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
@@ -781,6 +782,7 @@
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
 
 		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
@@ -935,7 +937,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_STRIDENT.tga</Radar_Icon_Name>
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
@@ -1169,7 +1171,7 @@
 		<Death_SFXEvent_Start_Die>Unit_UNSC_Frigate_Death</Death_SFXEvent_Start_Die>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1612,7 +1614,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -1848,7 +1850,7 @@
 		</Unit_Abilities_Data> -->
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>

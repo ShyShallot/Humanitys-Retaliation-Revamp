@@ -98,6 +98,11 @@
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_COVN_CLUSTER_TORPEDO">
@@ -142,40 +147,13 @@
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
-	<Projectile Name="PROJ_COVN_TORPEDO_AF">
-		
-		<!-- This is broken and we dont know why -->
-		
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILETORPEDO_AF.ALO</Space_Model_Name>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>10.8</Max_Speed>
-		<Max_Rate_Of_Turn>330</Max_Rate_Of_Turn>
-		<Projectile_Category>ROCKET</Projectile_Category>
-		
-		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>200</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>50.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Fuel_Rod_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Covie_Torpedo_Death</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
-		
-	</Projectile>
 
 	<Projectile Name="Proj_COV_TORPEDO_LIGHT_ARTY"> <!-- These are used on the CRS specifcally -->
 	
@@ -211,6 +189,11 @@
 		<Projectile_Blast_Area_Damage>55</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>75</Projectile_Blast_Area_Range>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_COVN_TORPEDO_SDV_ARTY"> <!-- These are used on the SDV specifcally -->
@@ -242,6 +225,11 @@
         <Projectile_Lifetime_Detonation_Particle>Covie_Torpedo_Death</Projectile_Lifetime_Detonation_Particle>
         <Projectile_Absorbed_By_Shields_Particle>Covie_Torpedo_Death</Projectile_Absorbed_By_Shields_Particle>
         <AI_Combat_Power>900</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 
     </Projectile>
 
@@ -367,7 +355,14 @@
 				<Recharge_Time_In_Secs>0.1</Recharge_Time_In_Secs>
 			</Laser_Defense_Ability>
 			
+			
+			
 		</Abilities>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 
 		
 	</Projectile>
@@ -394,6 +389,11 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>300</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 
 		
 	</Projectile>
@@ -443,6 +443,11 @@
 			</Laser_Defense_Ability>
 			
 		</Abilities>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 
 		
 	</Projectile>
@@ -495,7 +500,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>500</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -521,7 +530,12 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>500</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		
 	</Projectile>
@@ -555,7 +569,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>800</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -581,7 +599,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>800</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 
 	</Projectile>
@@ -610,6 +632,11 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 
 	<Projectile Name="Proj_Plasma_Lance"> <!-- CAS SUPER BEAM LANCE THING -->
@@ -635,6 +662,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -662,6 +694,11 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_Plasma_Array"> <!-- CSO primary Array (Lances on crack) -->
@@ -687,6 +724,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -900,6 +942,11 @@
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<!-- VERY VERY IMPORTANT STUN STUFF FOR EM BOMBS (Apple) 
@@ -976,6 +1023,11 @@
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_Bident_Missile_Delivery">  <!-- 3d model to Deliver Cluster Bidents -->
@@ -1024,6 +1076,11 @@
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.20</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent> <!-- fire rate reduced to 80% -->
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	
@@ -1052,9 +1109,14 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
-	<Projectile Name="Proj_UNSC_Archer_Delivery"> <!-- these are the cluster missiles use these for big ships -->
+	<Projectile Name="Proj_UNSC_Archer_Delivery"> <!-- these are the cluster missile delivery system -->
 
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		
@@ -1082,6 +1144,11 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 		
 	</Projectile>
 
@@ -1107,7 +1174,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="Proj_UNSC_STREAK_MISSILE"> <!-- Streak Missiles -->
+	<Projectile Name="Proj_UNSC_STREAK_MISSILE"> <!-- Streak Missiles Antifighter -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bomber_Missile.ALO</Space_Model_Name>
@@ -1132,8 +1199,9 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MISSILE</Projectile_Lifetime_Detonation_Particle>
 		
-		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
-		or too low might also lag or crash the game -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+
 	
 	</Projectile>
 	
@@ -1222,7 +1290,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>22000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>  
 	
@@ -1252,7 +1323,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1281,7 +1355,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1310,7 +1387,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1339,7 +1419,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1368,7 +1451,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 
@@ -1397,7 +1483,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1426,7 +1515,10 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1454,6 +1546,11 @@
 		<Projectile_SFXEvent_Detonate>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 		
 	<Projectile Name="Proj_UNSC_MK33_SPITFIRE"> <!-- Large Deck gun for capitals -->
@@ -1478,6 +1575,11 @@
 		<Projectile_SFXEvent_Detonate>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_MK40_SPITFIRE"> <!-- Largest Deck gun for capitals -->
@@ -1501,6 +1603,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<!-- <Projectile_SFXEvent_Detonate> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor> -->
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1527,6 +1634,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1575,6 +1687,8 @@
 			
 		</Abilities>
 		
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_Bullet_Rampart"> <!-- Direct Damage Point Defense Round as oppsed to HE bullets -->
@@ -1621,6 +1735,11 @@
 			</Laser_Defense_Ability>
 			
 		</Abilities>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 	
@@ -1952,6 +2071,11 @@
 			
 		</Abilities>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>25</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>25</Radar_Icon_Scale_Space>
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_11A2R1">  <!-- Spirit of fire Quad Barrel Coilguns -->
@@ -1998,6 +2122,11 @@
 			
 		</Abilities>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>25</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>25</Radar_Icon_Scale_Space>
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_ONAGER"> <!-- Onager for Infinity instead of Breakwater Cannons-->
@@ -2025,6 +2154,11 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 		
 	</Projectile>
 
@@ -2327,6 +2461,9 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="M99_SASR"> <!-- Stanchion (Sniper Rifle Anti-materiel -->
@@ -2351,6 +2488,9 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2402,6 +2542,9 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_GAUSS"> <!-- GAUSS HOG -->
@@ -2428,6 +2571,9 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="M19_102MM_Rocket"> <!-- Standard Unguided Rockets Ground-->
@@ -2453,7 +2599,9 @@
 		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>300</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2480,7 +2628,9 @@
 		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>300</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2507,6 +2657,9 @@
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="M370_Cannon"> <!-- Ground Pelican Rounds AP Depleted Uranium-->
@@ -2531,6 +2684,9 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2561,6 +2717,9 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2635,6 +2794,9 @@
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="M400_ARTILLERY_SYSTEM"> <!-- This is unsc artillery goes on the mptl -->
@@ -2668,7 +2830,10 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 		
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+		
 	</Projectile>
 	
 	<Projectile Name="Tank_Boom"> <!-- Tank Rounds 90mm smoothbore high vel M512 -->
@@ -2695,6 +2860,9 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2725,7 +2893,8 @@
 		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
 		
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	
@@ -2800,6 +2969,9 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	 
 	<Projectile Name="Scarab_AA_GUN">  <!-- this cannot fire at infantry please double check that this is true (Apple and Murphy ) -->
@@ -2820,6 +2992,9 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
 	</Projectile>
 	
 	<Projectile Name="Scarab_Focus_Beam">
@@ -2839,6 +3014,9 @@
 		<Projectile_Ground_Detonation_Particle/>
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_FUELROD</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_FUELROD</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
 	

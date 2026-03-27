@@ -32,7 +32,7 @@
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 
 		<!-- Visual -->
@@ -383,7 +383,7 @@
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.01  0.01</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 
 		<!-- Visual -->
@@ -634,7 +634,7 @@
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_SDV.TGA</Radar_Icon_Name>
 
 		<!-- Visual -->

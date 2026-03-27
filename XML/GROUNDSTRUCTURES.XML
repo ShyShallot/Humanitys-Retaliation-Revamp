@@ -2276,6 +2276,7 @@
 	</GroundStructure>
 
    <GroundStructure Name="Abstract_Sensor_Array">
+   
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_NODE</Encyclopedia_Text>
 		<Land_Model_Name>NB_SensorNode.alo</Land_Model_Name>
@@ -2315,9 +2316,10 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size> 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
   </GroundStructure>
 
-   <GroundStructure Name="Sensor_Array">
+   <GroundStructure Name="Sensor_Array"> <!-- This is a Sandbag Fort -->
    
  		<Variant_Of_Existing_Type> UNSC_Sandbags </Variant_Of_Existing_Type>
   
