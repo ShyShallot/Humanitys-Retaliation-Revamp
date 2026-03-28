@@ -630,20 +630,20 @@
 		
 	</HardPoint>
 
-	<HardPoint Name="UNSC_POA_MAC">  <!-- Auto Firing Mac, No user Input Required -->
+	<HardPoint Name="UNSC_POA_MAC_AUTO">  <!-- Auto Firing Mac, No user Input Required -->
 	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Health>4000.0</Health>
-		<Attachment_Bone>HP_POA_MAC_BONE</Attachment_Bone>
-		<Damage_Particles>HP_POA_MAC_BONE_EMIT</Damage_Particles>
-		<Fire_Bone_A>FB_POA_MAC_01</Fire_Bone_A>
-		<Fire_Bone_B>FB_POA_MAC_01</Fire_Bone_B>
+		<Attachment_Bone>HP_POA_MAC_BONE_AUTO</Attachment_Bone>
+		<Damage_Particles>HP_POA_MAC_BONE_EMIT_AUTO</Damage_Particles>
+		<Fire_Bone_A>FB_POA_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>FB_POA_MAC_01_AUTO</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT_AUTO</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -660,7 +660,7 @@
 		
 	</HardPoint>
 	
-	<HardPoint Name="UNSC_POA_MAC_DIRECT_FIRE"> <!-- Direct Fire MAC only, Requires User Input , This will only fire at Player Targeted Ships -->
+	<HardPoint Name="UNSC_POA_MAC"> <!-- Direct Fire MAC only, Requires User Input , This will only fire at Player Targeted Ships -->
 	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
@@ -684,12 +684,13 @@
 		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
-		
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+	
 		
 	</HardPoint>
 
@@ -1426,6 +1427,38 @@
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		
+	</HardPoint>
+	
+	<!-- Auto firing mac -->
+	
+	<HardPoint Name="UNSC_AUTUMN_MAC_AUTO">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>5000.0</Health>
+		<Attachment_Bone>HP_AUTUMN_MAC_BONE_AUTO</Attachment_Bone>
+		<Damage_Particles>HP_AUTUMN_MAC_BONE_EMIT_AUTO</Damage_Particles>
+		<Fire_Bone_A>FB_AUTUMN_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>FB_AUTUMN_MAC_01_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 	</HardPoint>
 
@@ -2255,6 +2288,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
         
 	</HardPoint>
+	
 
 	<HardPoint Name="UNSC_MARA_MAC_01">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
@@ -2283,6 +2317,36 @@
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+
+	</HardPoint>
+	
+	<!-- autofiring mac -->
+	
+	<HardPoint Name="UNSC_MARA_MAC_01_AUTO">
+		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>2500.0</Health>
+		<Attachment_Bone>HP_MAC_01_AUTO</Attachment_Bone>
+		<Fire_Bone_A>HP_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>HP_MAC_02_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Heavy_MAC_SHELL_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>45.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+
 
 	</HardPoint>
 
@@ -2817,6 +2881,35 @@
        
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+        
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_HALCYON_MAC_AUTO">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Health>17000.0</Health>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Fire_Bone_A>FB_HALC_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>FB_HALC_MAC_01_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+       
         
 	</HardPoint>
 
@@ -3465,7 +3558,6 @@
 		<Health>7000.0</Health>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Attachment_Bone>HP_HALC_MAC_Bone</Attachment_Bone>
 		<Fire_Bone_A>FB_HALC_MAC_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_HALC_MAC_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
@@ -3486,6 +3578,35 @@
        
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+        
+	</HardPoint>
+	
+	<!-- Auto Mac -->
+	
+	<HardPoint Name="UNSC_HHALCYON_MAC_AUTO">
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Health>7000.0</Health>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Fire_Bone_A>FB_HALC_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>FB_HALC_MAC_01_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+       
         
 	</HardPoint>
 
@@ -4454,10 +4575,35 @@
 		
 	</HardPoint>
 	
+	<!-- Auto Mac -->
+	
+	<HardPoint Name="UNSC_VINDICATION_MAC_AUTO"> <!-- Only shoots capital Ships !!! (Apple) -->
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>5000.0</Health>
+		<Attachment_Bone>HP_MAC_01_AUTO</Attachment_Bone>
+		<Fire_Bone_A>HP_MAC_01_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>HP_MAC_02_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_SUPER_MAC_SHELL_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>110.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5250.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport,</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+		
+	</HardPoint>
+	
 	
 	
 	<!-- Epoch -->
-	
 	
 	<HardPoint Name="HP_MAC">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -4487,6 +4633,37 @@
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+
+	</HardPoint>
+	
+	<!-- Auto mac -->
+
+	<HardPoint Name="HP_MAC_AUTO">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>30000</Health>
+		<Attachment_Bone>HP_MAC_AUTO</Attachment_Bone>
+		<Collision_Mesh>HP_MAC_AUTO</Collision_Mesh>
+		<Fire_Bone_A>HP_MAC_AUTO</Fire_Bone_A>
+		<Fire_Bone_B>HP_MAC_AUTO</Fire_Bone_B>
+		<Fire_Cone_Width>35.0</Fire_Cone_Width>
+		<Fire_Cone_Height>40.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT_AUTO</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
+		<Fire_Range_Distance>5250</Fire_Range_Distance>
+		
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		
+		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
+
 
 	</HardPoint>
 	

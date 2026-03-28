@@ -230,16 +230,7 @@
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
-		
-				<Abilities SubObjectList="Yes">
-		
-            <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
-                <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
-                
-                <Absolute_Income_Modifier>-65</Absolute_Income_Modifier>
-               
-            </Planet_Income_Bonus_Ability>
-		</Abilities>
+
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

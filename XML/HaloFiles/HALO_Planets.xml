@@ -214,7 +214,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 		<Abilities SubObjectList="Yes"/>
 		<Corruption_1_Type>Corruption_Intimidation</Corruption_1_Type>
 		<Corruption_1_Credit_Cost>1300</Corruption_1_Credit_Cost>
@@ -1501,7 +1501,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 	</Planet>
 	<Planet Name="Far_Isle"> <!-- This planet gets nuked -->
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -1606,7 +1606,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 	</Planet>
 	<Planet Name="Yonhe">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -1627,7 +1627,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>200</Planet_Credit_Value>
+		<Planet_Credit_Value>5</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>130.0, 151.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -1679,7 +1679,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Arctic</Terrain>
-		<Planet_Credit_Value>200</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>145.0, 241.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -1710,7 +1710,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Kamchatka_Tech_Boost">
 				<Unit_Strength_Category/>
@@ -1741,7 +1741,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>200</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>51.0, 200.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -1793,7 +1793,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Forest</Terrain>
-		<Planet_Credit_Value>125</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-192.0, -12.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -1824,7 +1824,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 	</Planet>
 	<Planet Name="Installation_05">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -1876,7 +1876,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Planet>
 	<Planet Name="Nefoluzo">
@@ -1898,7 +1898,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>200</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>188.0, 204.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -1929,7 +1929,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 		<Abilities SubObjectList="Yes"/>
 	</Planet>
 	<Planet Name="Thua">
@@ -1951,7 +1951,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>15</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>79.0, 271.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2014,7 +2014,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Urban</Terrain>
-		<Planet_Credit_Value>750</Planet_Credit_Value>
+		<Planet_Credit_Value>15810</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-139.0, 241.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2138,7 +2138,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>1</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-137.0, -23.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2169,7 +2169,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 	</Planet>
 	<Planet Name="Balaho">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2190,7 +2190,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Swamp</Terrain>
-		<Planet_Credit_Value>25</Planet_Credit_Value>
+		<Planet_Credit_Value>800</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-165.0, 124.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2242,7 +2242,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>25</Planet_Credit_Value>
+		<Planet_Credit_Value>790</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>29.0, 353.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2305,7 +2305,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Urban</Terrain>
-		<Planet_Credit_Value>950</Planet_Credit_Value>
+		<Planet_Credit_Value>31285</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-157.0, 30.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>9</Special_Structures_Land>
@@ -2358,7 +2358,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Urban</Terrain>
-		<Planet_Credit_Value>7200</Planet_Credit_Value>
+		<Planet_Credit_Value>23642</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-135.0, 308.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>9</Special_Structures_Land>
@@ -2429,7 +2429,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>25</Planet_Credit_Value>
+		<Planet_Credit_Value>15</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-191.0, 205.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>7</Special_Structures_Land>
@@ -2481,7 +2481,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>750</Planet_Credit_Value>
+		<Planet_Credit_Value>12</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-1.0, 289.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2597,7 +2597,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>350</Planet_Credit_Value>
+		<Planet_Credit_Value>2835</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-49.0, 141.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2660,7 +2660,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Forest</Terrain>
-		<Planet_Credit_Value>1</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-192, 268, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2691,7 +2691,7 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Additional_Population_Capacity>1</Additional_Population_Capacity>
 	</Planet>
 	<Planet Name="Feldokra"> <!-- CITIES THE SIZE OF FUCKING AUSTRALIA -->
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2712,7 +2712,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>400</Planet_Credit_Value>
+		<Planet_Credit_Value>42170</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-73.0, 342.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>8</Special_Structures_Land>
@@ -2764,7 +2764,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Forest</Terrain>
-		<Planet_Credit_Value>25</Planet_Credit_Value>
+		<Planet_Credit_Value>5</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-166.0, 370.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2816,7 +2816,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Urban</Terrain>
-		<Planet_Credit_Value>25</Planet_Credit_Value>
+		<Planet_Credit_Value>3410</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-92.0, 189.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2869,7 +2869,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Desert</Terrain>
-		<Planet_Credit_Value>250</Planet_Credit_Value>
+		<Planet_Credit_Value>2</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>205.0, 99.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -2932,7 +2932,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Swamp</Terrain>
-		<Planet_Credit_Value>650</Planet_Credit_Value>
+		<Planet_Credit_Value>65</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-103.0, 106.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
@@ -3047,7 +3047,7 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>150</Planet_Credit_Value>
+		<Planet_Credit_Value>5</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-1.0, 231.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>6</Special_Structures_Land>
