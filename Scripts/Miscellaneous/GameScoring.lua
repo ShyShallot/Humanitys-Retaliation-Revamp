@@ -43,6 +43,7 @@ require("pgcommands")
 require("HALOFunctions")
 require("EventNotif")
 require("GlobalVarProcess")
+require("EventNotif")
 
 -- Don't pool...
 ScriptPoolCount = 0
@@ -402,17 +403,8 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 
 	GameScoringMessage("GameScoring -- Object: %s, was killed by %s.", object_type.Get_Name(), killer.Get_Name())
 
-	if object.Is_Galactic_Object and object.Is_Galactic_Object() then
-    local planet = object.Get_Planet_Location()
-    if TestValid(planet) then
-        Custom_Global_Var:Set("Planet_Attacked", {
-            object.Get_Owner().Get_Faction_Name(),
-            killer.Get_Faction_Name(),
-            planet.Get_Type().Get_Name()
-			})
-		end
-	end
 	
+
 	-- Update frags
 	frag_entry = stat_table[frag_index]
 	if frag_entry == nil then frag_entry = {} end
@@ -581,7 +573,12 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 -- 
 function Galactic_Production_Begin_Event(planet, object_type)
-	Game_Scoring_Event_Manager:Trigger_Event("Production_Started", {planet, object_type})
+
+	DebugMessage("%s -- Production Started on %s at %s", tostring(Script), tostring(object_type), tostring(planet))
+	
+	if TestValid(planet) and object_type.Get_Name ~= nil then
+		--Game_Scoring_Event_Manager:Trigger("Production_Started", {planet.Get_Type().Get_Name(), object_type.Get_Name()})
+	end
 --Track credits spent
 end
 
