@@ -106,8 +106,8 @@
 
 
 	<Fiscal_Cycle_Time_In_Secs>45.0</Fiscal_Cycle_Time_In_Secs>
-	<Medium_Coin_Stack_Size>50</Medium_Coin_Stack_Size>
-	<Large_Coin_Stack_Size>150</Large_Coin_Stack_Size>
+	<Medium_Coin_Stack_Size>2500</Medium_Coin_Stack_Size>
+	<Large_Coin_Stack_Size>20000</Large_Coin_Stack_Size>
 	<Black_Market_Income_Mult_Min>1.0</Black_Market_Income_Mult_Min>	<!-- AJA 09/30/2005 - Removing negative factor from Black Market planetary effect -->
 	<Black_Market_Income_Mult_Max>3.0</Black_Market_Income_Mult_Max>
 	
