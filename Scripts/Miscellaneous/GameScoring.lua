@@ -577,7 +577,7 @@ function Galactic_Production_Begin_Event(planet, object_type)
 	DebugMessage("%s -- Production Started on %s at %s", tostring(Script), tostring(object_type), tostring(planet))
 	
 	if TestValid(planet) and object_type.Get_Name ~= nil then
-		Game_Scoring_Event_Manager:Trigger("Production_Started", {planet.Get_Type().Get_Name(), object_type.Get_Name()})
+		--Game_Scoring_Event_Manager:Trigger("Production_Started", {planet.Get_Type().Get_Name(), object_type.Get_Name()})
 	end
 --Track credits spent
 end

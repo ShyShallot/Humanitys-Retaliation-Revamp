@@ -147,7 +147,7 @@ function Init_GC(messsage)
 
     --Shield_Research_Test()
 
-    Game_Scoring_Event_Manager:Subscribe_To_Galactic_Event("Production_Started", Production_Started)
+    --Game_Scoring_Event_Manager:Subscribe_To_Galactic_Event("Production_Started", Production_Started)
 
     Set_Next_State("Flush")
 end
@@ -155,7 +155,7 @@ end
 function Update(messsage)
     if messsage ~= OnUpdate then return end
 
-    Game_Scoring_Event_Manager:Process_Galactic_Events()
+    --Game_Scoring_Event_Manager:Process_Galactic_Events()
 
     Unit_Filters:Update()
 
