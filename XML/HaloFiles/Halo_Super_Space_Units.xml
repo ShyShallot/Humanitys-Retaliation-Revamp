@@ -749,7 +749,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>90500</Build_Cost_Credits>
+		<Build_Cost_Credits>15012000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>395</Build_Time_Seconds>
@@ -894,7 +894,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Build_Cost_Credits>42500</Build_Cost_Credits>
+		<Build_Cost_Credits>1501200</Build_Cost_Credits>
 		<Build_Time_Seconds>365</Build_Time_Seconds> <!-- was 300 -->
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
@@ -950,7 +950,7 @@
 		<Required_Special_Structures/>
 		<Required_Planets>Sanghelios</Required_Planets> 
 
-		<Build_Cost_Credits>275000</Build_Cost_Credits>
+		<Build_Cost_Credits>24297200</Build_Cost_Credits>
 		<Build_Time_Seconds>420</Build_Time_Seconds>
 		<Shield_Points>500000</Shield_Points>
 		<Tactical_Health>1000000</Tactical_Health>

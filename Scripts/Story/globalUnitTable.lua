@@ -49,7 +49,6 @@ local unit_table = {
     },
     COVN_CAS = {
         Category = "Super",
-        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED"
     },
     COVN_CSO = {
         Category = "Super"
@@ -135,11 +134,9 @@ local unit_table = {
     },
     COVN_CPV = {
         Category = "Capital",
-        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
     },
     COVN_ORS = {
         Category = "Capital",
-        Global_Value_Check = "COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED",
     },
     COVN_DDS = {
         Category = "Capital"
@@ -524,6 +521,9 @@ local unit_table = {
         Category = "Structure"
     },
     COVN_GROUND_RESEARCH_FACILITY = {
+        Category = "Structure"
+    },
+	COVENANT_ASSEMBLY_FORGE = {
         Category = "Structure"
     },
     Rebel_Speeder_Wing = {

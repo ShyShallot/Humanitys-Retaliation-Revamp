@@ -254,7 +254,7 @@ Starting_Units_Handler = {
                             Space = 120500,
                             Ground = 600,
                         },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "POWER_GENERATOR_E", "E_GROUND_BASE_SHIELD"},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "COVENANT_ASSEMBLY_FORGE"},
                         Space_Units = {
 							["COVN_SDV"] = {
                                 Weight = 25,
@@ -297,7 +297,7 @@ Starting_Units_Handler = {
                             Space = 185000,
                             Ground = 600,
                         },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "POWER_GENERATOR_E", "E_GROUND_BASE_SHIELD"},
+                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "COVENANT_ASSEMBLY_FORGE"},
                         Space_Units = {
                             ["COVN_SDV"] = {
                                 Weight = 25,

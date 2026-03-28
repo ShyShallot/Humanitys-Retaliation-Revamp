@@ -382,7 +382,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
   
 	</HardPoint>
 	
@@ -404,7 +404,7 @@
 		<Fire_SFXEvent/>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
 			
 	</HardPoint>
@@ -564,7 +564,7 @@
 			<Fire_Inaccuracy_Distance> Air, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		    <Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		    <Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
 			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
@@ -600,7 +600,7 @@
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 
@@ -690,7 +690,7 @@
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
 	</HardPoint>
 	
@@ -724,7 +724,7 @@
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	
@@ -749,7 +749,7 @@
 		<Fire_SFXEvent/>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	
@@ -784,7 +784,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Corvette, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
@@ -805,7 +805,7 @@
 		<Fire_SFXEvent/>
 		
 		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 75.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
 	</HardPoint>
 	

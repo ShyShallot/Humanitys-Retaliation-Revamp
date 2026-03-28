@@ -2046,7 +2046,7 @@
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
 		<Additional_Population_Capacity>6324</Additional_Population_Capacity>
-		<Abilities SubObjectList="Yes">
+		<!--<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Glyke_Slave_Boost">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
@@ -2064,7 +2064,7 @@
 				<Stacking_Category>1</Stacking_Category>
 				<Galaxy_Wide>No</Galaxy_Wide>
 			</Reduce_Production_Time_Ability>
-		</Abilities>
+		</Abilities> -->
 	</Planet>
 	<Planet Name="Karava">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -2390,7 +2390,7 @@
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
 		<Additional_Population_Capacity>9457</Additional_Population_Capacity>
-		<Abilities SubObjectList="Yes">
+	<!--	<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Sanghelios_Tech_Boost">
 				<Unit_Strength_Category/>
 				<Applicable_Unit_Categories>Capital, Frigate, Corvette</Applicable_Unit_Categories>
@@ -2408,7 +2408,7 @@
 				<Stacking_Category>1</Stacking_Category>
 				<Galaxy_Wide>No</Galaxy_Wide>
 			</Reduce_Production_Time_Ability>
-		</Abilities>
+		</Abilities> -->
 	</Planet>
 	<Planet Name="Rhanelo">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
