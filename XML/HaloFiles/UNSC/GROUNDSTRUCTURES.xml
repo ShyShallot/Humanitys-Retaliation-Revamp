@@ -1829,7 +1829,7 @@
 
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 
-		<CategoryMask> Structure | TaxingBuilding </CategoryMask>
+		<CategoryMask> Structure | TaxingBuilding | YearlyMoraleLoss </CategoryMask>
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>

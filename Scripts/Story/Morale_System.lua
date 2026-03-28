@@ -390,11 +390,13 @@ function Definitions()
         return false
     end
 
-    Morale_Tax = {
-        Amount = 1,
-        Last_Taxed = 0,
-        Last_Amount_Taxed = 0,
-        Enabled = false,
+    Misc_Morale_Income = {
+        Net = 0,
+        Last_Updated = 1,
+        Tax = {
+            Enabled = false,
+            Portion_Was_Tax = 0,
+        }
     }
 end
 
@@ -412,7 +414,7 @@ function Init_Morale_System(message)
 
             morale_string.Level = "TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES"
 
-            Morale_Tax.Enabled = true
+            Misc_Morale_Income.Tax.Enabled = true
         else
             Story_Event("Morale_Display_COVN")
 
@@ -530,7 +532,7 @@ function Morale_System_Update(message)
 
             Handle_Planet_Production(Current_Morale_Entry)
 
-            Handle_Planetary_Taxes()
+            Handle_Misc_Income()
         end
 
         Random_Morale_Swing()
@@ -538,7 +540,7 @@ function Morale_System_Update(message)
         if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status and GlobalValue.Get("Morale_Status") ~= nil then
             Story_Event("Morale_Level_Changed")
 
-            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT", nil, 5, {r=255,b=0,g=0}, true)
+            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT", nil, 10, {r=255,b=0,g=0}, true)
         end
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
@@ -559,13 +561,21 @@ function Morale_System_Update(message)
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
-            if Morale_Tax.Enabled then
-                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_TITLE", nil, nil, false, true)
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_TITLE", nil, nil, false, true)
 
-                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_TAXATION_YEARLY", tostring(Morale_Tax.Last_Taxed), tostring(Morale_Tax.Last_Amount_Taxed))
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES", tostring(Misc_Morale_Income.Last_Updated))
 
-                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
+            if Misc_Morale_Income.Net < 0 then
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_NET_BAD", tostring(abs(Misc_Morale_Income.Net)))
+            else
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_NET_GOOD", tostring(abs(Misc_Morale_Income.Net)))
             end
+
+            if Misc_Morale_Income.Tax.Enabled then
+                Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_TAXES", tostring(Misc_Morale_Income.Tax.Portion_Was_Tax))
+            end
+
+            Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, nil, true, true)
 
             Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_BODY_PLANETRY_MORALE", nil, nil, false, true)
 
@@ -739,39 +749,53 @@ function Handle_Planet_Production(Current_Morale_Entry)
     end
 end
 
-function Handle_Planetary_Taxes()
+function Handle_Misc_Income()
 
-    if not Morale_Tax.Enabled then
+    if Get_Current_Week() <= Misc_Morale_Income.Last_Updated then
         return
     end
 
-    local Structures = Find_All_Objects_Of_Type(Global_Values.Player, "TaxingBuilding")
+    local Positive_Structures = Find_All_Objects_Of_Type(Global_Values.Player, "YearlyMoraleGain")
 
-    DebugMessage("%s -- Number of Taxing Structures owned by the player: %s", tostring(Script), tostring(Structures_Count))
+    local Negative_Structures = Find_All_Objects_Of_Type(Global_Values.Player, "YearlyMoraleLoss")
 
-    local Structures_Count = tableLength(Structures)
+    local Taxed_Structures = Find_All_Objects_Of_Type(Global_Values.Player, "TaxingBuilding")
 
-    if type(Structures_Count) ~= "number" then
-        return
+    local Positive_Count = tableLength(Positive_Structures)
+
+    local Negative_Count = tableLength(Negative_Structures)
+
+    local Taxed_Structures_Count = tableLength(Taxed_Structures)
+
+    Misc_Morale_Income.Tax.Portion_Was_Tax = Taxed_Structures_Count
+
+    Misc_Morale_Income.Last_Updated = Get_Current_Week()
+
+    local Morale_Change = Positive_Count - Negative_Count
+
+    local Is_Total_Loss = Morale_Change < 0
+
+    local color = {r=0,b=0,g=255}
+
+    local Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_GOOD"
+
+    if Morale_Change == 0 then
+        color = {r=255,b=255,g=255}
+
+        Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_MEH"
     end
 
-    if Structures_Count < 1 then
-        return
+    if Is_Total_Loss then
+        color = {r=255,b=0,g=0}
+
+        Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_BAD"
     end
 
-    if Morale_Tax.Last_Taxed >= Get_Current_Week() then
-        return
-    end
+    Misc_Morale_Income.Net = Morale_Change
 
-    local Morale_Loss = Morale_Tax.Amount * Structures_Count
+    Morale_Value_Status:Modify_Morale(Morale_Change, Is_Total_Loss) -- Modify_Morale already converts numbers to absolute values
 
-    Morale_Value_Status:Modify_Morale(Morale_Loss, true)
-
-    Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_EVENT_TAX_NOTIF", nil, 3, {r=255,b=0,g=0},true)
-
-    Morale_Tax.Last_Taxed = Get_Current_Week()
-
-    Morale_Tax.Last_Amount_Taxed = Morale_Loss
+    Show_Screen_Text(Screen_String, nil, 8, color, true)
 end
 
 ---@return Morale_Level|nil
@@ -840,7 +864,7 @@ function Is_Player_On_Last_Planet()
         end
     end
 
-    return Owned_Planets > 1
+    return Owned_Planets == 1
 end
 
 function Low_Planet_Morale()
@@ -939,7 +963,7 @@ function Modify_Morale(event_table)
     local Fake_Morale_Type = Find_Object_Type(tostring(abs(Morale_Value)))
 
     if Fake_Morale_Type ~= nil then
-        Show_Screen_Text(event_table.String, Fake_Morale_Type, 5, nil, true)
+        Show_Screen_Text(event_table.String, Fake_Morale_Type, 8, nil, true)
     end
 
     event_table.Happened = Get_Current_Week()

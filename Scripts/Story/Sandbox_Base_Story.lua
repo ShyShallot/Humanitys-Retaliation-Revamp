@@ -4,6 +4,7 @@ require("HALOFunctions")
 require("globalPlanetTable")
 require("globalUnitTable")
 require("GlobalVarProcess")
+require("EventNotif")
 
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
@@ -146,11 +147,15 @@ function Init_GC(messsage)
 
     --Shield_Research_Test()
 
+    Game_Scoring_Event_Manager:Subscribe_To_Galactic_Event("Production_Started", Production_Started)
+
     Set_Next_State("Flush")
 end
 
 function Update(messsage)
     if messsage ~= OnUpdate then return end
+
+    Game_Scoring_Event_Manager:Process_Galactic_Events()
 
     Unit_Filters:Update()
 
@@ -163,12 +168,6 @@ function Update(messsage)
     Execute_Custom_Events()
 
     --Experiment_01()
-
-    local Defender, Attacker, Location = Custom_Global_Var:Get("Planet_Attacked", true)
-    DebugMessage("%s -- Defender: %s, Attacker: %s, Location: %s", tostring(Script), tostring(Defender), tostring(Attacker), tostring(Location))
-    if Defender ~= nil and Attacker ~= nil and Location ~= nil then
-        
-    end
 
     --DebugMessage("%s -- Time Since Last Attacker: %s, Time Since Left Defender: %s", tostring(Script), tostring(EvaluatePerception("Time_Since_Last_Attacker",Player)), tostring()
 

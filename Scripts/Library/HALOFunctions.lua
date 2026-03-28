@@ -276,7 +276,14 @@ function Percentage(number, total)
     return (number/total) * 100
 end
 
+---@param number number|nil
+---@return number
 function abs(number)
+
+    if type(number) ~= "number" then
+        return 0
+    end
+
     if number < 0 then
         return -number
     end
