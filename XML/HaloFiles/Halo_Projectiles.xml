@@ -1087,6 +1087,8 @@
 	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard variant and are shot by the cluster missile #139 -->
 	
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
+		
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Speed>13.0</Max_Speed>
 		<Projectile_Damage>800.0</Projectile_Damage>
@@ -1119,7 +1121,7 @@
 	<Projectile Name="Proj_UNSC_Archer_Delivery"> <!-- these are the cluster missile delivery system -->
 
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
-		
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
 		<Max_Speed>12.0</Max_Speed>
 		<Projectile_Damage>800.0</Projectile_Damage>

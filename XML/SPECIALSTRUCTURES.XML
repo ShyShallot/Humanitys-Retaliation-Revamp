@@ -3869,7 +3869,7 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 0</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
@@ -5816,7 +5816,7 @@
 				COVN_DDS,
 				COVN_ORS,
 				COVN_JUL,
-				COVN_CAS,
+				COVN_CAS, <!-- for some reason the Cas , Thel, and CSO are not affected by this -->
 				COVN_THEL,
 				COVN_CSO,
 				COVN_PIOUS

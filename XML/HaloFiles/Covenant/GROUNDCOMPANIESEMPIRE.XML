@@ -180,8 +180,6 @@
 
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
-	
 
 	<GroundCompany Name="Imperial_Artillery_Corp">
 		<Text_ID>COVN_WRAITH_DIVISION</Text_ID>
@@ -207,7 +205,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>SPMAT_Walker, SPMAT_Walker, SPMAT_Walker,
+		<Company_Units>SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker,
 		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
 		Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -245,7 +243,7 @@
 	</GroundCompany>
 	
 	
-	<GroundCompany Name="Imperial_Anti_Infantry_Brigade">
+	<!-- <GroundCompany Name="Imperial_Anti_Infantry_Brigade">
 		<Text_ID>TEXT_IMPERIAL_ANTI_INFANTRY</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T2B_Tank Plex_Soldier UC_Rebel_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>
@@ -260,7 +258,6 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
@@ -279,22 +276,16 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_MAULER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>3</Expiration_Seconds>
@@ -313,10 +304,7 @@
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>12</Damage> 
-	</GroundCompany>
-
-
-	
+	</GroundCompany> -->
 	
 	<GroundCompany Name="Imperial_Stormtrooper_Squad">  <!-- Covenant Elite Company -->
 		<Text_ID>Zealots</Text_ID>
@@ -349,10 +337,11 @@
 		
 		<Company_Units> 
 		
-		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
+		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
 		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
 		Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER,
-		Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper
+		Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper,
+		SPMAT_Walker, SPMAT_Walker, SPMAT_Walker
 		
 		</Company_Units>
 		
@@ -459,7 +448,10 @@
 		
 		<Company_Units> 
 		
-		Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER
+		Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER,
+		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
+		Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,
+		Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER, Squad_COVN_HUNTER,
 		
 		</Company_Units>
 		
@@ -500,34 +492,6 @@
 				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
-			
-		
-			<Eat_Attack_Ability Name="Rancor_Eat_Infantry">
-				<Activation_Chance>1.0</Activation_Chance>
-				<Activation_Min_Range>45.0</Activation_Min_Range>
-				<Activation_Max_Range>50.0</Activation_Max_Range>
-				<Damage_Amount>0.0</Damage_Amount>
-				<Damage_Percentage>1.0</Damage_Percentage>
-				<Health_Per_Victim>120</Health_Per_Victim>
-				<Damage_Type>Damage_Eat</Damage_Type>
-				<Attack_Animation>EAT_ATTACK</Attack_Animation>
-				<Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
-				<Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
-				<Attachment_Frame>14</Attachment_Frame>
-				<Target_Destruction_Frame>110</Target_Destruction_Frame>
-				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Excluded_Unit_Types>
-					Rancor, 
-					Rancor_Dark_Ally,
-					Night_Sister,
-					UM06_Night_Sister,
-					Prisoner_Night_Sister,
-                    Wampa,
-					Cuddles_The_Rancor
-				</Excluded_Unit_Types>
-				<Applicable_Unit_Types />
-			</Eat_Attack_Ability>
 
 			<Arc_Sweep_Attack_Ability Name="Rancor_Swat_Infantry_Left">
 				<Activation_Chance>0.5</Activation_Chance>
@@ -603,7 +567,9 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Scout_Trooper, Scout_Trooper</Company_Units>
+		
+		<Company_Units>Scout_Trooper, Scout_Trooper,Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper,Scout_Trooper, Scout_Trooper </Company_Units>
+		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_scout_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EV_Bike.ALO</GUI_Model_Name>

@@ -627,34 +627,6 @@
 				<Applicable_Unit_Categories>Vehicle, Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
-			
-		
-			<Eat_Attack_Ability Name="Rancor_Eat_Infantry">
-				<Activation_Chance>1.0</Activation_Chance>
-				<Activation_Min_Range>0.0</Activation_Min_Range>
-				<Activation_Max_Range>10.0</Activation_Max_Range>
-				<Damage_Amount>0.0</Damage_Amount>
-				<Damage_Percentage>1.0</Damage_Percentage>
-				<Health_Per_Victim>120</Health_Per_Victim>
-				<Damage_Type>Damage_Eat</Damage_Type>
-				<Attack_Animation>EAT_ATTACK</Attack_Animation>
-				<Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
-				<Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
-				<Attachment_Frame>14</Attachment_Frame>
-				<Target_Destruction_Frame>110</Target_Destruction_Frame>
-				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Excluded_Unit_Types>
-					Rancor, 
-					Rancor_Dark_Ally,
-					Night_Sister,
-					UM06_Night_Sister,
-					Prisoner_Night_Sister,
-                    Wampa,
-					Cuddles_The_Rancor
-				</Excluded_Unit_Types>
-				<Applicable_Unit_Types />
-			</Eat_Attack_Ability>
 
 			<Arc_Sweep_Attack_Ability Name="Rancor_Swat_Infantry_Left">
 				<Activation_Chance>0.5</Activation_Chance>
@@ -1469,7 +1441,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1689,7 +1661,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1926,7 +1898,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.18 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2164,7 +2136,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2365,7 +2337,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2549,7 +2521,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2733,7 +2705,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -2913,7 +2885,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- inc from 0.8 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- inc from 0.8 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -3265,7 +3237,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.18 </Max_Speed> <!-- DECR from 1.0 -->
+		<Max_Speed> 0.30 </Max_Speed> <!-- DECR from 1.0 -->
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -3907,7 +3879,7 @@
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Marine</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3923,7 +3895,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_RADIO</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Radio-Operator</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3939,7 +3911,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_ENGINEER</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Engineer</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -3980,7 +3952,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_MEDIC</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-Medic</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -4021,7 +3993,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_SNIPER</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SNIPER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -4037,7 +4009,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_STANCHION</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SNIPER-SPECIALIST</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -4053,7 +4025,7 @@
 		<Variant_Of_Existing_Type>UNSC_INFANTRY_SHOTGUN</Variant_Of_Existing_Type>
 		<Text_ID>UNSC-SHOTGUNNER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>		
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
@@ -4083,7 +4055,7 @@
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 0.18 </Max_Speed>
+		<Max_Speed> 0.30 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>

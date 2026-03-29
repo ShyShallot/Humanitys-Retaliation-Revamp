@@ -1422,7 +1422,7 @@
 		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			UNSC_712_HP_00, UNSC_712_HP_01
+			UNSC_WOMBAT_00, UNSC_WOMBAT_01
 		</HardPoints>
 
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
@@ -1579,7 +1579,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		
