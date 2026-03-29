@@ -17666,6 +17666,11 @@ TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION;Highest Possible Morale Level. S
 TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS;Production Bonuses: -20%% To Production Costs and Times
 TEXT_STORY_MORALE_DISPLAY_ASCENDANT_RANGE;Ascendant Range: %s - %s
 TEXT_STORY_MORALE_DISPLAY_ASCENDANT_RANGE_CURRENT;> Ascendant Range: %s - %s
+TEXT_STORY_MORALE_DISPLAY_ALERT_COMPROMISED;Warning Morale has fallen to Status Compromised. Check Morale Display for More info
+TEXT_STORY_MORALE_DISPLAY_ALERT_STRAINED;Warning Morale has changed to Status Strained. Check Morale Display for More info
+TEXT_STORY_MORALE_DISPLAY_ALERT_STABILIZED;Morale has changed to Status Stabilized. Check Morale Display for More info
+TEXT_STORY_MORALE_DISPLAY_ALERT_RESOLUTE;Morale has changed to Status Resolute. Check Morale Display for More info
+TEXT_STORY_MORALE_DISPLAY_ALERT_Ascendant;Morale has changed to Status Ascendant. Check Morale Display for More info
 TEXT_STORY_MORALE_DISPLAY_BODY_COVN_01;Religious Resolve or also Morale is the a measurement on your performance in the Human-Covenant War, Morale will fluctuate based on various events affecting the systems you control. There are 2 Stages of Morale. The First being the Overall Morale of your entire Military, The Second being each Planet's Morale Level. If the first Morale Level is too low, the Planet with the largest amount of Enemy Neighbors will start to drop in Morale, when that happens, the Planet will band against you, thus your grip on that system is Lost. Planetary Morale will slowly recover when System Wide Morale reaches acceptable levels.
 TEXT_STORY_MORALE_DISPLAY_BODY_COVN_01_TITLE;What is Religious Resolve?
 TEXT_STORY_MORALE_DISPLAY_BODY_COVN_VALUES;Current Religious Support Index: %s: %s%%
@@ -17690,6 +17695,14 @@ TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_02_TITLE;Morale Fluctuation
 TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_03;Stated above is the Morale Level, depending on what stages of Morale you are in, Your Troops/Factories will recieve either Buffs or Debuffs. Be Low on Morale and your troops will perform worse, and shipyards/factories will take longer, with the opposite occuring at Higher Morale levels. Good luck out there soldier, and assure your troops their victories will not go unrewarded.
 TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_03_TITLE;Consequences of Morale
 TEXT_STORY_MORALE_DISPLAY_BODY_UNSC_VALUES;Current Morale: %s (%s%%)
+TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_TITLE;Approval
+TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES;Information about Approval for Year %s:
+TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_NET_BAD;Net Morale Loss from Disapproval: %s
+TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_NET_GOOD;Net Morale Gain from Approval: %s
+TEXT_STORY_MORALE_DISPLAY_BODY_MISC_SOURCES_TAXES;Portion of Disapproval from Taxes: %s
+TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_GOOD;Morale has Increased due to high rates of approval. Check the Morale Display for more info.
+TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_BAD;Morale has Decreased due to a lack of approval. Check the Morale Display for More Info.
+TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_MEH;Morale from Approval has stayed stagnant due to mediocre efforts. Check Morale Display for more info.
 TEXT_STORY_MORALE_DISPLAY_BONUSES;Bonuses
 TEXT_STORY_MORALE_DISPLAY_COMPROMISED;Compromised
 TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS;Battle Bonuses: -30%% Unit Health, -25%% Damage, -30%% Shields, -20%% Engine Power

@@ -59,17 +59,53 @@
     </Event>
 
     <Event Name="Morale_Level_Changed">
-        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>Morale_Level_Changed</Event_Param2>
+        <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>FLASH_GUI</Reward_Type>
         <Reward_Param1>b_story_arc_g</Reward_Param1>
         <Reward_Param2>Story_Arc_Hint</Reward_Param2>
         <Perpetual>true</Perpetual>
+        <Prereq>Morale_Level_Changed_Speech_Compromised</Prereq>
+        <Prereq>Morale_Level_Changed_Speech_Strained</Prereq>
+        <Prereq>Morale_Level_Changed_Speech_Stabilized</Prereq>
+        <Prereq>Morale_Level_Changed_Speech_Resolute</Prereq>
+        <Prereq>Morale_Level_Changed_Speech_Ascendant</Prereq>
     </Event>
 
-    <Event Name="Morale_Level_Changed_Speech">
-        <Event_Type>STORY_TRIGGER</Event_Type>
-        <Prereq>Morale_Level_Changed</Prereq>
+    <Event Name="Morale_Level_Changed_Speech_Compromised">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed_COMPROMISED</Event_Param2>
+        <Perpetual>true</Perpetual>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
+    </Event>
+
+    <Event Name="Morale_Level_Changed_Speech_Strained">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed_STRAINED</Event_Param2>
+        <Perpetual>true</Perpetual>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
+    </Event>
+
+    <Event Name="Morale_Level_Changed_Speech_Stabilized">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed_STABILIZED</Event_Param2>
+        <Perpetual>true</Perpetual>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
+    </Event>
+
+    <Event Name="Morale_Level_Changed_Speech_Resolute">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed_RESOLUTE</Event_Param2>
+        <Perpetual>true</Perpetual>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
+    </Event>
+
+    <Event Name="Morale_Level_Changed_Speech_Ascendant">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Morale_Level_Changed_ASCENDANT</Event_Param2>
         <Perpetual>true</Perpetual>
         <Reward_Type>SFX</Reward_Type>
         <Reward_Param1>EHD_Mission_Updated</Reward_Param1>
@@ -80,7 +116,7 @@
         <Event_Param1>5</Event_Param1>
         <Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
         <Reward_Param1>Story_Arc_Hint</Reward_Param1>
-        <Prereq>Morale_Level_Changed_Speech</Prereq>
+        <Prereq>Morale_Level_Changed</Prereq>
         <Perpetual>true</Perpetual>
     </Event>
 

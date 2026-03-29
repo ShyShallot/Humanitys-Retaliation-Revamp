@@ -426,9 +426,9 @@ function Init_Morale_System(message)
         GlobalValue.Set("Morale_Active", 1)
 
         if StringCompare(Global_Values.Player.Get_Faction_Name(), "Empire") then
-            Global_Values.Enemy = Find_Player("Rebel")
+            Global_Values.Enemy = Find_Player("REBEL")
         else
-            Global_Values.Enemy = Find_Player("Empire")
+            Global_Values.Enemy = Find_Player("EMPIRE")
         end
 
         --DebugMessage("%s -- Enemy Player: %s", tostring(Script), tostring(enemy))
@@ -537,10 +537,10 @@ function Morale_System_Update(message)
 
         Random_Morale_Swing()
 
-        if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status and GlobalValue.Get("Morale_Status") ~= nil then
-            Story_Event("Morale_Level_Changed")
+        if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status then
+            Story_Event("Morale_Level_Changed_" .. string.upper(Current_Morale_Entry.Name))
 
-            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT", nil, 10, {r=255,b=0,g=0}, true)
+            Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT_" .. string.upper(Current_Morale_Entry.Name), nil, 10, {r=255,b=0,g=0}, true)
         end
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
