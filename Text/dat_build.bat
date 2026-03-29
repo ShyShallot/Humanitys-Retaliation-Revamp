@@ -1,1 +1,1 @@
-datassembler.exe /b mastertextfile_english -s;
+datassembler.exe /b mastertextfile_english
