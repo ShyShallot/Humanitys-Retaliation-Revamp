@@ -1,1 +1,3 @@
+rename mastertextfile_english.csv mastertextfile_english.txt
 datassembler.exe /b mastertextfile_english
+rename mastertextfile_english.txt mastertextfile_english.csv
