@@ -357,57 +357,7 @@
 		
 			
 	</HardPoint>
-	
-	<!-- Ground Variant Pelican -->
-	
-	<HardPoint Name="UNSC_GPELICAN_01">
-	
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>ROOT</Fire_Bone_A>
-		<Fire_Bone_B>ROOT</Fire_Bone_B>
-		<Fire_Cone_Width>360.0</Fire_Cone_Width>
-		<Fire_Cone_Height>50.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>M370_Cannon</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>6.3</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>650</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
-		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
-  
-	</HardPoint>
-	
-	<HardPoint Name="UNSC_GPELICAN_02"> <!-- Ground Pelican Missile Variant -->
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Fire_Bone_A>FB_01</Fire_Bone_A>
-		<Fire_Bone_B>FB_01</Fire_Bone_B>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>115.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Pelican_Missile</Fire_Projectile_Type> 
-		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>650</Fire_Range_Distance>
-		<Fire_SFXEvent/>
-		
-		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
-		
-			
-	</HardPoint>
 	
 	<HardPoint Name="UNSC_CONDOR_01">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -658,6 +608,58 @@
 			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 
     </HardPoint> -->
+	
+		
+	<!-- Ground Variant Pelican -->
+	
+	<HardPoint Name="UNSC_GPELICAN_01">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>ROOT</Fire_Bone_A>
+		<Fire_Bone_B>ROOT</Fire_Bone_B>
+		<Fire_Cone_Width>360.0</Fire_Cone_Width>
+		<Fire_Cone_Height>50.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M370_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.3</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_DECK</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
+  
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_GPELICAN_02"> <!-- Ground Pelican Missile Variant -->
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>FB_01</Fire_Bone_A>
+		<Fire_Bone_B>FB_01</Fire_Bone_B>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>115.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Pelican_Delivery</Fire_Projectile_Type> 
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1250</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
+		
+			
+	</HardPoint>
 	
 	<HardPoint Name="UNSC_FALCON_LEFT">
 	
@@ -924,12 +926,12 @@
 		<Fire_Bone_B>HP_Missiles_01</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Wombat_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>6250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -948,16 +950,73 @@
 		<Fire_Bone_B>HP_Missiles_02</Fire_Bone_B>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Archer_Delivery</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_Wombat_Delivery</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2250</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>6250</Fire_Range_Distance>
 		<Fire_SFXEvent/>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+	</HardPoint>	
+	
+	<HardPoint Name="UNSC_B65_BOMBS_00">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>HP_Missiles_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_Missiles_01</Fire_Bone_B>
+		<Fire_Cone_Width>35.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>35</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Fire_Inaccuracy_Distance> Infantry, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 99.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+            
+			
+	</HardPoint>
+	
+	<HardPoint Name="UNSC_B65_BOMBS_01">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>HP_Missiles_02</Fire_Bone_A>
+		<Fire_Bone_B>HP_Missiles_02</Fire_Bone_B>
+		<Fire_Cone_Width>35.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>35</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Fire_Inaccuracy_Distance> Infantry, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 99.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
 			
 	</HardPoint>	
 	

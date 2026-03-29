@@ -1378,8 +1378,8 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 150 </Layer_Z_Adjust>
-		<Hover_Offset>150.0</Hover_Offset>
+		<Layer_Z_Adjust> 250 </Layer_Z_Adjust>
+		<Hover_Offset>250.0</Hover_Offset>
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
@@ -1422,7 +1422,7 @@
 		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			UNSC_WOMBAT_00, UNSC_WOMBAT_01
+			<!-- UNSC_WOMBAT_00, UNSC_WOMBAT_01 --> UNSC_B65_BOMBS_00, UNSC_B65_BOMBS_01
 		</HardPoints>
 
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
@@ -1439,7 +1439,7 @@
 		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
 		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
 
-		<SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire>
+		<!-- <SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire> -->
 		<SFXEvent_Select>Unit_Select_Assault_Speeder</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Assault_Speeder</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
@@ -1487,7 +1487,7 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Strafe_Distance>500.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>1700.0</Begin_Turn_Towards_Distance>
 
 		<Weather_Category>Flying</Weather_Category>
 
