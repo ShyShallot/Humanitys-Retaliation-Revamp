@@ -132,9 +132,9 @@
 		 
 		  <SFXEvent Name="Unit_UNSC_BULLET_AVENGER">
 					<Use_Preset>Preset_UNSC_CWIS</Use_Preset>
-					<Samples>Data\Audio\OotF\UNSC_AVENGER.wav</Samples>
-					<Min_Volume>10</Min_Volume>
-					<Max_Volume>30</Max_Volume>
+					<Samples>Data\Audio\OotF\UNSC_BULLET_AVENGER.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>70</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
