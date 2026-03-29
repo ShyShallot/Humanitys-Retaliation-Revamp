@@ -546,7 +546,13 @@ Starting_Units_Handler = {
     Unit_Power_Cache = {},
 }
 
-function Starting_Units_Handler:Start()
+function Starting_Units_Handler:Start(skip)
+
+    if skip then
+        self.Finished = true
+
+        return
+    end
 
     DebugMessage("%s -- Starting Random Unit Spawn",tostring(Script))
 
