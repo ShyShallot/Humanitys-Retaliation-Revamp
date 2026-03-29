@@ -34,13 +34,14 @@
 		
 		<Company_Units> 
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Snowspeeder,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, Snowspeeder,
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, Snowspeeder,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, UNSC_PELICAN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
+		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
+		UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT
 		</Company_Units>
 		
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
@@ -86,7 +87,7 @@
 		
 	</GroundCompany>
 	
-	<GroundCompany Name="UNSC_WOMBAT_UAV">  <!-- Wombat Squad -->
+	<GroundCompany Name="UNSC_WOMBAT_UAV">  <!-- Wombat Squad --> 
 	
 		<Text_ID>TEXT_UNIT_UNSC_WOMBAT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_WOMBAT</Encyclopedia_Text>
@@ -164,17 +165,17 @@
 		
 	</GroundCompany>
 	
-<!-- <GroundCompany Name="B-65_Wing">   Future B-65 bomber
+	<GroundCompany Name="B-65_Wing">  <!-- B-65_Wing Squad --> 
 	
-		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_UNSC_SHORTSWORD_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SHORTSWORD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>24</Damage>
 		<Autoresolve_Health>40</Autoresolve_Health>
 		<Affiliation>Rebel, Terrorists</Affiliation>
-		<Build_Cost_Credits>750</Build_Cost_Credits>
+		<Build_Cost_Credits>1239</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
@@ -183,25 +184,21 @@
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
 		<Required_Planets />
-		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Prority>1</Formation_Prority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
+		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder, Snowspeeder</Company_Units>
 		
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>200.0,-150.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-200.0,0.0</Squadron_Offsets>
+		<Company_Units>UNSC_B_65_BOMBER, UNSC_B_65_BOMBER</Company_Units>
 		
-		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
 		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
 		<GUI_Distance>70</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -212,18 +209,37 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>225</Score_Cost_Credits>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CABLE_ATTACK</Type>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+  		
   		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		
-	</GroundCompany> -->
+	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_FALCON_WING">  <!-- Falcon Platoon-->
 		<Text_ID>UNSC_FALCON_Platoon</Text_ID>

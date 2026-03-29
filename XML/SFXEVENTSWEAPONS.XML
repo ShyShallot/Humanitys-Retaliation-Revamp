@@ -81,8 +81,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_ONAGER.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_MAC">
@@ -90,8 +90,8 @@
 					<Samples>Data\Audio\OotF\UNSC_MAC.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET">
@@ -99,8 +99,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_CHAIN.wav</Samples>
 					<Min_Volume>90</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_RAPID">
@@ -108,8 +108,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_RAPID.wav</Samples>
 					<Min_Volume>60</Min_Volume>
 					<Max_Volume>90</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_DECK">
@@ -117,8 +117,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_DECK.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CWIS">
@@ -130,13 +130,22 @@
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
+		  <SFXEvent Name="Unit_UNSC_BULLET_AVENGER">
+					<Use_Preset>Preset_UNSC_CWIS</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_AVENGER.wav</Samples>
+					<Min_Volume>10</Min_Volume>
+					<Max_Volume>30</Max_Volume>
+					<Min_Pitch>70</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
+		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CAP">
 					<Use_Preset>Preset_UNSC_BULLET_CAP</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_BULLET_CAP_00.wav</Samples>
 					<Min_Volume>90</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_FIGHTER">
@@ -144,8 +153,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_FIGHTER.wav</Samples>
 					<Min_Volume>70</Min_Volume>
 					<Max_Volume>85</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MINGUN_FIGHTER">
@@ -153,8 +162,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_4.wav</Samples>
 					<Min_Volume>50</Min_Volume>
 					<Max_Volume>65</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		  <SFXEvent Name="Unit_UNSC_MACHINEGUN_FIGHTER">
@@ -162,8 +171,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_3.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_PELICAN">
@@ -171,8 +180,8 @@
 					<Samples>Data\Audio\OotF\UNSC_BULLET_PELICAN.wav</Samples>
 					<Min_Volume>75</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		
@@ -181,8 +190,8 @@
 					<Samples>Data\Audio\OotF\UNSC_FLAK.wav</Samples>
 					<Min_Volume>150</Min_Volume>
 					<Max_Volume>200</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_GAUSS">
@@ -190,8 +199,8 @@
 					<Samples>Data\Audio\OotF\UNSC_MINI_MAC.wav</Samples>
 					<Min_Volume>90</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MISSILE">
@@ -200,7 +209,7 @@
 					<Min_Volume>95</Min_Volume>
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MISSILE_FIGHTER">
@@ -208,8 +217,8 @@
 					<Samples>Data\Audio\OotF\UNSC_MISSILE_FIGHTER.wav</Samples>
 					<Min_Volume>40</Min_Volume>
 					<Max_Volume>55</Max_Volume>
-					<Min_Pitch>100</Min_Pitch>
-					<Max_Pitch>115</Max_Pitch>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		
 		<!-- END UNSC AUDIO -->

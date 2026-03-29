@@ -128,8 +128,8 @@
 		<Samples>
 		Data\Audio\OotF\Vehicles\UNSC\Falcon\UNSC_FALCON_BLADES.wav
 		</Samples>
-		<Min_Volume>20</Min_Volume>
-		<Max_Volume>20</Max_Volume>
+		<Min_Volume>40</Min_Volume>
+		<Max_Volume>40</Max_Volume>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_UNSC_WARTHOG_ENGINE_IDLE_LOOP"> <!-- This is Idle -->

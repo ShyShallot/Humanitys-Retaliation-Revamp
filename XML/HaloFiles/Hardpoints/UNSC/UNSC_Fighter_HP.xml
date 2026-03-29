@@ -969,14 +969,14 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>HP_Missiles_01</Fire_Bone_A>
-		<Fire_Bone_B>HP_Missiles_01</Fire_Bone_B>
+		<Fire_Bone_A>HP_BOMBS</Fire_Bone_A>
+		<Fire_Bone_B>HP_BOMBS</Fire_Bone_B>
 		<Fire_Cone_Width>35.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>35</Fire_Pulse_Count>
+		<Fire_Pulse_Count>15</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>550</Fire_Range_Distance>
 		<Fire_SFXEvent/>
@@ -998,14 +998,14 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>HP_Missiles_02</Fire_Bone_A>
-		<Fire_Bone_B>HP_Missiles_02</Fire_Bone_B>
+		<Fire_Bone_A>HP_BOMBS1</Fire_Bone_A>
+		<Fire_Bone_B>HP_BOMBS1</Fire_Bone_B>
 		<Fire_Cone_Width>35.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>35</Fire_Pulse_Count>
+		<Fire_Pulse_Count>15</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>550</Fire_Range_Distance>
 		<Fire_SFXEvent/>
@@ -1019,6 +1019,84 @@
 		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
 			
 	</HardPoint>	
+	
+	<HardPoint Name="UNSC_B65_BOMBS_02">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>HP_BOMBS2</Fire_Bone_A>
+		<Fire_Bone_B>HP_BOMBS2</Fire_Bone_B>
+		<Fire_Cone_Width>35.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>15</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Fire_Inaccuracy_Distance> Infantry, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 99.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+			
+	</HardPoint>	
+	
+	<HardPoint Name="UNSC_B65_BOMBS_03">
+	
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>HP_BOMBS3</Fire_Bone_A>
+		<Fire_Bone_B>HP_BOMBS3</Fire_Bone_B>
+		<Fire_Cone_Width>35.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_Mk208_Cluster</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>15</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Fire_Inaccuracy_Distance> Infantry, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 99.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 99.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+			
+	</HardPoint>	
+	
+	<!-- <HardPoint Name="UNSC_B65_30MM">           (Do not use traditional Guns on Ground based jets, it looks really WEIRD (Apple) )
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Fire_Bone_A>FB_C_01</Fire_Bone_A>
+		<Fire_Bone_B>FB_C_02</Fire_Bone_B>
+		<Fire_Cone_Width>10.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>M955_ASW_AC_30mm</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_AVENGER</Fire_SFXEvent>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_Inaccuracy_Distance> Infantry, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 0.0 </Fire_Inaccuracy_Distance> 
+		<Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance> 
+			
+	</HardPoint> -->
 	
 	
 </HardPoints>
