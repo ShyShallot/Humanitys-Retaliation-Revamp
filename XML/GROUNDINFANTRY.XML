@@ -2288,9 +2288,8 @@
 			<Unit_Ability>
 			
 				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>9998</Recharge_Seconds>
+				<Recharge_Seconds>1</Recharge_Seconds>
 				<Spawned_Object_Type>Proj_UNSC_ODST</Spawned_Object_Type>
-				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 				
 			</Unit_Ability> 
 		

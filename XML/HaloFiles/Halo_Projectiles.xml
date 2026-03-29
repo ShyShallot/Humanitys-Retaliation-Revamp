@@ -879,23 +879,7 @@
 		
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Mk208_Cluster"> <!-- Dumb Bomb for B65 Bomber these are custom bombs that utilize gravity and must be dropped from ABOVE their target to hit -->
 	
-		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
-		<Damage_Type>Damage_UNSC_Missile_Fighter</Damage_Type>
-		<Space_Model_Name>W_UNSC_Dumb_BOMB.ALO</Space_Model_Name>
-		<Max_Speed>3.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>GRENADE</Projectile_Category>
-		<Projectile_Grenade_Gravity>0.1</Projectile_Grenade_Gravity>
-		<Projectile_Grenade_Gravity_Lob_Mod>0.01</Projectile_Grenade_Gravity_Lob_Mod>
-		<Projectile_Grenade_Can_Lob_Slower>no</Projectile_Grenade_Can_Lob_Slower>
-		<Projectile_Damage>30.0</Projectile_Damage>
-
-		<AI_Combat_Power>100</AI_Combat_Power>
-	
-	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Shiva_Missiles"> 
 	<!-- These due to EM interference and radiation are capable of doing energy regen damage to covenant ships -->
@@ -1081,6 +1065,33 @@
 		
 		
 		
+	</Projectile>
+	
+	
+	<Projectile Name="Proj_UNSC_Mk208_Cluster"> <!-- Dumb Bomb for B65 Bomber these are custom bombs that utilize gravity and must be dropped from ABOVE their target to hit -->
+	
+		<Damage_Type>Damage_UNSC_Missile_Fighter</Damage_Type>
+		<Space_Model_Name>W_UNSC_Dumb_BOMB.ALO</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
+		<Max_Speed>4.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>GRENADE</Projectile_Category>
+		<Projectile_Grenade_Gravity>0.1</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>1</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>Yes</Projectile_Grenade_Can_Lob_Slower>
+		<Projectile_Damage>5050.0</Projectile_Damage>
+		
+		<Projectile_Blast_Area_Damage> 20 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 25 </Projectile_Blast_Area_Range>
+		
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+
+		<AI_Combat_Power>100</AI_Combat_Power>
+	
 	</Projectile>
 	
 	
@@ -2513,7 +2524,7 @@
 		<Land_Model_Name>w_smallbomb.ALO</Land_Model_Name>
 		<Space_Model_Name>w_smallbomb.ALO</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Max_Speed>0.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Damage_Type> Damage_StickyBomb </Damage_Type>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -2524,6 +2535,9 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Grenade_Sticks_On_Collision>no</Projectile_Grenade_Sticks_On_Collision>
 		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_Grenade_Gravity>10</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>1.0</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2878,16 +2892,16 @@
 	<Projectile Name="M41_102MM_Rocket"> <!-- Standard Guided Rockets -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_T4B </Damage_Type>
-		<Max_Speed>2.5</Max_Speed>
+		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>3</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_Damage>350.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2903,6 +2917,7 @@
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
+
 	
 	<Projectile Name="M638_Cannon"> <!-- Ground Falcon Rounds -->
 	
@@ -2960,7 +2975,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="Pelican_Missile"> <!-- Ground Pelican Missile -->
+		<Projectile Name="M5920_Missile_System"> <!-- Mantis Missile -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
@@ -2972,10 +2987,7 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>0.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 250 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 40 </Projectile_Blast_Area_Range>
-		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+		<Projectile_Damage>500.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -2993,7 +3005,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="AT_ST_Barrage"> <!-- used by Mantis (HE version of the LAAG) -->
+		<Projectile Name="AT_ST_Barrage"> <!-- used by Mantis (HE version of the LAAG) -->
 		<Variant_Of_Existing_Type>LAAG</Variant_Of_Existing_Type>
 		<Damage_Type> Damage_ATST </Damage_Type>
 		<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
@@ -3039,30 +3051,88 @@
 		<AI_Combat_Power>600</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="M5920_Missile_System"> <!-- Mantis Missile -->
+	<Projectile Name="M955_ASW_AC_30mm"> <!-- Ground Shortsword / B65 AP Depleted Uranium-->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
-		<Scale_Factor>0.3</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_T4B </Damage_Type>
-		<Max_Speed>6.5</Max_Speed>
-		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
+		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
+		<Max_Speed>20</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>500.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
+		<Projectile_Damage>250</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
 		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>300</AI_Combat_Power>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_Pelican_Delivery"> <!-- these are the cluster missile delivery system -->
+	
+		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
+		
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>16.0</Max_Speed>
+		<Projectile_Damage>800.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<CategoryMask>Transport</CategoryMask>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_Wombat_Delivery"> <!-- these are the cluster missile delivery system -->
+
+		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
+		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>26.0</Max_Speed>
+		<Projectile_Damage>800.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<CategoryMask>Transport</CategoryMask>
+		<Projectile_Category>MISSILE</Projectile_Category>
+	
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
+		
+		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
