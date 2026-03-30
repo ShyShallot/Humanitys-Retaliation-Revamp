@@ -7113,7 +7113,7 @@
 
     <CommandBarComponent Name="tutorial_text_back">
             <Type>TextButton</Type>
-            <Blank_Texture_Name>i_tooltip_back.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_DISPLAY_BACK.tga</Blank_Texture_Name>
             <No_Shell>True</No_Shell>
             <Base_Layer>8</Base_Layer>
             <Color>255 255 255 220</Color>
