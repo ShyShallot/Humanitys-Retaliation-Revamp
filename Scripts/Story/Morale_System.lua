@@ -371,10 +371,10 @@ function Definitions()
     end
 
     function Random_Events.Random_Chances:Should_Random_Event_Happen()
-        local roll = (GameRandom.Free_Random(0,100) / 100)
+        local roll = (EvenMoreRandom(1,100) / 100)
 
         if roll <= 0.01 then
-            roll = 0.05
+            roll = 0.005
         end
 
         DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll))
@@ -953,6 +953,8 @@ function Modify_Morale(event_table)
 
     local bad = event_table.Subtract
 
+    local color = {r=255,g=0,b=0}
+
     DebugMessage("%s -- Event Morale Value: %s, Subtract: %s, Event Name: %s", tostring(Script), tostring(Morale_Value), tostring(bad), tostring(event_table.Name))
 
     if not bad then
@@ -970,6 +972,8 @@ function Modify_Morale(event_table)
                 Morale_Value = event_table.Value
             end
         end
+
+        color = {r=255,g=255,b=255}
     end
 
 
@@ -980,7 +984,7 @@ function Modify_Morale(event_table)
     DebugMessage("%s -- Number object %s for Morale Value: %s", tostring(Script), tostring(Fake_Morale_Type), Morale_Value)
 
     if Fake_Morale_Type ~= nil then
-        Display_Handler:Add_Body(event_table.String, 15, true, nil, Fake_Morale_Type)
+        Display_Handler:Add_Body(event_table.String, 15, true, color, Fake_Morale_Type)
     end
 
     event_table.Happened = Get_Current_Week()
@@ -1510,7 +1514,7 @@ end
 ---@field Color table Defaults to white. Format {r=255,b=255,g=255}
 ---@field Var any Only Objects and Player will properly work
 ---@field Time number Time in seconds till text disappears
----@field private Time_Added number 
+---@field Time_Added number 
 
 ---@class Body
 ---@field Text string TEXT_ID
@@ -1518,15 +1522,15 @@ end
 ---@field Var any Only Objects and Player will properly work
 ---@field Time number Time in seconds till text disappears
 ---@field Teletype boolean Is Text typed in over time
----@field private Time_Added number
----@field private Shown boolean
+---@field Time_Added number
+---@field Shown boolean
 
 ---@class Footer
 ---@field Text string TEXT_ID
 ---@field Color table Defaults to white. Format {r=255,b=255,g=255}
 ---@field Var any Only Objects and Player will properly work
 ---@field Time number Time in seconds till text disappears
----@field private Time_Added number 
+---@field Time_Added number 
 
 ---@class Display_Handler
 Display_Handler = {
@@ -1538,7 +1542,7 @@ Display_Handler = {
     Body = {
 
     },
-    ---@type Body[]
+    ---@type Footer[]
     Footer = {
 
     },
@@ -1678,6 +1682,8 @@ function Display_Handler:Add_Body(string, time, teletype, color, var)
 
     for _, sBody in pairs(self.Body) do
         if sBody.Text == string then
+            sBody.Shown = false
+            sBody.Teletype = true
             is_invalid = true
             break
         end
