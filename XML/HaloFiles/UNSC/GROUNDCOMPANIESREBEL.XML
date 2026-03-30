@@ -119,7 +119,85 @@
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
 		<Company_Units> 
-		UNSC_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT
+		UNSC_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_C709_G_LONGSWORD
+		</Company_Units>
+		
+		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WOMBAT.TGA</Icon_Name>
+		<GUI_Model>RV_snowspeeder.ALO</GUI_Model>
+		<GUI_Distance>70</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>225</Score_Cost_Credits>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CABLE_ATTACK</Type>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+			
+			<Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+  		
+  		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
+        <Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="UNSC_WOMBAT_UAV">  <!-- Wombat Squad --> 
+	
+		<Text_ID>TEXT_UNIT_UNSC_WOMBAT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_WOMBAT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>24</Damage>
+		<Autoresolve_Health>40</Autoresolve_Health>
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Build_Cost_Credits>1239</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Prority>1</Formation_Prority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		
+		<Company_Units> 
+		UNSC_C709_G_LONGSWORD
 		</Company_Units>
 		
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WOMBAT.TGA</Icon_Name>
