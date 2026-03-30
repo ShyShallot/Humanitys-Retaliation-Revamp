@@ -1067,17 +1067,7 @@
 				AT_AT_Walker_Death_Clone_01,
 				AT_AT_Walker_Death_Clone_02
 		</Presence_Induced_Animations>		
-		
-		<!-- Non-Hero unit abilities description
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<Unit_Ability>
-				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
-				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data> -->
+	
 		
 			<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1087,26 +1077,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
 			
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>5.0</Heal_Range>
-				<Heal_Percent> 0.25 </Heal_Percent>
-                <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>LandHero</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
-				<Applicable_Unit_Types />
-				
-				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				
-			</Force_Healing_Ability>
 			
 		</Unit_Abilities_Data>
 		
@@ -1136,7 +1106,8 @@
 			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-        	<System_Spy_Ability Name="Mako_System_Spy">
+			
+        	<System_Spy_Ability Name="System_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
@@ -1318,17 +1289,6 @@
 				AT_AT_Walker_Death_Clone_02
 		</Presence_Induced_Animations>		
 		
-		<!-- Non-Hero unit abilities description
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<Unit_Ability>
-				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
-				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data> -->
-		
 			<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -1336,29 +1296,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
 			</Unit_Ability>
-			
-			
-			
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>5.0</Heal_Range>
-				<Heal_Percent> 0.25 </Heal_Percent>
-                <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>LandHero</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
-				<Applicable_Unit_Types />
-				
-				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				
-			</Force_Healing_Ability>
+
 			
 		</Unit_Abilities_Data>
 		
@@ -1388,7 +1326,8 @@
 			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-        	<System_Spy_Ability Name="Mako_System_Spy">
+			
+        	<System_Spy_Ability Name="Spartan_System_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>

@@ -852,13 +852,9 @@
 		<Text_ID>UNSC-SPARTAN-II</Text_ID>
 		<Encyclopedia_Text>UNSC_SPARTAN_II_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		
-		
-		<Show_Hero_Head>Yes</Show_Hero_Head>
-		
+	
 		<Is_Stealth_Company>Yes</Is_Stealth_Company>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>1000</Damage>
@@ -881,7 +877,6 @@
 		
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
-		
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		
@@ -915,16 +910,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-		<!--
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<Unit_Ability>
-				<Type>UNTARGETED_STICKY_BOMB</Type>
-				<Recharge_Seconds>9999</Recharge_Seconds>
-				<Spawned_Object_Type>UNSC_Sandbags</Spawned_Object_Type>
-				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
-			</Unit_Ability>
-		</Unit_Abilities_Data> -->
 		
 		<Abilities SubObjectList="Yes">
 		
@@ -975,8 +960,6 @@
 			
 			</Abilities>
 
-		
-		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		
 	</GroundCompany>
