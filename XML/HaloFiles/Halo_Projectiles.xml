@@ -3343,6 +3343,35 @@
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
 	</Projectile>
+	
+	<Projectile Name="Wraith_Plasma_Mortar"> 
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>COVN_WRAITH_MORTAR.ALO</Land_Model_Name> <!-- This should be blue -->
+		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
+		<Max_Speed>10.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>GRENADE</Projectile_Category>
+		<Projectile_Grenade_Gravity>0.02</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>0.9</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
+		
+		<Projectile_Damage>8250.0</Projectile_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Spmat_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Spmat_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
 	 
 	<Projectile Name="Scarab_AA_GUN">  <!-- this cannot fire at infantry please double check that this is true (Apple and Murphy ) -->
 	
