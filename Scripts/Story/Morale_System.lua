@@ -553,6 +553,8 @@ function Morale_System_Update(message)
             Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_"..string.upper(GlobalValue.Get("Morale_Status")))
 
             Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL")
+
+            Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_REBELLING_PLANETS")
         end
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
@@ -605,6 +607,8 @@ function Morale_System_Update(message)
             if Activate_Low_Morale then
                 Low_Planet_Morale()
 
+                Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_REBELLING_PLANETS", "red")
+
                 if Morale_Value_Status.Targeted_Planet ~= nil then
                     local targeted_planet_entry = Get_Planet_Morale(Morale_Value_Status.Targeted_Planet)
 
@@ -615,6 +619,7 @@ function Morale_System_Update(message)
                     end
                 end
             else
+                Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_REBELLING_PLANETS")
                 Add_Display_Text("TEXT_STORY_MORALE_DISPLAY_TARGET_PLANET_NONE")
                 High_Planet_Morale()
             end
@@ -1546,32 +1551,27 @@ Display_Handler = {
     Footer = {
 
     },
+
+    COLOR_MAP = {
+        red    = {r=255,g=0,b=0},
+        blue   = {r=0,g=0,b=255},
+        green  = {r=0,g=255,b=0},
+        yellow = {r=242,g=214,b=34},
+        black  = {r=0,g=0,b=0},
+        pink   = {r=248,g=115,b=255},
+        purple = {r=77,g=26,b=105},
+        orange = {r=219,g=107,b=22}
+    }
 }
 
 
 ---@param string string
----@param color? table
+---@param color? table|string
 ---@param var? any
 ---@param time? number
 function Display_Handler:Add_Header(string, color, var, time)
     if type(string) ~= "string" then
         return
-    end
-
-    if color == nil then
-        color = {r=255,b=255,g=255}
-    end
-
-    if color.r == nil then
-        color.r = 255
-    end
-
-    if color.b == nil then
-        color.b = 255
-    end
-
-    if color.g == nil then
-        color.g = 255
     end
 
     if type(time) ~= "number" then
@@ -1595,32 +1595,16 @@ function Display_Handler:Add_Header(string, color, var, time)
     end
     
 
-    table.insert(self.Headers, {Text = string, Color = color, Var = var, Time = time, Time_Added = GetCurrentTime.Galactic_Time()})
+    table.insert(self.Headers, {Text = string, Color = self:Process_Color(color), Var = var, Time = time, Time_Added = GetCurrentTime.Galactic_Time()})
 end
 
 ---@param string string
----@param color? table
+---@param color? table|string
 ---@param var? any
 ---@param time? number
 function Display_Handler:Add_Footer(string, color, var, time)
     if type(string) ~= "string" then
         return
-    end
-
-    if color == nil then
-        color = {r=255,b=255,g=255}
-    end
-
-    if color.r == nil then
-        color.r = 255
-    end
-
-    if color.b == nil then
-        color.b = 255
-    end
-
-    if color.g == nil then
-        color.g = 255
     end
 
     if type(time) ~= "number" then
@@ -1641,13 +1625,13 @@ function Display_Handler:Add_Footer(string, color, var, time)
     end
     
 
-    table.insert(self.Footer, {Text = string, Color = color, Var = var, Time = time, Time_Added = GetCurrentTime.Galactic_Time()})
+    table.insert(self.Footer, {Text = string, Color = self:Process_Color(color), Var = var, Time = time, Time_Added = GetCurrentTime.Galactic_Time()})
 end
 
 ---@param string string
 ---@param time number
 ---@param teletype? boolean
----@param color? table
+---@param color? table|string
 ---@param var? any
 function Display_Handler:Add_Body(string, time, teletype, color, var)
     if type(string) ~= "string" then
@@ -1660,22 +1644,6 @@ function Display_Handler:Add_Body(string, time, teletype, color, var)
 
     if teletype ~= true then
         teletype = false
-    end
-
-    if color == nil then
-        color = {r=255,b=255,g=255}
-    end
-
-    if color.r == nil then
-        color.r = 255
-    end
-
-    if color.b == nil then
-        color.b = 255
-    end
-
-    if color.g == nil then
-        color.g = 255
     end
 
     local is_invalid = false
@@ -1693,7 +1661,7 @@ function Display_Handler:Add_Body(string, time, teletype, color, var)
         return
     end
 
-    table.insert(self.Body, {Text = string, Color = color, Var = var, Time = time, Teletype = teletype, Time_Added = GetCurrentTime.Galactic_Time(), Shown = false})
+    table.insert(self.Body, {Text = string, Color = self:Process_Color(color), Var = var, Time = time, Teletype = teletype, Time_Added = GetCurrentTime.Galactic_Time(), Shown = false})
 end
 
 ---@private
@@ -1705,9 +1673,9 @@ function Display_Handler:Remove_Text()
         Remove_Screen_Text(Header.Text)
     end
 
-    Remove_Screen_Text(" ")
+    --Remove_Screen_Text(" ")
     Remove_Screen_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02")
-    Remove_Screen_Text("  ")
+    --Remove_Screen_Text("  ")
 
     for _, Body in pairs(self.Body) do
         DebugMessage("%s -- Clearing: %s", tostring(Script), tostring(Body.Text))
@@ -1750,9 +1718,9 @@ function Display_Handler:Process()
         end
     end
 
-    Show_Screen_Text(" ", nil, -1)
+    --Show_Screen_Text(" ", nil, -1)
     Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_BODY_SEPERATOR_02", nil, -1)
-    Show_Screen_Text("  ", nil, -1)
+    --Show_Screen_Text("  ", nil, -1)
 
     local Body_Index = 1
 
@@ -1860,4 +1828,37 @@ function Display_Handler:Remove_Footer(text)
             end
         end
     end
+end
+
+function Display_Handler:Process_Color(color)
+
+    local out = {r=255,g=255,b=255}
+
+    if type(color) == "string" then
+
+        local map = self.COLOR_MAP[string.lower(color)]
+
+        if map then
+            out = Clone_Table(map)
+        end
+        
+    elseif type(color) == "table" then
+        if type(color.r) ~= "number" or color.r < 0 or color.r > 255 then
+            return out
+        end
+
+        if type(color.g) ~= "number" or color.g < 0 or color.g > 255 then
+            return out
+        end
+
+        if type(color.b) ~= "number" or color.b < 0 or color.b > 255 then
+            return out
+        end
+
+        out = Clone_Table(color)
+    else
+        return out
+    end
+
+    return out
 end
