@@ -24,7 +24,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
+                            ["Rebel_Infantry_Squad"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -55,7 +55,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
+                            ["Rebel_Infantry_Squad"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -90,7 +90,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
+                            ["Rebel_Infantry_Squad"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -125,12 +125,12 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
+                            ["Rebel_Infantry_Squad"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
                             ["Warthog_Platoon"] = {
-                                Weight = 15,
+                                Weight = 25,
                                 Limit = -1
                             },
                         },
@@ -160,12 +160,12 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
+                            ["Rebel_Infantry_Squad"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
                             ["Warthog_Platoon"] = {
-                                Weight = 15,
+                                Weight = 25,
                                 Limit = -1
                             },
                         }
