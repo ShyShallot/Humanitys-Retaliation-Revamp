@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Tech_Units>
 
- <!-- Shy I put this in here and made the shield tech a space building bc players were unable to figure out that they needed to have a ground slot available for their shield research (Apple) -->
+ 	<!-- Shy I put this in here and made the shield tech a space building bc players were unable to figure out that they needed to have a ground slot available for their shield research (Apple) -->
 
-		<SpecialStructure Name="UNSC_Tech_Shield">    
+	<SpecialStructure Name="UNSC_Tech_Shield">    
 		
         <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
 
@@ -17,6 +17,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
+		<Required_Planets>INSTALLATION_05</Required_Planets>
 
         <Build_Cost_Credits>10450</Build_Cost_Credits>
 		<Build_Time_Seconds>70</Build_Time_Seconds>
