@@ -1299,11 +1299,11 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>28</Population_Value>
+		<Population_Value>38</Population_Value>
 
 	</SpaceUnit>
 	
-	<SpaceUnit Name="UNSC_CONSTITUTION">
+	<SpaceUnit Name="UNSC_CONSTITUTION"> <!-- IS THAT A FUCKING??? -->
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>USS_Constitution</Text_ID>
@@ -1314,7 +1314,7 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>1.0</Scale_Factor> <!-- Original was 3.2 -->
+		<Scale_Factor>0.6</Scale_Factor> <!-- Original was 3.2 -->
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -1357,7 +1357,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets>Earth, Mars, Reach</Required_Planets>
-		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Autoresolve_Health>20002500</Autoresolve_Health>
 		<Tactical_Health>155000</Tactical_Health>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -1366,7 +1366,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>52605</Build_Cost_Credits>
-		<AI_Combat_Power>1000</AI_Combat_Power>
+		<AI_Combat_Power>100000</AI_Combat_Power>
 		<Build_Time_Seconds>180</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -1411,7 +1411,7 @@
 		<SFXEvent_Build_Complete>GUI_Capital_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Ambient_Loop>Unit_UNSC_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 
-		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_UNSC_CONSTITUTION</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
@@ -1503,7 +1503,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>28</Population_Value>
+		<Population_Value>08</Population_Value>
 
 	</SpaceUnit>
 	

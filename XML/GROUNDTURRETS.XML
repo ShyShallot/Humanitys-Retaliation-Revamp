@@ -209,7 +209,7 @@
 	
 		<Variant_Of_Existing_Type> Abstract_Turret </Variant_Of_Existing_Type>
 
-		<LandBehavior> TURRET, TARGETING,WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET </LandBehavior>
+		<LandBehavior> TURRET, TARGETING,WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON,</LandBehavior>
 		
 		<Text_ID>TEXT_STRUCTURE_TURRET_AI</Text_ID>
 
@@ -369,6 +369,48 @@
 
 
    </GroundStructure>
+   
+   <GroundStructure Name="Engineer_Ground_Barracks">  <!-- Ground Field Tent for engineers -->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
+		<Encyclopedia_Text> CRAYONS </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> CRAYONS </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+			Rebel,
+				RL_Combat_Armor_L1_Upgrade,
+				RL_Combat_Armor_L2_Upgrade,
+				RL_More_Garrisons_L1_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 1000</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>20.0</Spawned_Squadron_Location_Flyout_Distances>
+
+
+   </GroundStructure> 
 
 	<GroundStructure Name="Pirate_Anti_Infantry_Turret">
 

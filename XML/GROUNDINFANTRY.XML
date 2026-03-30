@@ -1738,6 +1738,7 @@
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
+			
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
@@ -1749,7 +1750,7 @@
 			
 				<Type>UNTARGETED_STICKY_BOMB</Type>
 				<Recharge_Seconds>9998</Recharge_Seconds>
-				<Spawned_Object_Type>UNSC_ENGINEER_Anti_Infantry_Turret</Spawned_Object_Type>
+				<Spawned_Object_Type>Engineer_Ground_Barracks</Spawned_Object_Type>
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 				
 			</Unit_Ability> 

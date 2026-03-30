@@ -1,6 +1,35 @@
 <?xml version="1.0"?>
 <Tech_Units>
-    <SpecialStructure Name="UNSC_Tech_Template">
+
+ <!-- Shy I put this in here and made the shield tech a space building bc players were unable to figure out that they needed to have a ground slot available for their shield research (Apple) -->
+
+		<SpecialStructure Name="UNSC_Tech_Shield">    
+		
+        <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
+
+        <Text_ID>HALO_TEXT_RESEARCH_SHIELD</Text_ID>
+		<Encyclopedia_Text> HALO_TEXT_RESEARCH_SHIELD_ENC  </Encyclopedia_Text>
+
+		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_ACADEMY.TGA</Icon_Name>
+		<Tech_Level>0</Tech_Level>	
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
+
+        <Build_Cost_Credits>10450</Build_Cost_Credits>
+		<Build_Time_Seconds>70</Build_Time_Seconds>
+		
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_UNSC_COUNTDOWN_TIMER_SHIELD </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+
+    </SpecialStructure>
+
+   <!--  <SpecialStructure Name="UNSC_Tech_Template">
 		<Select_Box_Scale>200</Select_Box_Scale>
 
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FIREBASE</Text_ID>
@@ -18,8 +47,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
-		<Build_Time_Seconds>6</Build_Time_Seconds> <!-- Needs Tweaking-->
+		<Build_Cost_Credits>500</Build_Cost_Credits> 
+		<Build_Time_Seconds>6</Build_Time_Seconds> 
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		
@@ -83,9 +112,9 @@
 			<Force_Healing_Ability Name="R_Mining_Facility_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.003</Heal_Percent> <!-- Change from .025 to .003 for MP-->
+				<Heal_Percent>0.003</Heal_Percent> 
 				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> 
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -99,9 +128,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		
-		<!-- The ground structures have this data which looks like it's space only because the
-		snowspeeders are using space style pathfinding which needs this information so that we won't
-		path speeders through structures -->
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
@@ -120,7 +146,7 @@
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> TEXT_TECH_UNSC_COUNTDOWN_TIMER_SHIELD </Build_Countdown_Text_ID>
 		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
-	</SpecialStructure>
+	</SpecialStructure> -->
 
 	<!-- NOT UNSC BUT LAZY-->
 	<!--

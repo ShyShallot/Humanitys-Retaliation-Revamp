@@ -538,7 +538,7 @@ local unit_table = {
     Rebel_Heavy_Tank_Brigade = {
         Category = "Vehicle"
     },
-    Rebel_Infantry_Squad = {
+    UNSC_DEPLOYABLE_GROUND_BARRACKS = {
         Category = "Infantry"
     },
 	UNSC_SPARTAN_SQUAD = {

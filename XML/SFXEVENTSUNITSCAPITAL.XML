@@ -518,7 +518,14 @@
 <!-- UNSC -->
 
 
-
+<SFXEvent Name="Unit_Select_UNSC_CONSTITUTION">
+	 <Use_Preset>Preset_UR</Use_Preset>
+    <Samples>Data\Audio\OotF\Voices\UNSC\Capitals\USS_Constitution\Is_That_A_Fucking.wav</Samples>
+    <Localize> Yes </Localize>
+	 <Play_Sequentially> No </Play_Sequentially>
+    <Text_ID>TEXT_SFX_SSR_SELECT_1, TEXT_SFX_SSR_SELECT_2, TEXT_SFX_SSR_SELECT_3, TEXT_SFX_SSR_SELECT_4, TEXT_SFX_SSR_SELECT_5, TEXT_SFX_SSR_SELECT_6</Text_ID>
+	 <Overlap_Test> Unit_Rebel_Space_Station </Overlap_Test>
+</SFXEvent>
 
 
 <SFXEvent Name="Unit_Select_UNSC_Space_Station">

@@ -3140,6 +3140,7 @@
 	</Projectile>
 	
 	<Projectile Name="M400_ARTILLERY_SYSTEM"> <!-- This is unsc artillery goes on the mptl -->
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name> 
 
@@ -3170,16 +3171,14 @@
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
-		
 		
 	</Projectile>
 	
 	<Projectile Name="M512_90MM"> <!-- Tank Rounds 90mm smoothbore high vel M512 -->
 	
-			<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
 		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>

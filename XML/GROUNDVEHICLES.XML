@@ -1510,7 +1510,7 @@
 		<Land_Model_Name>UNSC_WOMBAT.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -2346,6 +2346,7 @@
 	
 
 	<GroundVehicle Name="MPTL">  <!-- UNSC ARTILLERY -->
+	
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>120.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
@@ -3143,9 +3144,9 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
@@ -5031,5 +5032,7 @@
 		<Text_ID>TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID_FULL</Text_ID>
 		<Scale_Factor>2.25</Scale_Factor>
 	</GroundVehicle>
+	
+
 	
 </GroundVehicles>

@@ -24,7 +24,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -55,7 +55,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -90,7 +90,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -125,7 +125,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
@@ -160,7 +160,7 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_GROUND_BARRACKS"] = {
                                 Weight = 65,
                                 Limit = -1
                             },
