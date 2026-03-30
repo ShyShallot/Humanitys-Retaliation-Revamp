@@ -7126,7 +7126,7 @@
             <Type>TextButton</Type>
             <Scale>1.0</Scale>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>9</Font_Point_Size>
+            <Font_Point_Size>8</Font_Point_Size>
             <Text_Offset>25 -20</Text_Offset>
             <Text_Offset2>0 0</Text_Offset2>
             <Text_Outline>true</Text_Outline>
@@ -7136,7 +7136,7 @@
             <Base_Layer>8</Base_Layer>
             <Default_Offset>0 0</Default_Offset>
             <Mouse_Over_SFX>GUI_Text_SFX</Mouse_Over_SFX>
-            <Size>256 15</Size>
+            <Size>512 20</Size>
     </CommandBarComponent>
 
 
