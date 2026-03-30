@@ -194,6 +194,15 @@
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
 		 
+		 <SFXEvent Name="Unit_UNSC_M400_ARTILLERY">
+					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M400_ARTILLERY.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
+		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_GAUSS">
 					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_MINI_MAC.wav</Samples>

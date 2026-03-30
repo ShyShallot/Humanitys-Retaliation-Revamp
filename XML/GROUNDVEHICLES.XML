@@ -2341,9 +2341,9 @@
 			
 		</Unit_Abilities_Data>
 
-
 	</GroundVehicle>
-
+	
+	
 
 	<GroundVehicle Name="MPTL">  <!-- UNSC ARTILLERY -->
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -2355,7 +2355,9 @@
   		<Encyclopedia_Text>TEXT_TOOLTIP_MPTL</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>RV_MPTL-2A.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_M400_KODIAK.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
+		
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.55</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2419,11 +2421,12 @@
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
 
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>7</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
 
 		<!-- Non-Hero unit abilities description -->
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -2438,7 +2441,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
 
-		<SFXEvent_Fire>Unit_UNSC_BULLET_FLAK</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M400_ARTILLERY</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_MPTL</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MPTL</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_MPTL</SFXEvent_Fleet_Move>
