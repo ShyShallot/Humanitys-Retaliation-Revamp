@@ -2487,6 +2487,7 @@
 		
 		<!-- Note that there is no list of upgrades for campaign mode because this structure
 		cannot currently be built from galactic mode for the Rebels. -->
+		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				RL_Bombing_Run_Use_Upgrade, 
@@ -2496,7 +2497,7 @@
 				RL_Planetary_Bombard_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>8</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 
 		<Abilities SubObjectList="Yes">
@@ -2710,7 +2711,7 @@
 		
 		
 		
-			<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
 		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
 		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
 		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
@@ -2732,7 +2733,7 @@
 		
 		<Scale_Factor>0.20</Scale_Factor>
 
-		<Affiliation> Rebel, Terrorists</Affiliation>
+		<Affiliation> Rebel, Terrorists</Affiliation> 
 
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 	
@@ -2800,6 +2801,8 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 1000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 1000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 1000</Starting_Spawned_Units_Tech_0>
+		
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 		
