@@ -148,7 +148,9 @@
 
 	<SFXEvent Name="GUI_Text_SFX">
         <Use_Preset>Preset_GUI</Use_Preset>
-			<Samples>GUI_MO.wav</Samples>
+			<Samples>Data\Audio\Shy\SFX\UI\UI_TELE_TYPE.wav</Samples>
+			<Min_Volume>100</Min_Volume>
+			<Max_Volume>100</Max_Volume>
     </SFXEvent>
 
 	<SFXEvent Name="GUI_Transmission_SFX">
@@ -967,4 +969,3 @@
 
 
 </SFXEvents>
-
