@@ -3,8 +3,8 @@
 
 <GroundCompany Name="Rebel_Speeder_Wing">  <!-- Pelican Air Wing -->
 	
-		<Text_ID>TEXT_UNIT_UNSC_PELICAN</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_PELICAN</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_UNSC_AIR_SUPPORT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_AIR_SUPPORT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -41,7 +41,7 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
-		UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT
+		UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_FALCON_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_C709_G_LONGSWORD, UNSC_B_65_BOMBER, UNSC_B_65_BOMBER
 		</Company_Units>
 		
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
@@ -87,7 +87,7 @@
 		
 	</GroundCompany>
 	
-	<GroundCompany Name="UNSC_WOMBAT_UAV">  <!-- Wombat Squad --> 
+ <!--	<GroundCompany Name="UNSC_WOMBAT_UAV">  
 	
 		<Text_ID>TEXT_UNIT_UNSC_WOMBAT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_WOMBAT</Encyclopedia_Text>
@@ -106,7 +106,6 @@
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
@@ -135,11 +134,10 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> 
 			</Unit_Ability>
 			
 			<Unit_Ability>
@@ -148,24 +146,19 @@
 			
 		</Unit_Abilities_Data>
 
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
   		
   		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		
-	</GroundCompany>
+	</GroundCompany> -->
 	
-	<GroundCompany Name="UNSC_WOMBAT_UAV">  <!-- Wombat Squad --> 
+	<!-- <GroundCompany Name="UNSC_WOMBAT_UAV">
 	
 		<Text_ID>TEXT_UNIT_UNSC_WOMBAT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_WOMBAT</Encyclopedia_Text>
@@ -184,7 +177,6 @@
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
@@ -213,11 +205,10 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> 
 			</Unit_Ability>
 			
 			<Unit_Ability>
@@ -226,24 +217,19 @@
 			
 		</Unit_Abilities_Data>
 
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
   		
   		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		
-	</GroundCompany>
+	</GroundCompany> -->
 	
-	<GroundCompany Name="B-65_Wing">  <!-- B-65_Wing Squad --> 
+	<!-- <GroundCompany Name="B-65_Wing">  
 	
 		<Text_ID>TEXT_UNIT_UNSC_SHORTSWORD_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNSC_SHORTSWORD</Encyclopedia_Text>
@@ -262,7 +248,6 @@
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
@@ -289,11 +274,10 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name>
 			</Unit_Ability>
 			
 			<Unit_Ability>
@@ -302,24 +286,19 @@
 			
 		</Unit_Abilities_Data>
 
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
   		
   		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		
-	</GroundCompany>
+	</GroundCompany> -->
 	
-	<GroundCompany Name="UNSC_FALCON_WING">  <!-- Falcon Platoon-->
+	<!-- <GroundCompany Name="UNSC_FALCON_WING">  
 		<Text_ID>UNSC_FALCON_Platoon</Text_ID>
 		<Encyclopedia_Text>UNSC_FALCON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP </Encyclopedia_Unit_Class>
@@ -337,7 +316,6 @@
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> R_Ground_Light_Vehicle_Factory </Required_Special_Structures>
@@ -380,21 +358,16 @@
 			
 		</Unit_Abilities_Data>
 
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
   		
   		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
-	</GroundCompany>
+	</GroundCompany> -->
 
 	
 	
@@ -513,7 +486,6 @@
 		
 		</Company_Units>
 		
-		
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_MANTIS.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-ST.ALO</GUI_Model_Name>
@@ -597,7 +569,7 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, UNSC_Warthog,
 		Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_RADIO, UNSC_Warthog,
-		MPTL, MPTL, MPTL, MPTL, UNSC_WOMBAT
+		MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, MPTL, UNSC_WOMBAT
 		
 		</Company_Units>
 		
@@ -806,7 +778,8 @@
 		
 		<Company_Units>
 		
-		UNSC_MAMMOTH, 
+		UNSC_MAMMOTH, UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK,
+		UNSC_Warthog, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_SCORPION_TANK, UNSC_SCORPION_TANK
 		
 		</Company_Units>
 		
