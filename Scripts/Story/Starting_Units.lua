@@ -24,13 +24,29 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 3
                             },
-                            ["Warthog_Platoon"] = {
+                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                                 Weight = 15,
-                                Limit = -1
+                                Limit = 2
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                                Weight = 10,
+                                Limit = 2
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                                Weight = 5,
+                                Limit = 1
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
+                                Weight = 3,
+                                Limit = 1
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
+                                Weight = 2,
+                                Limit = 1
                             },
                         },
                     },
@@ -55,13 +71,29 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 3
                             },
-                            ["Warthog_Platoon"] = {
+                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                                 Weight = 15,
-                                Limit = -1
+                                Limit = 2
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                                Weight = 10,
+                                Limit = 2
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                                Weight = 5,
+                                Limit = 1
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
+                                Weight = 3,
+                                Limit = 1
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
+                                Weight = 2,
+                                Limit = 1
                             },
                         },
                     },
@@ -90,13 +122,29 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 3
                             },
-                            ["Warthog_Platoon"] = {
+                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                                 Weight = 15,
-                                Limit = -1
+                                Limit = 2
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                                Weight = 10,
+                                Limit = 2
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                                Weight = 5,
+                                Limit = 1
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
+                                Weight = 3,
+                                Limit = 1
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
+                                Weight = 2,
+                                Limit = 1
                             },
                         },
                     },
@@ -125,13 +173,29 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 3
                             },
-                            ["Warthog_Platoon"] = {
-                                Weight = 25,
-                                Limit = -1
+                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
+                                Weight = 15,
+                                Limit = 2
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                                Weight = 10,
+                                Limit = 2
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                                Weight = 5,
+                                Limit = 1
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
+                                Weight = 3,
+                                Limit = 1
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
+                                Weight = 2,
+                                Limit = 1
                             },
                         },
                     },
@@ -160,13 +224,29 @@ Starting_Units_Handler = {
                             }
                         },
                         Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
+                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
                                 Weight = 65,
-                                Limit = -1
+                                Limit = 3
                             },
-                            ["Warthog_Platoon"] = {
-                                Weight = 25,
-                                Limit = -1
+                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
+                                Weight = 15,
+                                Limit = 2
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                                Weight = 10,
+                                Limit = 2
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                                Weight = 5,
+                                Limit = 1
+                            },
+							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
+                                Weight = 3,
+                                Limit = 1
+                            },
+                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
+                                Weight = 2,
+                                Limit = 1
                             },
                         }
                     }

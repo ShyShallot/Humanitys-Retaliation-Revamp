@@ -2705,5 +2705,297 @@
 			</Planet_Income_Bonus_Ability>
 			
 		</Abilities>
-	</SpecialStructure>
+
+   </SpecialStructure>
+		
+		
+		
+			<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		<!-- UNSC GROUND BASED BUILDING ASSETS FOR GC TACTICAL GROUND BATTLES --> 
+		
+	
+	  <GroundStructure Name="UNSC_TACTICAL_BARRACKS">  <!-- UNSC standard infantry barracks GC -->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_BARRACKS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>50000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+			Rebel,
+				RL_Combat_Armor_L1_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 1000</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
+
+
+   </GroundStructure> 
+   
+   
+   
+   
+   
+    <GroundStructure Name="UNSC_TACTICAL_ADVANCED_BARRACKS">  <!-- UNSC ADVANCED infantry barracks GC -->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_ADVANCED_BARRACKS</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_ADVANCED_BARRACKS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>50000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+			Rebel,
+				RL_Combat_Armor_L2_Upgrade,
+				RL_More_Garrisons_L1_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 1000</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
+		
+		</GroundStructure> 
+		
+		
+		
+		
+		
+		
+		<GroundStructure Name="UNSC_LIGHT_VEHICLE_FOUNDRY">  <!-- UNSC LIGHT VEHICLE FOUNDRY GC SKIRMISH-->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>60000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+		Rebel,
+				RL_Light_Armor_L1_Upgrade,
+				RL_Light_Armor_L2_Upgrade,
+				RL_Enhanced_Repulsors_L1_Upgrade,
+				RL_Enhanced_Repulsors_L2_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 1000</Starting_Spawned_Units_Tech_0>
+	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 1000</Starting_Spawned_Units_Tech_0> -->
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST, 1000</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
+		
+		</GroundStructure> 
+		
+		
+		
+		
+		
+		<GroundStructure Name="UNSC_HEAVY_VEHICLE_FOUNDRY">  <!-- UNSC HEAVY VEHICLE FOUNDRY GC SKIRMISH-->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>75000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+		Rebel,
+				RL_Heavy_Armor_L1_Upgrade,
+				RL_Heavy_Armor_L2_Upgrade,
+				RL_Improved_Treads_L1_Upgrade,
+				RL_Improved_Treads_L2_Upgrade,
+				RL_Improved_T4B_Damage_L1_Upgrade,
+				RL_Improved_T4B_Damage_L2_Upgrade,
+				RL_Weatherproof_Upgrade,
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 1000</Starting_Spawned_Units_Tech_0>
+	
+		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		
+		</GroundStructure> 
+		
+		
+		
+		
+		<GroundStructure Name="UNSC_LIGHT_AIR_COMMAND">  <!-- UNSC AIRCRAFT COMMAND LIGHT GC SKIRMISH-->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>35000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+		
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 1000</Starting_Spawned_Units_Tech_0>
+	
+		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		
+		</GroundStructure> 
+		
+		
+		
+		<GroundStructure Name="UNSC_HEAVY_BOMBER_COMMAND">  <!-- UNSC_HEAVY_BOMBER_COMMAND GC SKIRMISH-->
+
+		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<Tactical_Health>45000</Tactical_Health>
+
+		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		
+		<Scale_Factor>0.20</Scale_Factor>
+
+		<Affiliation> Rebel, Terrorists</Affiliation>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+	
+		<Tactical_Buildable_Objects_Campaign> 
+		
+		</Tactical_Buildable_Objects_Campaign>
+
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<Starting_Spawned_Units_Tech_0>UNSC_C709_G_LONGSWORD, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 1000</Starting_Spawned_Units_Tech_0>
+	
+		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>	
+		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>245.0</Spawned_Squadron_Location_Flyout_Distances>
+		
+		</GroundStructure> 
+
+
+
+		
+		
+		
+		
 </UNSC_Ground_Structs>
