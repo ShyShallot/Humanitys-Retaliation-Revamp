@@ -5,7 +5,7 @@
 		<Select_Box_Scale>45</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Behavior> SELECTABLE, TACTICAL_SELL </Behavior>
-		<LandBehavior> TURRET, TARGETING,WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, EARTHQUAKE_TARGET </LandBehavior>
+		<LandBehavior> TURRET, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, EARTHQUAKE_TARGET </LandBehavior>
 
 		<Space_Layer> Land </Space_Layer>	
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>	
@@ -404,10 +404,10 @@
 		
 		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 1000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>20.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 
 
    </GroundStructure> 

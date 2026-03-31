@@ -533,8 +533,23 @@ local unit_table = {
     Rebel_Heavy_Tank_Brigade = {
         Category = "Vehicle"
     },
-    UNSC_DEPLOYABLE_GROUND_BARRACKS = {
+    UNSC_DEPLOYABLE_TACTICAL_BARRACKS = {
         Category = "Infantry"
+    },
+	UNSC_DEPLOYABLE_ADVANCED_BARRACKS = {
+        Category = "Infantry"
+    },
+	UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY = {
+        Category = "Vehicle"
+    },
+	UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY = {
+        Category = "Vehicle"
+    },
+	UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND = {
+        Category = "Vehicle"
+    },
+	UNSC_DEPLOYABLE_TACTICAL_BARRACKS = {
+        Category = "Vehicle"
     },
 	UNSC_SPARTAN_SQUAD = {
         Category = "Infantry"

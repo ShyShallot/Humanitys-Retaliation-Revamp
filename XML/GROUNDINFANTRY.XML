@@ -706,7 +706,7 @@
    
 	</GroundInfantry>
 
-	<GroundInfantry Name="Plex_Soldier">  <!-- UNSC MARINE ROCKETEER -->
+	<GroundInfantry Name="Plex_Soldier">  <!-- Standard Barracks Marine + Rocket Launcher -->
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank TIE_Crawler AT_AT_Walker </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Stormtrooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -1793,7 +1793,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 	</GroundInfantry>
 	
-	<GroundInfantry Name="UNSC_INFANTRY_ENGINEER">
+	<GroundInfantry Name="UNSC_INFANTRY_ENGINEER"> <!-- Advanced Barracks -->
 		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -1829,12 +1829,15 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
-		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<OverrideAcceleration> .07 </OverrideAcceleration>
-		<OverrideDeceleration> .07 </OverrideDeceleration>
-		<FormationOrder> 2 </FormationOrder>
-		<FormationGrouping> Standard </FormationGrouping>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>	
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
@@ -2261,7 +2264,7 @@
 
 	</GroundInfantry>
 	
-	<GroundInfantry Name="UNSC_INFANTRY_RADIO">
+	<GroundInfantry Name="UNSC_INFANTRY_RADIO"> <!-- Advanced barracks -->
 		<Text_ID>911_Whats_Ur_Emergency</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -2305,12 +2308,15 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
-		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<OverrideAcceleration> .07 </OverrideAcceleration>
-		<OverrideDeceleration> .07 </OverrideDeceleration>
-		<FormationOrder> 2 </FormationOrder>
-		<FormationGrouping> Standard </FormationGrouping>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 8 </FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness> .6 </FormationRaggedness>
+		<MaxJiggleDistance> 0 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>	
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
@@ -2469,7 +2475,7 @@
 
 	</GroundInfantry>
 	
-	<GroundInfantry Name="UNSC_INFANTRY_SNIPER">
+	<GroundInfantry Name="UNSC_INFANTRY_SNIPER"> <!-- Advanced Barracks -->
 		<Text_ID>ONE_BETWEEN_THE_EYES</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -2653,7 +2659,7 @@
 
 	</GroundInfantry>
 	
-	<GroundInfantry Name="UNSC_INFANTRY_STANCHION">
+	<GroundInfantry Name="UNSC_INFANTRY_STANCHION"> <!-- Advanced Barracks -->
 		<Text_ID>ONE_SHOT_ONE_KILL</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
@@ -2837,7 +2843,7 @@
 	
 	
 	
-	<GroundInfantry Name="UNSC_INFANTRY_SHOTGUN">
+	<GroundInfantry Name="UNSC_INFANTRY_SHOTGUN"> <!-- Standard Barracks -->
 		<Text_ID>ZERG_SHOTGUN</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
