@@ -909,6 +909,228 @@
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
 	
+	<GroundInfantry Name="UNSC_MASTER_CHIEF">       <!-- MASTERCHIEF SPARTAN LASER --> 
+	
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNSC_SPARTAN_PROTOTYPE</Text_ID>
+		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Stealth_Capable>Yes</Stealth_Capable>
+		<Land_Model_Name>UNSC_INFANTRY_SPARTAN_I.ALO</Land_Model_Name>
+		
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Urban, 				UNSC_INFANTRY_SPARTAN_I.ALO,
+					Arctic, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Volcanic, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Desert, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Forest, 			UNSC_INFANTRY_SPARTAN_I.ALO,
+            		Swamp, 				UNSC_INFANTRY_SPARTAN_I.ALO
+
+		</Land_Terrain_Model_Mapping>
+		
+		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
+		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN,  </LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<SurfaceFX_Name> Good_Ground </SurfaceFX_Name>
+		
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed> 0.6 </Max_Speed> 
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .3 </FormationSpacing> <!-- Temp scale change for scale test - change back once models resized -->
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> .07 </OverrideAcceleration>
+		<OverrideDeceleration> .07 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		
+		<Armor_Type> Armor_Infantry </Armor_Type>
+
+		<Scale_Factor>0.59</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel, Terrorists</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>1500</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>120</Shield_Points>
+		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<Projectile_Types>Proj_UNSC_SPARTAN_LASER</Projectile_Types>
+		
+		<Projectile_Fire_Recharge_Seconds>5</Projectile_Fire_Recharge_Seconds> <!-- 3 second wind up 2 second cooldown--> 
+		
+		<Projectile_Fire_Pulse_Count>50</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy> <!-- Spartans almost never miss -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.5 </Targeting_Fire_Inaccuracy> <!-- Spartans rarely miss (This will be changed with Linda bec Literally cannot miss -->
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>UNSC_Spartan_Grenade</Hardpoints>
+
+		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_UNSC_SPARTAN_LASER</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<MovementClass>Infantry</MovementClass>
+
+		<Pause_During_Cinematic_Anim>yes</Pause_During_Cinematic_Anim>
+		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
+		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
+
+		<Icon_Name>I_BUTTON_UNSC_SPARTAN_MASTER_CHIEF.TGA</Icon_Name>
+		<OccupationStyle>1x1</OccupationStyle>
+		<FormationRaggedness> 0.0 </FormationRaggedness>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Create_Team>No</Create_Team>
+		<Death_Clone>Damage_Force_Whirlwind, Rebel_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Rebel_Trooper_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Rebel_Trooper_Crush_Death_Clone</Death_Clone>
+		<AI_Combat_Power>3</AI_Combat_Power>
+
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+		
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Idle_Chase_Range>350.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>   
+		<Autonomous_Move_Extension_Vs_Attacker>350.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+
+  		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Presence_Induced_Animations>
+			Celebrate, 
+				AT_AT_Walker_Cable_Attack_Death_Clone,
+				AT_AT_Walker_Death_Clone_00,
+				AT_AT_Walker_Death_Clone_01,
+				AT_AT_Walker_Death_Clone_02
+		</Presence_Induced_Animations>		
+	
+		
+			<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
+			</Unit_Ability>
+			
+			
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Percent> 0.05 </Heal_Percent>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>15.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>LandHero</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
+				<Applicable_Unit_Types />
+				
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE, ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				
+			</Force_Healing_Ability>
+			
+			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			
+        	<System_Spy_Ability Name="System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+			
+			</Abilities>
+		
+	</GroundInfantry>
+	
 	<GroundInfantry Name="UNSC_SPARTAN">       <!-- Spartan Future Spartan Laser Model --> 
 	
 		<Show_Hero_Head>Yes</Show_Hero_Head>
@@ -983,7 +1205,7 @@
 
 		<Victory_Relevant>yes</Victory_Relevant>
 		
-		<Projectile_Types>Proj_UNSC_GAUSS</Projectile_Types>
+		<Projectile_Types>Proj_UNSC_SPARTAN_LASER</Projectile_Types>
 		
 		<Projectile_Fire_Recharge_Seconds>5</Projectile_Fire_Recharge_Seconds> <!-- The gun takes 6.4 second to fire all round , 8.1 - 6.4 = 1.7 seconds which is how long it takes a spartan in halo 3 to reload (Apple & Murphy)--> 
 		
@@ -1003,7 +1225,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_UNSC_SMG</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_SPARTAN_LASER</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 		
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
@@ -1087,7 +1309,7 @@
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Percent> 0.05 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Heal_Interval_In_Secs>15.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
@@ -1307,7 +1529,7 @@
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Percent> 0.05 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Heal_Interval_In_Secs>15.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->

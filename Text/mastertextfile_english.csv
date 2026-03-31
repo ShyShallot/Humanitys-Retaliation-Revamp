@@ -190,6 +190,7 @@ HALO_SHIP_HEAL_RATE_SOF;Heal Rate: 15% every 4 Seconds
 HALO_SHIP_REPAIR_BIG;This Ship is able to repair: Fighters, Bombers, Corvettes and Frigates
 HALO_SHIP_REPAIR_SMALL;This ship can repair: Fighters, Bombers and Corvettes in a small area.
 HALO_SHIPYARD_HEAVY;Heavy Shipyard
+HALO_SHIPYARD_SUPERHEAVY;Super Heavy Shipyard
 HALO_SHIPYARD_HEAVY_ENC;A heavy sized shipyard required for the production of cruisers, carriers, and other large ships.
 HALO_SHIPYARD_HEAVY_EXPENSES;Facilities Upkeep: 215 Cr/d
 HALO_SHIPYARD_LIGHT;Light Shipyard
@@ -235,8 +236,8 @@ HALO_TEXT_PLANET_HIGH_INCOME;MINING COLONY: Increased Planatry Income
 HALO_TEXT_PLANET_HIGH_POP;HIGH POPULATION: Dense City Centers allow for high populations.
 HALO_TEXT_PLANET_SHIPYARDS;SHIPYARD SPECIAL PRODUCTION:
 HALO_TEXT_PLANET_SUPER;Super Class Ships
-HALO_TEXT_RESEARCH_SHIELD;Shield Technology Research
-HALO_TEXT_RESEARCH_SHIELD_ENC;The UNSC's latest breakthrough integrates cutting-edge Forerunner technology to outfit their ships with advanced energy shields, transforming the fleet into an impervious force in the vast reaches of space. This monumental upgrade marks a new era for UNSC space exploration and defense capabilities.
+HALO_TEXT_RESEARCH_SHIELD;Beta-5 Shield Research Division
+HALO_TEXT_RESEARCH_SHIELD_ENC;A specialized ONI Black-Site home to the Beta-5 Division dedicated to the study and refinement of defensive energy systems. Unlocks advanced shielding protocols for certain units at Tech Level 4 and serves as the core infrastructure required to manufacture all shield-grade components. Without this facility, you cannot produce or maintain modern defensive barrier technology. Reduces Planetary Income by 10%
 HALO_TOGGLE_MAC;Toggle MAC(s)
 HALO_TOGGLE_MAC_ENC;Prepare MAC for Firing
 HALO_UNSC_ADMIRAL_HOOD;Fleet Admiral Hood
@@ -19270,6 +19271,7 @@ TEXT_TOOLTIP_UNSC_SCHOLTE;The Scholte-class missile corvette is a CMA-designed w
 TEXT_TOOLTIP_UNSC_SHIPYARD_HEAVY;A heavy UNSC shipyard, used to construct the largest UNSC warships, such as Cruisers, Carriers and Support Ships.
 TEXT_TOOLTIP_UNSC_SHIPYARD_LIGHT;A light UNSC shipyard, used to construct the smallest UNSC ships, such as Fightercraft and Corvettes.
 TEXT_TOOLTIP_UNSC_SHIPYARD_MEDIUM;A medium UNSC shipyard, used to construct medium-sized UNSC warships, such as Frigates and Destroyers.
+TEXT_TOOLTIP_UNSC_SHIPYARD_SUPERHEAVY;A massive UNSC shipyard, used to construct the largest-sized UNSC warships, such as the Infinity and Eternity.
 TEXT_TOOLTIP_UNSC_SHORTSWORD;The B-65 Shortsword is a UNSC suborbital long-range bomber built by Misriah Armory. Used mainly for atmospheric and suborbital strike missions, it served extensively during the Insurrection and Human-Covenant War before being relegated to reserves post-war. SIZE: 27.3 Length: meters, Width: 35 meters, Heigh: 91.2 meters. ARMOR TYPE: Conventional Airframe. SHIELDS: Not equipped. WEAPONS: M955 ASW/AC 30mm MLA, M/RODAS delivery system.
 TEXT_TOOLTIP_UNSC_STALWART;The Stalwart-class light frigate is a fast UNSC escort introduced in 2515 for fleet screening and planetary defense. Compact but durable, it saw widespread service throughout the Human-Covenant War and remains active in the post-war Navy. SIZE: Length: 478 meters, Width: 152 meters, Height: 112 meters. ARMOR TYPE: Titanium-A armor. SHIELDS: Not equipped. WEAPONS: MAC canon, M58 Archer missile pods, M340A4 Streak missile pods, M870 Rampart point defense gunsm, M710 Bulwark point defense guns.
 TEXT_TOOLTIP_UNSC_STALWART_COMPLIMENT;This Ship Carries:
