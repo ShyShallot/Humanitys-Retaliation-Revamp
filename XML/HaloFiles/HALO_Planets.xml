@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Planets>
 	<Planet Name="Reach">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -1583,7 +1583,7 @@
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Land_Tactical_Map>GC_UNSC_AIRBASE.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+		<Space_Tactical_Map>GC_Threshold.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map/>
 		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward>400</Planet_Capture_Bonus_Reward>
