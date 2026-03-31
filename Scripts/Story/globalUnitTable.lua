@@ -30,7 +30,6 @@ local unit_table = {
     },
     UNSC_TECH_5 = {
         Category = "Structure",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
     ARTIFACT_DIG_UP = {
         Category = "Structure",
@@ -42,7 +41,6 @@ local unit_table = {
     },
     UNSC_INFINITY = {
         Category = "Super",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
 	},
     UNSC_SOF = {
         Category = "Super"
@@ -167,7 +165,6 @@ local unit_table = {
     },
     UNSC_AUTUMN = {
         Category = "Capital",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
     UNSC_MARATHON = {
         Category = "Capital"
@@ -183,18 +180,17 @@ local unit_table = {
     },
     UNSC_VINDICATION = {
         Category = "Capital",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+        
     },
     UNSC_MUSASHI = {
         Category = "Frigate"
     },
     UNSC_POSEIDON = {
         Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+        
     },
     UNSC_SINGLE_STRIDENT = {
         Category = "Frigate",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
 	UNSC_FLEET_COMMANDER = {
         Category = "Capital"
@@ -237,7 +233,6 @@ local unit_table = {
     },
     BROADSWORD_SQUADRON = {
         Category = "Fighter",
-        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
     },
     BASELARD_SQUADRON = {
         Category = "Fighter"

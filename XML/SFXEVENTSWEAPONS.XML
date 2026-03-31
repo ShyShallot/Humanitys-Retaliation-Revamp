@@ -75,6 +75,15 @@
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
 		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_SPARTAN_LASER">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_SPARTAN_LASER.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>100</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_BULLET_ONAGER">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>

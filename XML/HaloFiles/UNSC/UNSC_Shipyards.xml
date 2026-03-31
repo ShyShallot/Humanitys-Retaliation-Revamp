@@ -160,8 +160,8 @@
 	<SpecialStructure Name="UNSC_Infinity_Drydock">
         <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
 
-        <Text_ID>INF-Dockyard</Text_ID>
-        <Encyclopedia_Text> HALO_SHIPYARD_INFINITY </Encyclopedia_Text>
+        <Text_ID>HALO_SHIPYARD_SUPERHEAVY </Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_SHIPYARD_SUPERHEAVY </Encyclopedia_Text>
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
@@ -172,7 +172,7 @@
 
 		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
 
-        <Build_Cost_Credits>20250</Build_Cost_Credits>
+        <Build_Cost_Credits>30250</Build_Cost_Credits>
 		<Build_Time_Seconds>240</Build_Time_Seconds>
 
     </SpecialStructure>

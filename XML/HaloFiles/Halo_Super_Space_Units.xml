@@ -47,7 +47,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_Infinity_Drydock </Required_Special_Structures>
+		<Required_Special_Structures>UNSC_Infinity_Drydock, UNSC_SHIELD_TECH </Required_Special_Structures>
 		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
 		
 		<Autoresolve_Health>52500</Autoresolve_Health>
@@ -276,7 +276,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures> UNSC_Infinity_Drydock </Required_Special_Structures>
+		<Required_Special_Structures> UNSC_Infinity_Drydock, UNSC_SHIELD_TECH </Required_Special_Structures>
 		<Required_Planets>Harmony, Reach, Alluvion, Earth, Mars, Glyke, Doisac, Sanghelios, Song_Of_Victory, Kostroda</Required_Planets>
 		<Autoresolve_Health>32500</Autoresolve_Health>
 		<Tactical_Health>282000</Tactical_Health> <!-- NEED TO BUFF for INFNITY AND ETERNITY -->

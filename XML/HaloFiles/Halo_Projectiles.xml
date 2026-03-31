@@ -2803,6 +2803,35 @@
 		
 	</Projectile>
 	
+	<Projectile Name="Proj_UNSC_SPARTAN_LASER"> <!-- Do I really need to describe this one -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UNSC_SPARTAN_LASER.alo</Land_Model_Name>
+
+		<Max_Speed>150.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
+		<Projectile_Damage>425</Projectile_Damage>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile>
+	
 	<Projectile Name="LAAG"> <!-- HMG Rounds -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>

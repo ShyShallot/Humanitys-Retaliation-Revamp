@@ -53,7 +53,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
+		<Required_Special_Structures>UNSC_Heavy_Shipyard, UNSC_SHIELD_TECH</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>84000</Tactical_Health>
@@ -678,7 +678,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
+		<Required_Special_Structures>UNSC_Heavy_Shipyard, UNSC_SHIELD_TECH</Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
