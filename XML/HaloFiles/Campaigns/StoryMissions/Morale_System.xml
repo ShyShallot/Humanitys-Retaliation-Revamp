@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 
 <Story>
+
+    <Event Name="Pause_Button_Clicked">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_play_pause</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Pause_Button_Clicked</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Unpaused_Button_Clicked">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>attack_button</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Unpaused_Button_Clicked</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
     
     <Event Name="Morale_Level_Init">
         <Event_Type>STORY_ELAPSED</Event_Type>

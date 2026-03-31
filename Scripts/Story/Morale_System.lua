@@ -27,6 +27,8 @@ function Definitions()
         Far_Isle_Event = Far_Isle_Event,
         Flush = Flush,
         Morale_Update = Morale_System_Update,
+        Pause_Button_Clicked = Game_Paused,
+        Unpaused_Button_Clicked = Unpause_Game,
     }
 
     ---@class PlanetMoraleEntry
@@ -213,7 +215,10 @@ function Definitions()
         Display_Event = nil,
         Can_Lose_Only_Planet = false,
         ---@type PlanetObject[]
-        Planets = {}
+        Planets = {},
+        Starting_Year = 2490,
+        Current_Year = 2490,
+        Game_Paused = false
     }
 
     Morale_Value_Status = {
@@ -377,9 +382,10 @@ function Definitions()
             roll = 0.005
         end
 
-        DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll))
+        DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s, Random Event Last Happened: %s, Current Time: %s, Game is Paused: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll), tostring(self.Last_Happened), tostring(GetCurrentTime.Galactic_Time()), tostring(Global_Values.Game_Paused))
 
-        if roll <= self.Current_Chance and GetCurrentTime.Galactic_Time() >= self.Last_Happened + 5 then
+        if roll <= self.Current_Chance and GetCurrentTime.Galactic_Time() >= self.Last_Happened + 5 and not Global_Values.Game_Paused then
+            DebugMessage("%s -- Triggering Random Event", tostring(Script))
             self.Current_Chance = 0.0005
             self.Last_Happened = GetCurrentTime.Galactic_Time()
             return true
@@ -500,7 +506,7 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
 
-        --DebugMessage("%s -- Time: %s, Galactic Time: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()))
+        DebugMessage("%s -- Time: %s, Galactic Time: %s, Frame: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()), tostring(GetCurrentTime.Frame()))
 
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
@@ -539,7 +545,7 @@ function Morale_System_Update(message)
 
         Random_Morale_Swing()
 
-
+        Dynamic_Year_Header()
         Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
         Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", nil, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
     
@@ -1514,6 +1520,32 @@ function Far_Isle_Event(message)
     Set_Next_State("Flush")
 end
 
+function Game_Paused(message)
+    if message ~= OnEnter then
+        Set_Next_State("Flush")
+
+        return
+    end
+
+    if Global_Values.Game_Paused then
+        Global_Values.Game_Paused = false
+        DebugMessage("%s -- Game Unpaused, Time: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()))
+    else
+        Global_Values.Game_Paused = true
+        DebugMessage("%s -- Game Paused, Time: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()))
+    end
+end
+
+function Unpause_Game(message)
+    if message ~= OnEnter then
+        Set_Next_State("Flush")
+
+        return
+    end
+
+    Global_Values.Game_Paused = false
+end
+
 ---@class Header
 ---@field Text string TEXT_ID
 ---@field Color table Defaults to white. Format {r=255,b=255,g=255}
@@ -1596,6 +1628,30 @@ function Display_Handler:Add_Header(string, color, var, time)
     
 
     table.insert(self.Headers, {Text = string, Color = self:Process_Color(color), Var = var, Time = time, Time_Added = GetCurrentTime.Galactic_Time()})
+end
+
+---@param old_string string
+---@param new_string string
+---@param new_color? table|string
+---@param new_var? any
+function Display_Handler:Update_Header(old_string, new_string, new_color, new_var)
+    if type(old_string) ~= "string" then
+        return
+    end
+
+    if type(new_string) ~= "string" then
+        return
+    end
+
+    for _, Header in pairs(self.Headers) do
+        if Header.Text == old_string then
+            Header.Text = new_string
+            Header.Color = self:Process_Color(new_color)
+            Header.Var = new_var
+
+            Remove_Screen_Text(old_string)
+        end
+    end
 end
 
 ---@param string string
@@ -1830,6 +1886,8 @@ function Display_Handler:Remove_Footer(text)
     end
 end
 
+---@param color table|string
+---@return table
 function Display_Handler:Process_Color(color)
 
     local out = {r=255,g=255,b=255}
@@ -1861,4 +1919,20 @@ function Display_Handler:Process_Color(color)
     end
 
     return out
+end
+
+function Dynamic_Year_Header()
+    local cur_year = Global_Values.Starting_Year + (Get_Current_Week() - 1)
+
+    local Base_String = "Year "
+
+    if cur_year == Global_Values.Starting_Year then
+        Display_Handler:Add_Header(Base_String .. tostring(cur_year))
+    end
+    
+    if Global_Values.Current_Year ~= cur_year then
+        Display_Handler:Update_Header(Base_String .. tostring(Global_Values.Current_Year), Base_String..tostring(cur_year))
+
+        Global_Values.Current_Year = cur_year
+    end
 end
