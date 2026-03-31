@@ -450,6 +450,7 @@ function Init_Morale_System(message)
         if StringCompare(Global_Values.Difficulty, "Normal") then
 
             New_Starting_Morale_Value = EvenMoreRandom(40,60)
+            --New_Starting_Morale_Value = 74
 
         elseif StringCompare(Global_Values.Difficulty, "Hard") then
 
@@ -550,6 +551,8 @@ function Morale_System_Update(message)
         if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status and GlobalValue.Get("Morale_Status") ~= nil then
             Story_Event("Morale_Level_Changed_" .. string.upper(Current_Morale_Entry.Name))
 
+            GUI_Component_Flash("b_story_arc_g", false, 4, 3)
+            
             --Show_Screen_Text("TEXT_STORY_MORALE_DISPLAY_ALERT_" .. string.upper(Current_Morale_Entry.Name), nil, 10, {r=255,b=0,g=0}, true)
 
             Display_Handler:Add_Body("TEXT_STORY_MORALE_DISPLAY_ALERT_" .. string.upper(Current_Morale_Entry.Name), 8, true, {r=235,g=189,b=52}, nil)
