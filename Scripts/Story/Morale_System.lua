@@ -546,9 +546,7 @@ function Morale_System_Update(message)
         Random_Morale_Swing()
 
         Dynamic_Year_Header()
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", nil, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
-    
+        
         if GlobalValue.Get("Morale_Status") ~= Current_Morale_Status and GlobalValue.Get("Morale_Status") ~= nil then
             Story_Event("Morale_Level_Changed_" .. string.upper(Current_Morale_Entry.Name))
 
@@ -556,12 +554,11 @@ function Morale_System_Update(message)
 
             Display_Handler:Add_Body("TEXT_STORY_MORALE_DISPLAY_ALERT_" .. string.upper(Current_Morale_Entry.Name), 8, true, {r=235,g=189,b=52}, nil)
 
-            Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_"..string.upper(GlobalValue.Get("Morale_Status")))
-
-            Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL")
-
-            Display_Handler:Remove_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_REBELLING_PLANETS")
+            Display_Handler:Update_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_"..string.upper(GlobalValue.Get("Morale_Status")), "TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
         end
+
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", nil, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
