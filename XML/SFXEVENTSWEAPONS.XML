@@ -11,6 +11,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>		
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_SMG">
@@ -19,7 +20,8 @@
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
-					<Max_Pitch>100</Max_Pitch>		
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>						
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_SRS99">
@@ -29,6 +31,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M90">
@@ -38,6 +41,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_SPNKR">
@@ -46,7 +50,8 @@
 					<Min_Volume>70</Min_Volume>
 					<Max_Volume>70</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
-					<Max_Pitch>100</Max_Pitch>	
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>					
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_LAAG">
@@ -55,7 +60,8 @@
 					<Min_Volume>90</Min_Volume>
 					<Max_Volume>90</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
-					<Max_Pitch>100</Max_Pitch>	
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M512">
@@ -65,6 +71,7 @@
 					<Max_Volume>90</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M638">
@@ -74,6 +81,7 @@
 					<Max_Volume>50</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_SPARTAN_LASER">
@@ -83,6 +91,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M400_ARTILLERY">
@@ -92,6 +101,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_M40_SUNDEVIL">
@@ -101,6 +111,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>55</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_BULLET_ONAGER">
@@ -110,6 +121,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_MAC">
@@ -119,6 +131,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET">
@@ -128,6 +141,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_RAPID">
@@ -137,6 +151,7 @@
 					<Max_Volume>90</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_DECK">
@@ -146,6 +161,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CWIS">
@@ -155,6 +171,7 @@
 					<Max_Volume>30</Max_Volume>
 					<Min_Pitch>70</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		  <SFXEvent Name="Unit_UNSC_BULLET_AVENGER">
@@ -164,6 +181,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>70</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CAP">
@@ -173,6 +191,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_FIGHTER">
@@ -182,6 +201,7 @@
 					<Max_Volume>85</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MINGUN_FIGHTER">
@@ -191,6 +211,7 @@
 					<Max_Volume>65</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		  <SFXEvent Name="Unit_UNSC_MACHINEGUN_FIGHTER">
@@ -200,6 +221,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_PELICAN">
@@ -209,6 +231,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		
@@ -219,6 +242,7 @@
 					<Max_Volume>200</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_GAUSS">
@@ -228,6 +252,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MISSILE">
@@ -237,6 +262,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>90</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_MISSILE_FIGHTER">
@@ -246,6 +272,7 @@
 					<Max_Volume>55</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		
 		<!-- END UNSC AUDIO -->
@@ -257,8 +284,9 @@
 					<Samples>Data\Audio\OotF\COVN_SCARAB_BEAM.wav</Samples>
 					<Min_Volume>80</Min_Volume>
 					<Max_Volume>95</Max_Volume>
-					<Min_Pitch>95</Min_Pitch>
+					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_BULLET">
@@ -268,6 +296,7 @@
 					<Max_Volume>95</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_COVN_CANNON">
@@ -277,6 +306,7 @@
 					<Max_Volume>95</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_COVN_PBEAM">
@@ -286,6 +316,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>105</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_AFBEAM">
@@ -295,6 +326,7 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_COVN_PLASMA_TORP">
@@ -304,11 +336,13 @@
 					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		  <SFXEvent Name="Unit_Ion_Fire">
 				 <Use_Preset>Preset_GUNS</Use_Preset>
 				 <Samples>Data\Audio\OotF\COVN_FUEL_ROD.wav</Samples>
+				 <Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		  </SFXEvent>
 		
 		<!--

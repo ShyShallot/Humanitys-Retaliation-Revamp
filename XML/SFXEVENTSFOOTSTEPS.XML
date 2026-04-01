@@ -122,12 +122,12 @@
 
 		<SFXEvent Name="Unit_MPTL_Tank_Deploy_Start">
 			    <Use_Preset>Preset_FSV</Use_Preset>
-				 <Samples>MPTL_Tank_Deploy_Start.wav</Samples>
+				 <Samples>Data\Audio\OotF\Vehicles\UNSC\Kodiak\Unit_Kodiak_Deploy.wav</Samples>
 	  </SFXEvent>
 
 		<SFXEvent Name="Unit_MPTL_Tank_Deploy_Stop">
 			    <Use_Preset>Preset_FSV</Use_Preset>
-				 <Samples>MPTL_Tank_Deploy_Stop.wav</Samples>
+				 <Samples>Data\Audio\OotF\Vehicles\UNSC\Kodiak\Unit_Kodiak_Deploy_Stop.wav</Samples>
 				 <Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 	  </SFXEvent>
 

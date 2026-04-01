@@ -2854,7 +2854,7 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 1000</Starting_Spawned_Units_Tech_0>
 	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 1000</Starting_Spawned_Units_Tech_0> -->
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>AT_ST, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST_WALKER, 1000</Starting_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 		
@@ -2911,7 +2911,7 @@
 		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>345.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		</GroundStructure> 
 		

@@ -727,7 +727,7 @@
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>65</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>0.70</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>1.6</Turret_Rotate_Speed>
 		<Turret_Bone_Name>B_Turret_Base</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Missile_Launcher</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>0.35</Apply_Z_Turret_Rotate_To_Axis>
@@ -4017,14 +4017,14 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>8.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>30</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 40.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 40.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
@@ -4033,7 +4033,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<SFXEvent_Fire>Unit_UNSC_M512</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_UNSC_M40_SUNDEVIL</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_T4B_Tank</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_T4B_Tank</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>

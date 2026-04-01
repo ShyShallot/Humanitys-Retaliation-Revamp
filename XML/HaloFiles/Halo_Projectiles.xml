@@ -3248,8 +3248,8 @@
 	<Projectile Name="40mm_Quad_Cannon"> <!--  40MM Twin linked Autocannon - SUNDEVIL -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_UNSC_Bullet_Tracer.alo</Land_Model_Name>
-		<Max_Speed>8</Max_Speed>
+		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
+		<Max_Speed>16</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
@@ -3479,7 +3479,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Space_Model_Name>
 		<Land_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Land_Model_Name>
 		<Max_Speed>4.8</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>795.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 1 </Projectile_Blast_Area_Range>
@@ -3495,12 +3495,14 @@
 		
 	</Projectile>
 	
+	
+	
 	<Projectile Name="Scarab_Focus_Beam">
 	
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Space_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Space_Model_Name>
-		<Land_Model_Name>COVN_PLASMANAPALMSCARAB.ALO</Land_Model_Name>
+		<Space_Model_Name>W_COVN_SCARAB_BEAM.ALO</Space_Model_Name>
+		<Land_Model_Name>W_COVN_SCARAB_BEAM.ALO</Land_Model_Name>
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>10500.0</Projectile_Damage>
