@@ -2924,11 +2924,11 @@
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_T4B </Damage_Type>
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>3.0</Max_Speed>
 		<Max_Rate_Of_Turn>3</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>4500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
 		<Projectile_Damage>350.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
@@ -3112,7 +3112,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>18.0</Max_Speed>
+		<Max_Speed>12.0</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3245,6 +3245,36 @@
 		
 	</Projectile>
 	
+	<Projectile Name="40mm_Quad_Cannon"> <!--  40MM Twin linked Autocannon - SUNDEVIL -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_UNSC_Bullet_Tracer.alo</Land_Model_Name>
+		<Max_Speed>8</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
+		<Projectile_Damage>100</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 35 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>5500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile>
+	
 	<Projectile Name="M512_90MM"> <!-- Tank Rounds 90mm smoothbore high vel M512 -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -3275,7 +3305,7 @@
 		
 	</Projectile>
 	
-	<Projectile Name="120mm_Ventral_Cannon"> <!--  Rounds 90mm smoothbore high vel M512 -->
+	<Projectile Name="120mm_Ventral_Cannon"> <!--  C709 Longsword -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tracer.alo</Land_Model_Name>

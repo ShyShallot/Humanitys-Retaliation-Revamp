@@ -84,6 +84,24 @@
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_M400_ARTILLERY">
+					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M400_ARTILLERY.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_UNSC_M40_SUNDEVIL">
+					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_M40_SUNDEVIL.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>55</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_UNSC_BULLET_ONAGER">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
@@ -199,15 +217,6 @@
 					<Samples>Data\Audio\OotF\UNSC_FLAK.wav</Samples>
 					<Min_Volume>150</Min_Volume>
 					<Max_Volume>200</Max_Volume>
-					<Min_Pitch>85</Min_Pitch>
-					<Max_Pitch>100</Max_Pitch>
-		 </SFXEvent>
-		 
-		 <SFXEvent Name="Unit_UNSC_M400_ARTILLERY">
-					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
-					<Samples>Data\Audio\OotF\UNSC_M400_ARTILLERY.wav</Samples>
-					<Min_Volume>90</Min_Volume>
-					<Max_Volume>100</Max_Volume>
 					<Min_Pitch>85</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
 		 </SFXEvent>
