@@ -87,8 +87,8 @@
 		 <SFXEvent Name="Unit_UNSC_SPARTAN_LASER">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_SPARTAN_LASER.wav</Samples>
-					<Min_Volume>100</Min_Volume>
-					<Max_Volume>100</Max_Volume>
+					<Min_Volume>20</Min_Volume>
+					<Max_Volume>20</Max_Volume>
 					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
 					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
