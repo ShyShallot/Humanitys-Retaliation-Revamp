@@ -1980,7 +1980,7 @@
 	
 	  <GroundStructure Name="COVN_TACTICAL_HALL">  <!-- COVN standard infantry barracks GC -->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_COVN_TACTICAL_HALL</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_TACTICAL_HALL </Encyclopedia_Text>
@@ -2029,7 +2029,7 @@
    
     <GroundStructure Name="COVN_ADVANCED_HALL">  <!-- COVN ADVANCED infantry barracks GC -->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_COVN_DVANCED_HALL</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_ADVANCED_HALL </Encyclopedia_Text>
@@ -2078,7 +2078,7 @@
 		
 		<GroundStructure Name="COVN_LIGHT_VEHICLE_FOUNDRY">  <!-- COVN LIGHT VEHICLE FOUNDRY GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
@@ -2126,7 +2126,7 @@
 		
 		<GroundStructure Name="COVN_HEAVY_VEHICLE_FOUNDRY">  <!-- COVN HEAVY VEHICLE FOUNDRY GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_COVN_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
@@ -2175,7 +2175,7 @@
 		
 		<GroundStructure Name="COVN_LIGHT_AIR_SUMMIT">  <!-- COVN BANSHEE thingy idk Murphy said summit so I'm going with it... GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_COVN_LIGHT_AIR_SUMMIT</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_LIGHT_AIR_SUMMIT </Encyclopedia_Text>
@@ -2217,7 +2217,7 @@
 		
 		<GroundStructure Name="COVN_HEAVY_AIR_SUMMIT">  <!-- COVN HEAVY AIR SUMMIT negative ghostrider the pattern is full GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_COVN_HEAVY_AIR_SUMMIT</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SUMMIT_BOMBER_SUMMIT </Encyclopedia_Text>

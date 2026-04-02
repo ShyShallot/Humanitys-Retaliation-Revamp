@@ -2720,7 +2720,7 @@
 	
 	  <GroundStructure Name="UNSC_TACTICAL_BARRACKS">  <!-- UNSC standard infantry barracks GC -->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_BARRACKS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
@@ -2811,7 +2811,7 @@
    
     <GroundStructure Name="UNSC_TACTICAL_ADVANCED_BARRACKS">  <!-- UNSC ADVANCED infantry barracks GC -->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_ADVANCED_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_ADVANCED_BARRACKS </Encyclopedia_Text>
@@ -2878,7 +2878,7 @@
 		
 		<GroundStructure Name="UNSC_LIGHT_VEHICLE_FOUNDRY">  <!-- UNSC LIGHT VEHICLE FOUNDRY GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
@@ -2975,7 +2975,7 @@
 		
 		<GroundStructure Name="UNSC_HEAVY_VEHICLE_FOUNDRY">  <!-- UNSC HEAVY VEHICLE FOUNDRY GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
@@ -3055,7 +3055,7 @@
 		
 		<GroundStructure Name="UNSC_LIGHT_AIR_COMMAND">  <!-- UNSC AIRCRAFT COMMAND LIGHT GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
@@ -3153,7 +3153,7 @@
 		
 		<GroundStructure Name="UNSC_HEAVY_BOMBER_COMMAND">  <!-- UNSC_HEAVY_BOMBER_COMMAND GC SKIRMISH-->
 
-		<Variant_Of_Existing_Type> Abstract_Anti_Infantry_Turret </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND </Encyclopedia_Text>

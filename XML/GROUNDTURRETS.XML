@@ -1,6 +1,64 @@
 <?xml version="1.0"?>
 <GroundStructures>
 
+<GroundStructure Name="Abstract_Ground_Building">
+
+		<LandBehavior> TURRET, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR</LandBehavior>
+		
+		<Text_ID>TEXT_STRUCTURE_TURRET_AI</Text_ID>
+
+		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
+
+		<Scale_Factor> 1.0 </Scale_Factor> 
+
+		<Damage>20</Damage>
+		
+		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
+
+		<Damage_Type> Damage_AI_Turret </Damage_Type>
+		
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
+
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<!-- Ground infantry priority 1, ground vehicles priority 2, air vehicles N/A (9999) -->
+		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>	
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_AI_TURRET</Encyclopedia_Text>
+
+		<CategoryMask> Structure | AntiInfantry </CategoryMask>
+
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Score_Cost_Credits> 800 </Score_Cost_Credits>
+
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<Targeting_Min_Attack_Distance>10.0</Targeting_Min_Attack_Distance>
+		
+		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 0.0 </Hover_Offset>
+
+	</GroundStructure>
+
 	<GroundStructure Name="Abstract_Turret">
 		<Select_Box_Scale>45</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -57,6 +115,8 @@
 		<GUI_Bracket_Width>20</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size> 
+		
+		
 		
 		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 		
@@ -209,7 +269,7 @@
 	
 		<Variant_Of_Existing_Type> Abstract_Turret </Variant_Of_Existing_Type>
 
-		<LandBehavior> TURRET, TARGETING,WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON,</LandBehavior>
+		<LandBehavior> TURRET, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON,</LandBehavior>
 		
 		<Text_ID>TEXT_STRUCTURE_TURRET_AI</Text_ID>
 
@@ -259,6 +319,9 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 		<Targeting_Min_Attack_Distance>10.0</Targeting_Min_Attack_Distance>
+		
+		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 0.0 </Hover_Offset>
 
 	</GroundStructure>
 
@@ -292,6 +355,8 @@
 		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		
+		
 
 	</GroundStructure>
 

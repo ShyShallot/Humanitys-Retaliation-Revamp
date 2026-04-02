@@ -2073,7 +2073,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
  		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<Idle_Chase_Range>-1.0</Idle_Chase_Range>
+		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
