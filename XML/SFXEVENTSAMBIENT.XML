@@ -15,28 +15,28 @@
 
 	<SFXEvent Name="Weather_Ambient_Heavy_Rain_Loop">
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
-		<Samples> AMB_Rain_Heavy.wav </Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav </Samples>
 		<Min_Volume>40</Min_Volume>
 		<Max_Volume>100</Max_Volume>
 </SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Medium_Rain_Loop">
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
-		<Samples> AMB_Rain_Medium.wav </Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav </Samples>
 		<Min_Volume>40</Min_Volume>
 		<Max_Volume>100</Max_Volume>
 	</SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Light_Medium_Rain_Loop">
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
-		<Samples> AMB_Rain_Light_Medium.wav </Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav </Samples>
 		<Min_Volume>50</Min_Volume>
 		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 
 	<SFXEvent Name="Weather_Ambient_Light_Rain_Loop">
 		<Use_Preset>Preset_AMB_2D_Loop</Use_Preset>
-		<Samples> AMB_Rain_Light.wav </Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav </Samples>
 		<Min_Volume>50</Min_Volume>
 		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
@@ -107,7 +107,7 @@
 
 	<SFXEvent Name="Weather_Ambient_Heavy_Rain_Intermittent">
 		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_Thunder_Heavy_1.wav AMB_Thunder_Heavy_2.wav AMB_Thunder_Heavy_3.wav</Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav</Samples>
 		<Probability>40</Probability>
 		<Min_Volume>60</Min_Volume>
 		<Max_Volume>60</Max_Volume>
@@ -115,7 +115,7 @@
 
 	<SFXEvent Name="Weather_Ambient_Medium_Rain_Intermittent">
 		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_Thunder_Medium_1.wav AMB_Thunder_Medium_2.wav AMB_Thunder_Medium_3.wav</Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav</Samples>
 		<Probability>40</Probability>
 		<Min_Volume>60</Min_Volume>
 		<Max_Volume>60</Max_Volume>
@@ -123,7 +123,7 @@
 
 	<SFXEvent Name="Weather_Ambient_Light_Rain_Intermittent">
 		<Use_Preset>Preset_AMB_3D</Use_Preset>
-		<Samples> AMB_Thunder_Light_1.wav AMB_Thunder_Light_2.wav AMB_Thunder_Light_3.wav</Samples>
+		<Samples> Data\Audio\OotF\AmbientSFX\Ambient_Rain_THUNDER_SFX.wav</Samples>
 		<Probability>40</Probability>
 		<Min_Volume>60</Min_Volume>
 		<Max_Volume>60</Max_Volume>

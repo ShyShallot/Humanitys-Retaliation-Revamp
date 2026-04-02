@@ -44,7 +44,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<Icon_Name>I_BUTTON_UNSC_CAMP.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -170,7 +170,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<Icon_Name>I_BUTTON_UNSC_STATION.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -291,7 +291,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Icon_Name>I_BUTTON_UNSC_FORTRESS.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -446,7 +446,7 @@
 		<Icon_Name>I_BUTTON_FARM.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Distance>-1</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -493,7 +493,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FARM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Score_Cost_Credits> 2-1 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
@@ -574,7 +574,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -762,7 +762,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -988,7 +988,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -1251,8 +1251,8 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
-		<Tutorial_Sabotage_Cost_Credits>100000</Tutorial_Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
+		<Tutorial_Sabotage_Cost_Credits>-100</Tutorial_Sabotage_Cost_Credits>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1430,8 +1430,8 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
-		<Tutorial_Sabotage_Cost_Credits>100000</Tutorial_Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
+		<Tutorial_Sabotage_Cost_Credits>-100</Tutorial_Sabotage_Cost_Credits>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1631,8 +1631,8 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
-		<Tutorial_Sabotage_Cost_Credits>100000</Tutorial_Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
+		<Tutorial_Sabotage_Cost_Credits>-100</Tutorial_Sabotage_Cost_Credits>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1794,7 +1794,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<Icon_Name>I_BUTTON_UNSC_UEG.TGA</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1912,7 +1912,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<Icon_Name>I_BUTTON_UNSC_TITANIUM_MINE.tga</Icon_Name> 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2046,7 +2046,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
+		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
 
 		<Icon_Name>I_BUTTON_UNSC_TITANIUM_MINE.tga</Icon_Name> 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -2747,16 +2747,58 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		
 		
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
 
 
    </GroundStructure> 
@@ -2796,12 +2838,12 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 9998</Starting_Spawned_Units_Tech_0>
 		
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
@@ -2849,12 +2891,12 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 1000</Starting_Spawned_Units_Tech_0>
-	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 1000</Starting_Spawned_Units_Tech_0> -->
-		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>AT_ST_WALKER, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 9998</Starting_Spawned_Units_Tech_0> -->
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_ST_WALKER, 9998</Starting_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 		
@@ -2902,11 +2944,11 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>MPTL, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_RHINO, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_RHINO, 9998</Starting_Spawned_Units_Tech_0>
 	
 		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>	
 		
@@ -2946,9 +2988,9 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
 	
 		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
@@ -2987,8 +3029,8 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_C709_G_LONGSWORD, 1000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 1000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_C709_G_LONGSWORD, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 9998</Starting_Spawned_Units_Tech_0>
 	
 		<Spawned_Squadron_Delay_Seconds>180</Spawned_Squadron_Delay_Seconds>	
 		
