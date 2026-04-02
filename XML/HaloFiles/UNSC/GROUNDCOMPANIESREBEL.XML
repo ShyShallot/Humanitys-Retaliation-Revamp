@@ -18,7 +18,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -41,7 +41,7 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_PELICAN,
-		UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_C709_G_LONGSWORD, UNSC_B_65_BOMBER, UNSC_B_65_BOMBER
+		UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_FALCON, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_WOMBAT, UNSC_C709_G_LONGSWORD, UNSC_B_65_BOMBER,
 		</Company_Units>
 		
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
@@ -387,7 +387,7 @@
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -459,7 +459,7 @@
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -525,7 +525,7 @@
 	<GroundCompany Name="Imperial_Heavy_Scout_Squad_Small">
 		<Variant_Of_Existing_Type>Imperial_Heavy_Scout_Squad</Variant_Of_Existing_Type>
 		<Company_Units> AT_ST_Walker</Company_Units>
-		<Tech_Level>6</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Damage>18</Damage> 
@@ -547,7 +547,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -685,7 +685,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -1077,7 +1077,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1105,7 +1105,7 @@
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_Warthog,
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, Squad_UNSC_INFANTRY_ODST, Squad_UNSC_INFANTRY_ODST, Squad_UNSC_INFANTRY_ODST, Squad_UNSC_INFANTRY_ODST, Squad_UNSC_INFANTRY_ODST, Squad_UNSC_INFANTRY_ODST, UNSC_SCORPION_RHINO, UNSC_SCORPION_RHINO, UNSC_SCORPION_RHINO, UNSC_SCORPION_SUNDEVIL, UNSC_SCORPION_SUNDEVIL, UNSC_SCORPION_SUNDEVIL
+		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE, UNSC_ROCKETGOOSE
 		
 		</Company_Units>
 			
@@ -1261,7 +1261,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1370,7 +1370,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
