@@ -84,25 +84,25 @@ function Init_GC(messsage)
         return
     end
 
+    Sleep(3)
+
     Player = Find_Human_Player()
 
     Player_Name = string.upper(Player.Get_Faction_Name())
 
-    local Single_Start_Object = Find_First_Object("Single_Random_Start")
+    local Galactic_Map = GlobalValue.Get("Galactic_Map")
+
+    DebugMessage("%s -- Galactic Map: %s", tostring(Script), tostring(Galactic_Map))
     
-    local Is_Single_Start = TestValid(Single_Start_Object)
+    local Is_Single_Start = StringContains(Galactic_Map, "Sandbox_Halo_Random_Single")
 
-    local Double_Start_Object = Find_First_Object("Double_Random_Start")
-
-    local Is_Double_Start = TestValid(Double_Start_Object)
+    local Is_Double_Start = StringContains(Galactic_Map, "Sandbox_Halo_Random_Double")
 
     if Is_Single_Start then
-        Single_Start_Object.Despawn()
         Utilize_Random_Start = true
     end
 
     if Is_Double_Start then
-        Double_Start_Object.Despawn()
         Utilize_Random_Start = true
         Random_Planet_Starter:Set_Starting_Planet_Count(2)
     end
@@ -112,9 +112,9 @@ function Init_GC(messsage)
     end
 
     if Utilize_Random_Start and Random_Planet_Starter:Is_Finished() then
-        Starting_Units:Start()
+        Starting_Units:Start(Galactic_Map)
     elseif not Utilize_Random_Start then
-        Starting_Units:Start()
+        Starting_Units:Start(Galactic_Map)
     end
 
     if Starting_Units:Is_Finished() then

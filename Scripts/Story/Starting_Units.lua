@@ -1,616 +1,47 @@
 -- Script Written by ShyShallot
+
+---@class Spawn_Unit_Table
+---@field Weight number
+---@field Limit number
+
+---@class Station_Power_Entry
+---@field Space number
+---@field Ground number
+
+---@class Station_Spawn_Entry
+---@field Power Station_Power_Entry
+---@field Structures string[]
+---@field Space_Units table<string, Spawn_Unit_Table>
+---@field Ground_Units table<string, Spawn_Unit_Table>
+---@field Spawn_Layout table
+
+---@class Faction_Spawn_Entry
+---@field Station table<string, Station_Spawn_Entry>
+---@field Heroes? string[]
+---@field Special_Units? table
+---@field Planets PlanetObject[]
+---@field Mapping table[]
+---@field Faction PlayerWrapper
+
+---@class Spawn_Setting
+---@field Global_Multiplier number
+---@field Spawn_Variations number 
+---@field Factions table<string, Faction_Spawn_Entry>
+
+
+
 ---@class Starting_Units_Handler
 Starting_Units_Handler = {
-    Spawn_Settings = {
-        Global_Multiplier = 1.75,-- Max Combat Power multiplier
-        Spawn_Variations = 5, -- How many variations do we want to generate
-        Factions = {
-            UNSC = {
-                Station = {
-                    Default = {
-                        Power = {
-                            Space = 10000,
-                            Ground = 300
-                        },
-                        Structures = {"UNSC_CAMP", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY"},
-                        Space_Units = {
-                            ["BUCKLER_SQUADRON"] = {
-                                Weight = 50,
-                                Limit = -1
-                            },
-                            ["UNSC_SINGLE_CHARON"] = {
-                                Weight = 50,
-                                Limit = -1
-                            }
-                        },
-                        Ground_Units = {
-                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                                Weight = 65,
-                                Limit = 3
-                            },
-                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
-                                Weight = 15,
-                                Limit = 2
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
-                                Weight = 10,
-                                Limit = 2
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
-                                Weight = 5,
-                                Limit = 1
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
-                                Weight = 3,
-                                Limit = 1
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
-                                Weight = 2,
-                                Limit = 1
-                            },
-                        },
-                    },
-                    Low = {
-                        Power = {
-                            Space = 15000,
-                            Ground = 600
-                        },
-                        Structures = {"UNSC_BASE", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY"},
-                        Space_Units = {
-                            ["BUCKLER_SQUADRON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_SINGLE_CHARON"] = {
-                                Weight = 50,
-                                Limit = -1
-                            },
-                            ["UNSC_PHOENIX"] = {
-                                Weight = 5,
-                                Limit = -1
-                            }
-                        },
-                        Ground_Units = {
-                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                                Weight = 65,
-                                Limit = 3
-                            },
-                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
-                                Weight = 15,
-                                Limit = 2
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
-                                Weight = 10,
-                                Limit = 2
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
-                                Weight = 5,
-                                Limit = 1
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
-                                Weight = 3,
-                                Limit = 1
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
-                                Weight = 2,
-                                Limit = 1
-                            },
-                        },
-                    },
-                    Medium = {
-                        Power = {
-                            Space = 25000,
-                            Ground = 1200,
-                        },
-                        Structures = {"UNSC_FORT", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY", "COMMUNICATIONS_ARRAY_R"},
-                        Space_Units = {
-							["BUCKLER_SQUADRON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_SINGLE_CHARON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_PHOENIX"] = {
-                                Weight = 5,
-                                Limit = -1
-                            },
-                            ["UNSC_EPOCH"] = {
-                                Weight = 2,
-                                Limit = -1
-                            }
-                        },
-                        Ground_Units = {
-                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                                Weight = 65,
-                                Limit = 3
-                            },
-                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
-                                Weight = 15,
-                                Limit = 2
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
-                                Weight = 10,
-                                Limit = 2
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
-                                Weight = 5,
-                                Limit = 1
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
-                                Weight = 3,
-                                Limit = 1
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
-                                Weight = 2,
-                                Limit = 1
-                            },
-                        },
-                    },
-                    High = {
-                        Power = {
-                            Space = 45000,
-                            Ground = 300,
-                        },
-                        Structures = {"UNSC_FORT"},
-                        Space_Units = {
-                            ["BUCKLER_SQUADRON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_SINGLE_CHARON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_PHOENIX"] = {
-                                Weight = 5,
-                                Limit = -1
-                            },
-                            ["UNSC_EPOCH"] = {
-                                Weight = 2,
-                                Limit = -1
-                            }
-                        },
-                        Ground_Units = {
-                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                                Weight = 65,
-                                Limit = 3
-                            },
-                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
-                                Weight = 15,
-                                Limit = 2
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
-                                Weight = 10,
-                                Limit = 2
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
-                                Weight = 5,
-                                Limit = 1
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
-                                Weight = 3,
-                                Limit = 1
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
-                                Weight = 2,
-                                Limit = 1
-                            },
-                        },
-                    },
-                    Ultra = {
-                        Power = {
-                            Space = 45000,
-                            Ground = 300,
-                        },
-                        Structures = {"UNSC_FORT"},
-                        Space_Units = {
-                            ["BUCKLER_SQUADRON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_SINGLE_CHARON"] = {
-                                Weight = 35,
-                                Limit = -1
-                            },
-                            ["UNSC_PHOENIX"] = {
-                                Weight = 5,
-                                Limit = -1
-                            },
-                            ["UNSC_EPOCH"] = {
-                                Weight = 2,
-                                Limit = -1
-                            }
-                        },
-                        Ground_Units = {
-                            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                                Weight = 65,
-                                Limit = 3
-                            },
-                            ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
-                                Weight = 15,
-                                Limit = 2
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
-                                Weight = 10,
-                                Limit = 2
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
-                                Weight = 5,
-                                Limit = 1
-                            },
-							["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {
-                                Weight = 3,
-                                Limit = 1
-                            },
-                            ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
-                                Weight = 2,
-                                Limit = 1
-                            },
-                        }
-                    }
-                },
-                Heroes = {
-                    "UNSC_SOF",
-                },
-                Special_Units = {},
-                Planets = {},
-                Mapping = {},
-            },
-            COVN = {
-                Station = {
-                    Default = {
-                        Power = {
-                            Space = 25000,
-                            Ground = 600,
-                        },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY"},
-                        Space_Units = {
-                            ["CRS_SQUADRON"] = {
-                                Weight = 100,
-                                Limit = 10
-                            }
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = 5
-                            }
-                        },
-                    },
-                    Low = {
-                        Power = {
-                            Space = 30500,
-                            Ground = 600,
-                        },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY"},
-                        Space_Units = {
-                            ["COVN_SDV"] = {
-                                Weight = 50,
-                                Limit = 8
-                            },
-                            ["CRS_SQUADRON"] = {
-                                Weight = 50,
-                                Limit = 12
-                            }
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = 8
-                            }
-                        },
-                    },
-                    Medium = {
-                        Power = {
-                            Space = 60000,
-                            Ground = 600,
-                        },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY"},
-                        Space_Units = {
-                            ["COVN_SDV"] = {
-                                Weight = 65,
-                                Limit = 10
-                            },
-                            ["CRS_SQUADRON"] = {
-                                Weight = 50,
-                                Limit = 14
-                            },
-                            ["COVN_RCS"] = {
-                                Weight = 3,
-                                Limit = 6
-                            }
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = -1
-                            }
-                        }
-                    },
-                    High = {
-                        Power = {
-                            Space = 120500,
-                            Ground = 600,
-                        },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "COVENANT_ASSEMBLY_FORGE"},
-                        Space_Units = {
-							["COVN_SDV"] = {
-                                Weight = 25,
-                                Limit = 10
-                            },
-                            ["CRS_SQUADRON"] = {
-                                Weight = 30,
-                                Limit = 20
-                            },
-                            ["COVN_RCS"] = {
-                                Weight = 15,
-                                Limit = 20
-                            },
-                            ["COVN_CCS"] = {
-                                Weight = 5,
-                                Limit = 20
-                            },
-                            ["COVN_DDS"] = {
-                                Weight = 2,
-                                Limit = 6
-                            },
-                            ["COVN_ORS"] = {
-                                Weight = 2,
-                                Limit = 6
-                            },
-                            ["COVN_CAS"] = {
-                                Weight = 1,
-                                Limit = 3
-                            },
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = 10
-                            }
-                        }
-                    },
-                    Ultra = {
-                        Power = {
-                            Space = 185000,
-                            Ground = 600,
-                        },
-                        Structures = {"E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "COVENANT_ASSEMBLY_FORGE"},
-                        Space_Units = {
-                            ["COVN_SDV"] = {
-                                Weight = 25,
-                                Limit = 10
-                            },
-                            ["CRS_SQUADRON"] = {
-                                Weight = 30,
-                                Limit = 20
-                            },
-                            ["COVN_RCS"] = {
-                                Weight = 15,
-                                Limit = 20
-                            },
-                            ["COVN_CCS"] = {
-                                Weight = 5,
-                                Limit = 20
-                            },
-                            ["COVN_DDS"] = {
-                                Weight = 2,
-                                Limit = 6
-                            },
-                            ["COVN_ORS"] = {
-                                Weight = 2,
-                                Limit = 6
-                            },
-                            ["COVN_CAS"] = {
-                                Weight = 1,
-                                Limit = 3
-                            },
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = 10
-                            }
-                        }
-                    }
-                },
-                Heroes = {
-                    "COVN_PIOUS",
-					"COVN_MACCABEUS",
-                },
-                Special_Units = { -- could work for structures as well
-                    {Count = 1,Unit = "COVN_CSO",Filter = {Type = "Station",Value = {false,false,false,false,true,true}}} -- the Value Table is the Acceptable Station Levels,0,1,2,3,4,5,if it is true it will spawn at that level,in this usage,it will only spawn at level 4 and 5
-                    --{Count = 1,Unit = "COVN_CSO",Filter = {Type = "Power",Value = false}} -- Would Spawn 1 CSO on the strongest planet calculated via space unit strength
-                    --{Count = 1,Unit = "COVN_CSO"} -- Spawns a CSO on a random controlled planet
-                },
-                Planets = {},
-                Mapping = {},
-            },
-            Swords = {
-                Station = {
-                    Default = {
-                        Power = {
-                            Space = 10000,
-                            Ground = 600,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["SWORDS_CRS"] = {
-                                Weight = 50,
-                                Limit = 20
-                            },
-							["SWORDS_SDV"] = {
-                                Weight = 25,
-                                Limit = -1
-                            },
-                            ["SWORDS_CCS"] = {
-                                Weight = 4,
-                                Limit = 10
-                            },
-                            ["SWORDS_CAS"] = {
-                                Weight = 1,
-                                Limit = 1
-                            },
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = -1
-                            }
-                        },
-                    },
-                    Low = {
-                        Power = {
-                            Space = 25500,
-                            Ground = 600,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["SWORDS_CRS"] = {
-                                Weight = 50,
-                                Limit = 20
-                            },
-							["SWORDS_SDV"] = {
-                                Weight = 25,
-                                Limit = -1
-                            },
-                            ["SWORDS_CCS"] = {
-                                Weight = 4,
-                                Limit = 10
-                            },
-                            ["SWORDS_CAS"] = {
-                                Weight = 1,
-                                Limit = 1
-                            },
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,Limit = -1
-                            }
-                        },
-                    },
-                    Medium = {
-                        Power = {
-                            Space = 45000,
-                            Ground = 600,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["SWORDS_CRS"] = {
-                                Weight = 50,
-                                Limit = 20
-                            },
-							["SWORDS_SDV"] = {
-                                Weight = 25,
-                                Limit = -1
-                            },
-                            ["SWORDS_CCS"] = {
-                                Weight = 4,
-                                Limit = 10
-                            },
-                            ["SWORDS_CAS"] = {
-                                Weight = 1,
-                                Limit = 1
-                            },
-                        },
-                        Ground_Units = {
-                            ["Imperial_Stormtrooper_Squad"] = {
-                                Weight = 100,
-                                Limit = -1
-                            }
-                        },
-                    }
-                },
-                Planets = {},
-                Mapping = {},
-            },
-            Terror = {
-                Station = {
-                    Default = {
-                        Power = {
-                            Space = 9000,
-                            Ground = 600,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["TERROR_BUCKLER_SQUAD"] = {
-                                Weight = 40,
-                                Limit = -1 },
-                            ["TERROR_CHARON"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
-                            ["TERROR_PHOENIX"] = {
-                                Weight = 2,
-                                Limit = -1
-                            },
-                        },
-                        Ground_Units = { ["Rebel_Infantry_Squad"] = {
-                            Weight = 100,
-                            Limit = -1
-                        }
-                    },
-                    },
-                    Low = {
-                        Power = {
-                            Space = 15000,
-                            Ground = 900,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["TERROR_BUCKLER_SQUAD"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
-                            ["TERROR_CHARON"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
-                            ["TERROR_PHOENIX"] = {
-                                Weight = 2,
-                                Limit = -1
-                            },
-                        },
-                        Ground_Units = { ["Rebel_Infantry_Squad"] = {
-                            Weight = 100,
-                            Limit = -1
-                        }
-                    },
-                    },
-                    Medium = {
-                        Power = {
-                            Space = 25000,
-                            Ground = 1200,
-                        },
-                        Structures = {},
-                        Space_Units = {
-                            ["TERROR_BUCKLER_SQUAD"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
-                            ["TERROR_CHARON"] = {
-                                Weight = 40,
-                                Limit = -1
-                            },
-                            ["TERROR_PHOENIX"] = {
-                                Weight = 2,
-                                Limit = -1
-                            },
-                        },
-                        Ground_Units = {
-                            ["Rebel_Infantry_Squad"] = {
-                                Weight = 100,
-                                Limit = -1
-                            }
-                        },
-                    }
-                },
-                Planets = {},
-                Mapping = {},
-            }
-        }
+
+    Spawn_Settings_Map = {
+        ["SANDBOX_HALO_EVOLVED_UNSC"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_EVOLVED_INNIES"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_EVOLVED_COVENANT"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_EVOLVED_SWORDS"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_RANDOM_SINGLE_UNSC"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_RANDOM_SINGLE_COVN"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_RANDOM_DOUBLE_UNSC"] = "Starting_Units_Definitions/Default",
+        ["SANDBOX_HALO_RANDOM_DOUBLE_COVN"] = "Starting_Units_Definitions/Default",
     },
 
     Global_Unit_Table = nil,
@@ -626,7 +57,11 @@ Starting_Units_Handler = {
     Unit_Power_Cache = {},
 }
 
-function Starting_Units_Handler:Start(skip)
+function Starting_Units_Handler:Start(Map_Name, skip)
+
+    if type(Map_Name) ~= "string" then
+        return
+    end
 
     if skip then
         self.Finished = true
@@ -634,45 +69,58 @@ function Starting_Units_Handler:Start(skip)
         return
     end
 
+    DebugMessage("%s -- Map Name: %s", tostring(Script), tostring(Map_Name))
+
+    local Settings_File = self.Spawn_Settings_Map[Map_Name]
+
+    DebugMessage("%s -- Settings File: %s", tostring(Script), tostring(Settings_File))
+
+    ---@type Spawn_Setting|nil
+    local Spawn_Settings = require(Settings_File)
+
+    if Spawn_Settings == nil then
+        return
+    end
+
     DebugMessage("%s -- Starting Random Unit Spawn",tostring(Script))
 
-    self.Spawn_Settings.Factions.UNSC.Mapping[0] = self.Spawn_Settings.Factions.UNSC.Station.Default -- The Index defined is the Space Station Level of the planet
-    self.Spawn_Settings.Factions.UNSC.Mapping[1] = self.Spawn_Settings.Factions.UNSC.Station.Low
-    self.Spawn_Settings.Factions.UNSC.Mapping[2] = self.Spawn_Settings.Factions.UNSC.Station.Low -- for example the Level 2 Space Station will use the same template as a level 1 space station
-    self.Spawn_Settings.Factions.UNSC.Mapping[3] = self.Spawn_Settings.Factions.UNSC.Station.Medium
-    self.Spawn_Settings.Factions.UNSC.Mapping[4] = self.Spawn_Settings.Factions.UNSC.Station.High
-    self.Spawn_Settings.Factions.UNSC.Mapping[5] = self.Spawn_Settings.Factions.UNSC.Station.Ultra
+    Spawn_Settings.Factions.UNSC.Mapping[0] = Spawn_Settings.Factions.UNSC.Station.Default -- The Index defined is the Space Station Level of the planet
+    Spawn_Settings.Factions.UNSC.Mapping[1] = Spawn_Settings.Factions.UNSC.Station.Low
+    Spawn_Settings.Factions.UNSC.Mapping[2] = Spawn_Settings.Factions.UNSC.Station.Low -- for example the Level 2 Space Station will use the same template as a level 1 space station
+    Spawn_Settings.Factions.UNSC.Mapping[3] = Spawn_Settings.Factions.UNSC.Station.Medium
+    Spawn_Settings.Factions.UNSC.Mapping[4] = Spawn_Settings.Factions.UNSC.Station.High
+    Spawn_Settings.Factions.UNSC.Mapping[5] = Spawn_Settings.Factions.UNSC.Station.Ultra
 
-    self.Spawn_Settings.Factions.COVN.Mapping[0] = self.Spawn_Settings.Factions.COVN.Station.Default
-    self.Spawn_Settings.Factions.COVN.Mapping[1] = self.Spawn_Settings.Factions.COVN.Station.Low
-    self.Spawn_Settings.Factions.COVN.Mapping[2] = self.Spawn_Settings.Factions.COVN.Station.Low
-    self.Spawn_Settings.Factions.COVN.Mapping[3] = self.Spawn_Settings.Factions.COVN.Station.Medium
-    self.Spawn_Settings.Factions.COVN.Mapping[4] = self.Spawn_Settings.Factions.COVN.Station.High
-    self.Spawn_Settings.Factions.COVN.Mapping[5] = self.Spawn_Settings.Factions.COVN.Station.Ultra
+    Spawn_Settings.Factions.COVN.Mapping[0] = Spawn_Settings.Factions.COVN.Station.Default
+    Spawn_Settings.Factions.COVN.Mapping[1] = Spawn_Settings.Factions.COVN.Station.Low
+    Spawn_Settings.Factions.COVN.Mapping[2] = Spawn_Settings.Factions.COVN.Station.Low
+    Spawn_Settings.Factions.COVN.Mapping[3] = Spawn_Settings.Factions.COVN.Station.Medium
+    Spawn_Settings.Factions.COVN.Mapping[4] = Spawn_Settings.Factions.COVN.Station.High
+    Spawn_Settings.Factions.COVN.Mapping[5] = Spawn_Settings.Factions.COVN.Station.Ultra
 
-    self.Spawn_Settings.Factions.Swords.Mapping[0] = self.Spawn_Settings.Factions.Swords.Station.Default
-    self.Spawn_Settings.Factions.Swords.Mapping[1] = self.Spawn_Settings.Factions.Swords.Station.Low
-    self.Spawn_Settings.Factions.Swords.Mapping[2] = self.Spawn_Settings.Factions.Swords.Station.Low
-    self.Spawn_Settings.Factions.Swords.Mapping[3] = self.Spawn_Settings.Factions.Swords.Station.Medium -- Minor factions dont have space station levels higher than 3
+    Spawn_Settings.Factions.Swords.Mapping[0] = Spawn_Settings.Factions.Swords.Station.Default
+    Spawn_Settings.Factions.Swords.Mapping[1] = Spawn_Settings.Factions.Swords.Station.Low
+    Spawn_Settings.Factions.Swords.Mapping[2] = Spawn_Settings.Factions.Swords.Station.Low
+    Spawn_Settings.Factions.Swords.Mapping[3] = Spawn_Settings.Factions.Swords.Station.Medium -- Minor factions dont have space station levels higher than 3
 
-    self.Spawn_Settings.Factions.Terror.Mapping[0] = self.Spawn_Settings.Factions.Terror.Station.Default
-    self.Spawn_Settings.Factions.Terror.Mapping[1] = self.Spawn_Settings.Factions.Terror.Station.Low
-    self.Spawn_Settings.Factions.Terror.Mapping[2] = self.Spawn_Settings.Factions.Terror.Station.Low
-    self.Spawn_Settings.Factions.Terror.Mapping[3] = self.Spawn_Settings.Factions.Terror.Station.Medium
+    Spawn_Settings.Factions.Terror.Mapping[0] = Spawn_Settings.Factions.Terror.Station.Default
+    Spawn_Settings.Factions.Terror.Mapping[1] = Spawn_Settings.Factions.Terror.Station.Low
+    Spawn_Settings.Factions.Terror.Mapping[2] = Spawn_Settings.Factions.Terror.Station.Low
+    Spawn_Settings.Factions.Terror.Mapping[3] = Spawn_Settings.Factions.Terror.Station.Medium
 
     self.Global_Unit_Table = require("globalUnitTable")
 
     self.Global_Planet_Table = require("globalPlanetTable")
 
-    self.Spawn_Settings.Factions.UNSC.Faction = Find_Player("Rebel")
+    Spawn_Settings.Factions.UNSC.Faction = Find_Player("Rebel")
 
-    self.Spawn_Settings.Factions.COVN.Faction = Find_Player("Empire")
+    Spawn_Settings.Factions.COVN.Faction = Find_Player("Empire")
 
-    self.Spawn_Settings.Factions.Swords.Faction = Find_Player("Swords")
+    Spawn_Settings.Factions.Swords.Faction = Find_Player("Swords")
 
-    self.Spawn_Settings.Factions.Terror.Faction = Find_Player("TERRORISTS")
+    Spawn_Settings.Factions.Terror.Faction = Find_Player("TERRORISTS")
 
-    for Faction, Entry in pairs(self.Spawn_Settings.Factions) do
+    for Faction, Entry in pairs(Spawn_Settings.Factions) do
 
         for _, Station in pairs(Entry.Station) do
 
@@ -699,8 +147,8 @@ function Starting_Units_Handler:Start(skip)
 
             local Total_Space_Variations = 0
 
-            while Total_Space_Variations < self.Spawn_Settings.Spawn_Variations do
-                Station.Spawn_Layout.Space[Total_Space_Variations + 1] = self:Calculate_Spawn_Variation(Station, Space_Distribution, Unit_Limits)
+            while Total_Space_Variations < Spawn_Settings.Spawn_Variations do
+                Station.Spawn_Layout.Space[Total_Space_Variations + 1] = self:Calculate_Spawn_Variation(Spawn_Settings, Station, Space_Distribution, Unit_Limits)
 
                 DebugMessage("%s -- New Space Spawn Variation: %s", tostring(Script), tostring(Station.Spawn_Layout.Space[Total_Space_Variations + 1]))
 
@@ -726,8 +174,8 @@ function Starting_Units_Handler:Start(skip)
 
             local Total_Ground_Variations = 0
 
-            while Total_Ground_Variations < self.Spawn_Settings.Spawn_Variations do
-                Station.Spawn_Layout.Ground[Total_Ground_Variations + 1] = self:Calculate_Spawn_Variation(Station, Ground_Distribution, Unit_Limits, true)
+            while Total_Ground_Variations < Spawn_Settings.Spawn_Variations do
+                Station.Spawn_Layout.Ground[Total_Ground_Variations + 1] = self:Calculate_Spawn_Variation(Spawn_Settings, Station, Ground_Distribution, Unit_Limits, true)
 
                 DebugMessage("%s -- New Ground Spawn Variation: %s", tostring(Script), tostring(Station.Spawn_Layout.Ground[Total_Ground_Variations + 1]))
 
@@ -743,7 +191,7 @@ function Starting_Units_Handler:Start(skip)
 
         --DebugMessage("%s -- Starbase Level: %s",tostring(Script),tostring(planet.Get_Starbase_Level()))
 
-        local Spawn_Entry = self:Get_Spawn_Entry(planet)
+        local Spawn_Entry = self:Get_Spawn_Entry(planet, Spawn_Settings)
 
         --DebugMessage("%s -- Spawn Entry for Planet %s: %s",tostring(Script),tostring(planet),tostring(Spawn_Entry))
 
@@ -796,7 +244,7 @@ function Starting_Units_Handler:Start(skip)
         end
     end
 
-    for faction,entry in pairs(self.Spawn_Settings.Factions) do -- Hero Spawn
+    for faction,entry in pairs(Spawn_Settings.Factions) do -- Hero Spawn
 
         local planet_list = entry.Planets
 
@@ -838,7 +286,7 @@ function Starting_Units_Handler:Start(skip)
     self.Finished = true
 end
 
-function Starting_Units_Handler:Calculate_Spawn_Variation(Settings, Mapping, Unit_Limits, Is_Ground)
+function Starting_Units_Handler:Calculate_Spawn_Variation(Spawn_Settings, Settings, Mapping, Unit_Limits, Is_Ground)
 
     if Mapping == nil then
         return {}
@@ -855,12 +303,12 @@ function Starting_Units_Handler:Calculate_Spawn_Variation(Settings, Mapping, Uni
 
     local Spawn_List = Settings.Space_Units
 
-    local Max_Power = tonumber(Dirty_Floor(Settings.Power.Space * self.Spawn_Settings.Global_Multiplier))
+    local Max_Power = tonumber(Dirty_Floor(Settings.Power.Space * Spawn_Settings.Global_Multiplier))
 
     if Is_Ground == true then
         Spawn_List = Settings.Ground_Units
 
-        Max_Power = tonumber(Dirty_Floor(Settings.Power.Ground * self.Spawn_Settings.Global_Multiplier))
+        Max_Power = tonumber(Dirty_Floor(Settings.Power.Ground * Spawn_Settings.Global_Multiplier))
     end
 
     if type(Max_Power) ~= "number" then
@@ -948,7 +396,7 @@ function Starting_Units_Handler:Spawn_Structure(structure,planet)
     end
 end
 
-function Starting_Units_Handler:Get_Spawn_Entry(planet)
+function Starting_Units_Handler:Get_Spawn_Entry(planet, Spawn_Settings)
 
     if not TestValid(planet) then
         return nil
@@ -958,7 +406,7 @@ function Starting_Units_Handler:Get_Spawn_Entry(planet)
 
     --DebugMessage("%s -- Planet: %s,Owner: %s",tostring(Script),tostring(planet),tostring(Planet_Owner.Get_Faction_Name()))
 
-    for faction,entry in pairs(self.Spawn_Settings.Factions) do
+    for faction,entry in pairs(Spawn_Settings.Factions) do
 
         --DebugMessage("%s -- Entry Faction: %s",tostring(Script),tostring(entry.Faction))
 
@@ -1225,7 +673,7 @@ function Starting_Units_Handler:Spawn_From_List(Spawn_List, Planet)
     end
 end
 
-function Starting_Units_Handler:Set_Spawn_Variations(Spawn_Variations_Count)
+function Starting_Units_Handler:Set_Spawn_Variations(Spawn_Settings, Spawn_Variations_Count)
     if type(Spawn_Variations_Count) ~= "number" then
         return
     end
@@ -1238,7 +686,7 @@ function Starting_Units_Handler:Set_Spawn_Variations(Spawn_Variations_Count)
         Spawn_Variations_Count = 20
     end
     
-    self.Spawn_Settings.Spawn_Variations = Spawn_Variations_Count
+    Spawn_Settings.Spawn_Variations = Spawn_Variations_Count
 end
 
 return Starting_Units_Handler

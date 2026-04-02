@@ -473,6 +473,7 @@ function Game_Mode_Starting_Event(mode_name, map_name)
 		CampaignGame = true
 		Reset_Stats()
 		GameStartTime = GetCurrentTime.Frame()
+		GlobalValue.Set("Galactic_Map", tostring(map_name))
 	elseif CampaignGame == false then
 		-- Skirmish tactical
 		Reset_Stats()

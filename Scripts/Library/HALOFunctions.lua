@@ -548,3 +548,11 @@ function Get_Object_By_ID(id)
 
     return object
 end
+
+function StringContains(str, substr)
+    if str == nil or substr == nil then
+        return false
+    end
+
+    return string.find(str, substr, 1, true) ~= nil
+end
