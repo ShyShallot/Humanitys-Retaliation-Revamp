@@ -2217,8 +2217,8 @@
 		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
+		<Turret_Elevate_Extent_Degrees>95</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
@@ -2230,7 +2230,7 @@
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
 		<Projectile_Types>Proj_UNSC_M260_AA</Projectile_Types>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1650.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
@@ -3147,35 +3147,18 @@
 		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
 
 		<!-- Non-Hero unit abilities description -->
-	<!--	<Unit_Abilities_Data SubObjectList="Yes"> 
-            <Unit_Ability>
-                <Type>LASER_DEFENSE</Type>
-                <Recharge_Seconds>35.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Juggernaut_Laser_Defense </GUI_Activated_Ability_Name> 
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Defense_On_Juggernaut </SFXEvent_GUI_Unit_Ability_Activated>  
-					 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Defense_Off_Juggernaut </SFXEvent_GUI_Unit_Ability_Deactivated>  
-					 <Effective_Radius> 500.0 </Effective_Radius>
-				<Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-        </Unit_Abilities_Data>
-
+		
 		<Abilities SubObjectList="Yes">
-            <Laser_Defense_Ability Name="Juggernaut_Laser_Defense">
-                <Activation_Style> User_Input </Activation_Style>
-                <Defense_Duration_In_Secs> 28.0 </Defense_Duration_In_Secs>
-                <Laser_Color>34, 34, 235, 255</Laser_Color>
-                <Bone_Names>muzzleb_00, muzzleb_01</Bone_Names>
-                <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-                <Protection_Radius>350.0</Protection_Radius>
-                <Laser_Beam_Frames>2</Laser_Beam_Frames>
-                <Laser_Beam_Width>4</Laser_Beam_Width>
-                <Projectile_Dist_Travelled>40</Projectile_Dist_Travelled>
-                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
-                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
-                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-                <Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
-            </Laser_Defense_Ability>
-		</Abilities> -->
+           <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>-100</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+		</Abilities> 
         
 
 	</GroundVehicle>

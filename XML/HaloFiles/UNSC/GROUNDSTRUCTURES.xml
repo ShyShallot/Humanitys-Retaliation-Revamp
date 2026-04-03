@@ -2728,10 +2728,10 @@
 		
 		<Tactical_Health>50000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_TACTICAL_BARRACKS.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.TGA</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>0.40</Scale_Factor>
 
 		<Affiliation>Rebel, Terrorists</Affiliation>
 
@@ -2884,10 +2884,10 @@
 		
 		<Tactical_Health>60000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>0.45</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
@@ -2982,7 +2982,7 @@
 		
 		<Tactical_Health>75000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_HEAVY_VEHICLE_FOUNDRY.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
 		
 		<Scale_Factor>0.20</Scale_Factor>
@@ -3063,10 +3063,10 @@
 		
 		<Tactical_Health>35000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_LIGHT_AIR_COMMAND.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
