@@ -2733,19 +2733,11 @@
 		
 		<Scale_Factor>0.20</Scale_Factor>
 
-		<Affiliation> Rebel, Terrorists</Affiliation> 
+		<Affiliation>Rebel, Terrorists</Affiliation>
 
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
-	
-		<Tactical_Buildable_Objects_Campaign> 
-			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-		</Tactical_Buildable_Objects_Campaign>
-
-
-		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<CategoryMask> Structure | Infantry | Vehicle </CategoryMask>
 		
 		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
@@ -2801,6 +2793,9 @@
 		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
+		
+		
 
 
    </GroundStructure> 
@@ -2868,6 +2863,9 @@
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<SFXEvent_Ambient_Loop>Barracks_Ambient_Loop</SFXEvent_Ambient_Loop>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		</GroundStructure> 
 		
@@ -2966,6 +2964,7 @@
 		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		</GroundStructure> 
 		
@@ -3047,6 +3046,7 @@
 		<Spawned_Squadron_Location_Flyout_Distances>345.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		</GroundStructure> 
 		
@@ -3146,6 +3146,7 @@
 		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		</GroundStructure> 
 		
@@ -3249,6 +3250,7 @@
 		<Spawned_Squadron_Location_Flyout_Distances>245.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		</GroundStructure> 
 

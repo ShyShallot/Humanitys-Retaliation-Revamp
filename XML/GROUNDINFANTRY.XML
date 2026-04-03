@@ -66,7 +66,7 @@
 		<Energy_Capacity>200</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 
 		<Armor_Type> Armor_Scout_Bike </Armor_Type>
@@ -236,7 +236,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
@@ -399,7 +399,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 			
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
@@ -598,7 +598,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>Yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 		<Create_Team>No</Create_Team>
 
@@ -768,7 +768,7 @@
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
@@ -981,7 +981,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>Proj_UNSC_SPARTAN_LASER</Projectile_Types>
 		
@@ -1203,7 +1203,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>Proj_UNSC_SPARTAN_LASER</Projectile_Types>
 		
@@ -1424,7 +1424,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>SPARTAN_MA5C</Projectile_Types>
 		
@@ -1640,7 +1640,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>MA5C</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>10.5</Projectile_Fire_Recharge_Seconds>
@@ -1863,7 +1863,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M6D</Projectile_Types>
 		
@@ -2101,7 +2101,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M7_SMG</Projectile_Types>
 
@@ -2342,7 +2342,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M7_SMG</Projectile_Types>
 
@@ -2542,7 +2542,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>SRS99_S7_AM</Projectile_Types>
 
@@ -2726,7 +2726,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M99_SASR</Projectile_Types>
 
@@ -2910,7 +2910,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M90_SHOTGUN</Projectile_Types>
 
@@ -3102,7 +3102,7 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		
 		<Projectile_Types>M7_SMG</Projectile_Types>
 
@@ -3330,7 +3330,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
@@ -3495,7 +3495,7 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
@@ -3675,7 +3675,7 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
@@ -3834,7 +3834,7 @@
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
@@ -4121,7 +4121,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>no</Victory_Relevant>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>

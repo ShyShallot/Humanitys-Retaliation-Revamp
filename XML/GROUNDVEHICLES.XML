@@ -160,7 +160,7 @@
 		<Death_Clone>Damage_Normal, AT_AT_Walker_Death_Clone_02</Death_Clone>
 
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>AT_AT_Walker_Captured</Vehicle_Thief_Inside_Clone>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -494,7 +494,7 @@
 		<Death_Clone>Damage_Normal, AT_ST_Walker_Death_Clone_02</Death_Clone>
 
 		<Score_Cost_Credits>37.5</Score_Cost_Credits>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>AT_ST_Walker_Captured</Vehicle_Thief_Inside_Clone>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -809,7 +809,7 @@
 		<Score_Cost_Credits>167</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Vehicle_Thief_Inside_Clone>AT_AA_Walker_Captured</Vehicle_Thief_Inside_Clone>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Deploys>Yes</Deploys>
 		<Auto_Deploys>Yes</Auto_Deploys>
@@ -1029,7 +1029,7 @@
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Select_Box_Scale>80</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2031,11 +2031,10 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
 				<Type>DEPLOY</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -2098,7 +2097,7 @@
 		<Death_Clone>Damage_Normal, MPTL_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, MPTL_Telekinesis_Death_Clone</Death_Clone>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>225</Tactical_Bribe_Cost>
 
@@ -2312,7 +2311,7 @@
 		<Death_Clone>Damage_Normal, MPTL_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, MPTL_Telekinesis_Death_Clone</Death_Clone>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>225</Tactical_Bribe_Cost>
 
@@ -2475,7 +2474,7 @@
 		<Death_Clone>Damage_Normal, MPTL_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Telekinesis, MPTL_Telekinesis_Death_Clone</Death_Clone>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>225</Tactical_Bribe_Cost>
 
@@ -2548,7 +2547,7 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Spotter </MovementClass>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<SFXEvent_Select>Unit_Select_MPTL_Spotter</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MPTL_Spotter</SFXEvent_Move>
@@ -2759,7 +2758,7 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
 
       <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
@@ -2949,7 +2948,7 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
 
 		<Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
@@ -3142,7 +3141,7 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
 
 		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
@@ -3328,7 +3327,7 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
 
       <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
@@ -3517,7 +3516,7 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
 
       <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
@@ -3732,7 +3731,7 @@
 		<Weather_Category>Hover</Weather_Category>
 
 		<Score_Cost_Credits>100</Score_Cost_Credits>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>T2B_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 
@@ -3923,7 +3922,7 @@
 		<Weather_Category>Tracked</Weather_Category>
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_SCORPION.TGA</Icon_Name>
 		
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>T4B_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
@@ -4090,7 +4089,7 @@
 		<Weather_Category>Tracked</Weather_Category>
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_SCORPION.TGA</Icon_Name>
 		
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>T4B_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
@@ -4257,7 +4256,7 @@
 		<Weather_Category>Tracked</Weather_Category>
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_SCORPION.TGA</Icon_Name>
 		
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>T4B_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
@@ -4451,7 +4450,7 @@
 		<Icon_Name>i_button_tie_crawler.tga</Icon_Name> 
 		<Weather_Category>Tracked</Weather_Category>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Score_Cost_Credits>36</Score_Cost_Credits>
 		<No_Colorization_Color> 33, 33, 33, 255 </No_Colorization_Color>
@@ -4695,7 +4694,7 @@
 		<Score_Cost_Credits>125</Score_Cost_Credits>
 		<Vehicle_Thief_Inside_Clone>M1_Repulsor_Tank_Captured</Vehicle_Thief_Inside_Clone>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
@@ -4963,7 +4962,7 @@
 		<Weather_Category>Hover</Weather_Category>
 		<Score_Cost_Credits> 400</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>Pirate_Skiff_Captured</Vehicle_Thief_Inside_Clone>
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
@@ -5243,7 +5242,7 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> True </Influences_Capture_Point>
 
 		<SFXEvent_Select>Unit_Select_MPTL_Spotter</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MPTL_Spotter</SFXEvent_Move>

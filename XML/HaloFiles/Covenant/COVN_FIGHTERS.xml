@@ -558,7 +558,7 @@
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<HardPoints>
-			COVN_CER_01,COVN_CER_02
+			COVN_CER_01, COVN_CER_02
 		</HardPoints>
 
 		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
@@ -654,28 +654,7 @@
 		<Squadron_Units>Cerastes, Cerastes</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-		<Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+		
 		<Icon_Name>I_BUTTON_CERASTES.tga</Icon_Name>
 		<GUI_Model_Name>COVN_CERASTES.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

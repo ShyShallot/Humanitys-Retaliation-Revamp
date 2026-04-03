@@ -2805,6 +2805,7 @@
 
 
 	<GroundStructure Name="Morale_Compromised_Ground">
+	
 		<Text_ID>TEXT_STRUCTURE_COMM_JAMMER_EMPIRE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>NB_Comm_Jamm.alo</Land_Model_Name>
@@ -2928,6 +2929,7 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
+		
 	</SecondaryStructure>
 
 

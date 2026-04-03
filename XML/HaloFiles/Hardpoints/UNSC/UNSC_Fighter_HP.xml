@@ -483,7 +483,7 @@
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Model_To_Attach>UNSC_CHARONClass.alo</Model_To_Attach><!-- I.E. rv_awing.alo its your choice -->
+            <Model_To_Attach>UNSC_PELICAN.alo</Model_To_Attach><!-- I.E. rv_awing.alo its your choice -->
             <Attachment_Bone>SHIP_LANDER</Attachment_Bone><!-- this is the bone on the lander_root model, dont change -->	
            
     </HardPoint>

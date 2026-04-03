@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
 <GroundStructures>
 
-<GroundStructure Name="Abstract_Ground_Building">
+	<GroundStructure Name="Abstract_Ground_Building">
 
-		<LandBehavior> TURRET, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR</LandBehavior>
+		<LandBehavior> TARGETING, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR, SELECTABLE</LandBehavior>
 		
-		<Text_ID>TEXT_STRUCTURE_TURRET_AI</Text_ID>
+		<Behavior>DUMMY_GROUND_STRUCTURE,TACTICAL_SELL</Behavior>
+		
+		<Affiliation>Rebel, Terrorists, Empire, Swords</Affiliation>
 
-		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Health>30000</Tactical_Health>
 		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
 
 		<Scale_Factor> 1.0 </Scale_Factor> 
+		
+		<Max_Speed> 0.0 </Max_Speed> 
+		<Max_Rate_Of_Turn> 0.0 </Max_Rate_Of_Turn>
 
 		<Damage>20</Damage>
 		
@@ -23,39 +28,28 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
-
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
-		
-		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 25.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
-		<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
-		<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
-
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
-		<!-- Ground infantry priority 1, ground vehicles priority 2, air vehicles N/A (9999) -->
-		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>	
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+		
+		<Influences_Capture_Point>True</Influences_Capture_Point>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_AI_TURRET</Encyclopedia_Text>
-
-		<CategoryMask> Structure | AntiInfantry </CategoryMask>
+		<CategoryMask> Structure | Infantry | Vehicle </CategoryMask>
 
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Score_Cost_Credits> 800 </Score_Cost_Credits>
 
-		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
-		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<SFXEvent_Select>Barracks_Select</SFXEvent_Select>
 		<Targeting_Min_Attack_Distance>10.0</Targeting_Min_Attack_Distance>
+		
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
 		<Hover_Offset> 0.0 </Hover_Offset>
+		
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		<SFXEvent_Ambient_Loop>Barracks_Ambient_Loop</SFXEvent_Ambient_Loop>
+		
 
 	</GroundStructure>
 
@@ -154,11 +148,11 @@
 
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> Infantry | LandHero </Attack_Category_Restrictions>	
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
 		<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
@@ -306,7 +300,7 @@
 
 		<!-- Ground infantry priority 1, ground vehicles priority 2, air vehicles N/A (9999) -->
 		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>	
+		<Attack_Category_Restrictions> </Attack_Category_Restrictions>	
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_AI_TURRET</Encyclopedia_Text>

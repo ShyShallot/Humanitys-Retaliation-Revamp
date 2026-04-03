@@ -634,6 +634,14 @@
 	 <Overlap_Test> Unit_Rebel_Space_Station </Overlap_Test>
 </SFXEvent>
 
+
+<!-- UNSC BUILDINGS -->
+
+	<SFXEvent Name="Barracks_Select">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Data\Audio\OotF\Voices\UNSC\Structures\Barracks\Barracks_Select.wav</Samples>
+	</SFXEvent>
+
 <!-- Covenant -->
 
 

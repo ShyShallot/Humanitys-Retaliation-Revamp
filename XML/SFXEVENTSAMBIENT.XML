@@ -286,9 +286,20 @@
 		<Use_Preset>Preset_AMB_3D_Loop</Use_Preset>
 		<Samples>AMB_Waterfall_Loop_1.wav</Samples>
 	</SFXEvent>
+	
+	
+	
+	<!-- All Building Ambient SFX -->
 
+	<SFXEvent Name="Barracks_Ambient_Loop">
+		<Use_Preset>Preset_AMB_Buildables_Loop</Use_Preset>
+		<Samples>Data\Audio\OotF\AmbientSFX\Ambient_Army_Barracks.wav</Samples>
+	</SFXEvent>
 
-
+	<SFXEvent Name="Air_Traffic_Control_Loop">
+		<Use_Preset>Preset_AMB_Buildables_Loop</Use_Preset>
+		<Samples>Data\Audio\OotF\AmbientSFX\Ambient_ATC.wav</Samples>
+	</SFXEvent>
 
 </SFXEvents>
 
