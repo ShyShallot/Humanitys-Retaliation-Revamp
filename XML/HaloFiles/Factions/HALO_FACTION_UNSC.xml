@@ -113,14 +113,16 @@
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
-		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
+		<Bombardment_Blob_Size> 500.0 </Bombardment_Blob_Size>
+		
 		<Bombardment_Required_Orbital_Ships> UNSC_EPOCH, UNSC_AUTUMN, UNSC_MARATHON, UNSC_HALCYON, UNSC_VINDICATION, UNSC_PHOENIX, UNSC_MUSASHI, UNSC_SINGLE_PARIS, UNSC_SINGLE_STALWART, UNSC_SINGLE_CHARON, UNSC_SINGLE_HALBERD, UNSC_SINGLE_STRIDENT </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Rebel_Bombardment_Ion_Cannon </Bombardment_Projectile>
-		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
-		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
+		
+		<Bombardment_Projectile> Proj_UNSC_ORBITAL_BOMBARDMENT </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 1 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 1 </Bombardment_Shots_Per_Salvo>
 		<Bombardment_Shot_Delay> 0.2 </Bombardment_Shot_Delay>
 		<Bombardment_Salvo_Delay> 1.3 </Bombardment_Salvo_Delay>
-		<Bombardment_Initial_Delay> 1.0 </Bombardment_Initial_Delay>
+		<Bombardment_Initial_Delay> 2.0 </Bombardment_Initial_Delay>
 
 		<Land_Mode_Selection_Blob_Material_Name>Selection_Rebel_Land</Land_Mode_Selection_Blob_Material_Name>
 		<Space_Mode_Selection_Blob_Material_Name>Selection_Rebel_Space</Space_Mode_Selection_Blob_Material_Name>
@@ -129,6 +131,7 @@
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		
 		<Space_Skirmish_AI_Default_Forces> 
 			Baselard_Squadron, Baselard_Squadron
 		</Space_Skirmish_AI_Default_Forces>

@@ -554,9 +554,9 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>35000</Shield_Points>
 		<Tactical_Health>17500</Tactical_Health>
-		<Shield_Refresh_Rate>8750</Shield_Refresh_Rate>
-		<Energy_Capacity>1125000</Energy_Capacity>
-		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>8750</Shield_Refresh_Rate> <!-- shield 0.250 second -->
+		<Energy_Capacity>1125000</Energy_Capacity> <!--- Total reserve -->
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate> <!-- energy refreshes every 5 seconds -->
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->

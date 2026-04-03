@@ -424,7 +424,7 @@
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Rebel, Terrorists, Swords, Empire</Affiliation>
+		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>1750</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
@@ -434,7 +434,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>UNSC_CAMP | UNSC_BASE | UNSC_FORT | UNSC_CAPITAL</Required_Special_Structures>
+		<Required_Special_Structures> </Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>4500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
@@ -1834,7 +1834,7 @@
 			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_GOVERNMENT_TAXES</Specific_Mod_Source_Text>
 				<!-- 3% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier> <!-- Needs Tweaking-->
+				<Percentage_Income_Modifier>4</Percentage_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- Needs Tweaking-->
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -2035,7 +2035,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 
-		<Required_Special_Structures>UNSC_CAMP | UNSC_BASE | UNSC_FORT | UNSC_CAPITAL</Required_Special_Structures>
+		<Required_Special_Structures> </Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
@@ -2159,7 +2159,7 @@
 
 		<Required_Planets> Earth, Mars, Reach, Meridian, Miridem, Harmony, New_Carthage, Terra_Nova, Far_Isle, Aleria </Required_Planets> <!-- Needs Tweaking-->
 
-		<Required_Special_Structures>UNSC_BASE | UNSC_FORT | UNSC_CAPITAL</Required_Special_Structures>
+		<Required_Special_Structures> </Required_Special_Structures>
 		
 		<Icon_Name>I_BUTTON_UNSC_DEEPCORE_MINE.TGA</Icon_Name>
 

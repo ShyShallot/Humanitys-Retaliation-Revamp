@@ -1098,6 +1098,7 @@
 		
 		<Company_Units> 
 		
+		Squad_INNIE_BATTLEJUMPER, Squad_INNIE_BATTLEJUMPER, Squad_INNIE_BATTLEJUMPER, Squad_INNIE_BATTLEJUMPER, Squad_INNIE_BATTLEJUMPER,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
@@ -1146,17 +1147,6 @@
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.3f</Mod_Multiplier>
-			</Unit_Ability>
-			
-			<Unit_Ability>
-                <Type>HUNT</Type>
-            </Unit_Ability>
-			
 		</Unit_Abilities_Data>
 
 		

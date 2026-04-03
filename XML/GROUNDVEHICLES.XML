@@ -1832,7 +1832,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		
 
-		<Ranged_Target_Z_Adjust>24.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
 		
@@ -3068,9 +3068,9 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
@@ -3254,11 +3254,11 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Targeting_Fire_Inaccuracy> Infantry, 45.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
-		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
@@ -3443,11 +3443,11 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 2.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
-		<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>

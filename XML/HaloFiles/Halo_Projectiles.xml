@@ -2758,7 +2758,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
-		<Projectile_Damage>90</Projectile_Damage>
+		<Projectile_Damage>450</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -3157,7 +3157,6 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
-		<CategoryMask>Transport</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -3182,7 +3181,6 @@
 		<Projectile_Damage>800.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<CategoryMask>Transport</CategoryMask>
 		<Projectile_Category>MISSILE</Projectile_Category>
 	
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -3350,6 +3348,42 @@
 		<Projectile_Damage>300000.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_MAC</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_MAC</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_MAC</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_MAC</Projectile_Lifetime_Detonation_Particle>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile>
+	
+	<Projectile Name="Proj_UNSC_ORBITAL_BOMBARDMENT"> <!-- Orbital Mac Round -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>UNSC_ORBITAL_BOMBARDMENT.alo</Space_Model_Name>
+		<Land_Model_Name>UNSC_ORBITAL_BOMBARDMENT.alo</Land_Model_Name>
+		<Damage_Type>Damage_Krayt_Damage_Blast</Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>16000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range> 
+		<Projectile_Damage>3000000.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 350000 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 500 </Projectile_Blast_Area_Range>
+		
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>10</Projectile_Blast_Area_Dropoff_Tiers>
+		
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MAC_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

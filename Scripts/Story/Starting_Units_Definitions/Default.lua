@@ -530,7 +530,7 @@ Spawn_Settings = {
                         Space = 9000,
                         Ground = 600,
                     },
-                    Structures = {},
+                    Structures = {"UNSC_FARM"},
                     Space_Units = {
                         ["TERROR_BUCKLER_SQUAD"] = {
                             Weight = 40,
@@ -577,7 +577,7 @@ Spawn_Settings = {
                         Space = 15000,
                         Ground = 900,
                     },
-                    Structures = {},
+                    Structures = {"UNSC_FARM"},
                     Space_Units = {
                         ["TERROR_BUCKLER_SQUAD"] = {
                             Weight = 40,
@@ -624,7 +624,7 @@ Spawn_Settings = {
                         Space = 25000,
                         Ground = 1200,
                     },
-                    Structures = {},
+                    Structures = {"UNSC_FARM"},
                     Space_Units = {
                         ["TERROR_BUCKLER_SQUAD"] = {
                             Weight = 40,

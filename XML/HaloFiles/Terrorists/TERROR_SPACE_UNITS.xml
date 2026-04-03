@@ -740,34 +740,7 @@
                 <Split_Favors_Owner>No</Split_Favors_Owner>
                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
             </Income_Stream_Ability>
-			
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>1100.0</Heal_Range>
-				<Heal_Percent> 0.15 </Heal_Percent>
-                <Blob_Color>0, 255, 0, 255</Blob_Color>
-				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>No</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories> <!-- DO NOT HEAL TRANSPORTS YOU WILL CRASH THE GAME -->
-				<Applicable_Unit_Types />
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
+		
 			
 			
       <Reduce_Production_Price_Ability Name="Phoenix_Capital_Boost">
@@ -818,7 +791,7 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>25</Population_Value>
-		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
+		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship this is also much higher than UNSC for the purposes of keeping the innies alive in combat -->
 	</SpaceUnit>
 	
 	<SpaceUnit Name="TERROR_EPOCH">
