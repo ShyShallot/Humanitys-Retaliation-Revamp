@@ -613,24 +613,24 @@
 	
 
 	<!-- Pathfinding and Movement -->
-	<SpacePathfindMaxExpansions> 13500 </SpacePathfindMaxExpansions>
-	<CurrentPathCostCoefficientSpace> .66 </CurrentPathCostCoefficientSpace>
+	<SpacePathfindMaxExpansions> 5000 </SpacePathfindMaxExpansions>
+	<CurrentPathCostCoefficientSpace> .1 </CurrentPathCostCoefficientSpace>
 
-	<SpacePathfindFrameDelayDelta> 2 </SpacePathfindFrameDelayDelta>
+	<SpacePathfindFrameDelayDelta> 1.5 </SpacePathfindFrameDelayDelta>
 
-	<SpacePathFailureDistanceCutoffCoefficient> .10 </SpacePathFailureDistanceCutoffCoefficient>
+	<SpacePathFailureDistanceCutoffCoefficient> 9999.0 </SpacePathFailureDistanceCutoffCoefficient>
 	<SpacePathFailureMaxExpansionsCoefficient> 1.0 </SpacePathFailureMaxExpansionsCoefficient>
-	<SpacePathFailureRotationExpansionIncrement> .25 </SpacePathFailureRotationExpansionIncrement>
-	<SpacePathFailureForwardExpansionIncrement> .25 </SpacePathFailureForwardExpansionIncrement>
+	<SpacePathFailureRotationExpansionIncrement> 25 </SpacePathFailureRotationExpansionIncrement>
+	<SpacePathFailureForwardExpansionIncrement> 25 </SpacePathFailureForwardExpansionIncrement>
 	<SpacePathingTries> 6 </SpacePathingTries>
 
 	<SpaceStaticObstacleAvoidanceBonusDistance> 0 </SpaceStaticObstacleAvoidanceBonusDistance>
 
-	<MinObstacleCostSpace> 1.0 </MinObstacleCostSpace>
-	<MaxObstacleCostSpace> 1.0 </MaxObstacleCostSpace>
-	<ObstacleAreaOverlapForMaxSpace> 1.0 </ObstacleAreaOverlapForMaxSpace>
-	<XYExpansionDistanceSpace> 10300.0 </XYExpansionDistanceSpace>
-	<MaxRotationsSpace> 24.0 </MaxRotationsSpace>
+	<MinObstacleCostSpace> 0.0 </MinObstacleCostSpace>
+	<MaxObstacleCostSpace> 0.0 </MaxObstacleCostSpace>
+	<ObstacleAreaOverlapForMaxSpace> 0.0 </ObstacleAreaOverlapForMaxSpace>
+	<XYExpansionDistanceSpace> 500000.0 </XYExpansionDistanceSpace>
+	<MaxRotationsSpace> 20.0 </MaxRotationsSpace>
 	<MatchFacingDeltaSpace> 10.0 </MatchFacingDeltaSpace>
 	<OccupationRadiusCoefficientSpace> 1.0 </OccupationRadiusCoefficientSpace>
 	<DestinationSearchRadiusIncrementSpace> 50.0 </DestinationSearchRadiusIncrementSpace>
@@ -642,23 +642,23 @@
 	<SpaceLocomotorFacingLookaheadAcc> 1.0 </SpaceLocomotorFacingLookaheadAcc>
 	<FinalFacing180Penalty> 20.0 </FinalFacing180Penalty>
 	<SpecialAlignedOperatorBonus> .6 </SpecialAlignedOperatorBonus>
-	<ThreatExpansionDistance> 500.0 </ThreatExpansionDistance>
+	<ThreatExpansionDistance> 0.0 </ThreatExpansionDistance>
 	<OffMapCostPenalty> 40.0 </OffMapCostPenalty>
 	<MaxLandFormationFormupFrames> 240.0 </MaxLandFormationFormupFrames>
-	<SpaceObjectTrackingInterval> 90 </SpaceObjectTrackingInterval>
-	<SpaceObjectTrackingTreeCount> 45 </SpaceObjectTrackingTreeCount>
-	<ShouldDisplayPredictionPaths> true </ShouldDisplayPredictionPaths>
+	<SpaceObjectTrackingInterval> 180 </SpaceObjectTrackingInterval>
+	<SpaceObjectTrackingTreeCount> 25 </SpaceObjectTrackingTreeCount>
+	<ShouldDisplayPredictionPaths> false </ShouldDisplayPredictionPaths>
 	<ShouldDisplaySyncedPaths> false </ShouldDisplaySyncedPaths>
 	<SyncedFrameInterval> 75.0 </SyncedFrameInterval>
 	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>
-	<RepushDistance> 2.0 </RepushDistance>
+	<RepushDistance> 2000.0 </RepushDistance>
 	<MinLandPredictionDistance> 60.0 </MinLandPredictionDistance>
 	<ShouldSkipLandFormup> true </ShouldSkipLandFormup>
 	<ShouldInfantryTeamsSplitAcrossFormations> true </ShouldInfantryTeamsSplitAcrossFormations>
 	<VehicleFormationRecruitmentDistance> 100 </VehicleFormationRecruitmentDistance>
 	<InfantryFormationRecruitmentDistance> 60 </InfantryFormationRecruitmentDistance>
-	<CloseEnoughAngleForMoveStart> 180 </CloseEnoughAngleForMoveStart>
-	<DynamicObstacleOverlapPenalty> 15.0 </DynamicObstacleOverlapPenalty>
+	<CloseEnoughAngleForMoveStart> 360 </CloseEnoughAngleForMoveStart>
+	<DynamicObstacleOverlapPenalty> 0.0 </DynamicObstacleOverlapPenalty>
 	<DynamicAvoidanceRectangleBound> 3 </DynamicAvoidanceRectangleBound>
 	<ShouldDisplayPotentialPath> false </ShouldDisplayPotentialPath>
 
@@ -678,9 +678,9 @@
 
 	<Destination_Collision_Query_Extension> 60 </Destination_Collision_Query_Extension>
 
-	<FramesPerPositionApproximationRebuild>8</FramesPerPositionApproximationRebuild>
-	<FramesPerCollisionCheck> 4 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->
-	<MovementReevaluationFrameCount> 10 </MovementReevaluationFrameCount>
+	<FramesPerPositionApproximationRebuild>200</FramesPerPositionApproximationRebuild>
+	<FramesPerCollisionCheck> 99999 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->
+	<MovementReevaluationFrameCount> 25 </MovementReevaluationFrameCount>
 
 	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
 	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>

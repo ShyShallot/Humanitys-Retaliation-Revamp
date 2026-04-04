@@ -206,7 +206,7 @@
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MARATHON">
 	
@@ -411,7 +411,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_HALCYON">
 	
@@ -618,7 +618,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>12</Population_Value>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">
 	
@@ -827,7 +827,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	
 	<SpaceUnit Name="UNSC_PHOENIX">
@@ -1092,7 +1092,7 @@
 		<Population_Value>22</Population_Value>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity> <!-- This adds to the total Popcap in GC its important to have due to this being a retrofitted COLONY ship -->
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_EPOCH">
 
@@ -1301,7 +1301,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>38</Population_Value>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_CONSTITUTION"> <!-- IS THAT A FUCKING??? -->
 
@@ -1505,6 +1505,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>08</Population_Value>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 </CapitalShips>

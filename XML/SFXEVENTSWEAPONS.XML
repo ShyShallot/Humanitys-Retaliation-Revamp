@@ -104,6 +104,17 @@
 					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
+		 <SFXEvent Name="Unit_UNSC_XM4600_320MM">
+					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_XM4600_320MM.wav</Samples>
+					<Min_Volume>90</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>85</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 
+		 
 		 <SFXEvent Name="Unit_UNSC_M40_SUNDEVIL">
 					<Use_Preset>Preset_UNSC_FLAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_M40_SUNDEVIL.wav</Samples>

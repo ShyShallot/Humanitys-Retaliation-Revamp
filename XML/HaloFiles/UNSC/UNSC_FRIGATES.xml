@@ -29,7 +29,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -187,7 +187,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
    <Squadron Name="Gladius_Squadron">
 
@@ -282,7 +282,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -453,7 +453,7 @@
 		<Population_Value>4</Population_Value>
 		<AI_Combat_Power>300</AI_Combat_Power>
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_SINGLE_HALBERD"> <!-- This variant allows us to produce individual Halberds's in skirmish without them being in a squad -->
 	
@@ -471,7 +471,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -493,7 +493,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MAKO">
 		<Text_ID>TEXT_UNIT_UNSC_MAKO</Text_ID>
@@ -516,7 +516,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -733,7 +733,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<!-- Mako Squadron -->
 	
@@ -821,7 +821,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -993,7 +993,7 @@
 		
 		<AI_Combat_Power>600</AI_Combat_Power>
 
-	</SpaceUnit> 
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit> 
 	
 	<SpaceUnit Name="UNSC_SINGLE_STRIDENT"> 
 	
@@ -1011,7 +1011,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1032,7 +1032,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	
 
@@ -1056,7 +1056,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1209,7 +1209,7 @@
 		
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
  
 		
@@ -1226,7 +1226,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1265,7 +1265,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<!-- <Squadron Name="Paris_Squadron">
 
@@ -1473,7 +1473,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1646,7 +1646,7 @@
 		
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	
 	<SpaceUnit Name="UNSC_SINGLE_STALWART"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
@@ -1665,7 +1665,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1687,7 +1687,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_CHARON">
 		<Text_ID>TEXT_UNIT_UNSC_CHARON</Text_ID>
@@ -1709,7 +1709,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1884,7 +1884,7 @@
 		
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_SINGLE_CHARON"> <!-- This variant allows us to produce individual Charons's in skirmish without them being in a squad -->
 	
@@ -1902,7 +1902,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -1924,7 +1924,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 		<SpaceUnit Name="UNSC_Buckler">
 		<Text_ID>TEXT_UNIT_UNSC_BUCKLER</Text_ID>
@@ -1946,7 +1946,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -2116,7 +2116,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<!-- <SpaceUnit Name="UNSC_SINGLE_BUCKLER"> 
 	
@@ -2134,7 +2134,7 @@
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
@@ -2154,7 +2154,7 @@
 		<Population_Value>4</Population_Value>
 	
 	
-	</SpaceUnit> -->
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit> -->
 	
 	<Squadron Name="BUCKLER_SQUADRON">
 

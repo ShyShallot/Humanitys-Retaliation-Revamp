@@ -512,9 +512,21 @@ Spawn_Settings = {
                         },
                     },
                     Ground_Units = {
-                        ["Imperial_Stormtrooper_Squad"] = {
-                            Weight = 100,
-                            Limit = -1
+                        ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
+                            Weight = 60,
+                            Limit = 4
+                        },
+                        ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                            Weight = 20,
+                            Limit = 3
+                        },
+                        ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
+                            Weight = 10,
+                            Limit = 2
+                        },
+                        ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                            Weight = 5,
+                            Limit = 2
                         }
                     },
                 },
@@ -543,8 +555,21 @@ Spawn_Settings = {
                         },
                     },
                     Ground_Units = {
-                        ["Imperial_Stormtrooper_Squad"] = {
-                            Weight = 100, Limit = -1
+                        ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
+                            Weight = 60,
+                            Limit = 4
+                        },
+                        ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                            Weight = 20,
+                            Limit = 3
+                        },
+                        ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
+                            Weight = 10,
+                            Limit = 2
+                        },
+                        ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                            Weight = 5,
+                            Limit = 2
                         }
                     },
                 },
@@ -573,9 +598,21 @@ Spawn_Settings = {
                         },
                     },
                     Ground_Units = {
-                        ["Imperial_Stormtrooper_Squad"] = {
-                            Weight = 100,
-                            Limit = -1
+                        ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
+                            Weight = 60,
+                            Limit = 4
+                        },
+                        ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
+                            Weight = 20,
+                            Limit = 3
+                        },
+                        ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
+                            Weight = 10,
+                            Limit = 2
+                        },
+                        ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
+                            Weight = 5,
+                            Limit = 2
                         }
                     },
                 }

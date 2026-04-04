@@ -424,7 +424,7 @@
         <Is_Destroyable>No</Is_Destroyable>
         <Fire_Bone_A>FB_03</Fire_Bone_A>
         <Fire_Bone_B>FB_04</Fire_Bone_B>
-        <Fire_Projectile_Type>PROJ_COVN_WRAITH_AA</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Banshee_Fuel_Rod_Cannon</Fire_Projectile_Type>
         <Fire_Cone_Width>10.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
@@ -434,6 +434,47 @@
         <Fire_Range_Distance>650</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter , Bomber , Transport </Fire_Category_Restrictions>
+    </HardPoint>
+	
+	 <!-- GROUND Seraph Hardpoints-->
+    <HardPoint Name="COVN_Ground_SER_01">
+	
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+			<Fire_Bone_A>HP_PLASMA_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_PLASMA_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+			<Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Banshee_Plasma_Cannon</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1050</Fire_Range_Distance>
+			<Fire_SFXEvent></Fire_SFXEvent>
+			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport</Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    <HardPoint Name="COVN_Ground_SER_02">
+	
+        <Type> HARD_POINT_WEAPON_TORPEDO</Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>HP_TORP</Fire_Bone_A>
+        <Fire_Bone_B>HP_TORP</Fire_Bone_B>
+        <Fire_Projectile_Type>Banshee_Fuel_Rod_Cannon</Fire_Projectile_Type>
+        <Fire_Cone_Width>35.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>750</Fire_Range_Distance>
+		<Fire_SFXEvent></Fire_SFXEvent>
+        <Fire_Category_Restrictions> Fighter , Bomber , Transport </Fire_Category_Restrictions>
+		
     </HardPoint>
 	
 	

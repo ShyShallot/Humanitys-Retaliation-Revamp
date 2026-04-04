@@ -137,7 +137,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 
 		<Select_Box_Scale>38</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -281,7 +281,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -453,7 +453,7 @@
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -618,7 +618,7 @@
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -758,7 +758,7 @@
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Priority_Set>Rancor_Dark_Ally_Attack_Priority</Targeting_Priority_Set>
@@ -999,7 +999,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1218,7 +1218,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1440,7 +1440,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1659,7 +1659,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1873,7 +1873,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2098,7 +2098,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2334,7 +2334,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2557,7 +2557,7 @@
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2759,7 +2759,7 @@
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2941,7 +2941,7 @@
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -3127,7 +3127,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -3317,7 +3317,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -3546,7 +3546,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -3704,7 +3704,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
@@ -3878,7 +3878,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -4040,7 +4040,7 @@
 
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
@@ -4318,7 +4318,7 @@
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -4540,7 +4540,7 @@
 		
 		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>

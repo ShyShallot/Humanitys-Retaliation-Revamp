@@ -131,6 +131,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</StarBase>
 
 	<StarBase Name="Terrorists_Star_Base_1_Death_Clone">
@@ -277,6 +278,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_2_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>13</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</StarBase>
 
 	<StarBase Name="Terrorists_Star_Base_2_Death_Clone">
@@ -434,6 +436,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_3_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</StarBase>
 
 	<StarBase Name="Terrorists_Star_Base_3_Death_Clone">
@@ -599,6 +602,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</StarBase>
 
 	<StarBase Name="Terrorists_Star_Base_4_Death_Clone">
@@ -771,6 +775,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>150</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</StarBase>
 
 	<StarBase Name="Terrorists_Star_Base_5_Death_Clone">
