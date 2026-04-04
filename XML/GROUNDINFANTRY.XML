@@ -120,11 +120,11 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Hover </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
 
@@ -135,8 +135,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 
 		<Select_Box_Scale>38</Select_Box_Scale>
@@ -232,10 +232,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
@@ -266,7 +266,7 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -279,8 +279,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
@@ -337,15 +337,15 @@
 		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Land_Model_Name>COVN_EI_TROOPER.ALO</Land_Model_Name>
+		<Land_Model_Name>COVN_ELITE_MINOR.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			COVN_EI_TROOPER.ALO,
-			Urban, 				COVN_EI_TROOPER.ALO,
-			Arctic, 			COVN_EI_TROOPER.ALO,
-			Volcanic, 			COVN_EI_TROOPER.ALO,
-			Desert, 			COVN_EI_TROOPER.ALO,
-			Forest, 			COVN_EI_TROOPER.ALO,
-			Swamp, 				COVN_EI_TROOPER.ALO
+			Temperate, 			COVN_ELITE_MINOR.ALO,
+			Urban, 				COVN_ELITE_MINOR.ALO,
+			Arctic, 			COVN_ELITE_MINOR.ALO,
+			Volcanic, 			COVN_ELITE_MINOR.ALO,
+			Desert, 			COVN_ELITE_MINOR.ALO,
+			Forest, 			COVN_ELITE_MINOR.ALO,
+			Swamp, 				COVN_ELITE_MINOR.ALO
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>EI_TROOPER.ALo</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -362,7 +362,7 @@
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> 1.3 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed>0.35</Max_Speed>
+		<Max_Speed>0.4</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -386,23 +386,23 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>40</Shield_Points>
+		<Shield_Points>80</Shield_Points>
 		<Tactical_Health>60</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
-		<Energy_Capacity>30</Energy_Capacity>
+		<Energy_Capacity>900</Energy_Capacity>
 		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
 		<Stealth_Capable>Yes</Stealth_Capable>
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 			
 
-		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
@@ -411,8 +411,8 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 		
@@ -436,7 +436,7 @@
 		<Property_Flags>Fodder</Property_Flags>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -450,11 +450,12 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Surface_Type_Cover_Damage_Shield>.1</Surface_Type_Cover_Damage_Shield>
@@ -490,6 +491,175 @@
             </Unit_Ability>
 			
 		</Unit_Abilities_Data>
+		
+	</GroundInfantry>
+	
+	<GroundInfantry Name="COVN_ELITE_GENERAL">  <!-- Covenant General Elite -->
+	
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	
+		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Land_Model_Name>COVN_ELITE_GENERAL.ALO</Land_Model_Name>
+		
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			COVN_ELITE_GENERAL.ALO,
+			Urban, 				COVN_ELITE_GENERAL.ALO,
+			Arctic, 			COVN_ELITE_GENERAL.ALO,
+			Volcanic, 			COVN_ELITE_GENERAL.ALO,
+			Desert, 			COVN_ELITE_GENERAL.ALO,
+			Forest, 			COVN_ELITE_GENERAL.ALO,
+			Swamp, 				COVN_ELITE_GENERAL.ALO
+		</Land_Terrain_Model_Mapping>
+		
+		<Land_Model_Anim_Override_Name>EI_TROOPER.ALo</Land_Model_Anim_Override_Name>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, SHIELDED, HUNT, </LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar> 
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<SurfaceFX_Name> Good_Ground</SurfaceFX_Name>
+
+		<Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.3 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>0.4</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .3 </FormationSpacing> 
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.05 </OverrideAcceleration>
+		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+				
+		<Scale_Factor>0.50</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire, Swords</Affiliation>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>180</Shield_Points>
+		<Tactical_Health>60</Tactical_Health>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>2000</Energy_Capacity>
+		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
+		<Stealth_Capable>Yes</Stealth_Capable>
+
+		<Armor_Type> Armor_Infantry </Armor_Type>
+
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Victory_Relevant>no</Victory_Relevant>
+			
+		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy> LandHero, 80.0 </Targeting_Fire_Inaccuracy>
+		
+		<Projectile_Fire_Recharge_Seconds>6</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Concussion_Rifle</Projectile_Types>
+		
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<CategoryMask> Infantry </CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+		<Property_Flags>Fodder</Property_Flags>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+		<Create_Team>No</Create_Team>
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Surface_Type_Cover_Damage_Shield>.1</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+		<Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Stormtrooper_Crush_Death_Clone</Death_Clone>
+		
+		<Death_Fade_Time>1.25</Death_Fade_Time>
+		<Death_Persistence_Duration>60.0</Death_Persistence_Duration>
+	
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine,
+				Darth_Vader,
+		</Presence_Induced_Animations>
+		
+		<!-- Non-Hero unit abilities description -->
+		
+		<Abilities SubObjectList="Yes">
+		
+			<Combat_Bonus_Ability Name="COVN_GENERAL_BONUS">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category> Infantry </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+		</Abilities>
 		
 	</GroundInfantry>
 
@@ -585,10 +755,12 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 
-		<Idle_Chase_Range>500.0</Idle_Chase_Range>
-		<Guard_Chase_Range>500.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>700.0</Attack_Move_Response_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
+		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Targeting_Priority_Set>Rancor_Dark_Ally_Attack_Priority</Targeting_Priority_Set>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
@@ -765,8 +937,8 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Victory_Relevant>no</Victory_Relevant>
 
@@ -808,11 +980,11 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
@@ -825,8 +997,8 @@
 
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -973,10 +1145,10 @@
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1025,7 +1197,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1044,8 +1216,8 @@
 		
 		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -1195,10 +1367,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1247,7 +1419,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1266,8 +1438,8 @@
 		
 		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -1414,10 +1586,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1466,7 +1638,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1485,8 +1657,8 @@
 		
 		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -1630,10 +1802,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1680,7 +1852,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1699,8 +1871,8 @@
 		
 		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -1853,10 +2025,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1905,7 +2077,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1924,8 +2096,8 @@
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -2091,10 +2263,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2141,7 +2313,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2160,8 +2332,8 @@
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -2314,10 +2486,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2364,7 +2536,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2383,8 +2555,8 @@
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -2514,10 +2686,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2566,7 +2738,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2585,8 +2757,8 @@
 		
 		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -2698,10 +2870,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2748,7 +2920,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2767,8 +2939,8 @@
 		
 		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -2882,10 +3054,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2934,7 +3106,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2953,8 +3125,8 @@
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -3074,10 +3246,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -3124,7 +3296,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3143,8 +3315,8 @@
 		
 		<Targeting_Max_Attack_Distance>105.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -3309,10 +3481,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
@@ -3354,7 +3526,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3372,8 +3544,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>    <!-- disabled, the team has big selection circle -->
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -3501,13 +3673,13 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Infiltrator</SFXEvent_Select>
@@ -3530,8 +3702,8 @@
 		<Create_Team>No</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
@@ -3689,13 +3861,13 @@
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>No</Create_Team>
@@ -3704,8 +3876,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -3814,8 +3986,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Tactical_Health>30</Tactical_Health>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Victory_Relevant>no</Victory_Relevant>
 
@@ -3851,11 +4023,11 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
@@ -3866,8 +4038,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
@@ -3960,11 +4132,11 @@
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>1</Damage>
 		<Tactical_Health>15</Tactical_Health>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -4075,10 +4247,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -4125,7 +4297,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -4144,8 +4316,8 @@
 		
 		<Targeting_Max_Attack_Distance>105.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>   
 		<Autonomous_Move_Extension_Vs_Attacker>10000.0</Autonomous_Move_Extension_Vs_Attacker>
 		
@@ -4315,10 +4487,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 
@@ -4352,7 +4524,7 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -4366,8 +4538,8 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		
-		<Idle_Chase_Range>10000.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>10000.0</Attack_Move_Response_Range>
 		
 		<Select_Box_Scale>27</Select_Box_Scale>
@@ -4437,7 +4609,6 @@
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>Covenant-Elite</Text_ID>
 		<Is_Squashable> No </Is_Squashable>
-		<Max_Speed> 0.7 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>

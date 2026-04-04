@@ -143,6 +143,12 @@
         <Build_Cost_Credits>1501200</Build_Cost_Credits>
         <Required_Planets>Sanghelios</Required_Planets>
 		
+		<Shield_Points>250000</Shield_Points>
+		<Tactical_Health>120000</Tactical_Health>
+		<Shield_Refresh_Rate>30000</Shield_Refresh_Rate>
+		<Energy_Capacity>4500000</Energy_Capacity>
+		<Energy_Refresh_Rate>6000</Energy_Refresh_Rate>
+		
 		<Tech_Level>1</Tech_Level>
 		
 	<!--<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 6</Starting_Spawned_Units_Tech_0>
@@ -179,8 +185,9 @@
 			
 		</Abilities>
 		
-		<Starting_Spawned_Units_Tech_0>COVN_CCS, 6</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_RCS, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_CAS, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_CCS, 8</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_RCS, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		

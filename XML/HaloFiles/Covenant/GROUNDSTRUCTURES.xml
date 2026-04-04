@@ -2008,12 +2008,12 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0></Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0></Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0></Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0></Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2060,10 +2060,15 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
 		
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2112,8 +2117,11 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2163,8 +2171,21 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_AA_Walker, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>	
+		
+		
+		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>

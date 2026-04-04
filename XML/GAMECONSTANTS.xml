@@ -805,8 +805,8 @@
 	<IdleMovementFrames> 30.0 </IdleMovementFrames>
 
 	<!-- Colors to use for the reinforcements terrain overlay (a,r,g,b) -->
-	<ReinforcementOverlayGoodColor>0,255,0,128</ReinforcementOverlayGoodColor>
-	<ReinforcementOverlayBadColor>255,0,0,128</ReinforcementOverlayBadColor>
+	<ReinforcementOverlayGoodColor>0,180,60,128</ReinforcementOverlayGoodColor>
+	<ReinforcementOverlayBadColor>200,20,20,128</ReinforcementOverlayBadColor>
 
 	<!-- Per unit probability of destruction during a retreat -->
 	<Space_Retreat_Attrition_Factor>0.0</Space_Retreat_Attrition_Factor>
@@ -5319,14 +5319,14 @@
 	<Space_Guard_Range>750.0</Space_Guard_Range>
 	<Land_Guard_Range>150.0</Land_Guard_Range>
 
-	<Max_Bombard_Interval_Seconds>10.0</Max_Bombard_Interval_Seconds>				
-	<Min_Bombard_Interval_Seconds>10.0</Min_Bombard_Interval_Seconds>				
+	<Max_Bombard_Interval_Seconds>90.0</Max_Bombard_Interval_Seconds>				
+	<Min_Bombard_Interval_Seconds>45.0</Min_Bombard_Interval_Seconds>				
 	<Bombardment_Offset>0 0 900</Bombardment_Offset>
 	<Bombardment_Distribution> 0, 3, 1, 2, 3, 2, 0, 1, 2, 1, 3, 0, 1, 2, 0, 3, 0, 2, 1, 3, 3, 2, 1, 0 </Bombardment_Distribution>
   
 	<Override_Death_Persistence_Duration>30.0</Override_Death_Persistence_Duration>
 
-    <Auto_Resolve_Tactical_Multiplier>.85</Auto_Resolve_Tactical_Multiplier>
+    <Auto_Resolve_Tactical_Multiplier>1.0</Auto_Resolve_Tactical_Multiplier>
 
    <Sabotage_Particle_Effect></Sabotage_Particle_Effect>
    <Hack_Super_Weapon_Particle_Effect>IG88_Death_Star_Hack_Explosion</Hack_Super_Weapon_Particle_Effect>

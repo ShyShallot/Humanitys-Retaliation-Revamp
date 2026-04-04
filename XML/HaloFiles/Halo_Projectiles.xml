@@ -977,9 +977,7 @@
 		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
 		
-		<Projectile_Damage>500.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 7500 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 1000 </Projectile_Blast_Area_Range>
+		<Projectile_Damage>9500.0</Projectile_Damage>
 		
 		<Projectile_SFXEvent_Detonate>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_UNSC_MISSILE_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -3283,7 +3281,7 @@
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
 		<Projectile_Damage>4750</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 3 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -3428,6 +3426,88 @@
 		
 	</Projectile>
 	
+	<Projectile Name="Concussion_Rifle"> <!-- Covn Concussion_Rifle Rifle -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_COVN_CONCUSSION_RIFLE.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
+		<Max_Speed>4.0</Max_Speed>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 35 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<AI_Combat_Power>150</AI_Combat_Power>
+		
+	</Projectile>
+	
+	<Projectile Name="Banshee_Plasma_Cannon"> <!-- Covn Plasma Rifle -->
+	
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>COVN_PLASMAPROJECTILE_FIGHTER.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
+		<Max_Speed>14.0</Max_Speed>
+		<Projectile_Damage>40.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<AI_Combat_Power>150</AI_Combat_Power>
+		
+	</Projectile>
+	
+	<Projectile Name="Banshee_Fuel_Rod_Cannon"> 
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_COVN_WRAITH_AA.ALO</Land_Model_Name> 
+		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
+		<Max_Speed>4.0</Max_Speed>
+		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime> 
+		
+		<Projectile_Damage>450.0</Projectile_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Damage>30.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Spmat_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Spmat_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
 	<Projectile Name="Proj_Covie_Ground_Pulse_Laser"> <!--Used for ground Pulse Lasers -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -3493,6 +3573,32 @@
 		<Projectile_Damage>8250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Spmat_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Spmat_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="PROJ_COVN_WRAITH_AA"> 
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_COVN_WRAITH_AA.ALO</Land_Model_Name> <!-- This should be blue -->
+		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
+		<Max_Speed>4.0</Max_Speed>
+		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
+		
+		<Projectile_Damage>1250.0</Projectile_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Damage>50.0</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>

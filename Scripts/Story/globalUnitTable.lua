@@ -566,6 +566,18 @@ local unit_table = {
 	Warthog_Platoon = {
         Category = "Vehicle"
     },
+	COVN_DEPLOYABLE_TACTICAL_HALL = {
+        Category = "Infantry"
+    },
+	COVN_DEPLOYABLE_ADVANCED_HALL = {
+        Category = "Infantry"
+    },
+	COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY = {
+        Category = "Vehicle"
+    },
+	COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY = {
+        Category = "Vehicle"
+    },
     Imperial_Armor_Group = {
         Category = "Vehicle"
     },
@@ -589,6 +601,7 @@ local unit_table = {
     },
     Imperial_Light_Scout_Squad = {
         Category = "Infantry"
+	
     }
 }
 
