@@ -549,10 +549,18 @@ function Get_Object_By_ID(id)
     return object
 end
 
+---Ignores Case, Converts all strings to uppercase
+---@param str string
+---@param substr string
+---@return boolean
 function StringContains(str, substr)
     if str == nil or substr == nil then
         return false
     end
+
+    str = string.upper(str)
+
+    substr = string.upper(substr)
 
     return string.find(str, substr, 1, true) ~= nil
 end
