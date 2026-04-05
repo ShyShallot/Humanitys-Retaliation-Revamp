@@ -4519,8 +4519,8 @@
 		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
-
-		<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY</Land_Model_Name>
+	<!--<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY</Land_Model_Name> More Traditional model -->
+		<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY_CONCEPT.alo</Land_Model_Name> <!-- concept art model -->
 		<Mass>1.0</Mass>
 		<Scale_Factor>.35</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
