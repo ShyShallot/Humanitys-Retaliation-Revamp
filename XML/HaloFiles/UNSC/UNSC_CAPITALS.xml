@@ -296,13 +296,12 @@
 			<!--HP_MARA_REACTOR,--> UNSC_MARA_01, UNSC_MARA_02, UNSC_MARA_03, UNSC_MARA_04, UNSC_MARA_05, UNSC_MARA_06, UNSC_MARA_07, UNSC_MARA_08, UNSC_MARA_09, UNSC_MARA_10, UNSC_MARA_11, UNSC_MARA_12, UNSC_MARA_AP_01, UNSC_MARA_AP_02, UNSC_MARA_AP_03, UNSC_MARA_AP_04, UNSC_MARA_AP_05, UNSC_MARA_AP_06, UNSC_MARA_AP_07, UNSC_MARA_AP_08, UNSC_MARA_AP_09, UNSC_MARA_AP_10, UNSC_MARA_AP_11, UNSC_MARA_AP_12, UNSC_MARA_AP_13, UNSC_MARA_AP_14, UNSC_MARA_MAC_01, UNSC_MARA_MAC_01_AUTO, UNSC_MARA_ENGINES, UNSC_MARA_HANGAR_01, UNSC_MARA_HANGAR_02,HP_MARA_REACTOR
 		</HardPoints>
 
-		<!--
+
 		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		-->
 
 		<Icon_Name>I_BUTTON_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -507,11 +506,9 @@
 			UNSC_HALCYON_MAC, UNSC_HALCYON_MAC_AUTO, HP_HALC_REACTOR
 		</HardPoints>
 		
-		<!--
 		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
-		-->
 
 		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -935,14 +932,12 @@
 			UNSC_SOF_ARCHER_11, UNSC_SOF_ARCHER_12, UNSC_SOF_ARCHER_13, UNSC_SOF_ARCHER_14, UNSC_SOF_ARCHER_15,
 			UNSC_SOF_ARCHER_16, HP_SOF_REACTOR
 		</HardPoints>
-		
-		
+
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		
 
 		<Icon_Name>I_BUTTON_PHOENIX.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -1196,7 +1191,6 @@
 			
 		</HardPoints>
 
-		
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
@@ -1316,7 +1310,7 @@
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>USS_Constitution</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CONSTITUTION </Encyclopedia_Text>
+		<Encyclopedia_Text> A_SHIP_IN_SPACE?_A_SPACE_SHIP? </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_USS_CONSTITUTION.ALO</Space_Model_Name>
@@ -1397,7 +1391,7 @@
 
 		<HardPoints> 
 		
-		HP_M870_01, HP_M870_02, HP_M870_03, HP_M870_04, HP_M870_05, HP_M870_06, HP_M870_07, HP_M870_08, HP_M870_09, HP_M870_10, HP_M870_11, HP_M870_12, HP_M66_01, HP_M66_02, HP_M66_03, HP_M66_04,HP_M66_05, HP_M66_06, HP_M66_07, HP_M66_08, HP_M66_09, HP_M66_10, HP_M66_11, HP_M66_12, ENGINE_01, ENGINE_02, ENGINE_03, ENGINE_04, ENGINE_05, HP_EPOCH_REACTOR
+		HP_M870_01, HP_M870_02, HP_M870_03, HP_M870_04, HP_M870_05, HP_M870_06, HP_M870_07, HP_M870_08, HP_M870_09, HP_M870_10, HP_M870_11, HP_M870_12, HP_CONSTITUTION_01, HP_CONSTITUTION_02, HP_CONSTITUTION_03, HP_CONSTITUTION_04,HP_CONSTITUTION_05, HP_CONSTITUTION_06, HP_CONSTITUTION_07, HP_CONSTITUTION_09, HP_CONSTITUTION_10, HP_CONSTITUTION_11, HP_CONSTITUTION_12, ENGINE_01, ENGINE_02, ENGINE_03, ENGINE_04, ENGINE_05, HP_EPOCH_REACTOR
 			
 		</HardPoints>
 

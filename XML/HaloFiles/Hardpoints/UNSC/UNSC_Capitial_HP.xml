@@ -4731,7 +4731,7 @@
 
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MK33_SPITFIRE</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
 		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -7024,6 +7024,299 @@ It is older and less effective then the M870 this block represents the left hand
 		<Health>220000.0</Health>
 		<Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+	</HardPoint>
+	
+	
+	<!-- USS constitution Easter Egg hardpoints -->
+	
+	<HardPoint Name="HP_CONSTITUTION_01">
+	
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_01</Attachment_Bone>
+		<Collision_Mesh>HP_M66_01</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_01</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+ 
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_02">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_02</Attachment_Bone>
+		<Collision_Mesh>HP_M66_02</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_02</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_02</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_03">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_03</Attachment_Bone>
+		<Collision_Mesh>HP_M66_03</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_03</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_03</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_04">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_04</Attachment_Bone>
+		<Collision_Mesh>HP_M66_04</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_04</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_04</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_05">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_05</Attachment_Bone>
+		<Collision_Mesh>HP_M66_05</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_05</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_05</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_06">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_06</Attachment_Bone>
+		<Collision_Mesh>HP_M66_06</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_06</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_06</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MK66_SENTRY</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>30</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+		
+	<!-- this block represents the right hand weapons -->
+
+	<HardPoint Name="HP_CONSTITUTION_07">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_07</Attachment_Bone>
+		<Collision_Mesh>HP_M66_07</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_07</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_07</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_08">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_08</Attachment_Bone>
+		<Collision_Mesh>HP_M66_08</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_08</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_08</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_09">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_09</Attachment_Bone>
+		<Collision_Mesh>HP_M66_09</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_09</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_09</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_10">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_10</Attachment_Bone>
+		<Collision_Mesh>HP_M66_10</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_10</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_10</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_11">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_11</Attachment_Bone>
+		<Collision_Mesh>HP_M66_11</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_11</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_11</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_CONSTITUTION_12">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1000</Health>
+		<Attachment_Bone>HP_M66_12</Attachment_Bone>
+		<Collision_Mesh>HP_M66_12</Collision_Mesh>
+		<Fire_Bone_A>HP_M66_12</Fire_Bone_A>
+		<Fire_Bone_B>HP_M66_12</Fire_Bone_B>
+
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>140.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_HALBERD</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>37.5</Fire_Min_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>55.87</Fire_Min_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
 	</HardPoint>
 	

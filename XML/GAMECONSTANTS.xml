@@ -612,7 +612,7 @@
 	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
-	<!-- Pathfinding and Movement by GrandMasterApple -->
+	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation -->
 	
 	<!-- turn this to true to show prediction pathing , beware this causes fps loss in large movements -->
 	<ShouldDisplayPredictionPaths> true </ShouldDisplayPredictionPaths>

@@ -1929,7 +1929,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>100</Projectile_Damage>
+		<Projectile_Damage>200</Projectile_Damage> <!-- UNSC frigates fire really slow now so we doubled their dmg -->
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -3516,9 +3516,9 @@
 		<Land_Model_Name>W_COVN_WRAITH_AA.ALO</Land_Model_Name> 
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
 		<Max_Speed>4.0</Max_Speed>
-		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
+		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime> 
 		
 		<Projectile_Damage>450.0</Projectile_Damage>
@@ -3590,7 +3590,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>COVN_WRAITH_MORTAR.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>10.0</Max_Speed>
+		<Max_Speed>8.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -3611,7 +3611,7 @@
 		<Projectile_Ground_Detonation_Particle>Spmat_Damage_Land</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate>SFX_COVN_WRAITH_MORTAR_DEATH</Projectile_SFXEvent_Detonate>
 		<AI_Combat_Power>600</AI_Combat_Power>
 	</Projectile>
 	

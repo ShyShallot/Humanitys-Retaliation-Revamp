@@ -434,10 +434,20 @@
 					<Max_Pitch>100</Max_Pitch>
     </SFXEvent>
 	
+	<SFXEvent Name="SFX_COVN_WRAITH_MORTAR_DEATH">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\OotF\Deaths\COVN_WRAITH_MORTAR_DEATH.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+			<Min_Volume>20</Min_Volume>
+					<Max_Volume>30</Max_Volume>
+					<Min_Pitch>95</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+    </SFXEvent>
+	
 	<SFXEvent Name="SFX_Plasma_Beam_Death">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>Data\Audio\OotF\Deaths\COVN_PLASMA_BEAM_DEATH.wav</Samples>
-			<Kills_Previous_Object_SFX>No</Kills_Previous_Object_SFX>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 			<Min_Volume>70</Min_Volume>
 					<Max_Volume>95</Max_Volume>
 					<Min_Pitch>95</Min_Pitch>

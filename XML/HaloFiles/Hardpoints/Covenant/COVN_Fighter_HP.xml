@@ -288,20 +288,20 @@
 
             <Fire_Bone_A>MuzzleB_L01</Fire_Bone_A>
             <Fire_Bone_B>MuzzleB_L01</Fire_Bone_B>
-            <Fire_Cone_Width>170.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>360.0</Fire_Cone_Width>
+            <Fire_Cone_Height>80.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Plasma_Rifle</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.30</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>250.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 
 			<Fire_When_Deployed>No</Fire_When_Deployed>
 			<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
 
-			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> LandHero, 90.0 </Fire_Inaccuracy_Distance>
 			<Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
@@ -309,8 +309,10 @@
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			
     </HardPoint>
+	
+	<!-- Extra Wraith hardpoints -->
 
-	<HardPoint Name="HP_SPMAT_01">
+<!--	<HardPoint Name="HP_SPMAT_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -325,7 +327,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>250.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 
 			<Fire_When_Deployed>No</Fire_When_Deployed>
 			<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
@@ -354,7 +356,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>250.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 
 			<Fire_When_Deployed>No</Fire_When_Deployed>
 			<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
@@ -383,7 +385,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>250.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 
 			<Fire_When_Deployed>No</Fire_When_Deployed>
 			<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
@@ -395,7 +397,7 @@
 				
 			<Fire_Category_Restrictions></Fire_Category_Restrictions>	
 			
-    </HardPoint>
+    </HardPoint> -->
 	
 	<!-- GROUND Banshee Hardpoints-->
     <HardPoint Name="Ground_BANSHEE_HP_01">
@@ -413,7 +415,7 @@
             <Fire_Pulse_Count>30</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>650</Fire_Range_Distance>
-			<Fire_SFXEvent></Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport </Fire_Category_Restrictions>
 			
     </HardPoint>
@@ -432,7 +434,7 @@
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>650</Fire_Range_Distance>
-		<Fire_SFXEvent></Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_COVN_FUEL_ROD</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter , Bomber , Transport </Fire_Category_Restrictions>
     </HardPoint>
 	
@@ -447,12 +449,12 @@
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
 			<Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Banshee_Plasma_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.1</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1050</Fire_Range_Distance>
-			<Fire_SFXEvent></Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport</Fire_Category_Restrictions>
 
     </HardPoint>
@@ -472,7 +474,7 @@
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>750</Fire_Range_Distance>
-		<Fire_SFXEvent></Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_COVN_FUEL_ROD</Fire_SFXEvent>
         <Fire_Category_Restrictions> Fighter , Bomber , Transport </Fire_Category_Restrictions>
 		
     </HardPoint>

@@ -146,7 +146,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
         <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -476,7 +476,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>70</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -793,7 +793,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>2550</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -859,6 +859,8 @@
 			
 		</Abilities>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+		
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_AA_Walker_Captured">
@@ -996,7 +998,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_SPMAT</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_SPMAT</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_SPMAT_Projectile_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_COVN_WRAITH_MORTAR</SFXEvent_Fire>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_SPMAT </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_SPMAT </SFXEvent_Assist_Attack>
@@ -1022,7 +1024,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>10.0</Targeting_Stickiness_Time_Threshold>
@@ -1247,7 +1249,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_SPMAT</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_SPMAT</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_SPMAT_Projectile_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_COVN_FUEL_ROD</SFXEvent_Fire>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_SPMAT </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_SPMAT </SFXEvent_Assist_Attack>
@@ -1273,7 +1275,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>10.0</Targeting_Stickiness_Time_Threshold>
@@ -2654,7 +2656,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
  		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -3331,7 +3333,7 @@
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<AI_Combat_Power>50</AI_Combat_Power>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -3521,7 +3523,7 @@
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<AI_Combat_Power>50</AI_Combat_Power>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -3714,7 +3716,7 @@
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<AI_Combat_Power>50</AI_Combat_Power>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -3884,7 +3886,7 @@
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<AI_Combat_Power>50</AI_Combat_Power>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4073,7 +4075,7 @@
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 		
 		<AI_Combat_Power>50</AI_Combat_Power>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4283,7 +4285,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>80</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4474,7 +4476,7 @@
 		
 		<AI_Combat_Power>200</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4640,7 +4642,7 @@
 		
 		<AI_Combat_Power>200</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4807,7 +4809,7 @@
 		
 		<AI_Combat_Power>200</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -4974,7 +4976,7 @@
 		
 		<AI_Combat_Power>200</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -5169,7 +5171,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>70</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -5412,7 +5414,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>125</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -5679,7 +5681,7 @@
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>100</AI_Combat_Power>
 
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -5910,7 +5912,7 @@
 		<Hover_Offset>150.0</Hover_Offset>
 		<Prepare_Strafe_Height>100.0</Prepare_Strafe_Height>
 		<MaxFacingLookAheadFrames>30.0</MaxFacingLookAheadFrames>
-		<Idle_Chase_Range>2500.0</Idle_Chase_Range>
+		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>100.0</Guard_Chase_Range>
 
 	</GroundVehicle>
