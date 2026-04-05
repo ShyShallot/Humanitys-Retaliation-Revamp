@@ -612,82 +612,207 @@
 	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
-	<!-- Pathfinding and Movement -->
-	<SpacePathfindMaxExpansions> 5000 </SpacePathfindMaxExpansions>
-	<CurrentPathCostCoefficientSpace> .1 </CurrentPathCostCoefficientSpace>
+	<!-- Pathfinding and Movement by GrandMasterApple -->
+	
+	<!-- turn this to true to show prediction pathing , beware this causes fps loss in large movements -->
+	<ShouldDisplayPredictionPaths> true </ShouldDisplayPredictionPaths>
+	<ShouldDisplaySyncedPaths> false </ShouldDisplaySyncedPaths>
+	<SyncedFrameInterval> 75.0 </SyncedFrameInterval>
+	
+	<!-- The maximum number of node expansions the engine is allowed to perform when computing a path in space -->
+	<!--It’s the hard cap on how much work the pathfinder is allowed to do -->
+	<!--If the limit is too low, ships may fail to find paths - Base 5000 - 10000 -->
+	<SpacePathfindMaxExpansions> 1000 </SpacePathfindMaxExpansions>
+	
+	<!-- How much weight the engine gives to the cost of the ship’s current path when deciding whether to keep it or compute a new one -->
+	<!-- Pathing should not ever fail, this tag line is voided -->
+	<CurrentPathCostCoefficientSpace> 0.0 </CurrentPathCostCoefficientSpace>
 
-	<SpacePathfindFrameDelayDelta> 1.5 </SpacePathfindFrameDelayDelta>
+	<!-- Controls how fast each ship can make a calculation for pathing Lower = Faster -->
+	<SpacePathfindFrameDelayDelta> 1.5 </SpacePathfindFrameDelayDelta>   
 
-	<SpacePathFailureDistanceCutoffCoefficient> 9999.0 </SpacePathFailureDistanceCutoffCoefficient>
+
+	<!-- These 4 are the most important weights - this setup garuntees no pathing failure -->
+	<SpacePathFailureDistanceCutoffCoefficient> 9999.0 </SpacePathFailureDistanceCutoffCoefficient> 
 	<SpacePathFailureMaxExpansionsCoefficient> 1.0 </SpacePathFailureMaxExpansionsCoefficient>
 	<SpacePathFailureRotationExpansionIncrement> 25 </SpacePathFailureRotationExpansionIncrement>
 	<SpacePathFailureForwardExpansionIncrement> 25 </SpacePathFailureForwardExpansionIncrement>
-	<SpacePathingTries> 6 </SpacePathingTries>
+	
+	<!-- Pathing tries are set to 6 in the event of a possible failure whilst highly unlikely -->	
+	<SpacePathingTries> 3 </SpacePathingTries>
 
+	<!-- How far away from a static obstacle the engine begins adding avoidance cost -->
 	<SpaceStaticObstacleAvoidanceBonusDistance> 0 </SpaceStaticObstacleAvoidanceBonusDistance>
-
+	
+	<!-- NO obstacle cost in this build, this means ships dont need to calculate freeing up a ton of processing -->
 	<MinObstacleCostSpace> 0.0 </MinObstacleCostSpace>
 	<MaxObstacleCostSpace> 0.0 </MaxObstacleCostSpace>
 	<ObstacleAreaOverlapForMaxSpace> 0.0 </ObstacleAreaOverlapForMaxSpace>
-	<XYExpansionDistanceSpace> 500000.0 </XYExpansionDistanceSpace>
+	
+	<!-- How far the engine expands the valid XY navigation area beyond the actual map boundaries when resolving destinations and movement -->
+	<!-- Basically allows players to click near the edge of the map better -->
+	<XYExpansionDistanceSpace> 5000.0 </XYExpansionDistanceSpace>
+	
+	<!-- The maximum number of rotation “steps” the engine is allowed to predict or simulate ahead when determining a ship’s facing direction in space -->
+	<!-- It is part of the facing prediction and smoothing system, it is cap on how far ahead the engine can look when calculating future rotation -->
+	<!-- 0–5 = choppy rotation, 10-20 = balanced, 30-50 = aggressive prediction, can cause jitter, not recommended to go higher -->
+	<!-- 20 seems to be the sweet spot -->
 	<MaxRotationsSpace> 20.0 </MaxRotationsSpace>
-	<MatchFacingDeltaSpace> 10.0 </MatchFacingDeltaSpace>
-	<OccupationRadiusCoefficientSpace> 1.0 </OccupationRadiusCoefficientSpace>
-	<DestinationSearchRadiusIncrementSpace> 50.0 </DestinationSearchRadiusIncrementSpace>
+	
+	<!-- “If I’m within Degree° of the movement direction, I’m allowed to start moving.” -->
+	<!-- This needs to be 360 to allow ships to just 'MOVE' instead of sitting there and being shot to death -->
+	<MatchFacingDeltaSpace> 360.0 </MatchFacingDeltaSpace>
+	
+	<!-- A multiplier applied to a ship’s occupation radius when the engine checks whether a destination point is valid or blocked -->
+	<!-- 1.0 = The engine uses the ship’s occupation radius exactly as defined, set to 0.5 for even less collision, set to 0 for ships to take up no space -->
+	<OccupationRadiusCoefficientSpace> 1.5 </OccupationRadiusCoefficientSpace>
+	
+	<!-- How much the engine expands the search radius each time it fails to find a valid destination point in space -->
+	<!-- 0.0 could cause ships not to move, 50 is base, 100-200 = less precise but faster processing -->
+	<DestinationSearchRadiusIncrementSpace> 500.0 </DestinationSearchRadiusIncrementSpace>
+	
+	<!-- This is a broad phase collision detection method, The engine draws a line from current position to the next position -->
+	<!-- It checks if that line intersects any object’s bounding volume If yes, it flags a potential collision -->
+	<!-- This requires more testing as to its exact effects-->
+	<!-- It seems wether true or false ships will still navigate around space structures -->
 	<UseLinearCollisionChecks> true </UseLinearCollisionChecks>
-	<WaitOperatorCostCoefficient> .8 </WaitOperatorCostCoefficient>
-	<WaitOperatorBaseFrameTime> 100 </WaitOperatorBaseFrameTime>
-	<WaitOperatorSpeedCoefficient> .2 </WaitOperatorSpeedCoefficient>
-	<LandWaitOperatorSpeedCoefficient> .65 </LandWaitOperatorSpeedCoefficient>
+	
+	<!-- How much “cost” the WAIT operator adds to a potential movement plan when the engine is evaluating formation slot assignments or path options-->
+	<!-- It’s a penalty multiplier, Applied when the engine thinks a ship might need to WAIT, Higher values = “WAIT is expensive, avoid it” -->
+	<!-- This value is 0 because we dont care about waiting since WAIT states and WAIT cost are effectively disabled, the value doesn’t matter.-->
+	<WaitOperatorCostCoefficient> 0.0 </WaitOperatorCostCoefficient>
+	
+	<!-- How long (in frames) a ship must remain in a WAIT state before the engine reevaluates whether it should keep waiting or resume normal movement -->
+	<!-- Base = 100, Ours is 0 ships just 'Go' -->
+	<WaitOperatorBaseFrameTime> 0 </WaitOperatorBaseFrameTime>
+	
+	<!-- The fraction of normal movement speed a ship is allowed to use while it is “waiting” for other ships in a formation. -->
+	<WaitOperatorSpeedCoefficient> 1 </WaitOperatorSpeedCoefficient>
+	
+	<!-- How aggressively the engine predicts (looks ahead to) the ship’s future facing direction while it is moving -->
+	<!-- It is part of the facing smoothing and prediction system, not the pathfinder -->
+	<!-- 1.0 = The ship rotates as fast as its turn rate allows -->
 	<SpaceLocomotorFacingLookaheadAcc> 1.0 </SpaceLocomotorFacingLookaheadAcc>
-	<FinalFacing180Penalty> 20.0 </FinalFacing180Penalty>
-	<SpecialAlignedOperatorBonus> .6 </SpecialAlignedOperatorBonus>
+	
+	<!-- This is a cost penalty for ending a move facing the wrong direction. -->
+	<FinalFacing180Penalty> 20.0 </FinalFacing180Penalty> 
+	
+	<!-- multiplier that rewards ships for being aligned with their formation slot direction (0.0 alignment doesnt matter) (Base 0.6) (Alignment really matters 1.0) -->
+	<SpecialAlignedOperatorBonus> 10.0 </SpecialAlignedOperatorBonus>
+	
+	<!-- How far outward the engine expands the “threat radius” of objects when evaluating movement, pathfinding, and avoidance. -->
+	<!-- Set to 0 to effectively disable this chunk of the engine, no threat radius needed in space when ships will shoot at eachother passively -->
 	<ThreatExpansionDistance> 0.0 </ThreatExpansionDistance>
-	<OffMapCostPenalty> 40.0 </OffMapCostPenalty>
+	
+	<!-- How much extra pathfinding cost is added when a ship’s planned path goes outside the playable map boundaries. -->
+	<!-- 40 = strong avoidance of map boundaries -->
+	<!-- 100 = Extreme avoidance -->
+	<OffMapCostPenalty> 100.0 </OffMapCostPenalty>
+	
+	<!-- How often (in frames) the engine updates the spatial tracking trees for space objects -->
+	<!-- object positions, object bounding volumes, spatial tree rebalancing, proximity queries, target acquisition, sensor checks, projectile tracking, formation slot updates -->
+	<!-- If this value is small (like 1–30) updates happen constantly causing cpu load spikes-->
+	<!--If this value is large (like 120–300) updates happen infrequently and cpu load drops dramatically -->
+	<SpaceObjectTrackingInterval> 1200 </SpaceObjectTrackingInterval>
+	
+	<!-- How many spatial partitioning trees the engine uses to track space objects ships, projectiles, debris, etc, More trees = more locations = less congestion -->
+	<!-- “What objects are near me?” “What objects are in this region?” “What should be updated this frame?” “What should be culled?” “What should be considered for targeting?” -->
+	<!-- Too many objects in one tree = performance loss, Too many trees = performance loss -->
+	<!-- Tweak this up and down to your liking based on your projectile/unit amounts and map sizes -->
+	<!-- 100 net me 15 fps in combat with 75 Charons + a small enemy fleet -->
+	<!-- 4 gave me the best results at 25 fps with the same fleet -->
+	<SpaceObjectTrackingTreeCount> 4 </SpaceObjectTrackingTreeCount>
+	
+	<!-- How close a ship must get to an obstacle (static or dynamic) before the engine attempts a “repush”  a forced micro repath to avoid getting stuck -->
+	<!-- 0 = no recalculation until root collision, Higher = more calculations -->
+	<RepushDistance> 1.0 </RepushDistance>
+	
+	<!-- What angle does the ship need to be facing before it starts moving in the proper direction, Think fire cone but for movement -->
+	<!-- 360 allows the ship to start moving forward without restriction which is really important for fps, now it doesnt have to adjust or turn in place, It just goes -->
+	<CloseEnoughAngleForMoveStart> 360 </CloseEnoughAngleForMoveStart>
+	
+	<!-- Penalizes a movement path if it overlaps with another moving obstacle -->
+	<!-- we want this to be 0 if you want brute force performance pathing -->
+	<DynamicObstacleOverlapPenalty> 1.0 </DynamicObstacleOverlapPenalty>
+	
+	<!-- This value may define the half size of the rectangular avoidance zone around a ship when the engine checks for dynamic (moving) obstacles. -->
+	<!-- The engine builds a rectangle around the ship this size in each direction -->
+	<!-- With our setup this tagline has no effect maximum performance is 0 (it is normally 3) -->
+	<DynamicAvoidanceRectangleBound> 3.5 </DynamicAvoidanceRectangleBound>
+	
+	<!-- idk what this one does couldnt get it to work -->
+	<ShouldDisplayPotentialPath> false </ShouldDisplayPotentialPath>
+
+
+	<!-- How much a capital ship slows down while turning in place, 1.0 = No slowdown at all, 2.0 = Ship rotates faster than normal-->
+	<TurnInPlaceSlowdownCorvette> 1.0 </TurnInPlaceSlowdownCorvette>
+	<TurnInPlaceSlowdownFrigate> 1.0 </TurnInPlaceSlowdownFrigate>
+	<TurnInPlaceSlowdownCapital> 1.0 </TurnInPlaceSlowdownCapital>
+	
+	<!-- If a ship is more than this distance away the engine considers correcting it -->
+	<FormationMinimumSideError> 150.0 </FormationMinimumSideError>
+	
+	<!-- How far a ship is allowed to drift sideways from its assigned formation slot before the engine stops trying to correct it. -->
+	<!-- the “how sloppy can the formation be?” threshold, It is measured in game units, not degrees -->
+	<!-- Couldnt confirm or deny this does anything with SIMPLE_SPACE_LOCOMOTOR with this build of pathing -->
+	<FormationMaximumSideError> 550.0 </FormationMaximumSideError>
+		
+	<!--This value should determine how much empty space the engine tries to maintain between ships when they are part of the same formation -->
+	<!--Lower is a tighter formation spacing -->
+	<BetweenFormationSpacing> 150.0 </BetweenFormationSpacing>
+	
+	<!-- smooths out the ship’s movement path (Standard .9962) Lower number means more jitter but more performance-->
+	<ApproximationSmoothCosAngle> .965 </ApproximationSmoothCosAngle>
+	
+	<!-- essentially a forward buffer added to the ship’s approximation volume -->
+	<ApproximationForwardDistance> 3.0 </ApproximationForwardDistance>
+	
+	<!-- How much two stopped ships are allowed to overlap before the engine considers it a problem, It only applies when both ships are stopped? -->
+	<!-- 0.15 = Two stopped ships can overlap 15% of their size? -->
+	<MinimumStoppedVsStoppedOverlapCoefficient> 1.0 </MinimumStoppedVsStoppedOverlapCoefficient>
+	
+	<!-- When two moving ships might collide, how far into the future should I predict their positions before deciding whether to avoid? -->
+	<!-- This is a dynamic avoidance system, essentially voided in this version of pathing - Higher = more avoidance , Lower = less avoidance, 0 = On top of eachother avoidance -->
+	<!-- Lower = less cpu cost -->
+	<MovingVsMovingLookAheadTime> 5.0 </MovingVsMovingLookAheadTime>
+	
+	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
+	<LandDestinationProximity> 60.0 </LandDestinationProximity>
+
+	<!-- When checking if the destination is blocked, extend the collision query outward by this many units (Ships will stop 'n' units away from targeted location if occupied) -->
+	<!-- 60 Appears to be a good number as it requires low processing, allows for accurate location management and prevents ships from overlapping inside eachother -->
+	<!-- Change to a higher number if you use on average larger ships than Humanity's Retaliation -->
+	<Destination_Collision_Query_Extension> 10 </Destination_Collision_Query_Extension>
+
+	<!-- This tells the engine to only update bounding volumes (Coll Meshes for movement) every 'n' frames Higher means more fps but less responsive units --> 
+	<FramesPerPositionApproximationRebuild>200</FramesPerPositionApproximationRebuild>
+	
+	<!-- each object only checks for pathfind collisions every 'n' frames -->
+	<!-- A ship will only check for collisions once every 99999 frames At 60 FPS, that’s ~27 minutes between checks essentially disabling coll detection -->
+	<FramesPerCollisionCheck> 99999 </FramesPerCollisionCheck>  
+	
+	<!-- Every 60 frames, the ship re-checks its movement state, this is moderately frequent, but not heavy, Ships should still update their facing and movement direction -->
+	<MovementReevaluationFrameCount> 60 </MovementReevaluationFrameCount>
+
+	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
+	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>
+	
+	<!-- lower number = Tighter formation facing angle, 0 should force the ship to turn to the correct angle-->
+	<FinalFormationFacingMinimumAngle> 0.0 </FinalFormationFacingMinimumAngle>             
+	
+	 <!-- Controls how aggressively the AI tries to correct facing  (0.1 - 1.0) = Higher is more aggressive This affects how the ship reaches its final facing -->
+	<FinalFormationFacingDeltaCoefficient> 1.0 </FinalFormationFacingDeltaCoefficient>     
+
+
+	<LandWaitOperatorSpeedCoefficient> .65 </LandWaitOperatorSpeedCoefficient>
 	<MaxLandFormationFormupFrames> 240.0 </MaxLandFormationFormupFrames>
-	<SpaceObjectTrackingInterval> 180 </SpaceObjectTrackingInterval>
-	<SpaceObjectTrackingTreeCount> 25 </SpaceObjectTrackingTreeCount>
-	<ShouldDisplayPredictionPaths> false </ShouldDisplayPredictionPaths>
-	<ShouldDisplaySyncedPaths> false </ShouldDisplaySyncedPaths>
-	<SyncedFrameInterval> 75.0 </SyncedFrameInterval>
 	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>
-	<RepushDistance> 2000.0 </RepushDistance>
 	<MinLandPredictionDistance> 60.0 </MinLandPredictionDistance>
 	<ShouldSkipLandFormup> true </ShouldSkipLandFormup>
 	<ShouldInfantryTeamsSplitAcrossFormations> true </ShouldInfantryTeamsSplitAcrossFormations>
 	<VehicleFormationRecruitmentDistance> 100 </VehicleFormationRecruitmentDistance>
 	<InfantryFormationRecruitmentDistance> 60 </InfantryFormationRecruitmentDistance>
-	<CloseEnoughAngleForMoveStart> 360 </CloseEnoughAngleForMoveStart>
-	<DynamicObstacleOverlapPenalty> 0.0 </DynamicObstacleOverlapPenalty>
-	<DynamicAvoidanceRectangleBound> 3 </DynamicAvoidanceRectangleBound>
-	<ShouldDisplayPotentialPath> false </ShouldDisplayPotentialPath>
-
-	<TurnInPlaceSlowdownCorvette> 1.0 </TurnInPlaceSlowdownCorvette>
-	<TurnInPlaceSlowdownFrigate> 1.0 </TurnInPlaceSlowdownFrigate>
-	<TurnInPlaceSlowdownCapital> 1.0 </TurnInPlaceSlowdownCapital>
-
-	<FormationMinimumSideError> .1 </FormationMinimumSideError>
-	<FormationMaximumSideError> 30.0 </FormationMaximumSideError>
-	<ApproximationSmoothCosAngle> .9962 </ApproximationSmoothCosAngle>
-	<ApproximationForwardDistance> 2.0 </ApproximationForwardDistance>
-	<MinimumStoppedVsStoppedOverlapCoefficient> .15 </MinimumStoppedVsStoppedOverlapCoefficient>
-	<MovingVsMovingLookAheadTime> 1.0 </MovingVsMovingLookAheadTime>
-	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
-	<LandDestinationProximity> 60.0 </LandDestinationProximity>
-	<BetweenFormationSpacing> 5.0 </BetweenFormationSpacing>
-
-	<Destination_Collision_Query_Extension> 60 </Destination_Collision_Query_Extension>
-
-	<FramesPerPositionApproximationRebuild>200</FramesPerPositionApproximationRebuild>
-	<FramesPerCollisionCheck> 99999 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->
-	<MovementReevaluationFrameCount> 25 </MovementReevaluationFrameCount>
-
-	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
-	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>
-
-	<FinalFormationFacingMinimumAngle> 10.0 </FinalFormationFacingMinimumAngle>
-	<FinalFormationFacingDeltaCoefficient> .5 </FinalFormationFacingDeltaCoefficient>
-
+	
 	<WalkAnimationCutoff> .6 </WalkAnimationCutoff>
 
 	<DoubleClickMoveMaxSpeedRatio> 1.25 </DoubleClickMoveMaxSpeedRatio>

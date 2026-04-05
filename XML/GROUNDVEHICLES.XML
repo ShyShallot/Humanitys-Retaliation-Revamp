@@ -4363,19 +4363,19 @@
 		
         <Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 		
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -4529,19 +4529,19 @@
 		
         <Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 		
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -4696,19 +4696,19 @@
 		
         <Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 		
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -4863,19 +4863,19 @@
 		
         <Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 		
 		<Armor_Type> Armor_Juggernaut </Armor_Type>

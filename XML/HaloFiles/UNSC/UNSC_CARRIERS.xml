@@ -246,7 +246,7 @@
                
             </Planet_Income_Bonus_Ability>
 		
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
+		<!--	<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>1300.0</Heal_Range>
 				<Heal_Amount> 50 </Heal_Amount>
@@ -254,7 +254,6 @@
 				<Heal_Interval_In_Secs>10.5</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Fighter, Bomber </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
@@ -271,8 +270,8 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
-		</Abilities>
+			</Force_Healing_Ability> -->
+		</Abilities> 
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -295,7 +294,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>22</Population_Value>
 		
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> 
+	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON">
 	

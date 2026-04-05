@@ -3116,9 +3116,9 @@
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
 
-		<!-- MAL standard rockets will be bombard-type -->
+		<!-- MAL standard rockets will be bombard-type 
 		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
-		<Projectile_Target_Point_On_Terrain> True </Projectile_Target_Point_On_Terrain>
+		<Projectile_Target_Point_On_Terrain> True </Projectile_Target_Point_On_Terrain> -->
 		
 		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
 
@@ -3127,7 +3127,6 @@
 		<Projectile_Damage>550.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
-		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -3223,7 +3222,7 @@
 		<Projectile_Blast_Area_Range>200.0</Projectile_Blast_Area_Range>
 		
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-		<Projectile_Blast_Area_Dropoff_Tiers>8</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Dropoff_Tiers>20</Projectile_Blast_Area_Dropoff_Tiers>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
