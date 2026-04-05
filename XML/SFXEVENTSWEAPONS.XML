@@ -34,6 +34,36 @@
 					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
+		 <SFXEvent Name="Unit_UNSC_SRS99">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_SRS99_SNIPER.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 
+		  <SFXEvent Name="Unit_UNSC_HANDHELD_ETILKA">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_HANDHELD_ETILKA.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 
+		  <SFXEvent Name="Unit_UNSC_MA5B">
+					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
+					<Samples>Data\Audio\OotF\UNSC_MA5B.wav</Samples>
+					<Min_Volume>100</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>90</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>	
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 
 		 <SFXEvent Name="Unit_UNSC_M90">
 					<Use_Preset>Preset_UNSC_BREAK</Use_Preset>
 					<Samples>Data\Audio\OotF\UNSC_M90_SHOTGUN.wav</Samples>
@@ -289,6 +319,39 @@
 		<!-- END UNSC AUDIO -->
 		
 		<!-- BEGIN COVENANT AUDIO -->
+		
+		<SFXEvent Name="Unit_COVN_WRAITH_MORTAR">
+					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_WRAITH_MORTAR.wav</Samples>
+					<Min_Volume>80</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>80</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+					<Chained_SFXEvent></Chained_SFXEvent>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_COVN_FUEL_ROD">
+					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_FUEL_ROD.wav</Samples>
+					<Min_Volume>80</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>80</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+					<Chained_SFXEvent></Chained_SFXEvent>
+		 </SFXEvent>
+		 
+		  <SFXEvent Name="Unit_COVN_PLASMA_RIFLE">
+					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
+					<Samples>Data\Audio\OotF\COVN_PLASMA_RIFLE.wav</Samples>
+					<Min_Volume>80</Min_Volume>
+					<Max_Volume>100</Max_Volume>
+					<Min_Pitch>95</Min_Pitch>
+					<Max_Pitch>100</Max_Pitch>
+					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+					<Chained_SFXEvent></Chained_SFXEvent>
+		 </SFXEvent>
 		
 		<SFXEvent Name="Unit_COVN_SCARAB_BEAM">
 					<Use_Preset>Preset_COVN_BEAM</Use_Preset>
