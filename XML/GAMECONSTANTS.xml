@@ -665,11 +665,11 @@
 	
 	<!-- A multiplier applied to a ship’s occupation radius when the engine checks whether a destination point is valid or blocked -->
 	<!-- 1.0 = The engine uses the ship’s occupation radius exactly as defined, set to 0.5 for even less collision, set to 0 for ships to take up no space -->
-	<OccupationRadiusCoefficientSpace> 1.5 </OccupationRadiusCoefficientSpace>
+	<OccupationRadiusCoefficientSpace> 1.0 </OccupationRadiusCoefficientSpace>
 	
 	<!-- How much the engine expands the search radius each time it fails to find a valid destination point in space -->
 	<!-- 0.0 could cause ships not to move, 50 is base, 100-200 = less precise but faster processing -->
-	<DestinationSearchRadiusIncrementSpace> 500.0 </DestinationSearchRadiusIncrementSpace>
+	<DestinationSearchRadiusIncrementSpace> 1.0 </DestinationSearchRadiusIncrementSpace>
 	
 	<!-- This is a broad phase collision detection method, The engine draws a line from current position to the next position -->
 	<!-- It checks if that line intersects any object’s bounding volume If yes, it flags a potential collision -->
@@ -733,12 +733,12 @@
 	
 	<!-- Penalizes a movement path if it overlaps with another moving obstacle -->
 	<!-- we want this to be 0 if you want brute force performance pathing -->
-	<DynamicObstacleOverlapPenalty> 1.0 </DynamicObstacleOverlapPenalty>
+	<DynamicObstacleOverlapPenalty> 0.5 </DynamicObstacleOverlapPenalty>
 	
 	<!-- This value may define the half size of the rectangular avoidance zone around a ship when the engine checks for dynamic (moving) obstacles. -->
 	<!-- The engine builds a rectangle around the ship this size in each direction -->
 	<!-- With our setup this tagline has no effect maximum performance is 0 (it is normally 3) -->
-	<DynamicAvoidanceRectangleBound> 3.5 </DynamicAvoidanceRectangleBound>
+	<DynamicAvoidanceRectangleBound> 0.5 </DynamicAvoidanceRectangleBound>
 	
 	<!-- idk what this one does couldnt get it to work -->
 	<ShouldDisplayPotentialPath> false </ShouldDisplayPotentialPath>
@@ -755,17 +755,17 @@
 	<!-- How far a ship is allowed to drift sideways from its assigned formation slot before the engine stops trying to correct it. -->
 	<!-- the “how sloppy can the formation be?” threshold, It is measured in game units, not degrees -->
 	<!-- Couldnt confirm or deny this does anything with SIMPLE_SPACE_LOCOMOTOR with this build of pathing -->
-	<FormationMaximumSideError> 550.0 </FormationMaximumSideError>
+	<FormationMaximumSideError> 250.0 </FormationMaximumSideError>
 		
 	<!--This value should determine how much empty space the engine tries to maintain between ships when they are part of the same formation -->
 	<!--Lower is a tighter formation spacing -->
-	<BetweenFormationSpacing> 150.0 </BetweenFormationSpacing>
+	<BetweenFormationSpacing> 50.0 </BetweenFormationSpacing>
 	
 	<!-- smooths out the ship’s movement path (Standard .9962) Lower number means more jitter but more performance-->
 	<ApproximationSmoothCosAngle> .965 </ApproximationSmoothCosAngle>
 	
 	<!-- essentially a forward buffer added to the ship’s approximation volume -->
-	<ApproximationForwardDistance> 3.0 </ApproximationForwardDistance>
+	<ApproximationForwardDistance> 1.0 </ApproximationForwardDistance>
 	
 	<!-- How much two stopped ships are allowed to overlap before the engine considers it a problem, It only applies when both ships are stopped? -->
 	<!-- 0.15 = Two stopped ships can overlap 15% of their size? -->
