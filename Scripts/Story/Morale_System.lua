@@ -3,6 +3,7 @@ require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PGStoryMode")
 require("globalPlanetTable")
+require("DynamicWeightTable")
 
 function Definitions()
 
@@ -27,8 +28,6 @@ function Definitions()
         Far_Isle_Event = Far_Isle_Event,
         Flush = Flush,
         Morale_Update = Morale_System_Update,
-        Pause_Button_Clicked = Game_Paused,
-        Unpaused_Button_Clicked = Unpause_Game,
     }
 
     ---@class PlanetMoraleEntry
@@ -141,14 +140,15 @@ function Definitions()
     ---@field Display_Name string
     ---@field Bonus Morale_Bonus
     ---@field Description string
+    ---@field Color table[]
 
     ---@type Morale_Level[]
     Morale_Levels = {
-        {Range = {0,15}, Punishment = true, Name = "Compromised", Display_Name = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_DESCRIPTION"},
-        {Range = {16,35}, Punishment = false, Name = "Strained", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
-        {Range = {36,74}, Punishment = false, Name = "Stabilized", Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
-        {Range = {75,89}, Punishment = false, Name = "Resolute", Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
-        {Range = {90,100}, Punishment = false, Name = "Ascendant", Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
+        {Range = {0,15}, Punishment = true, Name = "Compromised", Color = {r=224,g=40,b=40}, Display_Name = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_COMPROMISED_DESCRIPTION"},
+        {Range = {16,35}, Punishment = false, Name = "Strained", Color = {r=235,g=150,b=70}, Display_Name = "TEXT_STORY_MORALE_DISPLAY_STRAINED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STRAINED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STRAINED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STRAINED_DESCRIPTION"},
+        {Range = {36,74}, Punishment = false, Name = "Stabilized", Color = {r=255,g=255,b=255}, Display_Name = "TEXT_STORY_MORALE_DISPLAY_STABILIZED", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_STABILIZED_DESCRIPTION"},
+        {Range = {75,89}, Punishment = false, Name = "Resolute", Color = {r=131,g=199,b=147}, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_RESOLUTE_DESCRIPTION"},
+        {Range = {90,100}, Punishment = false, Name = "Ascendant", Color = {r=111,g=207,b=59}, Display_Name = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT", Bonus = {Battle = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_BATTLE_BONUS", Production = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_PRODUCTION_BONUS"}, Description = "TEXT_STORY_MORALE_DISPLAY_ASCENDANT_DESCRIPTION"},
     }
 
     Modifiers = {
@@ -158,7 +158,29 @@ function Definitions()
                 Random_Morale_Gain_Loss = {1,2}, --- The Range at which we +/- to the random event morale 
                 Yearly_Planetary_Morale_Loss = -15, -- when player is in low morale, how much morale does a planet lose every year out of 100, so 100/10 = 10 years to planet loss
                 Battle_Win_Streak_Requirement = 8, --- How many battles do we have to win in a row to count for the battle win streak
-                Negative_Random_Event_Weight_Multiplier = 1.05 --- Multiplies negative random morale event weight by this number rounded down
+                Negative_Random_Event_Weight_Multiplier = 1.05, --- Multiplies negative random morale event weight by this number rounded down
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
 
             },
             ["Hard"] = {
@@ -166,7 +188,29 @@ function Definitions()
                 Random_Morale_Gain_Loss = {1,1},
                 Yearly_Planetary_Morale_Loss = -20,
                 Battle_Win_Streak_Requirement = 12,
-                Negative_Random_Event_Weight_Multiplier = 1.1
+                Negative_Random_Event_Weight_Multiplier = 1.1,
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
             }
         },
         Default = {
@@ -175,28 +219,137 @@ function Definitions()
                 Random_Morale_Gain_Loss = {0,2},
                 Yearly_Planetary_Morale_Loss = -10,
                 Battle_Win_Streak_Requirement = 6,
-                Negative_Random_Event_Weight_Multiplier = 1
+                Negative_Random_Event_Weight_Multiplier = 1,
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
+            },
+            ["Easy"] = {
+                Morale_Gain_Multiplier = 1,
+                Random_Morale_Gain_Loss = {0,2},
+                Yearly_Planetary_Morale_Loss = -10,
+                Battle_Win_Streak_Requirement = 6,
+                Negative_Random_Event_Weight_Multiplier = 1,
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
+            },
+            ["Normal"] = {
+                Morale_Gain_Multiplier = 1,
+                Random_Morale_Gain_Loss = {0,2},
+                Yearly_Planetary_Morale_Loss = -10,
+                Battle_Win_Streak_Requirement = 6,
+                Negative_Random_Event_Weight_Multiplier = 1,
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
+            },
+            ["Hard"] = {
+                Morale_Gain_Multiplier = 1,
+                Random_Morale_Gain_Loss = {0,2},
+                Yearly_Planetary_Morale_Loss = -10,
+                Battle_Win_Streak_Requirement = 6,
+                Negative_Random_Event_Weight_Multiplier = 1,
+                Random_Events_Morale_Level_Multiplier = {
+                    ["Compromised"] = {
+                        Positive = 1.5,
+                        Negative = 0.5
+                    },
+                    ["Strained"] = {
+                        Positive = 1.25,
+                        Negative = 0.75,
+                    },
+                    ["Stabilized"] = {
+                        Positive = 1,
+                        Negative = 1,
+                    },
+                    ["Resolute"] = {
+                        Positive = .75,
+                        Negative = 1.25
+                    },
+                    ["Ascendant"] = {
+                        Positive = 0.5,
+                        Negative = 1.5,
+                    }
+                }
             }
         }
     }
 
     function Modifiers:Get_Modifiers(Faction)
-        if Faction == nil or Faction.Get_Faction_Name == nil then
+        if Global_Values.Difficulty == nil then
             return self.Default["Default"]
+        end
+
+        if Faction == nil or Faction.Get_Faction_Name == nil then
+            return self.Default[Global_Values.Difficulty]
         end
 
         local Faction_Name = string.upper(Faction.Get_Faction_Name())
 
         if self[Faction_Name] == nil then
-            return self.Default["Default"]
-        end
-
-        if Global_Values.Difficulty == nil then
-            return self.Default["Default"]
+            return self.Default[Global_Values.Difficulty]
         end
 
         if self[Faction_Name][Global_Values.Difficulty] == nil then
-            return self.Default["Default"]
+            return self.Default[Global_Values.Difficulty]
         end
 
         return self[Faction_Name][Global_Values.Difficulty]
@@ -218,7 +371,6 @@ function Definitions()
         Planets = {},
         Starting_Year = 2490,
         Current_Year = 2490,
-        Game_Paused = false
     }
 
     Morale_Value_Status = {
@@ -329,41 +481,74 @@ function Definitions()
     ---@class Random_Event
     ---@field Base_Morale number
     ---@field Negative boolean
-    ---@field Weight number
+    ---@field Base_Weight number
+    ---@field Current_Weight? number This is created on init and updated on every cycle
     ---@field Display_Name string
     ---@field String string
 
     ---@class Random_Events
-    ---@field Distribution_Table DiscreteDistributionObject|nil
+    ---@field Distribution_Table DynamicWeightTable|nil
     ---@field Possible_Events table<string, Random_Event>
     ---@field Next_Random_Event number
     ---@field Last_Random_Event number
     Random_Events = {
         Distribution_Table = nil,
         Possible_Events = {
-            ["Milita_Crackdown"] = {Base_Morale = 3, Negative = false, Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN"},
-            ["Milita_Advance"] = {Base_Morale = 4, Negative = true, Weight = 45, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE"},
+            ["Milita_Crackdown"] = {Base_Morale = 3, Negative = false, Base_Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_CRACKDOWN"},
+            ["Milita_Advance"] = {Base_Morale = 4, Negative = true, Base_Weight = 45, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_MILITA_ADVANCE"},
 
-            ["Colony_Breakdown"] = {Base_Morale = 3, Negative = true, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN"},
-            ["Colony_Evacuation"] = {Base_Morale = 4, Negative = true, Weight = 30, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION"},
-            ["Colony_Celebration"] = {Base_Morale = 3, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION"},
+            ["Colony_Breakdown"] = {Base_Morale = 3, Negative = true, Base_Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_BREAKDOWN"},
+            ["Colony_Evacuation"] = {Base_Morale = 4, Negative = true, Base_Weight = 30, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_EVACUATION"},
+            ["Colony_Celebration"] = {Base_Morale = 3, Negative = false, Base_Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_COLONY_CELEBRATION"},
 
-            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
-            ["Wartime_Fears"] = {Base_Morale = 2, Negative = true, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS"},
+            ["Wartime_Scientific_Advancement"] = {Base_Morale = 5, Negative = false, Base_Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_SCIENTIFIC_ADVANCEMENT"},
+            ["Wartime_Fears"] = {Base_Morale = 2, Negative = true, Base_Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_FEARS"},
 
-            ["Settlement_Created"] = {Base_Morale = 3, Negative = false, Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED"},
-            ["Settlement_Grew"] = {Base_Morale = 2, Negative = false, Weight = 65, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW"},
-            ["Settlement_Abandonded"] = {Base_Morale = 3, Negative = true, Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED"},
+            ["Settlement_Created"] = {Base_Morale = 3, Negative = false, Base_Weight = 60, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_CREATED"},
+            ["Settlement_Grew"] = {Base_Morale = 2, Negative = false, Base_Weight = 65, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_GREW"},
+            ["Settlement_Abandonded"] = {Base_Morale = 3, Negative = true, Base_Weight = 35, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_SETTLEMENT_ABANDONDED"},
 
-            ["Wartime_Propaganda"] = {Base_Morale = 4, Negative = false, Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA"}
+            ["Wartime_Propaganda"] = {Base_Morale = 4, Negative = false, Base_Weight = 55, Display_Name = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA_NAME", String = "TEXT_STORY_MORALE_DISPLAY_RANDOM_EVENT_WARTIME_PROPAGANDA"}
         },
         Random_Chances = {
-            Current_Chance = 0.0025,
-            Chance_Increase_Per_Tick = 0.0015,
+            Current_Chance = 0.002,
+            Chance_Increase_Per_Tick = 0.001,
             Chance_Cap = 0.5,
             Last_Happened = 0,
         }
     }
+
+    function Random_Events:Update_Random_Event_Weight(Key, Weight)
+        if type(Key) ~= "string" then
+            return
+        end
+
+        if type(Weight) ~= "number" then
+            return
+        end
+
+        if Weight < 0 then
+            Weight = 0
+        end
+
+        if Weight > 100 then
+            Weight = 100
+        end
+
+        Weight = tonumber(Dirty_Floor(Weight))
+
+        if type(Weight) ~= "number" then
+            return
+        end
+
+        local Entry = self.Possible_Events[Key]
+
+        if not Entry then
+            return
+        end
+
+        self.Possible_Events[Key].Current_Weight = Weight
+    end
 
     function Random_Events.Random_Chances:Increase_Chance()
         self.Current_Chance = self.Current_Chance + self.Chance_Increase_Per_Tick
@@ -382,9 +567,9 @@ function Definitions()
             roll = 0.005
         end
 
-        DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s, Random Event Last Happened: %s, Current Time: %s, Game is Paused: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll), tostring(self.Last_Happened), tostring(GetCurrentTime.Galactic_Time()), tostring(Global_Values.Game_Paused))
+        DebugMessage("%s -- Checking for Random Event. Current Chance: %s, Roll: %s, Random Event Last Happened: %s, Current Time: %s", tostring(Script), tostring(self.Current_Chance), tostring(roll), tostring(self.Last_Happened), tostring(GetCurrentTime.Galactic_Time()))
 
-        if roll <= self.Current_Chance and GetCurrentTime.Galactic_Time() >= self.Last_Happened + 5 and not Global_Values.Game_Paused then
+        if roll <= self.Current_Chance and GetCurrentTime.Galactic_Time() >= self.Last_Happened + 5 then
             DebugMessage("%s -- Triggering Random Event", tostring(Script))
             self.Current_Chance = 0.0005
             self.Last_Happened = GetCurrentTime.Galactic_Time()
@@ -396,6 +581,58 @@ function Definitions()
         return false
     end
 
+    ---@alias Random_Events_Filter "All" | "Positive" | "Negative" | "Positive | Negative"
+
+    ---@param filter Random_Events_Filter
+    ---@return string[], string[]?
+    function Random_Events:Return_Events(filter)
+        if type(filter) ~= "string" then
+            return {}
+        end
+
+        local return_negative = filter == "Negative"
+
+        local return_positive = filter == "Positive"
+
+        local return_seperate = filter == "Positive | Negative"
+
+        local return_all = filter == "All"
+
+        local events = {
+            Positive = {},
+            Negative = {}
+        }
+
+        for Key, Event in pairs(self.Possible_Events) do
+
+            if Event.Negative then
+               table.insert(events.Negative,Key)
+            else
+                table.insert(events.Positive, Key)
+            end
+        end
+
+        local combined_events = Fast_Join(events.Positive, events.Negative)
+
+        if return_all then
+            return combined_events
+        end
+
+        if return_negative then
+            return events.Negative
+        end
+
+        if return_positive then
+            return events.Positive
+        end
+
+        if return_seperate then
+            return events.Positive, events.Negative
+        end
+
+        return {}
+    end
+
     Misc_Morale_Income = {
         Net = 0,
         Last_Updated = 1,
@@ -404,6 +641,7 @@ function Definitions()
             Portion_Was_Tax = 0,
         }
     }
+
 end
 
 function Init_Morale_System(message)
@@ -478,24 +716,25 @@ function Init_Morale_System(message)
 
         Planet_Morale_Table = Build_Morale_Table()
 
-        Random_Events.Distribution_Table = DiscreteDistribution.Create()
+        Random_Events.Distribution_Table = DynamicWeightTable.New()
 
         for Random_Event_Name, Random_Event in pairs(Random_Events.Possible_Events) do
 
             local Diff_Modifiers = Modifiers:Get_Modifiers(Global_Values.Player)
 
-            local Weight = Random_Event.Weight
+            local Weight = Random_Event.Base_Weight
 
             if Random_Event.Negative then
-                Weight = tonumber(Dirty_Floor(Diff_Modifiers.Negative_Random_Event_Weight_Multiplier * Random_Event.Weight))
+                Weight = tonumber(Dirty_Floor(Diff_Modifiers.Negative_Random_Event_Weight_Multiplier * Random_Event.Base_Weight))
 
                 if type(Weight) ~= "number" then
-                    Weight = Random_Event.Weight
+                    Weight = Random_Event.Base_Weight
                 end
             end
 
-            
-            Random_Events.Distribution_Table.Insert(Random_Event_Name, Weight)
+            Random_Events:Update_Random_Event_Weight(Random_Event_Name, Weight)
+
+            Random_Events.Distribution_Table:Insert(Random_Event_Name,Weight)
         end
 
         Set_Next_State("Flush")
@@ -507,7 +746,7 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Game Mode: %s", tostring(Script), tostring(Get_Game_Mode()))
 
-        DebugMessage("%s -- Time: %s, Galactic Time: %s, Frame: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()), tostring(GetCurrentTime.Frame()))
+        --DebugMessage("%s -- Time: %s, Galactic Time: %s, Frame: %s", tostring(Script), tostring(GetCurrentTime()), tostring(GetCurrentTime.Galactic_Time()), tostring(GetCurrentTime.Frame()))
 
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
@@ -540,6 +779,7 @@ function Morale_System_Update(message)
             Handle_Planet_Production(Current_Morale_Entry)
 
             Handle_Misc_Income()
+
         else
             return
         end
@@ -557,11 +797,13 @@ function Morale_System_Update(message)
 
             Display_Handler:Add_Body("TEXT_STORY_MORALE_DISPLAY_ALERT_" .. string.upper(Current_Morale_Entry.Name), 8, true, {r=235,g=189,b=52}, nil)
 
-            Display_Handler:Update_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_"..string.upper(GlobalValue.Get("Morale_Status")), "TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
+            Display_Handler:Update_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_"..string.upper(GlobalValue.Get("Morale_Status")), "TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name), Current_Morale_Entry.Color)
+        
+            Handle_Random_Event_Weights(Current_Morale_Status)
         end
 
         Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", nil, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", Current_Morale_Entry.Color, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
@@ -712,7 +954,9 @@ function Random_Morale_Swing()
 
     if Random_Events.Random_Chances:Should_Random_Event_Happen() then
 
-        local Random_Event = Random_Events.Distribution_Table.Sample()
+        local Random_Event = Random_Events.Distribution_Table:Sample()
+
+        DebugMessage("%s -- Picking Event: %s", tostring(Script), tostring(Random_Event))
 
         if Random_Event ~= nil then
             local Random_Event_Entry = Random_Events.Possible_Events[Random_Event]
@@ -801,18 +1045,18 @@ function Handle_Misc_Income()
 
     local Is_Total_Loss = Morale_Change < 0
 
-    local color = {r=0,b=0,g=255}
+    local color = "green"
 
     local Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_GOOD"
 
     if Morale_Change == 0 then
-        color = {r=255,b=255,g=255}
+        color = "white"
 
         Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_MEH"
     end
 
     if Is_Total_Loss then
-        color = {r=255,b=0,g=0}
+        color = "red"
 
         Screen_String = "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_BAD"
     end
@@ -821,7 +1065,54 @@ function Handle_Misc_Income()
 
     Morale_Value_Status:Modify_Morale(Morale_Change, Is_Total_Loss) -- Modify_Morale already converts numbers to absolute values
 
+    Display_Handler:Add_Body(Screen_String, 8, true, color)
+
     --Show_Screen_Text(Screen_String, nil, 8, color, true)
+end
+
+function Handle_Random_Event_Weights(Current_Morale_Level)
+
+    if type(Current_Morale_Level) ~= "string" then
+        return
+    end
+
+    for Random_Event_Name, Event in pairs(Random_Events.Possible_Events) do
+        if type(Event.Current_Weight) == "number" then
+
+            local New_Weight = Event.Base_Weight
+
+            local Modifiers = Modifiers:Get_Modifiers(Global_Values.Player)
+
+            if Modifiers ~= nil then
+                local Difficulty_Modifier = Modifiers.Negative_Random_Event_Weight_Multiplier
+
+                DebugMessage("%s -- Difficulty Modifier: %s (%s)", tostring(Script), tostring(Difficulty_Modifier), tostring(Global_Values.Difficulty))
+
+                if type(Difficulty_Modifier) == "number" then
+                    New_Weight = New_Weight * Difficulty_Modifier
+                end
+
+                local Morale_Level_Modifiers = Modifiers.Random_Events_Morale_Level_Multiplier
+
+                if Morale_Level_Modifiers[Current_Morale_Level] ~= nil then
+                    local Morale_Level_Modifier = Morale_Level_Modifiers[Current_Morale_Level]
+
+                    DebugMessage("%s -- Morale Level %s Modifiers, Positive: %s, Negative: %s", tostring(Script), tostring(Current_Morale_Level), tostring(Morale_Level_Modifier.Positive), tostring(Morale_Level_Modifier.Negative))
+
+                    if Event.Negative then
+                        New_Weight = New_Weight * Morale_Level_Modifier.Negative
+                    else
+                        New_Weight = New_Weight * Morale_Level_Modifier.Positive
+                    end
+                end
+                
+            end
+
+            DebugMessage("%s -- Updating Event %s to new Weight: %s, Base Weight: %s", tostring(Script), tostring(Random_Event_Name), tostring(New_Weight), tostring(Event.Base_Weight))
+
+            Random_Events.Distribution_Table:Update_Weight(Random_Event_Name, New_Weight)
+        end
+    end
 end
 
 ---@return Morale_Level|nil
@@ -1520,31 +1811,6 @@ function Far_Isle_Event(message)
     Set_Next_State("Flush")
 end
 
-function Game_Paused(message)
-    if message ~= OnEnter then
-        Set_Next_State("Flush")
-
-        return
-    end
-
-    if Global_Values.Game_Paused then
-        Global_Values.Game_Paused = false
-        DebugMessage("%s -- Game Unpaused, Time: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()))
-    else
-        Global_Values.Game_Paused = true
-        DebugMessage("%s -- Game Paused, Time: %s", tostring(Script), tostring(GetCurrentTime.Galactic_Time()))
-    end
-end
-
-function Unpause_Game(message)
-    if message ~= OnEnter then
-        Set_Next_State("Flush")
-
-        return
-    end
-
-    Global_Values.Game_Paused = false
-end
 
 ---@class Header
 ---@field Text string TEXT_ID
@@ -1592,7 +1858,7 @@ Display_Handler = {
         black  = {r=0,g=0,b=0},
         pink   = {r=248,g=115,b=255},
         purple = {r=77,g=26,b=105},
-        orange = {r=219,g=107,b=22}
+        orange = {r=219,g=107,b=22},
     }
 }
 

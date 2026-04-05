@@ -556,3 +556,20 @@ function StringContains(str, substr)
 
     return string.find(str, substr, 1, true) ~= nil
 end
+
+---@param t1 table
+---@param t2 table
+---@return table
+function Fast_Join(t1,t2)
+    if type(t1) ~= "table" and type(t2) ~= "table" then
+        return {}
+    end
+
+    local offset = table.getn(t1)
+
+    for i=1, table.getn(t2) do
+        t1[offset + 1] = t2[i]
+    end
+
+    return t1
+end
