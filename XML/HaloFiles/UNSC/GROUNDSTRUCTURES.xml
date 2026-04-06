@@ -2765,15 +2765,9 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
@@ -2838,11 +2832,11 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 9998</Starting_Spawned_Units_Tech_0>
+	<!-- <Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 9998</Starting_Spawned_Units_Tech_0> -->
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		
 		
 		
@@ -2897,16 +2891,6 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		
-		
-		<Starting_Spawned_Units_Tech_0>Squad_Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_UNSC_INFANTRY_SHOTGUN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Squad_UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
@@ -2926,10 +2910,13 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
-	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 9998</Starting_Spawned_Units_Tech_0> -->
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 	<!--	<Starting_Spawned_Units_Tech_0>AT_ST_WALKER, 9998</Starting_Spawned_Units_Tech_0> -->
-		
+	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 9998</Starting_Spawned_Units_Tech_0> -->	
 		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -3003,12 +2990,11 @@
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_RHINO, 9998</Starting_Spawned_Units_Tech_0>
@@ -3061,7 +3047,6 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
@@ -3069,9 +3054,7 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+
 	
 		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
@@ -3113,19 +3096,24 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOMBAT, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_C709_G_LONGSWORD, 9998</Starting_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>UNSC_B_65_BOMBER, 9998</Starting_Spawned_Units_Tech_0>
-
 	
-		<Spawned_Squadron_Delay_Seconds>65</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>95</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>245.0</Spawned_Squadron_Location_Flyout_Distances>

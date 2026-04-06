@@ -2597,7 +2597,7 @@
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<!-- <Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance> -->
 		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
-		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 150 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
 
@@ -2796,7 +2796,7 @@
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>95</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>

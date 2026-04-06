@@ -614,7 +614,9 @@
 
 	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 5.0 -->
 	
-	<!-- turn this to true to show prediction pathing , beware this causes fps loss in large movements -->
+	<!-- These settings have been tuned to provide the best fps, ship response time, unified fleet movement, and prevent wacky ship pathing, at the cost of collision, to navigate around the removal of collision I have given ships a stronger adhesion to flying in formation, ships will try to navigate with and around eachother without collision checks, be wary this version is not super friendly with very large ships and you will likely see ships clipping into eachother -->
+	
+	<!-- turn this to true to show prediction pathing , beware this causes fps loss in large scale movements -->
 	<ShouldDisplayPredictionPaths> false </ShouldDisplayPredictionPaths>
 	<ShouldDisplaySyncedPaths> false </ShouldDisplaySyncedPaths>
 	<SyncedFrameInterval> 75.0 </SyncedFrameInterval>
@@ -628,8 +630,8 @@
 	<!-- Pathing should not ever fail, this tag line is voided -->
 	<CurrentPathCostCoefficientSpace> 0.0 </CurrentPathCostCoefficientSpace>
 
-	<!-- Controls how fast each ship can make a calculation for pathing Lower = Faster -->
-	<SpacePathfindFrameDelayDelta> 1.5 </SpacePathfindFrameDelayDelta>   
+	<!-- Controls how fast each ship can make a calculation for pathing Lower = Faster response but too low can cause the game to freeze during calculation -->
+	<SpacePathfindFrameDelayDelta> 1.7 </SpacePathfindFrameDelayDelta>   
 
 
 	<!-- These 4 are the most important weights - this setup garuntees no pathing failure -->

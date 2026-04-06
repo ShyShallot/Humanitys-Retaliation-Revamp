@@ -415,7 +415,7 @@
 		 
 		  <SFXEvent Name="Unit_Ion_Fire">
 				 <Use_Preset>Preset_GUNS</Use_Preset>
-				 <Samples>Data\Audio\OotF\COVN_FUEL_ROD.wav</Samples>
+				 <Samples>Data\Audio\OotF\COVN_FIGHTER_ROUND.wav</Samples>
 				 <Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		  </SFXEvent>
 		

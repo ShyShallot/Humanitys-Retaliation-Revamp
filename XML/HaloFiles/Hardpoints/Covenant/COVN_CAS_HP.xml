@@ -84,7 +84,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -113,7 +113,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -142,7 +142,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -171,7 +171,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -200,7 +200,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -229,7 +229,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -258,7 +258,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -287,7 +287,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -316,7 +316,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -345,7 +345,7 @@
        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -373,7 +373,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -396,7 +396,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -419,7 +419,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -441,7 +441,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -463,7 +463,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -485,7 +485,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -507,7 +507,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
 
@@ -529,7 +529,7 @@
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent></Fire_SFXEvent>
 
     </HardPoint>
     
@@ -670,7 +670,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -701,7 +701,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -732,7 +732,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -763,7 +763,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -794,7 +794,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -825,7 +825,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -856,7 +856,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -887,7 +887,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -918,7 +918,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
@@ -949,7 +949,7 @@
        <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
        
-       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_SFXEvent></Fire_SFXEvent>
        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
        
        
