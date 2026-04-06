@@ -292,7 +292,6 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<Sabotage_Cost_Credits>-1</Sabotage_Cost_Credits>
-		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Icon_Name>I_BUTTON_UNSC_FORTRESS.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -420,7 +419,7 @@
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_FARM</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
+		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -438,7 +437,7 @@
 		<Required_Planets />
 		<Tactical_Health>4500</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, EARTHQUAKE_TARGET, TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -493,7 +492,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_FARM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 2-1 </Score_Cost_Credits>
+		<Score_Cost_Credits> 2 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
@@ -2832,7 +2831,6 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
-	<!-- <Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ODST, 9998</Starting_Spawned_Units_Tech_0> -->
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
@@ -2915,12 +2913,11 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
-	<!--	<Starting_Spawned_Units_Tech_0>AT_ST_WALKER, 9998</Starting_Spawned_Units_Tech_0> -->
-	<!--	<Starting_Spawned_Units_Tech_0>UNSC_COBRA, 9998</Starting_Spawned_Units_Tech_0> -->	
+		
 		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>50.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -3002,7 +2999,7 @@
 		<Spawned_Squadron_Delay_Seconds>35</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>345.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>125.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -3059,7 +3056,7 @@
 		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>345.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>

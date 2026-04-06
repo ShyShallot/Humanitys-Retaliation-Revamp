@@ -3124,8 +3124,8 @@
 
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>550.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 30 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
