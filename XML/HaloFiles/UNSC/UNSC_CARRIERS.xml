@@ -118,7 +118,7 @@
 		<Reserve_Spawned_Units_Tech_3>Late_Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_3>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
-		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MUSASHI.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -387,7 +387,7 @@
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
-		<Icon_Name>I_BUTTON_POSEIDON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_POSEIDON.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

@@ -6,7 +6,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>UNSC_SHIPYARD_CORVETTE_SPAWNER.ALO</Space_Model_Name>
 
-		<Scale_Factor>1.25</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
@@ -207,7 +207,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>UNSC_SHIPYARD_CORVETTE_SPAWNER.ALO</Space_Model_Name>
 
-		<Scale_Factor>1.10</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
@@ -317,7 +317,7 @@
 
     <SpecialStructure Name="UNSC_Medium_Shipyard_Skirmish">
 		
-       <Scale_Factor>1.7</Scale_Factor>
+       <Scale_Factor>1.5</Scale_Factor>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
@@ -438,7 +438,7 @@
 
     <SpecialStructure Name="UNSC_Heavy_Shipyard_Skirmish">
 	
-       <Scale_Factor>1.55</Scale_Factor>
+       <Scale_Factor>1.0</Scale_Factor>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>

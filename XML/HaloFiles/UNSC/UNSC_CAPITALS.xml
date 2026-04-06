@@ -94,7 +94,7 @@
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		-->
 
-		<Icon_Name>I_BUTTON_AUTUMN_CLASS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_AUTUMN.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -303,7 +303,7 @@
 		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_MARATHON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -510,7 +510,7 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_HALYCON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -712,7 +712,7 @@
 		</HardPoints>
 
 		<CategoryMask> Capital | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_VINDICATION.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_VINDICATION_2.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -939,7 +939,7 @@
 		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_PHOENIX.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SOF.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1197,7 +1197,7 @@
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_EPOCH.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1401,7 +1401,7 @@
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_USS_CONSTITUTION.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1507,6 +1507,7 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>08</Population_Value>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 
 	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	

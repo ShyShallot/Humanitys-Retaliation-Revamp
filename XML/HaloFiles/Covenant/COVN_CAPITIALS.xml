@@ -144,7 +144,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>I_BUTTON_CCS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CCS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -413,7 +413,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>I_BUTTON_RCS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_RCS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -631,7 +631,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>I_BUTTON_CPV.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CPV.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -866,7 +866,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_COVN_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>I_BUTTON_ORS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_ORS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

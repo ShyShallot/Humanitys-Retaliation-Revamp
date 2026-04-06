@@ -715,7 +715,7 @@
 
 		<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.01</Min_Speed>
-		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.1</Stopped_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -832,7 +832,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital </CategoryMask>
-		<Icon_Name>I_BUTTON_CAS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CAS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

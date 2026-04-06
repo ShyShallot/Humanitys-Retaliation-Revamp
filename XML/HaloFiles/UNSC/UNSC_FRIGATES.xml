@@ -107,7 +107,7 @@
 		
 
 		<CategoryMask> Corvette </CategoryMask>
-		<Icon_Name>I_BUTTON_GLADIUS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_GLADIUS.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -227,7 +227,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_GLADIUS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_GLADIUS.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
@@ -348,7 +348,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_HALBERD.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -464,7 +464,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_HALBERD.tga</Icon_Name>
 		
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -643,7 +643,7 @@
 		</Abilities>
 
 		<CategoryMask> Corvette </CategoryMask>
-		<Icon_Name>I_BUTTON_MAKO.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MAKO.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -776,7 +776,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_MAKO.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MAKO.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
@@ -885,7 +885,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_STRIDENT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STRIDENT_2.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1004,7 +1004,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_STRIDENT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STRIDENT.tga</Icon_Name>
 		<Tech_Level>4</Tech_Level>
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -1122,7 +1122,7 @@
 		</HardPoints>
 		
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_PARIS.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1220,7 +1220,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_PARIS.tga</Icon_Name>
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
@@ -1273,7 +1273,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PARIS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		
-		<Icon_Name>I_BUTTON_UNSC_SQUADRON_PARIS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_UNSC_SQUADRON_PARIS.tga</Icon_Name>
 		
 		<Property_Flags> SmallShip </Property_Flags>
 		<Formation_Priority>1</Formation_Priority>
@@ -1432,7 +1432,7 @@
 		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_PARIS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_PARIS.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1544,7 +1544,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STALWART.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1658,7 +1658,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STALWART.tga</Icon_Name>
 		
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -1782,7 +1782,7 @@
 		</HardPoints>
 		
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_CHARON.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1895,7 +1895,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_CHARON.tga</Icon_Name>
 		
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -2020,7 +2020,7 @@
 		</HardPoints>
 
 		<CategoryMask> Corvette </CategoryMask>
-		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BUCKLER.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
@@ -2127,7 +2127,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer>  </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BUCKLER.tga</Icon_Name>
 		<Tech_Level>0</Tech_Level>
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -2196,7 +2196,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BUCKLER.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>

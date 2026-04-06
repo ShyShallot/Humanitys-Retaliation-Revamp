@@ -626,7 +626,7 @@
 		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
@@ -643,7 +643,7 @@
 		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
@@ -659,7 +659,7 @@
 		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
@@ -818,7 +818,7 @@
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>320.0</Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
@@ -944,7 +944,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,TURRET, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, SURFACE_FX,</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TURRET,  WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, SQUASH, SURFACE_FX,</LandBehavior>
 		
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -987,7 +987,7 @@
 				HP_SPMAT_00, HP_SPMAT_01, HP_SPMAT_02, HP_SPMAT_03
 		</HardPoints>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -1119,7 +1119,7 @@
 		<Custom_Hard_XExtent_Offset> -9.0 </Custom_Hard_XExtent_Offset>
 		
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<IsDeathClone> true </IsDeathClone>
@@ -1138,7 +1138,7 @@
 		<Custom_Hard_XExtent_Offset> -9.0 </Custom_Hard_XExtent_Offset>
 		
 		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<IsDeathClone> true </IsDeathClone>
@@ -1238,7 +1238,7 @@
 				HP_SPMAT_00, HP_SPMAT_01, HP_SPMAT_02, HP_SPMAT_03
 		</HardPoints>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -2614,7 +2614,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -2695,7 +2695,7 @@
 		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Tank_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<IsDeathClone> true </IsDeathClone>
@@ -2712,7 +2712,7 @@
 		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<IsDeathClone> true </IsDeathClone>
@@ -2829,7 +2829,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -2992,7 +2992,7 @@
 		
 		
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -3283,7 +3283,7 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -3473,7 +3473,7 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -3666,7 +3666,7 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -3817,8 +3817,8 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
@@ -3836,7 +3836,7 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4025,7 +4025,7 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4234,7 +4234,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 	
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4424,7 +4424,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4590,7 +4590,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4757,7 +4757,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -4924,7 +4924,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -5107,7 +5107,7 @@
 		-->
 		<Targeting_Land_Model_Stay_Horiz_Flat> No </Targeting_Land_Model_Stay_Horiz_Flat>	<!-- This does not apply to units with turrets -->
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -5362,7 +5362,7 @@
 		</HardPoints>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
@@ -5636,7 +5636,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> <Targeting_Fire_Inaccuracy> LandHero, 90.0 </Targeting_Fire_Inaccuracy>
 
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 

@@ -28,7 +28,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Icon_Name>I_BUTTON_CRS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CRS.tga</Icon_Name>
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -324,7 +324,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_CRS.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CRS.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
@@ -379,7 +379,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Icon_Name>I_BUTTON_CAR.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_CAR.tga</Icon_Name>
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -630,7 +630,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Icon_Name>I_BUTTON_SDV.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_SDV.tga</Icon_Name>
 		
 		<!-- Radar -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -860,7 +860,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_SDV.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_SDV.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>
