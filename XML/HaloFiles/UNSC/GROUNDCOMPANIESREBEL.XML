@@ -1098,11 +1098,11 @@
 		
 		<Company_Units> 
 		
-		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
+		UNSC_SCORPION_GRIZZLY, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SHOTGUN, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_SNIPER, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_UNSC_INFANTRY_MEDIC,
 		Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_UNSC_INFANTRY_RADIO, Squad_UNSC_INFANTRY_ENGINEER, UNSC_Warthog,
-		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG UNSC_ROCKETGOOSE, UNSC_SCORPION_GRIZZLY, UNSC_SCORPION_GRIZZLY
+		UNSC_Warthog, UNSC_Warthog, UNSC_Warthog, UNSC_ROCKETHOG, UNSC_GAUSSHOG UNSC_ROCKETGOOSE, UNSC_SCORPION_GRIZZLY, MPTL, MPTL, MPTL, MPTL
 		
 		</Company_Units>
 			
@@ -1140,10 +1140,6 @@
 				<Bomb_Countdown_Seconds>3</Bomb_Countdown_Seconds>
 			</Unit_Ability>
 		</Unit_Abilities_Data> -->
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-		</Unit_Abilities_Data>
 
 		
 		<Maintenance_Cost>0.05</Maintenance_Cost>

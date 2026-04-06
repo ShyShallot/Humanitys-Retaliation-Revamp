@@ -266,7 +266,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_CRS_DEATH">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
@@ -283,7 +283,7 @@
 		<Ship_Class> frigate </Ship_Class>
 		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<Squadron Name="CRS_SQUADRON">
 
@@ -582,7 +582,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_CAR_DEATH">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
@@ -599,7 +599,7 @@
 		<Ship_Class> frigate </Ship_Class>
 		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_SDV">
 		<!-- Model -->
@@ -819,7 +819,7 @@
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 		<AI_Combat_Power>3500</AI_Combat_Power>
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 	<!-- <Squadron Name="SDV_SQUADRON">     DO NOT TURN THIS BACK ON UNLESS YOU WANT 3 HOURS OF HEADACHE DEBUGGING THE SDV | I turned it back on - Apple 
 

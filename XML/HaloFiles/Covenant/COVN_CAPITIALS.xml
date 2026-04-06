@@ -251,7 +251,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_CCS_DEATH">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
@@ -268,7 +268,7 @@
 		<Ship_Class> frigate </Ship_Class>
 		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 	
 
 
@@ -497,7 +497,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_CPV">
 		<Text_ID>TEXT_UNIT_COVN_CPV</Text_ID>
@@ -712,7 +712,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="COVN_ORS">
 		<Text_ID>TEXT_UNIT_COVN_ORS</Text_ID>
@@ -953,7 +953,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</SpaceUnit>
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	
 </CapitalShips>

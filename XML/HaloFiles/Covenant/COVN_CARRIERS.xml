@@ -242,6 +242,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
-		</SpaceUnit>
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 		
 </CarrierUnits>

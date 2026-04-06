@@ -2544,7 +2544,7 @@
 		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
 		
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.55</Scale_Factor>
+		<Scale_Factor>0.63</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -2573,12 +2573,12 @@
 		<Armor_Type> Armor_MPTL </Armor_Type>
 		<Damage>21</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2200</Tactical_Health>
+		<Tactical_Health>3200</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED,  SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, SQUASH, STUNNABLE, DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior> TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, SQUASH, UNIT_AI, STUNNABLE, DAMAGE_TRACKING</LandBehavior>
 		
 		<Deploys>Yes</Deploys>
 		<Deployment_Anim_Rate>0.3</Deployment_Anim_Rate>
@@ -2591,16 +2591,11 @@
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
-		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>       
-		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>      
 
 		<Projectile_Types>M400_ARTILLERY_SYSTEM</Projectile_Types>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<!-- <Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance> -->
 		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
@@ -2615,7 +2610,6 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
 				<Type>DEPLOY</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -2651,17 +2645,16 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
-		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
+		<Overall_Length>30.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
+		<Overall_Width>10.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
  		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<Idle_Chase_Range>750.0</Idle_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
-		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Tread_Scroll_Rate>0.12</Tread_Scroll_Rate>        
 		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
@@ -2689,6 +2682,8 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 		<Vehicle_Thief_Inside_Clone>MPTL_Captured</Vehicle_Thief_Inside_Clone>
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> 
+		
 	</GroundVehicle>
 
 	<GroundVehicle Name="MPTL_Death_Clone">
