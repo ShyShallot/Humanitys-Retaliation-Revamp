@@ -21,7 +21,7 @@
 <TacticalCameras>
 	<TacticalCamera Name="Land_Mode">
 
-		<Pitch_Default>33</Pitch_Default>
+		<Pitch_Default>40</Pitch_Default>
 		<Pitch_Min>25.0</Pitch_Min>
 		<Pitch_Max>90.0</Pitch_Max>
 		<Pitch_Per_Mouse_Unit>-1.5</Pitch_Per_Mouse_Unit>

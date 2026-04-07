@@ -2550,7 +2550,7 @@
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
 		<Custom_Hard_YExtent_Deployed> 24.0 </Custom_Hard_YExtent_Deployed>
 		
@@ -2679,7 +2679,7 @@
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
@@ -2696,7 +2696,7 @@
 		<Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
       
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
@@ -2760,7 +2760,7 @@
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
 		<Custom_Hard_YExtent_Deployed> 24.0 </Custom_Hard_YExtent_Deployed>
 		
@@ -2920,7 +2920,7 @@
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
 		<Custom_Hard_YExtent_Deployed> 24.0 </Custom_Hard_YExtent_Deployed>
 		
@@ -3204,8 +3204,8 @@
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -3402,8 +3402,8 @@
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -3592,8 +3592,8 @@
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -3765,8 +3765,8 @@
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 
 		<Armor_Type> Armor_Juggernaut </Armor_Type>
@@ -3954,8 +3954,8 @@
 		<FormationRaggedness> .6 </FormationRaggedness>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 3.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
 		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>		
 
 		<Armor_Type> Armor_Juggernaut </Armor_Type>

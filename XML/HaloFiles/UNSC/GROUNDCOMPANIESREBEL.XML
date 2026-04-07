@@ -1684,7 +1684,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>i_button_unsc_marine.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_BARRACKS.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<GUI_Offset>0 0 5</GUI_Offset>
@@ -1754,7 +1754,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_ADVANCED_BARRACKS.TGA</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<GUI_Offset>0 0 5</GUI_Offset>
@@ -1824,7 +1824,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_FACTORY.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		
 		<Scale_Factor>5.0</Scale_Factor>
@@ -1895,7 +1895,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_FACTORY.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		
 		<Scale_Factor>5.0</Scale_Factor>
@@ -1966,7 +1966,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_AIRFIELD.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		
 		<Scale_Factor>5.0</Scale_Factor>
@@ -2038,7 +2038,7 @@
 			
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_AIRFIELD.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 		
 		<Scale_Factor>5.0</Scale_Factor>

@@ -2721,14 +2721,14 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_BARRACKS</Text_ID>
+		<Text_ID>UNSC_TACTICAL_BARRACKS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>50000</Tactical_Health>
 
 		<Land_Model_Name>UNSC_TACTICAL_BARRACKS.ALO</Land_Model_Name>
-		<Icon_Name>I_BUTTON_UNSC_BASIC_BARRACKS.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_BARRACKS.TGA</Icon_Name>
 		
 		<Scale_Factor>0.40</Scale_Factor>
 
@@ -2794,16 +2794,16 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_ADVANCED_BARRACKS</Text_ID>
+		<Text_ID>UNSC_ADVANCED_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_ADVANCED_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>50000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		<Land_Model_Name>UNSC_TACTICAL_BARRACKS.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_ADVANCED_BARRACKS.TGA</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>0.40</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
@@ -2859,14 +2859,14 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>60000</Tactical_Health>
 
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
-		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_FACTORY.tga</Icon_Name>
 		
 		<Scale_Factor>0.45</Scale_Factor>
 
@@ -2932,14 +2932,14 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>75000</Tactical_Health>
 
 		<Land_Model_Name>UNSC_HEAVY_VEHICLE_FOUNDRY.ALO</Land_Model_Name>
-		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_FACTORY.TGA</Icon_Name>
 		
 		<Scale_Factor>0.60</Scale_Factor>
 
@@ -3006,14 +3006,14 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
+		<Text_ID>UNSC_LIGHT_AIR_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>35000</Tactical_Health>
 
 		<Land_Model_Name>UNSC_LIGHT_AIR_COMMAND.ALO</Land_Model_Name>
-		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_AIRFIELD.TGA</Icon_Name>
 		
 		<Scale_Factor>2.0</Scale_Factor>
 
@@ -3060,14 +3060,14 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_UNIT_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
+		<Text_ID>UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>45000</Tactical_Health>
 
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
-		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_AIRFIELD.TGA</Icon_Name>
 		
 		<Scale_Factor>0.20</Scale_Factor>
 

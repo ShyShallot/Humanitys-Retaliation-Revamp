@@ -120,11 +120,11 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Hover </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>18.0, 18.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
 
@@ -232,10 +232,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
@@ -266,7 +266,7 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -395,10 +395,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 			
 
@@ -436,7 +436,7 @@
 		<Property_Flags>Fodder</Property_Flags>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -561,10 +561,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 			
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
@@ -601,7 +601,7 @@
 		<Property_Flags>Fodder</Property_Flags>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -937,7 +937,7 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -980,11 +980,11 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
@@ -1145,10 +1145,10 @@
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1197,7 +1197,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1367,10 +1367,10 @@
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1419,7 +1419,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1586,10 +1586,10 @@
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1638,7 +1638,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1802,10 +1802,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -1852,7 +1852,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2025,10 +2025,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2077,7 +2077,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2263,10 +2263,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2313,7 +2313,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2486,10 +2486,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2536,7 +2536,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2686,10 +2686,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2738,7 +2738,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -2870,10 +2870,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -2920,7 +2920,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3054,10 +3054,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -3106,7 +3106,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3246,10 +3246,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -3296,7 +3296,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3481,10 +3481,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
@@ -3526,7 +3526,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -3673,13 +3673,13 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Infiltrator</SFXEvent_Select>
@@ -3861,13 +3861,13 @@
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>No</Create_Team>
@@ -3986,7 +3986,7 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Tactical_Health>30</Tactical_Health>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -4023,11 +4023,11 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
@@ -4132,11 +4132,11 @@
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>1</Damage>
 		<Tactical_Health>15</Tactical_Health>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -4247,10 +4247,10 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -4297,7 +4297,7 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<FormationRaggedness> 0.0 </FormationRaggedness>
 		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -4487,10 +4487,10 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 
@@ -4524,7 +4524,7 @@
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>

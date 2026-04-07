@@ -1795,9 +1795,6 @@
 	</Projectile>
 	
 	
-	
-	
-	
 	<!-- UNSC standard weaponry -->
 	
 	<Projectile Name="Proj_UNSC_Bullet_Break"> <!-- Breakwater Naval Coilguns -->
@@ -3111,7 +3108,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>6.5</Max_Speed>
+		<Max_Speed>10.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3147,7 +3144,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>6.5</Max_Speed>
+		<Max_Speed>12.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>

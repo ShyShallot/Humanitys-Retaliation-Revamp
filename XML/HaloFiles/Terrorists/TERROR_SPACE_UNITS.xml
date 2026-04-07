@@ -34,7 +34,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -91,7 +91,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_02_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_MEDIUM.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
 
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 
@@ -119,7 +119,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_HEAVY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
 
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
