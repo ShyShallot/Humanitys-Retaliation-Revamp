@@ -2776,7 +2776,7 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>25.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -2838,10 +2838,10 @@
 		
 		
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>25.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		
@@ -2914,7 +2914,7 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>50.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2941,7 +2941,7 @@
 		<Land_Model_Name>UNSC_HEAVY_VEHICLE_FOUNDRY.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>0.60</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
@@ -2983,23 +2983,16 @@
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_RHINO, 9998</Starting_Spawned_Units_Tech_0>
 	
-		<Spawned_Squadron_Delay_Seconds>35</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>90</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>125.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>60.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -3042,8 +3035,6 @@
 		
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
@@ -3053,10 +3044,10 @@
 
 
 	
-		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>345.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -3110,10 +3101,10 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_C709_G_LONGSWORD, 9998</Starting_Spawned_Units_Tech_0>
 
 	
-		<Spawned_Squadron_Delay_Seconds>95</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>245.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>

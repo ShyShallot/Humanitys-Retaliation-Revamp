@@ -11,7 +11,7 @@ Spawn_Settings = {
                     },
                     Structures = { "UNSC_CAMP", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY" },
                     Space_Units = {
-                        ["BUCKLER_SQUADRON"] = {
+                        ["UNSC_BUCKLER"] = {
                             Weight = 50,
                             Limit = -1
                         },
@@ -54,7 +54,7 @@ Spawn_Settings = {
                     },
                     Structures = { "UNSC_BASE", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY" },
                     Space_Units = {
-                        ["BUCKLER_SQUADRON"] = {
+                        ["UNSC_BUCKLER"] = {
                             Weight = 35,
                             Limit = -1
                         },
@@ -101,7 +101,7 @@ Spawn_Settings = {
                     },
                     Structures = { "UNSC_FORT", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY", "COMMUNICATIONS_ARRAY_R" },
                     Space_Units = {
-                        ["BUCKLER_SQUADRON"] = {
+                        ["UNSC_BUCKLER"] = {
                             Weight = 35,
                             Limit = -1
                         },
@@ -152,7 +152,7 @@ Spawn_Settings = {
                     },
                     Structures = { "UNSC_FORT" },
                     Space_Units = {
-                        ["BUCKLER_SQUADRON"] = {
+                        ["UNSC_BUCKLER"] = {
                             Weight = 35,
                             Limit = -1
                         },
@@ -203,7 +203,7 @@ Spawn_Settings = {
                     },
                     Structures = { "UNSC_FORT" },
                     Space_Units = {
-                        ["BUCKLER_SQUADRON"] = {
+                        ["UNSC_BUCKLER"] = {
                             Weight = 35,
                             Limit = -1
                         },
@@ -629,7 +629,7 @@ Spawn_Settings = {
                     },
                     Structures = {"UNSC_FARM"},
                     Space_Units = {
-                        ["TERROR_BUCKLER_SQUAD"] = {
+                        ["TERROR_BUCKLER"] = {
                             Weight = 40,
                             Limit = -1
                         },
@@ -637,9 +637,17 @@ Spawn_Settings = {
                             Weight = 40,
                             Limit = -1
                         },
+						["TERROR_MUSASHI"] = {
+                            Weight = 10,
+                            Limit = 1
+                        },
                         ["TERROR_PHOENIX"] = {
                             Weight = 2,
                             Limit = -1
+                        },
+						["TERROR_EPOCH"] = {
+                            Weight = 1,
+                            Limit = 1
                         },
                     },
                     Ground_Units = {
@@ -676,7 +684,7 @@ Spawn_Settings = {
                     },
                     Structures = {"UNSC_FARM"},
                     Space_Units = {
-                        ["TERROR_BUCKLER_SQUAD"] = {
+                        ["TERROR_BUCKLER"] = {
                             Weight = 40,
                             Limit = -1
                         },
@@ -684,9 +692,17 @@ Spawn_Settings = {
                             Weight = 40,
                             Limit = -1
                         },
+						["TERROR_MUSASHI"] = {
+                            Weight = 10,
+                            Limit = 1
+                        },
                         ["TERROR_PHOENIX"] = {
                             Weight = 2,
                             Limit = -1
+                        },
+						["TERROR_EPOCH"] = {
+                            Weight = 1,
+                            Limit = 1
                         },
                     },
                     Ground_Units = {
@@ -723,7 +739,7 @@ Spawn_Settings = {
                     },
                     Structures = {"UNSC_FARM"},
                     Space_Units = {
-                        ["TERROR_BUCKLER_SQUAD"] = {
+                        ["TERROR_BUCKLER"] = {
                             Weight = 40,
                             Limit = -1
                         },
@@ -731,9 +747,17 @@ Spawn_Settings = {
                             Weight = 40,
                             Limit = -1
                         },
+						["TERROR_MUSASHI"] = {
+                            Weight = 10,
+                            Limit = 1
+                        },
                         ["TERROR_PHOENIX"] = {
                             Weight = 2,
                             Limit = -1
+                        },
+						["TERROR_EPOCH"] = {
+                            Weight = 1,
+                            Limit = 1
                         },
                     },
                     Ground_Units = {

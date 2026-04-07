@@ -149,22 +149,34 @@ function Far_Isle_Campaign:Calculate_Units(Space_Station_Level)
 
     local Unit_Table = {
         [1] = {
-            ["TERROR_BUCKLER_SQUAD"] = {2,5},
+            ["TERROR_BUCKLER"] = {2,5},
             ["TERROR_PHOENIX"] = {1,4},
             ["TERROR_CHARON"] = {4,8},
-            ["Rebel_Infantry_Squad"] = {5,5}
+			["TERROR_MUSASHI"] = {4,8},
+            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {1,5},
+			["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,3},
+			["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,2},
+			["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {1,1},
         },
         [2] = {
             ["TERROR_CHARON"] = {5,10},
-            ["TERROR_BUCKLER_SQUAD"] = {6,12},
+            ["TERROR_BUCKLER"] = {6,12},
             ["TERROR_PHOENIX"] = {1,4},
-            ["Rebel_Infantry_Squad"] = {5,8}
+			["TERROR_MUSASHI"] = {2,4},
+            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {1,5},
+			["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,3},
+			["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,2},
+			["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {1,1},
         },
         [3] = {
             ["TERROR_CHARON"] = {7,12},
-            ["TERROR_BUCKLER_SQUAD"] = {8,14},
+            ["TERROR_BUCKLER"] = {8,14},
             ["TERROR_PHOENIX"] = {3,4},
-            ["Rebel_Infantry_Squad"] = {8,10}
+			["TERROR_MUSASHI"] = {4,10},
+            ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {1,5},
+			["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,3},
+			["UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,2},
+			["UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"] = {1,1},
         }
     }
 

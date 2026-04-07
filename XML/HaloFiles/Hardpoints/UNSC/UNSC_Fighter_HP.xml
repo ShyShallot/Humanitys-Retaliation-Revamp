@@ -463,6 +463,30 @@
 
 	</Hardpoint>
 	
+	
+	<Hardpoint Name="WOLVERINE_CLUSTER_MISSILE">  <!-- Highly Experimental hardpoint system for cluster munitions -->
+		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>FB_CANNON_01</Fire_Bone_A>
+		<Fire_Bone_B>FB_CANNON_02</Fire_Bone_B>
+               
+		<Fire_Cone_Width>90</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_M260_AA_UNGUIDED</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1750</Fire_Range_Distance>
+		<Fire_SFXEvent></Fire_SFXEvent>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+	</Hardpoint>
+	
+	
 	<HardPoint Name="UNSC_SHIP_SPAWNER"> <!-- Highly experimental hardpoint system to spawn multiple of a single ship in one location speak to GrandMasterApple for more info -->
 	
 		<Type> HARD_POINT_FIGHTER_BAY </Type>

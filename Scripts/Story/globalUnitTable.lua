@@ -210,7 +210,7 @@ local unit_table = {
 	UNSC_SINGLE_HALBERD = {
         Category = "Frigate"
     },
-	BUCKLER_SQUADRON = {
+	UNSC_BUCKLER = {
         Category = "Frigate"
     },
     GLADIUS_SQUADRON = {
@@ -282,7 +282,7 @@ local unit_table = {
 	TERROR_CHARON = {
         Category = "Frigate"
     },
-	TERROR_BUCKLER_SQUAD = {
+	TERROR_BUCKLER = {
         Category = "Frigate"
     },
     TERROR_SHORTSWORD_SQUADRON = {

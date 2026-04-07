@@ -454,7 +454,7 @@
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -619,7 +619,7 @@
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -995,7 +995,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1104,7 +1104,7 @@
 		
 		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN,  </LandBehavior>
+		<LandBehavior>SURFACE_FX, SHIELDED, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN,  </LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1115,7 +1115,7 @@
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-		<Max_Speed> 0.6 </Max_Speed> 
+		<Max_Speed> 0.8 </Max_Speed> 
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -1214,7 +1214,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1326,7 +1326,7 @@
 		
 		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN,  </LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, SHIELDED, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN,  </LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1362,11 +1362,11 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>128</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
-		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
-		<Energy_Capacity>0</Energy_Capacity>
-		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Shield_Points>120</Shield_Points>
+		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1436,7 +1436,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1545,7 +1545,7 @@
 		</Land_Terrain_Model_Mapping>
 		
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, </LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR,SHIELDED, IDLE, TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, </LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1581,11 +1581,11 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>128</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
-		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
-		<Energy_Capacity>0</Energy_Capacity>
-		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Shield_Points>120</Shield_Points>
+		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
@@ -1655,7 +1655,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -1869,7 +1869,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -2755,7 +2755,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -2937,7 +2937,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -3313,7 +3313,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>105.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
@@ -4314,7 +4314,7 @@
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
-		<Targeting_Max_Attack_Distance>105.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>

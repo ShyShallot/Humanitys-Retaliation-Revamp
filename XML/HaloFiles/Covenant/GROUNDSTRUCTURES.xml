@@ -2055,7 +2055,6 @@
 				RL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
-
 		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
@@ -2064,7 +2063,18 @@
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
 		
@@ -2072,7 +2082,7 @@
 		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>15.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -2121,12 +2131,32 @@
 		
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>50.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -2211,10 +2241,10 @@
 		
 		
 		
-		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
@@ -2260,7 +2290,7 @@
 		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>145.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		

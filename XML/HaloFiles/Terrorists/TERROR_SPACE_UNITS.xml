@@ -1055,7 +1055,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -1876,7 +1876,7 @@
 	
 	
 	<SpaceUnit Name="TERROR_Buckler">
-		<Text_ID>STOLEN_BUCKLER</Text_ID>
+		<Text_ID>TEXT_UNIT_STOLEN_BUCKLER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -1890,11 +1890,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
-		<Max_Speed>3.6</Max_Speed>
-		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
 		<Max_Lift>0.4</Max_Lift>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .001 </OverrideAcceleration>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
@@ -1906,11 +1906,7 @@
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 		
-		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
-		<Guard_Chase_Range>100.0</Guard_Chase_Range>
-		<Idle_Chase_Range>500</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>750</Autonomous_Move_Extension_Vs_Attacker>
+		<Minimum_Follow_Distance>300.0</Minimum_Follow_Distance>
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Frigate </Armor_Type>
@@ -1918,7 +1914,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>12000</Tactical_Health>		<!-- was 2800 -->
+		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 -->
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1927,53 +1923,54 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>99</Tech_Level> <!-- 99 means it will no longer show in GC this is to prevent players from building individual ships -->
-		<Required_Timeline>1</Required_Timeline>
-
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
-		<Required_Special_Structures>TERROR_Medium_Shipyard</Required_Special_Structures>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures>TERROR_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
-		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>true</WaitsForFormationFormup>
+		<Formation_Priority>3</Formation_Priority> <WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>2</Number_per_Squadron>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Cost_Credits>183</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 
 		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SPAWN_SQUADRON, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
 		 <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Death_Clone>Damage_Normal, </Death_Clone>
-		<!-- <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range> -->
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> <Strafe_Distance>1500.0</Strafe_Distance>
+		<Death_Clone>Damage_Normal, Medium_Explosion_FRIGATE </Death_Clone>
+		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance> 
+		<Strafe_Distance>500.0</Strafe_Distance>	
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1050</Autonomous_Move_Extension_Vs_Attacker>
 		<MovementClass> Space </MovementClass> <Space_Layer> </Space_Layer>  <Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
 		<HardPoints>
-			UNSC_BUCKLER_MK33_01, UNSC_BUCKLER_MK33_02, UNSC_Buckler_MK33_03, UNSC_Buckler_MK33_04, UNSC_BUCKLER_AP_01, UNSC_BUCKLER_AP_02
+			UNSC_BUCKLER_MK33_01, UNSC_BUCKLER_MK33_02, UNSC_Buckler_MK33_03, UNSC_Buckler_MK33_04, UNSC_BUCKLER_AP_01, UNSC_BUCKLER_AP_02, 
 		</HardPoints>
 
 		<CategoryMask> Corvette </CategoryMask>
-		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
-		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
-		<GUI_Distance>1200</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+		<Icon_Name>I_BUTTON_UNSC_BUCKLER.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
@@ -2038,7 +2035,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>
 		<Targeting_Stickiness_Time_Threshold>300.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
@@ -2053,24 +2050,26 @@
             <Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
                 <Specific_Mod_Source_Text>TEXT_ECONOMY_RESEARCH_COST</Specific_Mod_Source_Text>
                 
-                <Absolute_Income_Modifier>-1</Absolute_Income_Modifier>
+                <Absolute_Income_Modifier>0</Absolute_Income_Modifier>
                
             </Planet_Income_Bonus_Ability>
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>4</Population_Value>
 
+	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> 
+	
 	</SpaceUnit>
 	
-	<Squadron Name="TERROR_BUCKLER_SQUAD">
+	<!--<Squadron Name="TERROR_BUCKLER_SQUAD">
 
 		<Text_ID>STOLEN_BUCKLER_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
@@ -2084,7 +2083,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
 		<Required_Special_Structures>Terror_Light_Shipyard</Required_Special_Structures>
 		
@@ -2131,19 +2130,15 @@
             </Planet_Income_Bonus_Ability>
 		</Abilities>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>6</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	
-		</Squadron>
+		</Squadron> -->
 
 
 

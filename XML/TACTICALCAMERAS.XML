@@ -34,15 +34,15 @@
 		<Yaw_Max>1000</Yaw_Max>
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 
-		<Fov_Default>70.0</Fov_Default>
-		<Fov_Max>105.0</Fov_Max>
-		<Fov_Min>25.0</Fov_Min>
+		<Fov_Default>60.0</Fov_Default>
+		<Fov_Max>90.0</Fov_Max>
+		<Fov_Min>15.0</Fov_Min>
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
 		<Fov_Per_Mouse_Unit>2.0</Fov_Per_Mouse_Unit>
 
-		<Distance_Default>350.0</Distance_Default>
-		<Distance_Max>750.0</Distance_Max>
-		<Distance_Min>50.0</Distance_Min>
+		<Distance_Default>250.0</Distance_Default>
+		<Distance_Max>450.0</Distance_Max>
+		<Distance_Min>10.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>50.0</Distance_Per_Mouse_Unit>
 

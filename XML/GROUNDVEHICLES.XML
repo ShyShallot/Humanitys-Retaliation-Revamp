@@ -78,7 +78,7 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>90.0</Targeting_Min_Attack_Distance>
 		
 		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01, MISSILE_TARGET02 </Target_Bones>
@@ -415,7 +415,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
 
 		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
@@ -741,7 +741,7 @@
 		<!-- <Attack_Category_Restrictions> Infantry | Vehicle | LandHero | Structure </Attack_Category_Restrictions> -->
 
 		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Scarab_AA_GUN</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
@@ -970,7 +970,7 @@
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 		
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Wraith_Plasma_Mortar</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
@@ -1221,7 +1221,7 @@
 
 		
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>PROJ_COVN_WRAITH_AA</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>8</Projectile_Fire_Recharge_Seconds>
@@ -1437,14 +1437,10 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		
-
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
 			Ground_BANSHEE_HP_01,
@@ -1624,14 +1620,10 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>200</Energy_Refresh_Rate>
 		
-
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<Ranged_Target_Z_Adjust>25.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
 			COVN_Ground_SER_01,
@@ -1805,7 +1797,7 @@
 
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
 			UNSC_GPELICAN_01,
@@ -1957,7 +1949,7 @@
 
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
 			UNSC_WOMBAT_00, UNSC_WOMBAT_01
@@ -2110,7 +2102,7 @@
 
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
 			UNSC_B65_BOMBS_00, UNSC_B65_BOMBS_01, UNSC_B65_BOMBS_02, UNSC_B65_BOMBS_03
@@ -2263,7 +2255,7 @@
 
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
 			UNSC_LS_GHP_00, UNSC_LS_GHP_01
@@ -2419,11 +2411,7 @@
 
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
-		
-		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<Turret_Rotate_Extent_Degrees>270</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -2595,8 +2583,8 @@
 
 		<Projectile_Types>M400_ARTILLERY_SYSTEM</Projectile_Types>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<!-- <Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance> -->
-		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 150 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
@@ -2810,8 +2798,7 @@
 
 		<Projectile_Types>Proj_UNSC_M260_AA</Projectile_Types>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1650.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance> 200 </Targeting_Min_Attack_Distance>
+		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
@@ -2971,8 +2958,7 @@
 
 		<Projectile_Types>Proj_UNSC_GAUSS</Projectile_Types>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance> 10 </Targeting_Min_Attack_Distance>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
@@ -3443,7 +3429,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -3636,7 +3622,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -3806,7 +3792,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -3995,7 +3981,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -4222,7 +4208,7 @@
 	
 		<Projectile_Types>Proj_Blaster_Cannon_Red_T2B</Projectile_Types>
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>13.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
@@ -4412,7 +4398,7 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -4578,7 +4564,7 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -4745,7 +4731,7 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>8.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>30</Projectile_Fire_Pulse_Count>
@@ -4912,7 +4898,7 @@
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>10.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -5097,7 +5083,7 @@
 
 		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
 		<Land_FOW_Reveal_Range>200</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 
 		<!-- 
 			Default for most all units is YES, since we want units like infantry to remain upgright and not pitch up and down at targets of different 
