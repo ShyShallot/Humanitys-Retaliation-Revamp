@@ -3,8 +3,8 @@
 
 	<Infantry> Clear | Shield | InfantryOnly </Infantry>
 	<InfantryNoShield> Clear | InfantryOnly </InfantryNoShield>
-	<Wheeled> Clear | Shield </Wheeled>
-	<WheeledNoShield> Clear </WheeledNoShield>
+	<Wheeled> Clear | Shield | InfantryOnly </Wheeled>
+	<WheeledNoShield> Clear | InfantryOnly </WheeledNoShield>
 	<Walker> Clear | Shield </Walker>
 	<WalkerNoShield> Clear </WalkerNoShield>	
 	<Tracked> Clear | Shield </Tracked>

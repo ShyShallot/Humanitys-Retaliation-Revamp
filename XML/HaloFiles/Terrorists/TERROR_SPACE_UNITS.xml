@@ -34,7 +34,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_LIGHT.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -91,7 +91,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_02_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_MEDIUM.tga</Icon_Name>
 
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 
@@ -119,7 +119,7 @@
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
-		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SHIPYARD_HEAVY.tga</Icon_Name>
 
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
@@ -231,7 +231,7 @@
 			<!--HP_MARA_REACTOR,--> UNSC_MARA_01, UNSC_MARA_02, UNSC_MARA_03, UNSC_MARA_04, UNSC_MARA_05, UNSC_MARA_06, UNSC_MARA_07, UNSC_MARA_08, UNSC_MARA_09, UNSC_MARA_10, UNSC_MARA_11, UNSC_MARA_12, UNSC_MARA_AP_01, UNSC_MARA_AP_02, UNSC_MARA_AP_03, UNSC_MARA_AP_04, UNSC_MARA_AP_05, UNSC_MARA_AP_06, UNSC_MARA_AP_07, UNSC_MARA_AP_08, UNSC_MARA_AP_09, UNSC_MARA_AP_10, UNSC_MARA_AP_11, UNSC_MARA_AP_12, UNSC_MARA_AP_13, UNSC_MARA_AP_14, UNSC_MARA_MAC_01, UNSC_MARA_ENGINES, UNSC_MARA_HANGAR_01, UNSC_MARA_HANGAR_02,HP_MARA_REACTOR
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_MARATHON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -435,7 +435,7 @@
 		</HardPoints>
 		
 
-		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_HALCYON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -657,7 +657,7 @@
 		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>I_BUTTON_PHOENIX.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_SOF.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -888,7 +888,7 @@
 			
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_EPOCH.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_EPOCH.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1113,7 +1113,7 @@
 		<Reserve_Spawned_Units_Tech_3>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_3>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
-		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_MUSASHI.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1365,7 +1365,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_HALBERD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_HALBERD.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1566,7 +1566,7 @@
 		
 
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_STALWART.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STALWART.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1768,7 +1768,7 @@
 	
 		
 		<CategoryMask> Frigate </CategoryMask>
-		<Icon_Name>I_BUTTON_CHARON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_CHARON.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -2108,7 +2108,7 @@
 		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_BUCKLER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_BUCKLER.tga</Icon_Name>
 		<SFXEvent_Build_Started>GUI_Frigate_Wing_Building</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>GUI_Frigate_Wing_Complete</SFXEvent_Build_Complete>

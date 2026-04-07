@@ -161,21 +161,30 @@ function Great_Schism:Calculate_Units(Space_Station_Level)
             ["SWORDS_CRS"] = {2,5},
             ["SWORDS_CCS"] = {1,4},
             ["SWORDS_SDV"] = {4,8},
-            ["Imperial_Stormtrooper_Squad"] = {5,5}
+            ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {3,5},
+			["COVN_DEPLOYABLE_ADVANCED_HALL"] = {1,3},
+			["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,2},
+			["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,1}
         },
         [2] = {
             ["SWORDS_CRS"] = {5,10},
             ["SWORDS_CCS"] = {4,8},
             ["SWORDS_SDV"] = {6,12},
             ["SWORDS_CAS"] = {1,4},
-            ["Imperial_Stormtrooper_Squad"] = {5,8}
+            ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {3,5},
+			["COVN_DEPLOYABLE_ADVANCED_HALL"] = {1,3},
+			["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,2},
+			["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,1}
         },
         [3] = {
             ["SWORDS_CRS"] = {7,12},
             ["SWORDS_CCS"] = {6,10},
             ["SWORDS_SDV"] = {8,14},
             ["SWORDS_CAS"] = {3,4},
-            ["Imperial_Stormtrooper_Squad"] = {8,10}
+            ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {3,5},
+			["COVN_DEPLOYABLE_ADVANCED_HALL"] = {1,3},
+			["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {1,2},
+			["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {1,1}
         }
     }
 

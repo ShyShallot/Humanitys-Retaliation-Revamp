@@ -22,7 +22,7 @@
 	<TacticalCamera Name="Land_Mode">
 
 		<Pitch_Default>33</Pitch_Default>
-		<Pitch_Min>-90.0</Pitch_Min>
+		<Pitch_Min>25.0</Pitch_Min>
 		<Pitch_Max>90.0</Pitch_Max>
 		<Pitch_Per_Mouse_Unit>-1.5</Pitch_Per_Mouse_Unit>
         <Pitch_Per_Zoom_Unit>0.0</Pitch_Per_Zoom_Unit>
@@ -93,7 +93,7 @@
 		<Fov_Per_Mouse_Unit>2.0</Fov_Per_Mouse_Unit>
 
 		<Distance_Default>750.0</Distance_Default>
-		<Distance_Max>3000.0</Distance_Max>
+		<Distance_Max>2500.0</Distance_Max>
 		<Distance_Min>10.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>500.0</Distance_Per_Mouse_Unit>
