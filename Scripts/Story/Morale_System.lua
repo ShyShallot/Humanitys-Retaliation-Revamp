@@ -802,8 +802,8 @@ function Morale_System_Update(message)
             Handle_Random_Event_Weights(Current_Morale_Status)
         end
 
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name))
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", Current_Morale_Entry.Color, Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name), Current_Morale_Entry.Color)
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
@@ -1065,7 +1065,9 @@ function Handle_Misc_Income()
 
     Morale_Value_Status:Modify_Morale(Morale_Change, Is_Total_Loss) -- Modify_Morale already converts numbers to absolute values
 
-    Display_Handler:Add_Body(Screen_String, 8, true, color)
+    if Screen_String ~= "TEXT_STORY_MORALE_DISPLAY_EVENT_MISC_INCOME_MEH" then
+        Display_Handler:Add_Body(Screen_String, 8, true, color)
+    end
 
     --Show_Screen_Text(Screen_String, nil, 8, color, true)
 end
