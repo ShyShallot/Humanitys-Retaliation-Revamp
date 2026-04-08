@@ -803,7 +803,7 @@ function Morale_System_Update(message)
         end
 
         Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_NAME_".. string.upper(Current_Morale_Entry.Name), Current_Morale_Entry.Color)
-        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL", Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
+        Display_Handler:Add_Header("TEXT_STORY_MORALE_DISPLAY_TEXT_CURRENT_LEVEL","white",Find_Object_Type(tostring(abs(Morale_Value_Status.Current))))
 
         GlobalValue.Set("Morale_Status", Current_Morale_Status)
 
