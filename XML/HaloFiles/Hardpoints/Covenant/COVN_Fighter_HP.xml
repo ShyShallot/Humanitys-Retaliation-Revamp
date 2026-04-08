@@ -18,7 +18,7 @@
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport</Fire_Category_Restrictions>
+			<Fire_Category_Restrictions>Capital, Super, Transport</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -29,7 +29,7 @@
         <Is_Destroyable>No</Is_Destroyable>
         <Fire_Bone_A>HP_TORP</Fire_Bone_A>
         <Fire_Bone_B>HP_TORP</Fire_Bone_B>
-        <Fire_Projectile_Type>Proj_COVN_TORPEDO_Fighter</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Banshee_Fuel_Rod_Cannon</Fire_Projectile_Type>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
@@ -78,7 +78,7 @@
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport </Fire_Category_Restrictions>
+			<Fire_Category_Restrictions>Capital, Super, Transport </Fire_Category_Restrictions>
 			
     </HardPoint>
 	
@@ -92,10 +92,10 @@
             <Fire_Bone_B>ROOT</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>60.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COVN_TORPEDO</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
@@ -114,12 +114,12 @@
         <Is_Destroyable>No</Is_Destroyable>
         <Fire_Bone_A>TORP_00</Fire_Bone_A>
         <Fire_Bone_B>TORP_01</Fire_Bone_B>
-        <Fire_Projectile_Type>Proj_COVN_TORPEDO</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
         <Fire_Cone_Width>20.0</Fire_Cone_Width>
         <Fire_Cone_Height>60.0</Fire_Cone_Height>
         <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>750</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
@@ -137,10 +137,10 @@
             <Fire_Bone_B>AF_01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>60.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COVN_TORPEDO</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_COVN_CLUSTER_TORPEDO</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>750</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
@@ -165,7 +165,7 @@
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>650</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
-			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport </Fire_Category_Restrictions>
+			<Fire_Category_Restrictions> Capital, Super, Transport </Fire_Category_Restrictions>
 			
     </HardPoint>
 	
@@ -175,7 +175,7 @@
         <Is_Destroyable>No</Is_Destroyable>
         <Fire_Bone_A>FB_03</Fire_Bone_A>
         <Fire_Bone_B>FB_04</Fire_Bone_B>
-        <Fire_Projectile_Type>Proj_COVN_TORPEDO_Fighter</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Banshee_Fuel_Rod_Cannon</Fire_Projectile_Type>
         <Fire_Cone_Width>20.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
@@ -208,8 +208,9 @@
 				<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 				<Fire_Range_Distance>2350</Fire_Range_Distance>
 				<Fire_SFXEvent></Fire_SFXEvent> 
+				
+				<Fire_Category_Restrictions> Fighter , Bomber , Transport </Fire_Category_Restrictions>
           
-
         </Hardpoint>
 		
 		<!-- Covenant Landing ship thing fuckery (Apple) -->

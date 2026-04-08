@@ -2012,9 +2012,14 @@
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>35.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2023,6 +2028,8 @@
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
    </GroundStructure> 
    
@@ -2060,30 +2067,22 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		
 		
-		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>35.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2092,6 +2091,8 @@
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 		
@@ -2133,13 +2134,6 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
@@ -2148,11 +2142,10 @@
 		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>80.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2161,6 +2154,8 @@
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 		
@@ -2203,16 +2198,12 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 5000</Starting_Spawned_Units_Tech_0>
+		
 		<Starting_Spawned_Units_Tech_0>AT_AA_Walker, 5000</Starting_Spawned_Units_Tech_0>
 		
 		
 		
-		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>900</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>120.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2221,6 +2212,8 @@
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 		
@@ -2265,6 +2258,8 @@
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
 		</GroundStructure> 
 		
 		
@@ -2307,6 +2302,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 

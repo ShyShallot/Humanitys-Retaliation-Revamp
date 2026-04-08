@@ -69,6 +69,25 @@
 		Strained,
 		Resolute,
 		Ascendant,
+		Algolis,
+		Alpha_Corvi_II,
+		Andesia,
+		Beta_Gabriel,
+		Biko,
+		Bliss,
+		Capella,
+		Cassidy_III,
+		Chi_Rho,
+		Circinius_IV,
+		Tribute,
+		Concord,
+		Draco_III,
+		Dwarka,
+		Levosia,
+		Jupiter,
+		Victoria,
+		Jericho_VII,
+		The_Rubble,
 		</Locations>
 
 		<Trade_Routes> 
@@ -263,7 +282,23 @@
 		<Starting_Forces> Rebel, Gao, Rebel_Star_Base_1 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
-
+		
+		<Starting_Forces> Rebel, Beta_Gabriel, Rebel_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Circinius_IV, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tribute, Rebel_Star_Base_3 </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Light_Shipyard </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Medium_Shipyard </Starting_Forces>	
+			
+		<Starting_Forces> Rebel, Concord, Rebel_Star_Base_1 </Starting_Forces>
+			
+		<Starting_Forces> Rebel, Jupiter, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Algolis, Rebel_Star_Base_1 </Starting_Forces>
+		
 		<!-- Empire Starting Forces -->
 
 		<Starting_Credits> Empire, 16500 </Starting_Credits>
@@ -316,8 +351,6 @@
 		
 		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
 		
-		
-		
 		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terror_Light_Shipyard </Starting_Forces>
@@ -329,6 +362,42 @@
 		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terrorists_Star_Base_3 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Alpha_Corvi_II, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terrorists_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Bliss, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Capella, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Cassidy_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Chi_Rho, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Draco_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Dwarka, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Levosia, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Victoria, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Jericho_VII, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, The_Rubble, Terrorists_Star_Base_1 </Starting_Forces>
 		
 		<!-- Banished/Heretic Starting Forces -->
 		
@@ -421,6 +490,25 @@
 		Strained,
 		Resolute,
 		Ascendant,
+		Algolis,
+		Alpha_Corvi_II,
+		Andesia,
+		Beta_Gabriel,
+		Biko,
+		Bliss,
+		Capella,
+		Cassidy_III,
+		Chi_Rho,
+		Circinius_IV,
+		Tribute,
+		Concord,
+		Draco_III,
+		Dwarka,
+		Levosia,
+		Jupiter,
+		Victoria,
+		Jericho_VII,
+		The_Rubble,
 		</Locations>
 
 		<Trade_Routes> 
@@ -546,7 +634,7 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  40500 </Starting_Credits>
+		<Starting_Credits> Rebel,  1062500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
@@ -615,14 +703,32 @@
 		<Starting_Forces> Rebel, Gao, Rebel_Star_Base_1 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
-
+		
+		<Starting_Forces> Rebel, Beta_Gabriel, Rebel_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Circinius_IV, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tribute, Rebel_Star_Base_3 </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Light_Shipyard </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Medium_Shipyard </Starting_Forces>	
+			
+		<Starting_Forces> Rebel, Concord, Rebel_Star_Base_1 </Starting_Forces>
+			
+		<Starting_Forces> Rebel, Jupiter, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Algolis, Rebel_Star_Base_1 </Starting_Forces>
+		
 		<!-- Empire Starting Forces -->
 
 		<Starting_Credits> Empire, 16500 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
+		
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
 
 		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
 
@@ -655,7 +761,7 @@
 		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
 		
 		<!-- Innie Starting Forces -->
-		
+
 		<Starting_Credits> Terrorists, 226500 </Starting_Credits>
 		<Starting_Tech_Level> Terrorists, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Terrorists, 3 </Max_Tech_Level>
@@ -665,8 +771,6 @@
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
-		
-		
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
@@ -680,11 +784,47 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Alpha_Corvi_II, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terrorists_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Bliss, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Capella, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Cassidy_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Chi_Rho, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Draco_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Dwarka, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Levosia, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Victoria, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Jericho_VII, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, The_Rubble, Terrorists_Star_Base_1 </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
 		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Swords, 3 </Max_Tech_Level>
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
@@ -771,6 +911,25 @@
 		Strained,
 		Resolute,
 		Ascendant,
+		Algolis,
+		Alpha_Corvi_II,
+		Andesia,
+		Beta_Gabriel,
+		Biko,
+		Bliss,
+		Capella,
+		Cassidy_III,
+		Chi_Rho,
+		Circinius_IV,
+		Tribute,
+		Concord,
+		Draco_III,
+		Dwarka,
+		Levosia,
+		Jupiter,
+		Victoria,
+		Jericho_VII,
+		The_Rubble,
 		</Locations>
 
 		<Trade_Routes> 
@@ -897,15 +1056,29 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  40000 </Starting_Credits>
+		<Starting_Credits> Rebel,  1062500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
 
+		<Starting_Forces> Rebel, Earth, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Earth, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Earth, UNSC_Heavy_Shipyard </Starting_Forces>
+
 		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
 
+		<Starting_Forces> Rebel, Reach, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, UNSC_Medium_Shipyard </Starting_Forces>
+
 		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Medium_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
 
@@ -916,10 +1089,20 @@
 		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Heavy_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Medium_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Arcadia, Rebel_Star_Base_2 </Starting_Forces>
 
@@ -929,7 +1112,9 @@
 
 		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
+		<!-- <Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eridanus_2, Terror_Light_Shipyard </Starting_Forces> -->
 
 		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
 
@@ -941,14 +1126,31 @@
 
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Rebel, Harvest, UNSC_Medium_Shipyard </Starting_Forces>
+		<Starting_Forces> Rebel, Beta_Gabriel, Rebel_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Circinius_IV, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tribute, Rebel_Star_Base_3 </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Light_Shipyard </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Medium_Shipyard </Starting_Forces>	
+			
+		<Starting_Forces> Rebel, Concord, Rebel_Star_Base_1 </Starting_Forces>
+			
+		<Starting_Forces> Rebel, Jupiter, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Algolis, Rebel_Star_Base_1 </Starting_Forces>
+		
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire, 46500 </Starting_Credits>
+		<Starting_Credits> Empire, 16500 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
+		
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
 
 		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
 
@@ -979,7 +1181,7 @@
 		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
-
+		
 		<!-- Innie Starting Forces -->
 
 		<Starting_Credits> Terrorists, 226500 </Starting_Credits>
@@ -991,8 +1193,6 @@
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
-		
-		
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
@@ -1006,11 +1206,47 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Alpha_Corvi_II, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terrorists_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Bliss, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Capella, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Cassidy_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Chi_Rho, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Draco_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Dwarka, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Levosia, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Victoria, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Jericho_VII, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, The_Rubble, Terrorists_Star_Base_1 </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
 		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Swords, 3 </Max_Tech_Level>
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		
@@ -1097,6 +1333,25 @@
 		Strained,
 		Resolute,
 		Ascendant,
+		Algolis,
+		Alpha_Corvi_II,
+		Andesia,
+		Beta_Gabriel,
+		Biko,
+		Bliss,
+		Capella,
+		Cassidy_III,
+		Chi_Rho,
+		Circinius_IV,
+		Tribute,
+		Concord,
+		Draco_III,
+		Dwarka,
+		Levosia,
+		Jupiter,
+		Victoria,
+		Jericho_VII,
+		The_Rubble,
 		</Locations>
 
 		<Trade_Routes> 
@@ -1222,15 +1477,29 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  40000 </Starting_Credits>
+		<Starting_Credits> Rebel,  1062500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
 
+		<Starting_Forces> Rebel, Earth, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Earth, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Earth, UNSC_Heavy_Shipyard </Starting_Forces>
+
 		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
 
+		<Starting_Forces> Rebel, Reach, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, UNSC_Medium_Shipyard </Starting_Forces>
+
 		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, UNSC_Medium_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Harmony, Rebel_Star_Base_3 </Starting_Forces>
 
@@ -1241,10 +1510,20 @@
 		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Terra_Nova, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, UNSC_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Mars, UNSC_Heavy_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Light_Shipyard </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, UNSC_Medium_Shipyard </Starting_Forces>
 
 		<Starting_Forces> Rebel, Arcadia, Rebel_Star_Base_2 </Starting_Forces>
 
@@ -1254,7 +1533,9 @@
 
 		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_3 </Starting_Forces>
+		<!-- <Starting_Forces> Rebel, Eridanus_2, Rebel_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Eridanus_2, Terror_Light_Shipyard </Starting_Forces> -->
 
 		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
 
@@ -1266,15 +1547,31 @@
 
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
 		
-		<Starting_Forces> Rebel, Harvest, UNSC_Medium_Shipyard </Starting_Forces>
+		<Starting_Forces> Rebel, Beta_Gabriel, Rebel_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Circinius_IV, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Tribute, Rebel_Star_Base_3 </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Light_Shipyard </Starting_Forces>	
+		
+		<Starting_Forces> Rebel, Tribute, UNSC_Medium_Shipyard </Starting_Forces>	
+			
+		<Starting_Forces> Rebel, Concord, Rebel_Star_Base_1 </Starting_Forces>
+			
+		<Starting_Forces> Rebel, Jupiter, Rebel_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Rebel, Algolis, Rebel_Star_Base_1 </Starting_Forces>
 		
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire, 46500 </Starting_Credits>
+		<Starting_Credits> Empire, 16500 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces>
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
+		
+		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_4</Starting_Forces> 
 
 		<Starting_Forces> Empire, Glyke, Empire_Star_Base_4</Starting_Forces>
 
@@ -1305,7 +1602,7 @@
 		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
-
+		
 		<!-- Innie Starting Forces -->
 
 		<Starting_Credits> Terrorists, 226500 </Starting_Credits>
@@ -1317,8 +1614,6 @@
 		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_1 </Starting_Forces>
 		
 		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_2 </Starting_Forces>
-		
-		
 		
 		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 		
@@ -1332,11 +1627,47 @@
 		
 		<Starting_Forces> Terrorists, Eridanus_Asteroid_Belt, Terror_Heavy_Shipyard </Starting_Forces>
 		
+		<Starting_Forces> Terrorists, Alpha_Corvi_II, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terrorists_Star_Base_3 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Andesia, Terror_Heavy_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terrorists_Star_Base_2 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Light_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Biko, Terror_Medium_Shipyard </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Bliss, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Capella, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Cassidy_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Chi_Rho, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Draco_III, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Dwarka, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Levosia, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Victoria, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, Jericho_VII, Terrorists_Star_Base_1 </Starting_Forces>
+		
+		<Starting_Forces> Terrorists, The_Rubble, Terrorists_Star_Base_1 </Starting_Forces>
+		
 		<!-- Banished/Heretic Starting Forces -->
 		
 		<Starting_Credits> Swords, 86500 </Starting_Credits>
 		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Swords, 3 </Max_Tech_Level>
 		
 		<Starting_Forces> Swords, Yonhe, SWORDS_STARBASE_2 </Starting_Forces>
 		

@@ -2766,14 +2766,11 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		
 		
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>3.5</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2781,8 +2778,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
-
 
    </GroundStructure> 
    
@@ -2795,7 +2792,7 @@
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
 		<Text_ID>UNSC_ADVANCED_BARRACKS</Text_ID>
-        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_ADVANCED_BARRACKS </Encyclopedia_Text>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_ADVANCED_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>50000</Tactical_Health>
@@ -2838,7 +2835,7 @@
 		
 		
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2847,6 +2844,8 @@
 		
 		<SFXEvent_Ambient_Loop>Barracks_Ambient_Loop</SFXEvent_Ambient_Loop>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 		
@@ -2921,6 +2920,8 @@
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 		
@@ -2997,6 +2998,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
 		</GroundStructure> 
 		
 		
@@ -3031,8 +3034,6 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 
 
-		<Starting_Spawned_Units_Tech_0>Squad_UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
-		
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_PELICAN, 9998</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_FALCON, 9998</Starting_Spawned_Units_Tech_0>
@@ -3052,6 +3053,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
 		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
 		</GroundStructure> 
 		
 		
@@ -3066,10 +3069,10 @@
 		
 		<Tactical_Health>45000</Tactical_Health>
 
-		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_LIGHT_AIR_COMMAND.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_AIRFIELD.TGA</Icon_Name>
 		
-		<Scale_Factor>0.20</Scale_Factor>
+		<Scale_Factor>0.60</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
@@ -3108,6 +3111,8 @@
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		</GroundStructure> 
 

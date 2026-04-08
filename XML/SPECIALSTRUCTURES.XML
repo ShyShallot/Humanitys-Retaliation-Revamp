@@ -2623,7 +2623,7 @@
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>140.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -3339,16 +3339,22 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 12</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 0</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 
 
 		<Abilities SubObjectList="Yes">
@@ -3523,13 +3529,45 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		
+		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="R_Barracks_Self_Repair">
@@ -3671,13 +3709,35 @@
 		<Property_Flags>InBase</Property_Flags>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Snowspeeder, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
-
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WOLVERINE, 9998</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>45</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>140.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -3866,13 +3926,20 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 0</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>50</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>110.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="E_Light_Vehicle_Factory_Self_Repair">
@@ -4047,13 +4114,21 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
       <AI_Combat_Power>800</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, -1</Reserve_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>		
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="E_Heavy_Vehicle_Factory_Self_Repair">
@@ -4192,16 +4267,36 @@
 		<Property_Flags>InBase</Property_Flags>
 
       <AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>MPTL, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>MPTL_Spotter, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
-		
-		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_TANK, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>MPTL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_SUNDEVIL, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_GRIZZLY, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_SCORPION_RHINO, 9998</Starting_Spawned_Units_Tech_0>
+	
+		<Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>110.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -4374,13 +4469,12 @@
 		<Property_Flags>InBase</Property_Flags>
 
       <AI_Combat_Power>800</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AT_AT_Walker, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_AA_Walker, 5000</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Delay_Seconds>900</Spawned_Squadron_Delay_Seconds>	
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>		
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="E_Advanced_Vehicle_Factory_Self_Repair">
@@ -4491,8 +4585,20 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		
-		<Starting_Spawned_Units_Tech_0>Field_Com_Empire_Team, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Field_Com_Empire_Team, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -4609,8 +4715,22 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		
-		<Starting_Spawned_Units_Tech_0>Field_Com_Rebel_Team, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Field_Com_Rebel_Team, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Starting_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>	
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00, TEXT_ENCYCLOPEDIA_ACADEMY_01  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -5198,13 +5318,10 @@
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 		
-		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_0>
-		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00, ROOT</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<Abilities SubObjectList="Yes">
 		
@@ -5491,7 +5608,7 @@
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>250.0</Spawned_Squadron_Location_Flyout_Distances>		
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		<Spawn_Garrison_On_Load>False</Spawn_Garrison_On_Load>
 		
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
@@ -5509,7 +5626,6 @@
 		<Property_Flags>InBase</Property_Flags>
 		<Base_Position>In_Base</Base_Position>
    </SpecialStructure>
-
 
 	<SpecialStructure Name="Rebel_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -5550,7 +5666,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

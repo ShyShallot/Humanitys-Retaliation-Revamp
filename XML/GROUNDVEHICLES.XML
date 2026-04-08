@@ -713,7 +713,7 @@
 		<Size_Value>150</Size_Value>
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>406500</Tactical_Health>
+		<Tactical_Health>256500</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1741,9 +1741,9 @@
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>4.0</Max_Speed>
-		<Min_Speed>4.0</Min_Speed> 
-		<OverrideAcceleration> 16.0 </OverrideAcceleration>
+		<Max_Speed>2.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed> 
+		<OverrideAcceleration> 6.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.55</Max_Rate_Of_Roll>
@@ -1755,8 +1755,8 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 150 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
-		<Hover_Offset> 150.0 </Hover_Offset>
+		<Layer_Z_Adjust> 100 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 100.0 </Hover_Offset>
 		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
@@ -1790,7 +1790,7 @@
 		<Damage>8</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>3000</Tactical_Health>
+		<Tactical_Health>6000</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -2936,7 +2936,7 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD,TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED,  SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,SQUASH,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>AFFECTED_BY_SHIELD,TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED,  SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, SQUASH, STUNNABLE, DAMAGE_TRACKING</LandBehavior>
 		
 		<Deploys>No</Deploys> <!-- DO NOT TURN THIS ON FOR FEAR THAT GOD WILL SMITE THEE FOR WITNESSING THY ANIMATION (APPLE) -->
 		<Deployment_Anim_Rate>0.8</Deployment_Anim_Rate>
@@ -3226,7 +3226,7 @@
 		<Reinforcement_Region_Blob_Name>Reinforcement_Point_Radius_Overlay</Reinforcement_Region_Blob_Name>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>30</Num_Garrison_Slots>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>120</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>120</Garrison_Radius>
@@ -3607,7 +3607,7 @@
 
 		<Behavior> SELECTABLE </Behavior>
 		
-		<LandBehavior> AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior> AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -3782,7 +3782,7 @@
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>
@@ -3971,7 +3971,7 @@
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>

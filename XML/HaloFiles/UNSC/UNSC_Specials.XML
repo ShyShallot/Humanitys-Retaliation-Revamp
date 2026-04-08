@@ -64,45 +64,52 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_GROUND_BUNKER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<LandBehavior>DUMMY_TOOLTIP</LandBehavior>
-		<Land_Model_Name>W_GoodGround_Bags.alo</Land_Model_Name>
-		<Scale_Factor>.35</Scale_Factor>
+		<Icon_Name>i_button_nb_bunker.tga</Icon_Name>
+		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Valid_Target>yes</Is_Valid_Target>
-		<Affiliation>Rebel</Affiliation>
-		<Behavior>SELECTABLE, ABILITY_COUNTDOWN,CAPTURE_POINT</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, UNIT_AI, GARRISON_STRUCTURE</LandBehavior>
+		<Affiliation>Neutral</Affiliation>
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<LandBehavior>SPACE_OBSTACLE, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE,</LandBehavior>
+
 		
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
-		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-		<Num_Garrison_Slots>2</Num_Garrison_Slots>
-        <Garrison_Bone_Names>Root</Garrison_Bone_Names>
-        <Garrison_Radius>5</Garrison_Radius>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>10</Garrison_Enter_Dist>
+		<Num_Garrison_Slots>6</Num_Garrison_Slots>
+        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
+        <Garrison_Radius>25</Garrison_Radius>
         <Num_Garrison_Guns>8</Num_Garrison_Guns>
-		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+        <AI_Combat_Power>100</AI_Combat_Power>
+		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
-		
-		<CategoryMask> Infantry </CategoryMask>
+		<CategoryMask> Structure </CategoryMask>
 		<Space_Layer> Land </Space_Layer>
 		<Avoidance_Disabled> true </Avoidance_Disabled>
-		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 60.0 </Custom_Hard_YExtent>		
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>		
 		<Snap_Movement_Orders_To_Center> true </Snap_Movement_Orders_To_Center>
-		<Tactical_Build_Cost_Multiplayer> 125 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>90</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 7 </Tactical_Build_Time_Seconds>
 		
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>3500</Tactical_Health>
 		
 		<Land_FOW_Reveal_Range>325</Land_FOW_Reveal_Range>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		
 		
-		<!-- <Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes">
 			
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -110,7 +117,7 @@
 				<Heal_Percent> 0.15 </Heal_Percent>
                 <Blob_Color> 0, 255, 0, 255 </Blob_Color>
 				<Heal_Interval_In_Secs> 0.5 </Heal_Interval_In_Secs>
-				<Single_Target_Heal> No </Single_Target_Heal>
+				<Single_Target_Heal> Yes </Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 
 				<Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
@@ -132,7 +139,7 @@
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 			
-		</Abilities> -->
+		</Abilities>
 		
 	</Special_Unit>
 	

@@ -5446,8 +5446,8 @@
 	<Space_Guard_Range>750.0</Space_Guard_Range>
 	<Land_Guard_Range>150.0</Land_Guard_Range>
 
-	<Max_Bombard_Interval_Seconds>90.0</Max_Bombard_Interval_Seconds>				
-	<Min_Bombard_Interval_Seconds>45.0</Min_Bombard_Interval_Seconds>				
+	<Max_Bombard_Interval_Seconds>600.0</Max_Bombard_Interval_Seconds>				
+	<Min_Bombard_Interval_Seconds>450.0</Min_Bombard_Interval_Seconds>				
 	<Bombardment_Offset>0 0 900</Bombardment_Offset>
 	<Bombardment_Distribution> 0, 3, 1, 2, 3, 2, 0, 1, 2, 1, 3, 0, 1, 2, 0, 3, 0, 2, 1, 3, 3, 2, 1, 0 </Bombardment_Distribution>
   
