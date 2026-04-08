@@ -3215,8 +3215,8 @@
 		
 		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
 		
-		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage> 250 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>

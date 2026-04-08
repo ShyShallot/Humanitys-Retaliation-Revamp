@@ -1987,6 +1987,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_INFANTRYBARRACKS.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_COVN_DEPLOYABLE_BARRACKS.TGA</Icon_Name>
@@ -2007,17 +2008,12 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 45</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 6</Starting_Spawned_Units_Tech_0>
+		
+		<Reserve_Spawned_Units_Tech_0>Stormtrooper, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, 9998</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
 		
@@ -2046,6 +2042,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_OFFICERACADEMY.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_COVN_DEPLOYABLE_ADVANCED_BARRACKS.TGA</Icon_Name>
@@ -2067,22 +2064,16 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 2500</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 5000</Starting_Spawned_Units_Tech_0>
 		
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 8</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 16</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>	
+		<Reserve_Spawned_Units_Tech_0>COVN_HUNTER, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, 9998</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>35.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2109,7 +2100,8 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>60000</Tactical_Health>
+		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_LIGHTFACTORY.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_COVN_DEPLOYABLE_LIGHT_FOUNDRY.tga</Icon_Name>
@@ -2134,18 +2126,15 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 12</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 18</Starting_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>	
+		<Reserve_Spawned_Units_Tech_0>SPMAT_Walker, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>COVN_AA_WRAITH, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 9998</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>80.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2171,7 +2160,8 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>75000</Tactical_Health>
+		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_VEHICLEFACTORY.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_COVN_DEPLOYABLE_HEAVY_FOUNDRY.TGA</Icon_Name>
@@ -2199,11 +2189,13 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		
-		<Starting_Spawned_Units_Tech_0>AT_AA_Walker, 5000</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>AT_AA_Walker, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>GROUND_SERAPH, 2</Starting_Spawned_Units_Tech_0>
 		
+		<Reserve_Spawned_Units_Tech_0>AT_AA_Walker, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>GROUND_SERAPH, 9998</Reserve_Spawned_Units_Tech_0>
 		
-		
-		<Spawned_Squadron_Delay_Seconds>900</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>200</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>120.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2228,7 +2220,8 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_LIGHT_AIR_SUMMIT </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>35000</Tactical_Health>
+		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_InfantryBarracks.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>
@@ -2272,7 +2265,8 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_SUMMIT_BOMBER_SUMMIT </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>45000</Tactical_Health>
+		<Tactical_Health>50000</Tactical_Health>
+		<Hardpoints>COVN_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>EB_InfantryBarracks.alo</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_ADVANCED_BARRACKS.TGA</Icon_Name>

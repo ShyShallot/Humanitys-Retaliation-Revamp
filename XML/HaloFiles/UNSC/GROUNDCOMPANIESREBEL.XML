@@ -1002,8 +1002,8 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<Build_Limit_Current_Per_Player>10</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>12</Build_Limit_Lifetime_Per_Player> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
 		

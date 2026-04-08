@@ -225,6 +225,34 @@
            
 		</HardPoint> 
 		
+	<HardPoint Name="COVN_GROUND_BUILDING_HP">
+	
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+        <Health>50000.0</Health>			
+        <Attachment_Bone>Root</Attachment_Bone>		 
+		<Collision_Mesh>Root</Collision_Mesh>
+		<Fire_Bone_A>Root</Fire_Bone_A>
+		<Fire_Bone_B>Root</Fire_Bone_B>
+		<Fire_Cone_Width>360.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Projectile_Types>Banshee_Plasma_Cannon</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>13.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>135</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250</Fire_Range_Distance>
+		<Fire_SFXEvent/>
+		
+		<Fire_Inaccuracy_Distance> LandHero, 75.0 </Fire_Inaccuracy_Distance>
+		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
+		<Tooltip_Text>Health</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles>Large_Explosion_Space_Empire</Damage_Particles>
+		
+	</HardPoint>
+		
 	<Hardpoint Name="Scarab_Beam">
         <Type>HARD_POINT_WEAPON_LASER</Type>
         
@@ -264,10 +292,10 @@
  
         <Fire_Cone_Width>55</Fire_Cone_Width>
         <Fire_Cone_Height>55</Fire_Cone_Height>
-        <Fire_Projectile_Type>Hunter_Focus_Beam</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>30.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Projectile_Type>Banshee_Fuel_Rod_Cannon</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>10.1</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>250</Fire_Range_Distance>
         

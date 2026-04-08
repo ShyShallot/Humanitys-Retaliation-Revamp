@@ -910,7 +910,6 @@
 		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Assault_Frigate </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Assault_Frigate </SFXEvent_Attack_Hardpoint>
@@ -939,7 +938,7 @@
 
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.02  0.02</Radar_Icon_Size>
+		<Radar_Icon_Size>0.02 0.02</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_STRIDENT.tga</Radar_Icon_Name>
 
 		<Minimum_Follow_Distance>10.0</Minimum_Follow_Distance>
@@ -1004,7 +1003,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property> 
 		<Space_Layer> frigate </Space_Layer> 
 		
-		<Icon_Name>I_BUTTON_UNSC_STRIDENT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_UNSC_STRIDENT_2.tga</Icon_Name>
 		<Tech_Level>4</Tech_Level>
 		<Max_Speed>3.6</Max_Speed>  
 		<Max_Thrust>0.4</Max_Thrust>
@@ -1997,7 +1996,7 @@
 		<Build_Tab_Space_Units> Yes </Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP</Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SPAWN_SQUADRON, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SPAWN_SQUADRON, SELECTABLE, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, HUNT</SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -2063,28 +2062,16 @@
 		<SFXEvent_Engine_Moving_Loop>  </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-
 		<Death_SFXEvent_Start_Die>Unit_UNSC_Frigate_Death</Death_SFXEvent_Start_Die>
 
-		<!-- Unit abilities description -->
-		<!--	<Unit_Abilities_Data SubObjectList="Yes">
-		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
 			<Unit_Ability>
-				<Type>power_to_weapons</Type>
-				<Expiration_Seconds></Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.85f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.01f</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
-				
-			</Unit_Ability>
-
-		</Unit_Abilities_Data> -->
-
-
-		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Space>0.5</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_PARIS.tga</Radar_Icon_Name>

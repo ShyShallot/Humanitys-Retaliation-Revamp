@@ -1559,18 +1559,18 @@
 		<Land_Model_Name>COVN_SERAPH_2.alo</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>4.5</Scale_Factor>
+		<Scale_Factor>3.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>12.0</Max_Speed>
-		<Min_Speed>12.0</Min_Speed> 
+		<Max_Speed>10.0</Max_Speed>
+		<Min_Speed>10.0</Min_Speed> 
 		<OverrideAcceleration> 16.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Thrust>5.0</Max_Thrust>
-		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.75</Max_Rate_Of_Roll>
 		<Max_Lift>0.0</Max_Lift>
 		
@@ -1580,8 +1580,8 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 200 </Layer_Z_Adjust>
-		<Hover_Offset>200.0</Hover_Offset>
+		<Layer_Z_Adjust> 125 </Layer_Z_Adjust>
+		<Hover_Offset>125.0</Hover_Offset>
 		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
@@ -1622,7 +1622,7 @@
 		
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
-		<Ranged_Target_Z_Adjust>25.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 
 		<HardPoints>
@@ -1795,7 +1795,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
@@ -1894,8 +1894,8 @@
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>16.0</Max_Speed>
-		<Min_Speed>16.0</Min_Speed> 
+		<Max_Speed>12.0</Max_Speed>
+		<Min_Speed>12.0</Min_Speed> 
 		<OverrideAcceleration> 16.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
@@ -1908,8 +1908,8 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 250 </Layer_Z_Adjust>
-		<Hover_Offset>250.0</Hover_Offset>
+		<Layer_Z_Adjust> 150 </Layer_Z_Adjust>
+		<Hover_Offset>150.0</Hover_Offset>
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
@@ -1947,7 +1947,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
