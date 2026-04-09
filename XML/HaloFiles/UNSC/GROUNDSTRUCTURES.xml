@@ -1749,7 +1749,7 @@
 		<Lua_Script>Ground_Structure_Downgrade</Lua_Script>
 	</SpecialStructure>
 
-	<SpecialStructure Name="UNSC_GOVERMENT_BUILDING"> <!-- Minor Income building that makes money off taxes (Disabled) -->
+	<SpecialStructure Name="UNSC_GOVERMENT_BUILDING"> <!-- Major Income building that makes money off taxes for the unsc inw ar -->
 		<Select_Box_Scale>200</Select_Box_Scale>
 
 		<Text_ID>TEXT_UNIT_UNSC_BUILDING_ADMIN</Text_ID>
@@ -1768,7 +1768,7 @@
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- Needs Tweaking-->
+		<Build_Cost_Credits>7500</Build_Cost_Credits> <!-- Needs Tweaking-->
 		<Build_Time_Seconds>10</Build_Time_Seconds> <!-- Needs Tweaking-->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
@@ -1783,8 +1783,8 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets />
-		<Tactical_Health>600</Tactical_Health>
+		<Required_Planets>Earth, Mars, Reach, Jupiter</Required_Planets>
+		<Tactical_Health>12600</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,TERRAIN_TEXTURE_MODIFICATION,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> Rebel_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
@@ -1867,6 +1867,9 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 	
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		
+		
+		
 	</SpecialStructure>
 	
 	<SpecialStructure Name="UNSC_RESORT">

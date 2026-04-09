@@ -5,7 +5,7 @@
 
 		<LandBehavior> TARGETING, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR, TURRET </LandBehavior>
 		
-		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE, TACTICAL_SELL, TURRET</Behavior>
+		<Behavior>DUMMY_GROUND_STRUCTURE, TACTICAL_SELL, TURRET</Behavior>
 		
 		<Affiliation>Rebel, Terrorists, Empire, Swords</Affiliation>
 
@@ -277,7 +277,7 @@
 		<Damage>20</Damage>
 		
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
 		<Damage_Type> Damage_AI_Turret </Damage_Type>
@@ -288,7 +288,7 @@
 		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
 		
 		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 25.0 </Targeting_Fire_Inaccuracy>
@@ -318,6 +318,7 @@
 		
 		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
 		<Hover_Offset> 0.0 </Hover_Offset>
+		<Custom_Hard_XExtent>0.01</Custom_Hard_XExtent> <Custom_Hard_YExtent>0.01</Custom_Hard_YExtent>
 
 	</GroundStructure>
 
@@ -401,13 +402,13 @@
 		<Land_Model_Name>UNSC_INFANTRY_LAAG.ALO</Land_Model_Name>
 		<Icon_Name>i_button_r_anti_infantry.tga</Icon_Name>
 		
-		<Scale_Factor>0.16</Scale_Factor>
+		<Scale_Factor>0.12</Scale_Factor>
 
 		<Affiliation> Rebel, Terrorists</Affiliation>
 
 		<Projectile_Types>LAAG</Projectile_Types>
 
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>1.0</Ranged_Target_Z_Adjust>
 		
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -422,7 +423,7 @@
 
 		<Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
 
-		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		<SFXEvent_Fire>Unit_UNSC_LAAG</SFXEvent_Fire>

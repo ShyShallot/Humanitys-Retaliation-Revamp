@@ -2611,7 +2611,7 @@
 			
 				<Type>UNTARGETED_STICKY_BOMB</Type>
 				<Text_ID>Turret</Text_ID>
-				<Recharge_Seconds></Recharge_Seconds>
+				<Recharge_Seconds>120</Recharge_Seconds>
 				<Spawned_Object_Type>UNSC_ENGINEER_Anti_Infantry_Turret</Spawned_Object_Type>
 				
 			</Unit_Ability> 

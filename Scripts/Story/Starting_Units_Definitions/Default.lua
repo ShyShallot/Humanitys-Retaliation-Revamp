@@ -22,12 +22,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -69,12 +69,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -120,12 +120,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -171,12 +171,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -222,12 +222,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -267,24 +267,32 @@ Spawn_Settings = {
                         ["CRS_SQUADRON"] = {
                             Weight = 100,
                             Limit = 10
+                        },
+						["COVN_SDV"] = {
+                            Weight = 50,
+                            Limit = 8
+                        },
+						["COVN_RCS"] = {
+                            Weight = 3,
+                            Limit = 6
                         }
                     },
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     },
                 },
@@ -302,24 +310,28 @@ Spawn_Settings = {
                         ["CRS_SQUADRON"] = {
                             Weight = 50,
                             Limit = 12
+                        },
+						["COVN_RCS"] = {
+                            Weight = 3,
+                            Limit = 10
                         }
                     },
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     },
                 },
@@ -332,7 +344,7 @@ Spawn_Settings = {
                     Space_Units = {
                         ["COVN_SDV"] = {
                             Weight = 65,
-                            Limit = 10
+                            Limit = 18
                         },
                         ["CRS_SQUADRON"] = {
                             Weight = 50,
@@ -340,25 +352,30 @@ Spawn_Settings = {
                         },
                         ["COVN_RCS"] = {
                             Weight = 3,
-                            Limit = 6
-                        }
+                            Limit = 16
+                        },
+						
+                        ["COVN_CCS"] = {
+                            Weight = 5,
+                            Limit = 20
+                        },
                     },
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     }
                 },
@@ -382,16 +399,20 @@ Spawn_Settings = {
                             Limit = 20
                         },
                         ["COVN_CCS"] = {
-                            Weight = 5,
-                            Limit = 20
+                            Weight = 10,
+                            Limit = 30
                         },
                         ["COVN_DDS"] = {
-                            Weight = 2,
+                            Weight = 3,
                             Limit = 6
                         },
                         ["COVN_ORS"] = {
-                            Weight = 2,
-                            Limit = 6
+                            Weight = 3,
+                            Limit = 12
+                        },
+						["COVN_CPV"] = {
+                            Weight = 3,
+                            Limit = 10
                         },
                         ["COVN_CAS"] = {
                             Weight = 1,
@@ -401,19 +422,19 @@ Spawn_Settings = {
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     }
                 },
@@ -424,7 +445,7 @@ Spawn_Settings = {
                     },
                     Structures = { "E_GROUND_BARRACKS", "E_GROUND_LIGHT_VEHICLE_FACTORY", "E_GROUND_HEAVY_VEHICLE_FACTORY", "E_GROUND_ADVANCED_VEHICLE_FACTORY", "COVENANT_ASSEMBLY_FORGE" },
                     Space_Units = {
-                        ["COVN_SDV"] = {
+                         ["COVN_SDV"] = {
                             Weight = 25,
                             Limit = 10
                         },
@@ -437,16 +458,20 @@ Spawn_Settings = {
                             Limit = 20
                         },
                         ["COVN_CCS"] = {
-                            Weight = 5,
-                            Limit = 20
+                            Weight = 10,
+                            Limit = 30
                         },
                         ["COVN_DDS"] = {
-                            Weight = 2,
+                            Weight = 3,
                             Limit = 6
                         },
                         ["COVN_ORS"] = {
-                            Weight = 2,
-                            Limit = 6
+                            Weight = 3,
+                            Limit = 12
+                        },
+						["COVN_CPV"] = {
+                            Weight = 3,
+                            Limit = 10
                         },
                         ["COVN_CAS"] = {
                             Weight = 1,
@@ -456,19 +481,19 @@ Spawn_Settings = {
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     }
                 }
@@ -514,19 +539,19 @@ Spawn_Settings = {
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     },
                 },
@@ -557,19 +582,19 @@ Spawn_Settings = {
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     },
                 },
@@ -600,19 +625,19 @@ Spawn_Settings = {
                     Ground_Units = {
                         ["COVN_DEPLOYABLE_TACTICAL_HALL"] = {
                             Weight = 60,
-                            Limit = 4
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 20,
-                            Limit = 3
+                            Limit = 2
                         },
                         ["COVN_DEPLOYABLE_ADVANCED_HALL"] = {
                             Weight = 10,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["COVN_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"] = {
                             Weight = 5,
-                            Limit = 2
+                            Limit = 1
                         }
                     },
                 }
@@ -652,12 +677,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -674,7 +699,7 @@ Spawn_Settings = {
                         ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
                             Weight = 2,
                             Limit = 1
-                        }
+                        },
                     },
                 },
                 Low = {
@@ -707,12 +732,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -729,7 +754,7 @@ Spawn_Settings = {
                         ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
                             Weight = 2,
                             Limit = 1
-                        }
+                        },
                     },
                 },
                 Medium = {
@@ -762,12 +787,12 @@ Spawn_Settings = {
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
-                            Weight = 65,
-                            Limit = 3
+                            Weight = 60,
+                            Limit = 2
                         },
                         ["UNSC_DEPLOYABLE_ADVANCED_BARRACKS"] = {
                             Weight = 15,
-                            Limit = 2
+                            Limit = 1
                         },
                         ["UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"] = {
                             Weight = 10,
@@ -784,7 +809,7 @@ Spawn_Settings = {
                         ["UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"] = {
                             Weight = 2,
                             Limit = 1
-                        }
+                        },
                     },
                 }
             },
