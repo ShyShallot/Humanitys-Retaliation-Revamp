@@ -576,7 +576,7 @@
 	
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Tooltip_Text>UNSC_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Health>2000</Health>
 		<Is_Turret>Yes</Is_Turret>

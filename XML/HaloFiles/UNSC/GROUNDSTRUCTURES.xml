@@ -2845,11 +2845,7 @@
 		
 		</GroundStructure> 
 		
-		
-		
-		
-		
-		
+
 		<GroundStructure Name="UNSC_LIGHT_VEHICLE_FOUNDRY">  <!-- UNSC LIGHT VEHICLE FOUNDRY GC SKIRMISH-->
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
@@ -2861,7 +2857,7 @@
 		<Tactical_Health>50000</Tactical_Health>
 		<Hardpoints>UNSC_GROUND_BUILDING_HP</Hardpoints>
 
-		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_DEPLOYABLE_LIGHT_FOUNDRY.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_FACTORY.tga</Icon_Name>
 		
 		<Scale_Factor>0.45</Scale_Factor>

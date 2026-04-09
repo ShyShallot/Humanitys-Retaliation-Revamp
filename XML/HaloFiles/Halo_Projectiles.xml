@@ -1277,6 +1277,47 @@
 	
 	</Projectile>
 	
+	
+	<!-- Super Experimental Fighter Missiles, I literally mean the missiles are fighters (Apple) -->
+
+	
+	<!-- <Projectile Name="Proj_UNSC_Fighter_Bomber">  these are the Fighter Tests to improve fps 
+
+		<Space_Model_Name>UNSC_Longsword.alo</Space_Model_Name>
+		<Land_Model_Name>UNSC_Longsword.alo</Land_Model_Name>
+		
+		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
+		<Max_Speed>13.0</Max_Speed>
+		<Projectile_Damage>1500.0</Projectile_Damage>
+		<Max_Rate_Of_Turn>35.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<CategoryMask>Transport</CategoryMask>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Projectile_Rocket_Curve_Distance>400</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>120</Projectile_Rocket_Straight_Distance>
+		
+		<HardPoints>
+			UNSC_LS_HP_00, UNSC_LS_HP_01, UNSC_LS_HP_02
+		</HardPoints>
+		
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
+		
+	</Projectile> -->
+	
+	
 	<Projectile Name="Proj_UNSC_SUPER_DUPER_MAC_SHELL"> <!-- Infinity -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<!-- <Space_Model_Name>UNSC_MAC_ROUND.alo</Space_Model_Name> -->
@@ -3108,7 +3149,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>10.5</Max_Speed>
+		<Max_Speed>12.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3144,7 +3185,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>12.5</Max_Speed>
+		<Max_Speed>14.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3620,6 +3661,7 @@
 	</Projectile>
 	
 	<Projectile Name="Wraith_Plasma_Mortar"> 
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>COVN_WRAITH_MORTAR.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
@@ -3646,17 +3688,19 @@
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>SFX_COVN_WRAITH_MORTAR_DEATH</Projectile_SFXEvent_Detonate>
 		<AI_Combat_Power>600</AI_Combat_Power>
+		
 	</Projectile>
 	
 	<Projectile Name="PROJ_COVN_WRAITH_AA"> 
+	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_COVN_WRAITH_AA.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>5.5</Max_Speed>
+		<Max_Speed>9.5</Max_Speed>
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>  <!-- Oksana: give it a few minutes... generally, it will die of collision. -->
+		<Projectile_Max_Lifetime>900.0</Projectile_Max_Lifetime>
 		
 		<Projectile_Damage>1250.0</Projectile_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
@@ -3672,15 +3716,16 @@
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
 		<AI_Combat_Power>600</AI_Combat_Power>
+		
 	</Projectile>
 	 
 	<Projectile Name="Scarab_AA_GUN">  <!-- this cannot fire at infantry please double check that this is true (Apple and Murphy ) -->
 	
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Space_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Space_Model_Name>
-		<Land_Model_Name>COVN_PLASMAPROJECTILESCARAB.ALO</Land_Model_Name>
-		<Max_Speed>4.8</Max_Speed>
+		<Space_Model_Name>W_COVN_SCARAB_AA.ALO</Space_Model_Name>
+		<Land_Model_Name>W_COVN_SCARAB_AA.ALO</Land_Model_Name>
+		<Max_Speed>9.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>795.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>

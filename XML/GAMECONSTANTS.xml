@@ -973,7 +973,7 @@
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
 	<Raid_Force_Required_Faction> Neutral, Rebel, Empire, Terrorists, Swords </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle | Air | LandHero </Raid_Force_Limited_Object_Category_Mask>
-	<Raid_Force_Max_Limited_Objects> 5 </Raid_Force_Max_Limited_Objects>
+	<Raid_Force_Max_Limited_Objects> 2 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 30 </Raid_Force_Max_Heros>
 	<Raid_Force_Free_Object_Category_Mask> </Raid_Force_Free_Object_Category_Mask>	<!-- can have as many of these as you want -->
 

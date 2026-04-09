@@ -294,11 +294,11 @@
         <Fire_Cone_Width>25.0</Fire_Cone_Width>
         <Fire_Cone_Height>100.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_SUPER_DUPER_MAC_SHELL</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>7</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>10500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>20500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>

@@ -169,44 +169,8 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<!-- <Unit_Ability>
-					<Type>DEFEND</Type>
-					<Expiration_Seconds>7</Expiration_Seconds>
-					<Recharge_Seconds>90</Recharge_Seconds>
-					<Supports_Autofire>False</Supports_Autofire>
-					<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
-					<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.5f</Mod_Multiplier>
-					<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.2f</Mod_Multiplier> 
-					<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.2f</Mod_Multiplier> 
-					<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-					<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
-					<Alternate_Name_Text>HALO_PREPARE_FIRE</Alternate_Name_Text>
-					<Alternate_Description_Text>HALO_PREPARE_FIRE_ENC</Alternate_Description_Text>
-					<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
-					
-					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability> -->
 			
-		<Unit_Ability>   <!-- !!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!! -->
-		
-				<Type>TURBO</Type>
-			
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Recharge_Seconds>100</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		    100.0f</Mod_Multiplier>
-				
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-				
-			</Unit_Ability>  
+		 <Unit_Abilities_Data SubObjectList="Yes">
 			
 			<Unit_Ability>
 			
@@ -219,7 +183,6 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>           
 				<Expiration_Seconds></Expiration_Seconds>
-
 				
 			</Unit_Ability>
 
@@ -235,13 +198,11 @@
 			
 		</Unit_Abilities_Data>
 		
-		
 		<!-- May be causing Crashes <Lua_Script>DesperateStrike</Lua_Script> -->
 		
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
 		<Population_Value>22</Population_Value>
-
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
@@ -439,7 +400,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
-			<Unit_Ability>   <!-- !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!! -->
+			 <!-- !!! <Unit_Ability>    HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  I WILL SPRAY BOTTLE YOU
 				<Type>TURBO</Type>
 			
 				<Expiration_Seconds>4</Expiration_Seconds>
@@ -453,7 +414,7 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability> 
+			</Unit_Ability> !!! -->
 		
 			
 			<Unit_Ability>

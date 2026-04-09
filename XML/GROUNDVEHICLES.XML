@@ -1439,7 +1439,7 @@
 		
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
-		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 
 		<HardPoints>
@@ -2046,8 +2046,8 @@
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>16.0</Max_Speed>
-		<Min_Speed>15.0</Min_Speed> 
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>7.0</Min_Speed> 
 		<Max_Thrust>10.0</Max_Thrust>
 		<OverrideAcceleration> 10.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -2061,8 +2061,10 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 350 </Layer_Z_Adjust>
-		<Hover_Offset>350.0</Hover_Offset>
+		<Layer_Z_Adjust> 140 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 140.0 </Hover_Offset>
+		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
+		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
@@ -2100,7 +2102,6 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
@@ -2199,8 +2200,8 @@
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>12.0</Max_Speed>
-		<Min_Speed>12.0</Min_Speed> 
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>7.0</Min_Speed> 
 		<Max_Thrust>10.0</Max_Thrust>
 		<OverrideAcceleration> 10.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
@@ -2214,8 +2215,10 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 350 </Layer_Z_Adjust>
-		<Hover_Offset>350.0</Hover_Offset>
+		<Layer_Z_Adjust> 160 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 160.0 </Hover_Offset>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
@@ -2252,8 +2255,7 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-
-		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+=
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
@@ -2370,6 +2372,7 @@
 		
 		<Layer_Z_Adjust> 80 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
 		<Hover_Offset> 80.0 </Hover_Offset>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
@@ -2408,8 +2411,6 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		
-
-		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		

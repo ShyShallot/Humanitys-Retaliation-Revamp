@@ -246,6 +246,30 @@ local unit_table = {
     PELICAN_SQUADRON = {
         Category = "Fighter"
     },
+	LONGSWORD = {
+        Category = "Fighter"
+    },
+	LATE_LONGSWORD = {
+        Category = "Fighter"
+    },
+	CONDOR = {
+        Category = "Fighter"
+    },
+    SHORTSWORD = {
+        Category = "Fighter"
+    },
+    BROADSWORD = {
+        Category = "Fighter",
+    },
+    BASELARD = {
+        Category = "Fighter"
+    },
+    SABRE = {
+        Category = "Fighter"
+	},
+    PELICAN = {
+        Category = "Fighter"
+    },
     UNSC_SCOUT_CORVETTE = {
         Category = "Frigate"
     },

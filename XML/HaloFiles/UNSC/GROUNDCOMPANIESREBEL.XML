@@ -1701,7 +1701,7 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>50</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>500</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -1712,7 +1712,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_ADVANCED_BARRACKS"> 
-		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNIT_UNSC_ADVANCED_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1772,7 +1772,7 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>50</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>500</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
@@ -1844,10 +1844,9 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>50</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>500</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
@@ -1916,7 +1915,7 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>50</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>500</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
