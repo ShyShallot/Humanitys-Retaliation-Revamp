@@ -738,8 +738,6 @@
 		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>       
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
-		<!-- <Attack_Category_Restrictions> Infantry | Vehicle | LandHero | Structure </Attack_Category_Restrictions> -->
-
 		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 
@@ -976,10 +974,11 @@
 		<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 
@@ -1228,11 +1227,10 @@
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
+		
 		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
-		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
+		
 
 		<HardPoints>
 				HP_SPMAT_00, HP_SPMAT_01, HP_SPMAT_02, HP_SPMAT_03
@@ -1492,7 +1490,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_BANSHEE.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1675,7 +1673,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_SERAPH.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1846,7 +1844,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1997,7 +1995,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WOMBAT.TGA</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2151,7 +2149,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2305,7 +2303,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2485,7 +2483,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Air </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2586,13 +2584,15 @@
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
 		
-		<Targeting_Fire_Inaccuracy_Fixed_Radius> 150 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
-		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 150 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
 
 		<!-- Non-Hero unit abilities description -->
 		
@@ -2801,8 +2801,8 @@
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
-		
-		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
+
+		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.25</Projectile_Fire_Pulse_Delay_Seconds>
@@ -2963,6 +2963,7 @@
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>.5</Projectile_Fire_Pulse_Delay_Seconds>
@@ -3646,9 +3647,9 @@
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
 		<Projectile_Types>LAAG</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>50</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
@@ -3995,13 +3996,14 @@
 		
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Air_Vehicles> 99 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
 		<Projectile_Types>M19_102MM_Rocket</Projectile_Types>
@@ -4406,10 +4408,11 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+		
 
 		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -4572,7 +4575,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
@@ -4907,9 +4910,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

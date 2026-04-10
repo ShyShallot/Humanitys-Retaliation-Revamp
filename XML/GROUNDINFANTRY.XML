@@ -78,20 +78,21 @@
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Types>Plasma_Rifle</Projectile_Types>
+		<Projectile_Types>Banshee_Plasma_Cannon</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
-		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
-		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+		<Wind_Disturbance_Strength>1</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<!-- <Destruction_Survivors> Squad_Stormtrooper, 1.0 </Destruction_Survivors> -->
@@ -249,8 +250,8 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 2.5 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
@@ -407,9 +408,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -572,9 +574,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 80.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Projectile_Fire_Recharge_Seconds>6</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -619,7 +622,7 @@
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
-		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>190.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -747,9 +750,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.9 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -1819,8 +1823,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> <Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
@@ -2043,9 +2049,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
@@ -2283,9 +2290,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -2506,9 +2514,10 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
+		
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -3069,9 +3078,9 @@
 
 		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 

@@ -737,9 +737,9 @@
 		<Fire_Cone_Height>45</Fire_Cone_Height>
 		<Fire_Projectile_Type>MA5C</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>30</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Max_Recharge_Seconds>8.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>120</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
@@ -771,9 +771,9 @@
 		<Fire_Cone_Height>45</Fire_Cone_Height>
 		<Fire_Projectile_Type>MA5C</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>30</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Max_Recharge_Seconds>8.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>120</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>450</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_SMG</Fire_SFXEvent>
 		
