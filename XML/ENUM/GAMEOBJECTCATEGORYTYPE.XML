@@ -5,7 +5,7 @@
 	<!-- This is a bitfield! If we hit the 32 entry barrier, I'll look into support 64 bit enums -->
 
 	<Fighter>			0x00000001		</Fighter>
-	<Bomber>				0x00000002		</Bomber>
+	<Bomber>			0x00000002		</Bomber>
 	<Transport>			0x00000004		</Transport>
 	<Corvette>			0x00000008		</Corvette>
 	<Frigate>			0x00000010		</Frigate>
@@ -14,7 +14,7 @@
 	
 	<Infantry>			0x00000080		</Infantry>
 	<Vehicle>			0x00000100		</Vehicle>
-	<Air>					0x00000200		</Air>
+	<Air>				0x00000200		</Air>
 	<Structure>			0x00000400		</Structure>
 	
 	<AntiFighter>		0x00000800		</AntiFighter>
@@ -48,6 +48,8 @@
 	<TaxingBuilding>    0x40000000      </TaxingBuilding>
 
 	<YearlyMoraleGain>  0x80000000      </YearlyMoraleGain>
+
+	<Interceptable>  0x0000000200000000  </Interceptable>
 
 	<!--
 	<Vehicle>		0x0001		</Vehicle>
