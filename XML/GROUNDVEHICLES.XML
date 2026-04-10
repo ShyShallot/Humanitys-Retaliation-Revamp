@@ -1380,8 +1380,8 @@
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>3.0</Max_Speed>
-		<Min_Speed>2.75</Min_Speed> 
+		<Max_Speed>8.0</Max_Speed>
+		<Min_Speed>6.75</Min_Speed> 
 		<OverrideAcceleration> 16.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
@@ -1389,7 +1389,7 @@
 		<Max_Lift>0.0</Max_Lift>
 		
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
-		<Space_Layer> </Space_Layer>
+		<Space_Layer></Space_Layer>
 		
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>

@@ -3160,8 +3160,8 @@
 		<Hardpoints>WOLVERINE_CLUSTER_MISSILE</Hardpoints>
 
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>600.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Max_Scan_Range>1000.0</Projectile_Max_Scan_Range>
+		<Projectile_Damage>70.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 30 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
 		
@@ -3252,9 +3252,9 @@
 	
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
+		<Hardpoints>WOLVERINE_CLUSTER_MISSILE</Hardpoints>
 		
-		<Projectile_Blast_Area_Damage> 250 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage> 120 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
