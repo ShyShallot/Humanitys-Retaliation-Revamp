@@ -442,7 +442,7 @@
             <Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>12.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>30</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>650</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_COVN_PLASMA_RIFLE</Fire_SFXEvent>
 			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super, Transport </Fire_Category_Restrictions>

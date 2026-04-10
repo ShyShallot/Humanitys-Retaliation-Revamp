@@ -39,7 +39,7 @@
 		<Tactical_Additional_Structure_Type>Power_Generator_R</Tactical_Additional_Structure_Type>
 
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Sabotage_Cost_Credits>4000</Sabotage_Cost_Credits>
@@ -150,7 +150,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -244,7 +244,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -317,7 +317,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -495,7 +495,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
@@ -596,7 +596,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
@@ -693,7 +693,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>950.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>I_BUTTON_HWD.tga</Icon_Name>
@@ -774,7 +774,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
@@ -921,7 +921,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
@@ -1037,7 +1037,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
@@ -1140,7 +1140,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
@@ -1335,7 +1335,7 @@
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
@@ -1433,7 +1433,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
@@ -1533,7 +1533,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
@@ -1633,7 +1633,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
@@ -1734,7 +1734,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
@@ -1819,7 +1819,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
@@ -1875,7 +1875,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE, SELECTABLE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,BASE_SHIELD,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<LandBehavior>SPACE_OBSTACLE, HIDE_WHEN_FOGGED, LAND_OBSTACLE, REVEAL, BASE_SHIELD, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> E_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
@@ -2027,7 +2027,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE, SELECTABLE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,BASE_SHIELD,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<LandBehavior>SPACE_OBSTACLE, HIDE_WHEN_FOGGED, LAND_OBSTACLE, REVEAL, BASE_SHIELD, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> R_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
@@ -2246,7 +2246,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Icon_Name>i_button_grand_arena.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2346,7 +2346,7 @@
 		<Behavior> DUMMY_GROUND_STRUCTURE </Behavior>
 		<LandBehavior> SPACE_OBSTACLE, LAND_OBSTACLE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, GRAVITY_CONTROL_FIELD ,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -2439,7 +2439,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, SHIELDED, POWERED, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<SpaceBehavior>SPECIAL_WEAPON</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
 		<Special_Weapon_Index>1</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
@@ -2583,7 +2583,7 @@
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,SPAWN_SQUADRON,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
@@ -2660,7 +2660,7 @@
 		<LandBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, LAND_OBSTACLE,TURRET,WEAPON,LOBBING_SUPERWEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 
 		<Scale_Factor>0.75</Scale_Factor>
 
@@ -2717,7 +2717,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 			
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Icon_Name>i_button_magnepulse_cannon.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2824,7 +2824,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> Empire_Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Icon_Name>i_button_mining_facility.tga</Icon_Name>
@@ -2939,7 +2939,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,TURRET,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, STUNNABLE,EARTHQUAKE_TARGET,ION_STUN_EFFECT </LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -3227,7 +3227,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 
@@ -3401,7 +3401,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> R_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -3595,7 +3595,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -3770,7 +3770,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET, STUNNABLE,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> E_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
@@ -3952,7 +3952,7 @@
 		<Obstacle_Proxy_Type> E_Ground_Heavy_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -4135,7 +4135,7 @@
 		<Obstacle_Proxy_Type> R_Ground_Heavy_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -4326,7 +4326,7 @@
 		<Obstacle_Proxy_Type> E_Ground_Advanced_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 				
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -4452,7 +4452,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> E_Ground_Officer_Academy_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
@@ -4576,7 +4576,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, TERRAIN_TEXTURE_MODIFICATION, EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Obstacle_Proxy_Type> R_Ground_Officer_Academy_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
@@ -4713,7 +4713,7 @@
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -4867,7 +4867,7 @@
 		<Obstacle_Proxy_Type> Power_Generator_R_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -5042,7 +5042,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
       <Ownership_Sticks>Yes</Ownership_Sticks>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -5183,7 +5183,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<Ownership_Sticks>Yes</Ownership_Sticks>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -5486,7 +5486,7 @@
 		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
 		<LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
@@ -5588,7 +5588,7 @@
 		<Obstacle_Proxy_Type> Rebel_Command_Center_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -5742,7 +5742,7 @@
 		<Obstacle_Proxy_Type> Imperial_Command_Center_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -5915,7 +5915,7 @@
 		<Obstacle_Proxy_Type> Imperial_Command_Center_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
@@ -6391,7 +6391,7 @@
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -6473,7 +6473,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_Satellite </Armor_Type>
@@ -6560,7 +6560,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_Structure </Armor_Type>
@@ -6656,7 +6656,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_Structure </Armor_Type>
@@ -6736,7 +6736,7 @@
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> No </Last_State_Visible_Under_FOW>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 

@@ -86,7 +86,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -112,7 +112,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport,</Fire_Category_Restrictions>
 
@@ -138,7 +138,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport,</Fire_Category_Restrictions>
 
@@ -164,7 +164,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport,</Fire_Category_Restrictions>
 
@@ -262,7 +262,6 @@
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
-		
 		
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport,</Fire_Category_Restrictions>
 

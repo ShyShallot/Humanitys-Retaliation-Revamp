@@ -511,6 +511,7 @@
 				<Activation_Max_Range>400.0</Activation_Max_Range>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
+		
 	<SFXEvent_Select>Unit_Select_UNSC_Fighter</SFXEvent_Select>
 	<SFXEvent_Engine_Idle_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Idle_Loop>
 	<SFXEvent_Engine_Moving_Loop> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Engine_Moving_Loop> 
@@ -546,27 +547,7 @@
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+        
 		<Icon_Name>I_BUTTON_UNSC_LONGSWORD.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

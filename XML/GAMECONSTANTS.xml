@@ -612,7 +612,7 @@
 	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
-	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 5.0 -->
+	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 6.0 -->
 	
 	<!-- These settings have been tuned to provide the best fps, ship response time, unified fleet movement, and prevent wacky ship pathing, at the cost of collision, to navigate around the removal of collision I have given ships a stronger adhesion to flying in formation, ships will try to navigate with and around eachother without collision checks, be wary this version is not super friendly with very large ships and you will likely see ships clipping into eachother -->
 	
@@ -667,7 +667,7 @@
 	
 	<!-- A multiplier applied to a ship’s occupation radius when the engine checks whether a destination point is valid or blocked -->
 	<!-- 1.0 = The engine uses the ship’s occupation radius exactly as defined, set to 0.5 for even less collision, set to 0 for ships to take up no space -->
-	<OccupationRadiusCoefficientSpace> 1.0 </OccupationRadiusCoefficientSpace>
+	<OccupationRadiusCoefficientSpace> 0.95 </OccupationRadiusCoefficientSpace>
 	
 	<!-- How much the engine expands the search radius each time it fails to find a valid destination point in space -->
 	<!-- 0.0 could cause ships not to move, 50 is base, 100-200 = less precise but faster processing -->
@@ -735,7 +735,7 @@
 	
 	<!-- Penalizes a movement path if it overlaps with another moving obstacle -->
 	<!-- we want this to be 0 if you want brute force performance pathing -->
-	<DynamicObstacleOverlapPenalty> 0.5 </DynamicObstacleOverlapPenalty>
+	<DynamicObstacleOverlapPenalty> 0.1 </DynamicObstacleOverlapPenalty> <!-- was 0.5 in version 5.0 -->
 	
 	<!-- This value may define the half size of the rectangular avoidance zone around a ship when the engine checks for dynamic (moving) obstacles. -->
 	<!-- The engine builds a rectangle around the ship this size in each direction -->
@@ -747,9 +747,9 @@
 
 
 	<!-- How much a capital ship slows down while turning in place, 1.0 = No slowdown at all, 2.0 = Ship rotates faster than normal-->
-	<TurnInPlaceSlowdownCorvette> 1.0 </TurnInPlaceSlowdownCorvette>
-	<TurnInPlaceSlowdownFrigate> 1.0 </TurnInPlaceSlowdownFrigate>
-	<TurnInPlaceSlowdownCapital> 1.0 </TurnInPlaceSlowdownCapital>
+	<TurnInPlaceSlowdownCorvette> 1.1 </TurnInPlaceSlowdownCorvette>
+	<TurnInPlaceSlowdownFrigate> 1.1 </TurnInPlaceSlowdownFrigate>
+	<TurnInPlaceSlowdownCapital> 1.1 </TurnInPlaceSlowdownCapital>
 	
 	<!-- If a ship is more than this distance away the engine considers correcting it -->
 	<FormationMinimumSideError> 150.0 </FormationMinimumSideError>
@@ -761,10 +761,10 @@
 		
 	<!--This value should determine how much empty space the engine tries to maintain between ships when they are part of the same formation -->
 	<!--Lower is a tighter formation spacing -->
-	<BetweenFormationSpacing> 50.0 </BetweenFormationSpacing>
+	<BetweenFormationSpacing> 10.0 </BetweenFormationSpacing>
 	
 	<!-- smooths out the ship’s movement path (Standard .9962) Lower number means more jitter but more performance-->
-	<ApproximationSmoothCosAngle> .965 </ApproximationSmoothCosAngle>
+	<ApproximationSmoothCosAngle> .95 </ApproximationSmoothCosAngle> <!-- was 0.965 in version 5.0 -->
 	
 	<!-- essentially a forward buffer added to the ship’s approximation volume -->
 	<ApproximationForwardDistance> 1.0 </ApproximationForwardDistance>
@@ -776,11 +776,8 @@
 	<!-- When two moving ships might collide, how far into the future should I predict their positions before deciding whether to avoid? -->
 	<!-- This is a dynamic avoidance system, essentially voided in this version of pathing - Higher = more avoidance , Lower = less avoidance, 0 = On top of eachother avoidance -->
 	<!-- Lower = less cpu cost -->
-	<MovingVsMovingLookAheadTime> 5.0 </MovingVsMovingLookAheadTime>
+	<MovingVsMovingLookAheadTime> 1.0 </MovingVsMovingLookAheadTime> <!-- Was 5.0 in version 5.0 -->
 	
-	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
-	<LandDestinationProximity> 60.0 </LandDestinationProximity>
-
 	<!-- When checking if the destination is blocked, extend the collision query outward by this many units (Ships will stop 'n' units away from targeted location if occupied) -->
 	<!-- 60 Appears to be a good number as it requires low processing, allows for accurate location management and prevents ships from overlapping inside eachother -->
 	<!-- Change to a higher number if you use on average larger ships than Humanity's Retaliation -->
@@ -805,7 +802,8 @@
 	 <!-- Controls how aggressively the AI tries to correct facing  (0.1 - 1.0) = Higher is more aggressive This affects how the ship reaches its final facing -->
 	<FinalFormationFacingDeltaCoefficient> 1.0 </FinalFormationFacingDeltaCoefficient>     
 
-
+	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
+	<LandDestinationProximity> 60.0 </LandDestinationProximity>
 	<LandWaitOperatorSpeedCoefficient> .65 </LandWaitOperatorSpeedCoefficient>
 	<MaxLandFormationFormupFrames> 240.0 </MaxLandFormationFormupFrames>
 	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>

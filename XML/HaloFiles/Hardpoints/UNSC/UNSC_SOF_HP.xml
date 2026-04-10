@@ -183,7 +183,7 @@
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		
 	</HardPoint>
 
@@ -212,7 +212,7 @@
                 
                 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 
 	<HardPoint Name="UNSC_SOF_MAC_03">
@@ -239,7 +239,7 @@
 		<Targeting_Fire_Inaccuracy> Capital, 5.0 </Targeting_Fire_Inaccuracy>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
                 
 	</HardPoint>
 	

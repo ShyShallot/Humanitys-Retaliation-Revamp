@@ -191,7 +191,7 @@
 		<Land_Model_Name>EI_BIKER.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>EI_TROOPER.ALo</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING ,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, GARRISON_UNIT </LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

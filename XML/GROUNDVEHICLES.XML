@@ -1208,28 +1208,27 @@
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>270</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>6.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>180</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Turret_Rest_Angle>0.0, -10.0, 0.0</Turret_Rest_Angle>
 		<Turret_Deployed_Rest_Angle>0.0, -15.0, 0.0</Turret_Deployed_Rest_Angle>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>2</Apply_Y_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
 		
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>PROJ_COVN_WRAITH_AA</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>8</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 		
-		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
 		
 
 		<HardPoints>
@@ -1759,7 +1758,7 @@
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
-		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
+		<Should_Cause_Limited_Turrets_To_Turn> true </Should_Cause_Limited_Turrets_To_Turn>
 
 		<FormationSpacing> 0.1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
@@ -1793,7 +1792,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>18.0</Ranged_Target_Z_Adjust>
 		<Land_FOW_Reveal_Range>1750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
@@ -2390,7 +2389,7 @@
 		<AI_Combat_Power>130</AI_Combat_Power>
 
 		<Behavior>SELECTABLE, POWERED </Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, SURFACE_FX, UNIT_AI, TURRET, TARGETING, WEAPON, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING </LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, SURFACE_FX, UNIT_AI, TURRET, TARGETING, WEAPON, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, TREAD_SCROLL </LandBehavior>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Weather_Category>Speeder</Weather_Category>
 	
@@ -2568,7 +2567,7 @@
 		<LandBehavior> TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, SQUASH, UNIT_AI, STUNNABLE, DAMAGE_TRACKING</LandBehavior>
 		
 		<Deploys>Yes</Deploys>
-		<Deployment_Anim_Rate>1.2</Deployment_Anim_Rate>
+		<Deployment_Anim_Rate>10</Deployment_Anim_Rate>
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 		
@@ -2789,8 +2788,8 @@
 		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Apply_Z_Turret_Rotate_To_Axis>1</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>2</Apply_Y_Turret_Rotate_To_Axis>
 
 		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
@@ -2949,8 +2948,8 @@
 		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Apply_Z_Turret_Rotate_To_Axis>1</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>2</Apply_Y_Turret_Rotate_To_Axis>
 
 		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
