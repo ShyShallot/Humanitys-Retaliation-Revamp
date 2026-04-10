@@ -802,18 +802,44 @@
 	 <!-- Controls how aggressively the AI tries to correct facing  (0.1 - 1.0) = Higher is more aggressive This affects how the ship reaches its final facing -->
 	<FinalFormationFacingDeltaCoefficient> 1.0 </FinalFormationFacingDeltaCoefficient>     
 
-	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
-	<LandDestinationProximity> 60.0 </LandDestinationProximity>
-	<LandWaitOperatorSpeedCoefficient> .65 </LandWaitOperatorSpeedCoefficient>
-	<MaxLandFormationFormupFrames> 240.0 </MaxLandFormationFormupFrames>
-	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>
-	<MinLandPredictionDistance> 60.0 </MinLandPredictionDistance>
+
+	<!-- Lower value means unit follows the path more precisely | was 20 -->
+	<!-- Larger is better for vehicles to prevent them from getting stuck? -->
+	<LandTemporaryDestinationProximity> 135.0 </LandTemporaryDestinationProximity>
+	
+	<!-- This determins how far away a unit can be before reaching its destination -->
+	<LandDestinationProximity> 200.0 </LandDestinationProximity>
+	
+	<!-- The value is a multiplier applied to the unit’s max speed when the engine decides the unit should “wait” instead of charging ahead -->
+	<LandWaitOperatorSpeedCoefficient> 1.0 </LandWaitOperatorSpeedCoefficient>
+	
+	<!--how long (in frames) a unit will keep trying to form up into a proper formation before the engine gives up and just moves them normally -->
+	<!-- 0 means JUST GO -->
+	<MaxLandFormationFormupFrames> 0.0 </MaxLandFormationFormupFrames>
+	
+	<!--  controls how far into the future (in seconds) the Alamo engine predicts a unit’s movement -->
+	<LandPredictionTimeInterval> 4.0 </LandPredictionTimeInterval>
+	
+	<!-- how far ahead (in meters) the engine must predict before it even bothers using prediction at all.-->
+	<MinLandPredictionDistance> 200.0 </MinLandPredictionDistance>
+	
+	<!-- tells the Alamo engine to completely ignore formation forming behavior for this unit if true -->
 	<ShouldSkipLandFormup> true </ShouldSkipLandFormup>
-	<ShouldInfantryTeamsSplitAcrossFormations> true </ShouldInfantryTeamsSplitAcrossFormations>
-	<VehicleFormationRecruitmentDistance> 100 </VehicleFormationRecruitmentDistance>
+	
+	<!-- controls how infantry squads behave when multiple formations are active at once — especially when the AI or player issues large group movement orders -->
+	<!-- we dont have squads so we dont need this -->
+	<ShouldInfantryTeamsSplitAcrossFormations> false </ShouldInfantryTeamsSplitAcrossFormations>
+	
+	<!--  controls how far away a vehicle can be from a formation before the engine decides it should be “recruited” into that formation block -->
+	<VehicleFormationRecruitmentDistance> 150 </VehicleFormationRecruitmentDistance>
+	
+	<!--  controls how far away an Infantry dude can be from a formation before the engine decides it should be “recruited” into that formation block -->
 	<InfantryFormationRecruitmentDistance> 60 </InfantryFormationRecruitmentDistance>
 	
-	<WalkAnimationCutoff> .6 </WalkAnimationCutoff>
+	<!-- If the unit is moving at PERCENT of its max speed or slower, it will play the walk animation -->
+	<WalkAnimationCutoff> .2 </WalkAnimationCutoff>
+	
+	
 
 	<DoubleClickMoveMaxSpeedRatio> 1.25 </DoubleClickMoveMaxSpeedRatio>
 

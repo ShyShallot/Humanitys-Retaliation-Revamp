@@ -975,7 +975,7 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 70.0 </Targeting_Fire_Inaccuracy>
@@ -1489,7 +1489,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_BANSHEE.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1672,7 +1672,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_SERAPH.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1843,7 +1843,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -1994,7 +1994,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_UNSC_VEHICLE_WOMBAT.TGA</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2058,9 +2058,9 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 140 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
-		<Hover_Offset> 140.0 </Hover_Offset>
-		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
+		<Layer_Z_Adjust> 340 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 340.0 </Hover_Offset>
+		<Ranged_Target_Z_Adjust>25.0</Ranged_Target_Z_Adjust>
 		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
@@ -2148,7 +2148,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2212,9 +2212,9 @@
 		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
-		<Layer_Z_Adjust> 160 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
-		<Hover_Offset> 160.0 </Hover_Offset>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Layer_Z_Adjust> 360 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Hover_Offset> 360.0 </Hover_Offset>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		
@@ -2302,7 +2302,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2482,7 +2482,7 @@
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Icon_Name>I_BUTTON_PELICAN.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -2567,7 +2567,7 @@
 		<LandBehavior> TREAD_SCROLL, WALK_LOCOMOTOR, TARGETING, TURRET, WEAPON, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, SQUASH, UNIT_AI, STUNNABLE, DAMAGE_TRACKING</LandBehavior>
 		
 		<Deploys>Yes</Deploys>
-		<Deployment_Anim_Rate>10</Deployment_Anim_Rate>
+		<Deployment_Anim_Rate>8</Deployment_Anim_Rate>
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 		
@@ -2581,15 +2581,13 @@
 
 		<Projectile_Types>M400_ARTILLERY_SYSTEM</Projectile_Types>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
-		
-		
+		<Targeting_Max_Attack_Distance>10250.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 150 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		<Targeting_Fire_Inaccuracy> LandHero, 25.0 </Targeting_Fire_Inaccuracy>
 
@@ -2605,7 +2603,6 @@
 		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
-
 
 		<SFXEvent_Fire>Unit_UNSC_M400_ARTILLERY</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_MPTL</SFXEvent_Select>
@@ -2644,7 +2641,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Tread_Scroll_Rate>0.12</Tread_Scroll_Rate>        
+		<Tread_Scroll_Rate>0.05</Tread_Scroll_Rate>        
 		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
@@ -2859,7 +2856,7 @@
 		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Tread_Scroll_Rate>0.12</Tread_Scroll_Rate>        
+		<Tread_Scroll_Rate>0.05</Tread_Scroll_Rate>        
 		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
@@ -2962,7 +2959,7 @@
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>.5</Projectile_Fire_Pulse_Delay_Seconds>
@@ -3022,7 +3019,7 @@
 		<Targeting_Priority_Set>AntiStructure</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Tread_Scroll_Rate>0.12</Tread_Scroll_Rate>        
+		<Tread_Scroll_Rate>0.05</Tread_Scroll_Rate>        
 		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
@@ -3646,9 +3643,9 @@
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
 		<Projectile_Types>LAAG</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>10</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>100</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
@@ -3998,7 +3995,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
@@ -4912,7 +4909,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -5813,7 +5810,7 @@
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -5875,7 +5872,7 @@
 				
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
 		<Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
-		<CategoryMask> Air </CategoryMask>
+		<CategoryMask> Transport </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 
