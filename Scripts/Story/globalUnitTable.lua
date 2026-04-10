@@ -180,14 +180,12 @@ local unit_table = {
     },
     UNSC_VINDICATION = {
         Category = "Capital",
-        
     },
     UNSC_MUSASHI = {
         Category = "Frigate"
     },
     UNSC_POSEIDON = {
         Category = "Frigate",
-        
     },
     UNSC_SINGLE_STRIDENT = {
         Category = "Frigate",
@@ -244,30 +242,6 @@ local unit_table = {
         Category = "Fighter"
 	},
     PELICAN_SQUADRON = {
-        Category = "Fighter"
-    },
-	LONGSWORD = {
-        Category = "Fighter"
-    },
-	LATE_LONGSWORD = {
-        Category = "Fighter"
-    },
-	CONDOR = {
-        Category = "Fighter"
-    },
-    SHORTSWORD = {
-        Category = "Fighter"
-    },
-    BROADSWORD = {
-        Category = "Fighter",
-    },
-    BASELARD = {
-        Category = "Fighter"
-    },
-    SABRE = {
-        Category = "Fighter"
-	},
-    PELICAN = {
         Category = "Fighter"
     },
     UNSC_SCOUT_CORVETTE = {

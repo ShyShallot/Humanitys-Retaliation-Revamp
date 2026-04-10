@@ -515,8 +515,8 @@
 	<HardPoint Name="UNSC_GROUND_BUILDING_HP">
 	
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
         <Health>50000.0</Health>			
         <Attachment_Bone>Root</Attachment_Bone>		 
 		<Collision_Mesh>Root</Collision_Mesh>

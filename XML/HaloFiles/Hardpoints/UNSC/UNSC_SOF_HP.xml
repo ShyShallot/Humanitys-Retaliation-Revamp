@@ -77,17 +77,6 @@
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
 		<Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
 		
-		<Fire_Bone_A>HP_HANGAR_01</Fire_Bone_A>
-		<Fire_Bone_B>HP_HANGAR_01</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>360</Fire_Cone_Width>
-		<Fire_Cone_Height>180</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Fighter_Bomber</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		
 		
 	</Hardpoint>
@@ -101,18 +90,7 @@
 		<Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
 		<Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
-		
-		<Fire_Bone_A>HP_HANGAR_02</Fire_Bone_A>
-		<Fire_Bone_B>HP_HANGAR_02</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>360</Fire_Cone_Width>
-		<Fire_Cone_Height>180</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Fighter_Bomber</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3250</Fire_Range_Distance>
+	
 		
 	</Hardpoint>
 
@@ -127,15 +105,7 @@
 		<Damage_Particles>HP_HANGAR_03_EMIT</Damage_Particles>
 		<Fire_Bone_A>HP_HANGAR_03</Fire_Bone_A>
 		<Fire_Bone_B>HP_HANGAR_03</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>360</Fire_Cone_Width>
-		<Fire_Cone_Height>180</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Fighter_Bomber</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3250</Fire_Range_Distance>
+		
 		
 	</Hardpoint>
 
@@ -148,17 +118,7 @@
 		<Attachment_Bone>HP_HANGAR_04</Attachment_Bone>
 		<Collision_Mesh>HP_HANGAR_04</Collision_Mesh>
 		<Damage_Particles>HP_HANGAR_04_EMIT</Damage_Particles>
-		<Fire_Bone_A>HP_HANGAR_04</Fire_Bone_A>
-		<Fire_Bone_B>HP_HANGAR_04</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>360</Fire_Cone_Width>
-		<Fire_Cone_Height>180</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Fighter_Bomber</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3250</Fire_Range_Distance>
+		
 		
 	</Hardpoint>
 
@@ -171,17 +131,6 @@
 		<Attachment_Bone>HP_HANGAR_05</Attachment_Bone>
 		<Collision_Mesh>HP_HANGAR_05</Collision_Mesh>
 		<Damage_Particles>HP_HANGAR_05_EMIT</Damage_Particles>
-		<Fire_Bone_A>HP_HANGAR_05</Fire_Bone_A>
-		<Fire_Bone_B>HP_HANGAR_05</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>360</Fire_Cone_Width>
-		<Fire_Cone_Height>180</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Fighter_Bomber</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3250</Fire_Range_Distance>
 		
 	</Hardpoint>
 

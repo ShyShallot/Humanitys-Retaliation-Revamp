@@ -3,9 +3,9 @@
 
 	<GroundStructure Name="Abstract_Ground_Building">
 
-		<LandBehavior> TARGETING, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR, TURRET </LandBehavior>
+		<LandBehavior> TARGETING, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET, SPAWN_SQUADRON, WALK_LOCOMOTOR</LandBehavior>
 		
-		<Behavior>DUMMY_GROUND_STRUCTURE, TACTICAL_SELL, TURRET</Behavior>
+		<Behavior>DUMMY_GROUND_STRUCTURE, TACTICAL_SELL</Behavior>
 		
 		<Affiliation>Rebel, Terrorists, Empire, Swords</Affiliation>
 
@@ -31,8 +31,6 @@
 		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-		
-		<Property_Flags>Turret | TacticalStructure</Property_Flags>
 
 		<CategoryMask> Structure | Infantry | Vehicle </CategoryMask>
 
