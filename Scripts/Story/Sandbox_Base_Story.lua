@@ -58,22 +58,32 @@ function Definitions()
     Init_Restrict_List = {"VICTORS_TRUTH", "KARAVA", "TROVE", "NETHEROP"}
 
     Custom_Timed_Events = {
-        ["REBEL"] = {
-            [35] = {
-                UNSC_Income_Reward,
-            } 
-        },
-        ["All"] = {
-            [0] = {
-                Initial_Planet_Restrict,
+        ["SANDBOX_HALO_EVOLVED_UNSC | SANDBOX_HALO_EVOLVED_INNIES | SANDBOX_HALO_EVOLVED_COVENANT | SANDBOX_HALO_EVOLVED_SWORDS"] = {
+            ["REBEL"] = {
+                [0] = {
+                    UNSC_MOVIE_CE
+                },
+                [35] = {
+                    UNSC_Income_Reward,
+                }
             },
-            [35] = {
-                Planet_Unrestrict,
+            ["All"] = {
+                [0] = {
+                    Initial_Planet_Restrict,
+                },
+                [35] = {
+                    Planet_Unrestrict,
+                }
             }
         }
     }
 
+    ---@type string
+    Galactic_Map = ""
+
     Executed_Timed_Events = {}
+
+    Time_Event_Entry = nil
 end
 
 function Init_GC(messsage)
@@ -84,15 +94,18 @@ function Init_GC(messsage)
         return
     end
 
-    Sleep(3)
-
     Player = Find_Human_Player()
 
     Player_Name = string.upper(Player.Get_Faction_Name())
 
-    local Galactic_Map = GlobalValue.Get("Galactic_Map")
+    Sleep(3)
+
+    ---@type string
+    Galactic_Map = GlobalValue.Get("Galactic_Map")
 
     DebugMessage("%s -- Galactic Map: %s", tostring(Script), tostring(Galactic_Map))
+
+    Figure_Out_TEE(Galactic_Map)
     
     local Is_Single_Start = StringContains(Galactic_Map, "Sandbox_Halo_Random_Single")
 
@@ -182,26 +195,63 @@ function Flush(message)
     end
 end
 
+function Fart_Ass()
+    Game_Message("I JUST SHIT MY PANTS")
+end
+
+function Figure_Out_TEE(GC_Map)
+    DebugMessage("%s -- Figure_Out_TEE called with GC_Map: %s", tostring(Script), tostring(GC_Map))
+    for Maps, Entry in pairs(Custom_Timed_Events) do
+        local Map_List = split(Maps, " | ")
+
+        for _, Map in pairs(Map_List) do
+            DebugMessage("%s -- Checking map: %s", tostring(Script), tostring(Map))
+            if string.upper(Map) == string.upper(GC_Map) then
+                DebugMessage("%s -- Found matching map: %s, setting Time_Event_Entry", tostring(Script), tostring(Map))
+                Time_Event_Entry = Entry
+                return
+            end
+        end
+    end
+end
+
 function Execute_Custom_Events()
+
+    if Time_Event_Entry == nil then
+        return
+    end
+
     local Year = Get_Current_Week()
+    DebugMessage("%s -- Execute_Custom_Events called, current year: %s", tostring(Script), tostring(Year))
     
-    for Faction, Events in pairs(Custom_Timed_Events) do
+    for Faction, Events in pairs(Time_Event_Entry) do
+        DebugMessage("%s -- Processing faction: %s", tostring(Script), tostring(Faction))
         if Faction == "All" or string.upper(Faction) == Player_Name then
+            DebugMessage("%s -- Faction %s matches player %s", tostring(Script), tostring(Faction), tostring(Player_Name))
             for Event_Year, Functions in pairs(Events) do
+                DebugMessage("%s -- Checking event year: %s", tostring(Script), tostring(Event_Year))
                 if Event_Year <= Year then
+                    DebugMessage("%s -- Event year %s <= current year %s, checking if executed", tostring(Script), tostring(Event_Year), tostring(Year))
 
                     Executed_Timed_Events[Faction] = Executed_Timed_Events[Faction] or {}
 
                     if not Executed_Timed_Events[Faction][Event_Year] then
+                        DebugMessage("%s -- Executing functions for event year %s", tostring(Script), tostring(Event_Year))
                         for _, Function in pairs(Functions) do
+                            DebugMessage("%s -- Executing function: %s", tostring(Script), tostring(Function))
                             local success, err = pcall(Function)
 
                             if not success then
                                 DebugMessage("%s -- Custom Event Error: %s", tostring(Script), tostring(err))
+                            else
+                                DebugMessage("%s -- Function executed successfully", tostring(Script))
                             end
                         end
 
                         Executed_Timed_Events[Faction][Event_Year] = true
+                        DebugMessage("%s -- Marked event year %s as executed for faction %s", tostring(Script), tostring(Event_Year), tostring(Faction))
+                    else
+                        DebugMessage("%s -- Event year %s already executed for faction %s", tostring(Script), tostring(Event_Year), tostring(Faction))
                     end
                 end
             end
@@ -318,11 +368,15 @@ function Shield_Research_Test()
     end
 end
 
+function UNSC_MOVIE_CE()
+    Play_Bink_Movie("UNSC_Start_Space")
+end
+
 function UNSC_Income_Reward()
 
     local Player_Credits = Player.Get_Credits()
 
-    Player_Credits = Player_Credits * 4
+    Player_Credits = Player_Credits * 2
 
     Player.Give_Money(Player_Credits)
 end
