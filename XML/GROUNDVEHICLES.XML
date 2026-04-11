@@ -1391,7 +1391,7 @@
 		<Bank_Turn_Angle>180</Bank_Turn_Angle>
 		<Space_Layer></Space_Layer>
 		
-		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
+		<Stationary_Space_Layer></Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
 		<Layer_Z_Adjust> 80 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->

@@ -297,11 +297,11 @@
 		</HardPoints>
 
 
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 2</Reserve_Spawned_Units_Tech_0> -->
 
 		<Icon_Name>I_BUTTON_UNSC_MARATHON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -506,9 +506,9 @@
 			UNSC_HALCYON_MAC, HP_HALC_REACTOR
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Pelican_Squadron, 1</Reserve_Spawned_Units_Tech_0> -->
 
 		<Icon_Name>I_BUTTON_UNSC_HALYCON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -933,11 +933,11 @@
 			UNSC_SOF_ARCHER_16, HP_SOF_REACTOR
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0> -->
 
 		<Icon_Name>I_BUTTON_UNSC_SOF.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -1191,11 +1191,11 @@
 			
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0> -->
 
 		<Icon_Name>I_BUTTON_UNSC_EPOCH.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -1395,11 +1395,11 @@
 			
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 2</Reserve_Spawned_Units_Tech_0> -->
 
 		<Icon_Name>I_BUTTON_UNSC_USS_CONSTITUTION.TGA</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>

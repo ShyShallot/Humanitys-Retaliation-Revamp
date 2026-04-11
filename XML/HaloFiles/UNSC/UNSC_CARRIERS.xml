@@ -96,7 +96,7 @@
 			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_MAC, HP_MUSASHI_REACTOR 
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_1>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<!-- <Starting_Spawned_Units_Tech_1>Pelican_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_1>
 
@@ -114,7 +114,7 @@
 		<Reserve_Spawned_Units_Tech_3>Sabre_Squadron, 7</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Pelican_Squadron, 7</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>Baselard_Squadron, 8</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Late_Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Late_Longsword_Squadron, 8</Reserve_Spawned_Units_Tech_3> -->
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_UNSC_MUSASHI.tga</Icon_Name>

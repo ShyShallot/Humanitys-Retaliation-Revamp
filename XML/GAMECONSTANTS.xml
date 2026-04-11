@@ -614,7 +614,7 @@
 
 	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 6.0 -->
 	
-	<!-- These settings have been tuned to provide the best fps, ship response time, unified fleet movement, and prevent wacky ship pathing, at the cost of collision, to navigate around the removal of collision I have given ships a stronger adhesion to flying in formation, ships will try to navigate with and around eachother without collision checks, be wary this version is not super friendly with very large ships and you will likely see ships clipping into eachother -->
+	<!-- These settings have been tuned to provide the best fps, ship response time, unified fleet movement, and prevent wacky ship pathing, at the cost of collision, to navigate around the removal of collision I have given ships a stronger adhesion to flying in formation, ships will try to navigate with and around eachother without collision checks -->
 	
 	<!-- turn this to true to show prediction pathing , beware this causes fps loss in large scale movements -->
 	<ShouldDisplayPredictionPaths> false </ShouldDisplayPredictionPaths>
