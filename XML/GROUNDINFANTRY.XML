@@ -88,7 +88,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
 		<Wind_Disturbance_Strength>1</Wind_Disturbance_Strength>
@@ -251,7 +251,7 @@
 		<Targeting_Fire_Inaccuracy> Infantry, 2.5 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
@@ -411,7 +411,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -577,7 +577,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 80.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Projectile_Fire_Recharge_Seconds>6</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -753,7 +753,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 99.9 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -1144,9 +1144,9 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
-		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
+		<Shield_Points>420</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
 		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
@@ -1366,8 +1366,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Points>220</Shield_Points>
+		<Tactical_Health>428</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
@@ -1586,7 +1586,7 @@
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Tactical_Health>828</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
@@ -1761,7 +1761,6 @@
             		Desert, 			RI_INFANTRY_Forest.ALO,
             		Forest, 			RI_INFANTRY_Forest.ALO,
             		Swamp, 				RI_INFANTRY_Forest.ALO
-
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
@@ -1826,7 +1825,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
@@ -2052,7 +2051,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 
@@ -2227,11 +2226,10 @@
             		Desert, 			UNSC_INFANTRY_MEDIC.ALO,
             		Forest, 			UNSC_INFANTRY_MEDIC.ALO,
             		Swamp, 				UNSC_INFANTRY_MEDIC.ALO
-
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Behavior>SELECTABLE, ABILITY_COUNTDOWN</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, GARRISON_UNIT </LandBehavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING ,WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, HUNT, GARRISON_UNIT </LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -2293,7 +2291,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -2517,7 +2515,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>
 		
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -3080,7 +3078,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>
-		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
 		
 		<Hardpoints>UNSC_Infantry_Grenade</Hardpoints>
 

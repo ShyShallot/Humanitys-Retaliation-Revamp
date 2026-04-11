@@ -497,6 +497,28 @@
 	</Movie>
 
 
+	<!-- UNSC Victory Screen -->
+	
+	 <Movie Name="UNSC_Win_Space">
+
+      <Movie_File>Data\Art\Movies\Binked\UNSC_Galactic_Victory.bik</Movie_File>
+
+		<Halt_Game_Music> Yes </Halt_Game_Music>
+		
+      <Overlay>true</Overlay>
+	  
+   </Movie>
+   
+    <Movie Name="UNSC_Start_Space">
+
+      <Movie_File>Data\Art\Movies\Binked\rebels_win_space.bik</Movie_File>
+
+		<Halt_Game_Music> Yes </Halt_Game_Music>
+		
+      <Overlay>true</Overlay>
+	  
+   </Movie>
+
 
 
 
