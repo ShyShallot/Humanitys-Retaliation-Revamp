@@ -18,7 +18,11 @@ Spawn_Settings = {
                         ["UNSC_SINGLE_CHARON"] = {
                             Weight = 50,
                             Limit = -1
-                        }
+                        },
+						["UNSC_MUSASHI"] = {
+                            Weight = 3,
+                            Limit = -1
+                        },
                     },
                     Ground_Units = {
                         ["UNSC_DEPLOYABLE_TACTICAL_BARRACKS"] = {
@@ -55,15 +59,19 @@ Spawn_Settings = {
                     Structures = { "UNSC_BASE", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY" },
                     Space_Units = {
                         ["UNSC_BUCKLER"] = {
-                            Weight = 35,
+                            Weight = 30,
                             Limit = -1
                         },
                         ["UNSC_SINGLE_CHARON"] = {
-                            Weight = 50,
+                            Weight = 30,
+                            Limit = -1
+                        },
+						["UNSC_MUSASHI"] = {
+                            Weight = 3,
                             Limit = -1
                         },
                         ["UNSC_PHOENIX"] = {
-                            Weight = 5,
+                            Weight = 1,
                             Limit = -1
                         }
                     },
@@ -102,19 +110,23 @@ Spawn_Settings = {
                     Structures = { "UNSC_FORT", "R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "R_GROUND_HEAVY_VEHICLE_FACTORY", "COMMUNICATIONS_ARRAY_R" },
                     Space_Units = {
                         ["UNSC_BUCKLER"] = {
-                            Weight = 35,
+                            Weight = 30,
                             Limit = -1
                         },
                         ["UNSC_SINGLE_CHARON"] = {
-                            Weight = 35,
+                            Weight = 30,
+                            Limit = -1
+                        },
+						["UNSC_MUSASHI"] = {
+                            Weight = 3,
                             Limit = -1
                         },
                         ["UNSC_PHOENIX"] = {
-                            Weight = 5,
+                            Weight = 1,
                             Limit = -1
                         },
                         ["UNSC_EPOCH"] = {
-                            Weight = 2,
+                            Weight = 1,
                             Limit = -1
                         }
                     },
@@ -153,19 +165,23 @@ Spawn_Settings = {
                     Structures = { "UNSC_FORT" },
                     Space_Units = {
                         ["UNSC_BUCKLER"] = {
-                            Weight = 35,
+                            Weight = 30,
                             Limit = -1
                         },
                         ["UNSC_SINGLE_CHARON"] = {
-                            Weight = 35,
+                            Weight = 30,
+                            Limit = -1
+                        },
+						["UNSC_MUSASHI"] = {
+                            Weight = 3,
                             Limit = -1
                         },
                         ["UNSC_PHOENIX"] = {
-                            Weight = 5,
+                            Weight = 1,
                             Limit = -1
                         },
                         ["UNSC_EPOCH"] = {
-                            Weight = 2,
+                            Weight = 1,
                             Limit = -1
                         }
                     },
@@ -204,19 +220,23 @@ Spawn_Settings = {
                     Structures = { "UNSC_FORT" },
                     Space_Units = {
                         ["UNSC_BUCKLER"] = {
-                            Weight = 35,
+                            Weight = 30,
                             Limit = -1
                         },
                         ["UNSC_SINGLE_CHARON"] = {
-                            Weight = 35,
+                            Weight = 30,
+                            Limit = -1
+                        },
+						["UNSC_MUSASHI"] = {
+                            Weight = 3,
                             Limit = -1
                         },
                         ["UNSC_PHOENIX"] = {
-                            Weight = 5,
+                            Weight = 1,
                             Limit = -1
                         },
                         ["UNSC_EPOCH"] = {
-                            Weight = 2,
+                            Weight = 1,
                             Limit = -1
                         }
                     },
@@ -649,10 +669,10 @@ Spawn_Settings = {
             Station = {
                 Default = {
                     Power = {
-                        Space = 9000,
+                        Space = 10000,
                         Ground = 600,
                     },
-                    Structures = {"UNSC_FARM"},
+                    Structures = {"UNSC_FARM","R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "UNSC_TITANIUM_MINE"},
                     Space_Units = {
                         ["TERROR_BUCKLER"] = {
                             Weight = 40,
@@ -704,10 +724,10 @@ Spawn_Settings = {
                 },
                 Low = {
                     Power = {
-                        Space = 15000,
+                        Space = 20000,
                         Ground = 900,
                     },
-                    Structures = {"UNSC_FARM"},
+                    Structures = {"UNSC_FARM","R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "UNSC_TITANIUM_MINE"},
                     Space_Units = {
                         ["TERROR_BUCKLER"] = {
                             Weight = 40,
@@ -759,10 +779,10 @@ Spawn_Settings = {
                 },
                 Medium = {
                     Power = {
-                        Space = 25000,
+                        Space = 30000,
                         Ground = 1200,
                     },
-                    Structures = {"UNSC_FARM"},
+                    Structures = {"UNSC_FARM","R_GROUND_BARRACKS", "R_GROUND_LIGHT_VEHICLE_FACTORY", "UNSC_TITANIUM_MINE"},
                     Space_Units = {
                         ["TERROR_BUCKLER"] = {
                             Weight = 40,
