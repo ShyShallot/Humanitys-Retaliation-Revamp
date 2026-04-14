@@ -7124,7 +7124,7 @@
 
     <CommandBarComponent Name="tutorial_text">
             <Type>TextButton</Type>
-            <Scale>1.0</Scale>
+            <Scale>0.98</Scale>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
             <Text_Offset>25 -20</Text_Offset>

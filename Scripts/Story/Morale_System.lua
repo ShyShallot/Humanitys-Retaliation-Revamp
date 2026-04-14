@@ -81,7 +81,7 @@ function Definitions()
 
         local n = tableLength(self.Recent)
 
-        local Recent_Cap = 8
+        local Recent_Cap = 5
 
         if n > Recent_Cap then
             for i=n, Recent_Cap + 1, -1 do
