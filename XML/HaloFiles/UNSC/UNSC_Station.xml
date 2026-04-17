@@ -27,9 +27,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 		
 			Rebel,
-				UNSC_Cargo_Depot_Skirmish,
+				<!-- UNSC_Cargo_Depot_Skirmish, -->
 				RS_Level_Two_Starbase_Upgrade,
-				UNSC_PARIS_SPAWNER
+				
 			<!--Pelican_Squadron,
 				Shortsword_Squadron,
 				Baselard_Squadron,   
@@ -53,7 +53,8 @@
 				UNSC_AUTUMN,
 				UNSC_VINDICATION,
 				UNSC_EPOCH,
-				UNSC_INFINITY -->
+				UNSC_INFINITY
+				UNSC_PARIS_SPAWNER				-->
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -150,7 +151,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				UNSC_Cargo_Depot_Skirmish,
+				<!-- UNSC_Cargo_Depot_Skirmish, -->
 				UNSC_Light_Shipyard_Skirmish,
 				RS_Level_Three_Starbase_Upgrade,
 			<!--Pelican_Squadron,
@@ -263,7 +264,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				UNSC_Cargo_Depot_Skirmish,
+				<!-- UNSC_Cargo_Depot_Skirmish, -->
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				RS_Level_Four_Starbase_Upgrade,
@@ -384,7 +385,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				UNSC_Cargo_Depot_Skirmish,
+				<!-- UNSC_Cargo_Depot_Skirmish, -->
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				UNSC_Heavy_Shipyard_Skirmish,
@@ -512,7 +513,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				UNSC_Cargo_Depot_Skirmish,
+				<!-- UNSC_Cargo_Depot_Skirmish, -->
 				UNSC_Light_Shipyard_Skirmish,
 				UNSC_Medium_Shipyard_Skirmish,
 				UNSC_Heavy_Shipyard_Skirmish,

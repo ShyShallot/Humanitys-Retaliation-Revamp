@@ -381,9 +381,9 @@
 			<!--HP_POSEIDON_REACTOR,--> UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Saber, 4</Starting_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>Saber, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Late_Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds> -->
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_UNSC_POSEIDON.tga</Icon_Name>
