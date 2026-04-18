@@ -739,7 +739,7 @@
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
 		<Land_FOW_Reveal_Range>1050.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>425.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Scarab_AA_GUN</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
@@ -815,7 +815,7 @@
 		
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>320.0</Death_Persistence_Duration>
+		<Death_Persistence_Duration>620.0</Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Damage_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 
