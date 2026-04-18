@@ -2009,8 +2009,8 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		
-		<Starting_Spawned_Units_Tech_0>Stormtrooper, 45</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper, 25</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 3</Starting_Spawned_Units_Tech_0>
 		
 		<Reserve_Spawned_Units_Tech_0>Stormtrooper, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, 9998</Reserve_Spawned_Units_Tech_0>
@@ -2065,9 +2065,9 @@
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
 		
-		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 8</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 6</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 16</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_HUNTER, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 8</Starting_Spawned_Units_Tech_0>
 		
 		<Reserve_Spawned_Units_Tech_0>COVN_HUNTER, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>COVN_ELITE_GENERAL, 9998</Reserve_Spawned_Units_Tech_0>
@@ -2126,9 +2126,9 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 15</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 18</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SPMAT_Walker, 8</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_AA_WRAITH, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>COVN_GROUND_BANSHEE, 9</Starting_Spawned_Units_Tech_0>
 		
 		<Reserve_Spawned_Units_Tech_0>SPMAT_Walker, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>COVN_AA_WRAITH, 9998</Reserve_Spawned_Units_Tech_0>
