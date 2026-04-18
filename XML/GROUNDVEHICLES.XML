@@ -2364,7 +2364,7 @@
 		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Space_Layer> </Space_Layer>
 		
-		<Stationary_Space_Layer>  </Stationary_Space_Layer> <!-- Land -->
+		<Stationary_Space_Layer> </Stationary_Space_Layer> <!-- Land -->
 		<PathFrameDelay> 4 </PathFrameDelay>
 		
 		<Layer_Z_Adjust> 80 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
@@ -2508,10 +2508,7 @@
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-		<Movement_Animation_Speed> 0.1 </Movement_Animation_Speed>
-		<Walk_Animation_Speed> .269 </Walk_Animation_Speed>
-		<Crouch_Animation_Speed> .393 </Crouch_Animation_Speed>
-		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Idle_Anim_00_Rate_Mod>2.0</Idle_Anim_00_Rate_Mod>
 
 	</GroundVehicle>
 
@@ -2724,7 +2721,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 	
-		<GroundVehicle Name="UNSC_WOLVERINE">  <!-- UNSC M260 AA Wolverine (Light Vehicle Foundry)-->
+		<GroundVehicle Name="UNSC_WOLVERINE">  <!-- UNSC M360 AA Wolverine (Light Vehicle Foundry)-->
 	
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
@@ -2735,7 +2732,7 @@
   		<Encyclopedia_Text>TEXT_TOOLTIP_MPTL</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_AA</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>UNSC_M260_WOLVERINE.ALO</Land_Model_Name>
+		<Land_Model_Name>UNSC_M360_AA_APC.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
 		
 		<Mass>1.0</Mass>
@@ -2778,26 +2775,21 @@
 		<Deploys>Yes</Deploys>
 		<Deployment_Anim_Rate>1.6</Deployment_Anim_Rate>
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
-		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 		
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Apply_Z_Turret_Rotate_To_Axis>1</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>2</Apply_Y_Turret_Rotate_To_Axis>
-
-		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>       
-		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
-
+		
 		<Projectile_Types>Proj_UNSC_M260_AA</Projectile_Types>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
-		<Targeting_Fire_Inaccuracy_Fixed_Radius> 50 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<Targeting_Max_Attack_Distance>2650.0</Targeting_Max_Attack_Distance>
 
+		<Fire_Category_Restrictions>Infantry, Vehicle</Fire_Category_Restrictions>
 		<Attack_Category_Restrictions> Infantry | Vehicle | LandHero </Attack_Category_Restrictions>
 
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
@@ -2816,7 +2808,6 @@
 		<Death_Explosions>Large_Damage_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
-
 
 		<SFXEvent_Fire>Unit_UNSC_MISSILE</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_MPTL</SFXEvent_Select>
@@ -3605,7 +3596,7 @@
 
 		<Behavior> SELECTABLE </Behavior>
 		
-		<LandBehavior> AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior> AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN, TREAD_SCROLL</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -3741,7 +3732,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 
-		<Land_Model_Name>UNSC_GAUSSHOG.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_WARTHOG_M12G1.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.13</Scale_Factor>
 		<Max_Speed>1.3</Max_Speed>
@@ -3930,7 +3921,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 
-		<Land_Model_Name>UNSC_ROCKETHOG.alo</Land_Model_Name>
+		<Land_Model_Name>UNSC_WARTHOG_M12R.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.13</Scale_Factor>
 		<Max_Speed>1.3</Max_Speed>
@@ -3996,15 +3987,10 @@
 		<Targeting_Fire_Inaccuracy> LandHero, 55.0 </Targeting_Fire_Inaccuracy>
 		
 		<Attack_Category_Restrictions> Transport </Attack_Category_Restrictions>
-		
-		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles> 99 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
-		<Projectile_Types>M19_102MM_Rocket</Projectile_Types>
+		<Projectile_Types>M41_102MM_Rocket</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>

@@ -2899,7 +2899,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ONAGER.alo</Land_Model_Name>
 
-		<Max_Speed>150.5</Max_Speed>
+		<Max_Speed>50.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
@@ -3147,7 +3147,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>12.5</Max_Speed>
+		<Max_Speed>13.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3157,11 +3157,11 @@
 		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		<Projectile_Target_Point_On_Terrain> True </Projectile_Target_Point_On_Terrain> -->
 		
-		<Hardpoints>WOLVERINE_CLUSTER_MISSILE</Hardpoints>
+		<!-- <Hardpoints>WOLVERINE_CLUSTER_MISSILE</Hardpoints> -->
 
-		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>1000.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>70.0</Projectile_Damage>
+		<Projectile_Damage>170.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 30 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
 		
