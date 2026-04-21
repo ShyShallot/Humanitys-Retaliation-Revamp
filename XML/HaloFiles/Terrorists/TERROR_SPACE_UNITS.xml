@@ -147,7 +147,7 @@
 
 	<SpaceUnit Name="TERROR_MARATHON">
 	
-		<Text_ID>STOLEN_MARATHON</Text_ID>
+		<Text_ID>TEXT_STOLEN_MARATHON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MARATHON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
@@ -346,7 +346,7 @@
 
 	<SpaceUnit Name="TERROR_HALCYON">
 	
-		<Text_ID>STOLEN_HALCYON</Text_ID>
+		<Text_ID>TEXT_STOLEN_HALCYON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALCYON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
@@ -553,7 +553,7 @@
 	<SpaceUnit Name="TERROR_PHOENIX">
 
 		<Is_Named_Hero>No</Is_Named_Hero>
-		<Text_ID>STOLEN_PHOENIX</Text_ID>
+		<Text_ID>TEXT_STOLEN_PHOENIX</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_PHOENIX TEXT_TOOLTIP_UNSC_PHOENIX_COMPLIMENT TEXT_TOOLTIP_UNSC_PHOENIX_BUFF TEXT_TOOLTIP_UNSC_PHOENIX_BUFF_2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COLONY </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
@@ -797,7 +797,7 @@
 	<SpaceUnit Name="TERROR_EPOCH">
 
 		<Is_Named_Hero>No</Is_Named_Hero>
-		<Text_ID>STOLEN_EPOCH</Text_ID>
+		<Text_ID>TEXT_STOLEN_EPOCH</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_EPOCH </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
@@ -1000,7 +1000,7 @@
 
 	   <SpaceUnit Name="TERROR_MUSASHI">
 	   
-		<Text_ID>STOLEN_MUSASHI</Text_ID>
+		<Text_ID>TEXT_STOLEN_MUSASHI</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI TEXT_TOOLTIP_UNSC_MUSASHI_COMPLIMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ESCORT_CARRIER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -1281,7 +1281,7 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="TERROR_HALBERD">
-		<Text_ID>STOLEN_HALBERD</Text_ID>
+		<Text_ID>TEXT_STOLEN_HALBERD</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HALBERD </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -1473,7 +1473,7 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="TERROR_STALWART">
-		<Text_ID>STOLEN_STALWART</Text_ID>
+		<Text_ID>TEXT_STOLEN_STALWART</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_STALWART </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -1673,7 +1673,7 @@
 	
 	
 	<SpaceUnit Name="TERROR_CHARON">
-		<Text_ID>STOLEN_CHARON</Text_ID>
+		<Text_ID>TEXT_STOLEN_CHARON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_CHARON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -2071,7 +2071,7 @@
 	
 	<!--<Squadron Name="TERROR_BUCKLER_SQUAD">
 
-		<Text_ID>STOLEN_BUCKLER_FLIGHT</Text_ID>
+		<Text_ID>TEXT_STOLEN_BUCKLER_FLIGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUCKLER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
 		

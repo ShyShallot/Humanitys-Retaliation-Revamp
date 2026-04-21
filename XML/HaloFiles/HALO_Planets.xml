@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <Planets>
 	<Planet Name="Reach">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
@@ -563,7 +563,7 @@
 	</Planet>
 	<Planet Name="Eridanus_Asteroid_Belt"><!-- INSURRECTION Fortress -->
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-		<Text_ID>ERIDANUS_ASTEROIDS</Text_ID>
+		<Text_ID>TEXT_PLANET_ERIDANUS_ASTEROIDS</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
@@ -3129,7 +3129,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_ALGOLIS_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3182,7 +3182,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_ALPHA_CORVI_II_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3235,7 +3235,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_ANDESIA_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3288,7 +3288,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_BETA_GABRIEL_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3341,7 +3341,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_BIKO_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3394,7 +3394,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_BLISS_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3447,7 +3447,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_CAPELLA_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3500,7 +3500,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_CASSIDY_III_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3553,7 +3553,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_CHI_RHO_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3606,7 +3606,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_CIRCINIUS_IV_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3659,7 +3659,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_TRIBUTE_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3712,7 +3712,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_CONCORD_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3765,7 +3765,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_DRACO_III_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3818,7 +3818,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_DWARKA_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3871,7 +3871,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_LEVOSIA_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3924,7 +3924,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_JUPITER_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3977,7 +3977,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_VICTORIA_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -4030,7 +4030,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_JERICHO_VII_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -4083,7 +4083,7 @@
 		<Describe_History>TEXT_PLANET_NAME_INFO_HIS</Describe_History>
 		<Planet_Ability_Name>TEXT_PLANET_NAME_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NAME_ENC</Planet_Ability_Description>
-		<Encyclopedia_Text>HALO_PLANET_NAME_ENC TEXT_SPACE</Encyclopedia_Text>
+		<Encyclopedia_Text>HALO_PLANET_THE_RUBBLE_ENC TEXT_SPACE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>

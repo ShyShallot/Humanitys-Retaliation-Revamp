@@ -371,6 +371,9 @@ function Definitions()
         Planets = {},
         Starting_Year = 2490,
         Current_Year = 2490,
+        Total_Auto_Resolves = 0,
+        Easter_Egg_Triggered = false,
+        Auto_Resolve_Trigger = 8,
     }
 
     Morale_Value_Status = {
@@ -737,6 +740,8 @@ function Init_Morale_System(message)
             Random_Events.Distribution_Table:Insert(Random_Event_Name,Weight)
         end
 
+        Global_Values.Auto_Resolve_Trigger = EvenMoreRandom(6,12)
+
         Set_Next_State("Flush")
     end
 end
@@ -751,6 +756,12 @@ function Morale_System_Update(message)
         --DebugMessage("%s -- Win Streak: %s, Loss Streak: %s", tostring(Script), tostring(win_streak), tostring(loss_streak))
 
         --DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(global_morale_level))
+
+        if Global_Values.Total_Auto_Resolves == Global_Values.Auto_Resolve_Trigger and not Easter_Egg_Triggered then
+            Play_Bink_Movie("Not_An_Easter_Egg")
+
+            Easter_Egg_Triggered = true
+        end
 
         Reset_Morale_Entries()
 
@@ -1345,10 +1356,12 @@ function Morale_Kill_Ratio_Influence(Base_Morale, is_loss)
     DebugMessage("%s -- Kill Ratio: %s", tostring(Script), tostring(Kill_Ratio))
 
     if Kill_Ratio == nil then
+        Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
         return Base_Morale
     end
 
     if Kill_Ratio <= 0 then -- if this is true we didnt get the proper kill ratio
+        Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
         return Base_Morale
     end
 

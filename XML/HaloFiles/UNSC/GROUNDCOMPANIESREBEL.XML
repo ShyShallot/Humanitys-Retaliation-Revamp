@@ -372,7 +372,7 @@
 	
 	
 	<GroundCompany Name="Warthog_Platoon">  <!-- Warthog Platoon - Armored Recon -->
-		<Text_ID>Warthog_Armored_Recon</Text_ID>
+		<Text_ID>TEXT_UNSC_WARTHOG_ARMORED_RECON</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Underworld_Merc </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>OOPS_ALL_WARTHOGS</Encyclopedia_Text>
@@ -447,7 +447,7 @@
 	
 	<GroundCompany Name="Imperial_Heavy_Scout_Squad"> <!-- Mantis Based MECHAnized Division -->
 	
-		<Text_ID>UNSC_MECHANIZED_MARINE_MANTIS_VARIANT</Text_ID>
+		<Text_ID>TEXT_UNSC_MECHANIZED_MARINE_MANTIS_VARIANT</Text_ID>
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -740,7 +740,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
         
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
@@ -748,7 +748,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_MAMMOTH_HQ"> <!-- Mammoth -->
-		<Text_ID>Mammoth</Text_ID>
+		<Text_ID>TEXT_UNSC_MAMMOTH_HQ</Text_ID>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank AT_ST_Walker AT_AT_Walker </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -815,7 +815,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
         
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
@@ -823,8 +823,8 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_MASTER_CHIEF_HERO"> 
-		<Text_ID>UNSC_MASTER_CHIEF</Text_ID>
-		<Encyclopedia_Text>UNSC_MASTER_CHIEF TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNSC_MASTER_CHIEF</Text_ID>
+		<Encyclopedia_Text>TEXT_UNSC_MASTER_CHIEF TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 	
 		<Is_Stealth_Company>Yes</Is_Stealth_Company>
@@ -942,7 +942,7 @@
 	</GroundCompany> 
 	
 	<GroundCompany Name="UNSC_SPARTAN_SQUAD"> 
-		<Text_ID>UNSC-SPARTAN-II</Text_ID>
+		<Text_ID>TEXT_UNSC_SPARTAN_2</Text_ID>
 		<Encyclopedia_Text>UNSC_SPARTAN_II_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 	
@@ -1061,7 +1061,7 @@
 	</GroundCompany> 
 	
 	<GroundCompany Name="Rebel_Infantry_Squad"> 
-		<Text_ID>UNSC-Marines</Text_ID>
+		<Text_ID>TEXT_UNSC_MARINE_SQUAD</Text_ID>
 		<Encyclopedia_Text>UNSC_MECHANIZED_MARINE_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>MECHANIZED_DIVISION</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1156,7 +1156,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_GROUND_BARRACKS"> 
-		<Text_ID>UNSC_DEPLOYABLE_GROUND_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNSC_DEPLOYABLE_GROUND_BARRACKS</Text_ID>
 		<Encyclopedia_Text> UNSC_DEPLOYABLE_GROUND_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>MECHANIZED_DIVISION</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1227,7 +1227,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_ANTI_TANK_PLATOON">
-		<Text_ID>UNSC_ANTI_TANK_PLATOON</Text_ID>
+		<Text_ID>TEXT_UNSC_ANTI_TANK_PLATOON</Text_ID>
 		<Encyclopedia_Text>UNSC_MECHANIZED_AT_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>MECHANIZED_DIVISION</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> TIE_Crawler </Encyclopedia_Good_Against>
@@ -1338,7 +1338,7 @@
 	<!-- This unit is supposed to be SOLO.  DO NOT add another infiltrator to this team.  -PP 11/30/05 -->
 
 	 <GroundCompany Name="Rebel_Infiltrator_Team"> <!-- Infantry Scouting Division -->
-		<Text_ID>UNSC_Infantry_Scouting_Division</Text_ID>
+		<Text_ID>TEXT_UNSC_INFANTRY_SCOUTING_DIVISION</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -1641,7 +1641,7 @@
 	<!-- Base Building - This is the new unit system -->
 
 	<GroundCompany Name="UNSC_DEPLOYABLE_TACTICAL_BARRACKS"> 
-		<Text_ID>TEXT_UNIT_UNSC_TACTICAL_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNSC_TACTICAL_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1712,7 +1712,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_ADVANCED_BARRACKS"> 
-		<Text_ID>TEXT_UNIT_UNSC_ADVANCED_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNSC_ADVANCED_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1783,7 +1783,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_LIGHT_VEHICLE_FOUNDRY"> 
-		<Text_ID>TEXT_UNIT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1854,7 +1854,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_HEAVY_VEHICLE_FOUNDRY"> 
-		<Text_ID>TEXT_UNIT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1926,7 +1926,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_LIGHT_AIR_COMMAND"> 
-		<Text_ID>TEXT_UNIT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
+		<Text_ID>TEXT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
@@ -1999,7 +1999,7 @@
 	
 	
 	<GroundCompany Name="UNSC_DEPLOYABLE_HEAVY_BOMBER_COMMAND"> 
-		<Text_ID>TEXT_UNIT_UNSC_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
+		<Text_ID>TEXT_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>

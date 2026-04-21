@@ -1309,7 +1309,7 @@
 	<SpaceUnit Name="UNSC_CONSTITUTION"> <!-- IS THAT A FUCKING??? -->
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>USS_Constitution</Text_ID>
+		<Text_ID>TEXT_USS_CONSTITUTION</Text_ID>
 		<Encyclopedia_Text> A_SHIP_IN_SPACE?_A_SPACE_SHIP? </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>

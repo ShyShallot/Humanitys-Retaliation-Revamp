@@ -140,7 +140,7 @@
 	<SpecialStructure Name="COVN_Infinity_Drydock">
         <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
 
-        <Text_ID>INF-Dockyard</Text_ID>
+        <Text_ID>TEXT_COVN_MASSIVE_DRYDOCK</Text_ID>
         <Encyclopedia_Text> HALO_SHIPYARD_INFINITY </Encyclopedia_Text>
 
 		<Space_Model_Name>COVN_Shipyard_Large.ALO</Space_Model_Name>
@@ -160,8 +160,8 @@
 	<SpecialStructure Name="COVN_Military_Academy">
         <Variant_Of_Existing_Type>COVN_Light_Shipyard</Variant_Of_Existing_Type>
 
-        <Text_ID>Military-Academy</Text_ID>
-        <Encyclopedia_Text> COVN-MILITARY-ACADEMY </Encyclopedia_Text>
+        <Text_ID>TEXT_COVN_MILITARY_ACADEMY</Text_ID>
+        <Encyclopedia_Text> TEXT_COVN_MILITARY_ACADEMY </Encyclopedia_Text>
 
 		<Space_Model_Name>COVN_SHIPYARD_03_A.ALO</Space_Model_Name>
 

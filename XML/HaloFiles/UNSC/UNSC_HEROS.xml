@@ -392,7 +392,7 @@
 
 		<Variant_Of_Existing_Type> UNSC_HALCYON </Variant_Of_Existing_Type>
 	
-		<Text_ID>Pillar-of-HAH-Gotteeem</Text_ID>
+		<Text_ID>TEXT_UNSC_POA</Text_ID>
 	
 	<!--<Text_ID>TEXT_UNIT_UNSC_HERO_CPT_KEYES</Text_ID> -->
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_CPT_KEYES TEXT_TOOLTIP_UNSC_HALCYON_HONEYCOMB TEXT_TOOLTIP_UNSC_HERO_CPT_BUFF </Encyclopedia_Text>
@@ -968,7 +968,7 @@
 	</SpaceUnit>
 
 	<Squadron Name="B312_Squadron">
-		<Text_ID>B312-EX1-SABRE</Text_ID>
+		<Text_ID>TEXT_UNSC_B312</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HERO_B312 TEXT_TOOLTIP_UNSC_SABRE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>

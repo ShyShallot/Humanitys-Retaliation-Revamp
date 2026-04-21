@@ -519,4 +519,12 @@
 	  
    </Movie>
 
+   <Movie Name="Not_An_Easter_Egg">
+		<Movie_File>Data\Art\Movies\Binked\Not_An_Easter_Egg.bik</Movie_File>
+
+		<Halt_Game_Music> Yes </Halt_Game_Music>
+		
+      	<Overlay>true</Overlay>
+   </Movie>
+
 </Movies>

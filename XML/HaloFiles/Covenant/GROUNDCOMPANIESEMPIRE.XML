@@ -65,7 +65,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="Imperial_Anti_Aircraft_Company">
-		<Text_ID>DEFINITELY-A-SCARAB</Text_ID>
+		<Text_ID>TEXT_COVN_SCARAB</Text_ID>
 		<Encyclopedia_Good_Against> Snowspeeder Y-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -183,7 +183,7 @@
 	</GroundCompany>
 
 	<GroundCompany Name="Imperial_Artillery_Corp">
-		<Text_ID>COVN_WRAITH_DIVISION</Text_ID>
+		<Text_ID>TEXT_COVN_WRAITH_DIVISION</Text_ID>
 		<Encyclopedia_Good_Against> UC_Rebel_Buildable_Anti_Vehicle_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank Plex_Soldier </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -308,7 +308,7 @@
 	</GroundCompany> -->
 	
 	<GroundCompany Name="Imperial_Stormtrooper_Squad">  <!-- Covenant Elite Company -->
-		<Text_ID>Zealots</Text_ID>
+		<Text_ID>TEXT_COVN_ZEALOTS</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -419,7 +419,7 @@
 	
 	<GroundCompany Name="COVN_HUNTER_SQUAD"> 
 	
-		<Text_ID>HUNTERS</Text_ID>
+		<Text_ID>TEXT_COVN_HUNTERS</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>

@@ -342,7 +342,7 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>UNSC_MANTIS</Text_ID>
+		<Text_ID>TEXT_UNSC_MANTIS</Text_ID>
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>UNSC_MANTIS</Encyclopedia_Text>
@@ -673,7 +673,7 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>75.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>DEFINITELY-A-SCARAB</Text_ID>
+		<Text_ID>TEXT_COVN_SCARAB</Text_ID>
 		<Encyclopedia_Good_Against> Snowspeeder </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>SCARAB</Encyclopedia_Text>
@@ -892,7 +892,7 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>125.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>COVN_WRAITH_PLACEHOLDER</Text_ID>
+		<Text_ID>TEXT_COVN_WRAITH</Text_ID>
 		<Encyclopedia_Good_Against> UC_Rebel_Buildable_Anti_Vehicle_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank Plex_Soldier Destroyer_Droid</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SPMA</Encyclopedia_Text>
@@ -1148,7 +1148,7 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>125.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>COVN_AA_WRAITH_PLACEHOLDER</Text_ID>
+		<Text_ID>TEXT_COVN_WRAITH_AA</Text_ID>
 		<Encyclopedia_Good_Against> UC_Rebel_Buildable_Anti_Vehicle_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank Plex_Soldier Destroyer_Droid</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SPMA</Encyclopedia_Text>
@@ -3159,7 +3159,7 @@
 	
 		<GroundVehicle Name="UNSC_MAMMOTH">   <!-- UNSC MAMMOTH (Is its own Unit that spawns Units basically a building with wheels)-->
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>UNSC_MAMMOTH</Text_ID>
+		<Text_ID>TEXT_UNSC_MAMMOTH</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
@@ -3547,7 +3547,7 @@
 	<GroundVehicle Name="UNSC_Warthog">   <!-- Light Vehicle Foundry -->
 
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>UNSC_WARTHOG</Text_ID>
+		<Text_ID>TEXT_UNSC_WARTHOG</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
@@ -3720,7 +3720,7 @@
 
 	<GroundVehicle Name="UNSC_Gausshog">   <!-- Light Vehicle Foundry -->
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>UNSC_GaussHOG</Text_ID>
+		<Text_ID>TEXT_UNSC_GAUSSHOG</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
@@ -3909,7 +3909,7 @@
 	
 		<GroundVehicle Name="UNSC_ROCKETHOG">   <!-- Light Vehicle Foundry -->
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>UNSC_ROCKETHOG</Text_ID>
+		<Text_ID>TEXT_UNSC_ROCKETHOG</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
@@ -4314,10 +4314,10 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>Scorpion_Tank</Text_ID>
+		<Text_ID>TEXT_UNSC_SCORPION</Text_ID>
 		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>UNSC_SCORPION_TANK.ALO</Land_Model_Name>
@@ -4481,10 +4481,10 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>Scorpion_Tank</Text_ID>
+		<Text_ID>TEXT_UNSC_SCORPION</Text_ID>
 		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 	<!--<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY</Land_Model_Name> More Traditional model -->
 		<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY_CONCEPT.alo</Land_Model_Name> <!-- concept art model -->
@@ -4648,10 +4648,10 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>Scorpion_Tank</Text_ID>
+		<Text_ID>TEXT_UNSC_SCORPION</Text_ID>
 		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>UNSC_SCORPION_TANK_SUNDEVIL.ALO</Land_Model_Name>
@@ -4815,10 +4815,10 @@
 		<Blob_Shadow_Below_Detail_Level>-1</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>0.0, 0.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Text_ID>Scorpion_Tank</Text_ID>
+		<Text_ID>TEXT_UNSC_SCORPION</Text_ID>
 		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-  		<Encyclopedia_Text>Scorpion_Tank</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNSC_SCORPION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>UNSC_SCORPION_TANK_RHINO.ALO</Land_Model_Name>

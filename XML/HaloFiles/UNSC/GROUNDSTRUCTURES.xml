@@ -2207,7 +2207,7 @@
 	<SpecialStructure Name="UNSC_PROJECT_ORION"> <!-- Spartan Program -->
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 
-		<Text_ID>PROJECT_ORION</Text_ID>
+		<Text_ID>TEXT_UNSC_PROJECT_ORION</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_BUILDING_PROJECT_ORION </Encyclopedia_Text>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -2269,7 +2269,7 @@
 		<Build_Time_Seconds>360</Build_Time_Seconds> <!-- Needs Tweaking -->
 		
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
-		<Build_Countdown_Text_ID> PROJECT_ORION_SPARTAN_II_PROGRAM </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_ID> TEXT_TIMER_PROJECT_ORION_SPARTAN_II_PROGRAM </Build_Countdown_Text_ID>
 		<Build_Countdown_Text_RGBA> 55, 175, 28, 255 </Build_Countdown_Text_RGBA>
 		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
 		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
@@ -2724,7 +2724,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_TACTICAL_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNSC_TACTICAL_BARRACKS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2784,7 +2784,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_ADVANCED_BARRACKS</Text_ID>
+		<Text_ID>TEXT_UNSC_ADVANCED_BARRACKS</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_ADVANCED_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2850,7 +2850,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_UNSC_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2912,7 +2912,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_UNSC_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2974,7 +2974,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_LIGHT_AIR_COMMAND</Text_ID>
+		<Text_ID>TEXT_UNSC_LIGHT_AIR_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -3027,7 +3027,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
+		<Text_ID>TEXT_UNSC_HEAVY_BOMBER_COMMAND</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		

@@ -1982,7 +1982,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>COVN_STANDARD_HALL</Text_ID>
+		<Text_ID>TEXT_COVN_STANDARD_HALL</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_TACTICAL_HALL </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2037,7 +2037,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>COVN_ADVANCED_HALL</Text_ID>
+		<Text_ID>TEXT_COVN_ADVANCED_HALL</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_ADVANCED_HALL </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2096,7 +2096,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>COVN_LIGHT_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_COVN_LIGHT_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
@@ -2156,7 +2156,7 @@
 
 		<Variant_Of_Existing_Type> Abstract_Ground_Building </Variant_Of_Existing_Type>
 
-		<Text_ID>COVN_HEAVY_VEHICLE_FOUNDRY</Text_ID>
+		<Text_ID>TEXT_COVN_HEAVY_VEHICLE_FOUNDRY</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_COVN_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
