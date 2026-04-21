@@ -43,7 +43,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- change both of these values to adjust height (Change both to be consistent) -->
+		<Layer_Z_Adjust> 0 </Layer_Z_Adjust> <!-- these need to exist -->
 		<Hover_Offset> 0.0 </Hover_Offset>
 		
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
