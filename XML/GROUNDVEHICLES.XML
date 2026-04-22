@@ -3357,7 +3357,7 @@
 	
 	<GroundVehicle Name="UNSC_ROCKETGOOSE">    <!-- Standard Barracks -->
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>UNSC_ROCKETHOG</Text_ID>
+		<Text_ID>UNSC_MONGOOSE</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
   		<Encyclopedia_Text>MODELING_IS_HARD</Encyclopedia_Text>
@@ -3405,7 +3405,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>

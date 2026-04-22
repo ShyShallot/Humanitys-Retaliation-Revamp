@@ -612,7 +612,7 @@
 	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
-	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 6.0 -->
+	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 7.0 -->
 	
 	<!-- These settings have been tuned to provide the best fps, ship response time, unified fleet movement, and prevent wacky ship pathing, at the cost of collision, to navigate around the removal of collision I have given ships a stronger adhesion to flying in formation, ships will try to navigate with and around eachother without collision checks -->
 	
@@ -689,7 +689,7 @@
 	<WaitOperatorBaseFrameTime> 0 </WaitOperatorBaseFrameTime>
 	
 	<!-- The fraction of normal movement speed a ship is allowed to use while it is “waiting” for other ships in a formation. -->
-	<WaitOperatorSpeedCoefficient> 1 </WaitOperatorSpeedCoefficient>
+	<WaitOperatorSpeedCoefficient> 0.75 </WaitOperatorSpeedCoefficient>
 	
 	<!-- How aggressively the engine predicts (looks ahead to) the ship’s future facing direction while it is moving -->
 	<!-- It is part of the facing smoothing and prediction system, not the pathfinder -->
@@ -709,7 +709,7 @@
 	<!-- How much extra pathfinding cost is added when a ship’s planned path goes outside the playable map boundaries. -->
 	<!-- 40 = strong avoidance of map boundaries -->
 	<!-- 100 = Extreme avoidance -->
-	<OffMapCostPenalty> 100.0 </OffMapCostPenalty>
+	<OffMapCostPenalty> 999.0 </OffMapCostPenalty>
 	
 	<!-- How often (in frames) the engine updates the spatial tracking trees for space objects -->
 	<!-- object positions, object bounding volumes, spatial tree rebalancing, proximity queries, target acquisition, sensor checks, projectile tracking, formation slot updates -->
@@ -735,7 +735,7 @@
 	
 	<!-- Penalizes a movement path if it overlaps with another moving obstacle -->
 	<!-- we want this to be 0 if you want brute force performance pathing -->
-	<DynamicObstacleOverlapPenalty> 0.1 </DynamicObstacleOverlapPenalty> <!-- was 0.5 in version 5.0 -->
+	<DynamicObstacleOverlapPenalty> 0.01 </DynamicObstacleOverlapPenalty> <!-- was 0.1 in version 6.0 -->
 	
 	<!-- This value may define the half size of the rectangular avoidance zone around a ship when the engine checks for dynamic (moving) obstacles. -->
 	<!-- The engine builds a rectangle around the ship this size in each direction -->
@@ -752,22 +752,22 @@
 	<TurnInPlaceSlowdownCapital> 1.1 </TurnInPlaceSlowdownCapital>
 	
 	<!-- If a ship is more than this distance away the engine considers correcting it -->
-	<FormationMinimumSideError> 150.0 </FormationMinimumSideError>
+	<FormationMinimumSideError> 5.0 </FormationMinimumSideError>  <!-- was 150 in version 6 -->
 	
 	<!-- How far a ship is allowed to drift sideways from its assigned formation slot before the engine stops trying to correct it. -->
 	<!-- the “how sloppy can the formation be?” threshold, It is measured in game units, not degrees -->
 	<!-- Couldnt confirm or deny this does anything with SIMPLE_SPACE_LOCOMOTOR with this build of pathing -->
-	<FormationMaximumSideError> 250.0 </FormationMaximumSideError>
+	<FormationMaximumSideError> 25.0 </FormationMaximumSideError> <!-- was 250 in version 6 -->
 		
 	<!--This value should determine how much empty space the engine tries to maintain between ships when they are part of the same formation -->
 	<!--Lower is a tighter formation spacing -->
-	<BetweenFormationSpacing> 10.0 </BetweenFormationSpacing>
+	<BetweenFormationSpacing> 5.0 </BetweenFormationSpacing> <!-- was 10 in version 6 -->
 	
 	<!-- smooths out the ship’s movement path (Standard .9962) Lower number means more jitter but more performance-->
-	<ApproximationSmoothCosAngle> .95 </ApproximationSmoothCosAngle> <!-- was 0.965 in version 5.0 -->
+	<ApproximationSmoothCosAngle> .94 </ApproximationSmoothCosAngle> <!-- was 0.965 in version 5.0 was 0.95 in version 6.0 -->
 	
 	<!-- essentially a forward buffer added to the ship’s approximation volume -->
-	<ApproximationForwardDistance> 1.0 </ApproximationForwardDistance>
+	<ApproximationForwardDistance> 0.5 </ApproximationForwardDistance> <!-- was 1.0 in version 6 -->
 	
 	<!-- How much two stopped ships are allowed to overlap before the engine considers it a problem, It only applies when both ships are stopped? -->
 	<!-- 0.15 = Two stopped ships can overlap 15% of their size? -->
@@ -784,7 +784,7 @@
 	<Destination_Collision_Query_Extension> 10 </Destination_Collision_Query_Extension>
 
 	<!-- This tells the engine to only update bounding volumes (Coll Meshes for movement) every 'n' frames Higher means more fps but less responsive units --> 
-	<FramesPerPositionApproximationRebuild>200</FramesPerPositionApproximationRebuild>
+	<FramesPerPositionApproximationRebuild>300</FramesPerPositionApproximationRebuild> <!-- was 200 in version 6 -->
 	
 	<!-- each object only checks for pathfind collisions every 'n' frames -->
 	<!-- A ship will only check for collisions once every 99999 frames At 60 FPS, that’s ~27 minutes between checks essentially disabling coll detection -->
@@ -794,6 +794,7 @@
 	<MovementReevaluationFrameCount> 60 </MovementReevaluationFrameCount>
 
 	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
+	
 	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>
 	
 	<!-- lower number = Tighter formation facing angle, 0 should force the ship to turn to the correct angle-->
