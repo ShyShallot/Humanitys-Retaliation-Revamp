@@ -31,12 +31,12 @@
 	<!-- GameObjectType Max Speed multiplier factors per mode: 1.0 = no change, 0.5 = half, 2.0 = double, etc. -->
 	<!-- Something to keep in mind is that this will not properly synchronize with animations like Infantry and Walkers -->
 	<Object_Max_Speed_Multiplier_Galactic> 5.0 </Object_Max_Speed_Multiplier_Galactic>
-	<Object_Max_Speed_Multiplier_Space> 1.2 </Object_Max_Speed_Multiplier_Space>
-	<Object_Max_Speed_Multiplier_Land> 1.56 </Object_Max_Speed_Multiplier_Land>
+	<Object_Max_Speed_Multiplier_Space> 2 </Object_Max_Speed_Multiplier_Space>
+	<Object_Max_Speed_Multiplier_Land> 2 </Object_Max_Speed_Multiplier_Land>
 
 	<!-- GameObjectType and Hard Point Max Health multiplier factors per mode: 1.0 = no change, 0.5 = half, 2.0 = double, etc. -->
-	<Object_Max_Health_Multiplier_Space> 1.0 </Object_Max_Health_Multiplier_Space> <!-- AI  changed from 3 and 2 respectively -->
-	<Object_Max_Health_Multiplier_Land> 1.0 </Object_Max_Health_Multiplier_Land>
+	<Object_Max_Health_Multiplier_Space> 3.0 </Object_Max_Health_Multiplier_Space> <!-- AI  changed from 3 and 2 respectively -->
+	<Object_Max_Health_Multiplier_Land> 3.0 </Object_Max_Health_Multiplier_Land>
 
 	<Use_Neutral_UI_Color>true</Use_Neutral_UI_Color>
 	<Neutral_UI_Color>150, 150, 150, 255</Neutral_UI_Color>
@@ -59,8 +59,8 @@
 	<WaypointFlagModelName> w_waypoint_beacon.alo </WaypointFlagModelName>
 	
 	<Fleet_Maintenance_Update_Delay_Seconds>0.01</Fleet_Maintenance_Update_Delay_Seconds>
-	<Space_Auto_Resolve_Delay_Seconds>0.01</Space_Auto_Resolve_Delay_Seconds>
-	<Land_Auto_Resolve_Delay_Seconds>0.01</Land_Auto_Resolve_Delay_Seconds>
+	<Space_Auto_Resolve_Delay_Seconds>2</Space_Auto_Resolve_Delay_Seconds>
+	<Land_Auto_Resolve_Delay_Seconds>2</Land_Auto_Resolve_Delay_Seconds>
 	<Political_Control_Change_Time_Seconds>7</Political_Control_Change_Time_Seconds>
 	
 	<Melee_Cutoff_Range> 1.0 </Melee_Cutoff_Range> <!-- Idk what this does but it might have something to do with why hunters struggle to melee (Apple) --> <!-- Apple here again in the future, I think I set this to 1 but idk, lets just leave it bc hunters work now -->
@@ -97,22 +97,19 @@
 	the two teams times this percentage multiplier: -->
 	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.5</Multiplayer_Losing_Team_Bonus_Credit_Percentage>
 
-	 
-
 	<Political_Income_Curve>0,0, 1,0, 2,0, 3,0, 4,0, 5,0</Political_Income_Curve>
 	<Progressive_Taxation>1,0, 2,0, 5,0, 10,0, 20,0, 30,0</Progressive_Taxation>
 	<Income_Redistribution>0.2</Income_Redistribution>
 	
 
-
 	<Fiscal_Cycle_Time_In_Secs>45.0</Fiscal_Cycle_Time_In_Secs>
 	<Medium_Coin_Stack_Size>2500</Medium_Coin_Stack_Size>
-	<Large_Coin_Stack_Size>20000</Large_Coin_Stack_Size>
+	<Large_Coin_Stack_Size>40000</Large_Coin_Stack_Size>
 	<Black_Market_Income_Mult_Min>1.0</Black_Market_Income_Mult_Min>	<!-- AJA 09/30/2005 - Removing negative factor from Black Market planetary effect -->
 	<Black_Market_Income_Mult_Max>3.0</Black_Market_Income_Mult_Max>
 	
-	<Num_Structures_For_Medium_Planet_Name>3</Num_Structures_For_Medium_Planet_Name>
-	<Num_Structures_For_Large_Planet_Name>5</Num_Structures_For_Large_Planet_Name>
+	<Num_Structures_For_Medium_Planet_Name>7</Num_Structures_For_Medium_Planet_Name>
+	<Num_Structures_For_Large_Planet_Name>10</Num_Structures_For_Large_Planet_Name>
 
 
 	<!-- Planetary Corruption Constants -->
@@ -156,14 +153,14 @@
 	<MaximumPoliticalControl> 5 </MaximumPoliticalControl>
 	<MaximumStarbaseLevel> 5 </MaximumStarbaseLevel>
 	<MaximumGroundbaseLevel> 5 </MaximumGroundbaseLevel>
-	<MaximumSpecialStructures> 10 </MaximumSpecialStructures>
-	<MaximumSpecialStructuresLand> 10 </MaximumSpecialStructuresLand>
+	<MaximumSpecialStructures> 15 </MaximumSpecialStructures>
+	<MaximumSpecialStructuresLand> 15 </MaximumSpecialStructuresLand>
 	<MaximumSpecialStructuresSpace> 10 </MaximumSpecialStructuresSpace>
 	<MaximumFleetMovementDistance> 75.0 </MaximumFleetMovementDistance> <!-- This is the Slipspace for ships to move outside of trade routes -->
-	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
-	<Tooltip_Delay>1</Tooltip_Delay>
-	<Encyclopedia_Delay>350</Encyclopedia_Delay>
-	<Long_Encyclopedia_Delay>4000</Long_Encyclopedia_Delay>
+	<TradeRouteMovementFactor> 1.5 </TradeRouteMovementFactor>
+	<Tooltip_Delay>0.1</Tooltip_Delay>
+	<Encyclopedia_Delay>250</Encyclopedia_Delay>
+	<Long_Encyclopedia_Delay>1000</Long_Encyclopedia_Delay>
 	<Text_Reveal_Rate>120</Text_Reveal_Rate>
 	<Japanese_Line_Percent>0.52</Japanese_Line_Percent>
 	<Japanese_ST_Line_Percent>0.9</Japanese_ST_Line_Percent>
@@ -173,7 +170,7 @@
 	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> True </ShowUnitAIPlanAttachment>
-	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
+	<AITechLevelProductionTimeWeight> 0.5 </AITechLevelProductionTimeWeight>
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- Currently Under Testing (GrandMasterApple (HR Dev) )  -->
@@ -183,8 +180,8 @@
 	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
 	<AutoResolveTransportLosses>0.333333</AutoResolveTransportLosses>
 	<AutoResolveDisplayTime>0.01</AutoResolveDisplayTime>
-	<AutoResolveVoteDefaultToTactical>False</AutoResolveVoteDefaultToTactical>
-	<AutoResolveVoteDefaultTimeOut>15</AutoResolveVoteDefaultTimeOut>
+	<AutoResolveVoteDefaultToTactical>True</AutoResolveVoteDefaultToTactical>
+	<AutoResolveVoteDefaultTimeOut>60</AutoResolveVoteDefaultTimeOut>
 	<RetreatAutoResolveLoserAttrition>0.0</RetreatAutoResolveLoserAttrition>
 	<RetreatAutoResolveWinnerAttrition>0.0</RetreatAutoResolveWinnerAttrition>
 	<AutoResolveLoserAttrition>0.50</AutoResolveLoserAttrition>
@@ -192,18 +189,18 @@
 	<Minimum_Tactical_Overrun_Time_In_Secs> 15.0 </Minimum_Tactical_Overrun_Time_In_Secs>
 	<Tactical_Overrun_Multiple>5.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
-	<!-- <Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple> -->		<!-- Comment out to disable overrun auto-resolve -->
+	<!-- <Overrun_Auto_Resolve_Multiple>1.0f</Overrun_Auto_Resolve_Multiple>-->	<!-- Comment out to disable overrun auto-resolve -->
 
 	<!-- How long to countdown before a tactical retreat is allowed -->
-	<Space_Retreat_Allowed_Countdown_Seconds> 10.0 </Space_Retreat_Allowed_Countdown_Seconds>
-	<Land_Retreat_Allowed_Countdown_Seconds> 10.0 </Land_Retreat_Allowed_Countdown_Seconds>
+	<Space_Retreat_Allowed_Countdown_Seconds> 5.0 </Space_Retreat_Allowed_Countdown_Seconds>
+	<Land_Retreat_Allowed_Countdown_Seconds> 5.0 </Land_Retreat_Allowed_Countdown_Seconds>
 
 	<!-- How long to countdown before objects become captureable -->
-	<Space_Capture_Allowed_Countdown_Seconds> 5.0 </Space_Capture_Allowed_Countdown_Seconds>
-	<Land_Capture_Allowed_Countdown_Seconds> 5.0 </Land_Capture_Allowed_Countdown_Seconds>
+	<Space_Capture_Allowed_Countdown_Seconds> 0.0 </Space_Capture_Allowed_Countdown_Seconds>
+	<Land_Capture_Allowed_Countdown_Seconds> 0.0 </Land_Capture_Allowed_Countdown_Seconds>
 
 
-	<GripperCombatGridSnapDistance>35.0</GripperCombatGridSnapDistance>
+	<GripperCombatGridSnapDistance>200.0</GripperCombatGridSnapDistance> <!-- base is 35, changed to 200 to attempt to get more fps -->
 
 	<PlayModeSwitchMovies>Yes</PlayModeSwitchMovies>
 	<MaxInfluenceTransitionAlignmentBonus>0.50</MaxInfluenceTransitionAlignmentBonus>
