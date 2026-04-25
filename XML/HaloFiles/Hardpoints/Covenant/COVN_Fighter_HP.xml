@@ -123,7 +123,7 @@
         <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>750</Fire_Range_Distance>
 		<Fire_SFXEvent></Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		 
     </HardPoint>
 

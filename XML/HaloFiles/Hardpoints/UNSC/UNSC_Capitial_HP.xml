@@ -546,7 +546,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 		
@@ -572,7 +572,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 		
@@ -598,7 +598,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 		
@@ -624,7 +624,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 		
@@ -652,7 +652,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<AI_Combat_Power>4500</AI_Combat_Power>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -682,7 +682,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<AI_Combat_Power>4500</AI_Combat_Power>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -855,7 +855,7 @@
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
  
 	</HardPoint>
 
@@ -889,7 +889,7 @@
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -923,7 +923,7 @@
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -957,7 +957,7 @@
 		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -991,7 +991,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1025,7 +1025,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1059,7 +1059,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1093,7 +1093,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1117,7 +1117,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1142,7 +1142,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1167,7 +1167,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
       
 	  
 	</HardPoint>
@@ -1192,7 +1192,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -1217,7 +1217,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1242,7 +1242,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1267,7 +1267,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1292,7 +1292,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1317,7 +1317,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1342,7 +1342,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1361,13 +1361,13 @@
 		<Fire_Bone_B>FB_ARCHER_11_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1386,13 +1386,13 @@
 		<Fire_Bone_B>FB_ARCHER_12_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1419,7 +1419,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<AI_Combat_Power>4500</AI_Combat_Power>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -1454,7 +1454,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<AI_Combat_Power>4500</AI_Combat_Power>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -1548,7 +1548,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1582,7 +1582,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1616,7 +1616,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1650,7 +1650,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1677,13 +1677,13 @@
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1711,13 +1711,13 @@
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1752,7 +1752,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1786,7 +1786,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1813,13 +1813,13 @@
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1847,13 +1847,13 @@
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -1888,7 +1888,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1922,7 +1922,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1948,7 +1948,7 @@
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -1974,7 +1974,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2000,7 +2000,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2026,7 +2026,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2052,7 +2052,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 	   
 	</HardPoint>
@@ -2078,7 +2078,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2104,7 +2104,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2130,7 +2130,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2155,7 +2155,7 @@
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2181,7 +2181,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2207,7 +2207,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2233,7 +2233,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2259,7 +2259,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2285,7 +2285,7 @@
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 	</HardPoint>
 	
@@ -2309,7 +2309,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -2341,7 +2341,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -2424,7 +2424,7 @@
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
        
 	</HardPoint>
@@ -2448,7 +2448,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2472,7 +2472,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 		
 	</HardPoint>
@@ -2496,7 +2496,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2520,7 +2520,7 @@
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -2544,7 +2544,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -2579,7 +2579,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2613,7 +2613,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2647,7 +2647,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2681,7 +2681,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2715,7 +2715,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2749,7 +2749,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -2766,14 +2766,14 @@
 		<Fire_Bone_B>HP_HALC_POINT_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 		
 	</HardPoint>
@@ -2791,14 +2791,14 @@
 		<Fire_Bone_B>HP_HALC_POINT_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -2816,14 +2816,14 @@
 		<Fire_Bone_B>HP_HALC_POINT_03</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -2841,14 +2841,14 @@
 		<Fire_Bone_B>HP_HALC_POINT_04</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          
 		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -2873,7 +2873,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -2904,7 +2904,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -3030,7 +3030,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
       
        
 	</HardPoint>
@@ -3054,7 +3054,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -3078,7 +3078,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -3102,7 +3102,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -3126,7 +3126,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -3150,7 +3150,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -3185,7 +3185,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3219,7 +3219,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3253,7 +3253,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3287,7 +3287,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3321,7 +3321,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3355,7 +3355,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -3372,13 +3372,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 		
 	</HardPoint>
@@ -3396,13 +3396,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_02</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3420,13 +3420,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_03</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3444,13 +3444,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_04</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3468,13 +3468,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_05</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3492,13 +3492,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_06</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3516,13 +3516,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_07</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3540,13 +3540,13 @@
 		<Fire_Bone_B>HP_HALC_POINT_08</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -3570,7 +3570,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -3601,7 +3601,7 @@
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -3993,13 +3993,13 @@
 		<Fire_Bone_B>HP_MK33G_03</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4025,13 +4025,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4057,13 +4057,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4113,13 +4113,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4145,13 +4145,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
  
 	</HardPoint>
@@ -4201,13 +4201,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4233,13 +4233,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4289,13 +4289,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4321,13 +4321,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4354,13 +4354,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4387,13 +4387,13 @@
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>65.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -4418,7 +4418,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -4443,7 +4443,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
  
 	</HardPoint>
@@ -4468,7 +4468,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -4493,7 +4493,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -4518,7 +4518,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -4543,7 +4543,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -4625,7 +4625,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -4658,7 +4658,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		<Fire_Range_Distance>5250</Fire_Range_Distance>
 		
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 		
 		<Targeting_Fire_Inaccuracy> Corvette, 15.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
@@ -4686,7 +4686,7 @@
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_Break</Fire_SFXEvent>
 		<Fire_Range_Distance>3250.0</Fire_Range_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4712,7 +4712,7 @@
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_Break</Fire_SFXEvent>
 		<Fire_Range_Distance>3250.0</Fire_Range_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -4738,7 +4738,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
  
 
 	</HardPoint>
@@ -4763,7 +4763,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4787,7 +4787,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4810,7 +4810,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4834,7 +4834,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4858,7 +4858,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 		
@@ -4884,7 +4884,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4907,7 +4907,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4931,7 +4931,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4955,7 +4955,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -4979,7 +4979,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -5003,7 +5003,7 @@
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -5027,7 +5027,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent> <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5050,7 +5050,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5073,7 +5073,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5096,7 +5096,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5119,7 +5119,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5144,7 +5144,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5167,7 +5167,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5190,7 +5190,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5213,7 +5213,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5236,7 +5236,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5261,7 +5261,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
       
 
 	</HardPoint>
@@ -5284,7 +5284,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5307,7 +5307,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5330,7 +5330,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5353,7 +5353,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
       
 
 	</HardPoint>
@@ -5378,7 +5378,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5401,7 +5401,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5425,7 +5425,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5448,7 +5448,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5471,7 +5471,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5494,7 +5494,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5517,7 +5517,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5540,7 +5540,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5565,7 +5565,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5588,7 +5588,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5611,7 +5611,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
       
 
 	</HardPoint>
@@ -5634,7 +5634,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5657,7 +5657,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>3500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5680,7 +5680,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5703,7 +5703,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5728,7 +5728,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5751,7 +5751,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5774,7 +5774,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5797,7 +5797,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5820,7 +5820,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5845,7 +5845,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5868,7 +5868,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5891,7 +5891,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5914,7 +5914,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -5937,7 +5937,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5962,7 +5962,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -5985,7 +5985,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -6010,7 +6010,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -6033,7 +6033,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -6056,7 +6056,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -6079,7 +6079,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
 
 	</HardPoint>
@@ -6102,7 +6102,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
        
         
 	</HardPoint>
@@ -6125,7 +6125,7 @@
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent><Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         
 
 	</HardPoint>
@@ -6144,13 +6144,13 @@
 		<Fire_Bone_B>HP_M870_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
  
 
 	</HardPoint>
@@ -6167,13 +6167,13 @@
 		<Fire_Bone_B>HP_M870_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6189,13 +6189,13 @@
 		<Fire_Bone_B>HP_M870_03</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6211,13 +6211,13 @@
 		<Fire_Bone_B>HP_M870_04</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6233,13 +6233,13 @@
 		<Fire_Bone_B>HP_M870_05</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6256,13 +6256,13 @@
 		<Fire_Bone_B>HP_M870_06</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6280,13 +6280,13 @@
 		<Fire_Bone_B>HP_M870_07</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6303,13 +6303,13 @@
 		<Fire_Bone_B>HP_M870_08</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6326,13 +6326,13 @@
 		<Fire_Bone_B>HP_M870_09</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6349,13 +6349,13 @@
 		<Fire_Bone_B>HP_M870_10</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6372,13 +6372,13 @@
 		<Fire_Bone_B>HP_M870_11</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6395,13 +6395,13 @@
 		<Fire_Bone_B>HP_M870_12</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 		
 
 	</HardPoint>
@@ -6423,13 +6423,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_01</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6445,13 +6445,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_02</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6469,13 +6469,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_03</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6491,13 +6491,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_04</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6513,13 +6513,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_06</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6537,13 +6537,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_05</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6559,13 +6559,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_10</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6581,13 +6581,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_09</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6605,13 +6605,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_08</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6627,13 +6627,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_07</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6651,13 +6651,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_11</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6673,13 +6673,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_12</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6697,13 +6697,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_13</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6719,13 +6719,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_14</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6741,13 +6741,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_15</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6765,13 +6765,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_16</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6787,13 +6787,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_17</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6809,13 +6809,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_18</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6833,13 +6833,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_19</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -6856,13 +6856,13 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Bone_B>HP_M810_20</Fire_Bone_B>
 		<Fire_Cone_Width>165.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type> <Fire_Category_Restrictions>Capital, Super</Fire_Category_Restrictions>                          <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CWIS</Fire_SFXEvent>
-		<Fire_Range_Distance>375</Fire_Range_Distance>
+		<Fire_Range_Distance>650</Fire_Range_Distance>
 
 	</HardPoint>
 	
@@ -7051,7 +7051,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
  
 
 	</HardPoint>
@@ -7076,7 +7076,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7100,7 +7100,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7123,7 +7123,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7147,7 +7147,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7171,7 +7171,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 		
@@ -7197,7 +7197,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7220,7 +7220,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7244,7 +7244,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7268,7 +7268,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7292,7 +7292,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	
@@ -7316,7 +7316,7 @@ It is older and less effective then the M870 this block represents the left hand
 		<Fire_Pulse_Delay_Seconds>10</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_CAP</Fire_SFXEvent>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 	

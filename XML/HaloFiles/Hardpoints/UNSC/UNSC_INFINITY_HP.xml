@@ -88,7 +88,7 @@
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -192,7 +192,7 @@
 		<Fire_SFXEvent>Unit_MAC</Fire_SFXEvent>
 		
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -297,7 +297,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -332,7 +332,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -367,7 +367,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -402,7 +402,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -437,7 +437,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -472,7 +472,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -507,7 +507,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -542,7 +542,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -577,7 +577,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -612,7 +612,7 @@
         		<Fire_Range_Distance>2250</Fire_Range_Distance>
         		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-        		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
         		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
         		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</Hardpoint>
@@ -647,7 +647,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -681,7 +681,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -715,7 +715,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -749,7 +749,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -783,7 +783,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -817,7 +817,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -851,7 +851,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -885,7 +885,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -919,7 +919,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -953,7 +953,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -987,7 +987,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1021,7 +1021,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1055,7 +1055,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1089,7 +1089,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1123,7 +1123,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1157,7 +1157,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1190,7 +1190,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1223,7 +1223,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1256,7 +1256,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1289,7 +1289,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1322,7 +1322,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1355,7 +1355,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1388,7 +1388,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="UNSC_INFINITY_MK3_08">
@@ -1420,7 +1420,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1453,7 +1453,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1486,7 +1486,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1519,7 +1519,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1552,7 +1552,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1585,7 +1585,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1618,7 +1618,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1651,7 +1651,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -1684,7 +1684,7 @@
 		<Fire_Range_Distance>2250</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_UNSC_BULLET_FLAK</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
 
 	</HardPoint>
 
