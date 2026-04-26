@@ -2001,7 +2001,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Medium_Explosion_FRIGATE</Death_Explosions>
-		 <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Death_Clone>Damage_Normal, Medium_Explosion_FRIGATE </Death_Clone>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>

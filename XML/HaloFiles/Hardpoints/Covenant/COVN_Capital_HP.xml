@@ -220,7 +220,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -320,7 +320,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -370,7 +370,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_CCS_TP_02">
@@ -393,7 +393,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_CCS_SHIELD">
@@ -433,7 +433,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RCS_AS_02">
@@ -457,7 +457,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -481,7 +481,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -505,7 +505,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -529,7 +529,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -553,7 +553,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -577,7 +577,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -601,7 +601,7 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_CANNON</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
         
     </HardPoint>
 
@@ -762,7 +762,7 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RCS_ENGINE">
@@ -1218,7 +1218,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </Hardpoint>
 
     <Hardpoint Name="HP_CPV_AS_02">
@@ -1300,7 +1300,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
     </Hardpoint>
 
@@ -2110,7 +2110,7 @@
         <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_02">
@@ -2134,7 +2134,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
     </HardPoint>
 
@@ -2158,7 +2158,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		
     </HardPoint>
 
@@ -2182,7 +2182,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_05">
@@ -2205,7 +2205,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_06">
@@ -2228,7 +2228,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_07">
@@ -2251,7 +2251,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_08">
@@ -2274,7 +2274,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_09">
@@ -2297,7 +2297,7 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>5250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_10">
@@ -2320,7 +2320,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_11">
@@ -2343,7 +2343,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AS_12">
@@ -2366,7 +2366,7 @@
         <Fire_Pulse_Delay_Seconds>00.00</Fire_Pulse_Delay_Seconds>
        <Fire_Range_Distance>2250</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport, Interceptable </Fire_Category_Restrictions>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ORS_AF_01">
