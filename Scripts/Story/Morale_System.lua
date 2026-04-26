@@ -373,7 +373,7 @@ function Definitions()
         Current_Year = 2490,
         Total_Auto_Resolves = 0,
         Easter_Egg_Triggered = false,
-        Auto_Resolve_Trigger = 8,
+        Auto_Resolve_Trigger = 117,
     }
 
     Morale_Value_Status = {
@@ -739,8 +739,6 @@ function Init_Morale_System(message)
 
             Random_Events.Distribution_Table:Insert(Random_Event_Name,Weight)
         end
-
-        Global_Values.Auto_Resolve_Trigger = EvenMoreRandom(6,12)
 
         Set_Next_State("Flush")
     end
