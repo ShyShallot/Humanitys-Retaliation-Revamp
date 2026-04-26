@@ -121,10 +121,7 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass> Hover </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>18.0, 18.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+	
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>

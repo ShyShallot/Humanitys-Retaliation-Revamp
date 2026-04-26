@@ -116,7 +116,7 @@
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Hardpoints>CLUSTER_TORPEDO</Hardpoints>
 		<Projectile_Category>ROCKET</Projectile_Category>
@@ -163,7 +163,7 @@
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
@@ -318,7 +318,7 @@
 		<Max_Speed>90.0</Max_Speed>
 		<Projectile_Damage>10.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, ABILITY_COUNTDOWN</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2300.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -343,8 +343,8 @@
 				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
-				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>40.0</Protection_Radius>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET, Interceptable</Projectile_Types_Targeted>
+				<Protection_Radius>50.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>50</Projectile_Dist_Travelled>
@@ -429,7 +429,7 @@
 				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
-				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET, Interceptable</Projectile_Types_Targeted>
 				<Protection_Radius>20.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
@@ -892,7 +892,7 @@
 		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
 		
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>100.0</Projectile_Max_Scan_Range>
@@ -966,10 +966,10 @@
 		<Max_Speed>12</Max_Speed>
 		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
@@ -1022,7 +1022,8 @@
 		
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Hardpoints>CLUSTER_BIDENT</Hardpoints>
 		
@@ -1093,17 +1094,20 @@
 	
 	<Projectile Name="Proj_UNSC_Archer_Missile"> <!-- Archer Missiles These are the Standard variant and are shot by the cluster missile #139 -->
 	
+	
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
 		
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>8.0</Max_Speed>
+		<Max_Speed>35.0</Max_Speed>
 		<Projectile_Damage>375.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</Behavior>
+		<CategoryMask>Interceptable</CategoryMask>
+		<Tactical_Health>1</Tactical_Health>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
-		<CategoryMask>Transport</CategoryMask>
+		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
@@ -1121,29 +1125,34 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind> <Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		
 	</Projectile>
 	
 	<Projectile Name="Proj_UNSC_Archer_Delivery"> <!-- these are the cluster missile delivery system -->
 
+
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>16.0</Max_Speed>
-		<Projectile_Damage>375.0</Projectile_Damage>
+		<Max_Speed>30.0</Max_Speed>
+		<Projectile_Damage>575.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<CategoryMask>Transport</CategoryMask>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</Behavior>
+		<CategoryMask>Interceptable</CategoryMask>
+		<Tactical_Health>1</Tactical_Health>
 		<Projectile_Category>MISSILE</Projectile_Category>
 	
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
-		
 		<Projectile_Rocket_Curve_Distance>450</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>180</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
+		
+		<Hardpoints>CLUSTER_MISSILE</Hardpoints>
 		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1156,7 +1165,8 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>I_RADAR_UNSC_PROJECTILE.TGA</Radar_Icon_Name>
 		
-		
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind> <Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		
 	</Projectile>
@@ -1291,7 +1301,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>Interceptable</CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Projectile_Rocket_Curve_Distance>400</Projectile_Rocket_Curve_Distance>
@@ -1869,22 +1879,22 @@
 		
 	<Projectile Name="Proj_UNSC_MK33_SPITFIRE"> <!-- Large Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet_Cap.alo</Space_Model_Name>
-		<Max_Speed>40.0</Max_Speed>
+		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
+		<Max_Speed>60.0</Max_Speed>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Damage>75</Projectile_Damage>
+		<Projectile_Damage>150</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>UNSC_BULLET_CAP_DEATH</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>UNSC_BULLET_CAP_DEATH</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>UNSC_BULLET_CAP_DEATH</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>UNSC_BULLET_CAP_DEATH</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_UNSC_Flak_Death_SFX</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1898,22 +1908,22 @@
 	
 	<Projectile Name="Proj_UNSC_MK40_SPITFIRE"> <!-- Largest Deck gun for capitals -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
-		<Max_Speed>40.0</Max_Speed>
+		<Space_Model_Name>W_UNSC_Bullet_Cap.alo</Space_Model_Name>
+		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Damage>150</Projectile_Damage>
+		<Projectile_Damage>300</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>UNSC_Flak_Explode</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>UNSC_Flak_Explode</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>UNSC_Flak_Explode</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<!-- <Projectile_SFXEvent_Detonate> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_UNSC_Flak_Death_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor> -->
@@ -1928,23 +1938,23 @@
 	<Projectile Name="Proj_UNSC_MK66_SENTRY"> <!-- Smaller Deck gun for Capitals - CANNON clashes with itself on this one so we went with the EPOCH size mk66 -->
 	
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_FLAK.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>40.0</Max_Speed>
+		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_Damage>175.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>UNSC_Bullet_Explode</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1961,21 +1971,21 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade>
-		<Max_Speed>40.0</Max_Speed>
+		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>50</Projectile_Damage> <!-- UNSC frigates fire really slow now so we doubled their dmg -->
+		<Projectile_Damage>75</Projectile_Damage> <!-- UNSC frigates fire really slow now so we doubled their dmg -->
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle/>
-		<Projectile_Lifetime_Detonation_Particle>UNSC_Bullet_Explode</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>UNSC_Bullet_Explode</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1989,7 +1999,7 @@
 				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
-				<Projectile_Types_Targeted>MISSILE, ROCKET, </Projectile_Types_Targeted>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET, Interceptable</Projectile_Types_Targeted>
 				<Protection_Radius>15.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
@@ -2011,21 +2021,21 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet_Tracer.alo</Space_Model_Name>
 		<!-- <Exclude_From_Distance_Fade>false</Exclude_From_Distance_Fade> -->
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>250.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, ABILITY_COUNTDOWN</Behavior>
 		<Damage_Type>Damage_UNSC_Normal</Damage_Type>
-		<Projectile_Damage>25.5</Projectile_Damage>
+		<Projectile_Damage>5.0</Projectile_Damage>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>4500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Explosion_CWIS</Projectile_Object_Detonation_Particle>
+		<!-- <Projectile_Object_Detonation_Particle>Small_Explosion_CWIS</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_CWIS</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Ground_Detonation_Particle/>   Removed these lines for more frames
 		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_CWIS</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_CWIS</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_CWIS</Projectile_Absorbed_By_Shields_Particle> -->
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -2039,14 +2049,14 @@
 				<Defense_Duration_In_Secs>5.0</Defense_Duration_In_Secs>
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
-				<Projectile_Types_Targeted> MISSILE, ROCKET </Projectile_Types_Targeted>
-				<Protection_Radius>25.0</Protection_Radius>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET, Interceptable</Projectile_Types_Targeted>
+				<Protection_Radius>40.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>1</Laser_Beam_Width>
-				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Projectile_Dist_Travelled>50</Projectile_Dist_Travelled>
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
-				<Recharge_Time_In_Secs>0.0</Recharge_Time_In_Secs>
+				<Recharge_Time_In_Secs>0.1</Recharge_Time_In_Secs>
 			</Laser_Defense_Ability>
 			
 		</Abilities>

@@ -453,9 +453,6 @@
         <Scale_Factor>1.0</Scale_Factor>
         <Is_Decoration>Yes</Is_Decoration>
         <Behavior>PARTICLE</Behavior>
-        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
-		<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
     </Particle>
 	
 	<Particle Name="UNSC_BULLET_CAP_DEATH">
