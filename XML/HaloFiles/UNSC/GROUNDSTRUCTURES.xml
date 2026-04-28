@@ -2749,8 +2749,6 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_WARTHOG, 4</Starting_Spawned_Units_Tech_0>
 		
 		
 		<Reserve_Spawned_Units_Tech_0>Rebel_Trooper, 9998</Reserve_Spawned_Units_Tech_0>
@@ -2760,10 +2758,8 @@
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>UNSC_WARTHOG, 9998</Reserve_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>1.5</Spawned_Squadron_Delay_Seconds>	
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>	
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>45.0</Spawned_Squadron_Location_Flyout_Distances>
@@ -2812,14 +2808,14 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> RHD_Turret_Sold </SFXEvent_Sold_Tactical>
 		
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 8</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 5</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Plex_Soldier, 8</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_SHOTGUN, 8</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 4</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Reserve_Spawned_Units_Tech_0>
 		
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Reserve_Spawned_Units_Tech_0>
@@ -2828,9 +2824,8 @@
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>UNSC_GAUSSHOG, 9998</Reserve_Spawned_Units_Tech_0>
 		
-		<Spawned_Squadron_Delay_Seconds>1.5</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
 		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

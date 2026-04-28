@@ -496,11 +496,12 @@
 	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MAKO">
+	
 		<Text_ID>TEXT_UNIT_UNSC_MAKO</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MAKO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name> <!-- UNSC_MAKO.ALO  -->
+		<Space_Model_Name>UNSC_MAKO.ALO</Space_Model_Name> <!-- UNSC_MAKO.ALO  -->
 		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
@@ -533,7 +534,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points></Shield_Points>
-		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 then 1150 -->
+		<Tactical_Health>3750</Tactical_Health>		<!-- was 2800 then 1150 -->
 		<Shield_Refresh_Rate></Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -578,14 +579,9 @@
 
 		<!-- <Asteroid_Damage_Hit_Particles>Medium_Explosion_FRIGATE</Asteroid_Damage_Hit_Particles> -->
 
-		<HardPoints> 
-			<!--HP_HALC_REACTOR,--> 
-			HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, 
-			HP_HALC_HANGER_01, HP_HALC_HANGER_02, 
-			UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
-			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
-			UNSC_HALC_FLAK_01, UNSC_HALC_FLAK_02, UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,UNSC_HALC_FLAK_05, UNSC_HALC_FLAK_06, UNSC_HALC_FLAK_07, UNSC_HALC_FLAK_08,
-			UNSC_HALCYON_MAC, HP_HALC_REACTOR
+		<HardPoints> <!-- Melody add in hardpoints one by one till something explodes :D -->
+	
+		
 		</HardPoints>
 
 		<!--	<Unit_Abilities_Data SubObjectList="Yes">

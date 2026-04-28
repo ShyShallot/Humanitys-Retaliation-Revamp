@@ -170,7 +170,7 @@
 	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> True </ShowUnitAIPlanAttachment>
-	<AITechLevelProductionTimeWeight> 0.5 </AITechLevelProductionTimeWeight>
+	<AITechLevelProductionTimeWeight> 1 </AITechLevelProductionTimeWeight>
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- Currently Under Testing (GrandMasterApple (HR Dev) )  -->
@@ -607,7 +607,6 @@
 	<!-- Asteroid Field -->
 	<Asteroid_Field_Damage>0</Asteroid_Field_Damage>
 	<Asteroid_Field_Damage_Rate>0.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
-	
 
 	<!-- Pathfinding and Movement by GrandMasterApple for Humanity's Retaliation Version 7.0 -->
 	
