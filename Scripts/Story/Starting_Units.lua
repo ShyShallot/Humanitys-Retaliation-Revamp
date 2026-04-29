@@ -57,7 +57,7 @@ Starting_Units_Handler = {
     Unit_Power_Cache = {},
 }
 
-function Starting_Units_Handler:Start(Map_Name, skip)
+function Starting_Units_Handler:Start(Map_Name, skip, player_only)
 
     if type(Map_Name) ~= "string" then
         return
@@ -67,6 +67,10 @@ function Starting_Units_Handler:Start(Map_Name, skip)
         self.Finished = true
 
         return
+    end
+
+    if player_only ~= true then
+        player_only = false
     end
 
     DebugMessage("%s -- Map Name: %s", tostring(Script), tostring(Map_Name))
@@ -230,8 +234,14 @@ function Starting_Units_Handler:Start(Map_Name, skip)
                 end
 
                 if Settings.Spawn_Layout ~= nil then
+                
+                    local is_valid = true
 
-                    if Settings.Spawn_Layout.Space ~= nil and Settings.Spawn_Layout.Ground ~= nil then
+                    if player_only and not planet.Get_Owner().Is_Human() then
+                        is_valid = false
+                    end
+
+                    if Settings.Spawn_Layout.Space ~= nil and Settings.Spawn_Layout.Ground ~= nil and is_valid then
                         local Space_Variation = EvenMoreRandom(1, tableLength(Settings.Spawn_Layout.Space))
                         local Ground_Variation = EvenMoreRandom(1, tableLength(Settings.Spawn_Layout.Ground))
 

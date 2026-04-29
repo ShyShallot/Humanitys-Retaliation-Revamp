@@ -525,6 +525,8 @@
 		<Halt_Game_Music> Yes </Halt_Game_Music>
 		
       	<Overlay>true</Overlay>
+
+		<Cannot_Skip>false</Cannot_Skip>
    </Movie>
 
 </Movies>

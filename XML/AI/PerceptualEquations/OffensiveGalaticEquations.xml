@@ -420,6 +420,8 @@
         (Game.Age > 60)
         *
         Function_Is_Good_Invasion_Target.Evaluate
+		*
+		clamp(Game.Age,0,5)
 	</Should_Conquer_Opponent_Planet>
 
 	<!-- We have this specific goal so that the AI can advance to tech 5 due to the Shield Tech
