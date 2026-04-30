@@ -2892,7 +2892,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ONAGER.alo</Land_Model_Name>
 
-		<Max_Speed>50.5</Max_Speed>
+		<Max_Speed>20.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
@@ -2979,7 +2979,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>30</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
@@ -3007,7 +3007,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
@@ -3078,7 +3078,7 @@
 		<Land_Model_Name>W_concussion_missile.ALO</Land_Model_Name> 
 
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>14.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -3111,7 +3111,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED,</Behavior>
 		<Damage_Type>Damage_UNSC_Heavy</Damage_Type>
@@ -3237,7 +3237,7 @@
 		<Space_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Space_Model_Name>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name>
 		<Damage_Type>Damage_Covn_Torpedo</Damage_Type>
-		<Max_Speed>26.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Projectile_Damage>800.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3269,7 +3269,7 @@
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name> 
 
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>45.0</Max_Speed>
+		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, REVEAL</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -3308,7 +3308,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>16</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
@@ -3338,7 +3338,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
@@ -3368,7 +3368,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tiny.alo</Land_Model_Name>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
@@ -3398,7 +3398,7 @@
 	
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_Bullet_Tracer.alo</Land_Model_Name>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>10</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type>Damage_UNSC_Fighter</Damage_Type>
@@ -3462,7 +3462,7 @@
 		<Space_Model_Name>UNSC_ORBITAL_BOMBARDMENT.alo</Space_Model_Name>
 		<Land_Model_Name>UNSC_ORBITAL_BOMBARDMENT.alo</Land_Model_Name>
 		<Damage_Type>Damage_Krayt_Damage_Blast</Damage_Type>
-		<Max_Speed>120.0</Max_Speed>
+		<Max_Speed>80.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -3498,7 +3498,7 @@
 		<Land_Model_Name>COVN_PLASMAPROJECTILE_FIGHTER.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
-		<Max_Speed>5.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Projectile_Damage>4.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3525,7 +3525,7 @@
 		<Land_Model_Name>W_COVN_CONCUSSION_RIFLE.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>8.0</Max_Speed>
 		<Projectile_Damage>60.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 35 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
@@ -3554,7 +3554,7 @@
 		<Land_Model_Name>COVN_PLASMAPROJECTILE_FIGHTER.ALO</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type>Damage_Covn_Fighter</Damage_Type>
-		<Max_Speed>14.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Projectile_Damage>40.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3656,7 +3656,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>COVN_WRAITH_MORTAR.ALO</Land_Model_Name> <!-- This should be blue -->
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>8.0</Max_Speed>
+		<Max_Speed>6.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -3741,7 +3741,7 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Space_Model_Name>W_COVN_SCARAB_BEAM.ALO</Space_Model_Name>
 		<Land_Model_Name>W_COVN_SCARAB_BEAM.ALO</Land_Model_Name>
-		<Max_Speed>2.8</Max_Speed>
+		<Max_Speed>5.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Projectile_Damage>10500.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 50 </Projectile_Blast_Area_Damage>
