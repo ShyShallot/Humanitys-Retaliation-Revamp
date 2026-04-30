@@ -1336,28 +1336,6 @@
 		</Abilities>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
-
-	<GroundVehicle Name="SPMAT_Walker_Captured">
-		<Variant_Of_Existing_Type>SPMAT_Walker</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_chewbacca_spmat.tga</Icon_Name>
-	
-		<!-- MUST have same abilities PLUS EJECT_THIEF -->
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>DEPLOY</Type>
-			</Unit_Ability>
-			
-			
-			<Unit_Ability>
-				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-	</GroundVehicle>
 	
 	<GroundVehicle Name="COVN_GROUND_BANSHEE">  <!-- Light Air Command --> 
 	
@@ -1532,8 +1510,9 @@
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		10</Mod_Multiplier>
 				<Supports_Autofire>True</Supports_Autofire>
-				<Activation_Min_Range>2</Activation_Min_Range>
-	            <Activation_Max_Range>1500</Activation_Max_Range>
+				<!-- Not supported by Ability Code according to Debug -GP 30.04.2026 -->
+				<!-- <Activation_Min_Range>2</Activation_Min_Range>
+	            <Activation_Max_Range>1500</Activation_Max_Range> -->
 		
 		</Unit_Ability>
 			
@@ -2252,7 +2231,7 @@
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-=
+
 		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
@@ -3157,7 +3136,7 @@
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 	
-		<GroundVehicle Name="UNSC_MAMMOTH">   <!-- UNSC MAMMOTH (Is its own Unit that spawns Units basically a building with wheels)-->
+	<GroundVehicle Name="UNSC_MAMMOTH">   <!-- UNSC MAMMOTH (Is its own Unit that spawns Units basically a building with wheels)-->
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_UNSC_MAMMOTH</Text_ID>
 		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
@@ -4051,7 +4030,7 @@
 		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Weather_Category>Tracked</Weather_Category>
 		<Influences_Capture_Point> True </Influences_Capture_Point>
-		<Vehicle_Thief_Inside_Clone>HAV_Juggernaut_Captured</Vehicle_Thief_Inside_Clone>
+		<Vehicle_Thief_Inside_Clone>Unsc_Warthog_Captured</Vehicle_Thief_Inside_Clone>
 
       <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
 
@@ -4092,7 +4071,7 @@
 	</GroundVehicle>
 	
 	<!-- Chewbacca can only capture a Juggernaut if it's empty! -->
-	<GroundVehicle Name="HAV_Juggernaut_Captured">
+	<GroundVehicle Name="Unsc_Warthog_Captured">
 		<Variant_Of_Existing_Type>Unsc_Warthog</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_chewbacca_ev_juggernaut.tga</Icon_Name>
 	
@@ -5097,7 +5076,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
 		
-		<HardPoints> GroundBeam </HardPoints>
+		<!-- <HardPoints> GroundBeam </HardPoints> -->
 
 		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
 		<Icon_Name />

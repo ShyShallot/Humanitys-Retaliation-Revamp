@@ -1,46 +1,47 @@
 <?xml version="1.0"?>
 <CapitalShips>
-    <SpaceUnit Name="COVN_CCS">
+	<SpaceUnit Name="COVN_CCS">
 		<Text_ID>TEXT_UNIT_COVN_CCS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_COVN_CCS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
-		
+
 		<Space_Model_Name>COVN_CCS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	    <GUI_Bracket_Height>500</GUI_Bracket_Height>
+
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>700</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Original was 0.52 -->
+		<Scale_Factor>0.37</Scale_Factor>		<!-- Original was 0.52 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Damage_Type> Damage_COVIE_Capital</Damage_Type>
 		<Armor_Type> Armor_COVN_Assault </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
-		<Reinforcement_Prevention_Radius/> 525 
-		
+		<Reinforcement_Prevention_Radius/>
+		<!-- 525 -->
+
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.15</Max_Thrust>
 		<Min_Speed>0.001</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
-		
+
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
+		<Space_Layer> Capital </Space_Layer>		<!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -54,13 +55,13 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		
+
 		<Shield_Points>22500</Shield_Points>
 		<Tactical_Health>9750</Tactical_Health>
 		<Shield_Refresh_Rate>5625</Shield_Refresh_Rate>
 		<Energy_Capacity>1125000</Energy_Capacity>
 		<Energy_Refresh_Rate>1875</Energy_Refresh_Rate>
-		
+
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -72,29 +73,30 @@
 		<Build_Time_Seconds>250</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior> <!-- AMS REVERSION SIMPLE_SPACE_LOCOMOTOR -->
-		<Is_Community_Property>Yes</Is_Community_Property> 
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>		<!-- AMS REVERSION SIMPLE_SPACE_LOCOMOTOR -->
+		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
-		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 
 
-		<HardPoints> 
+		<HardPoints>
 			<!--HP_CCS_REACTOR,--> HP_CCS_SHIELD, HP_CCS_ENGINE, HP_CCS_HANGER_01, HP_CCS_HANGER_02, HP_CCS_AF_01, HP_CCS_AF_02, HP_CCS_AF_03, HP_CCS_AF_04, HP_CCS_AF_05, HP_CCS_AF_06, HP_CCS_AS_01, HP_CCS_AS_02, HP_CCS_AS_03, HP_CCS_AS_04, HP_CCS_AS_05, HP_CCS_AS_06, HP_CCS_TP_01, HP_CCS_TP_02, HP_ORS_LANCE
 		</HardPoints>
 
@@ -108,7 +110,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -134,7 +136,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>GUI_Build_Unit_SFX</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -152,7 +154,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
@@ -169,25 +171,25 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-			
-		 <Unit_Abilities_Data SubObjectList="Yes">
-			
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
 			<Unit_Ability>
-			
-				<Type>DEFEND</Type>        
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
+
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>150</Recharge_Seconds>           
+				<Recharge_Seconds>150</Recharge_Seconds>
 				<Expiration_Seconds></Expiration_Seconds>
-				
+
 			</Unit_Ability>
 
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
+			<!--<Unit_Ability>-->			<!-- Reactor Ability stuff-->
+			<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
@@ -195,24 +197,26 @@
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
-			
+
 		</Unit_Abilities_Data>
-		
+
 		<!-- May be causing Crashes <Lua_Script>DesperateStrike</Lua_Script> -->
-		
+
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
-		
+
 		<Population_Value>22</Population_Value>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>6250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>34</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
+	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CCS_DEATH">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
@@ -229,8 +233,10 @@
 		<Ship_Class> frigate </Ship_Class>
 		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
-	
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
+	</SpaceUnit>
+
 
 
 	<SpaceUnit Name="COVN_RCS">
@@ -241,23 +247,24 @@
 		<Space_Model_Name>COVN_RCS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.6</Scale_Factor>  <!-- Original was 1.02 -->
+		<Scale_Factor>0.6</Scale_Factor>		<!-- Original was 1.02 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Damage_Type> Damage_COVIE_Capital</Damage_Type>
 		<Armor_Type> Armor_COVN_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
-		<Reinforcement_Prevention_Radius/> 400 
+		<Reinforcement_Prevention_Radius/>
+		<!-- 400 -->
 
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.15</Max_Thrust>
@@ -265,14 +272,14 @@
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
-		
+
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
+		<Space_Layer> Capital </Space_Layer>		<!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -302,29 +309,30 @@
 		<Build_Time_Seconds>140</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, BARRAGE, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
-		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
-		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 
 
-		<HardPoints> 
+		<HardPoints>
 			<!--HP_RCS_REACTOR,--> HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_TORP_00, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD
 		</HardPoints>
 
@@ -338,7 +346,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -364,7 +372,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>GUI_Build_Unit_SFX</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -382,7 +390,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
@@ -399,8 +407,8 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			 <!-- !!! <Unit_Ability>    HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  I WILL SPRAY BOTTLE YOU
+
+			<!-- !!! <Unit_Ability>    HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  I WILL SPRAY BOTTLE YOU
 				<Type>TURBO</Type>
 			
 				<Expiration_Seconds>4</Expiration_Seconds>
@@ -415,25 +423,25 @@
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
 			</Unit_Ability> !!! -->
-		
-			
+
+
 			<Unit_Ability>
-				<Type>DEFEND</Type>        
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>15</Recharge_Seconds>           
+				<Recharge_Seconds>15</Recharge_Seconds>
 				<Expiration_Seconds></Expiration_Seconds>
 
-				
+
 			</Unit_Ability>
-			
+
 			<!-- Primary ability -->
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
+			<!--<Unit_Ability>-->			<!-- Reactor Ability stuff-->
+			<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
@@ -442,8 +450,8 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
 		</Unit_Abilities_Data>
-		
-		
+
+
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
@@ -455,10 +463,12 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
+	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CPV">
 		<Text_ID>TEXT_UNIT_COVN_CPV</Text_ID>
@@ -468,23 +478,24 @@
 		<Space_Model_Name>COVN_CPV.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>290</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.16</Scale_Factor> <!-- Original was 2.32 -->
+		<Scale_Factor>1.16</Scale_Factor>		<!-- Original was 2.32 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Damage_Type> Damage_COVIE_Capital</Damage_Type>
 		<Armor_Type> Armor_COVN_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
-		<Reinforcement_Prevention_Radius/> 600 
+		<Reinforcement_Prevention_Radius/>
+		<!-- 600 -->
 
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.15</Max_Thrust>
@@ -492,14 +503,14 @@
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
-		
+
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
+		<Space_Layer> Capital </Space_Layer>		<!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -515,9 +526,9 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>35000</Shield_Points>
 		<Tactical_Health>17500</Tactical_Health>
-		<Shield_Refresh_Rate>8750</Shield_Refresh_Rate> <!-- shield 0.250 second -->
-		<Energy_Capacity>1125000</Energy_Capacity> <!--- Total reserve -->
-		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate> <!-- energy refreshes every 5 seconds -->
+		<Shield_Refresh_Rate>8750</Shield_Refresh_Rate>		<!-- shield 0.250 second -->
+		<Energy_Capacity>1125000</Energy_Capacity>		<!--- Total reserve -->
+		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>		<!-- energy refreshes every 5 seconds -->
 		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<!--<Political_Control>1</Political_Control>-->
@@ -529,20 +540,21 @@
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
-		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
-		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints> 
+		<HardPoints>
 			<!--HP_CPV_REACTOR,--> HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_ENGINES, HP_CPV_SHIELD 
 		</HardPoints>
 
@@ -556,7 +568,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -582,7 +594,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>GUI_Build_Unit_SFX</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -600,7 +612,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
@@ -617,39 +629,39 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
 				<Type>TURBO</Type>
-			
+
 				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability> 
-					
+				<Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+
 			<Unit_Ability>
-				<Type>DEFEND</Type>        
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>150</Recharge_Seconds>           
+				<Recharge_Seconds>150</Recharge_Seconds>
 				<Expiration_Seconds></Expiration_Seconds>
 
-				
-			</Unit_Ability>		
-					<!-- Primary ability -->
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
+
+			</Unit_Ability>
+			<!-- Primary ability -->
+			<!--<Unit_Ability>-->			<!-- Reactor Ability stuff-->
+			<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
@@ -658,7 +670,7 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
 		</Unit_Abilities_Data>
-		
+
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
@@ -671,9 +683,11 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
+	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_ORS">
 		<Text_ID>TEXT_UNIT_COVN_ORS</Text_ID>
@@ -683,23 +697,24 @@
 		<Space_Model_Name>COVN_ORS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>700</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.23</Scale_Factor> <!-- Original was 0.45 -->
+		<Scale_Factor>0.23</Scale_Factor>		<!-- Original was 0.45 -->
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Damage_Type> Damage_COVIE_Capital</Damage_Type>
 		<Armor_Type> Armor_COVN_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_COVN_Capital</Shield_Armor_Type>
-		<Reinforcement_Prevention_Radius/> 725 
+		<Reinforcement_Prevention_Radius/>
+		<!-- 725 -->
 
 		<Max_Speed>2.8</Max_Speed>
 		<Max_Thrust>0.15</Max_Thrust>
@@ -707,14 +722,14 @@
 		<Max_Lift>0.0</Max_Lift>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>35</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
 		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.001</Min_Speed_Fraction_For_Turn>
 		<OverrideAcceleration> .01 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
-		
+
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer> <!-- AMS REVERSION (Capital) -->
+		<Space_Layer> Capital </Space_Layer>		<!-- AMS REVERSION (Capital) -->
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>01.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -744,23 +759,24 @@
 		<Build_Time_Seconds>260</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI,  SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
-		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_COVN_FRIGATE</Death_Explosions>
 		<!-- <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles> -->
 
-		<Death_Clone>Damage_Normal</Death_Clone> <Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1950.0</Targeting_Max_Attack_Distance>
@@ -791,7 +807,7 @@
 		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
@@ -817,7 +833,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>GUI_Build_Unit_SFX</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>GUI_Canceled_Unit_SFX</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -835,7 +851,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>350.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>2000.0</Attack_Move_Response_Range>
@@ -855,43 +871,45 @@
 		<Population_Value>33</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<Unit_Ability>
-				<Type>DEFEND</Type>        
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>   
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	100.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	4.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
-				<Recharge_Seconds>150</Recharge_Seconds>           
+				<Recharge_Seconds>150</Recharge_Seconds>
 				<Expiration_Seconds></Expiration_Seconds>
 			</Unit_Ability>
-			
-			<Unit_Ability>   !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!!
+
+			<Unit_Ability>				<!-- !!!   HIGHLY EXPERIMENTAL See Apple or Deacon before TOUCHING THIS OR I SWEAR TO GOD  !!! -->
 				<Type>TURBO</Type>
-			
+
 				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>300</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> 
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		    30.0f</Mod_Multiplier>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
-			</Unit_Ability> 
-				
+				<Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+
 			<Unit_Ability>
 				<Type>STEALTH</Type>
 				<GUI_Activated_Ability_Name>Stealth</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>120.0</Recharge_Seconds>
 				<Expiration_Seconds>45.0</Expiration_Seconds>
 			</Unit_Ability>
-			
-			<Abilities SubObjectList="Yes">
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
 			<Stealth_Ability Name="Stealth">
 				<Activation_Style> User_Input </Activation_Style>
 				<Stealth_Color>255, 255, 255, 64</Stealth_Color>
@@ -899,22 +917,22 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Stealth_Ability>
 		</Abilities>
-			
-		</Unit_Abilities_Data>
-		
-				
+
+
 
 		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>10250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent>
+	</SpaceUnit>
 
-	
+
 </CapitalShips>

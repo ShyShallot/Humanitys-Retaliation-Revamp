@@ -2913,6 +2913,11 @@
 		<Immune_To_Damage>True</Immune_To_Damage>
 	</GroundBuildable>
 
+	<GroundBuildable Name="COVN_RESEARCH_FACILITY_Build_Pad">
+		<Variant_of_Existing_Type>R_Ground_Research_Facility_Build_Pad</Variant_of_Existing_Type>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</GroundBuildable>
+
 	<GroundBuildable Name="UC_R_Ground_Research_Facility">
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
@@ -3839,5 +3844,463 @@
 	</GroundBuildable>
 
 <!--************************************************************************************************************-->	
+<!--*****************************************Underworld Build Pads**********************************************-->
+<!--************************************************************************************************************-->
+
+	<GroundBuildable Name="U_Ground_Merc_Outpost_Build_Pad">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
+		<Tactical_Buildable_Objects_Multiplayer>Underworld, UC_U_Ground_Merc_Outpost</Tactical_Buildable_Objects_Multiplayer>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 60.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL,HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
+		<Land_Model_Name>UB_Barracks.alo</Land_Model_Name>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+
+		<Space_Layer> Land </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<Icon_Name>i_button_ub_barracks.tga</Icon_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_U_BARRACKS </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Property_Flags>InBase</Property_Flags>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+
+
+
+	<GroundBuildable Name="UC_U_Ground_Merc_Outpost">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Tactical_Buildable_Constructed> U_Ground_Barracks </Tactical_Buildable_Constructed>
+		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
+		<Text_ID>TEXT_UNDERWORLD_BUILD_PAD</Text_ID>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+		<Land_Model_Name>UB_Barracks.alo</Land_Model_Name>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<Icon_Name>i_button_ub_barracks.tga</Icon_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> UHD_Barracks_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> UHD_Barracks_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Barracks_Select_SFX</SFXEvent_Select>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_UNDERWORLD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Health>350</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+	</GroundBuildable>
+
+
+	<GroundBuildable Name="Underworld_Palace_Build_Pad">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_PALACE_UNDERWORLD</Text_ID>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Land_Model_Name>UB_PALACE.ALO</Land_Model_Name>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Tactical_Buildable_Objects_Multiplayer>Underworld, UC_Underworld_Palace</Tactical_Buildable_Objects_Multiplayer>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 80.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Size_Value>50</Size_Value>
+		<Icon_Name>i_button_ub_palace.tga</Icon_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Underworld</Affiliation>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_TOOLTIP_GARRISON_COMMAND_CENTER  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD, TEXT_TOOLTIP_GARRISON_COMMAND_CENTER </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Underworld_Palace">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID> TEXT_UNDERWORLD_BUILD_PAD </Text_ID>
+		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Obstacle_Proxy_Type> Rebel_Command_Center_Build_Pad </Obstacle_Proxy_Type>
+		<Tactical_Buildable_Constructed> U_Ground_Palace </Tactical_Buildable_Constructed>
+		<Tactical_Build_Start_Lower_Z> 0 </Tactical_Build_Start_Lower_Z>
+		<Land_Model_Name>UB_PALACE.ALO</Land_Model_Name>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Size_Value>50</Size_Value>
+		<Icon_Name>i_button_ub_palace.tga</Icon_Name>
+		<Select_Box_Scale>300</Select_Box_Scale>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Underworld</Affiliation>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> UHD_Palace_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> UHD_Palace_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Command_Center_Select_SFX</SFXEvent_Select>
+
+		<Encyclopedia_Text> TEXT_UNDERWORLD_BUILD_PAD </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_PALACE_PAD_UNDERWORLD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Health>2400</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 2600 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+	</GroundBuildable>
+
+
+	<GroundBuildable Name="U_Ground_Droid_Works_Build_Pad">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
+		<Tactical_Buildable_Objects_Multiplayer>Underworld, UC_U_Ground_Droid_Works</Tactical_Buildable_Objects_Multiplayer>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 60.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL,HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
+		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
+		<Text_ID>TEXT_GROUND_DROID_WORKS</Text_ID>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_DROIDWORKS </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_U_Ground_Droid_Works">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Behavior>TACTICAL_UNDER_CONSTRUCTION,REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Obstacle_Proxy_Type> R_Ground_Light_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Tactical_Buildable_Constructed> U_Ground_Droid_Works </Tactical_Buildable_Constructed>
+		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
+		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
+		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
+		<Text_ID>TEXT_UNDERWORLD_BUILD_PAD</Text_ID>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> UHD_Droidworks_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> UHD_Droidworks_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Health>650</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+	</GroundBuildable>
+
+
+	<GroundBuildable Name="U_Ground_Arms_Depot_Build_Pad">
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
+		<Tactical_Buildable_Objects_Multiplayer>Underworld, UC_U_Ground_Arms_Depot</Tactical_Buildable_Objects_Multiplayer>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 60.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL,HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Text_ID>TEXT_GROUND_FACTORY_UNDERWORLD</Text_ID>
+		<Land_Model_Name>UB_HeavyFactory.alo</Land_Model_Name>
+		<Icon_Name>i_button_ub_heavyfactory.tga</Icon_Name>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+
+		<Space_Layer> Corvette </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD, TEXT_TOOLTIP_GARRISON_FACTORY </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_U_Ground_Arms_Depot">
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Obstacle_Proxy_Type> R_Ground_Heavy_Vehicle_Factory_Build_Pad </Obstacle_Proxy_Type>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Tactical_Buildable_Constructed> U_Ground_Vehicle_Factory </Tactical_Buildable_Constructed>
+		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
+		<Text_ID>TEXT_UNDERWORLD_BUILD_PAD</Text_ID>
+		<Land_Model_Name>UB_HeavyFactory.alo</Land_Model_Name>
+		<Icon_Name>i_button_ub_heavyfactory.tga</Icon_Name>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.3</Mass>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+
+		<Space_Layer> Land </Space_Layer>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>50</Size_Value>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> UHD_Factory_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> UHD_Factory_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Heavy_Factory_Select_SFX</SFXEvent_Select>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_ARMS_DEPOT_UNDERWORLD_PAD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Health>1000</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+	</GroundBuildable>
 
 </GroundBuildables>

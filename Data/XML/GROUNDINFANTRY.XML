@@ -4887,5 +4887,76 @@
 
 	</GroundInfantry>
 
+	<!-- GENERIC DEATH CLONES -->
+
+
+	<!-- used for underworld disruptor kills -->
+
+	<GroundInfantry Name="Infantry_Disruptor_Death_Clone_00">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Disruptor_Death_Clone_01">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Short_Disruptor_Death_Clone_00">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Short_Disruptor_Death_Clone_01">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Tall_Disruptor_Death_Clone_00">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Tall_Disruptor_Death_Clone_01">
+		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+
+	<!-- used for underworld radioactive contamination kills -->
+
+	<GroundInfantry Name="Infantry_Melt_Death_Clone_00">
+		<Land_Model_Name>w_infect.alo</Land_Model_Name>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Short_Melt_Death_Clone_00">
+		<Land_Model_Name>w_infect.alo</Land_Model_Name>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Infantry_Tall_Melt_Death_Clone_00">
+		<Land_Model_Name>w_infect.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+	</GroundInfantry>
+
 
 </GroundInfantry_Units>
