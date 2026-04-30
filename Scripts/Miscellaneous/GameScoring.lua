@@ -483,6 +483,8 @@ function Game_Mode_Starting_Event(mode_name, map_name)
 		Reset_Tactical_Stats()
 	end
 	LastWasCampaignGame = CampaignGame
+
+	GlobalValue.Set("Mode_Ended", 0)
 end
 
 
@@ -515,6 +517,8 @@ function Game_Mode_Ending_Event(mode_name)
 		DebugMessage("%s -- Player KD: %s, Kills: %s, Deaths: %s", tostring(Script), tostring(Final_Score), tostring(player_kills), tostring(player_deaths))
 
 		GlobalValue.Set("Morale_Kill_Ratio", Final_Score)
+
+		GlobalValue.Set("Mode_Ended", 1)
 	end
 end
 

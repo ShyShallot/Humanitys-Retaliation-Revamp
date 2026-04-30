@@ -9,6 +9,7 @@
 	</Personality>
 	
     <GalacticFreeStoreScript>GalacticHumanStore</GalacticFreeStoreScript>
+    <SpaceFreeStoreScript>TacticalHumanFreeStore</SpaceFreeStoreScript>
 	<GoalSetExtensionSize>1</GoalSetExtensionSize>
 	
 	<GoalProposalFunctionSets>

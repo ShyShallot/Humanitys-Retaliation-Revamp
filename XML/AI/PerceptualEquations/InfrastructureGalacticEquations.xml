@@ -358,7 +358,7 @@
 	
 	<!-- Does this planet have a starbase already? -->
 	<Needs_Initial_Starbase>
-		100.0 *
+		10.0 *
 		(
 			(Variable_Target.MaxStarbaseLevel != Variable_Target.StarbaseLevel)
 			+

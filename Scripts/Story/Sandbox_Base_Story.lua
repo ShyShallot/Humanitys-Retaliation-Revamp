@@ -158,6 +158,8 @@ function Init_GC(messsage)
 
     Loss_Event.Set_Reward_Parameter(0, Loss_Player.Get_Faction_Name())
 
+    DebugMessage("%s -- Display Handler Table: %s", tostring(Script), tostring(Display_Handler))
+
     --Shield_Research_Test()
 
     --Game_Scoring_Event_Manager:Subscribe_To_Galactic_Event("Production_Started", Production_Started)

@@ -43,6 +43,7 @@ require("pgcommands")
 require("HALOFunctions")
 require("globalPlanetTable")
 require("FreighterFramework")
+require("Persistent_Damage")
 
 function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
@@ -59,6 +60,8 @@ function Base_Definitions()
 
 	---@type Freighter_Framework
 	FreighterFramework = nil
+
+
 
 	if Definitions then
 		Definitions()
@@ -84,6 +87,8 @@ function main()
 			FreighterFramework:Init(PlayerObject, "UNSC_GOODS_TRANSPORT", "UNSC_Trade_Platform")
 		end
 
+		Persistent_Damage_Manager:Init()
+
 		while 1 do
 			FreeStoreService()
 			PumpEvents()
@@ -95,7 +100,7 @@ end
 
 
 function On_Unit_Service(object)
-	FreighterFramework:Service_Freighter(object)	
+	FreighterFramework:Service_Freighter(object)
 end
 
 --	// param 1: playerwrapper.
@@ -107,9 +112,13 @@ end
 --	// param 7: The maximum distance from source to target.
 function On_Unit_Added(object)
 	FreighterFramework:Initialize_Freighter(object)
+
+	Persistent_Damage_Manager:Add_Object(object)
 end
 
 
 function FreeStoreService()
 	FreighterFramework:Service()
+
+	Persistent_Damage_Manager:Galactic_Update()
 end
