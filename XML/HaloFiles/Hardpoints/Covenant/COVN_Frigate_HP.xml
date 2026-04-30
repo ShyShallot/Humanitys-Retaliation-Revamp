@@ -17,9 +17,9 @@
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -43,9 +43,9 @@
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -69,9 +69,9 @@
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
@@ -95,9 +95,9 @@
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>350</Fire_Range_Distance>
 			<Fire_SFXEvent></Fire_SFXEvent>
             <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
@@ -167,7 +167,7 @@
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>10.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
@@ -196,8 +196,8 @@
 			
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>10.45</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2250</Fire_Range_Distance>
@@ -223,7 +223,7 @@
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>10.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
@@ -250,7 +250,7 @@
             <Fire_Cone_Width>165.0</Fire_Cone_Width>
             <Fire_Cone_Height>65.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
-			<Fire_Min_Recharge_Seconds>14.45</Fire_Min_Recharge_Seconds>
+			<Fire_Min_Recharge_Seconds>10.45</Fire_Min_Recharge_Seconds>
 			<Fire_Max_Recharge_Seconds>14.85</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>20</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
