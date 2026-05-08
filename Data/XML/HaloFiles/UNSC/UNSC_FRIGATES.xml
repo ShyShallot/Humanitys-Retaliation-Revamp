@@ -1261,6 +1261,61 @@
 		<Population_Value>4</Population_Value>
 	
 	<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> </SpaceUnit>
+
+	<SpaceUnit Name="UNSC_PARIS_SQUADRON"> <!-- This variant allows us to produce individual Paris's in skirmish without them being in a squad -->
+	
+		<Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
+	
+		<Is_Community_Property>Yes</Is_Community_Property> 
+		<Space_Layer> frigate </Space_Layer> 
+		
+		<Icon_Name>I_BUTTON_UNSC_PARIS.tga</Icon_Name>
+		<Max_Speed>3.6</Max_Speed>  
+		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Lift>0.4</Max_Lift>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .01 </OverrideAcceleration>
+		<OverrideDeceleration> .01 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.01</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		
+		<Tech_Level>99</Tech_Level> <!-- NEEDS TO BE CHANGED BY NOT SHYSHALLOT -->
+		<Required_Star_Base_Level> 1 </Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+			
+				<Type>power_to_weapons</Type>
+				<Expiration_Seconds>-1</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1f</Mod_Multiplier>
+				<Recharge_Seconds>1</Recharge_Seconds>
+
+				
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+		<Lua_Script>ObjectScript_SquadronSpawn</Lua_Script>
+	
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>4</Population_Value>
+	
+		<Custom_Hard_XExtent> 0.01 </Custom_Hard_XExtent> <Custom_Hard_YExtent> 0.01 </Custom_Hard_YExtent> 
+	</SpaceUnit>
 	
 	<!-- <Squadron Name="Paris_Squadron">
 
