@@ -1630,14 +1630,6 @@
 	</GroundCompany>	
 
 
-
-
-
-
-
-
-
-
 	<!-- Base Building - This is the new unit system -->
 
 	<GroundCompany Name="UNSC_DEPLOYABLE_TACTICAL_BARRACKS"> 
@@ -1849,7 +1841,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		
 	</GroundCompany>
 	
@@ -1921,7 +1913,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 		
 	</GroundCompany>
 	
@@ -1993,7 +1985,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		
 	</GroundCompany>
 	
@@ -2066,7 +2058,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 		
 	</GroundCompany>
 

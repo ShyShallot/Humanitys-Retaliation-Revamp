@@ -361,7 +361,7 @@
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.95</Scale_Factor>
+		<Scale_Factor>2</Scale_Factor>
 
 		<Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 3.2 </Rotation_Animation_Speed>
@@ -414,7 +414,7 @@
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
 
@@ -682,7 +682,7 @@
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Land_Model_Name>COVN_SCARAB.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>5.0</Scale_Factor>
+		<Scale_Factor>10.0</Scale_Factor>
 		<Ranged_Target_Z_Adjust>65.0</Ranged_Target_Z_Adjust>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
@@ -901,7 +901,7 @@
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Land_Model_Name>COVN_WRAITH.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.40</Scale_Factor>
+		<Scale_Factor>0.80</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -967,7 +967,7 @@
 		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>       
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 		
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>Wraith_Plasma_Mortar</Projectile_Types>
@@ -1157,7 +1157,7 @@
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Land_Model_Name>COVN_WRAITH_AA.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.40</Scale_Factor>
+		<Scale_Factor>0.80</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -1219,7 +1219,7 @@
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
 		
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Types>PROJ_COVN_WRAITH_AA</Projectile_Types>
@@ -1352,14 +1352,14 @@
 		<Land_Model_Name>COVN_BANSHEE.alo</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>2.5</Scale_Factor>
+		<Scale_Factor>5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>8.0</Max_Speed>
-		<Min_Speed>6.75</Min_Speed> 
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>4.75</Min_Speed> 
 		<OverrideAcceleration> 16.0 </OverrideAcceleration>
 		<OverrideDeceleration> .01 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
@@ -1415,7 +1415,7 @@
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 
 		<HardPoints>
 			Ground_BANSHEE_HP_01,
@@ -1535,7 +1535,7 @@
 		<Land_Model_Name>COVN_SERAPH_2.alo</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -1599,7 +1599,7 @@
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 
 		<HardPoints>
 			COVN_Ground_SER_01,
@@ -1711,7 +1711,7 @@
 		<Land_Model_Name>UNSC_PELICAN.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>9.4</Scale_Factor>
+		<Scale_Factor>20</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -1864,7 +1864,7 @@
 		<Land_Model_Name>UNSC_WOMBAT.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>0.6</Scale_Factor>
+		<Scale_Factor>1</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -2016,7 +2016,7 @@
 		<Land_Model_Name>UNSC_Shortsword.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>6.0</Scale_Factor>
+		<Scale_Factor>12.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -2078,7 +2078,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -2170,7 +2170,7 @@
 		<Land_Model_Name>UNSC_Longsword.alo</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -2232,7 +2232,7 @@
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Land_FOW_Reveal_Range>750.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -2326,7 +2326,7 @@
 		<Land_Model_Name>UNSC_FALCON_Backup.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 
-		<Scale_Factor>0.16</Scale_Factor>
+		<Scale_Factor>0.32</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>15</Size_Value>
         <Select_Box_Scale>5</Select_Box_Scale>
@@ -2506,7 +2506,7 @@
 		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
 		
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.63</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -2556,7 +2556,7 @@
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>      
 
 		<Projectile_Types>M400_ARTILLERY_SYSTEM</Projectile_Types>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>10250.0</Targeting_Max_Attack_Distance>
 
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -2715,7 +2715,7 @@
 		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
 		
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.40</Scale_Factor>
+		<Scale_Factor>0.8</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -2869,7 +2869,7 @@
 		<Land_Model_Anim_Override_Name>RV_MPTL-2A.alo</Land_Model_Anim_Override_Name>
 		
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.33</Scale_Factor>
+		<Scale_Factor>0.66</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -2924,7 +2924,7 @@
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 
 		<Projectile_Types>Proj_UNSC_GAUSS</Projectile_Types>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 5 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 		
@@ -3152,7 +3152,7 @@
 
 		<Land_Model_Name>UNSC_MAMMOTH.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>2.0</Scale_Factor>
+		<Scale_Factor>4.0</Scale_Factor>
 		<Max_Speed>0.6</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -3350,7 +3350,7 @@
 
 		<Land_Model_Name>UNSC_MONGOOSE_ROCKET.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.07</Scale_Factor>
+		<Scale_Factor>0.15</Scale_Factor>
 		<Max_Speed>0.9</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -3396,7 +3396,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
@@ -3540,7 +3540,7 @@
 
 		<Land_Model_Name>UNSC_WARTHOG.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.13</Scale_Factor>
+		<Scale_Factor>0.26</Scale_Factor>
 		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -3589,7 +3589,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
@@ -3713,7 +3713,7 @@
 
 		<Land_Model_Name>UNSC_WARTHOG_M12G1.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.13</Scale_Factor>
+		<Scale_Factor>0.26</Scale_Factor>
 		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -3759,7 +3759,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
@@ -3902,7 +3902,7 @@
 
 		<Land_Model_Name>UNSC_WARTHOG_M12R.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.13</Scale_Factor>
+		<Scale_Factor>0.26</Scale_Factor>
 		<Max_Speed>1.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -3948,7 +3948,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>3.0</Ranged_Target_Z_Adjust>
 
@@ -4301,7 +4301,7 @@
 
 		<Land_Model_Name>UNSC_SCORPION_TANK.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>.35</Scale_Factor>
+		<Scale_Factor>.70</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
@@ -4361,7 +4361,7 @@
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
@@ -4468,7 +4468,7 @@
 	<!--<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY</Land_Model_Name> More Traditional model -->
 		<Land_Model_Name>UNSC_SCORPION_TANK_GRIZZLY_CONCEPT.alo</Land_Model_Name> <!-- concept art model -->
 		<Mass>1.0</Mass>
-		<Scale_Factor>.35</Scale_Factor>
+		<Scale_Factor>.70</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
@@ -4528,7 +4528,7 @@
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
@@ -4635,7 +4635,7 @@
 
 		<Land_Model_Name>UNSC_SCORPION_TANK_SUNDEVIL.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>.35</Scale_Factor>
+		<Scale_Factor>.70</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
@@ -4695,7 +4695,7 @@
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>8.0</Projectile_Fire_Recharge_Seconds>
@@ -4802,7 +4802,7 @@
 
 		<Land_Model_Name>UNSC_SCORPION_TANK_RHINO.ALO</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>.39</Scale_Factor>
+		<Scale_Factor>.80</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
@@ -4862,7 +4862,7 @@
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>550.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>10.0</Projectile_Fire_Recharge_Seconds>
@@ -5306,7 +5306,7 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>180.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
@@ -5828,7 +5828,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>

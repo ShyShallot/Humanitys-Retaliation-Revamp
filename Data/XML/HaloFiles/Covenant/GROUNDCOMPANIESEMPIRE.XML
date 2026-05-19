@@ -984,7 +984,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		
 	</GroundCompany>
 	
@@ -1052,7 +1052,7 @@
 		<Build_Limit_Current_Per_Player>100</Build_Limit_Current_Per_Player>
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 		
 	</GroundCompany>
 	
@@ -1073,7 +1073,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1124,7 +1124,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>2</Population_Value>
 		
 	</GroundCompany>
 	
@@ -1146,7 +1146,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -1197,7 +1197,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
+		<Population_Value>3</Population_Value>
 		
 	</GroundCompany>
 </EmpireGroundCompanies>

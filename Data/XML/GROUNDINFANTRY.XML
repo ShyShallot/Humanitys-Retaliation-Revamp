@@ -50,7 +50,7 @@
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<FormationOrder> 1 </FormationOrder>
 		
-		<Scale_Factor>0.5</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>1</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<CanCellStack>yes</CanCellStack>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
@@ -71,7 +71,7 @@
 
 		<Armor_Type> Armor_Scout_Bike </Armor_Type>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
@@ -211,7 +211,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.37</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.74</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -237,7 +237,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Plasma_Rifle</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
@@ -373,7 +373,7 @@
 		<OverrideDeceleration> 0.05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.50</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>1</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
 		
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -384,8 +384,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>100</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Shield_Points>200</Shield_Points>
+		<Tactical_Health>240</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>900</Energy_Capacity>
 		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
@@ -451,7 +451,7 @@
 
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -551,8 +551,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>280</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Shield_Points>480</Shield_Points>
+		<Tactical_Health>240</Tactical_Health>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>2000</Energy_Capacity>
 		<Energy_Refresh_Rate>5</Energy_Refresh_Rate>
@@ -617,7 +617,7 @@
 
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>190.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -731,7 +731,7 @@
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Default </Armor_Type>
 		<Damage>90</Damage>
-		<Tactical_Health>2250</Tactical_Health>
+		<Tactical_Health>3250</Tactical_Health>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>33.0, 33.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
@@ -758,7 +758,7 @@
 
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
 		<Autonomous_Move_Extension_Vs_Attacker>2500.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -924,7 +924,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -934,7 +934,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>200</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -997,7 +997,7 @@
 		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 
 		<Targeting_Max_Attack_Distance>125.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -1132,7 +1132,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.59</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>1.1</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1141,8 +1141,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>420</Shield_Points>
-		<Tactical_Health>500</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Points>1020</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
@@ -1216,7 +1216,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>225.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -1354,7 +1354,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.55</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>1.1</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1363,8 +1363,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>220</Shield_Points>
-		<Tactical_Health>428</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Points>620</Shield_Points>
+		<Tactical_Health>828</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
@@ -1438,7 +1438,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -1573,7 +1573,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.4</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.9</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1582,8 +1582,8 @@
 		<Size_Value>10</Size_Value>
 		<Damage>1500</Damage>
 		<Sensor_Range>20</Sensor_Range>
-		<Shield_Points>120</Shield_Points>
-		<Tactical_Health>828</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
+		<Shield_Points>820</Shield_Points>
+		<Tactical_Health>1228</Tactical_Health>  <!-- 128 is the miniumum amount of health for a spartan PERIOD (apple) -->
 		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>60</Energy_Refresh_Rate>
@@ -1657,7 +1657,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -1788,7 +1788,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1798,7 +1798,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>200</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -1872,7 +1872,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -2013,7 +2013,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2023,7 +2023,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>80</Tactical_Health>
+		<Tactical_Health>160</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2098,7 +2098,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -2253,7 +2253,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2263,7 +2263,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>120</Tactical_Health>
+		<Tactical_Health>240</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2336,7 +2336,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -2477,7 +2477,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2487,7 +2487,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Tactical_Health>120</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2673,7 +2673,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2683,7 +2683,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>80</Tactical_Health>
+		<Tactical_Health>160</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2857,7 +2857,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2867,7 +2867,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>80</Tactical_Health>
+		<Tactical_Health>160</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -3041,7 +3041,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -3125,7 +3125,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -3233,7 +3233,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -3315,7 +3315,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -3469,7 +3469,7 @@
 
 		<Select_Box_Scale>20</Select_Box_Scale>
 
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.74</Scale_Factor>
 
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -3488,7 +3488,7 @@
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
@@ -3637,7 +3637,7 @@
 
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -3656,7 +3656,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 
 		<Projectile_Types> Proj_Infiltrator_Blaster </Projectile_Types>
@@ -3817,7 +3817,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.74</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -3833,7 +3833,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
@@ -3979,7 +3979,7 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
 			
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.74</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Pirates</Affiliation>
@@ -3996,7 +3996,7 @@
 
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
@@ -4123,7 +4123,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.74</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel, Terrorists</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
@@ -4139,7 +4139,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		
@@ -4234,7 +4234,7 @@
 		
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
-		<Scale_Factor>0.37</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
+		<Scale_Factor>0.74</Scale_Factor> <!-- Temp scale change for scale test - change back once models resized 1.5 -->
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -4244,7 +4244,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>80</Tactical_Health>
+		<Tactical_Health>160</Tactical_Health>
 		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4316,7 +4316,7 @@
 		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 		
 		<Targeting_Max_Attack_Distance>75.0</Targeting_Max_Attack_Distance>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<Idle_Chase_Range>750.0</Idle_Chase_Range>
 		<Guard_Chase_Range>0.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>2500.0</Attack_Move_Response_Range>   
@@ -4436,7 +4436,7 @@
 		<Icon_Name>i_button_fleet_commander.tga</Icon_Name>
 		<Text_ID>TEXT_HERO_GENERAL_DODONNA</Text_ID>
 		<Armor_Type> Armor_Hero </Armor_Type>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>200</Tactical_Health>
 	</GroundInfantry>
 
 
@@ -4471,7 +4471,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 				
-		<Scale_Factor>0.37</Scale_Factor>
+		<Scale_Factor>0.74</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire, Swords</Affiliation>
@@ -4493,7 +4493,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>no</Victory_Relevant>
-		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>	
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>	
 
 		<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>

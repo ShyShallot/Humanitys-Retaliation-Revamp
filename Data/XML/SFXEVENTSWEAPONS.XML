@@ -197,12 +197,11 @@
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_DECK">
 					<Use_Preset>Preset_UNSC_BULLET</Use_Preset>
-					<Samples>Data\Audio\OotF\UNSC_BULLET_DECK.wav</Samples>
+					<Samples>Data\Audio\OotF\Space_Weapons\UNSC\Deck_Guns\UNSC_BULLET_DECK_00.wav, Data\Audio\OotF\Space_Weapons\UNSC\Deck_Guns\UNSC_BULLET_DECK_01.wav, Data\Audio\OotF\Space_Weapons\UNSC\Deck_Guns\UNSC_BULLET_DECK_02.wav, Data\Audio\OotF\Space_Weapons\UNSC\Deck_Guns\UNSC_BULLET_DECK_03.wav, Data\Audio\OotF\Space_Weapons\UNSC\Deck_Guns\UNSC_BULLET_DECK_04.wav</Samples>
 					<Min_Volume>100</Min_Volume>
 					<Max_Volume>100</Max_Volume>
-					<Min_Pitch>85</Min_Pitch>
+					<Min_Pitch>100</Min_Pitch>
 					<Max_Pitch>100</Max_Pitch>
-					<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 		 </SFXEvent>
 		 
 		 <SFXEvent Name="Unit_UNSC_BULLET_CWIS">

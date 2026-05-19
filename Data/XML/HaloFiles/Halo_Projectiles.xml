@@ -3140,7 +3140,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Max_Speed>13.5</Max_Speed>
+		<Max_Speed>14.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
@@ -3154,9 +3154,10 @@
 
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>1000.0</Projectile_Max_Scan_Range>
-		<Projectile_Damage>170.0</Projectile_Damage>
+		<Projectile_Damage>250.0</Projectile_Damage>
 		<Projectile_Blast_Area_Damage> 30 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 10 </Projectile_Blast_Area_Range>
+		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -3172,7 +3173,7 @@
 
 	</Projectile>
 	
-	<Projectile Name="Proj_UNSC_M260_AA_UNGUIDED">  <!-- Wolverine missiles Unguided -->
+	<Projectile Name="Proj_UNSC_M260_AA_UNGUIDED">  <!-- Wolverine missiles Unguided cluster-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
@@ -3269,7 +3270,7 @@
 		<Land_Model_Name>W_UNSC_ROCKET_MISSILE_EXPERIMENTAL.ALO</Land_Model_Name> 
 
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
-		<Max_Speed>15.0</Max_Speed>
+		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, REVEAL</Behavior>
 		<Projectile_Category>GRENADE</Projectile_Category>
@@ -3281,7 +3282,7 @@
 		
 		<Projectile_Damage>0</Projectile_Damage>
 		
-		<Projectile_Blast_Area_Damage>2050.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage>3050.0</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
 		
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>

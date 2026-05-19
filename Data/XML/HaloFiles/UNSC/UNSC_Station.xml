@@ -102,9 +102,9 @@
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>1.0</Heal_Percent>
+				<Heal_Percent>0.05</Heal_Percent>
 				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -213,9 +213,9 @@
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.0</Heal_Percent>
-				<Heal_Amount>10.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Heal_Percent>0.05</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -332,9 +332,9 @@
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.0</Heal_Percent>
-				<Heal_Amount>10.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Heal_Percent>0.05</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -458,9 +458,9 @@
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.0</Heal_Percent>
-				<Heal_Amount>10.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Heal_Percent>0.05</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -590,9 +590,9 @@
 			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.0</Heal_Percent>
-				<Heal_Amount>10.0</Heal_Amount>
-				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Heal_Percent>0.05</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />

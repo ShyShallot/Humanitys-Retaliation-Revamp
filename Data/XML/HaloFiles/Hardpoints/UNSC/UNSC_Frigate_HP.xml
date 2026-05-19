@@ -1462,7 +1462,7 @@
         <Collision_Mesh>HP_MK66_01</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1496,7 +1496,7 @@
         <Collision_Mesh>HP_MK66_02</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1529,7 +1529,7 @@
         <Collision_Mesh>HP_MK66_03</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1563,7 +1563,7 @@
         <Collision_Mesh>HP_MK66_04</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1597,7 +1597,7 @@
         <Collision_Mesh>HP_MK66_05</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1631,7 +1631,7 @@
         <Collision_Mesh>HP_MK66_06</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1665,7 +1665,7 @@
         <Collision_Mesh>HP_MK66_07</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -1699,7 +1699,7 @@
         <Collision_Mesh>HP_MK66_08</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Width>270.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
        <Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -2512,7 +2512,7 @@
 		<Collision_Mesh>HP_MK33_01</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
@@ -2544,7 +2544,7 @@
 		<Collision_Mesh>HP_MK33_02</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -2576,7 +2576,7 @@
 		<Collision_Mesh>HP_MK33_03</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -2608,7 +2608,7 @@
 		<Collision_Mesh>HP_MK33_04</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_STREAK_MISSILE</Fire_Projectile_Type> 
         <Fire_Min_Recharge_Seconds>20.50</Fire_Min_Recharge_Seconds>
@@ -2641,7 +2641,7 @@
 		<Collision_Mesh>HP_MK33_05</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -2673,7 +2673,7 @@
 		<Collision_Mesh>HP_MK33_06</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -3053,7 +3053,7 @@
 		<Collision_Mesh>HP_MK66_01</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -3085,7 +3085,7 @@
 		<Collision_Mesh>HP_MK66_02</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -3118,7 +3118,7 @@
 		<Collision_Mesh>HP_MK66_03</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
@@ -3151,7 +3151,7 @@
 		<Collision_Mesh>HP_MK66_04</Collision_Mesh>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>270.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet_Deck</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>

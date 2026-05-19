@@ -27,8 +27,8 @@
 		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -104,7 +104,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -129,7 +129,7 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>550.0</Strafe_Distance>
+		
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
@@ -181,22 +181,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_C712.TGA</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -209,7 +194,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 		
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -279,22 +264,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_C712.TGA</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -307,7 +277,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 		
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -365,8 +335,8 @@
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -442,7 +412,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -457,7 +427,7 @@
 		<Spin_Away_On_Death_SFXEvent_Start_Die></Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -468,7 +438,7 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>550.0</Strafe_Distance>
+		
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
@@ -560,7 +530,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -671,8 +641,8 @@
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -747,7 +717,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -854,22 +824,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_SHORTSWORD.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -882,7 +837,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -951,8 +906,8 @@
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -1029,7 +984,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>1</AI_Combat_Power>
@@ -1107,22 +1062,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_BROADSWORD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1135,7 +1075,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -1205,7 +1145,7 @@
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
 		
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
@@ -1281,7 +1221,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -1366,7 +1306,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>5</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -1512,7 +1452,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -1598,22 +1538,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_SABRE.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_SABRE.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1626,7 +1551,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -1688,7 +1613,6 @@
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Mass>0.99</Mass>
 		
 
 		<Mass>0.99</Mass>
@@ -1701,8 +1625,8 @@
 		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -1782,7 +1706,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -1873,22 +1797,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_PELICAN.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -1901,7 +1810,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>
@@ -1971,8 +1880,8 @@
 		<Max_Rate_Of_Turn>2.75</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
-		<Strafe_Distance>550.0</Strafe_Distance>
-		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
+		
+		
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.45</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -2050,7 +1959,7 @@
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
-		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		
 		
 
 		<Create_Team>Yes</Create_Team>
@@ -2076,7 +1985,7 @@
 		<Begin_Turn_Towards_Distance>1300.0</Begin_Turn_Towards_Distance>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>550.0</Strafe_Distance>
+		
 		<Population_Value>3</Population_Value> <Is_Community_Property>Yes</Is_Community_Property> 
 
 	
@@ -2128,22 +2037,7 @@
         <Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>60.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>55.0,10.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,-40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,30.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-5.0,40.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,-60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,-70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-60.0,60.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-65.0,70.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,0.0,80.0</Squadron_Offsets>
-        <Squadron_Offsets>-125.0,-10.0,80.0</Squadron_Offsets>
+       
 		<Icon_Name>I_BUTTON_UNSC_CONDOR.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -2156,7 +2050,7 @@
 		<SFXEvent_Ambient_Moving> Unit_UNSC_Idle_Fighter_Loop </SFXEvent_Ambient_Moving>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>380.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
         <Idle_Chase_Range>5000.0</Idle_Chase_Range>
         <Attack_Move_Response_Range>5000.0</Attack_Move_Response_Range>

@@ -2728,7 +2728,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_TACTICAL_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 		<Hardpoints>UNSC_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>UNSC_TACTICAL_BARRACKS.ALO</Land_Model_Name>
@@ -2784,7 +2784,7 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_ADVANCED_BARRACKS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 		<Hardpoints>UNSC_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>UNSC_TACTICAL_BARRACKS.ALO</Land_Model_Name>
@@ -2815,7 +2815,7 @@
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 4</Starting_Spawned_Units_Tech_0>
 		
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_SNIPER, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_MEDIC, 9998</Reserve_Spawned_Units_Tech_0>
@@ -2824,6 +2824,7 @@
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_STANCHION, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_RADIO, 9998</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>UNSC_INFANTRY_ENGINEER, 9998</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>UNSC_ROCKETGOOSE, 9998</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
@@ -2849,7 +2850,7 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 
 		<Land_Model_Name>UNSC_DEPLOYABLE_LIGHT_FOUNDRY.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_LIGHT_FACTORY.tga</Icon_Name>
@@ -2911,7 +2912,7 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_VEHICLE_FOUNDRY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 
 		<Land_Model_Name>UNSC_HEAVY_VEHICLE_FOUNDRY.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_UNSC_DEPLOYABLE_HEAVY_FACTORY.TGA</Icon_Name>
@@ -2973,7 +2974,7 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_LIGHT_AIR_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 		<Hardpoints>UNSC_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>UNSC_LIGHT_AIR_COMMAND.ALO</Land_Model_Name>
@@ -3026,7 +3027,7 @@
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_HEAVY_BOMBER_COMMAND </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>20000</Tactical_Health>
 		<Hardpoints>UNSC_GROUND_BUILDING_HP</Hardpoints>
 
 		<Land_Model_Name>UNSC_LIGHT_AIR_COMMAND.ALO</Land_Model_Name>
