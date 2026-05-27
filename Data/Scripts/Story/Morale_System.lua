@@ -371,9 +371,9 @@ function Definitions()
         Planets = {},
         Starting_Year = 2490,
         Current_Year = 2490,
-        Total_Auto_Resolves = 0,
-        Easter_Egg_Triggered = false,
-        Auto_Resolve_Trigger = 117,
+        --Total_Auto_Resolves = 0,
+        --Easter_Egg_Triggered = false,
+        --Auto_Resolve_Trigger = 117,
     }
 
     Morale_Value_Status = {
@@ -755,11 +755,11 @@ function Morale_System_Update(message)
 
         --DebugMessage("%s -- Current Morale Level: %s", tostring(Script), tostring(global_morale_level))
 
-        if Global_Values.Total_Auto_Resolves == Global_Values.Auto_Resolve_Trigger and not Easter_Egg_Triggered then
+        --[[if Global_Values.Total_Auto_Resolves == Global_Values.Auto_Resolve_Trigger and not Easter_Egg_Triggered then
             Play_Bink_Movie("Not_An_Easter_Egg")
 
             Easter_Egg_Triggered = true
-        end
+        end]]--
 
         Reset_Morale_Entries()
 
@@ -1354,12 +1354,12 @@ function Morale_Kill_Ratio_Influence(Base_Morale, is_loss)
     DebugMessage("%s -- Kill Ratio: %s", tostring(Script), tostring(Kill_Ratio))
 
     if Kill_Ratio == nil then
-        Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
+        --Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
         return Base_Morale
     end
 
     if Kill_Ratio <= 0 then -- if this is true we didnt get the proper kill ratio
-        Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
+        --Global_Values.Total_Auto_Resolves = Global_Values.Total_Auto_Resolves + 1
         return Base_Morale
     end
 
